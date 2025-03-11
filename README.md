@@ -20,7 +20,9 @@ A python-based interactive CLI tool for Pokémon TCG Pocket.
 ## How To Use (Installation):
 ---
 #### 1. Download Pokémon Trading Card Game Pocket:
-[![Download on the App Store](https://tcgpocket.pokemon.com/_images/announcement/badges/app-store-badge-en.webp)](https://apps.apple.com/app/id6479970832?mt=8) [![Get it on Google Play](https://tcgpocket.pokemon.com/_images/announcement/badges/google-play-badge-en.webp)](https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp)
+[![Download on the App Store](https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png)](https://apps.apple.com/app/id6479970832)  
+[![Get it on Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp)
+
 
 #### 2. Install Python:
  In your preferred terminal, paste in the following code:
