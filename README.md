@@ -10,7 +10,7 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 
 ### All Current Implemented Sets:
 ---
-| **Set Name**                         | **Release Date**                    |
+| **Set Name:**                         | **Release Date:**                    |
 |:------------------------------------:|:------------------------------------:
 | **Genetic Apex (A1)**                | **October 30th, 2024**              |
 | **Promo-A (P-A)**                    | **October 30, 2024**                |
