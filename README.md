@@ -5,7 +5,8 @@ A python-based interactive CLI tool for Pokémon TCG Pocket.
 
 - Manage your collection
 - Save and load your collection in CSV/JSON format
-- Create decks for future use, track your completion throughout different sets, and much more!
+- Create decks for battling
+- track your completion throughout different sets, and much more!
 
 ### All Current Implemented Sets:
 
@@ -35,7 +36,7 @@ sudo apt-get install git
 ````
 And download the project folder:
 ````
-git clone https://github.com/your-username/PocketDexRepository.git
+git clone https://github.com/langstonstewart/PocketDex-Codex.git
 ````
 
 ## Basic Usage:
