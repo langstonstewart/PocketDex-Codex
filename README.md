@@ -39,7 +39,7 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 winget install Python
 ````
 #### 3. Install the project folder:
-##### Download the project folder via current release.
+Download the project folder via current release.
 
 ## Basic Usage:
 
