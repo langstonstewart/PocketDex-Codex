@@ -16,7 +16,7 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 | **Promo-A (P-A)**                    | **October 30, 2024**                |
 | **Mythical Island (A1a)**            | **December 17th, 2024**             |
 | **Space-Time Smackdown (A2)**        | **January 29th, 2025**              |
-| **Triumphant Light (A2a)**           | **February 28th, 2024**             |
+| **Triumphant Light (A2a)**           | **February 28th, 2025**             |
 
 ### Sets TBA:
 ---
