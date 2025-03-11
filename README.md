@@ -42,7 +42,7 @@ or install the latest version from:
 https://www.python.org/downloads/
 
 #### 3. Install the project folder:
-Download the project folder via current release.
+Download the project folder via current release:
 https://github.com/langstonstewart/PocketDex-Codex/releases
 
 ## Basic Usage:
