@@ -45,6 +45,12 @@ Once you’ve installed everything, you can run the tool by navigating to the pr
 This should start the interactive CLI tool. 
 Enter a username, and start managing your collection!
 
+## Adding Entries:
+wip
+
+## Creating Decks:
+wip
+
 ## Contact:
 
 If you encounter any issues or have questions, feel free to contact the maintainer at langston.professional08@gmail.com or open an issue on the GitHub repository.
