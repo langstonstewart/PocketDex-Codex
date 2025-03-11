@@ -1,7 +1,7 @@
 # PocketDex Codex (v1.0):
 ![Version](https://img.shields.io/badge/Version-1.0.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
 
-A python-based interactive CLI tool for Pokémon TCG Pocket.
+A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 
 - Manage your collection
 - Save and load your collection in CSV/JSON format
