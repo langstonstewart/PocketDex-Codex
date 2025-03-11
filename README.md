@@ -24,7 +24,7 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 |:------------------------------------:|:------------------------------------:
 | **??? (A3)**                | **April 30th, 2025**              |
 
-this tool is currently only available for Windows.
+*This tool is currently only available for Windows.*
 
 ## How To Use (Installation):
 
@@ -39,7 +39,7 @@ this tool is currently only available for Windows.
 winget install Python
 ````
 #### 3. Install the project folder:
-### Download the project folder via current release.
+##### Download the project folder via current release.
 
 ## Basic Usage:
 
