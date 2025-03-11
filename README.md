@@ -42,7 +42,7 @@ Install Git:
 ````
 sudo apt-get install git
 ````
-And download the project folder via current release.
+### And download the project folder via current release.
 
 ## Basic Usage:
 
