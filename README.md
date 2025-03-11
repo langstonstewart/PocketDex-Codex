@@ -8,7 +8,6 @@ A python-based interactive CLI tool for Pokémon TCG Pocket.
 - Create decks for future use, track your completion throughout different sets, and much more!
 
 ### All Current Implemented Sets:
----
 
 |**Genetic Apex (A1)**
 |:-:
