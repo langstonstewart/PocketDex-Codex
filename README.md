@@ -24,6 +24,7 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 |:------------------------------------:|:------------------------------------:
 | **??? (A3)**                | **April 30th, 2025**              |
 
+this tool is currently only available for Windows.
 
 ## How To Use (Installation):
 
@@ -35,14 +36,10 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
  In your preferred terminal, paste in the following code:
 
 ````
-sudo apt-get install python
+winget install Python
 ````
 #### 3. Install the project folder:
-Install Git:
-````
-sudo apt-get install git
-````
-### And download the project folder via current release.
+### Download the project folder via current release.
 
 ## Basic Usage:
 
