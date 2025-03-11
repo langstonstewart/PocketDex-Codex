@@ -6,7 +6,7 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 - Manage your collection
 - Save and load your collection in CSV/JSON format
 - Create decks for battling
-- track your completion throughout different sets, and much more!
+- Track your completion throughout different sets, and much more!
 
 ### All Current Implemented Sets:
 
