@@ -42,10 +42,7 @@ Install Git:
 ````
 sudo apt-get install git
 ````
-And download the project folder:
-````
-git clone https://github.com/langstonstewart/PocketDex-Codex.git
-````
+And download the project folder via current release.
 
 ## Basic Usage:
 
