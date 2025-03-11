@@ -12,7 +12,7 @@ A python-based interactive CLI tool for Pokémon TCG Pocket.
 ---
 
 |**Genetic Apex (A1)**
-|-
+|:-:
 |**Promo-A (P-A)**
 |**Mythical Island (A1a)**
 |**Space-Time Smackdown (A2)**
