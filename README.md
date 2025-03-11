@@ -9,13 +9,21 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 - Track your completion throughout different sets, and much more!
 
 ### All Current Implemented Sets:
+---
+| **Set Name**                         | **Release Date**                    |
+|:------------------------------------:|:------------------------------------:
+| **Genetic Apex (A1)**                | **October 30th, 2024**              |
+| **Promo-A (P-A)**                    | **October 30, 2024**                |
+| **Mythical Island (A1a)**            | **December 17th, 2024**             |
+| **Space-Time Smackdown (A2)**        | **January 29th, 2025**              |
+| **Triumphant Light (A2a)**           | **February 28th, 2024**             |
 
-|**Genetic Apex (A1)**
-|:-:
-|**Promo-A (P-A)**
-|**Mythical Island (A1a)**
-|**Space-Time Smackdown (A2)**
-|**Triumphant Light (A2a)**
+### Sets TBA:
+---
+| **Set Name**                         | **Release Date**                    |
+|:------------------------------------:|:------------------------------------:
+| **??? (A3)**                | **April 30th, 2025**              |
+
 
 ## How To Use (Installation):
 
