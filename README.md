@@ -54,6 +54,7 @@ Enter a username, and start managing your collection!
 ## Adding Entries:
 In the app, you'll find the cards set number under the card description. 
 Use these set numbers to add cards to your collection!
+
 ![card_img](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/card_img.png)
 
 Your entries will be saved within a CSV file, ready to be called upon and/or written at any time.
