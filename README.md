@@ -78,7 +78,7 @@ Cards can be added to a deck regardless of entry status.
 Once completed, the deck will be saved as a JSON file, ready to be viewed within the CLI tool.
 
 ## Set Completion:
-Viewing a set's completion will show you how many cards you own, missing, and how you can collect them.
+Viewing a set's completion will show you how many cards you own, are missing, and how you can collect them.
 Collecting missing cards will be easier this way, as you'll now know *exactly* what packs to focus on!
 
 ## Contact:
