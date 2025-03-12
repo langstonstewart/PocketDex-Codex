@@ -57,8 +57,9 @@ Use these set numbers to add cards to your collection!
 
 ![card_img](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/card_img.png)
 
-Your entries will be sorted and saved within a CSV file, ready to be called upon and/or written at any time.
+Your entries for that set will be sorted and saved within a CSV file, ready to be called upon and/or written at any time.
 Accidental entries can be deleted as well.
+
 ## Creating Decks:
 To create a deck, follow all user input questions accordingly:
 - Deck Name
