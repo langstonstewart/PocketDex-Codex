@@ -1,19 +1,19 @@
 # PocketDex Codex
 ![Version](https://img.shields.io/badge/Version-1.0.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
 
-A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
+A Python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 
 - Manage your collection
 - Save and load your collection in CSV/JSON format
 - Create decks for battling
-- Track your completion throughout different sets, and much more!
+- Track your completion across different sets, and much more!
 
 ### All Current Implemented Sets:
 ---
 | **Set Name:**                         | **Release Date:**                    |
 |:------------------------------------:|:------------------------------------:
 | **Genetic Apex (A1)**                | **October 30th, 2024**              |
-| **Promo-A (P-A)**                    | **October 30, 2024**                |
+| **Promo-A (P-A)**                    | **October 30th, 2024**                |
 | **Mythical Island (A1a)**            | **December 17th, 2024**             |
 | **Space-Time Smackdown (A2)**        | **January 29th, 2025**              |
 | **Triumphant Light (A2a)**           | **February 28th, 2025**             |
@@ -52,7 +52,7 @@ This should start the interactive CLI tool.
 Enter a username, and start managing your collection!
 
 ## Adding Entries:
-In the app, you'll find the cards set number under the card description. 
+In the app, you'll find the card's set number under the card description. 
 Use these set numbers to add cards to your collection!
 
 ![card_img](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/card_img.png)
@@ -74,7 +74,7 @@ To create a deck, follow all user input questions accordingly:
 Use card set numbers to add cards to the deck, with an optional description on how to use that specific card.
 ![deck_img](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/deck_img.png)
 
-No need for entries. Cards can be added to a deck regardless of entry status.
+Cards can be added to a deck regardless of entry status.
 Once completed, the deck will be saved as a JSON file, ready to be viewed within the CLI tool.
 
 ## Set Completion:
@@ -84,6 +84,7 @@ Collecting missing cards will be easier this way, as you'll now know *exactly* w
 ## Contact:
 
 If you encounter any issues or have questions, feel free to contact the maintainer at langston.professional08@gmail.com or open an issue on the GitHub repository.
+I would love to fulfill any requests/features you would like implemented.
 
 ## License:
 
