@@ -38,14 +38,14 @@ A python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 ````
 winget install Python
 ````
-or install the latest version from:
+or install the latest version here:
 https://www.python.org/downloads/
 
 #### 3. Install the project folder:
 Download the project folder via current release:
 https://github.com/langstonstewart/PocketDex-Codex/releases
 
-## Basic Usage:
+## Getting Started:
 
 Once you’ve installed everything, you can run the tool by navigating to the project folder and running the BATCH file.
 This should start the interactive CLI tool. 
@@ -75,6 +75,11 @@ Use card set numbers to add cards to the deck, with an optional description on h
 
 No need for entries. Cards can be added to a deck regardless of entry status.
 Once completed, the deck will be saved as a JSON file, ready to be viewed within the CLI tool.
+
+## Set Completion:
+Viewing a set's completion will show you how many cards you own, missing, and how you can collect them.
+Collecting missing cards will be easier this way, as you'll now know *exactly* what packs to focus on!
+
 ## Contact:
 
 If you encounter any issues or have questions, feel free to contact the maintainer at langston.professional08@gmail.com or open an issue on the GitHub repository.
