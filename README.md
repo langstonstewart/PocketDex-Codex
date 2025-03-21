@@ -22,6 +22,7 @@ A Python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 ---
 | **Set Name**                         | **Release Date**                    |
 |:------------------------------------:|:------------------------------------:
+| **Shining Revelry (A2b)**   | **March 27th, 2025**              |
 | **??? (A3)**                | **April 30th, 2025**              |
 
 *This tool is currently only available for Windows.*
