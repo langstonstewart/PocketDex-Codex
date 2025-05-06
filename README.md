@@ -1,5 +1,5 @@
 # PocketDex Codex
-![Version](https://img.shields.io/badge/Version-1.2.2-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
+![Version](https://img.shields.io/badge/Version-1.3.2-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
 
 A Python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 
@@ -17,13 +17,14 @@ A Python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 | **Mythical Island (A1a)**            | **December 17th, 2024**             |
 | **Space-Time Smackdown (A2)**        | **January 29th, 2025**              |
 | **Triumphant Light (A2a)**           | **February 28th, 2025**             |
-| **Shining Revelry (A2b)**            | **March 27th, 2025**              |
+| **Shining Revelry (A2b)**            | **March 27th, 2025**     
+| **Celestial Guardians (A3)**            | **April 30th, 2025**   
 
 ### Sets TBA:
 ---
 | **Set Name**                         | **Release Date**                    |
 |:------------------------------------:|:------------------------------------:
-| **??? (A3)**                | **April 30th, 2025**              |
+| **??? (A3a)**                | **May 29th, 2025**              |
 
 *This tool is currently only available for Windows.*
 
