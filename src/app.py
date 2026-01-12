@@ -171,7 +171,10 @@ class Application(QMainWindow):
 
     def print_set_title(self, set_name):
 
-    
+        self.set_fp = f"{self.local_doc}\\{set_name}\\{set_name}.json"
+
+        with open(self.set_fp, "r+") as set_file:
+            self.set_list = json.load(set_file)
            
 
         self.set_header = QHBoxLayout()
