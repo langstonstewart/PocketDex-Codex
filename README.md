@@ -1,11 +1,10 @@
 # PocketDex Codex
-![Version](https://img.shields.io/badge/Version-1.5.4-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
+![Version](https://img.shields.io/badge/Version-2.0.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
 
-A Python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
+A Python-based interactive application for Pokémon Trading Card Game Pocket.
 
 - Manage your collection
-- Save and load your collection in CSV/JSON format
-- Create decks for battling
+- Save and load your collection in JSON format
 - Track your completion across different sets, and much more!
 
 ### All Current Implemented Sets:
@@ -18,20 +17,28 @@ A Python-based interactive CLI tool for Pokémon Trading Card Game Pocket.
 | **Space-Time Smackdown (A2)**        | **January 29th, 2025**              |
 | **Triumphant Light (A2a)**           | **February 28th, 2025**             |
 | **Shining Revelry (A2b)**            | **March 27th, 2025**     
-| **Celestial Guardians (A3)**            | **April 30th, 2025**   
+| **Celestial Guardians (A3)**         | **April 30th, 2025**   
+| **Extradimensional Crisis (A3a)**            | **May 29, 2025**   
+| **Eevee Grove (A3b)**                  | **June 26, 2025**   
+| **Wisdom of Sea and Sky (A4)**            | **July 30, 2025**   
+| **Secluded Springs (A4a)**            | **August 28, 2025**   
+| **Deluxe Pack: ex (A4b)**            | **September 30, 2025**   
+| **Promo B (P-B)**                          | **October 30, 2025**   
+| **Mega Rising (B1)**                | **October 30, 2025**   
+| **Crimson Blaze (B1a)**            | **December 17, 2025**   
 
 ### Sets TBA:
 ---
 | **Set Name**                         | **Release Date**                    |
 |:------------------------------------:|:------------------------------------:
-| **??? (A3a)**                | **May 29th, 2025**              |
+| **??? (B2)**                | **January 29th, 2026**              |
 
 *This tool is currently only available for Windows.*
 
 ## How To Use (Installation):
 
 #### 1. Download Pokémon Trading Card Game Pocket:
-[![Download on the App Store](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/app-store-badge-en.webp)](https://apps.apple.com/app/id6479970832) [![Get it on Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp)
+[![Download on the App Store](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Download_on_the_App_Store_RGB_blk.svg/330px-Download_on_the_App_Store_RGB_blk.svg.png)](https://apps.apple.com/app/id6479970832) [![Get it on Google Play](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/330px-Google_Play_Store_badge_EN.svg.png)](https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp)
 
 
 #### 2. Install Python:
@@ -47,46 +54,15 @@ https://www.python.org/downloads/
 Download the project folder via current release:
 https://github.com/langstonstewart/PocketDex-Codex/releases
 
-## Getting Started:
 
-Once you’ve installed everything, you can run the tool by navigating to the project folder and running the BATCH file.
-This should start the interactive CLI tool. 
-Enter a username, and start managing your collection!
+The following dependency is automatically installed on execution:
 
-## Adding Entries:
-In the app, you'll find the card's set number under the card description. 
-Use these set numbers to add cards to your collection!
-
-![card_img](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/card_img.png)
-
-Your entries for that set will be sorted and saved within a CSV file, ready to be called upon and/or written at any time.
-Accidental entries can be deleted as well.
-
-## Creating Decks:
-To create a deck, follow all user input questions accordingly:
-- Deck Name
-- Highlight Card of Deck
-- Best Matchup(s)
-- Worst Matchup(s)
-- Energy Usage
-- Description of Deck
-- Personal Deck Ranking
-- End Statement of Deck
-
-Use card set numbers to add cards to the deck, with an optional description on how to use that specific card.
-![deck_img](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/images/deck_img.png)
-
-Cards can be added to a deck regardless of entry status.
-Once completed, the deck will be saved as a JSON file, ready to be viewed within the CLI tool.
-
-## Set Completion:
-Viewing a set's completion will show you how many cards you own, are missing, and how you can collect them.
-Collecting missing cards will be easier this way, as you'll now know *exactly* what packs to focus on!
+- [Pyqt6 by Phil Thompson](https://pypi.org/project/PyQt6)
 
 ## Contact:
 
 If you encounter any issues or have questions, feel free to contact the maintainer at langston.professional08@gmail.com or open an issue on the GitHub repository.
-I would love to fulfill any requests/features you would like implemented.
+
 
 ## License:
 
