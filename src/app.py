@@ -1,6 +1,6 @@
 import os, json, time
 from src import setmanager, themes, image_manager
-from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QGridLayout, QStackedLayout, QMainWindow, QSizePolicy, QScrollArea, QGraphicsOpacityEffect
+from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QGridLayout, QStackedLayout, QMainWindow, QSizePolicy, QScrollArea, QGraphicsOpacityEffect, QFileDialog, QMessageBox
 from PyQt6.QtCore import Qt, QSize, QUrl, QTimer
 from PyQt6.QtGui import QFont, QCursor, QIcon, QDesktopServices
 from math import ceil
@@ -36,6 +36,7 @@ class Application(QMainWindow):
         self.stacked_layout.addWidget(self.main_widget)
 
         self.header_layout = QVBoxLayout(self.main_widget)
+        self.header_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
         self.scroll_area.setWidget(self.container)
 
@@ -84,7 +85,8 @@ class Application(QMainWindow):
         with open(f'{self.set_dir}\\set_list.json', 'r+', encoding="UTF-8") as set_file:
             self.set_dict = json.load(set_file)
 
-        if len(self.set_dict["SetList"]) != len(os.listdir(self.local_doc)) - 1:
+        
+        if len(self.set_dict["SetList"]) != len(os.listdir(self.local_doc)):
             for set in self.set_dict["SetList"]:
                 local_set_folder = f"{self.local_doc}\\{set["Name"]}"
                 project_set_folder = f"{self.set_dir}\\set_data\\{set["Name"]}"
@@ -92,6 +94,12 @@ class Application(QMainWindow):
                 os.makedirs(project_set_folder, exist_ok=True)
                 if not os.listdir(local_set_folder):
                     self.set_manager.create_set(set["Name"], set["SetID"], local_set_folder)
+                os.makedirs(f"{project_set_folder}\\cards", exist_ok=True)
+
+        elif len(self.set_dict["SetList"]) != len(os.listdir(f"{self.set_dir}\\set_data")):
+            for set in self.set_dict["SetList"]:
+                project_set_folder = f"{self.set_dir}\\set_data\\{set["Name"]}"
+                os.makedirs(project_set_folder, exist_ok=True)
                 os.makedirs(f"{project_set_folder}\\cards", exist_ok=True)
 
     def init_cache(self):
@@ -219,6 +227,8 @@ class Application(QMainWindow):
         
 
     def display_sets(self):
+
+        self.set_button_dict = {}
         
         self.set_layout = QGridLayout()
         self.set_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -247,15 +257,23 @@ class Application(QMainWindow):
                     button.setProperty("ID", self.set_dict['SetList'][current_set]['SetID'])
 
                     button.enterEvent = partial(self.on_button_enter, button)
-                    button.leaveEvent = partial(self.on_button_enter, button) # type: ignore
+                    button.leaveEvent = partial(self.on_button_leave, button) # type: ignore
                     
                     button.clicked.connect(self.clicked_set)
+
+                    self.set_button_dict[self.set_dict['SetList'][current_set]['Name']] = button
+
                     current_set += 1
                     if current_set == len(self.set_dict['SetList']):
                         all_rows = True
-                        
                         break
         self.seperator(self.header_layout)
+
+        self.next_set_label = QLabel(f"Next set releases on {self.set_dict["NextSetDate"]}!", self.main_widget)
+        self.next_set_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.next_set_label.setProperty("class", "header2")
+        self.next_set_label.setFont(self.main_font)
+        self.header_layout.addWidget(self.next_set_label, alignment=Qt.AlignmentFlag.AlignHCenter)
 
     def create_info_page(self):
         self.info_widget = QWidget()
@@ -483,8 +501,11 @@ This project is not affiliated with, endorsed by, or associated with these entit
         self.stacked_layout.setCurrentWidget(self.info_widget)
 
 
-    def clicked_set(self):
-        button = self.sender()
+    def clicked_set(self, refresh=False):
+        if not refresh:
+            button = self.sender()
+        else:
+            button = self.set_button_dict[self.set_name]
         self.set_name = button.property('Name') # type: ignore
         self.set_id = button.property('ID') # type: ignore
 
@@ -511,8 +532,6 @@ This project is not affiliated with, endorsed by, or associated with these entit
         QTimer.singleShot(100, self.await_cache)
         
         
-        
-
     def await_cache(self): 
                 
         if len(os.listdir(f"{self.set_dir}\\set_data\\{self.set_name}\\cards")) != len(self.set_list):
@@ -523,14 +542,112 @@ This project is not affiliated with, endorsed by, or associated with these entit
 
         self.seperator(self.set_main_layout)
 
+        self.excel_buttons()
+
         self.init_back_button(self.set_main_layout)
 
         self.stacked_layout.addWidget(self.set_widget)
 
         self.stacked_layout.setCurrentWidget(self.set_widget)
-                   
 
-            
+
+    def excel_buttons(self):
+        self.ex_layout = QHBoxLayout()
+        self.ex_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+        self.set_main_layout.addLayout(self.ex_layout)
+
+        self.shadow_add_button = QPushButton("Add 1 to All..")
+        self.shadow_add_button.setProperty("class", "Setting_Button")
+        self.shadow_add_button.setFont(self.main_font)
+
+        self.shadow_add_button.setIcon(QIcon(self.IM.shadow_add_icon[self.mode]))
+        self.shadow_add_button.setIconSize(QSize(36, 36))
+
+        self.shadow_add_button.enterEvent = partial(self.on_button_enter, self.shadow_add_button)
+        self.shadow_add_button.leaveEvent = partial(self.on_button_leave, self.shadow_add_button) # type: ignore
+        self.shadow_add_button.clicked.connect(self.add_one_all)
+
+        self.shadow_minus_button = QPushButton("Remove 1 from All..")
+        self.shadow_minus_button.setProperty("class", "Setting_Button")
+        self.shadow_minus_button.setFont(self.main_font)
+
+        self.shadow_minus_button.setIcon(QIcon(self.IM.shadow_minus_icon[self.mode]))
+        self.shadow_minus_button.setIconSize(QSize(36, 36))
+
+        self.shadow_minus_button.enterEvent = partial(self.on_button_enter, self.shadow_minus_button)
+        self.shadow_minus_button.leaveEvent = partial(self.on_button_leave, self.shadow_minus_button) # type: ignore
+        self.shadow_minus_button.clicked.connect(self.remove_one_all)
+
+        self.export_button = QPushButton("Export as Excel Spreadsheet..")
+        self.export_button.setProperty("class", "Setting_Button")
+        self.export_button.setFont(self.main_font)
+
+        self.export_button.setIcon(QIcon(self.IM.export_icon[self.mode]))
+        self.export_button.setIconSize(QSize(36, 36))
+
+        self.export_button.enterEvent = partial(self.on_button_enter, self.export_button)
+        self.export_button.leaveEvent = partial(self.on_button_leave, self.export_button) # type: ignore
+        
+        self.export_button.clicked.connect(partial(self.set_manager.export_excel, self.local_doc, self.set_name, self.set_list))
+
+        self.import_button = QPushButton("Import as Excel Spreadsheet..")
+        self.import_button.setProperty("class", "Setting_Button")
+        self.import_button.setFont(self.main_font)
+
+        self.import_button.setIcon(QIcon(self.IM.import_icon[self.mode]))
+        self.import_button.setIconSize(QSize(36, 36))
+
+        self.import_button.enterEvent = partial(self.on_button_enter, self.import_button)
+        self.import_button.leaveEvent = partial(self.on_button_leave, self.import_button) # type: ignore
+
+        self.import_button.clicked.connect(self.import_excel_main)
+
+        self.ex_layout.addWidget(self.shadow_add_button)
+        self.ex_layout.addWidget(self.shadow_minus_button)
+        self.ex_layout.addWidget(self.export_button)
+        self.ex_layout.addWidget(self.import_button)
+
+    
+    def file_picker(self):
+        fp = QFileDialog.getOpenFileName(self.main_widget, "Select a File...", "", "Excel 2007+ Spreadsheet (*.xlsx)")
+        
+        return fp[0]
+    
+    def error_message(self, title: str, message: str):
+        msg = QMessageBox()
+        msg.setWindowTitle(title)
+        msg.setText(message)
+        msg.setIcon(QMessageBox.Icon.Critical)
+        msg.setStandardButtons(QMessageBox.StandardButton.Ok)
+        msg.exec()
+
+    def import_excel_main(self):
+        excel_fp = self.file_picker()
+        if excel_fp:
+            if not self.set_manager.import_excel(self.local_doc, excel_fp, self.set_name, self.set_list):
+                self.error_message("Invalid Spreadsheet", "ERROR: This xlsx spreadsheet does not match the set data.\nPlease try a different file.\nIf you believe this is a mistake, contact the maintainer below:\nhttps://github.com/langstonstewart/PocketDex-Codex")
+
+            with open(self.set_fp, "r+") as set_file:
+                self.set_list = json.load(set_file)
+
+            self.go_back(self.set_main_layout)
+            self.clicked_set(True)
+        
+
+    def add_one_all(self):
+        for button in self.plus_button_list:
+            self.increment_quantity(True, button)
+
+        with open(self.set_fp, "w") as set_file:
+            json.dump(self.set_list, set_file, indent=4)
+
+    def remove_one_all(self):
+        for button in self.plus_button_list:
+            self.decrement_quantity(True, button)
+
+        with open(self.set_fp, "w") as set_file:
+            json.dump(self.set_list, set_file, indent=4)
     
     def display_loading_page(self):
         self.loading_widget = QWidget()
@@ -543,8 +660,6 @@ This project is not affiliated with, endorsed by, or associated with these entit
 
         self.print_loading_title(self.set_name)
 
-        
-
     def print_loading_title(self, set_name: str):
         
         self.set_fp = f"{self.local_doc}\\{set_name}\\{set_name}.json"
@@ -552,19 +667,18 @@ This project is not affiliated with, endorsed by, or associated with these entit
         with open(self.set_fp, "r+") as set_file:
             self.set_list = json.load(set_file)
 
+            self.loading_header = QHBoxLayout()
+            self.loading_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            self.loading_layout.addLayout(self.loading_header)
 
-        self.loading_header = QHBoxLayout()
-        self.loading_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.loading_layout.addLayout(self.loading_header)
+            self.ld_header = QHBoxLayout()
+            self.ld_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            self.loading_layout.addLayout(self.ld_header)
 
-        self.ld_header = QHBoxLayout()
-        self.ld_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.loading_layout.addLayout(self.ld_header)
-
-        self.set_info_layout = QVBoxLayout()
-        self.set_info_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.set_info_layout
-        self.loading_layout.addLayout(self.set_info_layout)
+            self.set_info_layout = QVBoxLayout()
+            self.set_info_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            self.set_info_layout
+            self.loading_layout.addLayout(self.set_info_layout)
 
         for d in self.set_dict["SetList"]:
             if d["Name"] == self.set_name:
@@ -626,6 +740,8 @@ This project is not affiliated with, endorsed by, or associated with these entit
 
         self.card_img_dict = {}
         self.card_quantity_dict = {}
+        self.minus_button_list = []
+        self.plus_button_list = []
         
         col_length = 4
         row_length = ceil(len(self.set_list) / col_length)
@@ -693,9 +809,11 @@ This project is not affiliated with, endorsed by, or associated with these entit
                     minus_button.setMinimumWidth(70)
 
                     minus_button.enterEvent = partial(self.on_button_enter, minus_button)
-                    minus_button.leaveEvent = partial(self.on_button_enter, minus_button) # type: ignore
+                    minus_button.leaveEvent = partial(self.on_button_leave, minus_button) # type: ignore
 
                     minus_button.clicked.connect(self.decrement_quantity)
+
+                    self.minus_button_list.append(minus_button)
 
                     quantity_label = QLabel(f"{self.set_list[current_card]["Quantity"]}")
                     quantity_label.setFixedWidth(35)
@@ -715,9 +833,11 @@ This project is not affiliated with, endorsed by, or associated with these entit
                     plus_button.setMinimumWidth(70)
                     
                     plus_button.enterEvent = partial(self.on_button_enter, plus_button)
-                    plus_button.leaveEvent = partial(self.on_button_enter, plus_button) # type: ignore
+                    plus_button.leaveEvent = partial(self.on_button_leave, plus_button) # type: ignore
 
                     plus_button.clicked.connect(self.increment_quantity)
+
+                    self.plus_button_list.append(plus_button)
 
                     data_layout.addWidget(minus_button)
                     data_layout.addWidget(quantity_label)
@@ -736,9 +856,11 @@ This project is not affiliated with, endorsed by, or associated with these entit
         card.setGraphicsEffect(card_op)
         
 
-
-    def decrement_quantity(self):
-        button = self.sender()
+    def decrement_quantity(self, all=False, object=None):
+        if all:
+            button = object
+        else:
+            button = self.sender()
         
         if self.set_list[button.property("index")]["Quantity"] > 0: # type: ignore
             self.set_list[button.property("index")]["Quantity"] -= 1 # type: ignore
@@ -754,8 +876,11 @@ This project is not affiliated with, endorsed by, or associated with these entit
         
         self.card_quantity_dict[button.property("index")].setText(f"{self.set_list[button.property("index")]["Quantity"]}") # type: ignore
     
-    def increment_quantity(self):
-        button = self.sender()
+    def increment_quantity(self, all=False, object=None):
+        if all:
+            button = object
+        else:
+            button = self.sender()
 
         if self.set_list[button.property("index")]["Quantity"] < 99: # type: ignore
             self.set_list[button.property("index")]["Quantity"] += 1 # type: ignore
@@ -786,7 +911,7 @@ This project is not affiliated with, endorsed by, or associated with these entit
         self.theme_button.setIconSize(QSize(36, 36))
 
         self.theme_button.enterEvent = partial(self.on_button_enter, self.theme_button)
-        self.theme_button.leaveEvent = partial(self.on_button_enter, self.theme_button) # type: ignore
+        self.theme_button.leaveEvent = partial(self.on_button_leave, self.theme_button) # type: ignore
         
         self.theme_button.clicked.connect(self.toggle_theme)
 
@@ -802,7 +927,7 @@ This project is not affiliated with, endorsed by, or associated with these entit
         self.info_button.setIconSize(QSize(36, 36))
 
         self.info_button.enterEvent = partial(self.on_button_enter, self.info_button)
-        self.info_button.leaveEvent = partial(self.on_button_enter, self.info_button) # type: ignore
+        self.info_button.leaveEvent = partial(self.on_button_leave, self.info_button) # type: ignore
         
         self.info_button.clicked.connect(self.display_info_page)
 
@@ -845,7 +970,7 @@ This project is not affiliated with, endorsed by, or associated with these entit
         self.back_button.setIconSize(QSize(36, 36))
 
         self.back_button.enterEvent = partial(self.on_button_enter, self.back_button)
-        self.back_button.leaveEvent = partial(self.on_button_enter, self.back_button) # type: ignore
+        self.back_button.leaveEvent = partial(self.on_button_leave, self.back_button) # type: ignore
 
         self.back_button.clicked.connect(partial(self.go_back, layout))
 
@@ -872,7 +997,6 @@ This project is not affiliated with, endorsed by, or associated with these entit
     def reload_images(self):
         self.theme_button.setIcon(QIcon(self.IM.theme_icon[self.mode]))
         self.info_button.setIcon(QIcon(self.IM.info_icon[self.mode]))
-        self.back_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
         self.git_icon.setPixmap(self.IM.github_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         self.pz_icon.setPixmap(self.IM.pz_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         self.serebii_icon.setPixmap(self.IM.serebii_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
@@ -912,8 +1036,6 @@ This project is not affiliated with, endorsed by, or associated with these entit
                                 
                                 )
 
-
-        
 
     def run(self):
         self.init_set_dir()
