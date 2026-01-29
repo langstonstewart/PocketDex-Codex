@@ -20,6 +20,10 @@ class ImageManager:
         self.ltcg_icon = (QPixmap("src/images/links/ltcg_icon_dark.png"), QPixmap("src/images/links/ltcg_icon_light.png"))
         self.pz_icon = (QPixmap("src/images/links/pz_icon_dark.png"), QPixmap("src/images/links/pz_icon_light.png"))
         self.serebii_icon = (QPixmap("src/images/links/serebii_icon_dark.png"), QPixmap("src/images/links/serebii_icon_light.png"))
+        self.export_icon = (QPixmap("src/images/ui/export_black.png"), QPixmap("src/images/ui/export_white.png"))
+        self.import_icon = (QPixmap("src/images/ui/import_black.png"), QPixmap("src/images/ui/import_white.png"))
+        self.shadow_add_icon = (QPixmap("src/images/ui/shadow_add_black.png"), QPixmap("src/images/ui/shadow_add_white.png"))
+        self.shadow_minus_icon = (QPixmap("src/images/ui/shadow_minus_black.png"), QPixmap("src/images/ui/shadow_minus_white.png"))
 
 
         self.logo_dict = {
@@ -38,6 +42,7 @@ class ImageManager:
             "A4b": (QPixmap("src/images/set_logo/deluxepackex.png"), QPixmap("src/images/tags/A4b_black.png")),
             "B1": (QPixmap("src/images/set_logo/megarising.png"), QPixmap("src/images/tags/B1_black.png")),
             "B1a": (QPixmap("src/images/set_logo/crimsonblaze.png"), QPixmap("src/images/tags/B1a_black.png")),
+            "B2": (QPixmap("src/images/set_logo/fantasticalparade.png"), QPixmap("src/images/tags/B2_black.png")),
             
         }
 

@@ -196,7 +196,7 @@ class Themes:
             }
             QPushButton[class="Setting_Button"] {
                 font-size: 20px;
-                color: #1E1E1E; 
+                color: white; 
                 margin: 3px; 
                 background-color: #575757; 
                 border: 3px solid #2c2c2c; 

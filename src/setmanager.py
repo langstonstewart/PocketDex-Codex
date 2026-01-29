@@ -1,4 +1,4 @@
-import json, requests, bs4
+import json, requests, bs4 , pandas, os
 
 class SetManager:
     def __init__(self) -> None:
@@ -42,13 +42,21 @@ class SetManager:
         if not card_rarities:
             card_rarities = ["N/A" for i in range(1, len(card_names) + 1)]
 
-        # bandage until fix
+        # bandage until site fixes
         if set_name == "Mega Rising (B1)":
             card_rarities.insert(276, "2 Star")
+        elif set_name == "Fantastical Parade (B2)":
+            card_rarities.insert(135, "3 Diamond")
         
         card_ids = [str(i).zfill(3) for i in range(1, len(card_names) + 1)]
 
-        card_imgs = [f"https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/{set_id}/{set_id}_{card_id}_EN_SM.webp" for card_id in card_ids]
+        try:
+            img_site = requests.get(f"https://pocket.limitlesstcg.com/cards/{set_id}")
+            img_site.raise_for_status()
+            card_imgs = [f"https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/{set_id}/{set_id}_{card_id}_EN_SM.webp" for card_id in card_ids]
+        except Exception:
+            card_imgs = [f"https://www.serebii.net/tcgpocket/{f_name}/{int(card_id)}.jpg" for card_id in card_ids]
+        
 
         for i in range(len(card_ids)):
             set_dict = {}
@@ -58,9 +66,62 @@ class SetManager:
             set_dict["Image"] = card_imgs[i]
             set_dict["Quantity"] = 0
             frame.append(set_dict)
+
+        df = {"ID": card_ids,
+              "Name": card_names,
+              "Rarity": card_rarities,
+              "Image": card_imgs,
+              "Quantity": [0 for i in range(len(card_names))]}
         
         with open(f"{dir}\\{set_name}.json", "w+") as set_file:
             json.dump(frame, set_file, indent=4)
+       
+
+    def export_excel(self, fp, set_name, set_data: dict): # type: ignore
+        df = {"ID": [dic["ID"] for dic in set_data],
+              "Name": [dic["Name"] for dic in set_data],
+              "Rarity": [dic["Rarity"] for dic in set_data],
+              "Image": [dic["Image"] for dic in set_data],
+              "Quantity": [dic["Quantity"] for dic in set_data]}
+        
+        pandas.DataFrame(df).to_excel(f"{fp}\\{set_name}\\{set_name}.xlsx", index=False)
+
+        os.startfile(f"{fp}\\{set_name}")
+
+    def import_excel(self, fp, excel_fp, set_name, set_data: dict):
+        set_sheet = pandas.read_excel(excel_fp, keep_default_na=False)
+
+        import_list = []
+
+        for i in range(len(set_data)):
+            card_data = {}
+            card_data["ID"] = set_sheet["ID"][i]
+            card_data["Name"] = set_sheet["Name"][i]
+            card_data["Rarity"] = set_sheet["Rarity"][i]
+            card_data["Image"] = set_sheet["Image"][i]
+            card_data["Quantity"] = int(set_sheet["Quantity"][i])
+            import_list.append(card_data)
+
+        if len(set_data) == len(set_sheet["ID"]):
+            
+            with open(f"{fp}\\{set_name}\\{set_name}.json", "w+") as set_file:
+                json.dump(import_list, set_file, indent=4)
+            return True
+        return False
+
+        
+
+
+        
+
+
+
+        
+        
+        
+        
+
+        
 
 
 
