@@ -1,0 +1,898 @@
+[
+    {
+        "ID": "P-B-001",
+        "Name": "Pikachu",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_001_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spark"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "This attack also does 10 damage to 1 of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+        "Illustrator": "You Iribi"
+    },
+    {
+        "ID": "P-B-002",
+        "Name": "Petilil",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_002_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surprise Attack"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "If the leaves on its head are pruned with regularity, this Pok\u00e9mon can be grown into a fine plump shape.",
+        "Illustrator": "Yukiko Baba"
+    },
+    {
+        "ID": "P-B-003",
+        "Name": "Froakie",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_003_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+        "Illustrator": "Kyoko Umemoto"
+    },
+    {
+        "ID": "P-B-004",
+        "Name": "Luxray",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_004_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flash Impact"
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            "This attack also does 20 damage to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "0",
+        "Flavor-Text": "Luxray\u2019s ability to see through objects comes in handy when it\u2019s scouting for danger.",
+        "Illustrator": "Hasuno"
+    },
+    {
+        "ID": "P-B-005",
+        "Name": "Pidgey",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_005_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "P-B-006",
+        "Name": "Mega Pidgeot ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_006_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Giant Twister"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Flip 3 coins. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon. If all of them are tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "2",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-007",
+        "Name": "Torchic",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_007_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "P-B-008",
+        "Name": "Psyduck",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_008_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rain Splash"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode.",
+        "Illustrator": "OKACHEKE"
+    },
+    {
+        "ID": "P-B-009",
+        "Name": "Mega Absol ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_009_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Darkness Claw"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-010",
+        "Name": "Drifblim",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_010_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Balloon Barrage"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Flavor-Text": "They carry people and Pok\u00e9mon, but the wind can catch them, so there can\u2019t be a fixed destination.",
+        "Illustrator": "Kyoko Umemoto"
+    },
+    {
+        "ID": "P-B-011",
+        "Name": "Eevee",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_011_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": "Boosted Evolution",
+        "Ability-Effect": "As long as this Pok\u00e9mon is in the Active Spot, it can evolve during your first turn or the turn you play it.",
+        "Moves": [
+            "Stampede"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
+        "Illustrator": "Aya Kusube"
+    },
+    {
+        "ID": "P-B-012",
+        "Name": "Ditto",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_012_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Copy a Friend"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your Benched Pok\u00e9mon's attacks, except any Pok\u00e9mon ex, and use it as this attack. If this Pok\u00e9mon doesn't have the necessary Energy to use that attack, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It can freely recombine its own cellular structure to transform into other life-forms.",
+        "Illustrator": "buchi"
+    },
+    {
+        "ID": "P-B-013",
+        "Name": "Arcanine",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_013_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fire Fang"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "3",
+        "Flavor-Text": "Its magnificent bark conveys a sense of majesty. Anyone hearing it can\u2019t help but grovel before it.",
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "P-B-014",
+        "Name": "Magikarp",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_014_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Expert Splasher"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip 2 coins. If both of them are heads, this attack does 20 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+        "Illustrator": "sui"
+    },
+    {
+        "ID": "P-B-015",
+        "Name": "Mareep",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_015_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rear Kick"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+        "Illustrator": "okayamatakatoshi"
+    },
+    {
+        "ID": "P-B-016",
+        "Name": "Krookodile",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_016_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Chomp Chomp Bite"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Flavor-Text": "Its unique faculty of sight can detect small prey more than 30 miles away, even in the midst of a sandstorm.",
+        "Illustrator": "match"
+    },
+    {
+        "ID": "P-B-017",
+        "Name": "Swablu",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_017_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Find a Friend"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put a random Pok\u00e9mon from your deck into your hand."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It can\u2019t relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+        "Illustrator": "Yukiko Baba"
+    },
+    {
+        "ID": "P-B-018",
+        "Name": "Heliolisk",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_018_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunderbolt"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "Discard all Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "P-B-019",
+        "Name": "Buneary",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_019_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Kick"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 damage for each heads."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
+        "Illustrator": "saino misaki"
+    },
+    {
+        "ID": "P-B-020",
+        "Name": "Charmeleon",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_020_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": "Ignition",
+        "Ability-Effect": "Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may take a [R] Energy from your Energy Zone and attach it to your Active [R] Pok\u00e9mon.",
+        "Moves": [
+            "Steady Firebreathing"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Flavor-Text": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+        "Illustrator": "Shiburingaru"
+    },
+    {
+        "ID": "P-B-021",
+        "Name": "Onix",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_021_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Smash"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Flavor-Text": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+        "Illustrator": "Hitoshi Ariga"
+    },
+    {
+        "ID": "P-B-022",
+        "Name": "Hawlucha",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_022_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aerial Ace"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "Hawlucha live quietly without flocking together. They fight constantly with their natural enemies: noisy groups of Primeape.",
+        "Illustrator": "Teeziro"
+    },
+    {
+        "ID": "P-B-023",
+        "Name": "Genesect",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_023_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Metal Blast"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each [M] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Flavor-Text": "This ancient bug Pok\u00e9mon was altered by Team Plasma. They upgraded the cannon on its back.",
+        "Illustrator": "Anesaki Dynamic"
+    },
+    {
+        "ID": "P-B-024",
+        "Name": "Mega Latios ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_024_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sonic Impulse"
+        ],
+        "Move-Energy": [
+            "WWP"
+        ],
+        "Move-Damage": [
+            "160"
+        ],
+        "Effects": [
+            "Discard all Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "2",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-025",
+        "Name": "Jirachi",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_025_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Star Drop"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It is said to have the ability to grant any wish for just one week every thousand years.",
+        "Illustrator": "Rond"
+    },
+    {
+        "ID": "P-B-026",
+        "Name": "Mudkip",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_026_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surprise Attack"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "When it uses its large tail fin, it picks up speed rapidly in the water. It is strong in spite of its small size.",
+        "Illustrator": "Shigenori Negishi"
+    },
+    {
+        "ID": "P-B-027",
+        "Name": "Plusle",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_027_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Electric Tail"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "This Pok\u00e9mon absorbs electricity from telephone poles. It shorts out the electricity stored inside its body to create noises.",
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "P-B-028",
+        "Name": "Ralts",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_028_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Draining Kiss"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Heal 10 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It is highly attuned to the emotions of people and Pok\u00e9mon. It hides if it senses hostility.",
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "P-B-029",
+        "Name": "Mega Medicham ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_029_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Chakra Fist"
+        ],
+        "Move-Energy": [
+            "FCC"
+        ],
+        "Move-Damage": [
+            "100x"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has any [P] Energy attached, this attack does 40 more damage. This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Retreat-Cost": "1",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-030",
+        "Name": "Tornadus",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_030_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blow Through"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "40x"
+        ],
+        "Effects": [
+            "If a Stadium is in play, this attack does 40 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+        "Illustrator": "Shigenori Negishi"
+    },
+    {
+        "ID": "P-B-031",
+        "Name": "Cinderace",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_031_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fireball Shot"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't attack."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "0",
+        "Flavor-Text": "Using a ball that it made out of flames, Cinderace blinds its opponents and keeps them at bay.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "P-B-032",
+        "Name": "Alolan Vulpix",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_032_EN_SM.webp",
+        "Card-Type": "Pok\u00e9mon ",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "In hot weather, this Pok\u00e9mon makes ice shards with its six tails and sprays them around to cool itself off.",
+        "Illustrator": "nagimiso"
+    }
+]
