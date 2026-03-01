@@ -21,10 +21,11 @@
             "50+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 50 more damage."
+            "Flip a coin.\nIf heads, this attack does 50 more damage."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "This Pok\u00e9mon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
         "Illustrator": "Suwama Chiaki"
     },
@@ -50,10 +51,11 @@
             "80+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 70 more damage."
+            "Flip a coin.\nIf heads, this attack does 70 more damage."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -83,7 +85,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lives among the tall grass and in forests.\nIt repels attacks by raising up the spikes on its rear.",
         "Illustrator": "kirisAki"
     },
     {
@@ -112,7 +115,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It drinks dew that collects on its silk and waits for evolution.\nIts hard cocoon repels attacks.",
         "Illustrator": "Kyoko Umemoto"
     },
     {
@@ -141,7 +145,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey\u2019s fluids.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has an aggressive nature.\nIt stabs prey with its long, narrow mouth to drain the prey\u2019s fluids.",
         "Illustrator": "Midori Harada"
     },
     {
@@ -170,7 +175,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It never forgets any attack it endured while in the cocoon.\nAfter evolution, it seeks payback.",
         "Illustrator": "GOSSAN"
     },
     {
@@ -195,11 +201,12 @@
             "60"
         ],
         "Effects": [
-            "Choose either Poisoned or Confused. Your opponent's Active Pok\u00e9mon is now affected by that Special Condition."
+            "Choose either Poisoned or Confused.\nYour opponent's Active Pok\u00e9mon is now affected by that Special Condition."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It violently flutters its wings to scatter toxic dust when attacked.\nIt becomes active after sunset.",
         "Illustrator": "Midori Harada"
     },
     {
@@ -228,7 +235,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It attaches itself to a tree branch using the top of its head.\nStrong winds can sometimes make it fall.",
         "Illustrator": "Naoyo Kimura"
     },
     {
@@ -257,7 +265,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "They live in holes bored in large trees. The sound of Nuzleaf\u2019s grass flute fills listeners with dread.",
+        "Ex-Rule": null,
+        "Flavor-Text": "They live in holes bored in large trees.\nThe sound of Nuzleaf\u2019s grass flute fills listeners with dread.",
         "Illustrator": "Hajime Kusajima"
     },
     {
@@ -286,7 +295,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lives quietly in the deep forest.\nIt is said to create chilly winter winds with the fans it holds.",
         "Illustrator": "Masakazu Fukuda"
     },
     {
@@ -315,6 +325,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "If it senses danger, it scatters spores from the top of its head to protect itself.",
         "Illustrator": "Naoyo Kimura"
     },
@@ -344,7 +355,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The seeds on its tail are made of toxic spores.\nIt knocks out foes with quick, virtually invisible punches.",
         "Illustrator": "Mizue"
     },
     {
@@ -373,7 +385,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It\u2019s good at finding berries and gathers them from all over. It\u2019s kind enough to share them with friends.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s good at finding berries and gathers them from all over.\nIt\u2019s kind enough to share them with friends.",
         "Illustrator": "Jerky"
     },
     {
@@ -398,11 +411,12 @@
             "40x"
         ],
         "Effects": [
-            "Flip 3 coins. This attack does 40 damage for each heads."
+            "Flip 3 coins.\nThis attack does 40 damage for each heads."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Ill tempered, it fights by swinging its barbed tail around wildly.\nThe leaf growing on its head is very bitter.",
         "Illustrator": "tetsuya koizumi"
     },
     {
@@ -431,7 +445,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It shoots cotton from its body to protect itself.\nIf it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
         "Illustrator": "Yuka Tanaka"
     },
     {
@@ -460,6 +475,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -489,6 +505,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "If the leaves on its head are pruned with regularity, this Pok\u00e9mon can be grown into a fine plump shape.",
         "Illustrator": "Naoki Saito"
     },
@@ -518,6 +535,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
         "Illustrator": "Kanako Eo"
     },
@@ -547,7 +565,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Arid regions are their habitat.\nThey move rhythmically, making a sound similar to maracas.",
         "Illustrator": "Shimaris Yukichi"
     },
     {
@@ -576,6 +595,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It darts around opponents with a flurry of quick movements, slicing them up with its horns.",
         "Illustrator": "Takeshi Nakamura"
     },
@@ -605,6 +625,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "As long as it has sunlight and water, Skiddo can make energy with the leaves on its body, allowing it to live on rocky mountains barren of food.",
         "Illustrator": "Saya Tsuruta"
     },
@@ -634,7 +655,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
-        "Flavor-Text": "These Pok\u00e9mon live in herds in mountainous places. The victor in their contests of clashing horns will become the leader of the herd.",
+        "Ex-Rule": null,
+        "Flavor-Text": "These Pok\u00e9mon live in herds in mountainous places.\nThe victor in their contests of clashing horns will become the leader of the herd.",
         "Illustrator": "sowsow"
     },
     {
@@ -663,6 +685,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "With a voice like a human child\u2019s, it cries out to lure adults deep into the forest, getting them lost among the trees.",
         "Illustrator": "Sumiyoshi Kizuki"
     },
@@ -692,6 +715,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Small roots that extend from the tips of this Pok\u00e9mon\u2019s feet can tie into the trees of the forest and give Trevenant control over them.",
         "Illustrator": "Hiroyuki Yamamoto"
     },
@@ -721,7 +745,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It attacks with rapid beats of its stick.\nAs it strikes with amazing speed, it gets more and more pumped.",
         "Illustrator": "Kouki Saitou"
     },
     {
@@ -750,6 +775,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "When it\u2019s drumming out rapid beats in battle, it gets so caught up in the rhythm that it won\u2019t even notice that it\u2019s already knocked out its opponent.",
         "Illustrator": "Akira Komayama"
     },
@@ -764,7 +790,7 @@
         "Type": "Grass",
         "HP": "150",
         "Ability": "Captivating Rhythm",
-        "Ability-Effect": "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
+        "Ability-Effect": "Once during your turn, you may flip a coin.\nIf heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
         "Moves": [
             "Drum Rush"
         ],
@@ -779,7 +805,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
-        "Flavor-Text": "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The one with the best drumming techniques becomes the boss of the troop.\nIt has a gentle disposition and values harmony among its group.",
         "Illustrator": "Shin Nagasawa"
     },
     {
@@ -808,7 +835,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It\u2019s very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s very friendly and faithful to people.\nIt will try to repel enemies by barking and biting.",
         "Illustrator": "Narumi Sato"
     },
     {
@@ -833,11 +861,12 @@
             "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Burned."
+            "Flip a coin.\nIf heads, your opponent's Active Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Water",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Its magnificent bark conveys a sense of majesty. Anyone hearing it can\u2019t help but grovel before it.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its magnificent bark conveys a sense of majesty.\nAnyone hearing it can\u2019t help but grovel before it.",
         "Illustrator": "Yuu Nishida"
     },
     {
@@ -866,6 +895,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "If you\u2019ve been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
         "Illustrator": "Jiro Sasumo"
     },
@@ -895,6 +925,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -906,8 +937,8 @@
         "Summary-Available": 1,
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Oh",
-        "HP": "Fire",
+        "Type": "Fire",
+        "HP": "120",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
@@ -924,6 +955,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.",
         "Illustrator": "Ryota Murayama"
     },
@@ -953,7 +985,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+        "Ex-Rule": null,
+        "Flavor-Text": "A fire burns inside, so it feels very warm to hug.\nIt launches fireballs of 1,800 degrees Fahrenheit.",
         "Illustrator": "GOSSAN"
     },
     {
@@ -982,7 +1015,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
+        "Ex-Rule": null,
+        "Flavor-Text": "During a battle, the hot flame in its body increases.\nIts kicks have outstanding destructive power.",
         "Illustrator": "GOSSAN"
     },
     {
@@ -1011,7 +1045,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+        "Ex-Rule": null,
+        "Flavor-Text": "When facing a tough foe, it looses flames from its wrists.\nIts powerful legs let it jump clear over buildings.",
         "Illustrator": "GOSSAN"
     },
     {
@@ -1036,10 +1071,11 @@
             "120"
         ],
         "Effects": [
-            "Discard a [R] Energy from this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Burned."
+            "Discard a [R] Energy from this Pok\u00e9mon.\nYour opponent's Active Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Yamashita"
     },
@@ -1069,7 +1105,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This Pok\u00e9mon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon lives in caves in volcanoes.\nThe fire within the tuft on its head can reach 600 degrees Fahrenheit.",
         "Illustrator": "Jerky"
     },
     {
@@ -1094,11 +1131,12 @@
             "40x"
         ],
         "Effects": [
-            "Flip 3 coins. This attack does 40 damage for each heads."
+            "Flip 3 coins.\nThis attack does 40 damage for each heads."
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+        "Ex-Rule": null,
+        "Flavor-Text": "When it gets excited, embers rise from its head and tail and it gets hot.\nFor some reason, it loves sweets.",
         "Illustrator": "kirisAki"
     },
     {
@@ -1127,6 +1165,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "This popular symbol of good fortune will never fall over in its sleep, no matter how it\u2019s pushed or pulled.",
         "Illustrator": "Atsuko Nishida"
     },
@@ -1152,10 +1191,11 @@
             "80+"
         ],
         "Effects": [
-            "Flip 2 coins. This attack does 30 more damage for each heads."
+            "Flip 2 coins.\nThis attack does 30 more damage for each heads."
         ],
         "Weakness": "Water",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "This Pok\u00e9mon\u2019s power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
         "Illustrator": "kawayoo"
     },
@@ -1185,6 +1225,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "The younger the life this Pok\u00e9mon absorbs, the brighter and eerier the flame on its head burns.",
         "Illustrator": "sowsow"
     },
@@ -1214,7 +1255,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lurks in cities, pretending to be a lamp.\nOnce it finds someone whose death is near, it will trail quietly after them.",
         "Illustrator": "Kyoko Umemoto"
     },
     {
@@ -1243,6 +1285,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence\u2014 or so it\u2019s said.",
         "Illustrator": "Taira Akitsu"
     },
@@ -1272,6 +1315,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
         "Illustrator": "Satoshi Shirai"
     },
@@ -1301,6 +1345,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "The more a Litleo trains its body and spirit by battling mighty enemies, the hotter its mane will grow.",
         "Illustrator": "Misa Tsutsui"
     },
@@ -1330,7 +1375,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
-        "Flavor-Text": "The mane of a male Pyroar heats up to over 3,600 degrees Fahrenheit during battle. Merely approaching it will cause severe burns.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The mane of a male Pyroar heats up to over 3,600 degrees Fahrenheit during battle.\nMerely approaching it will cause severe burns.",
         "Illustrator": "Hitoshi Ariga"
     },
     {
@@ -1359,7 +1405,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell.\nIts droppings are also dangerously explosive.",
         "Illustrator": "KEIICHIRO ITO"
     },
     {
@@ -1388,7 +1435,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode.",
+        "Ex-Rule": null,
+        "Flavor-Text": "If its chronic headache peaks, it may exhibit odd powers.\nIt seems unable to recall such an episode.",
         "Illustrator": "nagimiso"
     },
     {
@@ -1417,6 +1465,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It swims gracefully along on the quiet, slow- moving rivers and lakes of which it is so fond.",
         "Illustrator": "Hasuno"
     },
@@ -1446,6 +1495,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
         "Illustrator": "Yukiko Baba"
     },
@@ -1475,6 +1525,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "It appears whenever there is world conflict, burning down any place it travels through.",
         "Illustrator": "kawayoo"
     },
@@ -1504,6 +1555,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -1533,7 +1585,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Its leaf grew too large for it to live on land. That is how it began to live floating in the water.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its leaf grew too large for it to live on land.\nThat is how it began to live floating in the water.",
         "Illustrator": "Atsuko Nishida"
     },
     {
@@ -1562,7 +1615,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It lives at the water\u2019s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lives at the water\u2019s edge where it is sunny.\nIt sleeps on a bed of water grass by day and becomes active at night.",
         "Illustrator": "miki kudo"
     },
     {
@@ -1591,6 +1645,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "If it hears festive music, it begins moving in rhythm in order to amplify its power.",
         "Illustrator": "sowsow"
     },
@@ -1620,7 +1675,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
-        "Flavor-Text": "When it sucks in a large volume of seawater, it becomes like a big, bouncy ball. It eats a ton of food daily.",
+        "Ex-Rule": null,
+        "Flavor-Text": "When it sucks in a large volume of seawater, it becomes like a big, bouncy ball.\nIt eats a ton of food daily.",
         "Illustrator": "M\u00e9kayu"
     },
     {
@@ -1649,7 +1705,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "4",
-        "Flavor-Text": "The biggest of all Pok\u00e9mon. It can dive to a depth of almost 10,000 feet on only one breath.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The biggest of all Pok\u00e9mon.\nIt can dive to a depth of almost 10,000 feet on only one breath.",
         "Illustrator": "KIYOTAKA OSHIYAMA"
     },
     {
@@ -1678,7 +1735,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It was originally a Pok\u00e9mon from afar that escaped to the wild. It can adapt to the dirtiest river.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It was originally a Pok\u00e9mon from afar that escaped to the wild.\nIt can adapt to the dirtiest river.",
         "Illustrator": "Sekio"
     },
     {
@@ -1707,7 +1765,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "A brutish Pok\u00e9mon that loves to battle. It will crash itself into any foe that approaches its nest.",
+        "Ex-Rule": null,
+        "Flavor-Text": "A brutish Pok\u00e9mon that loves to battle.\nIt will crash itself into any foe that approaches its nest.",
         "Illustrator": "Shibuzoh."
     },
     {
@@ -1736,6 +1795,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "During the spawning season, countless Luvdisc congregate at coral reefs, turning the waters pink.",
         "Illustrator": "sui"
     },
@@ -1765,7 +1825,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The water stored inside the tuft on its head is full of nutrients.\nPlants that receive its water grow large.",
         "Illustrator": "Jerky"
     },
     {
@@ -1790,11 +1851,12 @@
             "40x"
         ],
         "Effects": [
-            "Flip 3 coins. This attack does 40 damage for each heads."
+            "Flip 3 coins.\nThis attack does 40 damage for each heads."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It prefers places with clean water.\nWhen its tuft runs low, it replenishes it by siphoning up water with its tail.",
         "Illustrator": "Shigenori Negishi"
     },
     {
@@ -1823,7 +1885,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It uses sound waves to communicate with others of its kind. People and other Pok\u00e9mon species can\u2019t hear its cries of warning.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It uses sound waves to communicate with others of its kind.\nPeople and other Pok\u00e9mon species can\u2019t hear its cries of warning.",
         "Illustrator": "Mina Nakai"
     },
     {
@@ -1852,7 +1915,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
+        "Ex-Rule": null,
+        "Flavor-Text": "On occasion, their cries are sublimely pleasing to the ear.\nPalpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
         "Illustrator": "Shimaris Yukichi"
     },
     {
@@ -1881,6 +1945,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "This Pok\u00e9mon is popular among the elderly, who say the vibrations of its lumps are great for massages.",
         "Illustrator": "SATOSHI NAKAI"
     },
@@ -1910,7 +1975,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Tirtouga is considered to be the ancestor of many turtle Pok\u00e9mon. It was restored to life from a fossil.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Tirtouga is considered to be the ancestor of many turtle Pok\u00e9mon.\nIt was restored to life from a fossil.",
         "Illustrator": "HYOGONOSUKE"
     },
     {
@@ -1939,6 +2005,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "This Pok\u00e9mon emerges from the water in search of prey despite the fact that it moves more slowly on land.",
         "Illustrator": "match"
     },
@@ -1968,6 +2035,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Legend has it that the residents of a sunken ancient city changed into these Pok\u00e9mon.",
         "Illustrator": "Apios"
     },
@@ -1997,6 +2065,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear.",
         "Illustrator": "Tomokazu Komiya"
     },
@@ -2026,7 +2095,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It crosses the world, running over the surfaces of oceans and rivers.\nIt appears at scenic waterfronts.",
         "Illustrator": "Takeshi Nakamura"
     },
     {
@@ -2055,7 +2125,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It protects its skin by covering its body in delicate bubbles.\nBeneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
         "Illustrator": "Sanosuke Sakuma"
     },
     {
@@ -2084,7 +2155,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute\u2019s time.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its swiftness is unparalleled.\nIt can scale a tower of more than 2,000 feet in a minute\u2019s time.",
         "Illustrator": "5ban Graphics"
     },
     {
@@ -2113,6 +2185,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Mochizuki"
     },
@@ -2142,7 +2215,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "2",
-        "Flavor-Text": "They live in mountainous regions of frigid cold. On rare occasions, they ride on the back of an Avalugg to cross seas and move to new habitats.",
+        "Ex-Rule": null,
+        "Flavor-Text": "They live in mountainous regions of frigid cold.\nOn rare occasions, they ride on the back of an Avalugg to cross seas and move to new habitats.",
         "Illustrator": "Miki Tanaka"
     },
     {
@@ -2171,7 +2245,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "4",
-        "Flavor-Text": "This Pok\u00e9mon uses its massive icy body to flatten anything that gets in its way. When it\u2019s floating out on the ocean, it looks exactly like drift ice.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon uses its massive icy body to flatten anything that gets in its way.\nWhen it\u2019s floating out on the ocean, it looks exactly like drift ice.",
         "Illustrator": "Kouki Saitou"
     },
     {
@@ -2200,6 +2275,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "A popular game among children is to lift up sticks that Chewtle have bitten onto to see whose Chewtle can hang on the longest.",
         "Illustrator": "Nurikabe"
     },
@@ -2229,7 +2305,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Drednaw lurks along the shoreline. When prey come to drink water, Drednaw stretches its neck out and chomps down on them.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Drednaw lurks along the shoreline.\nWhen prey come to drink water, Drednaw stretches its neck out and chomps down on them.",
         "Illustrator": "Anesaki Dynamic"
     },
     {
@@ -2258,7 +2335,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It takes down prey by charging into them with its hard, pointed jaw. But Arrokuda\u2019s eyesight is poor, so this tactic has a low success rate.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It takes down prey by charging into them with its hard, pointed jaw.\nBut Arrokuda\u2019s eyesight is poor, so this tactic has a low success rate.",
         "Illustrator": "Mina Nakai"
     },
     {
@@ -2287,6 +2365,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them.",
         "Illustrator": "Hideki Ishikawa"
     },
@@ -2316,7 +2395,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "If you lick the ice covering its face, you\u2019ll find it has a faintly salty taste. This species rode here on ocean currents from a cold, faraway land.",
+        "Ex-Rule": null,
+        "Flavor-Text": "If you lick the ice covering its face, you\u2019ll find it has a faintly salty taste.\nThis species rode here on ocean currents from a cold, faraway land.",
         "Illustrator": "Kagemaru Himeno"
     },
     {
@@ -2345,6 +2425,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -2374,7 +2455,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its fleece grows continually.\nIn the summer, the fleece is fully shed, but it grows back in a week.",
         "Illustrator": "saino misaki"
     },
     {
@@ -2403,6 +2485,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Because of its rubbery, electricity-resistant skin, it can store lots of electricity in its fur.",
         "Illustrator": "Shibuzoh."
     },
@@ -2428,10 +2511,11 @@
             "90"
         ],
         "Effects": [
-            "1 of your opponent's Benched Pok\u00e9mon is chosen at random. This attack also does 20 damage to it."
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random.\nThis attack also does 20 damage to it."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean\u2019s surface.",
         "Illustrator": "Megumi Mizutani"
     },
@@ -2457,10 +2541,11 @@
             "100"
         ],
         "Effects": [
-            "1 of your opponent's Benched Pok\u00e9mon is chosen at random 3 times. For each time a Pok\u00e9mon was chosen, also do 20 damage to it."
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random 3 times.\nFor each time a Pok\u00e9mon was chosen, also do 20 damage to it."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -2490,7 +2575,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The extension and contraction of its muscles generates electricity. Its fur glows when it\u2019s in trouble.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The extension and contraction of its muscles generates electricity.\nIts fur glows when it\u2019s in trouble.",
         "Illustrator": "Uta"
     },
     {
@@ -2519,6 +2605,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "By gathering their tails together, they collectively generate powerful electricity from their claws.",
         "Illustrator": "NC Empire"
     },
@@ -2548,6 +2635,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "0",
+        "Ex-Rule": null,
         "Flavor-Text": "Luxray\u2019s ability to see through objects comes in handy when it\u2019s scouting for danger.",
         "Illustrator": "Ryota Murayama"
     },
@@ -2577,6 +2665,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
         "Illustrator": "Naoyo Kimura"
     },
@@ -2606,7 +2695,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its mane shines when it discharges electricity.\nThey use the frequency and rhythm of these flashes to communicate.",
         "Illustrator": "Akira Komayama"
     },
     {
@@ -2635,7 +2725,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+        "Ex-Rule": null,
+        "Flavor-Text": "They have lightning-like movements.\nWhen Zebstrika run at full speed, the sound of thunder reverberates.",
         "Illustrator": "Shin Nagasawa"
     },
     {
@@ -2664,7 +2755,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "0",
-        "Flavor-Text": "Joltik can be found clinging to other Pok\u00e9mon. It\u2019s soaking up static electricity because it can\u2019t produce a charge on its own.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Joltik can be found clinging to other Pok\u00e9mon.\nIt\u2019s soaking up static electricity because it can\u2019t produce a charge on its own.",
         "Illustrator": "Ayaka Yoshida"
     },
     {
@@ -2693,6 +2785,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "0",
+        "Ex-Rule": null,
         "Flavor-Text": "It lays traps of electrified threads near the nests of bird Pok\u00e9mon, aiming to snare chicks that are not yet good at flying.",
         "Illustrator": "Yumi"
     },
@@ -2722,7 +2815,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Dedenne emit electrical waves from the whiskers on their cheeks to communicate with each other. When low on electricity, they curl up and sleep.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Dedenne emit electrical waves from the whiskers on their cheeks to communicate with each other.\nWhen low on electricity, they curl up and sleep.",
         "Illustrator": "Yuka Morii"
     },
     {
@@ -2747,11 +2841,12 @@
             null
         ],
         "Effects": [
-            "Switch out your opponent's Active Pok\u00e9mon to the Bench. (Your opponent chooses the new Active Pok\u00e9mon.)"
+            "Switch out your opponent's Active Pok\u00e9mon to the Bench.\n(Your opponent chooses the new Active Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This gluttonous Pok\u00e9mon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This gluttonous Pok\u00e9mon only assists people with their work because it wants treats.\nAs it runs, it crackles with electricity.",
         "Illustrator": "Saya Tsuruta"
     },
     {
@@ -2780,7 +2875,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It sends electricity through its legs to boost their strength.\nRunning at top speed, it easily breaks 50 mph.",
         "Illustrator": "chibi"
     },
     {
@@ -2809,7 +2905,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Because its wings aren\u2019t yet fully grown, it has to hop to get around. It is always staring at something.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Because its wings aren\u2019t yet fully grown, it has to hop to get around.\nIt is always staring at something.",
         "Illustrator": "Sanosuke Sakuma"
     },
     {
@@ -2838,7 +2935,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This odd Pok\u00e9mon can see both the past and the future. It eyes the sun\u2019s movement all day.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This odd Pok\u00e9mon can see both the past and the future.\nIt eyes the sun\u2019s movement all day.",
         "Illustrator": "Masakazu Fukuda"
     },
     {
@@ -2863,10 +2961,11 @@
             "20x"
         ],
         "Effects": [
-            "Flip 2 coins. This attack does 20 damage for each heads."
+            "Flip 2 coins.\nThis attack does 20 damage for each heads."
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It loves to bite and yank people\u2019s hair from behind without warning, just to see their shocked reactions.",
         "Illustrator": "HYOGONOSUKE"
     },
@@ -2896,7 +2995,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its cries sound like incantations to torment the foe.\nIt appears where you least expect it.",
         "Illustrator": "NC Empire"
     },
     {
@@ -2921,10 +3021,11 @@
             "70"
         ],
         "Effects": [
-            "Discard a card from your hand. If you can't, this attack does nothing."
+            "Discard a card from your hand.\nIf you can't, this attack does nothing."
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Materials from gems it has eaten float to the surface of its body and can form an infinite number of patterns among individuals.",
         "Illustrator": "Hitoshi Ariga"
     },
@@ -2954,6 +3055,7 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -2979,11 +3081,12 @@
             "10+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 30 more damage."
+            "Flip a coin.\nIf heads, this attack does 30 more damage."
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Making itself invisible, it silently sneaks up to prey. It has the ability to slip through thick walls.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Making itself invisible, it silently sneaks up to prey.\nIt has the ability to slip through thick walls.",
         "Illustrator": "Naoki Saito"
     },
     {
@@ -3012,7 +3115,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It seeks drifting will-o\u2019-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It seeks drifting will-o\u2019-the-wisps and sucks them into its empty body.\nWhat happens inside is a mystery.",
         "Illustrator": "Kazuma Koda"
     },
     {
@@ -3026,7 +3130,7 @@
         "Type": "Psychic",
         "HP": "150",
         "Ability": "Fade into Darkness",
-        "Ability-Effect": "When this Pok\u00e9mon is Knocked Out, flip a coin. If heads, your opponent can't get any points for it.",
+        "Ability-Effect": "When this Pok\u00e9mon is Knocked Out, flip a coin.\nIf heads, your opponent can't get any points for it.",
         "Moves": [
             "Hammer In"
         ],
@@ -3041,7 +3145,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "With the mouth on its belly, Dusknoir swallows its target whole. The soul is the only thing eaten\u2014 Dusknoir disgorges the body before departing.",
+        "Ex-Rule": null,
+        "Flavor-Text": "With the mouth on its belly, Dusknoir swallows its target whole.\nThe soul is the only thing eaten\u2014 Dusknoir disgorges the body before departing.",
         "Illustrator": "nagimiso"
     },
     {
@@ -3070,6 +3175,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It is said to have the ability to grant any wish for just one week every thousand years.",
         "Illustrator": "Sanosuke Sakuma"
     },
@@ -3099,6 +3205,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Because of the way it floats aimlessly, an old folktale calls it a \u201csignpost for wandering spirits.\u201d",
         "Illustrator": "Asako Ito"
     },
@@ -3128,6 +3235,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "They carry people and Pok\u00e9mon, but the wind can catch them, so there can\u2019t be a fixed destination.",
         "Illustrator": "Yumi"
     },
@@ -3157,7 +3265,8 @@
         ],
         "Weakness": null,
         "Retreat-Cost": "0",
-        "Flavor-Text": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
+        "Ex-Rule": null,
+        "Flavor-Text": "There is an orb inside its mouth.\nWhen it hops, the orb bounces all over and makes a ringing sound.",
         "Illustrator": "Kagemaru Himeno"
     },
     {
@@ -3186,7 +3295,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "The spirit of a person from a bygone age became this Pok\u00e9mon. It rambles through ruins, searching for someone who knows its face.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The spirit of a person from a bygone age became this Pok\u00e9mon.\nIt rambles through ruins, searching for someone who knows its face.",
         "Illustrator": "Aya Kusube"
     },
     {
@@ -3211,11 +3321,12 @@
             "120"
         ],
         "Effects": [
-            "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing."
+            "Discard 2 cards from your hand.\nIf you can't discard 2 cards, this attack does nothing."
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "There are many depictions of Cofagrigus decorating ancient tombs. They\u2019re symbols of the wealth that kings of bygone eras had.",
+        "Ex-Rule": null,
+        "Flavor-Text": "There are many depictions of Cofagrigus decorating ancient tombs.\nThey\u2019re symbols of the wealth that kings of bygone eras had.",
         "Illustrator": "kawayoo"
     },
     {
@@ -3244,7 +3355,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Beware of touching the ribbon-shaped feelers that control its psychic power. Gothita will begin bawling if you do.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Beware of touching the ribbon-shaped feelers that control its psychic power.\nGothita will begin bawling if you do.",
         "Illustrator": "Atsuko Nishida"
     },
     {
@@ -3273,7 +3385,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Using its psychic power, it arranges pebbles to form the shapes of constellations. Some people believe this Pok\u00e9mon came from outer space.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Using its psychic power, it arranges pebbles to form the shapes of constellations.\nSome people believe this Pok\u00e9mon came from outer space.",
         "Illustrator": "sowsow"
     },
     {
@@ -3302,7 +3415,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It gazes at the stars to predict the future. It acts somewhat detached because it has seen the end of all existence.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It gazes at the stars to predict the future.\nIt acts somewhat detached because it has seen the end of all existence.",
         "Illustrator": "Eri Yamaki"
     },
     {
@@ -3331,7 +3445,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The scent its body gives off enraptures those who smell it. Noble ladies had no shortage of love for Spritzee.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The scent its body gives off enraptures those who smell it.\nNoble ladies had no shortage of love for Spritzee.",
         "Illustrator": "MAHOU"
     },
     {
@@ -3360,6 +3475,7 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "The scents Aromatisse can produce range from sweet smells that bolster allies to foul smells that sap an opponent\u2019s will to fight.",
         "Illustrator": "kirisAki"
     },
@@ -3389,7 +3505,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The sweet smell of cotton candy perfumes Swirlix\u2019s fluffy fur. This Pok\u00e9mon spits out sticky string to tangle up its enemies.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The sweet smell of cotton candy perfumes Swirlix\u2019s fluffy fur.\nThis Pok\u00e9mon spits out sticky string to tangle up its enemies.",
         "Illustrator": "Kurata So"
     },
     {
@@ -3418,6 +3535,7 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "Slurpuff\u2019s fur contains a lot of air, making it soft to the touch and lighter than it looks.",
         "Illustrator": "Mizue"
     },
@@ -3447,7 +3565,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It\u2019s said that somewhere in the world, there\u2019s a mineral vein housing a large pack of slumbering Carbink. It\u2019s also said that this pack has a queen.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s said that somewhere in the world, there\u2019s a mineral vein housing a large pack of slumbering Carbink.\nIt\u2019s also said that this pack has a queen.",
         "Illustrator": "Sanosuke Sakuma"
     },
     {
@@ -3461,7 +3580,7 @@
         "Type": "Psychic",
         "HP": "50",
         "Ability": "Dismantling Keys",
-        "Ability-Effect": "Once during your turn, if this Pok\u00e9mon is on your Bench, you may discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon. If you do, discard this Pok\u00e9mon.",
+        "Ability-Effect": "Once during your turn, if this Pok\u00e9mon is on your Bench, you may discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon.\nIf you do, discard this Pok\u00e9mon.",
         "Moves": [
             "Hook"
         ],
@@ -3476,7 +3595,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
+        "Ex-Rule": null,
+        "Flavor-Text": "In the past, noble families entrusted their vault keys to a Klefki.\nThey passed the Klefki down through the generations, taking good care of it.",
         "Illustrator": "Shigenori Negishi"
     },
     {
@@ -3505,6 +3625,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -3534,7 +3655,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It burrows into the ground to create its nest.\nIf hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
         "Illustrator": "Sekio"
     },
     {
@@ -3563,7 +3685,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It climbs trees by hooking on with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It climbs trees by hooking on with its sharp claws.\nSandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree.",
         "Illustrator": "Kyoko Umemoto"
     },
     {
@@ -3592,6 +3715,7 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -3621,7 +3745,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
-        "Flavor-Text": "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+        "Ex-Rule": null,
+        "Flavor-Text": "To avoid being attacked, it does nothing but mimic a tree.\nIt hates water and flees from rain.",
         "Illustrator": "Hitoshi Ariga"
     },
     {
@@ -3650,7 +3775,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It toughens up by slamming into thick trees over and over.\nIt gains a sturdy body and dauntless spirit.",
         "Illustrator": "Sachiko Adachi"
     },
     {
@@ -3679,7 +3805,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "4",
-        "Flavor-Text": "It stomps on the ground to build power. It can send a 10-ton truck flying with a straight-arm punch.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It stomps on the ground to build power.\nIt can send a 10-ton truck flying with a straight-arm punch.",
         "Illustrator": "Scav"
     },
     {
@@ -3708,7 +3835,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It shrouds itself in sand to ward off germs. It travels easily through the sands of the desert.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It shrouds itself in sand to ward off germs.\nIt travels easily through the sands of the desert.",
         "Illustrator": "Yuya Oka"
     },
     {
@@ -3733,11 +3861,12 @@
             "100"
         ],
         "Effects": [
-            "Flip a coin. If tails, during your next turn, this Pok\u00e9mon can't attack."
+            "Flip a coin.\nIf tails, during your next turn, this Pok\u00e9mon can't attack."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "4",
-        "Flavor-Text": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It brandishes its gaping mouth in a display of fearsome strength.\nIt raises vast quantities of sand while attacking.",
         "Illustrator": "Shigenori Negishi"
     },
     {
@@ -3766,6 +3895,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
         "Illustrator": "Masakazu Fukuda"
     },
@@ -3795,6 +3925,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Thanks to the special membrane covering its eyes, it can see its surroundings clearly, even in the middle of the night.",
         "Illustrator": "Naoki Saito"
     },
@@ -3820,10 +3951,11 @@
             "90"
         ],
         "Effects": [
-            "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+            "Flip a coin until you get tails.\nFor each heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "Its unique faculty of sight can detect small prey more than 30 miles away, even in the midst of a sandstorm.",
         "Illustrator": "Shiburingaru"
     },
@@ -3853,7 +3985,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Archen is said to be the ancestor of bird Pok\u00e9mon. It lived in treetops, eating berries and bug Pok\u00e9mon.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Archen is said to be the ancestor of bird Pok\u00e9mon.\nIt lived in treetops, eating berries and bug Pok\u00e9mon.",
         "Illustrator": "0313"
     },
     {
@@ -3878,10 +4011,11 @@
             null
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. During your next turn, this Pok\u00e9mon's Wild Spin attack does +20 damage to each of your opponent's Pok\u00e9mon."
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon.\nDuring your next turn, this Pok\u00e9mon's Wild Spin attack does +20 damage to each of your opponent's Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Though capable of flight, Archeops was apparently better at hunting on the ground.",
         "Illustrator": "Hasuno"
     },
@@ -3911,7 +4045,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "This Pok\u00e9mon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon was created from clay.\nIt received orders from its master many thousands of years ago, and it still follows those orders to this day.",
         "Illustrator": "Shin Nagasawa"
     },
     {
@@ -3936,10 +4071,11 @@
             "60x"
         ],
         "Effects": [
-            "Reveal the top 3 cards of your deck. This attack does 60 damage for each Pok\u00e9mon with a Retreat Cost of 3 or more you find there. Shuffle the revealed cards back into your deck."
+            "Reveal the top 3 cards of your deck.\nThis attack does 60 damage for each Pok\u00e9mon with a Retreat Cost of 3 or more you find there.\nShuffle the revealed cards back into your deck."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "There\u2019s a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn\u2019t been proven.",
         "Illustrator": "Anesaki Dynamic"
     },
@@ -3969,7 +4105,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pok\u00e9mon.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has phenomenal power.\nIt will mercilessly crush anyone or anything that bullies small Pok\u00e9mon.",
         "Illustrator": "Takeshi Nakamura"
     },
     {
@@ -3998,7 +4135,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Wanting to make sure it\u2019s taken seriously, Pancham\u2019s always giving others a glare. But if it\u2019s not focusing, it ends up smiling.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Wanting to make sure it\u2019s taken seriously, Pancham\u2019s always giving others a glare.\nBut if it\u2019s not focusing, it ends up smiling.",
         "Illustrator": "match"
     },
     {
@@ -4027,7 +4165,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "2",
-        "Flavor-Text": "If it loses its pincers, they\u2019ll quickly regrow. The pincers are popular ingredients in paella since their shells produce a tasty soup stock.",
+        "Ex-Rule": null,
+        "Flavor-Text": "If it loses its pincers, they\u2019ll quickly regrow.\nThe pincers are popular ingredients in paella since their shells produce a tasty soup stock.",
         "Illustrator": "Akira Komayama"
     },
     {
@@ -4056,7 +4195,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Though its punches are powerful, this Pok\u00e9mon\u2019s movements are sluggish. It blows icy bubbles from its mouth to immobilize its opponents.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Though its punches are powerful, this Pok\u00e9mon\u2019s movements are sluggish.\nIt blows icy bubbles from its mouth to immobilize its opponents.",
         "Illustrator": "tetsuya koizumi"
     },
     {
@@ -4085,7 +4225,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "2",
-        "Flavor-Text": "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The way it protects itself by flailing its arms may be an adorable sight, but stay well away.\nThis is flailing that can snap thick tree trunks.",
         "Illustrator": "Kouki Saitou"
     },
     {
@@ -4114,7 +4255,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "3",
-        "Flavor-Text": "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The moves it uses to take down its prey would make a martial artist jealous.\nIt tucks subdued prey under its arms to carry them to its nest.",
         "Illustrator": "Shin Nagasawa"
     },
     {
@@ -4139,10 +4281,11 @@
             "20"
         ],
         "Effects": [
-            "During your opponent's next turn, if the Defending Pok\u00e9mon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
+            "During your opponent's next turn, if the Defending Pok\u00e9mon tries to use an attack, your opponent flips a coin.\nIf tails, that attack doesn't happen."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "It flings sand into the eyes of its prey and tries to close in on them while they\u2019re blinded, but since Sandygast is so slow, the prey tends to escape.",
         "Illustrator": "Yukiko Baba"
     },
@@ -4172,6 +4315,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
+        "Ex-Rule": null,
         "Flavor-Text": "From the hollows in its arms, it fires the bones of its victims, which are all dried up after being drained of their vitality.",
         "Illustrator": "Shibuzoh."
     },
@@ -4201,6 +4345,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Chunks of the surface of this Pok\u00e9mon\u2019s body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
         "Illustrator": "Misa Tsutsui"
     },
@@ -4230,6 +4375,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Due to the coal tar created inside it, the heap of coal on Carkol\u2019s back never falls apart, even when the Pok\u00e9mon rolls around at high speeds.",
         "Illustrator": "Uta"
     },
@@ -4259,7 +4405,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "4",
-        "Flavor-Text": "It\u2019s gentle usually but fearsome when angered. With a body that burns at over 2,700 degrees Fahrenheit, it crushes foes and turns them to ash.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s gentle usually but fearsome when angered.\nWith a body that burns at over 2,700 degrees Fahrenheit, it crushes foes and turns them to ash.",
         "Illustrator": "AKIRA EGAWA"
     },
     {
@@ -4288,6 +4435,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
         "Illustrator": "KEIICHIRO ITO"
     },
@@ -4317,6 +4465,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "A single cry from this nocturnal Pok\u00e9mon, and more than 100 of its Murkrow cronies will assemble.",
         "Illustrator": "Miki Tanaka"
     },
@@ -4342,10 +4491,11 @@
             "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+            "Flip a coin.\nIf heads, your opponent reveals their hand.\nChoose a Supporter card you find there and discard it."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Because of this Pok\u00e9mon\u2019s ability to detect danger, people mistook Absol as a bringer of doom.",
         "Illustrator": "nagimiso"
     },
@@ -4371,10 +4521,11 @@
             "80"
         ],
         "Effects": [
-            "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+            "Your opponent reveals their hand.\nChoose a Supporter card you find there and discard it."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -4404,7 +4555,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pok\u00e9mon\u2019s poison seeps in.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It attacks using the claws on its tail.\nOnce locked in its grip, its prey is unable to move as this Pok\u00e9mon\u2019s poison seeps in.",
         "Illustrator": "Sumiyoshi Kizuki"
     },
     {
@@ -4429,11 +4581,12 @@
             "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Poisoned and Paralyzed."
+            "Flip a coin.\nIf heads, your opponent's Active Pok\u00e9mon is now Poisoned and Paralyzed."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It\u2019s so vicious that it\u2019s called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s so vicious that it\u2019s called the Sand Demon.\nYet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight.",
         "Illustrator": "SATOSHI NAKAI"
     },
     {
@@ -4462,7 +4615,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It can lull people to sleep and make them dream.\nIt is active during nights of the new moon.",
         "Illustrator": "Uta"
     },
     {
@@ -4491,7 +4645,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It nests deep inside a cave. Food there is scarce, so Deino will sink its teeth into anything that moves and attempt to eat it.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It nests deep inside a cave.\nFood there is scarce, so Deino will sink its teeth into anything that moves and attempt to eat it.",
         "Illustrator": "HYOGONOSUKE"
     },
     {
@@ -4520,7 +4675,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
-        "Flavor-Text": "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The two heads have different likes and dislikes.\nBecause the heads fight with each other, Zweilous gets stronger without needing to rely on others.",
         "Illustrator": "kodama"
     },
     {
@@ -4534,7 +4690,7 @@
         "Type": "Darkness",
         "HP": "150",
         "Ability": "Roar in Unison",
-        "Ability-Effect": "Once during your turn, you may take 2 [D] Energy from your Energy Zone and attach it to this Pok\u00e9mon. If you do, do 30 damage to this Pok\u00e9mon.",
+        "Ability-Effect": "Once during your turn, you may take 2 [D] Energy from your Energy Zone and attach it to this Pok\u00e9mon.\nIf you do, do 30 damage to this Pok\u00e9mon.",
         "Moves": [
             "Hyper Ray"
         ],
@@ -4549,6 +4705,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "It\u2019s said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly.",
         "Illustrator": "hatachu"
     },
@@ -4578,7 +4735,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Using its leaf, Pangoro can predict the moves of its opponents.\nIt strikes with punches that can turn a dump truck into scrap with just one hit.",
         "Illustrator": "Uta"
     },
     {
@@ -4607,7 +4765,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This Pok\u00e9mon is a poor swimmer. If it\u2019s caught in a fierce storm, it will sometimes get washed far away and become unable to return to its home.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon is a poor swimmer.\nIf it\u2019s caught in a fierce storm, it will sometimes get washed far away and become unable to return to its home.",
         "Illustrator": "Mina Nakai"
     },
     {
@@ -4636,6 +4795,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -4665,7 +4825,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It has excellent regenerative capabilities. Legs that a Mareanie has lost have a very bitter, astringent flavor\u2014they\u2019re not suitable as food.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has excellent regenerative capabilities.\nLegs that a Mareanie has lost have a very bitter, astringent flavor\u2014they\u2019re not suitable as food.",
         "Illustrator": "Aya Kusube"
     },
     {
@@ -4694,6 +4855,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Toxapex gets into fierce battles with Bruxish over areas where warm ocean currents flow, but the odds are always against it.",
         "Illustrator": "Ligton"
     },
@@ -4723,6 +4885,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "They live in groups, pestering and playing pranks on each other to polish their troublemaking skills.",
         "Illustrator": "Rianti Hidayat"
     },
@@ -4752,7 +4915,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
-        "Flavor-Text": "This Pok\u00e9mon absorbs negative emotions and turns them into energy. It\u2019s popular with people who tend to think gloomy thoughts.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon absorbs negative emotions and turns them into energy.\nIt\u2019s popular with people who tend to think gloomy thoughts.",
         "Illustrator": "Hitoshi Ariga"
     },
     {
@@ -4781,7 +4945,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It lives deep within the forest. Even after evolving into this splendid form, it hasn\u2019t given up on its petty misdeeds and pranks.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lives deep within the forest.\nEven after evolving into this splendid form, it hasn\u2019t given up on its petty misdeeds and pranks.",
         "Illustrator": "DOM"
     },
     {
@@ -4810,7 +4975,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed\u2019s spikes grow big and strong.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Mossy caves are their preferred dwellings.\nEnzymes contained in mosses help Ferroseed\u2019s spikes grow big and strong.",
         "Illustrator": "ryoma uratsuka"
     },
     {
@@ -4839,7 +5005,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Its spikes are harder than steel. This Pok\u00e9mon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its spikes are harder than steel.\nThis Pok\u00e9mon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
         "Illustrator": "Hasuno"
     },
     {
@@ -4868,7 +5035,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles.",
+        "Ex-Rule": null,
+        "Flavor-Text": "They lay their eggs deep inside their nests.\nWhen attacked by Heatmor, they retaliate using their massive mandibles.",
         "Illustrator": "kodama"
     },
     {
@@ -4897,7 +5065,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pok\u00e9mon.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has a body and heart of steel.\nIt worked with its allies to punish people when they hurt Pok\u00e9mon.",
         "Illustrator": "Takeshi Nakamura"
     },
     {
@@ -4926,7 +5095,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The blue eye on the sword\u2019s handguard is the true body of Honedge. With its old cloth, it drains people\u2019s lives away.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The blue eye on the sword\u2019s handguard is the true body of Honedge.\nWith its old cloth, it drains people\u2019s lives away.",
         "Illustrator": "Suwama Chiaki"
     },
     {
@@ -4955,6 +5125,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
         "Illustrator": "Hajime Kusajima"
     },
@@ -4984,7 +5155,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Once upon a time, a king with an Aegislash reigned over the land. His Pok\u00e9mon eventually drained him of life, and his kingdom fell with him.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Once upon a time, a king with an Aegislash reigned over the land.\nHis Pok\u00e9mon eventually drained him of life, and his kingdom fell with him.",
         "Illustrator": "miki kudo"
     },
     {
@@ -5013,7 +5185,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It dissolves and eats metal.\nCirculating liquid metal within its body is how it generates energy.",
         "Illustrator": "Sumiyoshi Kizuki"
     },
     {
@@ -5046,6 +5219,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -5071,10 +5245,11 @@
             "100"
         ],
         "Effects": [
-            "Discard 2 [M] Energy from this Pok\u00e9mon. During your opponent's next turn, this Pok\u00e9mon takes \u221250 damage from attacks."
+            "Discard 2 [M] Energy from this Pok\u00e9mon.\nDuring your opponent's next turn, this Pok\u00e9mon takes \u221250 damage from attacks."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Although its wings have partly turned to steel and become heavy as a result, this Pok\u00e9mon flies through the skies with ease.",
         "Illustrator": "Ryuta Fuse"
     },
@@ -5100,11 +5275,12 @@
             "120"
         ],
         "Effects": [
-            "Flip 2 coins. If both of them are tails, this attack does nothing."
+            "Flip 2 coins.\nIf both of them are tails, this attack does nothing."
         ],
         "Weakness": null,
         "Retreat-Cost": "2",
-        "Flavor-Text": "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pok\u00e9mon, treating the stolen nests as their own lairs.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Druddigon are vicious and cunning.\nThey take up residence in nests dug out by other Pok\u00e9mon, treating the stolen nests as their own lairs.",
         "Illustrator": "hatachu"
     },
     {
@@ -5133,7 +5309,8 @@
         ],
         "Weakness": null,
         "Retreat-Cost": "1",
-        "Flavor-Text": "Goomy\u2019s horns are excellent sensory organs that cover all five of Goomy\u2019s senses. Goomy picks up on danger from the movement of the air.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Goomy\u2019s horns are excellent sensory organs that cover all five of Goomy\u2019s senses.\nGoomy picks up on danger from the movement of the air.",
         "Illustrator": "Midori Harada"
     },
     {
@@ -5162,6 +5339,7 @@
         ],
         "Weakness": null,
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "When Sliggoo senses danger, the mucus coating its entire body becomes more concentrated\u2014 it\u2019ll dissolve anything.",
         "Illustrator": "Atsuko Nishida"
     },
@@ -5191,7 +5369,8 @@
         ],
         "Weakness": null,
         "Retreat-Cost": "3",
-        "Flavor-Text": "This Pok\u00e9mon is uncontrollable when enraged. It rampages on and on, lashing its tail with enough power to send a dump truck flying.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon is uncontrollable when enraged.\nIt rampages on and on, lashing its tail with enough power to send a dump truck flying.",
         "Illustrator": "Nagomi Nijo"
     },
     {
@@ -5220,7 +5399,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is docile and prefers to avoid conflict.\nIf disturbed, however, it can ferociously strike back.",
         "Illustrator": "kodama"
     },
     {
@@ -5249,6 +5429,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Very protective of its sprawling territorial area, this Pok\u00e9mon will fiercely peck at any intruder.",
         "Illustrator": "Mizue"
     },
@@ -5274,11 +5455,12 @@
             "80"
         ],
         "Effects": [
-            "Flip 2 coins. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon. If both of them are tails, this attack does nothing."
+            "Flip 2 coins.\nFor each heads, discard a random Energy from your opponent's Active Pok\u00e9mon.\nIf both of them are tails, this attack does nothing."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It spreads its gorgeous wings widely to intimidate enemies.\nIt races through the skies at Mach-2 speed.",
         "Illustrator": "Akira Komayama"
     },
     {
@@ -5303,10 +5485,11 @@
             "90"
         ],
         "Effects": [
-            "Flip a coin. If tails, this Pok\u00e9mon also does 30 damage to itself."
+            "Flip a coin.\nIf tails, this Pok\u00e9mon also does 30 damage to itself."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -5336,7 +5519,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its genetic code is irregular.\nIt may mutate if it is exposed to radiation from element stones.",
         "Illustrator": "MAHOU"
     },
     {
@@ -5361,11 +5545,12 @@
             "40"
         ],
         "Effects": [
-            "Flip a coin. If tails, this attack does nothing."
+            "Flip a coin.\nIf tails, this attack does nothing."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It searches for prey from the tops of trees.\nWhen it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
         "Illustrator": "Kagemaru Himeno"
     },
     {
@@ -5390,11 +5575,12 @@
             "30x"
         ],
         "Effects": [
-            "Flip 2 coins. This attack does 30 damage for each heads. If this Pok\u00e9mon has Lucky Mittens attached, flip 4 coins instead."
+            "Flip 2 coins.\nThis attack does 30 damage for each heads.\nIf this Pok\u00e9mon has Lucky Mittens attached, flip 4 coins instead."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that\u2019s proof it really likes you.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It uses its tails for everything.\nIf it wraps both of its tails around you and gives you a squeeze, that\u2019s proof it really likes you.",
         "Illustrator": "Kouki Saitou"
     },
     {
@@ -5419,11 +5605,12 @@
             "40"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+            "Flip a coin.\nIf heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
-        "Flavor-Text": "This Pok\u00e9mon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon needs to be milked every day, or else it will fall ill.\nThe flavor of Miltank milk changes with the seasons.",
         "Illustrator": "saino misaki"
     },
     {
@@ -5452,7 +5639,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "A Pok\u00e9mon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
+        "Ex-Rule": null,
+        "Flavor-Text": "A Pok\u00e9mon with abundant curiosity.\nIt shows an interest in everything, so it always zigzags.",
         "Illustrator": "Sumiyoshi Kizuki"
     },
     {
@@ -5481,7 +5669,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It uses its explosive speed and razor-sharp claws to bring down prey.\nRunning along winding paths is not its strong suit.",
         "Illustrator": "match"
     },
     {
@@ -5510,7 +5699,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "When Whismur cries, the sound of its own voice startles it, making the Pok\u00e9mon cry even louder. It cries until it\u2019s exhausted, then it falls asleep.",
+        "Ex-Rule": null,
+        "Flavor-Text": "When Whismur cries, the sound of its own voice startles it, making the Pok\u00e9mon cry even louder.\nIt cries until it\u2019s exhausted, then it falls asleep.",
         "Illustrator": "Tika Matsuno"
     },
     {
@@ -5539,6 +5729,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "The force of this Pok\u00e9mon\u2019s loud voice isn\u2019t just the sound\u2014it\u2019s also the wave of air pressure that blows opponents away and damages them.",
         "Illustrator": "MAHOU"
     },
@@ -5568,7 +5759,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "3",
-        "Flavor-Text": "This Pok\u00e9mon can do more than just shout. To communicate with others of its kind, it\u2019ll emit all sorts of sounds from the holes in its body.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon can do more than just shout.\nTo communicate with others of its kind, it\u2019ll emit all sorts of sounds from the holes in its body.",
         "Illustrator": "kawayoo"
     },
     {
@@ -5593,10 +5785,11 @@
             "10+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 30 more damage."
+            "Flip a coin.\nIf heads, this attack does 30 more damage."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It shows its cute side by chasing its own tail until it gets dizzy.",
         "Illustrator": "Saya Tsuruta"
     },
@@ -5626,7 +5819,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is highly popular among female Trainers for its sublime fur.\nIt does not keep a nest.",
         "Illustrator": "Sekio"
     },
     {
@@ -5655,7 +5849,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Each Spinda\u2019s spot pattern is different. With its stumbling movements, it evades opponents\u2019 attacks brilliantly!",
+        "Ex-Rule": null,
+        "Flavor-Text": "Each Spinda\u2019s spot pattern is different.\nWith its stumbling movements, it evades opponents\u2019 attacks brilliantly!",
         "Illustrator": "Shigenori Negishi"
     },
     {
@@ -5684,7 +5879,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It can\u2019t relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It can\u2019t relax if it or its surroundings are not clean.\nIt wipes off dirt with its wings.",
         "Illustrator": "Kanako Eo"
     },
     {
@@ -5713,7 +5909,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+        "Ex-Rule": null,
+        "Flavor-Text": "On sunny days, it flies freely through the sky and blends into the clouds.\nIt sings in a beautiful soprano.",
         "Illustrator": "sui"
     },
     {
@@ -5742,7 +5939,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It can learn and speak human words. If they gather, they all learn the same saying.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It can learn and speak human words.\nIf they gather, they all learn the same saying.",
         "Illustrator": "Shimaris Yukichi"
     },
     {
@@ -5771,6 +5969,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Extremely cautious, one of them will always be on the lookout, but it won\u2019t notice a foe coming from behind.",
         "Illustrator": "Kyoko Umemoto"
     },
@@ -5796,10 +5995,11 @@
             "40+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 40 more damage."
+            "Flip a coin.\nIf heads, this attack does 40 more damage."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
         "Illustrator": "MAHOU"
     },
@@ -5829,6 +6029,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "This Pok\u00e9mon is far brighter than the average child, and Lillipup won\u2019t forget the love it receives or any abuse it suffers.",
         "Illustrator": "Sekio"
     },
@@ -5858,7 +6059,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The black fur that covers this Pok\u00e9mon\u2019s body is dense and springy. Even sharp fangs bounce right off.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The black fur that covers this Pok\u00e9mon\u2019s body is dense and springy.\nEven sharp fangs bounce right off.",
         "Illustrator": "sui"
     },
     {
@@ -5887,7 +6089,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Stoutland is immensely proud of its impressive moustache. It\u2019s said that moustache length is what determines social standing among this species.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Stoutland is immensely proud of its impressive moustache.\nIt\u2019s said that moustache length is what determines social standing among this species.",
         "Illustrator": "Shin Nagasawa"
     },
     {
@@ -5916,7 +6119,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "With its sharp claws, this Pok\u00e9mon pierces its prey, and then it pecks at them. Although it also consumes berries, it\u2019s a carnivore at heart.",
+        "Ex-Rule": null,
+        "Flavor-Text": "With its sharp claws, this Pok\u00e9mon pierces its prey, and then it pecks at them.\nAlthough it also consumes berries, it\u2019s a carnivore at heart.",
         "Illustrator": "Naoyo Kimura"
     },
     {
@@ -5945,6 +6149,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
         "Illustrator": "chibi"
     },
@@ -5974,6 +6179,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
         "Illustrator": "Teeziro"
     },
@@ -6003,6 +6209,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
         "Illustrator": "Tika Matsuno"
     },
@@ -6032,6 +6239,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
         "Illustrator": "kawayoo"
     },
@@ -6061,7 +6269,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "The females are fussier than the males. If another creature dirties a female Rookidee\u2019s wings, it\u2019ll peck the offender relentlessly in a burning rage.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The females are fussier than the males.\nIf another creature dirties a female Rookidee\u2019s wings, it\u2019ll peck the offender relentlessly in a burning rage.",
         "Illustrator": "OKACHEKE"
     },
     {
@@ -6090,6 +6299,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "This intelligent Pok\u00e9mon will quickly learn how to use any tool it can hold in its beak or its talons.",
         "Illustrator": "Anesaki Dynamic"
     },
@@ -6115,11 +6325,12 @@
             "40x"
         ],
         "Effects": [
-            "Flip a coin until you get tails. This attack does 40 damage for each heads."
+            "Flip a coin until you get tails.\nThis attack does 40 damage for each heads."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
-        "Flavor-Text": "If its fleece grows too long, Wooloo won\u2019t be able to move. Cloth made with the wool of this Pok\u00e9mon is surprisingly strong.",
+        "Ex-Rule": null,
+        "Flavor-Text": "If its fleece grows too long, Wooloo won\u2019t be able to move.\nCloth made with the wool of this Pok\u00e9mon is surprisingly strong.",
         "Illustrator": "Yoko Hishida"
     },
     {
@@ -6148,7 +6359,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its majestic horns are meant only to impress the opposite gender.\nThey never see use in battle.",
         "Illustrator": "You Iribi"
     },
     {
@@ -6317,7 +6529,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey\u2019s fluids.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has an aggressive nature.\nIt stabs prey with its long, narrow mouth to drain the prey\u2019s fluids.",
         "Illustrator": "tono"
     },
     {
@@ -6346,6 +6559,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "As long as it has sunlight and water, Skiddo can make energy with the leaves on its body, allowing it to live on rocky mountains barren of food.",
         "Illustrator": "Shinya Komatsu"
     },
@@ -6360,7 +6574,7 @@
         "Type": "Grass",
         "HP": "150",
         "Ability": "Captivating Rhythm",
-        "Ability-Effect": "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
+        "Ability-Effect": "Once during your turn, you may flip a coin.\nIf heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
         "Moves": [
             "Drum Rush"
         ],
@@ -6375,7 +6589,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
-        "Flavor-Text": "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The one with the best drumming techniques becomes the boss of the troop.\nIt has a gentle disposition and values harmony among its group.",
         "Illustrator": "osare"
     },
     {
@@ -6404,7 +6619,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It\u2019s very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s very friendly and faithful to people.\nIt will try to repel enemies by barking and biting.",
         "Illustrator": "Yuu Nishida"
     },
     {
@@ -6433,6 +6649,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence\u2014 or so it\u2019s said.",
         "Illustrator": "REND"
     },
@@ -6462,6 +6679,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
         "Illustrator": "Tetsu Kayama"
     },
@@ -6491,6 +6709,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "If it hears festive music, it begins moving in rhythm in order to amplify its power.",
         "Illustrator": "Shimaris Yukichi"
     },
@@ -6520,6 +6739,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear.",
         "Illustrator": "Haru Akasaka"
     },
@@ -6549,7 +6769,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It crosses the world, running over the surfaces of oceans and rivers.\nIt appears at scenic waterfronts.",
         "Illustrator": "Narumi Sato"
     },
     {
@@ -6578,7 +6799,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "If you lick the ice covering its face, you\u2019ll find it has a faintly salty taste. This species rode here on ocean currents from a cold, faraway land.",
+        "Ex-Rule": null,
+        "Flavor-Text": "If you lick the ice covering its face, you\u2019ll find it has a faintly salty taste.\nThis species rode here on ocean currents from a cold, faraway land.",
         "Illustrator": "M\u00e9kayu"
     },
     {
@@ -6607,6 +6829,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "0",
+        "Ex-Rule": null,
         "Flavor-Text": "Luxray\u2019s ability to see through objects comes in handy when it\u2019s scouting for danger.",
         "Illustrator": "GIDORA"
     },
@@ -6632,11 +6855,12 @@
             "120"
         ],
         "Effects": [
-            "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing."
+            "Discard 2 cards from your hand.\nIf you can't discard 2 cards, this attack does nothing."
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "There are many depictions of Cofagrigus decorating ancient tombs. They\u2019re symbols of the wealth that kings of bygone eras had.",
+        "Ex-Rule": null,
+        "Flavor-Text": "There are many depictions of Cofagrigus decorating ancient tombs.\nThey\u2019re symbols of the wealth that kings of bygone eras had.",
         "Illustrator": "Apios"
     },
     {
@@ -6665,7 +6889,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Beware of touching the ribbon-shaped feelers that control its psychic power. Gothita will begin bawling if you do.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Beware of touching the ribbon-shaped feelers that control its psychic power.\nGothita will begin bawling if you do.",
         "Illustrator": "Orca"
     },
     {
@@ -6694,7 +6919,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It toughens up by slamming into thick trees over and over.\nIt gains a sturdy body and dauntless spirit.",
         "Illustrator": "Koji Nakata"
     },
     {
@@ -6719,11 +6945,12 @@
             "100"
         ],
         "Effects": [
-            "Flip a coin. If tails, during your next turn, this Pok\u00e9mon can't attack."
+            "Flip a coin.\nIf tails, during your next turn, this Pok\u00e9mon can't attack."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "4",
-        "Flavor-Text": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It brandishes its gaping mouth in a display of fearsome strength.\nIt raises vast quantities of sand while attacking.",
         "Illustrator": "Teeziro"
     },
     {
@@ -6748,10 +6975,11 @@
             null
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. During your next turn, this Pok\u00e9mon's Wild Spin attack does +20 damage to each of your opponent's Pok\u00e9mon."
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon.\nDuring your next turn, this Pok\u00e9mon's Wild Spin attack does +20 damage to each of your opponent's Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Though capable of flight, Archeops was apparently better at hunting on the ground.",
         "Illustrator": "OKUBO"
     },
@@ -6781,7 +7009,8 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "1",
-        "Flavor-Text": "Wanting to make sure it\u2019s taken seriously, Pancham\u2019s always giving others a glare. But if it\u2019s not focusing, it ends up smiling.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Wanting to make sure it\u2019s taken seriously, Pancham\u2019s always giving others a glare.\nBut if it\u2019s not focusing, it ends up smiling.",
         "Illustrator": "Yukihiro Tada"
     },
     {
@@ -6810,6 +7039,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "A single cry from this nocturnal Pok\u00e9mon, and more than 100 of its Murkrow cronies will assemble.",
         "Illustrator": "IKEDA Saki"
     },
@@ -6824,7 +7054,7 @@
         "Type": "Darkness",
         "HP": "150",
         "Ability": "Roar in Unison",
-        "Ability-Effect": "Once during your turn, you may take 2 [D] Energy from your Energy Zone and attach it to this Pok\u00e9mon. If you do, do 30 damage to this Pok\u00e9mon.",
+        "Ability-Effect": "Once during your turn, you may take 2 [D] Energy from your Energy Zone and attach it to this Pok\u00e9mon.\nIf you do, do 30 damage to this Pok\u00e9mon.",
         "Moves": [
             "Hyper Ray"
         ],
@@ -6839,6 +7069,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "It\u2019s said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly.",
         "Illustrator": "matazo"
     },
@@ -6864,10 +7095,11 @@
             "100"
         ],
         "Effects": [
-            "Discard 2 [M] Energy from this Pok\u00e9mon. During your opponent's next turn, this Pok\u00e9mon takes \u221250 damage from attacks."
+            "Discard 2 [M] Energy from this Pok\u00e9mon.\nDuring your opponent's next turn, this Pok\u00e9mon takes \u221250 damage from attacks."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Although its wings have partly turned to steel and become heavy as a result, this Pok\u00e9mon flies through the skies with ease.",
         "Illustrator": "hncl"
     },
@@ -6897,7 +7129,8 @@
         ],
         "Weakness": null,
         "Retreat-Cost": "1",
-        "Flavor-Text": "Goomy\u2019s horns are excellent sensory organs that cover all five of Goomy\u2019s senses. Goomy picks up on danger from the movement of the air.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Goomy\u2019s horns are excellent sensory organs that cover all five of Goomy\u2019s senses.\nGoomy picks up on danger from the movement of the air.",
         "Illustrator": "Kariya"
     },
     {
@@ -6926,7 +7159,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is highly popular among female Trainers for its sublime fur.\nIt does not keep a nest.",
         "Illustrator": "MINAMINAMI Take"
     },
     {
@@ -6955,7 +7189,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "3",
-        "Flavor-Text": "Stoutland is immensely proud of its impressive moustache. It\u2019s said that moustache length is what determines social standing among this species.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Stoutland is immensely proud of its impressive moustache.\nIt\u2019s said that moustache length is what determines social standing among this species.",
         "Illustrator": "Whisker"
     },
     {
@@ -6984,7 +7219,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "With its sharp claws, this Pok\u00e9mon pierces its prey, and then it pecks at them. Although it also consumes berries, it\u2019s a carnivore at heart.",
+        "Ex-Rule": null,
+        "Flavor-Text": "With its sharp claws, this Pok\u00e9mon pierces its prey, and then it pecks at them.\nAlthough it also consumes berries, it\u2019s a carnivore at heart.",
         "Illustrator": "Saboteri"
     },
     {
@@ -7009,10 +7245,11 @@
             "80+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 70 more damage."
+            "Flip a coin.\nIf heads, this attack does 70 more damage."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7042,6 +7279,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7071,6 +7309,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7096,10 +7335,11 @@
             "120"
         ],
         "Effects": [
-            "Discard a [R] Energy from this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Burned."
+            "Discard a [R] Energy from this Pok\u00e9mon.\nYour opponent's Active Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -7129,6 +7369,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -7158,6 +7399,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Saito"
     },
@@ -7187,6 +7429,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7212,10 +7455,11 @@
             "100"
         ],
         "Effects": [
-            "1 of your opponent's Benched Pok\u00e9mon is chosen at random 3 times. For each time a Pok\u00e9mon was chosen, also do 20 damage to it."
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random 3 times.\nFor each time a Pok\u00e9mon was chosen, also do 20 damage to it."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7245,6 +7489,7 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -7274,6 +7519,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7303,6 +7549,7 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7328,10 +7575,11 @@
             "80"
         ],
         "Effects": [
-            "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+            "Your opponent reveals their hand.\nChoose a Supporter card you find there and discard it."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7361,6 +7609,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7394,6 +7643,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7419,10 +7669,11 @@
             "90"
         ],
         "Effects": [
-            "Flip a coin. If tails, this Pok\u00e9mon also does 30 damage to itself."
+            "Flip a coin.\nIf tails, this Pok\u00e9mon also does 30 damage to itself."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -7508,10 +7759,11 @@
             "80+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 70 more damage."
+            "Flip a coin.\nIf heads, this attack does 70 more damage."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "Krgc"
     },
@@ -7541,6 +7793,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "Kanami Ogata"
     },
@@ -7570,6 +7823,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "Kuroimori"
     },
@@ -7599,6 +7853,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "Raita Kazama"
     },
@@ -7628,6 +7883,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "kodama"
     },
@@ -7653,10 +7909,11 @@
             "100"
         ],
         "Effects": [
-            "1 of your opponent's Benched Pok\u00e9mon is chosen at random 3 times. For each time a Pok\u00e9mon was chosen, also do 20 damage to it."
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random 3 times.\nFor each time a Pok\u00e9mon was chosen, also do 20 damage to it."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "Amelicart"
     },
@@ -7686,6 +7943,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "Keisin"
     },
@@ -7715,6 +7973,7 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "nagimiso"
     },
@@ -7740,10 +7999,11 @@
             "80"
         ],
         "Effects": [
-            "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+            "Your opponent reveals their hand.\nChoose a Supporter card you find there and discard it."
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "kawayoo"
     },
@@ -7773,6 +8033,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "Shinji Kanda"
     },
@@ -7806,6 +8067,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "toriyufu"
     },
@@ -7831,10 +8093,11 @@
             "90"
         ],
         "Effects": [
-            "Flip a coin. If tails, this Pok\u00e9mon also does 30 damage to itself."
+            "Flip a coin.\nIf tails, this Pok\u00e9mon also does 30 damage to itself."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "Ounishi"
     },
@@ -7860,10 +8123,11 @@
             "120"
         ],
         "Effects": [
-            "Discard a [R] Energy from this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Burned."
+            "Discard a [R] Energy from this Pok\u00e9mon.\nYour opponent's Active Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "AKIRA EGAWA"
     },
@@ -7893,6 +8157,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "danciao"
     },
@@ -7922,6 +8187,7 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
         "Flavor-Text": null,
         "Illustrator": "Susumu Maeya"
     },
@@ -7951,6 +8217,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
         "Illustrator": "MAHOU"
     },
@@ -7980,7 +8247,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
-        "Flavor-Text": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+        "Ex-Rule": null,
+        "Flavor-Text": "The leafy parts act as cutters for slashing foes.\nIt spits a fluid that dissolves everything.",
         "Illustrator": "MAHOU"
     },
     {
@@ -8009,6 +8277,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
         "Illustrator": "MAHOU"
     },
@@ -8038,7 +8307,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It sends its feathers, which are as sharp as blades, flying in attack.\nIts legs are strong, so its kicks are also formidable.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8067,7 +8337,8 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This narcissistic Pok\u00e9mon is a clean freak. If you don\u2019t groom it diligently, it may stop listening to you.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This narcissistic Pok\u00e9mon is a clean freak.\nIf you don\u2019t groom it diligently, it may stop listening to you.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8092,11 +8363,12 @@
             "130"
         ],
         "Effects": [
-            "Flip a coin. If tails, this attack does nothing."
+            "Flip a coin.\nIf tails, this attack does nothing."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It\u2019s one of the legendary bird Pok\u00e9mon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s one of the legendary bird Pok\u00e9mon.\nWhen Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8125,7 +8397,8 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
-        "Flavor-Text": "If you try too hard to get close to it, it won\u2019t open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
+        "Ex-Rule": null,
+        "Flavor-Text": "If you try too hard to get close to it, it won\u2019t open up to you.\nEven if you do grow close, giving it too much affection is still a no-no.",
         "Illustrator": "whomor Inc."
     },
     {
@@ -8154,6 +8427,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Torracat will let its Trainer coddle it once they\u2019ve grown close, but it\u2019s a powerful, sharp-clawed Pok\u00e9mon, so its Trainer gets covered in scratches.",
         "Illustrator": "whomor Inc."
     },
@@ -8183,7 +8457,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pok\u00e9mon\u2019s innards showing through the skin.",
+        "Ex-Rule": null,
+        "Flavor-Text": "For Poliwag, swimming is easier than walking.\nThe swirl pattern on its belly is actually part of the Pok\u00e9mon\u2019s innards showing through the skin.",
         "Illustrator": "MAHOU"
     },
     {
@@ -8212,7 +8487,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl\u2019s has been used in place of lullabies to get children to go to sleep.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Staring at the swirl on its belly causes drowsiness.\nThis trait of Poliwhirl\u2019s has been used in place of lullabies to get children to go to sleep.",
         "Illustrator": "MAHOU"
     },
     {
@@ -8241,7 +8517,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its body is solid muscle.\nWhen swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
         "Illustrator": "MAHOU"
     },
     {
@@ -8266,11 +8543,12 @@
             "60"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+            "Flip a coin.\nIf heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It\u2019s said that this Pok\u00e9mon\u2019s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s said that this Pok\u00e9mon\u2019s beautiful blue wings are made of ice.\nArticuno flies over snowy mountains, its long tail fluttering along behind it.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8295,10 +8573,11 @@
             null
         ],
         "Effects": [
-            "Choose 2 of your Benched Pok\u00e9mon. For each of those Pok\u00e9mon, take a [W] Energy from your Energy Zone and attach it to that Pok\u00e9mon."
+            "Choose 2 of your Benched Pok\u00e9mon.\nFor each of those Pok\u00e9mon, take a [W] Energy from your Energy Zone and attach it to that Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "It is born with a wondrous power that lets it bond with any kind of Pok\u00e9mon.",
         "Illustrator": "MAHOU"
     },
@@ -8328,6 +8607,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "The balloons it inflates with its nose grow larger and larger as it practices day by day.",
         "Illustrator": "Taiga Kasai"
     },
@@ -8357,7 +8637,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It gets excited when it sees a dance it doesn\u2019t know. This hard worker practices diligently until it can learn that dance.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It gets excited when it sees a dance it doesn\u2019t know.\nThis hard worker practices diligently until it can learn that dance.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8386,7 +8667,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This Pok\u00e9mon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon has complete control over electricity.\nThere are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8415,7 +8697,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This form of Oricorio has sipped yellow nectar. It uses nimble steps to approach opponents, then knocks them out with electric punches.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This form of Oricorio has sipped yellow nectar.\nIt uses nimble steps to approach opponents, then knocks them out with electric punches.",
         "Illustrator": "whomor Inc."
     },
     {
@@ -8444,7 +8727,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they\u2019ll be electrocuted by the flying sparks.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It electrifies its claws and tears its opponents apart with them.\nEven if they dodge its attack, they\u2019ll be electrocuted by the flying sparks.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8473,7 +8757,8 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
-        "Flavor-Text": "It remembers every dream it eats. It rarely eats the dreams of adults because children\u2019s are much tastier.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It remembers every dream it eats.\nIt rarely eats the dreams of adults because children\u2019s are much tastier.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8487,7 +8772,7 @@
         "Type": "Psychic",
         "HP": "100",
         "Ability": "Sleep Pendulum",
-        "Ability-Effect": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Asleep.",
+        "Ability-Effect": "Once during your turn, you may flip a coin.\nIf heads, your opponent's Active Pok\u00e9mon is now Asleep.",
         "Moves": [
             "Psypunch"
         ],
@@ -8502,6 +8787,7 @@
         ],
         "Weakness": "Darkness",
         "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
         "Illustrator": "Taiga Kasai"
     },
@@ -8531,7 +8817,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
-        "Flavor-Text": "Geodude that have lived a long life have had all their edges smoothed out until they\u2019re totally round. They also have a calm, quiet disposition.",
+        "Ex-Rule": null,
+        "Flavor-Text": "Geodude that have lived a long life have had all their edges smoothed out until they\u2019re totally round.\nThey also have a calm, quiet disposition.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8560,7 +8847,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
+        "Ex-Rule": null,
+        "Flavor-Text": "It climbs up cliffs as it heads toward the peak of a mountain.\nAs soon as it reaches the summit, it rolls back down the way it came.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8589,7 +8877,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "3",
-        "Flavor-Text": "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
+        "Ex-Rule": null,
+        "Flavor-Text": "When Golem grow old, they stop shedding their shells.\nThose that have lived a long, long time have shells green with moss.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8618,7 +8907,8 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "1",
-        "Flavor-Text": "This Pok\u00e9mon is very friendly when it\u2019s young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon is very friendly when it\u2019s young.\nIts disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8647,6 +8937,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "The metal-rich geology of this Pok\u00e9mon\u2019s habitat caused it to develop steel whiskers on its head.",
         "Illustrator": "Souichirou Gunjima"
     },
@@ -8676,7 +8967,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
-        "Flavor-Text": "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+        "Ex-Rule": null,
+        "Flavor-Text": "All it does is sleep during the daytime.\nAt night, it patrols its territory with its eyes aglow.",
         "Illustrator": "Taiga Kasai"
     },
     {
@@ -8701,10 +8993,11 @@
             "40"
         ],
         "Effects": [
-            "Flip a coin. If heads, discard a random card from your opponent's hand."
+            "Flip a coin.\nIf heads, discard a random card from your opponent's hand."
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
         "Illustrator": "Taiga Kasai"
     },
@@ -8734,7 +9027,8 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "1",
-        "Flavor-Text": "A two-headed Pok\u00e9mon that was discovered as a  sudden mutation. It runs at a pace of over 60 miles per hour.",
+        "Ex-Rule": null,
+        "Flavor-Text": "A two-headed Pok\u00e9mon that was discovered as a  sudden mutation.\nIt runs at a pace of over 60 miles per hour.",
         "Illustrator": "Souichirou Gunjima"
     },
     {
@@ -8763,6 +9057,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "0",
+        "Ex-Rule": null,
         "Flavor-Text": "An enemy that takes its eyes off any of the three heads\u2014even for a second\u2014will get pecked severely.",
         "Illustrator": "Souichirou Gunjima"
     },
@@ -8792,7 +9087,8 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
-        "Flavor-Text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+        "Ex-Rule": null,
+        "Flavor-Text": "With nerves of steel, nothing can perturb it.\nIt is more agile and active than it appears.",
         "Illustrator": "MAHOU"
     },
     {
@@ -8825,6 +9121,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -8858,6 +9155,7 @@
         ],
         "Weakness": "Water",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -8887,10 +9185,11 @@
         ],
         "Effects": [
             "",
-            "Discard 3 [W] Energy from this Pok\u00e9mon. This attack also does 20 damage to each of your opponent's Benched Pok\u00e9mon."
+            "Discard 3 [W] Energy from this Pok\u00e9mon.\nThis attack also does 20 damage to each of your opponent's Benched Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -8924,6 +9223,7 @@
         ],
         "Weakness": "Lightning",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -8953,6 +9253,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -8986,6 +9287,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Igarashi"
     },
@@ -9015,6 +9317,7 @@
         ],
         "Weakness": "Grass",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -9044,6 +9347,7 @@
         ],
         "Weakness": "Psychic",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA Tsuji"
     },
@@ -9069,10 +9373,11 @@
             "60x"
         ],
         "Effects": [
-            "Flip 3 coins. This attack does 60 damage for each heads."
+            "Flip 3 coins.\nThis attack does 60 damage for each heads."
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -9106,6 +9411,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -9135,6 +9441,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -9164,6 +9471,7 @@
         ],
         "Weakness": "Fighting",
         "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
         "Flavor-Text": null,
         "Illustrator": "PLANETA CG Works"
     },
@@ -9193,6 +9501,7 @@
         ],
         "Weakness": "Fire",
         "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
         "Illustrator": "PLANETA CG Works"
     },
@@ -9207,7 +9516,7 @@
         "Type": "Psychic",
         "HP": "50",
         "Ability": "Dismantling Keys",
-        "Ability-Effect": "Once during your turn, if this Pok\u00e9mon is on your Bench, you may discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon. If you do, discard this Pok\u00e9mon.",
+        "Ability-Effect": "Once during your turn, if this Pok\u00e9mon is on your Bench, you may discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon.\nIf you do, discard this Pok\u00e9mon.",
         "Moves": [
             "Hook"
         ],
@@ -9222,7 +9531,8 @@
         ],
         "Weakness": "Metal",
         "Retreat-Cost": "1",
-        "Flavor-Text": "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
+        "Ex-Rule": null,
+        "Flavor-Text": "In the past, noble families entrusted their vault keys to a Klefki.\nThey passed the Klefki down through the generations, taking good care of it.",
         "Illustrator": "PLANETA CG Works"
     },
     {
