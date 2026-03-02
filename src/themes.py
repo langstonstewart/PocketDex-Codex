@@ -8,12 +8,23 @@ class Themes:
             QLabel[class="header1"] {
                 font-size: 75px; margin: 3px; color: #1E1E1E;
             }
+
             QLabel[class="header2"] {
-                font-size: 25px; margin: 3px; color: #1E1E1E;
+                font-size: 24px; margin: 3px; color: #1E1E1E;
             }
+
             QLabel[class="header3"] {
                 font-size: 30px; margin: 3px; color: #1E1E1E;
             }
+            QLabel[class="small_header"] {
+                font-size: 16px; margin: 3px; color: #1E1E1E;
+            }
+
+
+            QLabel[class="Card_Label"] {
+                border-radius: 10px; 
+            }
+
              QLabel[class="Link_Label"] {
                 font-size: 25px; 
                 margin: 3px;
@@ -24,6 +35,7 @@ class Themes:
                 margin: 0px; 
                 color: #828181;
             }
+
             QLabel[class="header4"] {
                 font-size: 20px;
                 color: #ebebeb; 
@@ -35,6 +47,7 @@ class Themes:
                 padding-left: 25px; 
                 padding-right: 25px;
             }
+
             QLabel[class="Completion_Label"] {
                 font-size: 35px;
                 color: #1E1E1E; 
@@ -46,6 +59,7 @@ class Themes:
                 padding-left: 15px; 
                 padding-right: 15px;
             }
+
             QPushButton[class="Main_Button"] {
                 font-size: 20px;
                 color: #1E1E1E; 
@@ -63,6 +77,8 @@ class Themes:
             QPushButton[class="Main_Button"]:pressed {
                 background-color: #ebebeb
             }
+
+
             QPushButton[class="Card_Button"] {
                 font-size: 40px;
                 color: #1E1E1E; 
@@ -80,6 +96,7 @@ class Themes:
             QPushButton[class="Card_Button"]:pressed {
                 background-color: #ebebeb
             }
+
             QPushButton[class="Setting_Button"] {
                 font-size: 20px;
                 color: #1E1E1E; 
@@ -97,6 +114,7 @@ class Themes:
             QPushButton[class="Setting_Button"]:pressed {
                 background-color: #ebebeb
             }
+
             QTableView[class="Data_Chart"] {
                 font-size: 16px;
                 color: #1E1E1E;
@@ -107,6 +125,7 @@ class Themes:
             QTableView[class="Data_Chart"]::item:alternate {
                 background-color: #dbdbdb;
             }
+
             QHeaderView::section {
                 font-size: 18px;
                 color: #1E1E1E;
@@ -121,15 +140,26 @@ class Themes:
                 background-color: #1E1E1E;
                 color: white;
             }
+
             QLabel[class="header1"] {
                 font-size: 75px; margin: 3px; color: white;
             }
+
             QLabel[class="header2"] {
-                font-size: 25px; margin: 3px; color: white;
+                font-size: 24px; margin: 3px; color: white;
             }
+            
             QLabel[class="header3"] {
                 font-size: 30px; margin: 3px; color: white;
             }
+            QLabel[class="small_header"] {
+                font-size: 16px; margin: 3px; color: white;
+            }
+
+            QLabel[class="Card_Label"] {
+                border-radius: 10px;
+            }
+
             QLabel[class="Link_Label"] {
                 font-size: 25px; 
                 margin: 3px;
@@ -140,6 +170,7 @@ class Themes:
                 margin: 0px; 
                 color: white;
             }
+
             QLabel[class="header4"] {
                 font-size: 20px;
                 color: white; 
@@ -151,6 +182,7 @@ class Themes:
                 padding-left: 25px; 
                 padding-right: 25px;
             }
+
             QLabel[class="Completion_Label"] {
                 font-size: 35px;
                 color: #1E1E1E; 
@@ -162,11 +194,12 @@ class Themes:
                 padding-left: 15px; 
                 padding-right: 15px;
             }
+
             QPushButton[class="Main_Button"] {
                 font-size: 20px;
                 color: white; 
                 margin: 3px; 
-                background-color: #575757; 
+                background-color: #3d3d3d; 
                 border-radius: 15px; 
                 padding: 5px;
                 padding-left: 15px; 
@@ -176,8 +209,9 @@ class Themes:
                 background-color: #747474
             }
             QPushButton[class="Main_Button"]:pressed {
-                background-color: #575757
+                background-color: #3d3d3d
             }
+
             QPushButton[class="Card_Button"] {
                 font-size: 40px;
                 color: white; 

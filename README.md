@@ -26,13 +26,14 @@ A Python-based interactive application for Pokémon Trading Card Game Pocket.
 | **Promo B (P-B)**                          | **October 30, 2025**   
 | **Mega Rising (B1)**                | **October 30, 2025**   
 | **Crimson Blaze (B1a)**            | **December 17, 2025**   
-| **Fantastical Parade (B2)**            | **January 29th, 2025**   
+| **Fantastical Parade (B2)**            | **January 29th, 2026**   
+| **Paldean Wonders (B2a)**            | **February 26th, 2026**   
 
 ### Sets TBA:
 ---
 | **Set Name**                         | **Release Date**                    |
 |:------------------------------------:|:------------------------------------:
-| **??? (B2a)**                | **Feburary 29th, 2026**              |
+| **??? (B3)**                | **March 2026**              |
 
 *This tool is currently only available for Windows.*
 
