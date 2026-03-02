@@ -1,5 +1,5 @@
 # PocketDex Codex
-![Version](https://img.shields.io/badge/Version-2.0.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
+![Version](https://img.shields.io/badge/Version-3.0.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
 
 A Python-based interactive application for Pokémon Trading Card Game Pocket.
 
