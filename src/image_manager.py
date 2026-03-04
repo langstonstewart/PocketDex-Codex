@@ -2,7 +2,7 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QLabel
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import QUrl, QSize, pyqtSignal
-from PyQt6.QtNetwork import QNetworkAccessManager, QNetworkRequest
+from PyQt6.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 from PyQt6 import sip
 
 
@@ -141,6 +141,7 @@ class ImageLabel(QLabel):
         self.target_size = size
         self.setFixedSize(size)
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._reply: QNetworkReply | None = None
 
         self.fp = f"{self.filepath}\\{self.card_id}.png"
 
@@ -149,20 +150,29 @@ class ImageLabel(QLabel):
                 raise ValueError("network_manager is required when cache=True")
 
             request = R_manager(QUrl(url))
-            reply = network_manager.get(request)
+            self._reply = network_manager.get(request)
 
-            reply.errorOccurred.connect(lambda e: print("Network error:", e)) # type: ignore
+            self._reply.errorOccurred.connect(lambda e: print("Network error:", e)) # type: ignore
 
-            reply.finished.connect(lambda r=reply: self.image_loaded(r)) # type: ignore
+            self._reply.finished.connect(self.image_loaded) # type: ignore
         else:
             self.grab_local()
             
 
-    def image_loaded(self, reply):
+    def image_loaded(self):
+        reply = self.sender()
+        if reply is None or sip.isdeleted(reply):
+            self._reply = None
+            self.download_finished.emit()
+            return
         
         pixmap = QPixmap()
-
-        pixmap.loadFromData(reply.readAll()) # type: ignore
+        try:
+            pixmap.loadFromData(reply.readAll()) # type: ignore
+        except RuntimeError:
+            self._reply = None
+            self.download_finished.emit()
+            return
         scaled = pixmap.scaled(
             self.target_size,
             Qt.AspectRatioMode.KeepAspectRatio,
@@ -174,6 +184,7 @@ class ImageLabel(QLabel):
 
         if not sip.isdeleted(reply):
             reply.deleteLater() # type: ignore
+        self._reply = None
 
         self.download_finished.emit()
 
