@@ -9,6 +9,10 @@ class Themes:
                 font-size: 75px; margin: 3px; color: #1E1E1E;
             }
 
+            QLabel[class="header_title"] {
+                font-size: 40px; margin: 3px; color: #1E1E1E;
+            }
+
             QLabel[class="header2"] {
                 font-size: 24px; margin: 3px; color: #1E1E1E;
             }
@@ -75,6 +79,24 @@ class Themes:
                 background-color: #f5f5f5
             }
             QPushButton[class="Main_Button"]:pressed {
+                background-color: #ebebeb
+            }
+
+            QToolButton[class="Main_Button"] {
+                font-size: 20px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border: 3px #ebebeb; 
+                border-radius: 15px; 
+                padding: 5px;
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            QToolButton[class="Main_Button"]:hover {
+                background-color: #f5f5f5
+            }
+            QToolButton[class="Main_Button"]:pressed {
                 background-color: #ebebeb
             }
 
@@ -145,6 +167,10 @@ class Themes:
                 font-size: 75px; margin: 3px; color: white;
             }
 
+            QLabel[class="header_title"] {
+                font-size: 40px; margin: 3px; color: white;
+            }
+
             QLabel[class="header2"] {
                 font-size: 24px; margin: 3px; color: white;
             }
@@ -211,6 +237,24 @@ class Themes:
             QPushButton[class="Main_Button"]:pressed {
                 background-color: #3d3d3d
             }
+
+            QToolButton[class="Main_Button"] {
+                font-size: 20px;
+                color: white; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border-radius: 15px; 
+                padding: 5px;
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            QToolButton[class="Main_Button"]:hover {
+                background-color: #747474
+            }
+            QToolButton[class="Main_Button"]:pressed {
+                background-color: #3d3d3d
+            }
+
 
             QPushButton[class="Card_Button"] {
                 font-size: 40px;

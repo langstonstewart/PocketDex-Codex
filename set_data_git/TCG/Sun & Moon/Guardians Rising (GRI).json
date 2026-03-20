@@ -1,0 +1,5502 @@
+[
+    {
+        "ID": "GRI-001",
+        "Name": "Bellsprout",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vine Whip"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube"
+    },
+    {
+        "ID": "GRI-002",
+        "Name": "Weepinbell",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Muddy Acid"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai"
+    },
+    {
+        "ID": "GRI-003",
+        "Name": "Victreebel",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_003_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pollen Hazard",
+            "Stick and Absorb"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "80"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned, Confused, and Poisoned.",
+            "Heal 20 damage from this Pok\u00e9mon. The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA"
+    },
+    {
+        "ID": "GRI-004",
+        "Name": "Petilil",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_004_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blot"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Heal 10 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-005",
+        "Name": "Lilligant",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Petal Blizzard",
+            "Petal Dance"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "40\u00d7"
+        ],
+        "Effects": [
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip 3 coins. This attack does 40 damage for each heads. This Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "You Iribi"
+    },
+    {
+        "ID": "GRI-006",
+        "Name": "Phantump",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_006_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Confuse Ray"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma"
+    },
+    {
+        "ID": "GRI-007",
+        "Name": "Trevenant",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poltergeist",
+            "Horn Leech"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            "90"
+        ],
+        "Effects": [
+            "Your opponent reveals their hand. This attack does 30 damage for each Trainer card you find there.",
+            "Heal 30 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hiroyuki Yamamoto"
+    },
+    {
+        "ID": "GRI-008",
+        "Name": "Wimpod",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_008_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scamper Away",
+            "Ram"
+        ],
+        "Move-Energy": [
+            "C",
+            "G"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Shuffle this Pok\u00e9mon and all cards attached to it into your deck.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match"
+    },
+    {
+        "ID": "GRI-009",
+        "Name": "Golisopod",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_009_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "130",
+        "Ability": [
+            "Armor"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Resolute Claws"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon-GX or a Pok\u00e9mon-EX, this attack does 70 more damage (before applying Weakness and Resistance)."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-010",
+        "Name": "Victini",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": [
+            "Victory Star"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, after you flip any coins for an attack, you may ignore all results of those coin flips and begin flipping those coins again. You can't use more than 1 Victory Star Ability each turn."
+        ],
+        "Moves": [
+            "V-Flame"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kodama"
+    },
+    {
+        "ID": "GRI-011",
+        "Name": "Litwick",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flickering Flames"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "GRI-012",
+        "Name": "Lampent",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Will-O-Wisp"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "0313"
+    },
+    {
+        "ID": "GRI-013",
+        "Name": "Chandelure",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_013_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "140",
+        "Ability": [
+            "Shady Move"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may move 1 damage counter from 1 Pok\u00e9mon to another Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Super Singe"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-014",
+        "Name": "Oricorio",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Passionate Dance",
+            "Kindle"
+        ],
+        "Move-Energy": [
+            "R",
+            "RR"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Search your deck for up to 3 Basic [R] Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck.",
+            "Discard an Energy from this Pok\u00e9mon. If you do, discard an Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-015",
+        "Name": "Salandit",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Venoshock"
+        ],
+        "Move-Energy": [
+            "R",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20+"
+        ],
+        "Effects": [
+            "",
+            "If your opponent's Active Pok\u00e9mon is Poisoned, this attack does 40 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA"
+    },
+    {
+        "ID": "GRI-016",
+        "Name": "Salazzle",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": [
+            "Hot Poison"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may leave your opponent's Active Pok\u00e9mon Burned and Poisoned."
+        ],
+        "Moves": [
+            "Flamethrower"
+        ],
+        "Move-Energy": [
+            "RCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Discard an Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "GRI-017",
+        "Name": "Turtonator",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam",
+            "Heat Blast"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "30",
+            "90"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-018",
+        "Name": "Turtonator-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_018_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shell Trap",
+            "Bright Flame",
+            "Nitro Tank-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC",
+            "R"
+        ],
+        "Move-Damage": [
+            "20",
+            "160",
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack (even if this Pok\u00e9mon is Knocked Out), put 8 damage counters on the Attacking Pok\u00e9mon.",
+            "Discard 2 [R] Energy from this Pok\u00e9mon.",
+            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-019",
+        "Name": "Alolan Sandshrew",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Defense Curl",
+            "Ice Ball"
+        ],
+        "Move-Energy": [
+            "0",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mizue"
+    },
+    {
+        "ID": "GRI-019a",
+        "Name": "Alolan Sandshrew",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_019a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Defense Curl",
+            "Ice Ball"
+        ],
+        "Move-Energy": [
+            "0",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideki Ishikawa"
+    },
+    {
+        "ID": "GRI-020",
+        "Name": "Alolan Sandslash",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": [
+            "Slush Rush"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may draw a card."
+        ],
+        "Moves": [
+            "Smash Turn"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA"
+    },
+    {
+        "ID": "GRI-021",
+        "Name": "Alolan Vulpix",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_021_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beacon",
+            "Icy Snow"
+        ],
+        "Move-Energy": [
+            "0",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "You Iribi"
+    },
+    {
+        "ID": "GRI-021a",
+        "Name": "Alolan Vulpix",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_021a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beacon",
+            "Icy Snow"
+        ],
+        "Move-Energy": [
+            "0",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki"
+    },
+    {
+        "ID": "GRI-022",
+        "Name": "Alolan Ninetales-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_022_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Blade",
+            "Blizzard Edge",
+            "Ice Path-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWC",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "160",
+            null
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-023",
+        "Name": "Tentacool",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_023_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sludge Shock"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't be healed during your opponent's next turn."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shibuzoh."
+    },
+    {
+        "ID": "GRI-024",
+        "Name": "Tentacruel",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_024_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Sting",
+            "Seething Tentacles"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "40+"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned.",
+            "Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "GRI-025",
+        "Name": "Politoed",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_025_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Roll Call",
+            "Hyper Jump"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Search your deck for a Poliwag, a Poliwhirl, and a Poliwrath, and put them onto your Bench. Then, shuffle your deck.",
+            "You may shuffle this Pok\u00e9mon and all cards attached to it into your deck."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Saya Tsuruta"
+    },
+    {
+        "ID": "GRI-026",
+        "Name": "Delibird",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_026_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "All the Presents",
+            "Surprise Attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. For each heads, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui"
+    },
+    {
+        "ID": "GRI-027",
+        "Name": "Carvanha",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_027_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideki Ishikawa"
+    },
+    {
+        "ID": "GRI-028",
+        "Name": "Sharpedo",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_028_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jet Headbutt"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-029",
+        "Name": "Wailmer",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_029_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash",
+            "Surf"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "GRI-030",
+        "Name": "Wailord",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_030_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dive",
+            "Open Sea"
+        ],
+        "Move-Energy": [
+            "WWC",
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "40",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn.",
+            "Heal 30 damage from each of your [W] Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "OOYAMA"
+    },
+    {
+        "ID": "GRI-031",
+        "Name": "Snorunt",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_031_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Chilly",
+            "Frost Breath"
+        ],
+        "Move-Energy": [
+            "W",
+            "WW"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "GRI-032",
+        "Name": "Glalie",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_032_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crunch",
+            "Raging Floe"
+        ],
+        "Move-Energy": [
+            "WW",
+            "WWW"
+        ],
+        "Move-Damage": [
+            "40",
+            "70+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon.",
+            "If this Pok\u00e9mon has any damage counters on it, this attack does 80 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "so-taro"
+    },
+    {
+        "ID": "GRI-033",
+        "Name": "Vanillite",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_033_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Triple Spin"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 10 damage for each heads."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "OOYAMA"
+    },
+    {
+        "ID": "GRI-034",
+        "Name": "Vanillish",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_034_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Shard"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a [F] Pok\u00e9mon, this attack does 30 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-035",
+        "Name": "Vanilluxe",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_035_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hail",
+            "Frozen Breath"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWW"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "You may discard 2 [W] Energy from this Pok\u00e9mon. If you do, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "GRI-036",
+        "Name": "Alomomola",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_036_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Borne Ashore",
+            "Hydro Splash"
+        ],
+        "Move-Energy": [
+            "C",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Put a Basic Pok\u00e9mon from either player's discard pile onto its owner's Bench.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube"
+    },
+    {
+        "ID": "GRI-037",
+        "Name": "Wishiwashi",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_037_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": [
+            "Schooling"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with a Wishiwashi-GX in your hand. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sharpshooting"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma"
+    },
+    {
+        "ID": "GRI-038",
+        "Name": "Wishiwashi-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_038_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun",
+            "Torrential Vortex",
+            "Blue Surge-GX"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWWCC",
+            "WWWCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "120",
+            "220"
+        ],
+        "Effects": [
+            "",
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-039",
+        "Name": "Mareanie",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_039_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bail Out",
+            "Rain Splash"
+        ],
+        "Move-Energy": [
+            "C",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Put a Pok\u00e9mon from your discard pile into your hand.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-040",
+        "Name": "Alolan Geodude",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_040_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Polish",
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "0",
+            "LCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon has no Retreat Cost.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga"
+    },
+    {
+        "ID": "GRI-041",
+        "Name": "Alolan Graveler",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_041_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunder Punch",
+            "Electrobullet"
+        ],
+        "Move-Energy": [
+            "LCC",
+            "LLLC"
+        ],
+        "Move-Damage": [
+            "50+",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pok\u00e9mon does 20 damage to itself.",
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match"
+    },
+    {
+        "ID": "GRI-042",
+        "Name": "Alolan Golem",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_042_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Electromagnetic Rock Wrecker",
+            "Heavy Slam"
+        ],
+        "Move-Energy": [
+            "LCC",
+            "LCCC"
+        ],
+        "Move-Damage": [
+            "80\u00d7",
+            "200-"
+        ],
+        "Effects": [
+            "Flip a coin for each [L] Energy attached to this Pok\u00e9mon. This attack does 80 damage for each heads.",
+            "This attack does 30 less damage for each [C] in your opponent's Active Pok\u00e9mon's Retreat Cost."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-043",
+        "Name": "Helioptile",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_043_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunder Shock"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "GRI-044",
+        "Name": "Heliolisk",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_044_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Raging Thunder"
+        ],
+        "Move-Energy": [
+            "C",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "120"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage.",
+            "This attack does 30 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-045",
+        "Name": "Vikavolt-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_045_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge Beam",
+            "Super Zap Cannon",
+            "Gigatron-GX"
+        ],
+        "Move-Energy": [
+            "L",
+            "LCCC",
+            "LCCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "180",
+            null
+        ],
+        "Effects": [
+            "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-046",
+        "Name": "Oricorio",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_046_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Feather Dance",
+            "Pom-Pom Punch"
+        ],
+        "Move-Energy": [
+            "L",
+            "L"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon's Pom-Pom Punch attack's base damage is 100.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-047",
+        "Name": "Tapu Koko-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_047_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "170",
+        "Ability": [
+            "Aero Trail"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may move any number of [L] Energy from your other Pok\u00e9mon to this Pok\u00e9mon. If you do, switch this Pok\u00e9mon with your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sky-High Claws",
+            "Tapu Thunder-GX"
+        ],
+        "Move-Energy": [
+            "LLC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "130",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-048",
+        "Name": "Slowpoke",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_048_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Whimsy Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "60"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai"
+    },
+    {
+        "ID": "GRI-049",
+        "Name": "Slowbro",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_049_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Amnesia",
+            "Facade"
+        ],
+        "Move-Energy": [
+            "C",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Active Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
+            "If this Pok\u00e9mon is Burned or Poisoned, this attack does 80 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shibuzoh."
+    },
+    {
+        "ID": "GRI-050",
+        "Name": "Trubbish",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_050_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stomp Off",
+            "Drool"
+        ],
+        "Move-Energy": [
+            "P",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Discard the top card of your opponent's deck.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "GRI-051",
+        "Name": "Garbodor",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_051_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Trashalanche",
+            "Acid Spray"
+        ],
+        "Move-Energy": [
+            "P",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "70"
+        ],
+        "Effects": [
+            "This attack does 20 damage for each Item card in your opponent's discard pile.",
+            "Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "GRI-051a",
+        "Name": "Garbodor",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_051a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Trashalanche",
+            "Acid Spray"
+        ],
+        "Move-Energy": [
+            "P",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "70"
+        ],
+        "Effects": [
+            "This attack does 20 damage for each Item card in your opponent's discard pile.",
+            "Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso"
+    },
+    {
+        "ID": "GRI-052",
+        "Name": "Gothita",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_052_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blown Kiss"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put 1 damage counter on 1 of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "GRI-053",
+        "Name": "Gothorita",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_053_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slap",
+            "Psybeam"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "GRI-054",
+        "Name": "Gothitelle",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_054_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tractorbeam",
+            "Link Blast"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "50+"
+        ],
+        "Effects": [
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. This attack does 30 damage to the new Active Pok\u00e9mon.",
+            "If this Pok\u00e9mon and your opponent's Active Pok\u00e9mon have the same amount of Energy attached to them, this attack does 80 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "GRI-055",
+        "Name": "Oricorio",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_055_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": [
+            "Vital Dance"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Casual Slap"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-056",
+        "Name": "Oricorio",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_056_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Supernatural Dance",
+            "Revelation Dance"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "For each Pok\u00e9mon in your opponent's discard pile, put 1 damage counter on your opponent's Pok\u00e9mon in any way you like.",
+            "If there is no Stadium card in play, this attack does nothing."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA"
+    },
+    {
+        "ID": "GRI-057",
+        "Name": "Toxapex-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_057_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spike Cannon",
+            "Super Intense Poison",
+            "Total Shelter-GX"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP",
+            "PPP"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            null,
+            "150"
+        ],
+        "Effects": [
+            "Flip 4 coins. This attack does 30 damage for each heads.",
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
+            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-058",
+        "Name": "Mimikyu",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_058_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Filch",
+            "Copycat"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Draw 2 cards.",
+            "If your opponent's Pok\u00e9mon used an attack that isn't a GX attack during their last turn, use it as this attack."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Megumi Mizutani"
+    },
+    {
+        "ID": "GRI-059",
+        "Name": "Dhelmise",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_059_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": [
+            "Steelworker"
+        ],
+        "Ability-Effect": [
+            "Your [M] Pok\u00e9mon's attacks do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Anchor Shot"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hasuno"
+    },
+    {
+        "ID": "GRI-060",
+        "Name": "Tapu Lele-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_060_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": [
+            "Wonder Tag"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Energy Drive",
+            "Tapu Cure-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "P"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-060a",
+        "Name": "Tapu Lele-GX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_060a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": [
+            "Wonder Tag"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Energy Drive",
+            "Tapu Cure-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "P"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-061",
+        "Name": "Lunala",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_061_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shatter Shot",
+            "Wings of the Moone"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP"
+        ],
+        "Move-Damage": [
+            "40\u00d7",
+            "130"
+        ],
+        "Effects": [
+            "This attack does 40 damage times the amount of [P] Energy attached to this Pok\u00e9mon.",
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-062",
+        "Name": "Machop",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_062_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Chop"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 30 damage for each heads."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto"
+    },
+    {
+        "ID": "GRI-063",
+        "Name": "Machop",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_063_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dynamic Chop"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "GRI-064",
+        "Name": "Machoke",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_064_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": [
+            "Daunting Pose"
+        ],
+        "Ability-Effect": [
+            "Prevent all damage done to your Benched Pok\u00e9mon by your opponent's attacks. Your opponent's attacks and Abilities can't put damage counters on your Benched Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Cross Chop"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-065",
+        "Name": "Machamp",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_065_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Settle the Score",
+            "Submission"
+        ],
+        "Move-Energy": [
+            "FF",
+            "FFF"
+        ],
+        "Move-Damage": [
+            "20+",
+            "150"
+        ],
+        "Effects": [
+            "This attack does 80 more damage for each Prize card your opponent took on their last turn.",
+            "This Pok\u00e9mon does 30 damage to itself."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga"
+    },
+    {
+        "ID": "GRI-066",
+        "Name": "Sudowoodo",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_066_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": [
+            "Roadblock"
+        ],
+        "Ability-Effect": [
+            "Your opponent can't have more than 4 Benched Pok\u00e9mon. If they have 5 or more Benched Pok\u00e9mon, they discard Benched Pok\u00e9mon until they have 4 Pok\u00e9mon on the Bench. If more than one effect changes the number of Benched Pok\u00e9mon allowed, use the smaller number."
+        ],
+        "Moves": [
+            "Rock Throw"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "GRI-067",
+        "Name": "Gligar",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_067_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Shot"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai"
+    },
+    {
+        "ID": "GRI-068",
+        "Name": "Gliscor",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_068_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Finishing Stinger",
+            "Guillotine"
+        ],
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "70",
+            "90"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon has no damage counters on it before this attack does damage, this attack does nothing.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-069",
+        "Name": "Nosepass",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_069_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Rising Lunge"
+        ],
+        "Move-Energy": [
+            "CC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30+"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "GRI-070",
+        "Name": "Barboach",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_070_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hook",
+            "Mud-Slap"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui"
+    },
+    {
+        "ID": "GRI-071",
+        "Name": "Whiscash",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_071_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Pulse",
+            "Landslip"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "60",
+            "100\u00d7"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep.",
+            "Discard the top 3 cards of your deck. This attack does 100 damage for each Energy card you discarded in this way."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "GRI-072",
+        "Name": "Pancham",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Karate Chop"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "60-"
+        ],
+        "Effects": [
+            "This attack does 10 less damage for each damage counter on this Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA"
+    },
+    {
+        "ID": "GRI-073",
+        "Name": "Rockruff",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_073_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Corner",
+            "Wild Kick"
+        ],
+        "Move-Energy": [
+            "F",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-074",
+        "Name": "Lycanroc-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_074_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "200",
+        "Ability": [
+            "Bloodthirsty Eyes"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Claw Slash",
+            "Dangerous Rogue-GX"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FC"
+        ],
+        "Move-Damage": [
+            "110",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-075",
+        "Name": "Mudbray",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_075_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Kick"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 30 damage for each heads."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-076",
+        "Name": "Mudsdale",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_076_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Enhanced Stomp",
+            "High Horsepower"
+        ],
+        "Move-Energy": [
+            "FFC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "60+",
+            "180"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has a Pok\u00e9mon Tool card attached to it, this attack does 60 more damage.",
+            "This Pok\u00e9mon does 40 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "GRI-077",
+        "Name": "Minior",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_077_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Swift",
+            "Cosmicsplosion"
+        ],
+        "Move-Energy": [
+            "C",
+            "FFF"
+        ],
+        "Move-Damage": [
+            "20",
+            "190"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pok\u00e9mon.",
+            "This Pok\u00e9mon is Knocked Out."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-078",
+        "Name": "Murkrow",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_078_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Whirlwind"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sekio"
+    },
+    {
+        "ID": "GRI-079",
+        "Name": "Honchkrow",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_079_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Feint Attack",
+            "Raven's Claw"
+        ],
+        "Move-Energy": [
+            "D",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon.",
+            "This attack does 10 more damage for each damage counter on all of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideki Ishikawa"
+    },
+    {
+        "ID": "GRI-080",
+        "Name": "Sableye",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_080_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Limitation",
+            "Scratch"
+        ],
+        "Move-Energy": [
+            "D",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Your opponent can't play any Supporter cards from their hand during their next turn.",
+            ""
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube"
+    },
+    {
+        "ID": "GRI-081",
+        "Name": "Absol",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_081_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Future Sight",
+            "Doom News"
+        ],
+        "Move-Energy": [
+            "D",
+            "DC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Look at the top 4 cards of either player's deck and put them back in any order.",
+            "Put all Energy attached to this Pok\u00e9mon into your hand. At the end of your opponent's next turn, the Defending Pok\u00e9mon will be Knocked Out."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Anesaki Dynamic"
+    },
+    {
+        "ID": "GRI-082",
+        "Name": "Pangoro",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_082_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sky Uppercut",
+            "Magnum Punch"
+        ],
+        "Move-Energy": [
+            "DCC",
+            "DCCC"
+        ],
+        "Move-Damage": [
+            "70",
+            "130"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kodama"
+    },
+    {
+        "ID": "GRI-083",
+        "Name": "Beldum",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_083_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Core Beam"
+        ],
+        "Move-Energy": [
+            "M"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Discard a [M] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto"
+    },
+    {
+        "ID": "GRI-084",
+        "Name": "Metang",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_084_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Core Beam"
+        ],
+        "Move-Energy": [
+            "C",
+            "MMC"
+        ],
+        "Move-Damage": [
+            "20",
+            "80"
+        ],
+        "Effects": [
+            "",
+            "Discard a [M] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "GRI-085",
+        "Name": "Metagross-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_085_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "250",
+        "Ability": [
+            "Geotech System"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [P] or [M] Energy card from your discard pile to your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Giga Hammer",
+            "Algorithm-GX"
+        ],
+        "Move-Energy": [
+            "MMC",
+            "C"
+        ],
+        "Move-Damage": [
+            "150",
+            null
+        ],
+        "Effects": [
+            "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-086",
+        "Name": "Probopass",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_086_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Link",
+            "Power Gem"
+        ],
+        "Move-Energy": [
+            "M",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "120"
+        ],
+        "Effects": [
+            "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-087",
+        "Name": "Solgaleo",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_087_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shining Arrow",
+            "Fangs of the Sunne"
+        ],
+        "Move-Energy": [
+            "MC",
+            "MMC"
+        ],
+        "Move-Damage": [
+            null,
+            "170"
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This Pok\u00e9mon can't use Fangs of the Sunne during your next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-088",
+        "Name": "Clefairy",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_088_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slap",
+            "Follow Me"
+        ],
+        "Move-Energy": [
+            "Y",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "GRI-089",
+        "Name": "Clefable",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_089_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lullaby",
+            "Meteor Mash"
+        ],
+        "Move-Energy": [
+            "C",
+            "YCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep.",
+            "During your next turn, this Pok\u00e9mon's Meteor Mash attack does 60 more damage (before applying Weakness and Resistance)."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "GRI-090",
+        "Name": "Cottonee",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_090_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Continuous Tumble"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 10 damage for each heads."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Megumi Mizutani"
+    },
+    {
+        "ID": "GRI-091",
+        "Name": "Whimsicott",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_091_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "The Wages of Fluff",
+            "Fairy Wind"
+        ],
+        "Move-Energy": [
+            "C",
+            "Y"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon is Knocked Out during your next turn, take 2 more Prize cards.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-092",
+        "Name": "Sylveon-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_092_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Magical Ribbon",
+            "Fairy Wind",
+            "Plea-GX"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YCC",
+            "YCC"
+        ],
+        "Move-Damage": [
+            null,
+            "110",
+            null
+        ],
+        "Effects": [
+            "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+            "",
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-092a",
+        "Name": "Sylveon-GX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_092a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Magical Ribbon",
+            "Fairy Wind",
+            "Plea-GX"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YCC",
+            "YCC"
+        ],
+        "Move-Damage": [
+            null,
+            "110",
+            null
+        ],
+        "Effects": [
+            "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+            "",
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-093",
+        "Name": "Comfey",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_093_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "70",
+        "Ability": [
+            "Flower Shield"
+        ],
+        "Ability-Effect": [
+            "Each of your Pok\u00e9mon that has any [Y] Energy attached to it can't be affected by any Special Conditions. Remove any Special Conditions affecting those Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sweet Kiss"
+        ],
+        "Move-Energy": [
+            "YC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Your opponent draws a card."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma"
+    },
+    {
+        "ID": "GRI-094",
+        "Name": "Goomy",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_094_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "WY"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Asako Ito"
+    },
+    {
+        "ID": "GRI-095",
+        "Name": "Sliggoo",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_095_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Division",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "WY"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Sliggoo and put them onto your Bench. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "GRI-096",
+        "Name": "Goodra",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_096_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Power Whip",
+            "Beat Slider"
+        ],
+        "Move-Energy": [
+            "C",
+            "WYC"
+        ],
+        "Move-Damage": [
+            null,
+            "130"
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to this Pok\u00e9mon to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-097",
+        "Name": "Drampa",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_097_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Amass",
+            "Power Cyclone"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "Search your deck for a basic Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck.",
+            "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match"
+    },
+    {
+        "ID": "GRI-098",
+        "Name": "Jangmo-o",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_098_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "60",
+        "Ability": [
+            "Bulletproof"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon takes 10 less damage from attacks (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Dragon Claw"
+        ],
+        "Move-Energy": [
+            "LF"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match"
+    },
+    {
+        "ID": "GRI-099",
+        "Name": "Hakamo-o",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_099_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Dragon Claw"
+        ],
+        "Move-Energy": [
+            "C",
+            "LFC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-100",
+        "Name": "Kommo-o-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_100_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Adamantine Press",
+            "Shred",
+            "Ultra Uppercut-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "LFCC",
+            "LFCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130",
+            "240"
+        ],
+        "Effects": [
+            "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "(You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-101",
+        "Name": "Chansey",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_101_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bind Wound",
+            "Hammer In"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, heal 30 damage from 1 of your Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Megumi Mizutani"
+    },
+    {
+        "ID": "GRI-102",
+        "Name": "Blissey",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_102_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "160",
+        "Ability": [
+            "Fresh Egg"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may heal 80 damage from your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Double-Edge"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "160"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon does 80 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideki Ishikawa"
+    },
+    {
+        "ID": "GRI-103",
+        "Name": "Taillow",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_103_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Reckless Charge"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon does 10 damage to itself."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ayaka Yoshida"
+    },
+    {
+        "ID": "GRI-104",
+        "Name": "Swellow",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_104_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Agility",
+            "Swallow Dive"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn.",
+            "If this Pok\u00e9mon used Agility during your last turn, this attack does 80 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "GRI-105",
+        "Name": "Castform",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_105_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Weather Teller",
+            "Water Pulse"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+            "Your opponent's Active Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui"
+    },
+    {
+        "ID": "GRI-106",
+        "Name": "Rayquaza",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_106_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Turbo Storm",
+            "Dragon Claw"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80"
+        ],
+        "Effects": [
+            "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-107",
+        "Name": "Patrat",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_107_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Glance",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Look at the top card of your opponent's deck.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ayaka Yoshida"
+    },
+    {
+        "ID": "GRI-108",
+        "Name": "Watchog",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_108_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scrutinize",
+            "Slam"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60\u00d7"
+        ],
+        "Effects": [
+            "Look at the top 2 cards of your opponent's deck, discard 1 of them, and put the other card back.",
+            "Flip 2 coins. This attack does 60 damage for each heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "GRI-109",
+        "Name": "Fletchling",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_109_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Growl",
+            "Flap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon's attacks do 20 less damage (before applying Weakness and Resistance).",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "You Iribi"
+    },
+    {
+        "ID": "GRI-110",
+        "Name": "Fletchinder",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_110_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flap",
+            "Razor Wind"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "GRI-111",
+        "Name": "Talonflame",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_111_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flame Charge",
+            "Loop-the-Loop"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "30",
+            "90"
+        ],
+        "Effects": [
+            "Search your deck for a [R] Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck.",
+            "Put all Energy attached to this Pok\u00e9mon into your hand."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-112",
+        "Name": "Stufful",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_112_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Hammer In"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "60"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-113",
+        "Name": "Bewear",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_113_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": [
+            "Rake It In"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may draw 3 cards."
+        ],
+        "Moves": [
+            "Dangerous Blow"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "60+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a Basic Pok\u00e9mon, this attack does 60 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "GRI-114",
+        "Name": "Komala",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_114_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": [
+            "Comatose"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, whenever you attach an Energy from your hand to it, it is now Asleep."
+        ],
+        "Moves": [
+            "Hypno Roll"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "This attack can be used if this Pok\u00e9mon is Asleep. If it is not Asleep, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "GRI-115",
+        "Name": "Drampa-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_115_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Righteous Edge",
+            "Berserk",
+            "Big Wheel-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC",
+            "C"
+        ],
+        "Move-Damage": [
+            "20",
+            "80+",
+            null
+        ],
+        "Effects": [
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 70 more damage.",
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-116",
+        "Name": "Aether Paradise Conservation Area",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_116_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Basic [G] Pok\u00e9mon and Basic [L] Pok\u00e9mon (both yours and your opponent's) take 30 less damage from the opponent's attacks (after applying Weakness and Resistance).",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-117",
+        "Name": "Altar of the Moone",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_117_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Retreat Cost of each Pok\u00e9mon (both yours and your opponent's) that has any [P] or [D] Energy attached to it is [C][C] less.",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-118",
+        "Name": "Altar of the Sunne",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_118_R_EN_LG.png",
+        "Pack": null,
+        "Description": "[R] Pok\u00e9mon and [M] Pok\u00e9mon (both yours and your opponent's) have no Weakness.",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-119",
+        "Name": "Aqua Patch",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_119_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Attach a [W] Energy card from your discard pile to 1 of your Benched [W] Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-120",
+        "Name": "Brooklet Hill",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_120_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Once during each player's turn, that player may search their deck for a Basic [W] Pok\u00e9mon or Basic [F] Pok\u00e9mon, put it onto their Bench, and shuffle their deck.",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-121",
+        "Name": "Choice Band",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_121_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The attacks of the Pok\u00e9mon this card is attached to do 30 more damage to your opponent's Active Pok\u00e9mon-GX or Active Pok\u00e9mon-EX (before applying Weakness and Resistance).",
+        "Illustrator": "Eske Yoshinob"
+    },
+    {
+        "ID": "GRI-121a",
+        "Name": "Choice Band",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_121a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The attacks of the Pok\u00e9mon this card is attached to do 30 more damage to your opponent's Active Pok\u00e9mon-GX or Active Pok\u00e9mon-EX (before applying Weakness and Resistance).",
+        "Illustrator": "Eske Yoshinob"
+    },
+    {
+        "ID": "GRI-122",
+        "Name": "Energy Loto",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_122_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Look at the top 7 cards of your deck. You may reveal an Energy card you find there and put it into your hand. Shuffle the other cards back into your deck.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-123",
+        "Name": "Energy Recycler",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_123_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-124",
+        "Name": "Enhanced Hammer",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_124_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-124a",
+        "Name": "Enhanced Hammer",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_124a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-125",
+        "Name": "Field Blower",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_125_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose up to 2 in any combination of Pok\u00e9mon Tool cards and Stadium cards in play (yours or your opponent's) and discard them.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-125a",
+        "Name": "Field Blower",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_125a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose up to 2 in any combination of Pok\u00e9mon Tool cards and Stadium cards in play (yours or your opponent's) and discard them.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-126",
+        "Name": "Hala",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_126_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle your hand into your deck. If you have used your GX attack, draw 7 cards. If not, draw 4 cards.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "GRI-127",
+        "Name": "Mallow",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_127_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "GRI-128",
+        "Name": "Max Potion",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_128_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Heal all damage from 1 of your Pok\u00e9mon. Then, discard all Energy attached to that Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-128a",
+        "Name": "Max Potion",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_128a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Heal all damage from 1 of your Pok\u00e9mon. Then, discard all Energy attached to that Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-129",
+        "Name": "Multi Switch",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_129_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Move an Energy from 1 of your Benched Pok\u00e9mon to your Active Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-130",
+        "Name": "Rescue Stretcher",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_130_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose 1:\u2022 Put a Pok\u00e9mon from your discard pile into your hand.\u2022 Shuffle 3 Pok\u00e9mon from your discard pile into your deck.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-130a",
+        "Name": "Rescue Stretcher",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_130a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose 1:\u2022 Put a Pok\u00e9mon from your discard pile into your hand.\u2022 Shuffle 3 Pok\u00e9mon from your discard pile into your deck.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-131",
+        "Name": "Turtonator-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_131_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shell Trap",
+            "Bright Flame",
+            "Nitro Tank-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC",
+            "R"
+        ],
+        "Move-Damage": [
+            "20",
+            "160",
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack (even if this Pok\u00e9mon is Knocked Out), put 8 damage counters on the Attacking Pok\u00e9mon.",
+            "Discard 2 [R] Energy from this Pok\u00e9mon.",
+            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-132",
+        "Name": "Alolan Ninetales-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_132_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Blade",
+            "Blizzard Edge",
+            "Ice Path-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWC",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "160",
+            null
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-133",
+        "Name": "Wishiwashi-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_133_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun",
+            "Torrential Vortex",
+            "Blue Surge-GX"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWWCC",
+            "WWWCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "120",
+            "220"
+        ],
+        "Effects": [
+            "",
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-134",
+        "Name": "Vikavolt-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_134_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge Beam",
+            "Super Zap Cannon",
+            "Gigatron-GX"
+        ],
+        "Move-Energy": [
+            "L",
+            "LCCC",
+            "LCCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "180",
+            null
+        ],
+        "Effects": [
+            "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-135",
+        "Name": "Tapu Koko-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_135_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "170",
+        "Ability": [
+            "Aero Trail"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may move any number of [L] Energy from your other Pok\u00e9mon to this Pok\u00e9mon. If you do, switch this Pok\u00e9mon with your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sky-High Claws",
+            "Tapu Thunder-GX"
+        ],
+        "Move-Energy": [
+            "LLC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "130",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-136",
+        "Name": "Toxapex-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_136_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spike Cannon",
+            "Super Intense Poison",
+            "Total Shelter-GX"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP",
+            "PPP"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            null,
+            "150"
+        ],
+        "Effects": [
+            "Flip 4 coins. This attack does 30 damage for each heads.",
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
+            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-137",
+        "Name": "Tapu Lele-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_137_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": [
+            "Wonder Tag"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Energy Drive",
+            "Tapu Cure-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "P"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-138",
+        "Name": "Lycanroc-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_138_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "200",
+        "Ability": [
+            "Bloodthirsty Eyes"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Claw Slash",
+            "Dangerous Rogue-GX"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FC"
+        ],
+        "Move-Damage": [
+            "110",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-139",
+        "Name": "Metagross-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_139_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "250",
+        "Ability": [
+            "Geotech System"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [P] or [M] Energy card from your discard pile to your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Giga Hammer",
+            "Algorithm-GX"
+        ],
+        "Move-Energy": [
+            "MMC",
+            "C"
+        ],
+        "Move-Damage": [
+            "150",
+            null
+        ],
+        "Effects": [
+            "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-140",
+        "Name": "Sylveon-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_140_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Magical Ribbon",
+            "Fairy Wind",
+            "Plea-GX"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YCC",
+            "YCC"
+        ],
+        "Move-Damage": [
+            null,
+            "110",
+            null
+        ],
+        "Effects": [
+            "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+            "",
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-141",
+        "Name": "Kommo-o-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_141_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Adamantine Press",
+            "Shred",
+            "Ultra Uppercut-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "LFCC",
+            "LFCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130",
+            "240"
+        ],
+        "Effects": [
+            "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "(You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-142",
+        "Name": "Drampa-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_142_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Righteous Edge",
+            "Berserk",
+            "Big Wheel-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC",
+            "C"
+        ],
+        "Move-Damage": [
+            "20",
+            "80+",
+            null
+        ],
+        "Effects": [
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 70 more damage.",
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-143",
+        "Name": "Hala",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_143_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle your hand into your deck. If you have used your GX attack, draw 7 cards. If not, draw 4 cards.",
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "GRI-144",
+        "Name": "Hau",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_144_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 3 cards.",
+        "Illustrator": "Sanosuke Sakuma"
+    },
+    {
+        "ID": "GRI-145",
+        "Name": "Mallow",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_145_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.",
+        "Illustrator": "Megumi Mizutani"
+    },
+    {
+        "ID": "GRI-146",
+        "Name": "Decidueye-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_146_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "240",
+        "Ability": [
+            "Feather Arrow"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may put 2 damage counters on 1 of your opponent's Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Razor Leaf",
+            "Hollow Hunt-GX"
+        ],
+        "Move-Energy": [
+            "GCC",
+            "G"
+        ],
+        "Move-Damage": [
+            "90",
+            null
+        ],
+        "Effects": [
+            "",
+            "Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-147",
+        "Name": "Incineroar-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_147_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "250",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hustling Strike",
+            "Tiger Swing",
+            "Burning Slam-GX"
+        ],
+        "Move-Energy": [
+            "R",
+            "RRC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "80+",
+            "200"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each of your Benched [R] Pok\u00e9mon.",
+            "Flip 2 coins. This attack does 50 more damage for each heads.",
+            "Your opponent's Active Pok\u00e9mon is now Burned. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-148",
+        "Name": "Turtonator-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_148_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shell Trap",
+            "Bright Flame",
+            "Nitro Tank-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC",
+            "R"
+        ],
+        "Move-Damage": [
+            "20",
+            "160",
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack (even if this Pok\u00e9mon is Knocked Out), put 8 damage counters on the Attacking Pok\u00e9mon.",
+            "Discard 2 [R] Energy from this Pok\u00e9mon.",
+            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-149",
+        "Name": "Primarina-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_149_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "250",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble Beat",
+            "Roaring Seas",
+            "Grand Echo-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWWC",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "120",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 more damage times the amount of [W] Energy attached to your Pok\u00e9mon.",
+            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
+            "Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-150",
+        "Name": "Alolan Ninetales-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_150_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Blade",
+            "Blizzard Edge",
+            "Ice Path-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWC",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "160",
+            null
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-151",
+        "Name": "Wishiwashi-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_151_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun",
+            "Torrential Vortex",
+            "Blue Surge-GX"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWWCC",
+            "WWWCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "120",
+            "220"
+        ],
+        "Effects": [
+            "",
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-152",
+        "Name": "Vikavolt-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_152_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge Beam",
+            "Super Zap Cannon",
+            "Gigatron-GX"
+        ],
+        "Move-Energy": [
+            "L",
+            "LCCC",
+            "LCCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "180",
+            null
+        ],
+        "Effects": [
+            "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-153",
+        "Name": "Tapu Koko-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_153_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "170",
+        "Ability": [
+            "Aero Trail"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may move any number of [L] Energy from your other Pok\u00e9mon to this Pok\u00e9mon. If you do, switch this Pok\u00e9mon with your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sky-High Claws",
+            "Tapu Thunder-GX"
+        ],
+        "Move-Energy": [
+            "LLC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "130",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-154",
+        "Name": "Toxapex-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_154_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spike Cannon",
+            "Super Intense Poison",
+            "Total Shelter-GX"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP",
+            "PPP"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            null,
+            "150"
+        ],
+        "Effects": [
+            "Flip 4 coins. This attack does 30 damage for each heads.",
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
+            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-155",
+        "Name": "Tapu Lele-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_155_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": [
+            "Wonder Tag"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Energy Drive",
+            "Tapu Cure-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "P"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-156",
+        "Name": "Lycanroc-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_156_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "200",
+        "Ability": [
+            "Bloodthirsty Eyes"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Claw Slash",
+            "Dangerous Rogue-GX"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FC"
+        ],
+        "Move-Damage": [
+            "110",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-157",
+        "Name": "Metagross-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_157_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "250",
+        "Ability": [
+            "Geotech System"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [P] or [M] Energy card from your discard pile to your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Giga Hammer",
+            "Algorithm-GX"
+        ],
+        "Move-Energy": [
+            "MMC",
+            "C"
+        ],
+        "Move-Damage": [
+            "150",
+            null
+        ],
+        "Effects": [
+            "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-157a",
+        "Name": "Metagross-GX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_157a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "250",
+        "Ability": [
+            "Geotech System"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [P] or [M] Energy card from your discard pile to your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Giga Hammer",
+            "Algorithm-GX"
+        ],
+        "Move-Energy": [
+            "MMC",
+            "C"
+        ],
+        "Move-Damage": [
+            "150",
+            null
+        ],
+        "Effects": [
+            "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-158",
+        "Name": "Sylveon-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_158_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Magical Ribbon",
+            "Fairy Wind",
+            "Plea-GX"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YCC",
+            "YCC"
+        ],
+        "Move-Damage": [
+            null,
+            "110",
+            null
+        ],
+        "Effects": [
+            "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+            "",
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-159",
+        "Name": "Kommo-o-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_159_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Adamantine Press",
+            "Shred",
+            "Ultra Uppercut-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "LFCC",
+            "LFCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130",
+            "240"
+        ],
+        "Effects": [
+            "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "(You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-160",
+        "Name": "Drampa-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_160_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Righteous Edge",
+            "Berserk",
+            "Big Wheel-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC",
+            "C"
+        ],
+        "Move-Damage": [
+            "20",
+            "80+",
+            null
+        ],
+        "Effects": [
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 70 more damage.",
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-161",
+        "Name": "Aqua Patch",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_161_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Attach a [W] Energy card from your discard pile to 1 of your Benched [W] Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-162",
+        "Name": "Enhanced Hammer",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_162_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "GRI-163",
+        "Name": "Field Blower",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_163_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose up to 2 in any combination of Pok\u00e9mon Tool cards and Stadium cards in play (yours or your opponent's) and discard them.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-164",
+        "Name": "Max Potion",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_164_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Heal all damage from 1 of your Pok\u00e9mon. Then, discard all Energy attached to that Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-165",
+        "Name": "Rare Candy",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_165_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "GRI-166",
+        "Name": "Double Colorless Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_166_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Double Colorless Energy provides [C][C] Energy.",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "GRI-167",
+        "Name": "Grass Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_167_R_EN_LG.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "GRI-168",
+        "Name": "Lightning Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_168_R_EN_LG.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "GRI-169",
+        "Name": "Fighting Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_169_R_EN_LG.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    }
+]

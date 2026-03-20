@@ -1,0 +1,3166 @@
+[
+    {
+        "ID": "EM-001",
+        "Name": "Blaziken",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": [
+            "Blaze"
+        ],
+        "Ability-Effect": [
+            "As long as Blaziken's remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Searing Flame",
+            "Damage Burn"
+        ],
+        "Move-Energy": [
+            "C",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Burned.",
+            "If the Defending Pok\u00e9mon already has any damage counters on it, this attack does 50 damage plus 20 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-002",
+        "Name": "Deoxys",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": [
+            "Form Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Swift"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Power, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hironobu Yoshida"
+    },
+    {
+        "ID": "EM-003",
+        "Name": "Exploud",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Body Slam",
+            "Hyper Voice",
+            "Mega Throw"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC",
+            "CCC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30",
+            "50",
+            "60+"
+        ],
+        "Effects": [
+            "Draw 3 cards.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "",
+            "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 60 damage plus 40 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-004",
+        "Name": "Gardevoir",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": [
+            "Heal Dance"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may remove 2 damage counter from 1 of your Pok\u00e9mon. You can't use more than 1 Heal Dance Pok\u00e9-Power each turn. This power can't be used if Gardevoir is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Psypunch",
+            "Mind Shock"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-005",
+        "Name": "Groudon",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Rock Tumble"
+        ],
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Resistance."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-006",
+        "Name": "Kyogre",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Aqua Sonic"
+        ],
+        "Move-Energy": [
+            "C",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Resistance."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-007",
+        "Name": "Manectric",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Swift",
+            "Tail Shock"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon.",
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-008",
+        "Name": "Milotic",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surf",
+            "Super Hypno Wave"
+        ],
+        "Move-Energy": [
+            "C",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-009",
+        "Name": "Rayquaza",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dragon Dance",
+            "Dragon Claw"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RLC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "During your next turn, if any of your current Active Pok\u00e9mon does damage to any Defending Pok\u00e9mon, the attack does 30 more damage (before applying Weakness and Resistance).",
+            ""
+        ],
+        "Weakness": "Colorless",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-010",
+        "Name": "Sceptile",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/10_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Green Essence"
+        ],
+        "Ability-Effect": [
+            "As long as Sceptile is in play, each of your Active Pok\u00e9mon that has [G] Energy attached to it can't be affected by any Special Conditions."
+        ],
+        "Moves": [
+            "Razor Leaf",
+            "Swift"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-011",
+        "Name": "Swampert",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": [
+            "Water Cyclone"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may move a [W] Energy attached to 1 of your Active Pok\u00e9mon to 1 of your Benched Pok\u00e9mon. This power can't be used if Swampert is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Spinning Tail",
+            "Aqua Sonic"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This attack's damage isn't affected by Resistance."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-012",
+        "Name": "Chimecho",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Warp Sounds"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "If the Defending Pok\u00e9mon is an Evolved Pok\u00e9mon, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-013",
+        "Name": "Glalie",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hailstone",
+            "Super Slash"
+        ],
+        "Move-Energy": [
+            "C",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40+"
+        ],
+        "Effects": [
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If the Defending Pok\u00e9mon is an Evolved Pok\u00e9mon, this attack does 40 damage plus 20 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-014",
+        "Name": "Groudon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Eruption"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "",
+            "Each player discards the top card of his or her deck. This attack does 40 damage plus 10 more damage for each Energy card discarded in this way."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-015",
+        "Name": "Kyogre",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scary Face",
+            "Hydro Pump"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWC"
+        ],
+        "Move-Damage": [
+            null,
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack or retreat during your opponent's next turn.",
+            "Does 40 damage plus 10 more damage for each [W] Energy attached to Kyogre but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-016",
+        "Name": "Manectric",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dazzle Blast",
+            "Zap Kick"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-017",
+        "Name": "Nosepass",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Wide Laser"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-018",
+        "Name": "Relicanth",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/18_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sharp Fin",
+            "Hypno Splash"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-019",
+        "Name": "Rhydon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Horn Attack",
+            "Rock Tumble"
+        ],
+        "Move-Energy": [
+            "FC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Resistance."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-020",
+        "Name": "Seviper",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pierce",
+            "Bite Off"
+        ],
+        "Move-Energy": [
+            "C",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30+"
+        ],
+        "Effects": [
+            "",
+            "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 30 damage plus 30 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-021",
+        "Name": "Zangoose",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Extra Claws",
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "20+"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 10 damage plus 20 more damage.",
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-022",
+        "Name": "Breloom",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Power Blow",
+            "Body Slam"
+        ],
+        "Move-Energy": [
+            "C",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "40"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 more damage for each Energy attached to Breloom.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-023",
+        "Name": "Camerupt",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/23_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Extra Flame",
+            "Super Singe"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "40"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 20 damage plus 30 more damage.",
+            "The Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-024",
+        "Name": "Claydol",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/24_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": [
+            "Levitate"
+        ],
+        "Ability-Effect": [
+            "As long as Claydol has any Energy attached to it, the Retreat Cost for Claydol is 0."
+        ],
+        "Moves": [
+            "Rock Smash"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "EM-025",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/25_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lava Burn",
+            "Sharp Claws"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If heads, this attack does 40 damage plus 10 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-026",
+        "Name": "Dodrio",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smash Kick",
+            "Smash Turn"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "After your attack, you may switch Dodrio with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-027",
+        "Name": "Electrode",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/27_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Speed Ball"
+        ],
+        "Move-Energy": [
+            "L",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-028",
+        "Name": "Grovyle",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/28_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Shake",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "G",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-029",
+        "Name": "Grumpig",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psyshock",
+            "Teleport Blast"
+        ],
+        "Move-Energy": [
+            "P",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "After your attack, you may switch Grumpig with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-030",
+        "Name": "Grumpig",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/30_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Snap Tail",
+            "Psypunch"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-031",
+        "Name": "Hariyama",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/31_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cross-Cut",
+            "Shove"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "40"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon is an Evolved Pok\u00e9mon, this attack does 20 damage plus 20 more damage.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-032",
+        "Name": "Illumise",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/32_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Draw a card.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-033",
+        "Name": "Kirlia",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psypunch",
+            "Mind Shock"
+        ],
+        "Move-Energy": [
+            "PC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-034",
+        "Name": "Linoone",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/34_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam",
+            "Claw Swipe"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "EM-035",
+        "Name": "Loudred",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Loudred does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-036",
+        "Name": "Marshtomp",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/36_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Hypno Wave",
+            "Surf"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-037",
+        "Name": "Minun",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/37_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": [
+            "Electro-guard"
+        ],
+        "Ability-Effect": [
+            "As long Minun has any [L] Energy attached to it, Minun has no Weakness."
+        ],
+        "Moves": [
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "EM-038",
+        "Name": "Ninetales",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/38_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confuse Ray",
+            "Searing Flame"
+        ],
+        "Move-Energy": [
+            "R",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Confused.",
+            "The Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-039",
+        "Name": "Plusle",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Thundershock"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "EM-040",
+        "Name": "Swalot",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/40_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blot",
+            "Poison Breath"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Remove 1 damage counter from Swalot.",
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-041",
+        "Name": "Swellow",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/41_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck",
+            "Skill Dive"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            null
+        ],
+        "Effects": [
+            "",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "EM-042",
+        "Name": "Volbeat",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/42_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confuse Ray",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Volbeat does 10 damage to itself."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-043",
+        "Name": "Baltoy",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/43_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slap",
+            "Pierce"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "EM-044",
+        "Name": "Cacnea",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/44_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spike Cannon"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-045",
+        "Name": "Doduo",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/45_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Paralyzing Gaze"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-046",
+        "Name": "Duskull",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/46_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-047",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/47_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Kick"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-048",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/48_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rear Kick",
+            "Skull Bash"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-049",
+        "Name": "Feebas",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": [
+            "Submerge"
+        ],
+        "Ability-Effect": [
+            "As long as Feebas is on your Bench, prevent all damage done to Feebas by attacks (both yours and your opponent's)."
+        ],
+        "Moves": [
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-050",
+        "Name": "Feebas",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Arrow"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-051",
+        "Name": "Gulpin",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/51_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Drool"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-052",
+        "Name": "Larvitar",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/52_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dig Under"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Nakaoka"
+    },
+    {
+        "ID": "EM-053",
+        "Name": "Luvdisc",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/53_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Call for Friend",
+            "Strange Scale"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for a Basic Pok\u00e9mon and put it onto your Bench. Shuffle your deck afterward.",
+            "If the Defending Pok\u00e9mon is an Evolved Pok\u00e9mon, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-054",
+        "Name": "Makuhita",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/54_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cross Chop"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-055",
+        "Name": "Meditite",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/55_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "High Jump Kick",
+            "Fake Out"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-056",
+        "Name": "Mudkip",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/56_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Strike"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-057",
+        "Name": "Numel",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/57_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "C",
+            "R"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-058",
+        "Name": "Numel",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/58_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stampede",
+            "Steady Firebreathing"
+        ],
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-059",
+        "Name": "Pichu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/59_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": [
+            "Baby Evolution"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu."
+        ],
+        "Moves": [
+            "Collect"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Draw a card."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Nakaoka"
+    },
+    {
+        "ID": "EM-060",
+        "Name": "Pikachu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/60_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pika Ball",
+            "Thundershock"
+        ],
+        "Move-Energy": [
+            "L",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-061",
+        "Name": "Ralts",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/61_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hypnotic Ray"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-062",
+        "Name": "Rhyhorn",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/62_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Horn Attack",
+            "Horn Drill"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "EM-063",
+        "Name": "Shroomish",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/63_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Headbutt"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-064",
+        "Name": "Snorunt",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/64_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beat"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-065",
+        "Name": "Spoink",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/65_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Knock Away"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "EM-066",
+        "Name": "Spoink",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/66_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "EM-067",
+        "Name": "Swablu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/67_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": [
+            "Feathery"
+        ],
+        "Ability-Effect": [
+            "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks."
+        ],
+        "Moves": [
+            "Razor Wind"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-068",
+        "Name": "Taillow",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/68_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Razor Wind"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "EM-069",
+        "Name": "Torchic",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/69_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hypnotic Gaze"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-070",
+        "Name": "Treecko",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/70_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Smash"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-071",
+        "Name": "Voltorb",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/71_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Speed Ball"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "EM-072",
+        "Name": "Vulpix",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/72_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Firebreathing"
+        ],
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20+"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-073",
+        "Name": "Whismur",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/73_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "EM-074",
+        "Name": "Zigzagoon",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex9/74_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Body Slam"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "EM-075",
+        "Name": "Battle Frontier",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/75_hires.png",
+        "Pack": null,
+        "Description": "Each player's [C] Evolved Pok\u00e9mon, [D] Evolved Pok\u00e9mon, and [M] Evolved Pok\u00e9mon can't use any Pok\u00e9-Powers or Pok\u00e9-Bodies.",
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "EM-076",
+        "Name": "Double Full Heal",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/76_hires.png",
+        "Pack": null,
+        "Description": "Remove all Special Conditions from each of your Active Pok\u00e9mon.",
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "EM-077",
+        "Name": "Lanette's Net Search",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/77_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 3 different types of Basic Pok\u00e9mon cards (excluding Baby Pok\u00e9mon), show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "EM-078",
+        "Name": "Lum Berry",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/78_hires.png",
+        "Pack": null,
+        "Description": "At the end of each turn, if the Pok\u00e9mon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card.",
+        "Illustrator": "Kazuo Yazawa"
+    },
+    {
+        "ID": "EM-079",
+        "Name": "Mr. Stone's Project",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/79_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 2 Basic cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward. Or, search your discard pile for up to 2 Basic cards, show them to your opponent, and put them into your hand.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "EM-080",
+        "Name": "Oran Berry",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/80_hires.png",
+        "Pack": null,
+        "Description": "At any time between turns, if the Pok\u00e9mon this card is attached to has at least 2 damage counters on it, remove 2 damage counters from it. Then discard Oran Berry.",
+        "Illustrator": "Kazuo Yazawa"
+    },
+    {
+        "ID": "EM-081",
+        "Name": "Pok\u00e9Nav",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/81_hires.png",
+        "Pack": null,
+        "Description": "Look at the top 3 cards of your deck. You may reveal a Pok\u00e9mon or Energy card you find there and put it into your hand. Put the other cards back in any order.",
+        "Illustrator": "Katsura Tabata"
+    },
+    {
+        "ID": "EM-082",
+        "Name": "Professor Birch",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/82_hires.png",
+        "Pack": null,
+        "Description": "Draw cards from your deck until you have 6 cards in your hand.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "EM-083",
+        "Name": "Rare Candy",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/83_hires.png",
+        "Pack": null,
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "EM-084",
+        "Name": "Scott",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/84_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 3 cards in any combination of Supporter cards and Stadium cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "EM-085",
+        "Name": "Wally's Training",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex9/85_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for a card that evolves from your Active Pok\u00e9mon (choose 1 if there are 2) and put it on your Active Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "EM-086",
+        "Name": "Darkness Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/86_hires.png",
+        "Pack": null,
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
+        "Illustrator": "Milky Isobe"
+    },
+    {
+        "ID": "EM-087",
+        "Name": "Double Rainbow Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/87_hires.png",
+        "Pack": null,
+        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy.) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
+        "Illustrator": "Takumi Akabane"
+    },
+    {
+        "ID": "EM-088",
+        "Name": "Metal Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/88_hires.png",
+        "Pack": null,
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
+        "Illustrator": "Milky Isobe"
+    },
+    {
+        "ID": "EM-089",
+        "Name": "Multi Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex9/89_hires.png",
+        "Pack": null,
+        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
+        "Illustrator": "Takumi Akabane"
+    },
+    {
+        "ID": "EM-090",
+        "Name": "Altaria ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/90_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": [
+            "Mist"
+        ],
+        "Ability-Effect": [
+            "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pok\u00e9mon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Dive",
+            "Dragon Mist"
+        ],
+        "Move-Energy": [
+            "C",
+            "WLC"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "",
+            "This attack's damage isn't affected by Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "EM-091",
+        "Name": "Cacturne ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/91_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": [
+            "Cursed Glare"
+        ],
+        "Ability-Effect": [
+            "As long as Cacturne ex is your Active Pok\u00e9mon, your opponent can't attach any Special Energy cards (except for [D] and [M] Energy cards) from his or her hand to his or her Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Psybeam",
+            "Spike Rend"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Confused.",
+            "If the Defending Pok\u00e9mon already has any damage counters on it, this attack does 50 damage plus 20 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike"
+    },
+    {
+        "ID": "EM-092",
+        "Name": "Camerupt ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/92_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Magma Armor"
+        ],
+        "Ability-Effect": [
+            "Camerupt ex can't be Asleep or Paralyzed."
+        ],
+        "Moves": [
+            "Searing Flame",
+            "Eruption"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Burned.",
+            "Each player discards the top card of his or her deck. This attack does 60 damage plus 20 more damage for each Energy card discarded in this way."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "EM-093",
+        "Name": "Deoxys ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/93_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "110",
+        "Ability": [
+            "Form Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Fastwave"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-094",
+        "Name": "Dusclops ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/94_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": [
+            "Dark Hole"
+        ],
+        "Ability-Effect": [
+            "As long as Dusclops ex is on your Bench, don't apply [D] Weakness for all of your Pok\u00e9mon is play."
+        ],
+        "Moves": [
+            "Shadow Beam"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put 2 damage counters on the Defending Pok\u00e9mon for each Energy attached to Dusclops ex."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting/Colorless",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-095",
+        "Name": "Medicham ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/95_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": [
+            "Wise Aura"
+        ],
+        "Ability-Effect": [
+            "As long as Medicham ex is your Active Pok\u00e9mon, each Pok\u00e9mon (excluding Pok\u00e9mon-ex) (both yours and your opponent's) can't use any Pok\u00e9-Powers."
+        ],
+        "Moves": [
+            "Pure Power",
+            "Sky Kick"
+        ],
+        "Move-Energy": [
+            "CC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60+"
+        ],
+        "Effects": [
+            "Put 3 damage counters on your opponent's Pok\u00e9mon in any way you like.",
+            "If the Defending Pok\u00e9mon has [F] Resistance, this attack does 60 damage plus 40 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike"
+    },
+    {
+        "ID": "EM-096",
+        "Name": "Milotic ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/96_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": [
+            "Mystic Scale"
+        ],
+        "Ability-Effect": [
+            "As long as Milotic ex is in play, each player can't play any Technical Machine cards from his or her hand. Discard all Technical Machine cards in play (both yours and your opponent's)."
+        ],
+        "Moves": [
+            "Gentle Wrap",
+            "Reflect Energy"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "70"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            "Move 1 basic Energy card attached to Milotic ex to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "EM-097",
+        "Name": "Raichu ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/97_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": [
+            "Rai-shield"
+        ],
+        "Ability-Effect": [
+            "Damage done to any of your Raichu ex in play by attacks from your opponent's Pok\u00e9mon-ex is reduced by 30 (after applying Weakness and Resistance). You can't use more than 1 Rai-shield Pok\u00e9-Body each turn."
+        ],
+        "Moves": [
+            "Power Short",
+            "Pika Bolt"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "70"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If that Pok\u00e9mon has Pok\u00e9-Powers, this attack does 30 damage plus 20 more damage.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "EM-098",
+        "Name": "Regice ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/98_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Beam",
+            "Iceberg Crush"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "If Regirock ex is in play, flip a coin. If heads, discard 1 Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike"
+    },
+    {
+        "ID": "EM-099",
+        "Name": "Regirock ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/99_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mend",
+            "Metal Crush"
+        ],
+        "Move-Energy": [
+            "C",
+            "FFC"
+        ],
+        "Move-Damage": [
+            null,
+            "40+"
+        ],
+        "Effects": [
+            "Search your discard pile for a [F] Energy card and attach it to Regirock ex. If you do, remove 1 damage counter from Regirock ex.",
+            "If Registeel ex is in play, this attack does 40 damage plus 20 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike"
+    },
+    {
+        "ID": "EM-100",
+        "Name": "Registeel ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex9/100_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Block Signal",
+            "Wide Laser"
+        ],
+        "Move-Energy": [
+            "C",
+            "MMC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "If Regice ex is in play, flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike"
+    },
+    {
+        "ID": "EM-101",
+        "Name": "Grass Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/101_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "EM-102",
+        "Name": "Fire Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/102_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "EM-103",
+        "Name": "Water Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/103_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "EM-104",
+        "Name": "Lightning Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/104_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "EM-105",
+        "Name": "Psychic Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/105_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "EM-106",
+        "Name": "Fighting Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex9/106_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null
+    },
+    {
+        "ID": "EM-107",
+        "Name": "Farfetch'd",
+        "Rarity": "Secret Rare",
+        "Image": "https://images.pokemontcg.io/ex9/107_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spearhead",
+            "Nosedive"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Farfetch'd does 10 damage to itself."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    }
+]

@@ -9,6 +9,9 @@ from PyQt6 import sip
 class ImageManager:
 
     def __init__(self):
+
+        self.tcg_logo = QPixmap("src/images/ui/tcg_logo.png")
+        self.tcg_pocket_logo = QPixmap("src/images/ui/tcg_pocket_logo.png")
         
         self.img_icon = (QPixmap("src/images/ui/img_icon_black.png"), QPixmap("src/images/ui/img_icon_white.png"))
         self.loading_icon = (QPixmap("src/images/ui/loading_icon_black.png"), QPixmap("src/images/ui/loading_icon_white.png"))
@@ -44,8 +47,9 @@ class ImageManager:
         }
 
 
-        self.logo_dict = {
-            "A1": (QPixmap("src/images/set_logo/geneticapex.png"), QPixmap("src/images/tags/A1_black.png")),
+        self.logo_dict = {}
+
+        '''"A1": (QPixmap("src/images/set_logo/geneticapex.png"), QPixmap("src/images/tags/A1_black.png")),
             "P-A": (QPixmap("src/images/set_logo/promo-a.png"), QPixmap("src/images/tags/P-A_black.png")),
             "P-B": (QPixmap("src/images/set_logo/promo-b.png"), QPixmap("src/images/tags/P-B_black.png")),
             "A1a": (QPixmap("src/images/set_logo/mythicalisland.png"), QPixmap("src/images/tags/A1a_black.png")),
@@ -61,9 +65,7 @@ class ImageManager:
             "B1": (QPixmap("src/images/set_logo/megarising.png"), QPixmap("src/images/tags/B1_black.png")),
             "B1a": (QPixmap("src/images/set_logo/crimsonblaze.png"), QPixmap("src/images/tags/B1a_black.png")),
             "B2": (QPixmap("src/images/set_logo/fantasticalparade.png"), QPixmap("src/images/tags/B2_black.png")),
-            "B2a": (QPixmap("src/images/set_logo/paldeanwonders.png"), QPixmap("src/images/tags/B2a_black.png")),
-            
-        }
+            "B2a": (QPixmap("src/images/set_logo/paldeanwonders.png"), QPixmap("src/images/tags/B2a_black.png")),'''
 
         self.rarity_dict = {
             "1 Diamond": QPixmap("src/images/rarities/diamond1.png"),

@@ -1,0 +1,488 @@
+[
+    {
+        "ID": "P2-001",
+        "Name": "Entei",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stomp",
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+            "Discard 2 Basic Energy cards attached to Entei or this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P2-002",
+        "Name": "Pidgeot",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": [
+            "Beating Wings"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Pidgeot is your Active Pok\u00e9mon, you may shuffle 1 of your Benched Pok\u00e9mon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Sharp Beak"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage plus 30 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P2-003",
+        "Name": "Raikou",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Roar",
+            "Thunder"
+        ],
+        "Move-Energy": [
+            "C",
+            "LLC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any.",
+            "Flip a coin. If tails, Raikou does 20 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P2-004",
+        "Name": "Suicune",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Mirror Coat"
+        ],
+        "Ability-Effect": [
+            "If Suicune is Burned or Poisoned by an opponent's attack (even if Suicune is Knocked Out), the Attacking Pok\u00e9mon is now affected by the same Special Conditions (1 if there is only 1)."
+        ],
+        "Moves": [
+            "Bubblebeam"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P2-005",
+        "Name": "Tauros",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rage",
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "40"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 more damage for each damage counter on Tauros.",
+            "Tauros does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P2-006",
+        "Name": "Venusaur",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wide Solarbeam",
+            "Hard Plant"
+        ],
+        "Move-Energy": [
+            "GGC",
+            "GGGC"
+        ],
+        "Move-Damage": [
+            "20",
+            "80"
+        ],
+        "Effects": [
+            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Venusaur can't use Hard Plant during your next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "P2-007",
+        "Name": "Ivysaur",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop2/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Seed",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "C",
+            "GGC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P2-008",
+        "Name": "Mr. Briney's Compassion",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop2/8_hires.png",
+        "Pack": null,
+        "Description": "Choose 1 of your Pok\u00e9mon in play (excluding Pok\u00e9mon-ex). Return that Pok\u00e9mon and all cards attached to it to your hand.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P2-009",
+        "Name": "Multi Technical Machine 01",
+        "Card-Type": "Item/Technical Machine",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop2/9_hires.png",
+        "Pack": null,
+        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.                                        C        Paralyzing Gaze              The Defending Pok\u00e9mon is now Paralyzed.",
+        "Illustrator": "\"Big Mama\" Tagawa"
+    },
+    {
+        "ID": "P2-010",
+        "Name": "Pok\u00e9mon Park",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop2/10_hires.png",
+        "Pack": null,
+        "Description": "Once during each of his or her turns, whenever a player attaches an Energy card from his or her hand to 1 of his or her Benched Pok\u00e9mon, he or she removes 1 damage counter, if any, from that Pok\u00e9mon.",
+        "Illustrator": "Kazuo Yazawa"
+    },
+    {
+        "ID": "P2-011",
+        "Name": "TV Reporter",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop2/11_hires.png",
+        "Pack": null,
+        "Description": "Draw 3 cards. Then, discard a card from your hand. If you have no cards in your deck, you can't play this card.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P2-012",
+        "Name": "Bulbasaur",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop2/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "P2-013",
+        "Name": "Cacnea",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop2/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sand Attack"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P2-014",
+        "Name": "Luvdisc",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop2/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Paralyzing Kiss",
+            "Fast Stream"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "If there are 2 Defending Pok\u00e9mon in play, choose 1 of the Defending Pok\u00e9mon. That Pok\u00e9mon is now Paralyzed. (If there is only 1 Defending Pok\u00e9mon, this attack does nothing.)",
+            "Move 1 Energy card attached to the Defending Pok\u00e9mon to the other Defending Pok\u00e9mon. (Ignore this effect if your opponent has only 1 Defending Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "P2-015",
+        "Name": "Phanpy",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop2/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Spin",
+            "Body Slam"
+        ],
+        "Move-Energy": [
+            "F",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            "10"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 10 damage times the number of heads.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "P2-016",
+        "Name": "Pikachu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop2/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Thunder Jolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, Pikachu does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "P2-017",
+        "Name": "Celebi ex",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop2/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": [
+            "Time Reversal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Celebi ex from your hand onto your Bench, you may search your discard pile for a card, show it to your opponent, and put it on top of your deck."
+        ],
+        "Moves": [
+            "Psychic Shield"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pok\u00e9mon-ex during your opponent's next turn."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    }
+]

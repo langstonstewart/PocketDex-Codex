@@ -1,0 +1,2634 @@
+[
+    {
+        "ID": "PGO-001",
+        "Name": "Bulbasaur",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vine Whip",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "G",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sowsow"
+    },
+    {
+        "ID": "PGO-002",
+        "Name": "Ivysaur",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Summoning Aroma",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "zig"
+    },
+    {
+        "ID": "PGO-003",
+        "Name": "Venusaur",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_003_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": [
+            "Loopy Lasso"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may flip a coin. If heads, switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon, and the new Active Pok\u00e9mon is now Asleep and Poisoned."
+        ],
+        "Moves": [
+            "Solar Beam"
+        ],
+        "Move-Energy": [
+            "GGCC"
+        ],
+        "Move-Damage": [
+            "130"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "KEIICHIRO ITO"
+    },
+    {
+        "ID": "PGO-004",
+        "Name": "Radiant Venusaur",
+        "Rarity": "Radiant Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_004_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "150",
+        "Ability": [
+            "Sunny Bloom"
+        ],
+        "Ability-Effect": [
+            "Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 4 cards in your hand."
+        ],
+        "Moves": [
+            "Pollen Hazard"
+        ],
+        "Move-Energy": [
+            "GGC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned, Confused, and Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Misa Tsutsui"
+    },
+    {
+        "ID": "PGO-005",
+        "Name": "Alolan Exeggutor V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Growing Tall",
+            "Head Swing"
+        ],
+        "Move-Energy": [
+            "G",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, search your deck for up to 5 [G] Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon for each [G] Energy attached to this Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "MUGENUP"
+    },
+    {
+        "ID": "PGO-006",
+        "Name": "Spinarak",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_006_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Sting"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "PGO-007",
+        "Name": "Ariados",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison String-Up",
+            "Absorb"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned.",
+            "Heal 50 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Misa Tsutsui"
+    },
+    {
+        "ID": "PGO-008",
+        "Name": "Charmander",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_008_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail on Fire"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Search your deck for a [R] Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "saino misaki"
+    },
+    {
+        "ID": "PGO-009",
+        "Name": "Charmeleon",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_009_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Flamethrower"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "100"
+        ],
+        "Effects": [
+            "",
+            "Discard a [R] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shiburingaru"
+    },
+    {
+        "ID": "PGO-010",
+        "Name": "Charizard",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "170",
+        "Ability": [
+            "Burn Brightly"
+        ],
+        "Ability-Effect": [
+            "Each basic [R] Energy attached to your Pok\u00e9mon provides [R][R] Energy. You can't apply more than 1 Burn Brightly Ability at a time."
+        ],
+        "Moves": [
+            "Flare Blitz"
+        ],
+        "Move-Energy": [
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "170"
+        ],
+        "Effects": [
+            "Discard all [R] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-011",
+        "Name": "Radiant Charizard",
+        "Rarity": "Radiant Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "160",
+        "Ability": [
+            "Excited Heart"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon's attacks cost [C] less for each Prize card your opponent has taken."
+        ],
+        "Moves": [
+            "Combustion Blast"
+        ],
+        "Move-Energy": [
+            "RCCCC"
+        ],
+        "Move-Damage": [
+            "250"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't use Combustion Blast."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shigenori Negishi"
+    },
+    {
+        "ID": "PGO-012",
+        "Name": "Moltres",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Flare Symbol"
+        ],
+        "Ability-Effect": [
+            "Your Basic [R] Pok\u00e9mon's attacks, except any Moltres, do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Fire Wing"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Pani Kobayashi"
+    },
+    {
+        "ID": "PGO-013",
+        "Name": "Numel",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_013_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Stomp"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 50 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shibuzoh."
+    },
+    {
+        "ID": "PGO-014",
+        "Name": "Camerupt",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Split Bomb",
+            "Heat Blast"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            null,
+            "120"
+        ],
+        "Effects": [
+            "This attack does 50 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "yuu"
+    },
+    {
+        "ID": "PGO-015",
+        "Name": "Squirtle",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sowsow"
+    },
+    {
+        "ID": "PGO-016",
+        "Name": "Wartortle",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun",
+            "Hydro Pump"
+        ],
+        "Move-Energy": [
+            "W",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "This attack does 10 more damage for each [W] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kurumitsu"
+    },
+    {
+        "ID": "PGO-017",
+        "Name": "Blastoise",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "170",
+        "Ability": [
+            "Vitality Spring"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may search your deck for up to 6 Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck. If you use this Ability, your turn ends."
+        ],
+        "Moves": [
+            "Hydro Pump"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "90+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each [W] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "NC Empire"
+    },
+    {
+        "ID": "PGO-018",
+        "Name": "Radiant Blastoise",
+        "Rarity": "Radiant Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_018_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "150",
+        "Ability": [
+            "Pump Shot"
+        ],
+        "Ability-Effect": [
+            "You must discard a [W] Energy card from your hand in order to use this Ability. Once during your turn, you may put 2 damage counters on 1 of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Torrential Cannon"
+        ],
+        "Move-Energy": [
+            "WWC"
+        ],
+        "Move-Damage": [
+            "170"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't use Torrential Cannon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "PGO-019",
+        "Name": "Slowpoke",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hold Still",
+            "Ideal Fishing Day"
+        ],
+        "Move-Energy": [
+            "C",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "Put an Item card from your discard pile into your hand."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-020",
+        "Name": "Slowbro",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tumbling Tackle",
+            "Twilight Inspiration"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "20",
+            null
+        ],
+        "Effects": [
+            "Both Active Pok\u00e9mon are now Asleep.",
+            "You can use this attack only if your opponent has exactly 1 Prize card remaining. Take 2 Prize cards."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai"
+    },
+    {
+        "ID": "PGO-021",
+        "Name": "Magikarp",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_021_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lively Grouping",
+            "Raging Fin"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "Search your deck for any number of Magikarp, reveal them, and put them into your hand. Then, shuffle your deck.",
+            "This attack does 30 more damage for each Magikarp and Gyarados in your discard pile."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-022",
+        "Name": "Gyarados",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_022_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wreak Havoc",
+            "Wild Splash"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            null,
+            "230"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. For each heads, discard the top 2 cards of your opponent's deck.",
+            "Discard the top 5 cards of your deck."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "PGO-023",
+        "Name": "Lapras",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_023_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Beam",
+            "Surf"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "20",
+            "110"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-024",
+        "Name": "Articuno",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_024_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": [
+            "Ice Symbol"
+        ],
+        "Ability-Effect": [
+            "Your Basic [W] Pok\u00e9mon's attacks, except any Articuno, do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Freezing Wind"
+        ],
+        "Move-Energy": [
+            "WWC"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Jiro Sasumo"
+    },
+    {
+        "ID": "PGO-025",
+        "Name": "Wimpod",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_025_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Punk Out"
+        ],
+        "Ability-Effect": [
+            "If your opponent has any Pok\u00e9mon V in play, this Pok\u00e9mon has no Retreat Cost."
+        ],
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "PGO-026",
+        "Name": "Golisopod",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_026_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "First Impression",
+            "Slash"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "100"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "otumami"
+    },
+    {
+        "ID": "PGO-027",
+        "Name": "Pikachu",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_027_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Buddy Bolt"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If you played a Supporter card from your hand during this turn, this attack does 30 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-028",
+        "Name": "Pikachu",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_028_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wild Charge"
+        ],
+        "Move-Energy": [
+            "LLC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon also does 30 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Narumi Sato"
+    },
+    {
+        "ID": "PGO-029",
+        "Name": "Zapdos",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_029_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": [
+            "Lightning Symbol"
+        ],
+        "Ability-Effect": [
+            "Your Basic [L] Pok\u00e9mon's attacks, except any Zapdos, do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Electric Ball"
+        ],
+        "Move-Energy": [
+            "LLC"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuya Oka"
+    },
+    {
+        "ID": "PGO-030",
+        "Name": "Mewtwo V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_030_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "220",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Psy Bolt",
+            "Transfer Break"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PPC"
+        ],
+        "Move-Damage": [
+            "50",
+            "160"
+        ],
+        "Effects": [
+            "",
+            "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Nurikabe"
+    },
+    {
+        "ID": "PGO-031",
+        "Name": "Mewtwo VSTAR",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_031_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VSTAR",
+        "Type": "Psychic",
+        "HP": "280",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psy Purge",
+            "Star Raid"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PC"
+        ],
+        "Move-Damage": [
+            "90\u00d7",
+            null
+        ],
+        "Effects": [
+            "Discard up to 3 [P] Energy from your Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
+            "This attack does 120 damage to each of your opponent's Pok\u00e9mon V. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 VSTAR Power in a game.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon VSTAR is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Mochizuki"
+    },
+    {
+        "ID": "PGO-032",
+        "Name": "Natu",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_032_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Nap",
+            "Peck"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "HYOGONOSUKE"
+    },
+    {
+        "ID": "PGO-033",
+        "Name": "Xatu",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_033_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pinpoint Wave",
+            "Mind Bend"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "This attack does 90 damage to 1 of your opponent's Pok\u00e9mon V. This damage isn't affected by Weakness or Resistance.",
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hataya"
+    },
+    {
+        "ID": "PGO-034",
+        "Name": "Lunatone",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_034_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cycle Draw",
+            "Moon Kinesis"
+        ],
+        "Move-Energy": [
+            "P",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Discard a card from your hand. If you do, draw 3 cards.",
+            "This attack does 30 more damage for each [P] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "miki kudo"
+    },
+    {
+        "ID": "PGO-035",
+        "Name": "Sylveon",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_035_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Souvenir",
+            "Wonder Flash"
+        ],
+        "Move-Energy": [
+            "P",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "90+"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+            "If your opponent's Active Pok\u00e9mon is a [N] Pok\u00e9mon, this attack does 90 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsushi Furusawa"
+    },
+    {
+        "ID": "PGO-036",
+        "Name": "Onix",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_036_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Tomb",
+            "Raging Swing"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat.",
+            "This attack does 50 damage for each damage counter on this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "PGO-037",
+        "Name": "Larvitar",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_037_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Smash"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui"
+    },
+    {
+        "ID": "PGO-038",
+        "Name": "Pupitar",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_038_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crashing Bullet",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "This attack also does 20 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "PGO-039",
+        "Name": "Solrock",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_039_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": [
+            "Sun Energy"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may attach a [P] Energy card from your discard pile to 1 of your Lunatone."
+        ],
+        "Moves": [
+            "Spinning Attack"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sekio"
+    },
+    {
+        "ID": "PGO-040",
+        "Name": "Conkeldurr V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_040_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "230",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Counter",
+            "Dynamic Punch"
+        ],
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "90+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+            "Flip a coin. If heads, this attack does 90 more damage, and your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ayaka Yoshida"
+    },
+    {
+        "ID": "PGO-041",
+        "Name": "Alolan Rattata",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_041_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Fang"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "KIYOTAKA OSHIYAMA"
+    },
+    {
+        "ID": "PGO-042",
+        "Name": "Alolan Raticate",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_042_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Chase Up",
+            "Super Fang"
+        ],
+        "Move-Energy": [
+            "D",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Search your deck for a card and put it into your hand. Then, shuffle your deck.",
+            "Put damage counters on your opponent's Active Pok\u00e9mon until its remaining HP is 10."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "PGO-043",
+        "Name": "Tyranitar",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_043_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Raging Crash",
+            "Earthquake"
+        ],
+        "Move-Energy": [
+            "CC",
+            "DDCC"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            "180"
+        ],
+        "Effects": [
+            "This attack does 10 damage for each damage counter on all of your Benched Pok\u00e9mon.",
+            "This attack also does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Nisota Niso"
+    },
+    {
+        "ID": "PGO-044",
+        "Name": "Steelix",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_044_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam",
+            "Iron Buster"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "MCCC"
+        ],
+        "Move-Damage": [
+            "70",
+            "170"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            "During your next turn, this Pok\u00e9mon can't attack."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "GOSSAN"
+    },
+    {
+        "ID": "PGO-045",
+        "Name": "Meltan",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_045_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunder Shock"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "PGO-046",
+        "Name": "Melmetal",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_046_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Swinging Smash"
+        ],
+        "Move-Energy": [
+            "CC",
+            "MCC"
+        ],
+        "Move-Damage": [
+            "60",
+            "30+"
+        ],
+        "Effects": [
+            "",
+            "Flip 2 coins. This attack does 90 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shigenori Negishi"
+    },
+    {
+        "ID": "PGO-047",
+        "Name": "Melmetal V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_047_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "220",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Arm Charge",
+            "Mega Punch"
+        ],
+        "Move-Energy": [
+            "MM",
+            "MMM"
+        ],
+        "Move-Damage": [
+            "50",
+            "140"
+        ],
+        "Effects": [
+            "You may attach a [M] Energy card from your hand to this Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "sadaji"
+    },
+    {
+        "ID": "PGO-048",
+        "Name": "Melmetal VMAX",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_048_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VMAX",
+        "Type": "Metal",
+        "HP": "330",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "G-Max Juggernaut"
+        ],
+        "Move-Energy": [
+            "MMM"
+        ],
+        "Move-Damage": [
+            "160+"
+        ],
+        "Effects": [
+            "This attack does 60 more damage for each extra [M] Energy attached to this Pok\u00e9mon (in addition to this attack's cost). You can't add more than 120 damage in this way."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Tsuji"
+    },
+    {
+        "ID": "PGO-049",
+        "Name": "Dragonite V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_049_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "230",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Beam",
+            "Buster Tail"
+        ],
+        "Move-Energy": [
+            "WL",
+            "WLC"
+        ],
+        "Move-Damage": [
+            "60",
+            "160"
+        ],
+        "Effects": [
+            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "PGO-050",
+        "Name": "Dragonite VSTAR",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_050_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VSTAR",
+        "Type": "Dragon",
+        "HP": "280",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Giga Impact",
+            "Draconic Star"
+        ],
+        "Move-Energy": [
+            "WLCC",
+            "C"
+        ],
+        "Move-Damage": [
+            "250",
+            null
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't attack.",
+            "Look at the top 12 cards of your deck and attach any number of [W] or [L] Energy cards you find there to your Pok\u00e9mon in any way you like. Shuffle the other cards back into your deck. (You can't use more than 1 VSTAR Power in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon VSTAR is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Tsuji"
+    },
+    {
+        "ID": "PGO-051",
+        "Name": "Chansey",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_051_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Delicious Egg",
+            "Gentle Slap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Heal 30 damage from 1 of your Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "ryoma uratsuka"
+    },
+    {
+        "ID": "PGO-052",
+        "Name": "Blissey",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_052_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Enriching Egg",
+            "Zen Headbutt"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Heal all damage from 1 of your Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Teeziro"
+    },
+    {
+        "ID": "PGO-053",
+        "Name": "Ditto",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_053_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "Sudden Transformation"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile, except for Pok\u00e9mon with a Rule Box (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes). (You still need the necessary Energy to use each attack.)"
+        ],
+        "Moves": [],
+        "Move-Energy": [],
+        "Move-Damage": [],
+        "Effects": [],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Misa Tsutsui"
+    },
+    {
+        "ID": "PGO-054",
+        "Name": "Eevee",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_054_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Whiny Voice",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-055",
+        "Name": "Snorlax",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_055_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "150",
+        "Ability": [
+            "Block"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in the Active Spot, your opponent's Active Pok\u00e9mon can't retreat."
+        ],
+        "Moves": [
+            "Collapse"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-056",
+        "Name": "Aipom",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_056_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bustle",
+            "Slap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma"
+    },
+    {
+        "ID": "PGO-057",
+        "Name": "Ambipom",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_057_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": [
+            "Primate Dexterity"
+        ],
+        "Ability-Effect": [
+            "If any damage is done to this Pok\u00e9mon by attacks, flip a coin. If heads, prevent that damage."
+        ],
+        "Moves": [
+            "Full Tilt Fling"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "60\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin for each Energy attached to this Pok\u00e9mon. This attack does 60 damage for each heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Scav"
+    },
+    {
+        "ID": "PGO-058",
+        "Name": "Slaking V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_058_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "230",
+        "Ability": [
+            "Kinda Lazy"
+        ],
+        "Ability-Effect": [
+            "If you have exactly 2, 4, or 6 Prize cards remaining, this Pok\u00e9mon can't attack."
+        ],
+        "Moves": [
+            "Heavy Impact"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "260"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Saki Hayashiro"
+    },
+    {
+        "ID": "PGO-059",
+        "Name": "Bidoof",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_059_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon also does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "PGO-060",
+        "Name": "Bibarel",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_060_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "110",
+        "Ability": [
+            "Reassuring Dam"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is on your Bench, cards in your deck can't be discarded by effects of your opponent's attacks, Abilities, Item cards, or Supporter cards."
+        ],
+        "Moves": [
+            "Hammer In"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "KIYOTAKA OSHIYAMA"
+    },
+    {
+        "ID": "PGO-061",
+        "Name": "Pidove",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_061_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Growl",
+            "Flap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon's attacks do 20 less damage (before applying Weakness and Resistance).",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-062",
+        "Name": "Tranquill",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_062_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aerial Ace",
+            "Flap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "0313"
+    },
+    {
+        "ID": "PGO-063",
+        "Name": "Unfezant",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_063_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gust",
+            "Hurricane Wing"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "30",
+            "70\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 4 coins. This attack does 70 damage for each heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "GIDORA"
+    },
+    {
+        "ID": "PGO-064",
+        "Name": "Blanche",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_064_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a [W] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Anesaki Dynamic"
+    },
+    {
+        "ID": "PGO-065",
+        "Name": "Candela",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_065_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a [R] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Ryuta Fuse"
+    },
+    {
+        "ID": "PGO-066",
+        "Name": "Egg Incubator",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_066_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, search your deck for a Basic Pok\u00e9mon, put it onto your Bench, and shuffle your deck. If tails, put this Egg Incubator on the bottom of your deck instead of in the discard pile.",
+        "Illustrator": "sadaji"
+    },
+    {
+        "ID": "PGO-067",
+        "Name": "Lure Module",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_067_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player reveals the top 3 cards of their deck and puts all Pok\u00e9mon they find there into their hand. Then, each player shuffles the other cards back into their deck.",
+        "Illustrator": "ORBITALLINK Inc."
+    },
+    {
+        "ID": "PGO-068",
+        "Name": "Pok\u00e9Stop",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_068_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Once during each player's turn, that player may discard 3 cards from the top of their deck. If a player discarded any Item cards in this way, they put those Item cards into their hand.",
+        "Illustrator": "Studio Bora Inc."
+    },
+    {
+        "ID": "PGO-069",
+        "Name": "Rare Candy",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_069_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Illustrator": "Ayaka Yoshida"
+    },
+    {
+        "ID": "PGO-070",
+        "Name": "Spark",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_070_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a [L] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "PGO-071",
+        "Name": "Alolan Exeggutor V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_071_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Growing Tall",
+            "Head Swing"
+        ],
+        "Move-Energy": [
+            "G",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, search your deck for up to 5 [G] Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon for each [G] Energy attached to this Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "MUGENUP"
+    },
+    {
+        "ID": "PGO-072",
+        "Name": "Mewtwo V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "220",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Psy Bolt",
+            "Transfer Break"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PPC"
+        ],
+        "Move-Damage": [
+            "50",
+            "160"
+        ],
+        "Effects": [
+            "",
+            "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-073",
+        "Name": "Conkeldurr V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_073_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "230",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Counter",
+            "Dynamic Punch"
+        ],
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "90+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+            "Flip a coin. If heads, this attack does 90 more damage, and your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ayaka Yoshida"
+    },
+    {
+        "ID": "PGO-074",
+        "Name": "Conkeldurr V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_074_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "230",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Counter",
+            "Dynamic Punch"
+        ],
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "90+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+            "Flip a coin. If heads, this attack does 90 more damage, and your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc."
+    },
+    {
+        "ID": "PGO-075",
+        "Name": "Melmetal V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_075_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "220",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Arm Charge",
+            "Mega Punch"
+        ],
+        "Move-Energy": [
+            "MM",
+            "MMM"
+        ],
+        "Move-Damage": [
+            "50",
+            "140"
+        ],
+        "Effects": [
+            "You may attach a [M] Energy card from your hand to this Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "sadaji"
+    },
+    {
+        "ID": "PGO-076",
+        "Name": "Dragonite V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_076_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "230",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Beam",
+            "Buster Tail"
+        ],
+        "Move-Energy": [
+            "WL",
+            "WLC"
+        ],
+        "Move-Damage": [
+            "60",
+            "160"
+        ],
+        "Effects": [
+            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "PGO-077",
+        "Name": "Slaking V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_077_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "230",
+        "Ability": [
+            "Kinda Lazy"
+        ],
+        "Ability-Effect": [
+            "If you have exactly 2, 4, or 6 Prize cards remaining, this Pok\u00e9mon can't attack."
+        ],
+        "Moves": [
+            "Heavy Impact"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "260"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Saki Hayashiro"
+    },
+    {
+        "ID": "PGO-078",
+        "Name": "Professor's Research",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_078_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard your hand and draw 7 cards.",
+        "Illustrator": "Yusuke Kozaki"
+    },
+    {
+        "ID": "PGO-079",
+        "Name": "Mewtwo VSTAR",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_079_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VSTAR",
+        "Type": "Psychic",
+        "HP": "280",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psy Purge",
+            "Star Raid"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PC"
+        ],
+        "Move-Damage": [
+            "90\u00d7",
+            null
+        ],
+        "Effects": [
+            "Discard up to 3 [P] Energy from your Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
+            "This attack does 120 damage to each of your opponent's Pok\u00e9mon V. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 VSTAR Power in a game.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon VSTAR is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-080",
+        "Name": "Melmetal VMAX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_080_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VMAX",
+        "Type": "Metal",
+        "HP": "330",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "G-Max Juggernaut"
+        ],
+        "Move-Energy": [
+            "MMM"
+        ],
+        "Move-Damage": [
+            "160+"
+        ],
+        "Effects": [
+            "This attack does 60 more damage for each extra [M] Energy attached to this Pok\u00e9mon (in addition to this attack's cost). You can't add more than 120 damage in this way."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-081",
+        "Name": "Dragonite VSTAR",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_081_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VSTAR",
+        "Type": "Dragon",
+        "HP": "280",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Giga Impact",
+            "Draconic Star"
+        ],
+        "Move-Energy": [
+            "WLCC",
+            "C"
+        ],
+        "Move-Damage": [
+            "250",
+            null
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't attack.",
+            "Look at the top 12 cards of your deck and attach any number of [W] or [L] Energy cards you find there to your Pok\u00e9mon in any way you like. Shuffle the other cards back into your deck. (You can't use more than 1 VSTAR Power in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon VSTAR is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-082",
+        "Name": "Blanche",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_082_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a [W] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-083",
+        "Name": "Candela",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_083_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a [R] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-084",
+        "Name": "Professor's Research",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_084_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard your hand and draw 7 cards.",
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-085",
+        "Name": "Spark",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_085_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a [L] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-086",
+        "Name": "Mewtwo VSTAR",
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_086_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VSTAR",
+        "Type": "Psychic",
+        "HP": "280",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psy Purge",
+            "Star Raid"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PC"
+        ],
+        "Move-Damage": [
+            "90\u00d7",
+            null
+        ],
+        "Effects": [
+            "Discard up to 3 [P] Energy from your Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
+            "This attack does 120 damage to each of your opponent's Pok\u00e9mon V. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 VSTAR Power in a game.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon VSTAR is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-087",
+        "Name": "Egg Incubator",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_087_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, search your deck for a Basic Pok\u00e9mon, put it onto your Bench, and shuffle your deck. If tails, put this Egg Incubator on the bottom of your deck instead of in the discard pile.",
+        "Illustrator": null
+    },
+    {
+        "ID": "PGO-088",
+        "Name": "Lure Module",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PGO/PGO_088_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player reveals the top 3 cards of their deck and puts all Pok\u00e9mon they find there into their hand. Then, each player shuffles the other cards back into their deck.",
+        "Illustrator": null
+    }
+]

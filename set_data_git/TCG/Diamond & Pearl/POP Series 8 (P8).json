@@ -1,0 +1,514 @@
+[
+    {
+        "ID": "P8-001",
+        "Name": "Heatran",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop8/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam",
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRRC"
+        ],
+        "Move-Damage": [
+            "20",
+            "90"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Discard 2 Basic Energy cards attached to Heatran. (If you can't discard cards, this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P8-002",
+        "Name": "Lucario",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop8/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blocking Punch",
+            "Striking Kick"
+        ],
+        "Move-Energy": [
+            "MC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "40",
+            "60"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance).",
+            "This attack's damage isn't affected by Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kent Kanetsuna"
+    },
+    {
+        "ID": "P8-003",
+        "Name": "Luxray",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop8/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": [
+            "Intimidating Fang"
+        ],
+        "Ability-Effect": [
+            "As long as Luxray is your Active Pok\u00e9mon, any damage done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Thunder"
+        ],
+        "Move-Energy": [
+            "LLLC"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, Luxray does 40 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P8-004",
+        "Name": "Probopass",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop8/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Slide",
+            "Triple Nose"
+        ],
+        "Move-Energy": [
+            "FC",
+            "MCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P8-005",
+        "Name": "Yanmega",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop8/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Supersonic",
+            "Air Slash"
+        ],
+        "Move-Energy": [
+            "G",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "70"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Flip a coin. If tails, discard an Energy attached to Yanmega."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P8-006",
+        "Name": "Cherrim",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop8/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Worry Seed",
+            "Magical Leaf"
+        ],
+        "Move-Energy": [
+            "G",
+            "GG"
+        ],
+        "Move-Damage": [
+            "20",
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "P8-007",
+        "Name": "Carnivine",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop8/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Swallow Up",
+            "Wring Out"
+        ],
+        "Move-Energy": [
+            "GC",
+            "GG"
+        ],
+        "Move-Damage": [
+            "30",
+            "20"
+        ],
+        "Effects": [
+            "Before doing damage, count the remaining HP of the Defending Pok\u00e9mon and Carnivine. If the Defending Pok\u00e9mon has fewer remaining HP than Carnivine's, this attack does 60 damage instead.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and discard an Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P8-008",
+        "Name": "Luxio",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop8/8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fasten Claw",
+            "Thunder Fang"
+        ],
+        "Move-Energy": [
+            "C",
+            "LL"
+        ],
+        "Move-Damage": [
+            "10+",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "P8-009",
+        "Name": "Night Maintenance",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop8/9_hires.png",
+        "Pack": null,
+        "Description": "Search your discard pile for up to 3 in any combination of Pok\u00e9mon and basic Energy cards. Show them to your opponent and shuffle them into your deck.",
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "P8-010",
+        "Name": "Rare Candy",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop8/10_hires.png",
+        "Pack": null,
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "P8-011",
+        "Name": "Roseanne's Research",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop8/11_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 2 in any combination of Basic Pok\u00e9mon and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Kanako Eo"
+    },
+    {
+        "ID": "P8-012",
+        "Name": "Chimchar",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop8/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Ember"
+        ],
+        "Move-Energy": [
+            "0",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, discard a [R] Energy attached to Chimchar."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "P8-013",
+        "Name": "Croagunk",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop8/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ghastly Sound",
+            "Finger Poke"
+        ],
+        "Move-Energy": [
+            "C",
+            "PP"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P8-014",
+        "Name": "Happiny",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop8/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": [
+            "Baby Evolution"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
+        ],
+        "Moves": [
+            "Lively"
+        ],
+        "Move-Energy": [
+            "0"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Remove 2 damage counters from 1 of your Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "P8-015",
+        "Name": "Piplup",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop8/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck",
+            "Water Splash"
+        ],
+        "Move-Energy": [
+            "0",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20+"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "P8-016",
+        "Name": "Riolu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop8/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": [
+            "Inner Focus"
+        ],
+        "Ability-Effect": [
+            "Riolu can't be Paralyzed."
+        ],
+        "Moves": [
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P8-017",
+        "Name": "Turtwig",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop8/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "0",
+            "G"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    }
+]

@@ -1,0 +1,1668 @@
+[
+    {
+        "ID": "WP-001",
+        "Name": "Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Growl",
+            "Thundershock"
+        ],
+        "Move-Energy": [
+            "C",
+            "LL"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon attacks Pikachu during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pok\u00e9mon ends this effect.)",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiji Kinebuchi"
+    },
+    {
+        "ID": "WP-002",
+        "Name": "Electabuzz",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Light Screen",
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "L",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "Whenever an attack does damage to Electabuzz (after applying Weakness and Resistance) during your opponent's next turn, that attack only does half the damage to Electabuzz (rounded down to the nearest 10). (Any other effects of attacks still happen.)",
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-003",
+        "Name": "Mewtwo",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Absorption",
+            "Psyburn"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-004",
+        "Name": "Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Recharge",
+            "Thunderbolt"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLL"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Search your deck for a [L] Energy card and attach it to Pikachu. Shuffle your deck afterward.",
+            "Discard all Energy cards attached to Pikachu in order to use this attack."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-005",
+        "Name": "Dragonite",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": [
+            "Special Delivery"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may draw a card. If you do, choose a card from your hand and put it on top of your deck. This power can't be used if Dragonite is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Supersonic Flight"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Toshinao Aoki"
+    },
+    {
+        "ID": "WP-006",
+        "Name": "Arcanine",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Flames of Rage"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RR"
+        ],
+        "Move-Damage": [
+            "10+",
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+            "Discard 2 [R] Energy cards attached to Arcanine in order to use this attack. This attack does 40 damage plus 10 more damage for each damage counter on Arcanine."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-007",
+        "Name": "Jigglypuff",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "First Aid",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Remove 1 damage counter from Jigglypuff.",
+            "Jigglypuff does 20 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiji Kinebuchi"
+    },
+    {
+        "ID": "WP-008",
+        "Name": "Mew",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psywave",
+            "Devolution Beam"
+        ],
+        "Move-Energy": [
+            "P",
+            "PP"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            null
+        ],
+        "Effects": [
+            "Does 10 damage times the number of Energy cards attached to the Defending Pok\u00e9mon.",
+            "Choose an evolved Pok\u00e9mon (your own or your opponent's). Return the highest Stage Evolution card on that Pok\u00e9mon to its player's hand. That Pok\u00e9mon is no longer Asleep, Confused, Paralyzed, or Poisoned, or anything else that might be the result of an attack (just as if you had evolved it)."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-009",
+        "Name": "Mew",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psywave",
+            "Devolution Beam"
+        ],
+        "Move-Energy": [
+            "P",
+            "PP"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            null
+        ],
+        "Effects": [
+            "Does 10 damage times the number of Energy cards attached to the Defending Pok\u00e9mon.",
+            "Choose an evolved Pok\u00e9mon (your own or your opponent's). Return the highest Stage Evolution card on that Pok\u00e9mon to its player's hand. That Pok\u00e9mon is no longer Asleep, Confused, Paralyzed, or Poisoned, or anything else that might be the result of an attack (just as if you had evolved it)."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-010",
+        "Name": "Meowth",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/10_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cat Punch"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage. If tails and if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "WP-011",
+        "Name": "Eevee",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "30",
+        "Ability": [
+            "Chain Reaction"
+        ],
+        "Ability-Effect": [
+            "This power can only be used when a Pok\u00e9mon evolves. Search your deck for a card that evolves from Eevee and attach it to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "WP-012",
+        "Name": "Mewtwo",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Control",
+            "Telekinesis"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent's Pok\u00e9mon and attach it to another of your opponent's Pok\u00e9mon of your choice.",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Christopher Rush"
+    },
+    {
+        "ID": "WP-013",
+        "Name": "Venusaur",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Solar Power"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may use this power. Your Active Pok\u00e9mon and the Defending Pok\u00e9mon are no longer Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Mega Drain"
+        ],
+        "Move-Energy": [
+            "GGGG"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Remove a number of damage counters from Venusaur equal to half the damage done to the Defending Pok\u00e9mon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Venusaur has fewer damage counters than that, remove all of them."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-014",
+        "Name": "Mewtwo",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Absorption",
+            "Psyburn"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Benimaru Itoh"
+    },
+    {
+        "ID": "WP-015",
+        "Name": "Cool Porygon",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Texture Magic",
+            "3-D Attack"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "20\u00d7"
+        ],
+        "Effects": [
+            "You may change Cool Porygon's Resistance to a type of your choice other than [C]. If the Defending Pok\u00e9mon has a Weakness, you may change it to a type of your choice other than [C]. (Benching either Pok\u00e9mon ends the effect on that Pok\u00e9mon.)",
+            "Flip 3 coins. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hiromichi Sugiyama"
+    },
+    {
+        "ID": "WP-016",
+        "Name": "Computer Error",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/16_hires.png",
+        "Pack": null,
+        "Description": "You may draw up to 5 cards, then your opponent may draw up to 5 cards. Your turn is over now (you don't get to attack).",
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "WP-017",
+        "Name": "Dark Persian",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tempt",
+            "Poison Claws"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "If your opponent has any Benched Pok\u00e9mon, flip a coin. If heads, choose 1 of your opponent's Benched Pok\u00e9mon and switch it with the Defending Pok\u00e9mon.",
+            "Flip a coin. if heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-018",
+        "Name": "Team Rocket's Meowth",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/18_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Miraculous Comeback"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a number of coins equal to the number of Pok\u00e9mon in play. This attack does 10 damage times the number of heads. Then Team Rocket's Meowth does 10 damage times the number of tails to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kunihiko Yuyama"
+    },
+    {
+        "ID": "WP-019",
+        "Name": "Sabrina's Abra",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound",
+            "Synchronize"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "This attack can't be used unless Sabrina's Abra and the Defending Pok\u00e9mon have the same number of Energy cards attached to them."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "WP-020",
+        "Name": "Psyduck",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headache",
+            "Fury Swipes"
+        ],
+        "Move-Energy": [
+            "P",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Your opponent can't play Trainer cards during his or her next turn.",
+            "Flip 3 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "WP-021",
+        "Name": "Moltres",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Flame"
+        ],
+        "Move-Energy": [
+            "RRR"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard 1 [R] Energy card attached to Moltres. If tails, discard all Energy cards attached to Moltres. If you can't discard Energy cards, this attack does nothing."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "WP-022",
+        "Name": "Articuno",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Diamond Dust"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "WP-023",
+        "Name": "Zapdos",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/23_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lightning Burn"
+        ],
+        "Move-Energy": [
+            "LLL"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, and if your opponent has any Benched Pok\u00e9mon, choose 1 of them. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If tails, Zapdos does 30 damage to itself."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "WP-024",
+        "Name": "_____'s Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/24_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Birthday Surprise"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "WP-025",
+        "Name": "Flying Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/25_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Fly"
+        ],
+        "Move-Energy": [
+            "L",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Flying Pikachu; if tails, this attack does nothing (not even damage)."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Toshinao Aoki"
+    },
+    {
+        "ID": "WP-026",
+        "Name": "Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Thunderbolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "LL"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Discard all Energy cards attached to Pikachu."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Gakuji Nomoto"
+    },
+    {
+        "ID": "WP-027",
+        "Name": "Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/27_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Agility"
+        ],
+        "Move-Energy": [
+            "L",
+            "LL"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Pikachu."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "WP-028",
+        "Name": "Surfing Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/28_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surf"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Toshinao Aoki"
+    },
+    {
+        "ID": "WP-029",
+        "Name": "Marill",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Does 20 damage plus 10 more damage for each Energy attached to Marill but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-030",
+        "Name": "Togepi",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/30_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Snivel",
+            "Mini-Metronome"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon attacks Togepi during your opponent's next turn, any damage done to Togepi is reduced by 20 (before applying Weakness and Resistance). (Benching either Pok\u00e9mon ends this effect.)",
+            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type the Defending Pok\u00e9mon is, Togepi's type is still [C].) Togepi performs that attack."
+        ],
+        "Weakness": null,
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-031",
+        "Name": "Cleffa",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/31_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule"
+        ],
+        "Ability-Effect": [
+            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
+        "Moves": [
+            "Eek"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Draw 2 cards."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-032",
+        "Name": "Smeargle",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/32_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Paint"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose a type (other than [C]) and put a Coloring counter on the Defending Pok\u00e9mon. That Pok\u00e9mon is now the type you chose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "WP-033",
+        "Name": "Scizor",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leer",
+            "Metal Pincer"
+        ],
+        "Move-Energy": [
+            "C",
+            "MCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack Scizor during your opponent's next turn. (Benching either Pok\u00e9mon ends this effect.)",
+            "Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hironobu Yoshida"
+    },
+    {
+        "ID": "WP-034",
+        "Name": "Entei",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/34_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": [
+            "Bolt"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent's attack damages Entei, unless that attack Knocks Out Entei, flip a coin. If heads, shuffle Entei and all cards attached to it into your deck. This power can't be used if Entei is already Asleep, Confused, or Paralyzed when it is damaged."
+        ],
+        "Moves": [
+            "Protective Flame"
+        ],
+        "Move-Energy": [
+            "RRR"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all effects of attacks, including damage, done to your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-035",
+        "Name": "Pichu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule"
+        ],
+        "Ability-Effect": [
+            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
+        "Moves": [
+            "Let's Play!"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Search your deck for a Baby Pok\u00e9mon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-036",
+        "Name": "Igglybuff",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/36_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule"
+        ],
+        "Ability-Effect": [
+            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
+        "Moves": [
+            "Good Night Song"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "WP-037",
+        "Name": "Hitmontop",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/37_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Repeating Kick",
+            "Rapid Spin"
+        ],
+        "Move-Energy": [
+            "FF",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with his or her Active Pok\u00e9mon, then, if you have any Benched Pok\u00e9mon, you switch 1 of them with your Active Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "WP-038",
+        "Name": "Unown [J]",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/38_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
+        "Ability": [
+            "[Join]"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if you have Unown [J], Unown [O], Unown [I], and Unown Dragon on your Bench, you may search your deck for a Basic Pok\u00e9mon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+        ],
+        "Moves": [
+            "Hidden Power"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideki Kazama"
+    },
+    {
+        "ID": "WP-039",
+        "Name": "Misdreavus",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pain Split",
+            "Confuse Ray"
+        ],
+        "Move-Energy": [
+            "P",
+            "PP"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Put 1 damage counter on the Defending Pok\u00e9mon for each damage counter on Misdreavus.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin-ichi Yoshida"
+    },
+    {
+        "ID": "WP-040",
+        "Name": "Pok\u00e9mon Center",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/40_hires.png",
+        "Pack": null,
+        "Description": "Once during each player's turn, that player may heal 20 damage from 1 of his or her Benched Pok\u00e9mon.",
+        "Illustrator": "\"Big Mama\" Tagawa"
+    },
+    {
+        "ID": "WP-041",
+        "Name": "Lucky Stadium",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/41_hires.png",
+        "Pack": null,
+        "Description": "Once during each player's turn (before attacking), that player may flip a coin. If heads, that player draws a card.",
+        "Illustrator": "\"Big Mama\" Tagawa"
+    },
+    {
+        "ID": "WP-042",
+        "Name": "Pok\u00e9mon Tower",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/42_hires.png",
+        "Pack": null,
+        "Description": "If the effect of a Pok\u00e9mon Power, attack, Energy card, or Trainer card would put a card in a discard pile into its owner's hand, that card stays in that discard pile instead.",
+        "Illustrator": "Keiji Kinebuchi"
+    },
+    {
+        "ID": "WP-043",
+        "Name": "Machamp",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/43_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Seething Anger",
+            "Fling"
+        ],
+        "Move-Energy": [
+            "FF",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "50"
+        ],
+        "Effects": [
+            "Flip a number of coins equal to the number of damage counters on Machamp. This attack does 20 damage plus 10 more damage for each heads.",
+            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "WP-044",
+        "Name": "Magmar",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/44_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Burning Fire",
+            "Magma Punch"
+        ],
+        "Move-Energy": [
+            "R",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "40"
+        ],
+        "Effects": [
+            "When you use this attack, you may discard any number of [R] Energy cards attached to your Pok\u00e9mon in play. This attack does 10 damage plus 10 more damage for each [R] Energy card you discarded in this way.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "WP-045",
+        "Name": "Scyther",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/45_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slashing Strike"
+        ],
+        "Move-Energy": [
+            "GG"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Scyther can't use this attack during your next turn. (Benching or evolving Scyther ends this effect.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hironobu Yoshida"
+    },
+    {
+        "ID": "WP-046",
+        "Name": "Electabuzz",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/46_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lightning Rod",
+            "Lightning Bolt"
+        ],
+        "Move-Energy": [
+            "L",
+            "LL"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon and put a [L] Rod marker on it. (A Pok\u00e9mon can have only 1 [L] Rod marker on it at a time.)",
+            "This attack does 20 damage to any Pok\u00e9mon with a [L] Rod marker on it. Apply Weakness and Resistance."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "WP-047",
+        "Name": "Mew",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/47_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
+        "Ability": [
+            "Neutral Shield"
+        ],
+        "Ability-Effect": [
+            "Prevent all effects of attacks, including damage, done to Mew by Evolved Pok\u00e9mon. You can't use this power if Mew is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Psyshock"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "WP-048",
+        "Name": "Articuno",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/48_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": [
+            "Aurora Veil"
+        ],
+        "Ability-Effect": [
+            "As long as Articuno is your Active Pok\u00e9mon, your Benched Pok\u00e9mon do not take damage from and are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Ice Beam"
+        ],
+        "Move-Energy": [
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "WP-049",
+        "Name": "Snorlax",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": [
+            "Guard"
+        ],
+        "Ability-Effect": [
+            "As long as Snorlax is your Active Pok\u00e9mon, the Defending Pok\u00e9mon can't Retreat. This power stops working when Snorlax is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Roll Over"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Snorlax is now Asleep. Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Craig Turvey"
+    },
+    {
+        "ID": "WP-050",
+        "Name": "Celebi",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leaf Slice"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "WP-051",
+        "Name": "Rapidash",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/51_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jump Over",
+            "Super Singe"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them. Flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "WP-052",
+        "Name": "Ho-oh",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/52_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sacred Wing"
+        ],
+        "Move-Energy": [
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack's base damage is 20 instead of 60."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "WP-053",
+        "Name": "Suicune",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/basep/53_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Pure Body"
+        ],
+        "Ability-Effect": [
+            "To attach a [W] Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the [W] Energy, and then discard an Energy card from Suicune.)"
+        ],
+        "Moves": [
+            "Hypno Wave"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    }
+]

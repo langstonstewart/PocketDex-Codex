@@ -1,0 +1,506 @@
+[
+    {
+        "ID": "P4-001",
+        "Name": "Chimecho",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop4/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wrap",
+            "Sonicboom"
+        ],
+        "Move-Energy": [
+            "C",
+            "MC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P4-002",
+        "Name": "Deoxys",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop4/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "Form Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Crystal Laser"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "During your next turn, Deoxys's attacks do 40 more damage to the Defending Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P4-003",
+        "Name": "Flygon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop4/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": [
+            "Levitate"
+        ],
+        "Ability-Effect": [
+            "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0."
+        ],
+        "Moves": [
+            "Bite",
+            "Sand Pit"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "70"
+        ],
+        "Effects": [
+            "",
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura"
+    },
+    {
+        "ID": "P4-004",
+        "Name": "Mew",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop4/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": [
+            "Reactive Barrier"
+        ],
+        "Ability-Effect": [
+            "As long as Mew has any React Energy cards attached to it, prevent all effects, excluding damage, done to Mew by attacks from your opponent's Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Psyshock"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Nakaoka"
+    },
+    {
+        "ID": "P4-005",
+        "Name": "Sceptile",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop4/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Energy Trans"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), move a [G] Energy card attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Sceptile is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Tail Rap"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "50\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 50 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "P4-006",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop4/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smokescreen",
+            "Sky Uppercut"
+        ],
+        "Move-Energy": [
+            "R",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            "This attack's damage isn't affected by Resistance."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "P4-007",
+        "Name": "Grovyle",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop4/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Blot"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+            "Remove 2 damage counters from Grovyle."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "P4-008",
+        "Name": "Heal Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop4/8_hires.png",
+        "Pack": null,
+        "Description": "Heal Energy provides [C] Energy. When you attach this card from your hand to 1 of your Pok\u00e9mon, remove 1 damage counter and all Special Conditions from that Pok\u00e9mon. If Heal Energy is attached to Pok\u00e9mon-ex, Heal Energy has no effect other than providing Energy.",
+        "Illustrator": "Takumi Akabane"
+    },
+    {
+        "ID": "P4-009",
+        "Name": "Pok\u00e9mon Fan Club",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop4/9_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 2 Basic Pok\u00e9mon, reveal them, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Ken Sugimori"
+    },
+    {
+        "ID": "P4-010",
+        "Name": "Scramble Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop4/10_hires.png",
+        "Pack": null,
+        "Description": "Scramble Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). Scramble Energy provides [C] Energy. While in play, if you have more Prize cards left than your opponent, Scramble Energy provides every type of Energy but provides only 3 in any combination at a time. If the Pok\u00e9mon Scramble Energy is attached to isn't an Evolved Pok\u00e9mon (or evolves into Pok\u00e9mon-ex), discard Scramble Energy.",
+        "Illustrator": "Takumi Akabane"
+    },
+    {
+        "ID": "P4-011",
+        "Name": "Mudkip",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop4/11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Hypno Wave"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P4-012",
+        "Name": "Pidgey",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop4/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura"
+    },
+    {
+        "ID": "P4-013",
+        "Name": "Pikachu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop4/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spark"
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P4-014",
+        "Name": "Squirtle",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop4/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": [
+            "Shell Retreat"
+        ],
+        "Ability-Effect": [
+            "As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent's attack is reduced by 10 (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "P4-015",
+        "Name": "Treecko",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop4/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound",
+            "Shining Claws"
+        ],
+        "Move-Energy": [
+            "C",
+            "P"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P4-016",
+        "Name": "Wobbuffet",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop4/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Nap",
+            "Expand"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Remove 2 damage counters from Wobbuffet.",
+            "During your opponent's next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance)."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "P4-017",
+        "Name": "Deoxys ex",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop4/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "110",
+        "Ability": [
+            "Form Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Fastwave"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hiromichi Sugiyama"
+    }
+]

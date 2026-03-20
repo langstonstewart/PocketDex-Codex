@@ -1,0 +1,540 @@
+[
+    {
+        "ID": "P3-001",
+        "Name": "Blastoise",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smash Turn",
+            "Rocket Tackle"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "After your attack, you may switch Blastoise with 1 of your Benched Pok\u00e9mon.",
+            "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent's next turn."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "P3-002",
+        "Name": "Flareon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "70"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+            "Discard 2 basic Energy cards attached to Flareon or this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P3-003",
+        "Name": "Jolteon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Pin Missile"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip 4 coins. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P3-004",
+        "Name": "Minun",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cheer Up",
+            "Negative Ion",
+            "Power Bolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC",
+            "LL"
+        ],
+        "Move-Damage": [
+            null,
+            "20",
+            null
+        ],
+        "Effects": [
+            "Draw a card. If you have Plusle in play, draw 2 cards instead.",
+            "During your opponent's next turn, any damage done by attacks from the Defending Pok\u00e9mon is reduced by 10 (before applying Weakness and Resistance).",
+            "Choose 1 of your opponent's Pok\u00e9mon that has any Pok\u00e9-Powers. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "P3-005",
+        "Name": "Plusle",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cheer Up",
+            "Positive Ion",
+            "Body Bolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC",
+            "LL"
+        ],
+        "Move-Damage": [
+            null,
+            "20+",
+            null
+        ],
+        "Effects": [
+            "Draw a card. If you have Minun in play, draw 2 cards instead.",
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+            "Choose 1 of your opponent's Pok\u00e9mon that has any Pok\u00e9-Bodies. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "P3-006",
+        "Name": "Vaporeon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30+"
+        ],
+        "Effects": [
+            "",
+            "Does 30 damage plus 20 more damage for each [W] Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P3-007",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop3/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Flamethrower"
+        ],
+        "Move-Energy": [
+            "C",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "Discard a [R] Energy attached to Combusken."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "P3-008",
+        "Name": "Donphan",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop3/8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sniff Out",
+            "Fury Attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "FCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30\u00d7"
+        ],
+        "Effects": [
+            "Put any 1 card from your discard pile into your hand.",
+            "Flip 3 coins. This attack does 30 damage times the number of heads."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomoaki Imakuni"
+    },
+    {
+        "ID": "P3-009",
+        "Name": "Forretress",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop3/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Toxic"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "20",
+            "20"
+        ],
+        "Effects": [
+            "",
+            "The Defending Pok\u00e9mon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pok\u00e9mon between turns."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "P3-010",
+        "Name": "High Pressure System",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop3/10_hires.png",
+        "Pack": null,
+        "Description": "Each player pays [C] less to retreat his or her [R] and [W] Pok\u00e9mon.",
+        "Illustrator": "Ken Ikuji"
+    },
+    {
+        "ID": "P3-011",
+        "Name": "Low Pressure System",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pop3/11_hires.png",
+        "Pack": null,
+        "Description": "Each [G] and [L] Pok\u00e9mon in play (both yours and your opponent's) gets +10 HP.",
+        "Illustrator": "Shin-ichi Yoshikawa"
+    },
+    {
+        "ID": "P3-012",
+        "Name": "Ditto",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop3/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": [
+            "Duplicate"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Psybeam"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "P3-013",
+        "Name": "Eevee",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop3/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Eevee does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "P3-014",
+        "Name": "Ivysaur",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop3/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gouge",
+            "Poisonpowder"
+        ],
+        "Move-Energy": [
+            "C",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "P3-015",
+        "Name": "Marshtomp",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop3/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mud Slap",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "F",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Marshtomp does 10 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "P3-016",
+        "Name": "Pichu Bros.",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop3/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bustle"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 damage times the number of heads. If either coin is heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "P3-017",
+        "Name": "Ho-Oh ex",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": [
+            "Golden Wing"
+        ],
+        "Ability-Effect": [
+            "If Ho-Oh ex would be Knocked Out by damage from an opponent's attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pok\u00e9mon in any way you like."
+        ],
+        "Moves": [
+            "Rainbow Burn"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Does 10 damage plus 20 more damage for each type of basic Energy card attached to Ho-Oh ex."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    }
+]

@@ -34,9 +34,9 @@ class SetManager:
         
         return json.loads(res.text)
 
-    def create_set(self, set_name: str, dir, copy=False):
+    def create_set(self, set_name: str, category, series, dir, copy=False):
         
-        set_data_git = self.create_parser(f"https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/set_data_git/{quote(set_name)}.json")
+        set_data_git = self.create_parser(f"https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/set_data_git/{quote(category)}/{quote(series)}/{quote(set_name)}.json")
 
         for card in set_data_git:
             card['Quantity'] = 0
@@ -51,11 +51,16 @@ class SetManager:
             return set_data_git
 
 
-    def update_set(self, curr_set, set_name: str, dir):
+    def update_set(self, curr_set, category, series, set_name: str, dir):
 
-        new_set = self.create_set(set_name, dir, True)
+        new_set = self.create_set(set_name, category, series, dir, True)
 
-        if len(curr_set) != len(new_set) or "Favorite" not in curr_set[0].keys(): # type: ignore
+        curr_set_sum = [(card["Summary-Available"], card["Image"]) for card in curr_set]
+        new_set_sum = [(card["Summary-Available"], card["Image"]) for card in new_set] # type: ignore
+
+        
+
+        if curr_set_sum != new_set_sum: # type: ignore
             for i in range(len(curr_set)):
                 new_set[i]["Quantity"] = curr_set[i]["Quantity"] # type: ignore
                 if "Favorite" in curr_set[0].keys():
@@ -63,7 +68,7 @@ class SetManager:
 
             with open(f"{dir}\\{set_name}\\{set_name}.json", "w+") as set_file:
                 
-                json.dump(new_set, set_file, indent=4)
+                #json.dump(new_set, set_file, indent=4)
                 return True
 
         else:
@@ -71,6 +76,7 @@ class SetManager:
 
 
     def export_excel(self, fp, set_name, set_data: dict): # type: ignore
+        print(set_data)
         df = {"Quantity": [dic["Quantity"] for dic in set_data],
               "Favorite": [dic["Favorite"] for dic in set_data]}
         

@@ -1,0 +1,1786 @@
+[
+    {
+        "ID": "DPP-001",
+        "Name": "Turtwig",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP01_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "0",
+            "G"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "DPP-002",
+        "Name": "Chimchar",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP02_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Ember"
+        ],
+        "Move-Energy": [
+            "0",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, discard a [R] Energy attached to Chimchar."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-003",
+        "Name": "Piplup",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP03_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck",
+            "Water Splash"
+        ],
+        "Move-Energy": [
+            "0",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20+"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "DPP-004",
+        "Name": "Pachirisu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP04_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Minor Errand-Running",
+            "Thunder Jolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "L"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+            "Flip a coin. If tails, Pachirisu does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "DPP-005",
+        "Name": "Tropical Wind",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP05_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep.",
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "DPP-006",
+        "Name": "Buneary",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP06_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash",
+            "Jump Kick"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "",
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-007",
+        "Name": "Cranidos",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP07_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Steamroll"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "DPP-008",
+        "Name": "Shieldon",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP08_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hard Face",
+            "Shield Attack"
+        ],
+        "Move-Energy": [
+            "MC",
+            "MCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Shieldon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+            "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "DPP-009",
+        "Name": "Torterra LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP09_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Grass",
+        "HP": "160",
+        "Ability": [
+            "Forest Murmurs"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if you have more Prize cards left than your opponent, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch it with 1 of the Defending Pok\u00e9mon. This power can't be used if Torterra is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Vigorous Dash"
+        ],
+        "Move-Energy": [
+            "GGGC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Torterra does 30 damage to itself."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "Put this card onto your Active Torterra. Torterra LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-010",
+        "Name": "Infernape LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP10_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Burning Head"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose 1 of them, and put it into your hand. Discard the other 2 cards. This power can't be used if Infernape is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Flare Up"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "Search your discard pile for 8 [R] Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 [R] Energy cards in your discard pile.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Infernape. Infernape LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-011",
+        "Name": "Empoleon LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Water",
+        "HP": "140",
+        "Ability": [
+            "Supreme Command"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may choose up to 2 cards from your opponent's hand without looking and put them face down next to the Defending Pok\u00e9mon. (These cards are not in play or in your opponent's hand.) At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Hydro Impact"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Empoleon can't attack during your next turn."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "Put this card onto your Active Empoleon. Empoleon LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-012",
+        "Name": "Lucario LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": [
+            "Stance"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you put Lucario LV.X from your hand onto your Active Lucario, you may use this power. Prevent all effects of an attack, including damage, done to Lucario during your opponent's next turn. (If Lucario is no longer your Active Pok\u00e9mon, this effect ends.)"
+        ],
+        "Moves": [
+            "Close Combat"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Lucario by attacks is increased by 30 (after applying Weakness and Resistance)."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "Put this card onto your Active Lucario. Lucario LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "DPP-013",
+        "Name": "Buizel",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash About"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "If Buizel has less Energy attached to it than the Defending Pok\u00e9mon, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "DPP-014",
+        "Name": "Chatot",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Me First",
+            "Tone-Deaf"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "DPP-015",
+        "Name": "Shinx",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spark"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-016",
+        "Name": "Pikachu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": [
+            "Electro Recycle"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Pichu is anywhere under Pikachu, you may search your discard pile for a [L] Energy card, show it to your opponent, and put it into your hand. This power can't be used if Pikachu is affected by a Special Condition."
+        ],
+        "Moves": [
+            "BikaBika"
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "DPP-017",
+        "Name": "Dialga LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Metal",
+        "HP": "110",
+        "Ability": [
+            "Time Skip"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may have your opponent flip 2 coins. If both of them are heads, your turn ends. If both of them are tails, after your opponent draws a card at the beginning of his or her next turn, his or her turn ends. This power can't be used if Dialga is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Metal Flash"
+        ],
+        "Move-Energy": [
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "During your next turn, Dialga can't use [M] Flash."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "Put this card onto your Active Dialga. Dialga LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "DPP-018",
+        "Name": "Palkia LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP18_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": [
+            "Restructure"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may have your opponent switch 1 of your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. Then, you switch 1 of the Defending Pok\u00e9mon with 1 of your opponent's Benched Pok\u00e9mon. This power can't be used if Palkia is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Hydro Reflect"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "You may move all Energy cards attached to Palkia to your Benched Pok\u00e9mon in any way you like. (Ignore this effect if you don't have any Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "Put this card onto your Active Palkia. Palkia LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "DPP-019",
+        "Name": "Darkrai LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": [
+            "Dark Shadow"
+        ],
+        "Ability-Effect": [
+            "Each basic [D] Energy card attached to your [D] Pok\u00e9mon now has the effect \"If the Pok\u00e9mon [D] Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance).\" You can't use more than 1 Dark Shadow Pok\u00e9-Body each turn."
+        ],
+        "Moves": [
+            "Endless Darkness"
+        ],
+        "Move-Energy": [
+            "DDC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep. Flip 2 coins instead of 1 between turns. If either of them is tails, the Defending Pok\u00e9mon is still Asleep. If both of them are tails, the Defending Pok\u00e9mon is Knocked Out."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "Put this card onto your Active Darkrai. Darkrai LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-020",
+        "Name": "Magmortar",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smoke Bomb",
+            "Flame Drum"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            "If Magby isn't anywhere under Magmortar, discard 2 Energy cards from your hand. (If you can't discard 2 Energy cards from your hand, this attack does nothing.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Daisuke Ito"
+    },
+    {
+        "ID": "DPP-021",
+        "Name": "Raichu",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Electromagnetic Induction",
+            "Explosive Thunder"
+        ],
+        "Move-Energy": [
+            "0",
+            "LC"
+        ],
+        "Move-Damage": [
+            null,
+            "30\u00d7"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Shuffle your deck afterward.",
+            "Discard all basic [L] Energy cards attached to Raichu. This attack does 30 damage times the number of [L] Energy cards you discarded."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Daisuke Ito"
+    },
+    {
+        "ID": "DPP-022",
+        "Name": "Mime Jr.",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
+        "Ability": [
+            "Baby Evolution"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr."
+        ],
+        "Moves": [
+            "Mime"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "DPP-023",
+        "Name": "Glameow",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP23_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charm",
+            "Pose"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done by attacks from the Defending Pok\u00e9mon is reduced by 20 (before applying Weakness and Resistance).",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "DPP-024",
+        "Name": "Darkrai",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP24_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": [
+            "Enigma Berry"
+        ],
+        "Ability-Effect": [
+            "If Darkrai is damaged by an attack from your opponent's Fighting Pok\u00e9mon, remove 4 damage counters at the end of that turn."
+        ],
+        "Moves": [
+            "Spacial Rend",
+            "Roar of Time"
+        ],
+        "Move-Energy": [
+            "W",
+            "MMM"
+        ],
+        "Move-Damage": [
+            "10",
+            "80"
+        ],
+        "Effects": [
+            "Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.",
+            "Search your discard pile for 3 Pok\u00e9mon, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward. (If you don't have 3 Pok\u00e9mon in your discard pile, this attack does nothing.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "DPP-025",
+        "Name": "Tropical Wind",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP25_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep.",
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "DPP-026",
+        "Name": "Dialga",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Time Bellow",
+            "Flash Cannon"
+        ],
+        "Move-Energy": [
+            "M",
+            "MMC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pok\u00e9mon and shuffle that card into your opponent's deck."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kazuyuki Kano"
+    },
+    {
+        "ID": "DPP-027",
+        "Name": "Palkia",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP27_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spacial Rend",
+            "Transback"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.",
+            "You may flip a coin. If heads, discard all Energy attached to Palkia and put the Defending Pok\u00e9mon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Daisuke Ito"
+    },
+    {
+        "ID": "DPP-028",
+        "Name": "Mewtwo LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP28_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": [
+            "Psybarrier"
+        ],
+        "Ability-Effect": [
+            "Prevent all effects of attacks, including damage, done to Mewtwo by your opponent's Pok\u00e9mon that isn't an Evolved Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Giga Burn"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "Discard all Energy attached to Mewtwo."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "Put this card onto your Active Mewtwo. Mewtwo LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-029",
+        "Name": "Rhyperior LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Fighting",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hard Crush",
+            "Upthrow"
+        ],
+        "Move-Energy": [
+            "0",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "50\u00d7",
+            "60"
+        ],
+        "Effects": [
+            "Discard the top 5 cards from your deck. This attack does 50 damage for each Energy card you discarded.",
+            "Search your discard pile for all [F] Energy cards, show them to your opponent, and shuffle them into your deck."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "Put this card onto your Active Rhyperior. Rhyperior LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "DPP-030",
+        "Name": "Regigigas LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP30_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "150",
+        "Ability": [
+            "Sacrifice"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may choose 1 of your Pok\u00e9mon in play and that Pok\u00e9mon is Knocked Out. Then, search your discard pile for up to 2 basic Energy cards, attach them to Regigigas, and remove 8 damage counters from Regigigas. This power can't be used if Regigigas is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Giga Blaster"
+        ],
+        "Move-Energy": [
+            "WFMC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard the top card from your opponent's deck. Then, choose 1 card from your opponent's hand without looking and discard it. Regigigas can't use Giga Blaster during your next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "Put this card onto your Active Regigigas. Regigigas LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-031",
+        "Name": "Heatran LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP31_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Heat Metal",
+            "Heat Wave"
+        ],
+        "Ability-Effect": [
+            "Your opponent can't remove the Special Condition Burned by evolving or devolving his or her Burned Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto the Burned Pok\u00e9mon.) Whenever your opponent flips a coin for the Special Condition Burned between turns, treat it as tails.",
+            "Once at the end of your turn, if Heatran is on your Bench, you may use this power. If you discarded basic Energy cards attached to your [R] or [M] Active Pok\u00e9mon by using that Pok\u00e9mon's attack this turn, attach up to 2 of those Energy cards to that Pok\u00e9mon."
+        ],
+        "Moves": [],
+        "Move-Energy": [],
+        "Move-Damage": [],
+        "Effects": [],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "Put this card onto your Active Heatran. Heatran LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-032",
+        "Name": "Magnezone",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP32_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mirror Shot",
+            "Magnet Slash"
+        ],
+        "Move-Energy": [
+            "MC",
+            "LMCC"
+        ],
+        "Move-Damage": [
+            "40",
+            "100"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            "Discard all [L] Energy attached to Magnezone."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kent Kanetsuna"
+    },
+    {
+        "ID": "DPP-033",
+        "Name": "Dusknoir",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": [
+            "Dark Hide"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand, choose a Pok\u00e9mon you find there, and put it on the bottom of his or her deck. This power can't be used if Dusknoir is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Reaper Pulse"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "Move up to 2 damage counters from Dusknoir to 1 of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kent Kanetsuna"
+    },
+    {
+        "ID": "DPP-034",
+        "Name": "Drifblim",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP34_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wind Wave",
+            "Explosive Smoke"
+        ],
+        "Move-Energy": [
+            "C",
+            "PPP"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Search your discard pile for up to 5 in any combination of Pok\u00e9mon and Supporter cards. Show them to your opponent and shuffle them into your deck.",
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita"
+    },
+    {
+        "ID": "DPP-035",
+        "Name": "Porygon-Z",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": [
+            "Install"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), move a Technical Machine card attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Porygon-Z is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Learning",
+            "Overload"
+        ],
+        "Move-Energy": [
+            "0",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "40+"
+        ],
+        "Effects": [
+            "Search your deck for a Pok\u00e9mon LV.X that levels up from 1 of your Pok\u00e9mon, and put it onto that Pok\u00e9mon. (This counts as leveling up that Pok\u00e9mon.) Shuffle your deck afterward.",
+            "Does 40 damage plus 20 more damage for each Technical Machine card attached to Porygon-Z."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-036",
+        "Name": "Gliscor",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP36_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": [
+            "Bind Eye"
+        ],
+        "Ability-Effect": [
+            "As long as Gliscor is your Active Pok\u00e9mon, your opponent can't remove any Special Conditions by evolving or devolving his or her Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto that Pok\u00e9mon.)"
+        ],
+        "Moves": [
+            "Cutting Turn",
+            "Friction Heat"
+        ],
+        "Move-Energy": [
+            "C",
+            "F"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, put damage counters on the Defending Pok\u00e9mon until it is 10HP away from being Knocked Out. If you do, shuffle Gliscor and all cards attached to it back into your deck.",
+            "The Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-037",
+        "Name": "Dialga LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP37_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Metal",
+        "HP": "110",
+        "Ability": [
+            "Time Skip"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may have your opponent flip 2 coins. If both of them are heads, your turn ends. If both of them are tails, after your opponent draws a card at the beginning of his or her next turn, his or her turn ends. This power can't be used if Dialga is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Metal Flash"
+        ],
+        "Move-Energy": [
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "During your next turn, Dialga can't use [M] Flash."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "Put this card onto your Active Dialga. Dialga LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "DPP-038",
+        "Name": "Giratina LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP38_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": [
+            "Invisible Tentacles"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent's Pok\u00e9mon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pok\u00e9mon can't attack.) You can't use more than 1 Invisible Tentacles Pok\u00e9-Body each turn."
+        ],
+        "Moves": [
+            "Darkness Lost"
+        ],
+        "Move-Energy": [
+            "PPCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If any of your opponent's Pok\u00e9mon would be Knocked Out by damage from this attack, put that Pok\u00e9mon and all cards attached to it in the Lost Zone instead of discarding it."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "Put this card onto your Active Giratina. Giratina LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-039",
+        "Name": "Shaymin LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": [
+            "Revenge Seed"
+        ],
+        "Ability-Effect": [
+            "If any of your [G] Pok\u00e9mon were Knocked Out by damage from an opponent's attack during his or her last turn, each of Shaymin's attacks does 60 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Energy Flare"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "You may move any number of Energy cards attached to your Pok\u00e9mon to your other Pok\u00e9mon in any way you like."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Shaymin. Shaymin LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-040",
+        "Name": "Regigigas",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP40_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Drag Off",
+            "Giga Hammer"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80"
+        ],
+        "Effects": [
+            "Before doing damage, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch it with the Defending Pok\u00e9mon.",
+            "Regigigas can't use Giga Hammer during your next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-041",
+        "Name": "Toxicroak G",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP41_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": [
+            "Leap Away"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Toxicroak G is your Active Pok\u00e9mon, you may flip a coin. If heads, return Toxicroak G and all cards attached to it to your hand. This power can't be used if Toxicroak G is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Poison Revenge"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 20 damage plus 40 more damage and the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ryota Saito"
+    },
+    {
+        "ID": "DPP-042",
+        "Name": "Carnivine G",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP42_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Power Whip",
+            "Grass Knot"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "20+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each Energy attached to Carnivine G to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 20 damage plus 10 more damage for each [C] Energy in the Defending Pok\u00e9mon's Retreat Cost (after applying effects to the Retreat Cost)."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Makoto Imai"
+    },
+    {
+        "ID": "DPP-043",
+        "Name": "Probopass G",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP43_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Nose Unit",
+            "Loud Snort"
+        ],
+        "Move-Energy": [
+            "MC",
+            "MCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "70"
+        ],
+        "Effects": [
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon that has any Pok\u00e9-Bodies. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Probopass G's Retreat Cost is 0 until the end of your next turn."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ryota Saito"
+    },
+    {
+        "ID": "DPP-044",
+        "Name": "Magnezone",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP44_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge Beam",
+            "Metallic Bolt"
+        ],
+        "Move-Energy": [
+            "L",
+            "LMCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "Search your discard pile for an Energy card and attach it to Magnezone.",
+            "You may discard a [L] Energy and a [M] Energy attached to Magnezone. If you do, this attack's base damage is 120 instead of 60."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-045",
+        "Name": "Charizard G LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP45_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Call for Power"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may move an Energy attached to 1 of your Pok\u00e9mon to Charizard G. This power can't be used if Charizard G is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Malevolent Fire"
+        ],
+        "Move-Energy": [
+            "RRCCC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, discard all Energy attached to Charizard G."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "Put this card onto your Active Charizard G. Charizard G LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Wataru Kawahara"
+    },
+    {
+        "ID": "DPP-046",
+        "Name": "Garchomp C LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP46_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "110",
+        "Ability": [
+            "Healing Breath"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you put Garchomp C LV.X from your hand onto your Active Garchomp C, you may remove all damage counters from each of your Pok\u00e9mon SP."
+        ],
+        "Moves": [
+            "Dragon Rush"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Garchomp C can't use Dragon Rush during your next turn."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Garchomp C. Garchomp C LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-047",
+        "Name": "Rayquaza C LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP47_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": [
+            "Dragon Spirit"
+        ],
+        "Ability-Effect": [
+            "If Rayquaza C is your Active Pok\u00e9mon and is damaged but not Knocked Out by an opponent's attack, you may search your discard pile for an Energy card and attach it to Rayquaza C."
+        ],
+        "Moves": [
+            "Final Blowup"
+        ],
+        "Move-Energy": [
+            "WPFC"
+        ],
+        "Move-Damage": [
+            "200"
+        ],
+        "Effects": [
+            "Discard all Energy attached to Rayquaza C. Ignore this effect if you have no cards in your hand."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "Put this card onto your Active Rayquaza C. Rayquaza C LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-048",
+        "Name": "Tropical Wind",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP48_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep.",
+        "Illustrator": "Sumiyoshi Kizuki"
+    },
+    {
+        "ID": "DPP-049",
+        "Name": "Dialga",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Time Call",
+            "Time Wager"
+        ],
+        "Move-Energy": [
+            "M",
+            "MCC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward.",
+            "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "DPP-050",
+        "Name": "Arceus",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": [
+            "You may have as many of this card in your deck as you like."
+        ],
+        "Moves": [
+            "Judgment"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Discard all Energy cards attached to Arceus and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kunihiko Yuyama"
+    },
+    {
+        "ID": "DPP-051",
+        "Name": "Cresselia",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP51_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": [
+            "Lunar Aura"
+        ],
+        "Ability-Effect": [
+            "If you have Darkrai in play, remove 1 damage counter from Cresselia between turns."
+        ],
+        "Moves": [
+            "Lunar Flight"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "80-"
+        ],
+        "Effects": [
+            "Does 80 damage minus 10 damage for each damage counter on Cresselia."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Wataru Kawahara"
+    },
+    {
+        "ID": "DPP-052",
+        "Name": "Darkrai",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP52_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": [
+            "Darkness Aura"
+        ],
+        "Ability-Effect": [
+            "If you have Cresselia in play, each of Darkrai's attack does 20 more damage to the Defending Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Hypnoblast"
+        ],
+        "Move-Energy": [
+            "DDC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Wataru Kawahara"
+    },
+    {
+        "ID": "DPP-053",
+        "Name": "Arceus LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP53_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": [
+            "Multitype",
+            "Omniscient"
+        ],
+        "Ability-Effect": [
+            "Arceus LV. X's type is the same type as its previous Level.",
+            "Arceus can use the attacks of all Arceus you have in play as its own. (You still need the necessary Energy to use each attack.)"
+        ],
+        "Moves": [],
+        "Move-Energy": [],
+        "Move-Damage": [],
+        "Effects": [],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow"
+    },
+    {
+        "ID": "DPP-054",
+        "Name": "Beginning Door",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP54_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Ryo Ueda"
+    },
+    {
+        "ID": "DPP-055",
+        "Name": "Ultimate Zone",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP55_hires.png",
+        "Pack": null,
+        "Description": "During each player's turn, the player may move an Energy card attached to 1 of his or her Benched Pok\u00e9mon to his or her Active Arceus as often as he or she likes.",
+        "Illustrator": "Yusuke Ishikawa"
+    },
+    {
+        "ID": "DPP-056",
+        "Name": "Arceus LV.X",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP56_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": [
+            "Multitype"
+        ],
+        "Ability-Effect": [
+            "Arceus LV.X's type is the same as its previous Level."
+        ],
+        "Moves": [
+            "Meteor Blast"
+        ],
+        "Move-Energy": [
+            "GRC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack's base damage is 50 instead of 100."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda"
+    }
+]
