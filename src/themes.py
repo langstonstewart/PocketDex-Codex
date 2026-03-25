@@ -24,6 +24,14 @@ class Themes:
                 font-size: 16px; margin: 3px; color: #1E1E1E;
             }
 
+            QLabel[class="ability_header"] {
+                font-size: 24px; margin: 3px; color: #e31a21;
+            }
+
+            QLabel[class="theta_header"] {
+                font-size: 24px; margin: 3px; color: white;
+            }
+
 
             QLabel[class="Card_Label"] {
                 border-radius: 10px; 
@@ -52,7 +60,7 @@ class Themes:
                 padding-right: 25px;
             }
 
-            QLabel[class="Completion_Label"] {
+            QLabel[class="Set_Tag"] {
                 font-size: 35px;
                 color: #1E1E1E; 
                 margin: 3px; 
@@ -182,6 +190,14 @@ class Themes:
                 font-size: 16px; margin: 3px; color: white;
             }
 
+            QLabel[class="ability_header"] {
+                font-size: 24px; margin: 3px; color: #e31a21;
+            }
+
+            QLabel[class="theta_header"] {
+                font-size: 24px; margin: 3px; color: white;
+            }
+
             QLabel[class="Card_Label"] {
                 border-radius: 10px;
             }
@@ -209,12 +225,12 @@ class Themes:
                 padding-right: 25px;
             }
 
-            QLabel[class="Completion_Label"] {
+            QLabel[class="Set_Tag"] {
                 font-size: 35px;
-                color: #1E1E1E; 
-                margin: 3px; 
-                background-color: #575757; 
-                border: 3px solid #2c2c2c; 
+                color: white; 
+                margin: 5px; 
+                background-color: #1E1E1E; 
+                border: 4px solid white; 
                 border-radius: 20px; 
                 padding: 5px;
                 padding-left: 15px; 

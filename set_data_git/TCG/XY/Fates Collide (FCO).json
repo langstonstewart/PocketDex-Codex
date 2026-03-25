@@ -663,7 +663,7 @@
             "130"
         ],
         "Effects": [
-            "If this Pok\u00e9mon has any [R] Energy attached to it, this attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If this Pok\u00e9mon has any [R] Energy attached to it, this attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "This Pok\u00e9mon can't attack during your next turn."
         ],
         "Weakness": "Metal",
@@ -912,7 +912,7 @@
             "Memories of Dawn"
         ],
         "Ability-Effect": [
-            "This Pok\u00e9mon can use the attacks of any of your Basic Pok\u00e9mon in play. (You still need the necessary Energy to use each attack.)"
+            "This Pok\u00e9mon can use the attacks of any of your Basic Pok\u00e9mon in play. (You still need the necessary Energy to use each attack. )"
         ],
         "Moves": [
             "Encounter"
@@ -1726,7 +1726,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
-            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1937,7 +1937,7 @@
             "80"
         ],
         "Effects": [
-            "This attack does 60 damage to 1 of your opponent's Pok\u00e9mon that has an Ability. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This attack does 60 damage to 1 of your opponent's Pok\u00e9mon that has an Ability. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             ""
         ],
         "Weakness": "Lightning",
@@ -2070,7 +2070,7 @@
             null
         ],
         "Effects": [
-            "Discard as many [M] Energy attached to this Pok\u00e9mon as you like. For each Energy card discarded in this way, choose 1 of your opponent's Pok\u00e9mon and do 30 damage to it. Don't apply Weakness and Resistance. (You may choose the same Pok\u00e9mon more than once.)"
+            "Discard as many [M] Energy attached to this Pok\u00e9mon as you like. For each Energy card discarded in this way, choose 1 of your opponent's Pok\u00e9mon and do 30 damage to it. Don't apply Weakness and Resistance. (You may choose the same Pok\u00e9mon more than once. )"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -2458,7 +2458,7 @@
             null
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -2824,7 +2824,7 @@
             "110"
         ],
         "Effects": [
-            "If you played a Supporter card from your hand during this turn, this attack does 50 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "If you played a Supporter card from your hand during this turn, this attack does 50 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -3006,7 +3006,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FCO/FCO_093_R_EN_LG.png",
         "Pack": null,
-        "Description": "Prevent all effects of your opponent's attacks, except damage, done to the Pok\u00e9mon this card is attached to. (Existing effects are not removed.)",
+        "Description": "Prevent all effects of your opponent's attacks, except damage, done to the Pok\u00e9mon this card is attached to. (Existing effects are not removed. )",
         "Illustrator": "Toyste Beach"
     },
     {
@@ -3018,7 +3018,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FCO/FCO_094_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose which way this card faces before you play it. This \u00e2\u2020\u201c player's Pok\u00e9mon can't be Asleep or Paralyzed. (If those Pok\u00e9mon are already Asleep or Paralyzed, remove those Special Conditions.)",
+        "Description": "Choose which way this card faces before you play it. This \u00e2\u2020\u201c player's Pok\u00e9mon can't be Asleep or Paralyzed. (If those Pok\u00e9mon are already Asleep or Paralyzed, remove those Special Conditions. )",
         "Illustrator": "5ban Graphics"
     },
     {
@@ -3030,7 +3030,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FCO/FCO_095_R_EN_LG.png",
         "Pack": null,
-        "Description": "Devolve 1 of your evolved Pok\u00e9mon and put the highest Stage Evolution card on it into your hand. (That Pok\u00e9mon can't evolve this turn.)",
+        "Description": "Devolve 1 of your evolved Pok\u00e9mon and put the highest Stage Evolution card on it into your hand. (That Pok\u00e9mon can't evolve this turn. )",
         "Illustrator": "Toyste Beach"
     },
     {
@@ -3195,10 +3195,22 @@
         "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Attack 1"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "200"
+        ],
+        "Effects": [
+            ""
+        ],
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FCO/FCO_108_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Zygarde-EX this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)All Cells Burn [F][F][C] 200Discard 3 Energy attached to this Pok\u00e9mon.                                        FFC        Attack 1 200",
+        "Description": "The Zygarde-EX this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )All Cells Burn [F][F][C] 200Discard 3 Energy attached to this Pok\u00e9mon.                                        FFC        Attack 1 200",
         "Illustrator": "5ban Graphics"
     },
     {
@@ -3270,7 +3282,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FCO/FCO_113_R_EN_LG.png",
         "Pack": null,
-        "Description": "You can use this card only if you discard 2 other cards from your hand.Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "Description": "You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
         "Illustrator": "5ban Graphics"
     },
     {
@@ -3294,7 +3306,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FCO/FCO_115_R_EN_LG.png",
         "Pack": null,
-        "Description": "This card can only be attached to [F] Pok\u00e9mon. This card provides [F] Energy only while this card is attached to a [F] Pok\u00e9mon.The attacks of the [F] Pok\u00e9mon this card is attached to do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).(If this card is attached to anything other than a [F] Pok\u00e9mon, discard this card.)",
+        "Description": "This card can only be attached to [F] Pok\u00e9mon. This card provides [F] Energy only while this card is attached to a [F] Pok\u00e9mon. The attacks of the [F] Pok\u00e9mon this card is attached to do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). (If this card is attached to anything other than a [F] Pok\u00e9mon, discard this card. )",
         "Illustrator": "5ban Graphics"
     },
     {

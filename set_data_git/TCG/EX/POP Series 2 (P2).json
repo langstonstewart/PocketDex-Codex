@@ -193,7 +193,7 @@
             "80"
         ],
         "Effects": [
-            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "Venusaur can't use Hard Plant during your next turn."
         ],
         "Weakness": "Fire",
@@ -255,10 +255,22 @@
         "Card-Type": "Item/Technical Machine",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Paralyzing Gaze"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Paralyzed."
+        ],
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/pop2/9_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.                                        C        Paralyzing Gaze              The Defending Pok\u00e9mon is now Paralyzed.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.",
         "Illustrator": "\"Big Mama\" Tagawa"
     },
     {
@@ -373,8 +385,8 @@
             "20"
         ],
         "Effects": [
-            "If there are 2 Defending Pok\u00e9mon in play, choose 1 of the Defending Pok\u00e9mon. That Pok\u00e9mon is now Paralyzed. (If there is only 1 Defending Pok\u00e9mon, this attack does nothing.)",
-            "Move 1 Energy card attached to the Defending Pok\u00e9mon to the other Defending Pok\u00e9mon. (Ignore this effect if your opponent has only 1 Defending Pok\u00e9mon.)"
+            "If there are 2 Defending Pok\u00e9mon in play, choose 1 of the Defending Pok\u00e9mon. That Pok\u00e9mon is now Paralyzed. (If there is only 1 Defending Pok\u00e9mon, this attack does nothing. )",
+            "Move 1 Energy card attached to the Defending Pok\u00e9mon to the other Defending Pok\u00e9mon. (Ignore this effect if your opponent has only 1 Defending Pok\u00e9mon. )"
         ],
         "Weakness": "Lightning",
         "Resistance": null,

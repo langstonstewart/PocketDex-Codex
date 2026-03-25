@@ -130,7 +130,7 @@
             "50"
         ],
         "Effects": [
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's) that has Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's) that has Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -303,7 +303,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
         ],
         "Weakness": "Grass",
@@ -439,7 +439,7 @@
             "40+"
         ],
         "Effects": [
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "Flip a coin. If heads, this attack does 40 damage plus 40 more damage to the Defending Pok\u00e9mon and discard all [L] Energy cards attached to Raichu."
         ],
         "Weakness": "Fighting",
@@ -711,7 +711,7 @@
             "40+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 40 damage plus 40 more damage."
         ],
         "Weakness": "Fighting",
@@ -915,7 +915,7 @@
             "10"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "Flip a coin. If heads, search your discard pile for a [L] Energy card and attach it to Team Aqua's Electrike."
         ],
         "Weakness": "Fighting",
@@ -1120,7 +1120,7 @@
         ],
         "Effects": [
             "Put 2 damage counters on your opponent's Pok\u00e9mon in any way you like.",
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2392,7 +2392,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/76_hires.png",
         "Pack": null,
-        "Description": "At any time between turns, if the Pok\u00e9mon Team Aqua Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward, then discard Team Aqua Belt.",
+        "Description": "At any time between turns, if the Pok\u00e9mon Team Aqua Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward, then discard Team Aqua Belt.",
         "Illustrator": "Mitsuhiro Arita"
     },
     {
@@ -2425,10 +2425,22 @@
         "Card-Type": "Item/Technical Machine",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Miracle"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Choose 1 Special Condition. The Defending Pok\u00e9mon is now affected by that Special Condition."
+        ],
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/79_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Aqua in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Aqua Technical Machine 01.                                        C        Miracle 10             Choose 1 Special Condition. The Defending Pok\u00e9mon is now affected by that Special Condition.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Aqua in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Aqua Technical Machine 01.",
         "Illustrator": "Mitsuhiro Arita"
     },
     {
@@ -2452,7 +2464,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/81_hires.png",
         "Pack": null,
-        "Description": "At any time between turns, if the Pok\u00e9mon Team Magma Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward, then discard Team Magma Belt.",
+        "Description": "At any time between turns, if the Pok\u00e9mon Team Magma Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward, then discard Team Magma Belt.",
         "Illustrator": "Mitsuhiro Arita"
     },
     {
@@ -2485,10 +2497,22 @@
         "Card-Type": "Item/Technical Machine",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Crushing Magma"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Choose an Energy card attached to the Defending Pok\u00e9mon and put that card at the bottom of your opponent's deck."
+        ],
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/84_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Magma in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Magma Technical Machine 01.                                        C        Crushing Magma 10             Choose an Energy card attached to the Defending Pok\u00e9mon and put that card at the bottom of your opponent's deck.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Magma in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Magma Technical Machine 01.",
         "Illustrator": "Mitsuhiro Arita"
     },
     {
@@ -2512,7 +2536,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/86_hires.png",
         "Pack": null,
-        "Description": "Aqua Energy can be attached only to a Pok\u00e9mon with Team Aqua in its name. Aqua Energy provides [W] and [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy.) At the end of your turn, discard Aqua Energy.",
+        "Description": "Aqua Energy can be attached only to a Pok\u00e9mon with Team Aqua in its name. Aqua Energy provides [W] and [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy. ) At the end of your turn, discard Aqua Energy.",
         "Illustrator": "Takumi Akabane"
     },
     {
@@ -2524,7 +2548,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/87_hires.png",
         "Pack": null,
-        "Description": "Magma Energy can be attached only to a Pok\u00e9mon with Team Magma in its name. Magma Energy provides [F] and /or [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy.) At the end of your turn, discard Magma Energy.",
+        "Description": "Magma Energy can be attached only to a Pok\u00e9mon with Team Magma in its name. Magma Energy provides [F] and /or [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy. ) At the end of your turn, discard Magma Energy.",
         "Illustrator": "Takumi Akabane"
     },
     {
@@ -2536,7 +2560,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex4/88_hires.png",
         "Pack": null,
-        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy.) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
+        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy. ) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
         "Illustrator": "Takumi Akabane"
     },
     {
@@ -2564,7 +2588,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pok\u00e9mon is now Burned.",
-            "Discard 2 [R] Energy attached to Blaziken ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "Discard 2 [R] Energy attached to Blaziken ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Water/psychic",
         "Resistance": null,
@@ -2741,7 +2765,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. You may move an Energy card attached to that Pok\u00e9mon to another of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. You may move an Energy card attached to that Pok\u00e9mon to another of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "You may return all basic Energy cards attached to Suicune ex to your hand. If you do, this attack does 50 damage plus 10 more damage for each basic Energy card you returned."
         ],
         "Weakness": "Lightning",
@@ -2776,7 +2800,7 @@
         ],
         "Effects": [
             "Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack's Energy cost. You can't add more than 80 damage in this way.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2810,7 +2834,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies or any other effects on that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies or any other effects on that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Fighting",
         "Resistance": null,

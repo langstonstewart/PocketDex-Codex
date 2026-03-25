@@ -117,7 +117,7 @@
             "60+"
         ],
         "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
             "If your opponent's Active Pok\u00e9mon is a Team Magma Pok\u00e9mon, this attack does 60 more damage."
         ],
         "Weakness": "Metal",
@@ -152,7 +152,7 @@
         ],
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
-            "Discard 2 [W] Energy attached to this Pok\u00e9mon. This attack does 80 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "Discard 2 [W] Energy attached to this Pok\u00e9mon. This attack does 80 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -450,7 +450,7 @@
         ],
         "Effects": [
             "Discard as many [F] Energy attached to your Pok\u00e9mon as you like. This attack does 40 damage times the amount of [F] Energy you discarded.",
-            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -733,10 +733,22 @@
         "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Attack"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "1"
+        ],
+        "Effects": [
+            ""
+        ],
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_023_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Team Aqua Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)W        Attack 1",
+        "Description": "The Team Aqua Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )W        Attack 1",
         "Illustrator": "Toyste Beach"
     },
     {
@@ -745,10 +757,22 @@
         "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Attack"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "1"
+        ],
+        "Effects": [
+            ""
+        ],
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_024_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Team Magma Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)F        Attack 1",
+        "Description": "The Team Magma Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )F        Attack 1",
         "Illustrator": "Toyste Beach"
     },
     {
@@ -772,7 +796,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_026_R_EN_LG.png",
         "Pack": null,
-        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Aqua Pok\u00e9mon, draw 1 more card.",
+        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card. ) Draw 3 cards. If you discarded a Team Aqua Pok\u00e9mon, draw 1 more card.",
         "Illustrator": "GAME FREAK inc."
     },
     {
@@ -820,7 +844,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_030_R_EN_LG.png",
         "Pack": null,
-        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Magma Pok\u00e9mon, draw 1 more card.",
+        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card. ) Draw 3 cards. If you discarded a Team Magma Pok\u00e9mon, draw 1 more card.",
         "Illustrator": "GAME FREAK inc."
     },
     {
@@ -856,7 +880,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_033_R_EN_LG.png",
         "Pack": null,
-        "Description": "This card can only be attached to Team Aqua Pok\u00e9mon. Discard this card at the end of the turn you attached it.This card provides [W][W] Energy only while it is attached to a Team Aqua Pok\u00e9mon.(If this card is attached to anything other than a Team Aqua Pok\u00e9mon, discard this card.)",
+        "Description": "This card can only be attached to Team Aqua Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [W][W] Energy only while it is attached to a Team Aqua Pok\u00e9mon. (If this card is attached to anything other than a Team Aqua Pok\u00e9mon, discard this card. )",
         "Illustrator": "5ban Graphics"
     },
     {
@@ -868,7 +892,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_034_R_EN_LG.png",
         "Pack": null,
-        "Description": "This card can only be attached to Team Magma Pok\u00e9mon. Discard this card at the end of the turn you attached it.This card provides [F][F] Energy only while it is attached to a Team Magma Pok\u00e9mon.(If this card is attached to anything other than a Team Magma Pok\u00e9mon, discard this card.)",
+        "Description": "This card can only be attached to Team Magma Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [F][F] Energy only while it is attached to a Team Magma Pok\u00e9mon. (If this card is attached to anything other than a Team Magma Pok\u00e9mon, discard this card. )",
         "Illustrator": "5ban Graphics"
     }
 ]

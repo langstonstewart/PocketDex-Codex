@@ -4,6 +4,7 @@ from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import QUrl, QSize, pyqtSignal
 from PyQt6.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 from PyQt6 import sip
+from functools import partial
 
 
 class ImageManager:
@@ -35,10 +36,34 @@ class ImageManager:
         self.favorite_icon = (QPixmap("src/images/ui/heart_black.png"), QPixmap("src/images/ui/heart_white.png"), QPixmap("src/images/ui/heart_active.png"))
         self.heart_button_icon = (QPixmap("src/images/ui/heart_button_black.png"), QPixmap("src/images/ui/heart_button_white.png"))
         self.f_tag = (QPixmap("src/images/tags/favorites_black.png"), QPixmap("src/images/tags/favorites_black.png"))
-        self.ex_icon = QPixmap("src/images/card_data/ex_icon.png")
         self.ability_icon = QPixmap("src/images/card_data/ability_logo.png")
+        self.theta_icon = QPixmap("src/images/card_data/theta_icon.png")
         self.paint_icon = (QPixmap("src/images/card_data/paint_black.png"), QPixmap("src/images/card_data/paint_white.png"))
         self.exit_icon = (QPixmap("src/images/ui/exit_black.png"), QPixmap("src/images/ui/exit_white.png"))
+        self.pokeball_icon = (QPixmap("src/images/rarities/TCG/none_black.png"), QPixmap("src/images/rarities/TCG/none_white.png"))
+        self.ex_icon = QPixmap("src/images/card_data/ex_icon.png")
+        self.break_banner = QPixmap("src/images/name_icons/break.png")
+        self.gx_icon = QPixmap("src/images/name_icons/gx_icon.png")
+        self.gx_tag_team_icon = QPixmap("src/images/name_icons/gx_tag_team_icon.png")
+        self.tera_icon = QPixmap(f"src/images/card_data/tera_icon.png")
+        self.lv_x_icon = QPixmap(f"src/images/name_icons/lv_x_logo.png")
+        self.star_icon = QPixmap(f"src/images/name_icons/star_logo.png")
+
+        self.v_dict  = {
+            "V": QPixmap("src/images/name_icons/v_icon.png"),
+            "VMAX": QPixmap("src/images/name_icons/v_max_icon.png"),
+            "VSTAR": QPixmap("src/images/name_icons/v_star_icon.png"),
+            "V-UNION": QPixmap("src/images/name_icons/v-union_icon.png")
+        }
+
+
+        self.ex_dict = {
+            "Mega Evolution": QPixmap("src/images/name_icons/ex_sv.png"),
+            "Scarlet & Violet": QPixmap("src/images/name_icons/ex_sv.png"),
+            "XY": QPixmap("src/images/name_icons/ex_legacy.png"),
+            "Black & White": QPixmap("src/images/name_icons/ex_legacy.png"),
+            "Mega Pokemon": QPixmap("src/images/name_icons/ex_sv_mega.png")
+        }
 
         self.counter_icon_dict = {
             4: (QPixmap("src/images/ui/counter_4_black.png"), QPixmap("src/images/ui/counter_4_white.png")),
@@ -46,77 +71,56 @@ class ImageManager:
             8: (QPixmap("src/images/ui/counter_8_black.png"), QPixmap("src/images/ui/counter_8_white.png")),
         }
 
-
         self.logo_dict = {}
 
-        '''"A1": (QPixmap("src/images/set_logo/geneticapex.png"), QPixmap("src/images/tags/A1_black.png")),
-            "P-A": (QPixmap("src/images/set_logo/promo-a.png"), QPixmap("src/images/tags/P-A_black.png")),
-            "P-B": (QPixmap("src/images/set_logo/promo-b.png"), QPixmap("src/images/tags/P-B_black.png")),
-            "A1a": (QPixmap("src/images/set_logo/mythicalisland.png"), QPixmap("src/images/tags/A1a_black.png")),
-            "A2": (QPixmap("src/images/set_logo/space-timesmackdown.png"), QPixmap("src/images/tags/A2_black.png")),
-            "A2a": (QPixmap("src/images/set_logo/triumphantlight.png"), QPixmap("src/images/tags/A2a_black.png")),
-            "A2b": (QPixmap("src/images/set_logo/shiningrevelry.png"), QPixmap("src/images/tags/A2b_black.png")),
-            "A3": (QPixmap("src/images/set_logo/celestialguardians.png"), QPixmap("src/images/tags/A3_black.png")),
-            "A3a": (QPixmap("src/images/set_logo/extradimensionalcrisis.png"), QPixmap("src/images/tags/A3a_black.png")),
-            "A3b": (QPixmap("src/images/set_logo/eeveegrove.png"), QPixmap("src/images/tags/A3b_black.png")),
-            "A4": (QPixmap("src/images/set_logo/wisdomofseaandsky.png"), QPixmap("src/images/tags/A4_black.png")),
-            "A4a": (QPixmap("src/images/set_logo/secludedsprings.png"), QPixmap("src/images/tags/A4a_black.png")),
-            "A4b": (QPixmap("src/images/set_logo/deluxepackex.png"), QPixmap("src/images/tags/A4b_black.png")),
-            "B1": (QPixmap("src/images/set_logo/megarising.png"), QPixmap("src/images/tags/B1_black.png")),
-            "B1a": (QPixmap("src/images/set_logo/crimsonblaze.png"), QPixmap("src/images/tags/B1a_black.png")),
-            "B2": (QPixmap("src/images/set_logo/fantasticalparade.png"), QPixmap("src/images/tags/B2_black.png")),
-            "B2a": (QPixmap("src/images/set_logo/paldeanwonders.png"), QPixmap("src/images/tags/B2a_black.png")),'''
-
-        self.rarity_dict = {
-            "1 Diamond": QPixmap("src/images/rarities/diamond1.png"),
-            "2 Diamond": QPixmap("src/images/rarities/diamond2.png"),
-            "3 Diamond": QPixmap("src/images/rarities/diamond3.png"),
-            "4 Diamond": QPixmap("src/images/rarities/diamond4.png"),
-            "1 Star": QPixmap("src/images/rarities/star1.png"),
-            "2 Star": QPixmap("src/images/rarities/star2.png"),
-            "3 Star": QPixmap("src/images/rarities/star3.png"),
-            "1 Shiny": QPixmap("src/images/rarities/shiny1.png"),
-            "2 Shiny": QPixmap("src/images/rarities/shiny2.png"),
-            "Crown": QPixmap("src/images/rarities/crown.png"),
-            "None": (QPixmap("src/images/rarities/none_black.png"), QPixmap("src/images/rarities/none_white.png"))
-        }
-
         self.card_type_dict = {
-            "Basic": QPixmap("src/images/card_data/basic_logo.png"),
-            "Stage 1": QPixmap("src/images/card_data/stage1_logo.png"),
-            "Stage 2": QPixmap("src/images/card_data/stage2_logo.png"),
-            "Supporter": QPixmap("src/images/card_data/supporter_logo.png"),
-            "Item": QPixmap("src/images/card_data/item_logo.png"),
-            "Tool": QPixmap("src/images/card_data/tool_logo.png"),
-            "Stadium": QPixmap("src/images/card_data/stadium_logo.png"),
+            "Basic": QPixmap("src/images/card_data/stages/basic_logo.png"),
+            "Stage 1": QPixmap("src/images/card_data/stages/stage1_logo.png"),
+            "Stage 2": QPixmap("src/images/card_data/stages/stage2_logo.png"),
+            "Supporter": QPixmap("src/images/card_data/stages/supporter_logo.png"),
+            "Item": QPixmap("src/images/card_data/stages/item_logo.png"),
+            "Tool": QPixmap("src/images/card_data/stages/tool_logo.png"),
+            "Stadium": QPixmap("src/images/card_data/stages/stadium_logo.png"),
+            "VMAX": QPixmap("src/images/card_data/stages/vmax_logo.png"),
+            "VSTAR": QPixmap("src/images/card_data/stages/vstar_logo.png"),
+            "V-UNION": QPixmap("src/images/card_data/stages/v-union_logo.png"),
+            "Basic Energy": QPixmap("src/images/card_data/stages/energy_logo.png"),
+            "Special Energy": QPixmap("src/images/card_data/stages/special_energy_logo.png"),
+            "BREAK Evolution": QPixmap("src/images/card_data/stages/break_logo.png"),
+            "Mega Evolution": QPixmap("src/images/card_data/stages/mega_logo.png"),
+            "Level Up": QPixmap("src/images/card_data/stages/level_up_logo.png"),
+            "Item/Technical Machine": QPixmap("src/images/card_data/stages/tm_logo.png"),
         }
 
         self.type_dict = {
-            "Colorless": QPixmap("src/images/card_data/energy_colorless.png"),
-            "Grass": QPixmap("src/images/card_data/energy_grass.png"),
-            "Fire": QPixmap("src/images/card_data/energy_fire.png"),
-            "Water": QPixmap("src/images/card_data/energy_water.png"),
-            "Lightning": QPixmap("src/images/card_data/energy_lightning.png"),
-            "Psychic": QPixmap("src/images/card_data/energy_psychic.png"),
-            "Fighting": QPixmap("src/images/card_data/energy_fighting.png"),
-            "Darkness": QPixmap("src/images/card_data/energy_darkness.png"),
-            "Metal": QPixmap("src/images/card_data/energy_metal.png"),
-            "Dragon": QPixmap("src/images/card_data/energy_dragon.png")
+            "Colorless": QPixmap("src/images/card_data/energy/energy_colorless.png"),
+            "Grass": QPixmap("src/images/card_data/energy/energy_grass.png"),
+            "Fire": QPixmap("src/images/card_data/energy/energy_fire.png"),
+            "Water": QPixmap("src/images/card_data/energy/energy_water.png"),
+            "Lightning": QPixmap("src/images/card_data/energy/energy_lightning.png"),
+            "Psychic": QPixmap("src/images/card_data/energy/energy_psychic.png"),
+            "Fighting": QPixmap("src/images/card_data/energy/energy_fighting.png"),
+            "Darkness": QPixmap("src/images/card_data/energy/energy_darkness.png"),
+            "Metal": QPixmap("src/images/card_data/energy/energy_metal.png"),
+            "Dragon": QPixmap("src/images/card_data/energy/energy_dragon.png"),
+            "Fairy": QPixmap("src/images/card_data/energy/energy_fairy.png"),
         }
 
 
         self.energy_dict = {
-            "C": "src/images/card_data/energy_colorless.png",
-            "G": "src/images/card_data/energy_grass.png",
-            "R": "src/images/card_data/energy_fire.png",
-            "W": "src/images/card_data/energy_water.png",
-            "L": "src/images/card_data/energy_lightning.png",
-            "P": "src/images/card_data/energy_psychic.png",
-            "F": "src/images/card_data/energy_fighting.png",
-            "D": "src/images/card_data/energy_darkness.png",
-            "M": "src/images/card_data/energy_metal.png",
-            "DR": "src/images/card_data/energy_dragon.png",
-            "0": "src/images/card_data/no_energy.png"
+            "C": "src/images/card_data/energy/energy_colorless.png",
+            "G": "src/images/card_data/energy/energy_grass.png",
+            "R": "src/images/card_data/energy/energy_fire.png",
+            "W": "src/images/card_data/energy/energy_water.png",
+            "L": "src/images/card_data/energy/energy_lightning.png",
+            "P": "src/images/card_data/energy/energy_psychic.png",
+            "F": "src/images/card_data/energy/energy_fighting.png",
+            "D": "src/images/card_data/energy/energy_darkness.png",
+            "M": "src/images/card_data/energy/energy_metal.png",
+            "DR": "src/images/card_data/energy/energy_dragon.png",
+            "Y": "src/images/card_data/energy/energy_fairy.png",
+            "0": "src/images/card_data/energy/no_energy.png",
+            "+": ("src/images/card_data/energy/plus_icon_black.png", "src/images/card_data/energy/plus_icon_white.png")
         }
 
         self.card_desc_dict = {
@@ -139,6 +143,9 @@ class ImageLabel(QLabel):
         self.card_id = card_id
         self.filepath = fp
         self.cache = cache
+
+        if url == f"https://images.pokemontcg.io":
+            url = f"https://s3.pokeos.com/pokeos-uploads/tcg/eng/back.webp"
         
         self.target_size = size
         self.setFixedSize(size)
@@ -153,39 +160,44 @@ class ImageLabel(QLabel):
 
             request = R_manager(QUrl(url))
             self._reply = network_manager.get(request)
+           
 
-            self._reply.errorOccurred.connect(lambda e: print("Network error:", e)) # type: ignore
+            self._reply.errorOccurred.connect(partial(self.handle_error, url)) # type: ignore
 
             self._reply.finished.connect(self.image_loaded) # type: ignore
         else:
             self.grab_local()
+
+    def handle_error(self, url, error):
+        print(f"Network error: {error} | at {url}")
+        if self._reply and not sip.isdeleted(self._reply):
+            self._reply.deleteLater()
+        self._reply = None
+        self.download_finished.emit()
             
 
     def image_loaded(self):
-        reply = self.sender()
-        if reply is None or sip.isdeleted(reply):
-            self._reply = None
+        reply = self._reply  
+        if reply is None:
             self.download_finished.emit()
             return
-        
-        pixmap = QPixmap()
-        try:
-            pixmap.loadFromData(reply.readAll()) # type: ignore
-        except RuntimeError:
-            self._reply = None
-            self.download_finished.emit()
-            return
-        scaled = pixmap.scaled(
-            self.target_size,
-            Qt.AspectRatioMode.KeepAspectRatio,
-            Qt.TransformationMode.SmoothTransformation
-        )
-        self.setPixmap(scaled)
-        
-        scaled.save(self.fp, "PNG")
 
-        if not sip.isdeleted(reply):
-            reply.deleteLater() # type: ignore
+        data = reply.readAll() if not sip.isdeleted(reply) else None
+
+        if data:
+            pixmap = QPixmap()
+            pixmap.loadFromData(data)
+            scaled = pixmap.scaled(
+                self.target_size,
+                Qt.AspectRatioMode.KeepAspectRatio,
+                Qt.TransformationMode.SmoothTransformation
+            )
+            self.setPixmap(scaled)
+            scaled.save(self.fp, "PNG")
+
+       
+        if reply and not sip.isdeleted(reply):
+            reply.deleteLater()
         self._reply = None
 
         self.download_finished.emit()
