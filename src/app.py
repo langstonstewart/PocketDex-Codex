@@ -6,13 +6,14 @@ from PyQt6.QtGui import QFont, QCursor, QIcon, QDesktopServices, QPixmap, QColor
 from math import ceil
 from functools import partial
 from PyQt6.QtNetwork import QNetworkAccessManager
+import random
 
 class CacheWorker(QObject):
     finished = pyqtSignal(dict)      
     progress = pyqtSignal(str)
     
 
-    def __init__(self, queue_label: QLabel, n_m, category_list, set_dir, local_doc, max_concurrent=5):
+    def __init__(self, queue_label: QLabel, n_m, category_list, set_dir, local_doc, max_concurrent=2):
         super().__init__()
         self.category_list = category_list
         self.project_dir = set_dir
@@ -113,7 +114,11 @@ class Application(QMainWindow):
 
         self.col_count = self.settings['UserData']['col_count']
 
+        self.set_inverse = self.settings['UserData']['set_inverse']
+
         self.bb_dict = {}
+
+        self.rarity_dict = None
 
         self.set_sep_lens = {4: 1200, 
                              6: 1700,
@@ -140,6 +145,8 @@ class Application(QMainWindow):
         self.widget_list.append(self.cd_widget)
 
         self.main_layout = None
+
+        self.set_main_layout = None
         
         self.cd_layout = None
 
@@ -424,11 +431,11 @@ class Application(QMainWindow):
 
         self.set_header = QHBoxLayout()
         self.set_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.set_main_layout.addLayout(self.set_header)
+        self.set_main_layout.addLayout(self.set_header) # type: ignore
 
         self.data_header = QHBoxLayout()
         self.data_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.set_main_layout.addLayout(self.data_header)
+        self.set_main_layout.addLayout(self.data_header) # type: ignore
 
         for s in self.set_dict[self.series]:
             if s["Name"] == self.set_name:
@@ -512,23 +519,36 @@ class Application(QMainWindow):
 
     def display_sets(self, category):
 
-        if category == "set_list_tcg.json":
-            self.category_dir = "TCG"
-            
-        if category == "set_list_pocket.json":
-            self.category_dir = "TCG Pocket"
-
         self.category_file_name = category
 
         with open(f'{self.project_dir}\\{category}', 'r+', encoding="UTF-8") as set_file:
                 self.set_dict = json.load(set_file) # type: dict
 
-        title_dict = {"set_list_tcg.json": ("Pokemon Trading Card Game ™", self.IM.tcg_logo),
-                      "set_list_pocket.json": ("Pokemon Trading Card Game Pocket ™", self.IM.tcg_pocket_logo)}
         
+
+        
+
         set_count = 0
         for key in self.set_dict.keys():
             set_count  += len(self.set_dict[key])
+
+        if category == "set_list_tcg.json":
+            self.category_dir = "TCG"
+            date_text = f"{self.set_dict[list(self.set_dict.keys())[-1]][-2]["Release Date"]} - {self.set_dict[list(self.set_dict.keys())[0]][0]["Release Date"]} | {set_count} Sets"
+            
+        if category == "set_list_pocket.json":
+            self.category_dir = "TCG Pocket"
+            date_text = f"{self.set_dict[list(self.set_dict.keys())[0]][0]["Release Date"]} - {self.set_dict[list(self.set_dict.keys())[-1]][-2]["Release Date"]} | {set_count} Sets"
+        
+
+        with open(f'{self.local_doc}\\{self.category_dir}\\favorites\\favorites.json', 'r+', encoding="UTF-8") as f_file:
+                self.favorite_list = json.load(f_file) # type: dict
+
+
+        title_dict = {"set_list_tcg.json": ("Pokemon Trading Card Game ™", self.IM.tcg_logo),
+                      "set_list_pocket.json": ("Pokemon Trading Card Game Pocket ™", self.IM.tcg_pocket_logo)}
+        
+        
                 
         self.main_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
 
@@ -574,11 +594,8 @@ class Application(QMainWindow):
 
         text_layout.addWidget(category_label)
 
-        date_text = f"{self.set_dict[list(self.set_dict.keys())[0]][0]["Release Date"]} - {self.set_dict[list(self.set_dict.keys())[-1]][-1]["Release Date"] 
-                                                                                           if self.set_dict[list(self.set_dict.keys())[-1]][-1]["Release Date"] is not None 
-                                                                                           else self.set_dict[list(self.set_dict.keys())[-1]][-2]["Release Date"]} | {set_count} Sets"
-
-        date_label = QLabel(f"{date_text}")
+        date_label = QLabel(f"")
+        date_label.setText(date_text)
         date_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         date_label.setProperty("class", "header2")
         date_label.setFont(self.main_font)
@@ -586,7 +603,7 @@ class Application(QMainWindow):
 
         text_layout.addWidget(date_label)
 
-        for key in self.set_dict.keys():
+        for key in (reversed(self.set_dict.keys()) if self.set_inverse else self.set_dict.keys()):
 
             self.seperator(self.main_layout, 1200)
 
@@ -607,7 +624,7 @@ class Application(QMainWindow):
 
             col_length = self.set_col_count
             row_length = ceil(len(self.set_dict[key]) / col_length)
-            current_set = 0
+            current_set = len(self.set_dict[key]) - 1 if self.set_inverse else 0
             all_rows = False
             while True:
                 if all_rows:
@@ -645,11 +662,17 @@ class Application(QMainWindow):
                         button_layout.addWidget(button)
 
                         self.set_button_dict[self.set_dict[key][current_set]['Name']] = button
-
-                        current_set += 1
-                        if current_set == len(self.set_dict[key]):
-                            all_rows = True
-                            break
+                        
+                        if self.set_inverse:
+                            current_set -= 1
+                            if current_set < 0:
+                                all_rows = True
+                                break
+                        else:
+                            current_set += 1
+                            if current_set == len(self.set_dict[key]):
+                                all_rows = True
+                                break
 
             
         self.seperator(self.main_layout, 1200)
@@ -659,7 +682,44 @@ class Application(QMainWindow):
 
         self.create_favorite_cards_button()
 
+        self.create_inverse_button()
+
         self.stacked_layout.setCurrentWidget(self.main_widget)
+
+
+    def create_inverse_button(self):
+        self.inverse_button = QPushButton(f"Sort by Newest.." if self.set_inverse else "Sort by Oldest..")
+        self.ui_button_list.append((self.inverse_button, self.IM.heart_button_icon, None, None))
+        self.inverse_button.setFont(self.main_font)
+        self.inverse_button.setProperty("class", "Setting_Button")
+        
+        self.inverse_button.setIcon(QIcon(self.IM.heart_button_icon[self.mode]))
+        self.inverse_button.setIconSize(QSize(36, 36))
+
+        self.inverse_button.enterEvent = partial(self.on_button_enter, self.inverse_button)
+        self.inverse_button.leaveEvent = partial(self.on_button_leave, self.inverse_button) # type: ignore
+        
+        self.inverse_button.clicked.connect(self.switch_set_inverse)
+
+        self.bb_layout.addWidget(self.inverse_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
+
+        self.bb_layout.addStretch()
+
+    def switch_set_inverse(self):
+        if self.set_inverse == 1:
+            self.set_inverse = 0
+            self.settings['UserData']['set_inverse'] = 0
+            
+        elif self.set_inverse == 0:
+            self.set_inverse = 1
+            self.settings['UserData']['set_inverse'] = 1
+            
+        with open("src/app_data/app_settings.json", "w+") as config_file:
+                json.dump(self.settings, config_file, indent=4)
+
+        self.go_back(self.main_layout)
+
+        self.display_sets(self.category_file_name)
 
     def create_info_page(self):
         self.info_widget = QWidget()
@@ -900,7 +960,7 @@ This project is not affiliated with or associated with these entities.''')
             self.set_id = button.property('ID') # type: ignore
             self.series = button.property('Series') # type: ignore
         else:
-            self.clear_layout(self.set_main_layout)
+            self.clear_layout(self.set_main_layout) # type: ignore
             button = self.set_button_dict[self.set_name]
         
 
@@ -952,7 +1012,7 @@ This project is not affiliated with or associated with these entities.''')
         self.ex_layout = QHBoxLayout()
         self.ex_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
-        self.set_main_layout.addLayout(self.ex_layout)
+        self.set_main_layout.addLayout(self.ex_layout) # type: ignore
 
         self.shadow_add_button = QPushButton("Add 1 to All..")
         self.shadow_add_button.setProperty("class", "Setting_Button")
@@ -1247,7 +1307,7 @@ This project is not affiliated with or associated with these entities.''')
             self.clear_layout(self.fav_main_layout) # type: ignore
         else:
 
-            self.clear_layout(self.set_main_layout)
+            self.clear_layout(self.set_main_layout) # type: ignore
 
         self.clear_layout(self.cd_layout) # type: ignore
 
@@ -1331,7 +1391,7 @@ This project is not affiliated with or associated with these entities.''')
 
             if "Tera" in self.set_list[card_index].keys():
 
-                tera_img = self.IM.tera_icon.scaled(self.IM.tera_icon.width() // 2, self.IM.theta_icon.height() // 2, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+                tera_img = self.IM.tera_icon.scaled(self.IM.tera_icon.width() // 4, self.IM.tera_icon.height() // 4, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
 
                 tera_layout = QVBoxLayout()
                         
@@ -1366,13 +1426,17 @@ This project is not affiliated with or associated with these entities.''')
 
                     ability_text = f"{self.set_list[card_index]["Ability"][i]}"
 
-                    if "\u03b8" in ability_text: # theta
-                        print("theta")
-                        ability_img = self.IM.theta_icon.scaled(self.IM.theta_icon.width(), self.IM.theta_icon.height(), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
-                        ability_text = ability_text.replace("\u03b8 ", "")
-                        property = "theta_header"
+                    ability_set = False
 
-                    else:
+                    for trait in self.IM.trait_dict.keys():
+                        if trait in ability_text:
+                            
+                            ability_img = self.IM.trait_dict[trait].scaled(self.IM.trait_dict[trait].width() // 2, self.IM.trait_dict[trait].height() // 2, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+                            ability_text = ability_text.replace(f"{trait} ", "")
+                            property = "theta_header"
+                            ability_set = True
+
+                    if not ability_set:
                         ability_img = self.IM.ability_icon.scaled(128, 30, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
                         property = "ability_header"
 
@@ -1791,7 +1855,19 @@ This project is not affiliated with or associated with these entities.''')
 
         button_layout = QHBoxLayout()
         button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.cd_layout.addLayout(button_layout) # type: ignore
+
+        random_button = QPushButton("Random..")
+        random_button.setProperty("class", "Setting_Button")
+        random_button.setFont(self.main_font)
+
+        random_button.setIcon(QIcon(self.IM.dice_icon[self.mode]))
+        random_button.setIconSize(QSize(36, 36))
+
+        random_button.enterEvent = partial(self.on_button_enter, random_button)
+        random_button.leaveEvent = partial(self.on_button_leave, random_button) # type: ignore
+        random_button.clicked.connect(partial(self.display_card_data_page, random.randint(0, len(self.set_list) - 1), True if favorites_menu else False))
+
+        button_layout.addWidget(random_button)
 
         
 
@@ -1828,9 +1904,9 @@ This project is not affiliated with or associated with these entities.''')
 
         self.cd_layout.addStretch() # type: ignore
 
-        
-
         self.init_back_button(self.cd_layout, "Card_Data")
+
+        self.bb_layout.addLayout(button_layout) # type: ignore
 
         set_logo = QLabel("")
         set_logo.setPixmap(self.IM.logo_dict[self.set_id].scaled(156, 156, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
@@ -1879,16 +1955,21 @@ This project is not affiliated with or associated with these entities.''')
 
                     self.set_id = self.set_name.split("(")[-1].replace(")", "")
 
-                    self.set_fp = f"{self.local_doc}\\{self.category_dir}\\{self.series}\\{self.set_name}\\{self.set_name}.json"
+                    self.set_fp = f"{self.local_doc}\\{self.category_dir}\\{img.property("series")}\\{self.set_name}\\{self.set_name}.json"
+
+                    self.series = img.property("series")
 
                     with open(self.set_fp, "r+") as set_file:
                         self.set_list = json.load(set_file)
 
                 self.display_card_data_page(card_index, favorites_menu)
 
-        card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], self.set_list[card_index]["ID"], f"{self.project_dir}\\set_data\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards", False)
+        img_path = f"{self.project_dir}\\set_data\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards"
+
+        card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], self.set_list[card_index]["ID"], img_path, False)
         card_img.setProperty("index", card_index)
         card_img.setProperty("series", self.series)
+        
         card_img.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         card_img.setProperty("Set", self.set_name)
 
@@ -1898,18 +1979,19 @@ This project is not affiliated with or associated with these entities.''')
             card_img.leaveEvent = lambda event, img=card_img: on_card_leave(event, img) # type: ignore
             card_img.mousePressEvent = lambda event, img=card_img: on_card_click(event, img)  # type: ignore
                 
-       
         self.update_card_opacity(card_img, self.set_list[card_img.property("index")]["Quantity"])
 
         card_layout.addWidget(card_img)
-        card_layout.addSpacing(8)
+        card_layout.addSpacing(10)
 
         self.card_img_dict[self.set_list[card_index]["ID"]] = card_img
 
-        card_name_layout = QHBoxLayout()
+        name_container = QWidget()
+        name_container.setFixedWidth(card_img.width())
+        card_name_layout = QHBoxLayout(name_container)
         card_name_layout.setContentsMargins(0, 6, 0, 6)
         card_name_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        card_name_layout.setSpacing(0)
+        card_name_layout.setSpacing(10)
 
         card_text = f"{self.set_list[card_index]["Name"]}"
 
@@ -1918,7 +2000,7 @@ This project is not affiliated with or associated with these entities.''')
             if "Mega " in card_text:
                 ex_icon = QLabel("")
                 ex_icon.setPixmap(self.IM.ex_dict["Mega Pokemon"].scaled(self.IM.ex_icon.width() // 4, self.IM.ex_icon.height() // 4, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
-                ex_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
+                ex_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
                 ex_icon.setContentsMargins(0, 4, 0, 0)
                 ex_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
@@ -2067,7 +2149,7 @@ This project is not affiliated with or associated with these entities.''')
 
             card_name = QLabel(card_text.replace(" LV.X", ""))
 
-        elif " Star" in card_text:
+        elif card_text[-5:] == " Star":
             ex_icon = QLabel("")
             pixmap = self.IM.star_icon
             ex_icon.setPixmap(pixmap.scaled(pixmap.width() // 8, pixmap.height() // 8, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
@@ -2077,32 +2159,37 @@ This project is not affiliated with or associated with these entities.''')
 
             name_extension = True
 
-            card_name = QLabel(card_text.replace(" Star", ""))
+            card_name = QLabel(card_text.replace(card_text[-5:], ""))
 
-        
+        elif card_text[-7:] == " LEGEND":
+            ex_icon = QLabel("")
+            pixmap = self.IM.legend_icon
+            ex_icon.setPixmap(pixmap.scaled(pixmap.width() // 3, pixmap.height() // 3, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+            ex_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
+            ex_icon.setContentsMargins(0, 7, 0, 0)
+            ex_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
-        
+            name_extension = True
+
+            card_name = QLabel(card_text.replace(card_text[-7:], ""))
             
         else:
             name_extension = False
             card_name = QLabel(card_text)
 
-        if type(layout) == QGridLayout:
-            card_name.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-        else:
-            card_name.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        
+        card_name.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.MinimumExpanding)
             
         card_name.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         card_name.setFont(self.main_font_bold)
         card_name.setProperty("class", "header2")
         card_name.setWordWrap(True)
-    
-        card_name.setMaximumWidth(1000)
         
-        card_name_layout.addWidget(card_name)
-        card_layout.addLayout(card_name_layout)
 
-        card_name.adjustSize()
+        card_name_layout.addStretch(1)
+        card_name_layout.addWidget(card_name)
+        card_name_layout.addStretch(1)
+        card_layout.addWidget(name_container, alignment=Qt.AlignmentFlag.AlignHCenter)
 
         if name_extension:
             if len(card_text) >= 17:
@@ -2111,10 +2198,14 @@ This project is not affiliated with or associated with these entities.''')
                 card_layout.addLayout(ex_layout)
                 ex_layout.addWidget(ex_icon)
             else:
-                card_name_layout.addWidget(ex_icon)
+                card_name_layout.insertWidget(2, ex_icon)
+
+        
+        
+        
         
         card_rarity = QLabel("")
-        card_rarity.setPixmap(self.rarity_dict[self.set_list[card_index]["Rarity"]] if self.set_list[card_index]["Rarity"] != "N/A" else self.rarity_dict["N/A"][self.mode].scaled(50, 50, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+        card_rarity.setPixmap(self.rarity_dict[self.set_list[card_index]["Rarity"]] if self.set_list[card_index]["Rarity"] != "N/A" else self.rarity_dict["N/A"][self.mode].scaled(50, 50, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
         card_rarity.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         card_rarity.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         card_layout.addWidget(card_rarity)
@@ -2214,14 +2305,35 @@ This project is not affiliated with or associated with these entities.''')
         self.minus_button_list = []
         self.plus_button_list = []
         self.fb_list = []
-
-        
-        #self.f_button.setText("View Favorites..")
         
         col_length = self.col_count
         row_length = ceil(len(self.set_list) / col_length)
         current_card = 0
         all_rows = False
+
+        scale_int = 1 if self.category_dir == "TCG Pocket" else 3
+
+        self.rarity_dict = {}
+
+        self.rarity_dict["N/A"] = (QPixmap(f"src/images/rarities/TCG/none_black.png"), QPixmap(f"src/images/rarities/TCG/none_white.png"))
+
+
+        data_changed = False
+        for card in self.set_list:
+            if card["Rarity"] is None:
+                card["Rarity"] = "N/A"
+                data_changed = True
+
+        
+        if data_changed:
+            with open(self.set_fp, "w+") as set_file:
+                json.dump(self.set_list, set_file, indent=4)
+
+        for card in self.set_list:
+            if card["Rarity"] != "N/A" and card["Rarity"] not in self.rarity_dict.keys():
+                rarity_pixmap = QPixmap(f"src/images/rarities/{self.category_dir}/{card["Rarity"].replace(" ", "_").lower()}.png")
+
+                self.rarity_dict[card["Rarity"]] = rarity_pixmap.scaled(rarity_pixmap.width() // scale_int, rarity_pixmap.width() // scale_int, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
 
         while True:
             if all_rows:
@@ -2393,10 +2505,10 @@ This project is not affiliated with or associated with these entities.''')
 
         self.bb_layout.addWidget(self.f_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
 
-        self.bb_layout.addStretch()
-
 
     def display_favorites(self):
+
+        
 
         self.fb_list = []
         
@@ -2459,6 +2571,19 @@ This project is not affiliated with or associated with these entities.''')
             current_card = 0
             all_rows = False
 
+            scale_int = 1 if self.category_dir == "TCG Pocket" else 3
+
+            self.rarity_dict = {}
+
+            self.rarity_dict["N/A"] = (QPixmap(f"src/images/rarities/TCG/none_black.png"), QPixmap(f"src/images/rarities/TCG/none_white.png"))
+
+
+            for card in self.favorite_list:
+                if card["Rarity"] != "N/A" and card["Rarity"] not in self.rarity_dict.keys():
+                    rarity_pixmap = QPixmap(f"src/images/rarities/{self.category_dir}/{card["Rarity"].replace(" ", "_").lower()}.png")
+
+                    self.rarity_dict[card["Rarity"]] = rarity_pixmap.scaled(rarity_pixmap.width() // scale_int, rarity_pixmap.width() // scale_int, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+
             while True:
                 if all_rows:
                     break
@@ -2495,6 +2620,9 @@ This project is not affiliated with or associated with these entities.''')
 
             self.stacked_layout.addWidget(self.fav_widget)
             self.stacked_layout.setCurrentWidget(self.fav_widget)
+
+            if self.main_layout is not None:
+                self.clear_layout(self.main_layout) # type: ignore
                 
         
         else:
@@ -2502,17 +2630,17 @@ This project is not affiliated with or associated with these entities.''')
          
 
     def remove_from_favorites(self, set_name, f_index):
+        fb = self.sender()
+
         self.set_name = set_name
+
+        self.series = fb.property("series") # type: ignore
 
         self.set_fp = f"{self.local_doc}\\{self.category_dir}\\{self.series}\\{self.set_name}\\{self.set_name}.json"
         with open(self.set_fp, "r") as set_file:
                 self.set_list = json.load(set_file)
 
-        fb = self.sender()
-
         card_origin_index = fb.property("index") # type: ignore
-
-      
 
         if not self.set_list[card_origin_index]["Favorite"]:
            
@@ -2620,8 +2748,6 @@ This project is not affiliated with or associated with these entities.''')
 
     def go_back(self, layout):    
 
-        
-
         if layout == self.main_layout or layout == self.info_header:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
@@ -2630,14 +2756,14 @@ This project is not affiliated with or associated with these entities.''')
             return
         if layout == self.fav_main_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
-            self.stacked_layout.setCurrentWidget(self.main_widget)
+            self.display_sets(self.category_file_name)
             self.clear_layout(self.fav_main_layout) # type: ignore
             return
 
         elif layout == self.set_main_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
-            self.clear_layout(self.set_main_layout)
+            self.clear_layout(self.set_main_layout) # type: ignore
             return
 
         elif layout == self.cd_layout:

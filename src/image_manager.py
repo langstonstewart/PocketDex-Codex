@@ -37,7 +37,6 @@ class ImageManager:
         self.heart_button_icon = (QPixmap("src/images/ui/heart_button_black.png"), QPixmap("src/images/ui/heart_button_white.png"))
         self.f_tag = (QPixmap("src/images/tags/favorites_black.png"), QPixmap("src/images/tags/favorites_black.png"))
         self.ability_icon = QPixmap("src/images/card_data/ability_logo.png")
-        self.theta_icon = QPixmap("src/images/card_data/theta_icon.png")
         self.paint_icon = (QPixmap("src/images/card_data/paint_black.png"), QPixmap("src/images/card_data/paint_white.png"))
         self.exit_icon = (QPixmap("src/images/ui/exit_black.png"), QPixmap("src/images/ui/exit_white.png"))
         self.pokeball_icon = (QPixmap("src/images/rarities/TCG/none_black.png"), QPixmap("src/images/rarities/TCG/none_white.png"))
@@ -48,6 +47,15 @@ class ImageManager:
         self.tera_icon = QPixmap(f"src/images/card_data/tera_icon.png")
         self.lv_x_icon = QPixmap(f"src/images/name_icons/lv_x_logo.png")
         self.star_icon = QPixmap(f"src/images/name_icons/star_logo.png")
+        self.legend_icon = QPixmap(f"src/images/name_icons/legend.png")
+        self.dice_icon = (QPixmap(f"src/images/ui/dice_black.png"), QPixmap(f"src/images/ui/dice_white.png"))
+
+        self.trait_dict = {
+            "\u03b1": QPixmap("src/images/card_data/traits/alpha_icon.png"),
+            "\u03a9": QPixmap("src/images/card_data/traits/omega_icon.png"),
+            "\u0394": QPixmap("src/images/card_data/traits/delta_icon.png"),
+            "\u03b8": QPixmap("src/images/card_data/traits/theta_icon.png"),
+        }
 
         self.v_dict  = {
             "V": QPixmap("src/images/name_icons/v_icon.png"),
@@ -90,6 +98,7 @@ class ImageManager:
             "Mega Evolution": QPixmap("src/images/card_data/stages/mega_logo.png"),
             "Level Up": QPixmap("src/images/card_data/stages/level_up_logo.png"),
             "Item/Technical Machine": QPixmap("src/images/card_data/stages/tm_logo.png"),
+            "LEGEND": QPixmap("src/images/card_data/stages/legend_logo.png")
         }
 
         self.type_dict = {
@@ -143,9 +152,6 @@ class ImageLabel(QLabel):
         self.card_id = card_id
         self.filepath = fp
         self.cache = cache
-
-        if url == f"https://images.pokemontcg.io":
-            url = f"https://s3.pokeos.com/pokeos-uploads/tcg/eng/back.webp"
         
         self.target_size = size
         self.setFixedSize(size)
