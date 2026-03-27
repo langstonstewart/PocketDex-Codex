@@ -1546,8 +1546,13 @@ This project is not affiliated with or associated with these entities.''')
                     
                     move_data_layout.addWidget(move_effect_label)
 
+            
+
             w_r_layout = QHBoxLayout()
             w_r_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+            if self.set_list[card_index]["Ability"]:
+                self.cd_layout.addStretch() # type: ignore
             
             self.cd_layout.addLayout(w_r_layout) # type: ignore
 
