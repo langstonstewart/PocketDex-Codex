@@ -1,0 +1,5164 @@
+[
+    {
+        "ID": "PRC-001",
+        "Name": "Weedle",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Multiply"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Search your deck for Weedle and put it onto your Bench. Shuffle your deck afterward."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-002",
+        "Name": "Kakuna",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bug Bite"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-003",
+        "Name": "Beedrill",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_003_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Allergic Shock",
+            "Twineedle"
+        ],
+        "Move-Energy": [
+            "G",
+            "GG"
+        ],
+        "Move-Damage": [
+            null,
+            "50\u00d7"
+        ],
+        "Effects": [
+            "During your next turn, if the Defending Pok\u00e9mon is damaged by an attack, it is Knocked Out.",
+            "Flip 2 coins. This attack does 50 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-004",
+        "Name": "Tangela",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_004_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Absorb",
+            "Vine Whip"
+        ],
+        "Move-Energy": [
+            "GC",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30"
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-005",
+        "Name": "Tangrowth",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mega Drain",
+            "Grass Knot"
+        ],
+        "Move-Energy": [
+            "GCC",
+            "GGCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "80+"
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon.",
+            "This attack does 10 more damage for each [C] in your opponent's Active Pok\u00e9mon's Retreat Cost."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-006",
+        "Name": "Treecko",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_006_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-007",
+        "Name": "Grovyle",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound",
+            "Agility"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-008",
+        "Name": "Sceptile",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_008_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "130",
+        "Ability": [
+            "Nurture and Heal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [G] Energy card from your hand to 1 of your Pok\u00e9mon. If you do, heal 30 damage from that Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Jungle Edge"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-009",
+        "Name": "Sceptile",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_009_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "140",
+        "Ability": [
+            "\u03a9 Barrier"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent plays a Trainer card (excluding Pok\u00e9mon Tools and Stadium cards), prevent all effects of that card done to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Leaf Blade",
+            "Power Poison"
+        ],
+        "Move-Energy": [
+            "G",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "30+",
+            "120"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage.",
+            "Discard 1 Energy attached to this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "hatachu",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-010",
+        "Name": "Lotad",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beat"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kanako Eo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-011",
+        "Name": "Lombre",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hook",
+            "Beat"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-012",
+        "Name": "Ludicolo",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "130",
+        "Ability": [
+            "Captivating Rhythm"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may flip a coin. If heads, switch 1 of your opponent's Benched Pok\u00e9mon with his or her Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Solar Ray"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Heal 20 damage from each of your Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mizue",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-013",
+        "Name": "Surskit",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_013_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stampede"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-014",
+        "Name": "Masquerain",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spiral Gyration",
+            "Air Slash"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kanako Eo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-015",
+        "Name": "Shroomish",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spore"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mizue",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-016",
+        "Name": "Breloom",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dynamic Punch",
+            "Mega Kick"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "40+",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage and your opponent's Active Pok\u00e9mon is now Confused.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-017",
+        "Name": "Volbeat",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Acrobatics",
+            "Pester"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "30+"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 more damage for each heads.",
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, this attack does 30 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-018",
+        "Name": "Illumise",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_018_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Helping Hand",
+            "Twirling Sign"
+        ],
+        "Move-Energy": [
+            "G",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Search your deck for a basic Energy card and attach it to 1 of your Benched Pok\u00e9mon. Shuffle your deck afterward.",
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-019",
+        "Name": "Trevenant-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dark Forest",
+            "Wood Blast"
+        ],
+        "Move-Energy": [
+            "G",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            "This attack does 20 more damage for each [G] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Eske Yoshinob",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-020",
+        "Name": "Vulpix",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Roar",
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "C",
+            "R"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Your opponent switches his or her Active Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-021",
+        "Name": "Ninetales",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_021_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": [
+            "Barrier Shrine"
+        ],
+        "Ability-Effect": [
+            "Each player can't play any Stadium cards from his or her hand."
+        ],
+        "Moves": [
+            "Flickering Flames"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kanako Eo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-022",
+        "Name": "Slugma",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_022_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Grass Fire",
+            "Ram"
+        ],
+        "Move-Energy": [
+            "R",
+            "RCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Discard a [G] Energy attached to your opponent's Active Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-023",
+        "Name": "Magcargo",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_023_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flame Burst",
+            "Flamethrower"
+        ],
+        "Move-Energy": [
+            "R",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "90"
+        ],
+        "Effects": [
+            "This attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shigenori Negishi",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-024",
+        "Name": "Magcargo",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_024_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": [
+            "\u03a9 Barrier"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent plays a Trainer card (excluding Pok\u00e9mon Tools and Stadium cards), prevent all effects of that card done to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Ram",
+            "Indomitable Blaze"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60+"
+        ],
+        "Effects": [
+            "",
+            "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon-EX, this attack does 60 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-025",
+        "Name": "Torchic",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_025_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ember"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, discard a [R] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-026",
+        "Name": "Torchic",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_026_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": [
+            "\u03a9 Barrage"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon. )"
+        ],
+        "Moves": [
+            "Flare Bonus",
+            "Claw"
+        ],
+        "Move-Energy": [
+            "R",
+            "R"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Discard a [R] Energy card from your hand. If you do, draw 2 cards.",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-027",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_027_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Spiral Kick"
+        ],
+        "Move-Energy": [
+            "R",
+            "RC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-028",
+        "Name": "Blaziken",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_028_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spreading Flames",
+            "Heat Blow"
+        ],
+        "Move-Energy": [
+            "R",
+            "RC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Attach 3 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like.",
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-029",
+        "Name": "Camerupt-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_029_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tumbling Attack",
+            "Explosive Jet"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "30+",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage.",
+            "Discard as many [R] Energy attached to your Pok\u00e9mon as you like. This attack does 50 damage times the number of Energy cards you discarded."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Eske Yoshinob",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-030",
+        "Name": "Horsea",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_030_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-031",
+        "Name": "Seadra",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_031_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Knockout Needle",
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "W",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "30"
+        ],
+        "Effects": [
+            "Flip 2 coins. If both of them are heads, this attack does 40 more damage.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-032",
+        "Name": "Staryu",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_032_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-033",
+        "Name": "Mudkip",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_033_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Mud-Slap"
+        ],
+        "Move-Energy": [
+            "W",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-034",
+        "Name": "Marshtomp",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_034_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mud-Slap",
+            "Endeavor"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "40+"
+        ],
+        "Effects": [
+            "",
+            "Flip 2 coins. This attack does 20 more damage for each heads."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-035",
+        "Name": "Swampert",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_035_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Arrow",
+            "Waterfall"
+        ],
+        "Move-Energy": [
+            "WCC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            null,
+            "120"
+        ],
+        "Effects": [
+            "This attack does 60 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shigenori Negishi",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-036",
+        "Name": "Swampert",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_036_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "140",
+        "Ability": [
+            "\u03b1 Growth",
+            "Diving Search"
+        ],
+        "Ability-Effect": [
+            "When you attach an Energy card from your hand to this Pok\u00e9mon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards.",
+            "Once during your turn (before your attack), you may search your deck for a card. Shuffle your deck, then put that card on top of it."
+        ],
+        "Moves": [
+            "Hydro Pump"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each [W] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-037",
+        "Name": "Ludicolo",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_037_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": [
+            "\u03b1 Recovery"
+        ],
+        "Ability-Effect": [
+            "When this Pok\u00e9mon is healed, double the amount healed."
+        ],
+        "Moves": [
+            "Astonish",
+            "Splash Dance"
+        ],
+        "Move-Energy": [
+            "C",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+            "During your next turn, this Pok\u00e9mon's Splash Dance attack does 60 more damage (before applying Weakness and Resistance)."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-038",
+        "Name": "Wailord-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_038_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "250",
+        "Ability": [
+            "Water Veil"
+        ],
+        "Ability-Effect": [
+            "Whenever you attach an Energy card from your hand to this Pok\u00e9mon, remove all Special Conditions from it."
+        ],
+        "Moves": [
+            "High Breaching"
+        ],
+        "Move-Energy": [
+            "WWWWW"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Eske Yoshinob",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-039",
+        "Name": "Barboach",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_039_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rain Splash"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-040",
+        "Name": "Whiscash",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_040_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Amnesia",
+            "Rising Lunge"
+        ],
+        "Move-Energy": [
+            "C",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Active Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-041",
+        "Name": "Whiscash",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_041_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": [
+            "\u03b1 Growth"
+        ],
+        "Ability-Effect": [
+            "When you attach an Energy card from your hand to this Pok\u00e9mon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards."
+        ],
+        "Moves": [
+            "Water Gun",
+            "Earthquake"
+        ],
+        "Move-Energy": [
+            "WCC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "40",
+            "120"
+        ],
+        "Effects": [
+            "",
+            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-042",
+        "Name": "Corphish",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_042_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vice Grip",
+            "Knock Off"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Discard a random card from your opponent's hand."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-043",
+        "Name": "Feebas",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_043_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Float On"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this Pok\u00e9mon does 10 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-044",
+        "Name": "Milotic",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_044_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": [
+            "Sparkling Ripples"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may put a card from your discard pile into your hand."
+        ],
+        "Moves": [
+            "Aqua Swirl"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "You may have your opponent switch his or her Active Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-045",
+        "Name": "Spheal",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_045_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ball Roll"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-046",
+        "Name": "Spheal",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_046_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Ball"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-047",
+        "Name": "Sealeo",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_047_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Freezing Headbutt",
+            "Aurora Beam"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-048",
+        "Name": "Walrein",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_048_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Knock Over",
+            "Frozen Splash"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "70+"
+        ],
+        "Effects": [
+            "You may discard any Stadium card in play.",
+            "If your opponent's Active Pok\u00e9mon is a [F] Pok\u00e9mon, this attack does 70 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Satoshi Shirai",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-049",
+        "Name": "Clamperl",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_049_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shell Protection"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, if this Pok\u00e9mon would be damaged by an attack, prevent that attack's damage done to this Pok\u00e9mon if that damage is 50 or less."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-050",
+        "Name": "Huntail",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_050_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Powerful Storm",
+            "Crunch"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "70"
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to all of your Pok\u00e9mon.",
+            "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-051",
+        "Name": "Gorebyss",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_051_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Captivate",
+            "Psychic"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with his or her Active Pok\u00e9mon.",
+            "This attack does 10 more damage for each Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-052",
+        "Name": "Gorebyss",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_052_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": [
+            "\u03b1 Growth"
+        ],
+        "Ability-Effect": [
+            "When you attach an Energy card from your hand to this Pok\u00e9mon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards."
+        ],
+        "Moves": [
+            "Psy Bolt"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-053",
+        "Name": "Kyogre",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_053_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spring Tides",
+            "Ocean Cyclone"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-054",
+        "Name": "Kyogre-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_054_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Pulse",
+            "Giant Whirlpool"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "140"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep.",
+            "Return 2 [W] Energy attached to this Pok\u00e9mon to your hand."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryota Murayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-055",
+        "Name": "Primal Kyogre-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_055_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Water",
+        "HP": "240",
+        "Ability": [
+            "\u03b1 Growth"
+        ],
+        "Ability-Effect": [
+            "When you attach an Energy card from your hand to this Pok\u00e9mon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards."
+        ],
+        "Moves": [
+            "Tidal Storm"
+        ],
+        "Move-Energy": [
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "Move 2 Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon. This attack does 30 damage to each of your opponent's Benched Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-056",
+        "Name": "Manaphy",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_056_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Deep Sea Swirl",
+            "Life Saver"
+        ],
+        "Move-Energy": [
+            "W",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Shuffle your hand into your deck. Then, draw 6 cards.",
+            "Put 2 [W] Pok\u00e9mon from your discard pile into your hand."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-057",
+        "Name": "Chinchou",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_057_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wave Splash"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-058",
+        "Name": "Lanturn",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_058_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dive",
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "40",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn.",
+            "This Pok\u00e9mon does 20 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-059",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_059_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge",
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for a [L] Energy card and attach it to this Pok\u00e9mon. Shuffle your deck afterward.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-060",
+        "Name": "Electrike",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_060_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": [
+            "\u03a9 Barrier"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent plays a Trainer card (excluding Pok\u00e9mon Tools and Stadium cards), prevent all effects of that card done to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Thunder Fang"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-061",
+        "Name": "Manectric",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_061_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lightning Turn",
+            "Electric Shock"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "70"
+        ],
+        "Effects": [
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+            "Discard all [L] Energy attached to this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-062",
+        "Name": "Tynamo",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_062_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Splash"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-063",
+        "Name": "Eelektrik",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_063_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Buzz Flip"
+        ],
+        "Move-Energy": [
+            "CC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 4 coins. This attack does 30 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-064",
+        "Name": "Eelektrik",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_064_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": [
+            "\u03b1 Recovery"
+        ],
+        "Ability-Effect": [
+            "When this Pok\u00e9mon is healed, double the amount healed."
+        ],
+        "Moves": [
+            "Thrash"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "50+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pok\u00e9mon does 20 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-065",
+        "Name": "Eelektross",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_065_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "140",
+        "Ability": [
+            "Energy Connect"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may move a basic Energy attached to 1 of your Benched Pok\u00e9mon to your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Electricannon"
+        ],
+        "Move-Energy": [
+            "LLCC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "You may discard all [L] Energy attached to this Pok\u00e9mon. If you do, this attack does 50 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-066",
+        "Name": "Nidoran\u2640",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_066_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mizue",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-067",
+        "Name": "Nidorina",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_067_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Strength"
+        ],
+        "Move-Energy": [
+            "C",
+            "PPC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-068",
+        "Name": "Nidoqueen",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_068_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Kick",
+            "Poison Fang"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "40\u00d7",
+            "60"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 40 damage times the number of heads.",
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 2 damage counters instead of 1 on that Pok\u00e9mon between turns."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-069",
+        "Name": "Nidoqueen",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_069_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "140",
+        "Ability": [
+            "\u03a9 Barrage"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon. )"
+        ],
+        "Moves": [
+            "Poison Jab",
+            "Dynamite Punch"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPC"
+        ],
+        "Move-Damage": [
+            "30",
+            "70"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned.",
+            "This Pok\u00e9mon does 20 damage to itself. Don't apply Weakness to this damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-070",
+        "Name": "Tentacool",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_070_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lost in the Waves"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Return this Pok\u00e9mon and all cards attached to it to your hand."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-071",
+        "Name": "Tentacool",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_071_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": [
+            "\u03b1 Recovery"
+        ],
+        "Ability-Effect": [
+            "When this Pok\u00e9mon is healed, double the amount healed."
+        ],
+        "Moves": [
+            "Psyshot"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mizue",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-072",
+        "Name": "Tentacruel",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dancing Tentacles",
+            "Stick and Absorb"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused and Poisoned.",
+            "Heal 30 damage from this Pok\u00e9mon. The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-073",
+        "Name": "Starmie",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_073_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Synchro Star"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon and your opponent's Active Pok\u00e9mon have the same amount of Energy attached to them, this attack does 60 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "HiRON",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-074",
+        "Name": "Rhyhorn",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_074_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon does 10 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-075",
+        "Name": "Rhydon",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_075_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Take Down",
+            "Horn Drill"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "70"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon does 10 damage to itself.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-076",
+        "Name": "Rhyperior",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_076_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Shower",
+            "Stone Edge"
+        ],
+        "Move-Energy": [
+            "FFC",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80+"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 20 damage times the number of heads to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Flip a coin. If heads, this attack does 40 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-077",
+        "Name": "Rhyperior",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_077_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "160",
+        "Ability": [
+            "\u03a9 Barrier",
+            "Rock Wall"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent plays a Trainer card (excluding Pok\u00e9mon Tools and Stadium cards), prevent all effects of that card done to this Pok\u00e9mon.",
+            "Any damage done to your Pok\u00e9mon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Hammer Arm"
+        ],
+        "Move-Energy": [
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard the top card of your opponent's deck."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-078",
+        "Name": "Nosepass",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_078_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stiffen",
+            "Ram"
+        ],
+        "Move-Energy": [
+            "CC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to this Pok\u00e9mon by attacks is reduced by 40 (after applying Weakness and Resistance).",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Satoshi Shirai",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-079",
+        "Name": "Meditite",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_079_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smack"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-080",
+        "Name": "Medicham",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_080_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pure Power",
+            "Windmill Kick"
+        ],
+        "Move-Energy": [
+            "F",
+            "FC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Put 4 damage counters on your opponent's Pok\u00e9mon in any way you like.",
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-081",
+        "Name": "Medicham",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_081_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": [
+            "\u03a9 Barrage"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon. )"
+        ],
+        "Moves": [
+            "Calm Mind",
+            "Yoga Kick"
+        ],
+        "Move-Energy": [
+            "C",
+            "FF"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-082",
+        "Name": "Trapinch",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_082_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Mud-Slap"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-083",
+        "Name": "Solrock",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_083_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Solar Generator",
+            "Knock Away"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            null,
+            "20+"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Special Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+            "Flip a coin. If heads, this attack does 20 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-084",
+        "Name": "Groudon",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_084_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Smash",
+            "Break Ground"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "100"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage.",
+            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-085",
+        "Name": "Groudon-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_085_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rip Claw",
+            "Massive Rend"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryota Murayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-086",
+        "Name": "Primal Groudon-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_086_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Fighting",
+        "HP": "240",
+        "Ability": [
+            "\u03a9 Barrier"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent plays a Trainer card (excluding Pok\u00e9mon Tools and Stadium cards), prevent all effects of that card done to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Gaia Volcano"
+        ],
+        "Move-Energy": [
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-087",
+        "Name": "Hippopotas",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_087_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Rolling Tackle"
+        ],
+        "Move-Energy": [
+            "CC",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-088",
+        "Name": "Hippowdon",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_088_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Resistance Desert",
+            "Double-Edge"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "60",
+            "100"
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pok\u00e9mon by Pok\u00e9mon-EX.",
+            "This Pok\u00e9mon does 20 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-089",
+        "Name": "Drilbur",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_089_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fury Swipes"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-090",
+        "Name": "Diggersby",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_090_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ear Dig",
+            "Hammer In"
+        ],
+        "Move-Energy": [
+            "F",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "70"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-091",
+        "Name": "Sharpedo-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_091_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hunt",
+            "Jagged Fang"
+        ],
+        "Move-Energy": [
+            "DC",
+            "DDC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with his or her Active Pok\u00e9mon. This attack does 30 damage to the new Active Pok\u00e9mon.",
+            "Discard an Energy attached to this Pok\u00e9mon. Then, discard an Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Eske Yoshinob",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-092",
+        "Name": "Crawdaunt",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_092_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": [
+            "Unruly Claw"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may discard an Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Crabhammer"
+        ],
+        "Move-Energy": [
+            "DCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-093",
+        "Name": "Aggron-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_093_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Steel Headbutt",
+            "Raging Hammer"
+        ],
+        "Move-Energy": [
+            "MCC",
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "50+",
+            "60+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage.",
+            "This attack does 10 more damage for each damage counter on this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Eske Yoshinob",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-094",
+        "Name": "M Aggron-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_094_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Metal",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Megaton Slam"
+        ],
+        "Move-Energy": [
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "120+"
+        ],
+        "Effects": [
+            "You may flip a coin. If heads, this attack does 120 more damage. If tails, this attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-095",
+        "Name": "Probopass",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_095_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Triple Smash",
+            "Reinforced Nose"
+        ],
+        "Move-Energy": [
+            "M",
+            "MMC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            "50+"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 30 damage times the number of heads.",
+            "If this Pok\u00e9mon has a Pok\u00e9mon Tool card attached to it, this attack does 50 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-096",
+        "Name": "Excadrill",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_096_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Drill Run",
+            "Straight Claw"
+        ],
+        "Move-Energy": [
+            "M",
+            "MCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pok\u00e9mon.",
+            "You may discard an Energy attached to this Pok\u00e9mon. If you do, this attack does 30 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-097",
+        "Name": "Excadrill",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_097_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "110",
+        "Ability": [
+            "\u03a9 Barrage"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon. )"
+        ],
+        "Moves": [
+            "Dredge",
+            "Mach Claw"
+        ],
+        "Move-Energy": [
+            "C",
+            "MCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Search your deck for 2 Energy cards and attach them to this Pok\u00e9mon. Shuffle your deck afterward.",
+            "This attack's damage isn't affected by Resistance."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-098",
+        "Name": "Honedge",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_098_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Metal Sound"
+        ],
+        "Move-Energy": [
+            "M"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-099",
+        "Name": "Doublade",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_099_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "False Swipe",
+            "Slash"
+        ],
+        "Move-Energy": [
+            "CC",
+            "MMC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, put damage counters on your opponent's Active Pok\u00e9mon until its remaining HP is 10.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kanako Eo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-100",
+        "Name": "Aegislash",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_100_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "140",
+        "Ability": [
+            "Miracle Guard"
+        ],
+        "Ability-Effect": [
+            "Each of your Pok\u00e9mon has no Weakness."
+        ],
+        "Moves": [
+            "Protect Charge"
+        ],
+        "Move-Energy": [
+            "MCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to this Pok\u00e9mon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-101",
+        "Name": "Mr. Mime",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_101_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Trick",
+            "Lock Up"
+        ],
+        "Move-Energy": [
+            "C",
+            "YC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Move a Pok\u00e9mon Tool card attached to 1 of either player's Pok\u00e9mon to another of that player's Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached to it. If there is no Pok\u00e9mon to move the Pok\u00e9mon Tool card to, this attack does nothing.",
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-102",
+        "Name": "Marill",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_102_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "C",
+            "YC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shigenori Negishi",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-103",
+        "Name": "Azumarill",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_103_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble Beam",
+            "Superpower"
+        ],
+        "Move-Energy": [
+            "CC",
+            "YCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            "You may do 30 more damage. If you do, this Pok\u00e9mon does 30 damage to itself."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-104",
+        "Name": "Azumarill",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_104_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "100",
+        "Ability": [
+            "\u03b1 Recovery"
+        ],
+        "Ability-Effect": [
+            "When this Pok\u00e9mon is healed, double the amount healed."
+        ],
+        "Moves": [
+            "Tail Rap",
+            "Dwindling Wave"
+        ],
+        "Move-Energy": [
+            "YC",
+            "YCC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            "100-"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 30 damage times the number of heads.",
+            "This attack does 100 damage minus 10 damage for each damage counter on this Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-105",
+        "Name": "Gardevoir-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_105_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Life Leap",
+            "Shining Wind"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YYY"
+        ],
+        "Move-Damage": [
+            "20",
+            "100"
+        ],
+        "Effects": [
+            "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
+            "During your opponent's next turn, this Pok\u00e9mon has no Weakness."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Eske Yoshinob",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-106",
+        "Name": "M Gardevoir-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_106_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Fairy",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Brilliant Arrow"
+        ],
+        "Move-Energy": [
+            "YCC"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "This attack does 30 damage times the amount of [Y] Energy attached to all of your Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-107",
+        "Name": "Kingdra",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_107_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shred",
+            "Twister"
+        ],
+        "Move-Energy": [
+            "W",
+            "WL"
+        ],
+        "Move-Damage": [
+            "30",
+            "70"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pok\u00e9mon. If both of them are tails, this attack does nothing."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-108",
+        "Name": "Kingdra",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_108_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "130",
+        "Ability": [
+            "\u03b1 Growth"
+        ],
+        "Ability-Effect": [
+            "When you attach an Energy card from your hand to this Pok\u00e9mon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards."
+        ],
+        "Moves": [
+            "Gather Strength",
+            "Dragon Blast"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWL"
+        ],
+        "Move-Damage": [
+            null,
+            "150"
+        ],
+        "Effects": [
+            "Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+            "Discard a [W] Energy and a [L] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "hatachu",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-109",
+        "Name": "Vibrava",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_109_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sand Attack",
+            "Super Vibration"
+        ],
+        "Move-Energy": [
+            "C",
+            "GFC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            ""
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-110",
+        "Name": "Flygon",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_110_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "140",
+        "Ability": [
+            "Sand Flap"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may choose either player. That player shuffles his or her hand into his or her deck and draws 4 cards."
+        ],
+        "Moves": [
+            "Sand Tomb"
+        ],
+        "Move-Energy": [
+            "GFC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-111",
+        "Name": "Zigzagoon",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_111_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sand Attack",
+            "Headbutt"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-112",
+        "Name": "Linoone",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_112_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fury Swipes",
+            "Dash Attack"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            null
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 30 damage times the number of heads.",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-113",
+        "Name": "Skitty",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_113_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charm",
+            "Tail Smack"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done by attacks from the Defending Pok\u00e9mon is reduced by 20 (before applying Weakness and Resistance).",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-114",
+        "Name": "Delcatty",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_114_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Replace",
+            "Play Rough"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Move as many Energy attached to your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-115",
+        "Name": "Spinda",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_115_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Staggering Steps",
+            "Uproar"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Confused. If tails, this Pok\u00e9mon is now Confused.",
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-116",
+        "Name": "Bidoof",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_116_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Scrunch"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-117",
+        "Name": "Bidoof",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_117_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "\u03b1 Recovery"
+        ],
+        "Ability-Effect": [
+            "When this Pok\u00e9mon is healed, double the amount healed."
+        ],
+        "Moves": [
+            "Drench"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has any [W] Energy attached to it, this attack does 20 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-118",
+        "Name": "Bibarel",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_118_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Yawn",
+            "Continuous Headbutt"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80\u00d7"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep.",
+            "Flip a coin until you get tails. This attack does 80 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-119",
+        "Name": "Bouffalant",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_119_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "110",
+        "Ability": [
+            "Sap Sipper"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon's attacks do 40 more damage to your opponent's [G] Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Derail"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Discard a Special Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hiroki Asanuma",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-120",
+        "Name": "Bunnelby",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_120_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Trip Over"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-121",
+        "Name": "Bunnelby",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_121_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": [
+            "\u03a9 Barrage"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon. )"
+        ],
+        "Moves": [
+            "Burrow",
+            "Rototiller"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Discard the top card of your opponent's deck.",
+            "Shuffle a card from your discard pile into your deck."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-122",
+        "Name": "Acro Bike",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_122_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-123",
+        "Name": "Aggron Spirit Link",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_123_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Your turn does not end if the Pok\u00e9mon this card is attached to becomes M Aggron-EX.",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-124",
+        "Name": "Archie's Ace in the Hole",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_124_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only when it is the last card in your hand. Put a [W] Pok\u00e9mon from your discard pile onto your Bench. Then, draw 5 cards.",
+        "Illustrator": "Yusuke Ohmura",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-125",
+        "Name": "Dive Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_125_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for a [W] Pok\u00e9mon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-126",
+        "Name": "Energy Retrieval",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_126_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Put up to 2 Basic Energy cards from your discard pile into your hand.",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-127",
+        "Name": "Escape Rope",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_127_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. (Your opponent switches first. If a player does not have a Benched Pok\u00e9mon, that player doesn't switch Pok\u00e9mon. )",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-128",
+        "Name": "Exp. Share",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_128_R_EN_LG.png",
+        "Pack": null,
+        "Description": "When your Active Pok\u00e9mon is Knocked Out by damage from an opponent's attack, you may move 1 basic Energy card that was attached to that Pok\u00e9mon to the Pok\u00e9mon this card is attached to.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-129",
+        "Name": "Fresh Water Set",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_129_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Heal 20 damage from each of your Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-130",
+        "Name": "Gardevoir Spirit Link",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_130_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Your turn does not end if the Pok\u00e9mon this card is attached to becomes M Gardevoir-EX.",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-131",
+        "Name": "Groudon Spirit Link",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_131_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Your turn does not end if the Pok\u00e9mon this card is attached to becomes Primal Groudon-EX.",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-132",
+        "Name": "Kyogre Spirit Link",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_132_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Your turn does not end if the Pok\u00e9mon this card is attached to becomes Primal Kyogre-EX.",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-133",
+        "Name": "Maxie's Hidden Ball Trick",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_133_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only when it is the last card in your hand. Put a [F] Pok\u00e9mon from your discard pile onto your Bench. Then, draw 5 cards.",
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-134",
+        "Name": "Professor Birch's Observations",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_134_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle your hand into your deck and flip a coin. If heads, draw 7 cards. If tails, draw 4 cards.",
+        "Illustrator": "Yusuke Ohmura",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-135",
+        "Name": "Rare Candy",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_135_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-136",
+        "Name": "Repeat Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_136_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for a Pok\u00e9mon with the same name as 1 of your Pok\u00e9mon in play, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-137",
+        "Name": "Rough Seas",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_137_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Once during each player's turn, that player may heal 30 damage from each of his or her [W] Pok\u00e9mon and [L] Pok\u00e9mon.",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-138",
+        "Name": "Scorched Earth",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_138_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Once during each player's turn, that player may discard a [R] or [F] Energy card from his or her hand. If that player does so, he or she draws 2 cards.",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-139",
+        "Name": "Shrine of Memories",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_139_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player's evolved Pok\u00e9mon can use any attack from its previous Evolutions. (That player still needs the necessary Energy to use each attack. )",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-140",
+        "Name": "Silent Lab",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_140_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each Basic Pok\u00e9mon in play, in each player's hand, and in each player's discard pile has no Abilities.",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-141",
+        "Name": "Teammates",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_141_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only if 1 of your Pok\u00e9mon was Knocked Out during your opponent's last turn. Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Megumi Mizutani",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-142",
+        "Name": "Weakness Policy",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_142_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Pok\u00e9mon this card is attached to has no Weakness.",
+        "Illustrator": "Ayaka Yoshida",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-143",
+        "Name": "Shield Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_143_R_EN_LG.png",
+        "Pack": null,
+        "Description": "This card can only be attached to [M] Pok\u00e9mon. This card provides [M] Energy only while this card is attached to a [M] Pok\u00e9mon. The attacks of your opponent's Pok\u00e9mon do 10 less damage to the [M] Pok\u00e9mon this card is attached to (before applying Weakness and Resistance). (If this card is attached to anything other than a [M] Pok\u00e9mon, discard this card. )",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-144",
+        "Name": "Wonder Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_144_R_EN_LG.png",
+        "Pack": null,
+        "Description": "This card can only be attached to [Y] Pok\u00e9mon. This card provides [Y] Energy only while this card is attached to a [Y] Pok\u00e9mon. Prevent all effects of your opponent's attacks, except damage, done to the [Y] Pok\u00e9mon this card is attached to. (Existing effects are not removed. )(If this card is attached to anything other than a [Y] Pok\u00e9mon, discard this card. )",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-145",
+        "Name": "Trevenant-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_145_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dark Forest",
+            "Wood Blast"
+        ],
+        "Move-Energy": [
+            "G",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            "This attack does 20 more damage for each [G] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-146",
+        "Name": "Camerupt-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_146_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tumbling Attack",
+            "Explosive Jet"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "30+",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage.",
+            "Discard as many [R] Energy attached to your Pok\u00e9mon as you like. This attack does 50 damage times the number of Energy cards you discarded."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-147",
+        "Name": "Wailord-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_147_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "250",
+        "Ability": [
+            "Water Veil"
+        ],
+        "Ability-Effect": [
+            "Whenever you attach an Energy card from your hand to this Pok\u00e9mon, remove all Special Conditions from it."
+        ],
+        "Moves": [
+            "High Breaching"
+        ],
+        "Move-Energy": [
+            "WWWWW"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-148",
+        "Name": "Kyogre-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_148_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Pulse",
+            "Giant Whirlpool"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "140"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep.",
+            "Return 2 [W] Energy attached to this Pok\u00e9mon to your hand."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-149",
+        "Name": "Primal Kyogre-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_149_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Water",
+        "HP": "240",
+        "Ability": [
+            "\u03b1 Growth"
+        ],
+        "Ability-Effect": [
+            "When you attach an Energy card from your hand to this Pok\u00e9mon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards."
+        ],
+        "Moves": [
+            "Tidal Storm"
+        ],
+        "Move-Energy": [
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "Move 2 Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon. This attack does 30 damage to each of your opponent's Benched Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-150",
+        "Name": "Groudon-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_150_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rip Claw",
+            "Massive Rend"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-151",
+        "Name": "Primal Groudon-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_151_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Fighting",
+        "HP": "240",
+        "Ability": [
+            "\u03a9 Barrier"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent plays a Trainer card (excluding Pok\u00e9mon Tools and Stadium cards), prevent all effects of that card done to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Gaia Volcano"
+        ],
+        "Move-Energy": [
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-152",
+        "Name": "Sharpedo-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_152_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hunt",
+            "Jagged Fang"
+        ],
+        "Move-Energy": [
+            "DC",
+            "DDC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with his or her Active Pok\u00e9mon. This attack does 30 damage to the new Active Pok\u00e9mon.",
+            "Discard an Energy attached to this Pok\u00e9mon. Then, discard an Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-153",
+        "Name": "Aggron-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_153_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Steel Headbutt",
+            "Raging Hammer"
+        ],
+        "Move-Energy": [
+            "MCC",
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "50+",
+            "60+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage.",
+            "This attack does 10 more damage for each damage counter on this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-154",
+        "Name": "M Aggron-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_154_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Metal",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Megaton Slam"
+        ],
+        "Move-Energy": [
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "120+"
+        ],
+        "Effects": [
+            "You may flip a coin. If heads, this attack does 120 more damage. If tails, this attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-155",
+        "Name": "Gardevoir-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_155_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Life Leap",
+            "Shining Wind"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YYY"
+        ],
+        "Move-Damage": [
+            "20",
+            "100"
+        ],
+        "Effects": [
+            "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
+            "During your opponent's next turn, this Pok\u00e9mon has no Weakness."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-156",
+        "Name": "M Gardevoir-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_156_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Fairy",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Brilliant Arrow"
+        ],
+        "Move-Energy": [
+            "YCC"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "This attack does 30 damage times the amount of [Y] Energy attached to all of your Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-157",
+        "Name": "Archie's Ace in the Hole",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_157_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only when it is the last card in your hand. Put a [W] Pok\u00e9mon from your discard pile onto your Bench. Then, draw 5 cards.",
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-158",
+        "Name": "Maxie's Hidden Ball Trick",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_158_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only when it is the last card in your hand. Put a [F] Pok\u00e9mon from your discard pile onto your Bench. Then, draw 5 cards.",
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-159",
+        "Name": "Professor Birch's Observations",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_159_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle your hand into your deck and flip a coin. If heads, draw 7 cards. If tails, draw 4 cards.",
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-160",
+        "Name": "Teammates",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_160_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only if 1 of your Pok\u00e9mon was Knocked Out during your opponent's last turn. Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-161",
+        "Name": "Dive Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_161_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for a [W] Pok\u00e9mon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-162",
+        "Name": "Enhanced Hammer",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_162_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-163",
+        "Name": "Switch",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_163_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "PRC-164",
+        "Name": "Weakness Policy",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/PRC/PRC_164_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Pok\u00e9mon this card is attached to has no Weakness.",
+        "Illustrator": "Ayaka Yoshida",
+        "Quantity": 0,
+        "Favorite": 0
+    }
+]

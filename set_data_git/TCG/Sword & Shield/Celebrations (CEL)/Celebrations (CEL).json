@@ -1,0 +1,1680 @@
+[
+    {
+        "ID": "CEL-001",
+        "Name": "Ho-Oh",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sacred Fire",
+            "Fire Blast"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            null,
+            "120"
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Discard an Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-002",
+        "Name": "Reshiram",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scorching Wind",
+            "Black Flame"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            null,
+            "80+"
+        ],
+        "Effects": [
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If Zekrom is on your Bench, this attack does 80 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-003",
+        "Name": "Kyogre",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_003_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aqua Storm",
+            "Surf"
+        ],
+        "Move-Energy": [
+            "WWC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            null,
+            "120"
+        ],
+        "Effects": [
+            "Discard the top 5 cards of your deck, and then choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 50 damage for each Energy card you discarded in this way to each of those Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ryuta Fuse",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-004",
+        "Name": "Palkia",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_004_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": [
+            "Absolute Space"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in the Active Spot, your opponent can't play any Stadium cards from their hand."
+        ],
+        "Moves": [
+            "Overdrive Smash"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon's Overdrive Smash attack does 80 more damage (before applying Weakness and Resistance)."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-005",
+        "Name": "Pikachu",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Thunder Jolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this Pok\u00e9mon also does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-006",
+        "Name": "Flying Pikachu V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_006_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunder Shock",
+            "Fly"
+        ],
+        "Move-Energy": [
+            "L",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "120"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin. If tails, this attack does nothing. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-007",
+        "Name": "Flying Pikachu VMAX",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VMAX",
+        "Type": "Lightning",
+        "HP": "310",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Max Balloon"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "160"
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-008",
+        "Name": "Surfing Pikachu V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_008_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surf"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-009",
+        "Name": "Surfing Pikachu VMAX",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_009_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VMAX",
+        "Type": "Lightning",
+        "HP": "310",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Max Surfer"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "160"
+        ],
+        "Effects": [
+            "This attack also does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-010",
+        "Name": "Zekrom",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Field Crush",
+            "White Thunder"
+        ],
+        "Move-Energy": [
+            "CC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80+"
+        ],
+        "Effects": [
+            "If your opponent has a Stadium in play, discard it.",
+            "If Reshiram is on your Bench, this attack does 80 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-011",
+        "Name": "Mew",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": [
+            "Mysterious Tail"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck."
+        ],
+        "Moves": [
+            "Psyshot"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuu Nishida",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-012",
+        "Name": "Xerneas",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Breath of Life",
+            "Aurora Horns"
+        ],
+        "Move-Energy": [
+            "CC",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Search your deck for up to 3 basic Energy cards of different types and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "AKIRA EGAWA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-013",
+        "Name": "Cosmog",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_013_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Star Protection"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-014",
+        "Name": "Cosmoem",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Star Protection"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-015",
+        "Name": "Lunala",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunar Pain",
+            "Psychic Shot"
+        ],
+        "Move-Energy": [
+            "CC",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "130"
+        ],
+        "Effects": [
+            "Double the number of damage counters on each of your opponent's Pok\u00e9mon.",
+            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-016",
+        "Name": "Zacian V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "220",
+        "Ability": [
+            "Roar of the Sword"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may search your deck for a [P] Energy card and attach it to 1 of your Pok\u00e9mon. Then, shuffle your deck. If you use this Ability, your turn ends."
+        ],
+        "Moves": [
+            "Storm Slash"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "60+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each [P] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-017",
+        "Name": "Groudon",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Magma Volcano",
+            "Massive Rend"
+        ],
+        "Move-Energy": [
+            "FFC",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "80\u00d7",
+            "120"
+        ],
+        "Effects": [
+            "Discard the top 5 cards of your deck. This attack does 80 damage for each Energy card you discarded in this way.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ryuta Fuse",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-018",
+        "Name": "Zamazenta V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_018_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "220",
+        "Ability": [
+            "Growl of the Shield"
+        ],
+        "Ability-Effect": [
+            "All of your [F] Pok\u00e9mon take 20 less damage from attacks from your opponent's Pok\u00e9mon VMAX (after applying Weakness and Resistance). You can't apply more than 1 Growl of the Shield Ability at a time."
+        ],
+        "Moves": [
+            "Heavy Impact"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-019",
+        "Name": "Yveltal",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cry of Destruction",
+            "Dark Feather"
+        ],
+        "Move-Energy": [
+            "CC",
+            "DCC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Discard up to 3 Special Energy from your opponent's Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "AKIRA EGAWA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-020",
+        "Name": "Dialga",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Temporal Backflow",
+            "Metal Blast"
+        ],
+        "Move-Energy": [
+            "M",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60+"
+        ],
+        "Effects": [
+            "Put a card from your discard pile into your hand.",
+            "This attack does 20 more damage for each [M] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-021",
+        "Name": "Solgaleo",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_021_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "170",
+        "Ability": [
+            "Rush In"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, if this Pok\u00e9mon is on your Bench, you may switch it with your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Solar Geyser"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-022",
+        "Name": "Lugia",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_022_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aero Ball",
+            "Deep Crush"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "160"
+        ],
+        "Effects": [
+            "This attack does 20 damage for each Energy attached to both Active Pok\u00e9mon.",
+            "During your next turn, this Pok\u00e9mon can't attack."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-023",
+        "Name": "Professor's Research",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_023_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard your hand and draw 7 cards.",
+        "Illustrator": "KIYOTAKA OSHIYAMA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-024",
+        "Name": "Professor's Research",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_024_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard your hand and draw 7 cards.",
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-025",
+        "Name": "Mew",
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_025_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": [
+            "Mysterious Tail"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck."
+        ],
+        "Moves": [
+            "Psyshot"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Saki Hayashiro",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-001",
+        "Name": "Blastoise",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC1_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": [
+            "Rain Dance"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn't use up your 1 Energy card attachment for the turn. ) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Hydro Pump"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "Does 40 damage plus 10 more damage for each [W] Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-002",
+        "Name": "Charizard",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC2_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Energy Burn"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into [R] Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "RRRR"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard 2 Energy cards attached to Charizard in order to use this attack."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-003",
+        "Name": "Venusaur",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC3_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Energy Trans"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may take 1 [G] Energy card attached to 1 of your Pok\u00e9mon and attach it to a different one. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Solarbeam"
+        ],
+        "Move-Energy": [
+            "GGGG"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-004",
+        "Name": "Imposter Professor Oak",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC4_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-005",
+        "Name": "Dark Gyarados",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC5_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Final Beam"
+        ],
+        "Ability-Effect": [
+            "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each [W] Energy attached to Dark Gyarados to the Pok\u00e9mon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Ice Beam"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-006",
+        "Name": "Here Comes Team Rocket!",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC6_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game. )",
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-007",
+        "Name": "Rocket's Zapdos",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC7_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Plasma",
+            "Electroburn"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLLC"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "If there are any [L] Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.",
+            "Rocket's Zapdos does damage to itself equal to 10 times the number of [L] Energy cards attached to it."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin-ichi Yoshida",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-008",
+        "Name": "_____'s Pikachu",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC8_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Birthday Surprise"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-009",
+        "Name": "Cleffa",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC9_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule"
+        ],
+        "Ability-Effect": [
+            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack."
+        ],
+        "Moves": [
+            "Eeeeeeek"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Shuffle your hand into your deck, then draw 7 cards."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-010",
+        "Name": "Shining Magikarp",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC10_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gold Scale",
+            "Dragon Bond"
+        ],
+        "Move-Energy": [
+            "W",
+            "P"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Your opponent may draw 2 cards. Either way, you may draw 2 cards.",
+            "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-011",
+        "Name": "Team Magma's Groudon",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC11_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting/Darkness",
+        "HP": "100",
+        "Ability": [
+            "Power Saver"
+        ],
+        "Ability-Effect": [
+            "As long as the number of Pok\u00e9mon in play (both yours and your opponent's) that has Team Magma in its name is 3 or less, Team Magma's Groudon can't attack."
+        ],
+        "Moves": [
+            "Linear Attack",
+            "Pulverize"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFC"
+        ],
+        "Move-Damage": [
+            null,
+            "50+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kazuo Yazawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-012",
+        "Name": "Rocket's Admin.",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC12_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first. )",
+        "Illustrator": "Ken Sugimori",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-013",
+        "Name": "Mew ex",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC13_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": [
+            "Versatile"
+        ],
+        "Ability-Effect": [
+            "Mew ex can use the attacks of all Pok\u00e9mon in play as its own. (You still need the necessary Energy to use each attack. )"
+        ],
+        "Moves": [
+            "Power Move"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Search your deck for an Energy card and attach it to Mew ex. Shuffle your deck afterward. Then, you may switch Mew ex with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-014",
+        "Name": "Gardevoir ex",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC14_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "150",
+        "Ability": [
+            "Imprison"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Gardevoir ex is your Active Pok\u00e9mon, you may put an Imprison Marker on 1 of your opponent's Pok\u00e9mon. Any Pok\u00e9mon that has any Imprison markers on it can't use any Pok\u00e9-Powers or Pok\u00e9-Bodies. This power can't be used if Gardevoir ex is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Flame Ball"
+        ],
+        "Move-Energy": [
+            "RCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "You may move a [R] Energy card attached to Gardevoir ex to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Masahiko Ishii",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-015",
+        "Name": "Umbreon Star",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": [
+            "Dark Ray"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Umbreon Star from your hand onto your Bench, your may choose 1 card from your opponent's hand without looking and discard it."
+        ],
+        "Moves": [
+            "Feint Attack"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-016",
+        "Name": "Claydol",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC16_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": [
+            "Cosmic Power"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Spinning Attack"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-017",
+        "Name": "Luxray GL LV.X",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC17_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Lightning",
+        "HP": "110",
+        "Ability": [
+            "Bright Look"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you put Luxray GL LV. X from your hand onto your Active Luxray GL, you may switch the Defending Pok\u00e9mon with 1 of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Flash Impact"
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Does 30 damage to 1 of your Pok\u00e9mon, and don't apply Weakness and Resistance to this damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Luxray GL. Luxray GL LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-018",
+        "Name": "Garchomp C LV.X",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC18_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "110",
+        "Ability": [
+            "Healing Breath"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you put Garchomp C LV. X from your hand onto your Active Garchomp C, you may remove all damage counters from each of your Pok\u00e9mon SP."
+        ],
+        "Moves": [
+            "Dragon Rush"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Garchomp C can't use Dragon Rush during your next turn."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Garchomp C. Garchomp C LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-019",
+        "Name": "Donphan",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC19_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": [
+            "Exoskeleton"
+        ],
+        "Ability-Effect": [
+            "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Earthquake",
+            "Heavy Impact"
+        ],
+        "Move-Energy": [
+            "F",
+            "FFF"
+        ],
+        "Move-Damage": [
+            "60",
+            "90"
+        ],
+        "Effects": [
+            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kent Kanetsuna",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-020",
+        "Name": "Reshiram",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC20_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Outrage",
+            "Blue Flare"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "120"
+        ],
+        "Effects": [
+            "Does 10 more damage for each damage counter on this Pok\u00e9mon.",
+            "Discard 2 [R] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-021",
+        "Name": "Zekrom",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC21_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Outrage",
+            "Bolt Strike"
+        ],
+        "Move-Energy": [
+            "CC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "120"
+        ],
+        "Effects": [
+            "Does 10 more damage for each damage counter on this Pok\u00e9mon.",
+            "This Pok\u00e9mon does 40 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-022",
+        "Name": "Mewtwo-EX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC22_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "X Ball",
+            "Psydrive"
+        ],
+        "Move-Energy": [
+            "CC",
+            "PPC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "120"
+        ],
+        "Effects": [
+            "Does 20 damage times the amount of Energy attached to this Pok\u00e9mon and the Defending Pok\u00e9mon.",
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-023",
+        "Name": "Xerneas-EX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC23_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Break Through",
+            "X Blast"
+        ],
+        "Move-Energy": [
+            "YCC",
+            "YYCC"
+        ],
+        "Move-Damage": [
+            "60",
+            "140"
+        ],
+        "Effects": [
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This Pok\u00e9mon can't use X Blast during your next turn."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-024",
+        "Name": "M Rayquaza-EX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC24_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Colorless",
+        "HP": "220",
+        "Ability": [
+            "\u0394 Evolution"
+        ],
+        "Ability-Effect": [
+            "You may play this card from your hand to evolve a Pok\u00e9mon during your first turn or the turn you play that Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Emerald Break"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "This attack does 30 damage times the number of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "CEL-CC-025",
+        "Name": "Tapu Lele-GX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC25_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": [
+            "Wonder Tag"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Energy Drive",
+            "Tapu Cure-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "P"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    }
+]

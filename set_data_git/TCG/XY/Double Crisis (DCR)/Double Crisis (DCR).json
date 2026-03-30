@@ -1,0 +1,966 @@
+[
+    {
+        "ID": "DCR-001",
+        "Name": "Team Magma's Numel",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ember"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-002",
+        "Name": "Team Magma's Camerupt",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": [
+            "Burning Draft"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [F] or [R] Energy card from your discard pile to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Flame Ball"
+        ],
+        "Move-Energy": [
+            "RCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Move a basic Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-003",
+        "Name": "Team Aqua's Spheal",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_003_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-004",
+        "Name": "Team Aqua's Sealeo",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_004_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splatter",
+            "Hail Storm"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60+"
+        ],
+        "Effects": [
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If your opponent's Active Pok\u00e9mon is a Team Magma Pok\u00e9mon, this attack does 60 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-005",
+        "Name": "Team Aqua's Walrein",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Power Blow",
+            "Dual Blizzard"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
+            "Discard 2 [W] Energy attached to this Pok\u00e9mon. This attack does 80 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-006",
+        "Name": "Team Aqua's Kyogre-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_006_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "190",
+        "Ability": [
+            "Power Saver"
+        ],
+        "Ability-Effect": [
+            "If there are 4 or fewer Team Aqua Pok\u00e9mon in play, this Pok\u00e9mon can't attack."
+        ],
+        "Moves": [
+            "Aqua Impact"
+        ],
+        "Move-Energy": [
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each [C] in your opponent's Active Pok\u00e9mon's Retreat Cost."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-007",
+        "Name": "Team Aqua's Grimer",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound",
+            "Mud-Slap"
+        ],
+        "Move-Energy": [
+            "P",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-008",
+        "Name": "Team Aqua's Muk",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_008_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "110",
+        "Ability": [
+            "Sludge Festival"
+        ],
+        "Ability-Effect": [
+            "The Retreat Cost of each Pok\u00e9mon in play (except for Team Aqua Pok\u00e9mon) is [C] more."
+        ],
+        "Moves": [
+            "Pester"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "60+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, this attack does 60 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-009",
+        "Name": "Team Aqua's Seviper",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_009_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Venomous Fang",
+            "Venom Tail"
+        ],
+        "Move-Energy": [
+            "P",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Poisoned.",
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, discard an Energy attached to that Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-010",
+        "Name": "Team Magma's Baltoy",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Telekinesis"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-011",
+        "Name": "Team Magma's Claydol",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": [
+            "Magma Switch"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may move a basic Energy from 1 of your Pok\u00e9mon to 1 of your Team Magma Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Power Beam"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-012",
+        "Name": "Team Magma's Aron",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-013",
+        "Name": "Team Magma's Lairon",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_013_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "",
+            "This Pok\u00e9mon does 10 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-014",
+        "Name": "Team Magma's Aggron",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Stomp",
+            "Boulder Storm"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "40\u00d7",
+            "120"
+        ],
+        "Effects": [
+            "Discard as many [F] Energy attached to your Pok\u00e9mon as you like. This attack does 40 damage times the amount of [F] Energy you discarded.",
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-015",
+        "Name": "Team Magma's Groudon-EX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "190",
+        "Ability": [
+            "Power Saver"
+        ],
+        "Ability-Effect": [
+            "If there are 4 or fewer Team Magma Pok\u00e9mon in play, this Pok\u00e9mon can't attack."
+        ],
+        "Moves": [
+            "Magma Quake"
+        ],
+        "Move-Energy": [
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-016",
+        "Name": "Team Aqua's Poochyena",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Roar",
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Your opponent switches his or her Active Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-017",
+        "Name": "Team Magma's Poochyena",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Infiltrate",
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Your opponent reveals his or her hand.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-018",
+        "Name": "Team Aqua's Mightyena",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_018_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Teampact",
+            "Crunch"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin for each Team Aqua Pok\u00e9mon you have in play. This attack does 30 damage times the number of heads.",
+            "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-019",
+        "Name": "Team Magma's Mightyena",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Hostile Fang"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80+"
+        ],
+        "Effects": [
+            "",
+            "If your opponent's Active Pok\u00e9mon is a Team Aqua Pok\u00e9mon, this attack does 40 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-020",
+        "Name": "Team Aqua's Carvanha",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fin Smack"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-021",
+        "Name": "Team Aqua's Sharpedo",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_021_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": [
+            "Aqua Search"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for a Team Aqua Pok\u00e9mon, reveal it, and put it into your hand. Shuffle your deck afterward."
+        ],
+        "Moves": [
+            "Sharp Fang"
+        ],
+        "Move-Energy": [
+            "DCC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-022",
+        "Name": "Team Magma's Zangoose",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_022_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Call for Family",
+            "Team Play"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Basic Team Magma Pok\u00e9mon and put them onto your Bench. Shuffle your deck afterward.",
+            "This attack does 20 damage times the number of Team Magma Pok\u00e9mon on your Bench."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-023",
+        "Name": "Aqua Diffuser",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Attack"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "1"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_023_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Team Aqua Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )W        Attack 1",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-024",
+        "Name": "Magma Pointer",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Attack"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "1"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_024_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Team Magma Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )F        Attack 1",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-025",
+        "Name": "Team Aqua Admin",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_025_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Attach a basic Energy card from your discard pile to your Active Team Aqua Pok\u00e9mon.",
+        "Illustrator": "GAME FREAK inc.",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-026",
+        "Name": "Team Aqua Grunt",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_026_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card. ) Draw 3 cards. If you discarded a Team Aqua Pok\u00e9mon, draw 1 more card.",
+        "Illustrator": "GAME FREAK inc.",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-027",
+        "Name": "Team Aqua's Great Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_027_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for a Basic Team Aqua Pok\u00e9mon and a basic [W] Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-028",
+        "Name": "Team Aqua's Secret Base",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_028_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Retreat Cost of each Pok\u00e9mon in play (except for Team Aqua Pok\u00e9mon) is [C] more.",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-029",
+        "Name": "Team Magma Admin",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_029_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Put up to 3 Team Magma Pok\u00e9mon from your discard pile into your hand.",
+        "Illustrator": "GAME FREAK inc.",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-030",
+        "Name": "Team Magma Grunt",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_030_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card. ) Draw 3 cards. If you discarded a Team Magma Pok\u00e9mon, draw 1 more card.",
+        "Illustrator": "GAME FREAK inc.",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-031",
+        "Name": "Team Magma's Great Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_031_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for a Basic Team Magma Pok\u00e9mon and a basic [F] Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Toyste Beach",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-032",
+        "Name": "Team Magma's Secret Base",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_032_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Whenever any player puts a Basic Pok\u00e9mon (except for Team Magma Pok\u00e9mon) from his or her hand onto his or her Bench, put 2 damage counters on that Pok\u00e9mon.",
+        "Illustrator": "Ryo Ueda",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-033",
+        "Name": "Double Aqua Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_033_R_EN_LG.png",
+        "Pack": null,
+        "Description": "This card can only be attached to Team Aqua Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [W][W] Energy only while it is attached to a Team Aqua Pok\u00e9mon. (If this card is attached to anything other than a Team Aqua Pok\u00e9mon, discard this card. )",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    },
+    {
+        "ID": "DCR-034",
+        "Name": "Double Magma Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_034_R_EN_LG.png",
+        "Pack": null,
+        "Description": "This card can only be attached to Team Magma Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [F][F] Energy only while it is attached to a Team Magma Pok\u00e9mon. (If this card is attached to anything other than a Team Magma Pok\u00e9mon, discard this card. )",
+        "Illustrator": "5ban Graphics",
+        "Quantity": 0,
+        "Favorite": 0
+    }
+]

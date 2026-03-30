@@ -44,11 +44,8 @@ class CacheWorker(QObject):
         
                     with open(f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}\\{set["Name"]}.json", "r") as set_file:
                         self.set_list = json.load(set_file)
-    
 
-                    cards_folder = f"{self.project_dir}\\set_data\\{category[0]}\\{key}\\{set["Name"]}\\cards"
-
-                   
+                    cards_folder = f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}\\cards"
 
                     if len(os.listdir(cards_folder)) != len(self.set_list):
                             
@@ -166,9 +163,6 @@ class Application(QMainWindow):
         self.switch_scrollbar()
         
 
-        
-
-
     def on_button_enter(self, button: QPushButton, event):
             button.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
@@ -196,7 +190,7 @@ class Application(QMainWindow):
     def init_set_dir(self):
         self.project_dir = f"src\\app_data"
         self.local_doc = os.path.join(os.path.expanduser("~"), "Documents", "PocketDex Codex")
-        os.makedirs(f"{self.project_dir}\\set_data", exist_ok=True)
+
         os.makedirs(self.local_doc, exist_ok=True)
 
         self.category_list = [("TCG", "set_list_tcg.json"), ("TCG Pocket", "set_list_pocket.json")]
@@ -204,7 +198,7 @@ class Application(QMainWindow):
         category_dirs = []
 
         for category in self.category_list:
-            os.makedirs(f"{self.project_dir}\\set_data\\{category[0]}", exist_ok=True)
+            
             os.makedirs(f"{self.local_doc}\\{category[0]}", exist_ok=True)
             category_dirs.append(f"{self.local_doc}\\{category[0]}")
         
@@ -212,15 +206,17 @@ class Application(QMainWindow):
                 self.set_dict = json.load(set_file) # type: dict
 
             for key in self.set_dict.keys():
-                os.makedirs(f"{self.project_dir}\\set_data\\{category[0]}\\{key}", exist_ok=True)
+                
                 os.makedirs(f"{self.local_doc}\\{category[0]}\\{key}", exist_ok=True)
                 for set in self.set_dict[key]:
-                    os.makedirs(f"{self.project_dir}\\set_data\\{category[0]}\\{key}\\{set["Name"]}", exist_ok=True)
-                    os.makedirs(f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}", exist_ok=True)
 
-                    os.makedirs(f"{self.project_dir}\\set_data\\{category[0]}\\{key}\\{set["Name"]}\\cards", exist_ok=True)
                     set_dir = f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}"
+                    
+                    os.makedirs(set_dir, exist_ok=True)
+
                     if not os.listdir(set_dir):
+                        os.makedirs(f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}\\cards", exist_ok=True)
+                        
                         self.set_manager.create_set(set["Name"], category[0], key, set_dir)
 
             self.create_favorites_folder(f"{self.local_doc}\\{category[0]}")
@@ -989,7 +985,7 @@ This project is not affiliated with or associated with these entities.''')
         
     def await_cache(self): 
                 
-        if len(os.listdir(f"{self.project_dir}\\set_data\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards")) != len(self.set_list):
+        if len(os.listdir(f"{self.local_doc}\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards")) != len(self.set_list):
             QTimer.singleShot(100, self.await_cache)
             return
             
@@ -1969,7 +1965,7 @@ This project is not affiliated with or associated with these entities.''')
 
                 self.display_card_data_page(card_index, favorites_menu)
 
-        img_path = f"{self.project_dir}\\set_data\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards"
+        img_path = f"{self.local_doc}\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards"
 
         card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], self.set_list[card_index]["ID"], img_path, False)
         card_img.setProperty("index", card_index)
