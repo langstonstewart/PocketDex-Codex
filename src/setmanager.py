@@ -26,7 +26,7 @@ class SetManager:
 
     def create_parser(self, link):
 
-        res = requests.get(link, timeout=8)
+        res = self.http.get(link, timeout=8)
         try:
             res.raise_for_status()
         except Exception as e:
@@ -55,20 +55,17 @@ class SetManager:
 
         new_set = self.create_set(set_name, category, series, dir, True)
 
-        curr_set_sum = [(card["Summary-Available"], card["Image"]) for card in curr_set]
-        new_set_sum = [(card["Summary-Available"], card["Image"]) for card in new_set] # type: ignore
-
-        
+        curr_set_sum = [card["Image"] for card in curr_set]
+        new_set_sum = [card["Image"] for card in new_set] # type: ignore
 
         if curr_set_sum != new_set_sum: # type: ignore
             for i in range(len(curr_set)):
                 new_set[i]["Quantity"] = curr_set[i]["Quantity"] # type: ignore
-                if "Favorite" in curr_set[0].keys():
-                    new_set[i]["Favorite"] = curr_set[i]["Favorite"] # type: ignore
+                new_set[i]["Favorite"] = curr_set[i]["Favorite"] # type: ignore
 
             with open(f"{dir}\\{set_name}\\{set_name}.json", "w+") as set_file:
-                
-                #json.dump(new_set, set_file, indent=4)
+            
+                json.dump(new_set, set_file, indent=4)
                 return True
 
         else:

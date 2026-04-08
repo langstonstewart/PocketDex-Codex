@@ -7,6 +7,7 @@ from PyQt6 import sip
 from functools import partial
 
 
+
 class ImageManager:
 
     def __init__(self):
@@ -40,14 +41,14 @@ class ImageManager:
         self.paint_icon = (QPixmap("src/images/card_data/paint_black.png"), QPixmap("src/images/card_data/paint_white.png"))
         self.exit_icon = (QPixmap("src/images/ui/exit_black.png"), QPixmap("src/images/ui/exit_white.png"))
         self.pokeball_icon = (QPixmap("src/images/rarities/TCG/none_black.png"), QPixmap("src/images/rarities/TCG/none_white.png"))
-        self.ex_icon = QPixmap("src/images/card_data/ex_icon.png")
-        self.break_banner = QPixmap("src/images/name_icons/break.png")
-        self.gx_icon = QPixmap("src/images/name_icons/gx_icon.png")
-        self.gx_tag_team_icon = QPixmap("src/images/name_icons/gx_tag_team_icon.png")
+        self.ex_icon = f"src/images/card_data/ex_icon.png"
+        
+        self.gx_icon = f"src/images/name_icons/gx_icon.png"
+        self.gx_tag_team_icon = "src/images/name_icons/gx_tag_team_icon.png"
         self.tera_icon = QPixmap(f"src/images/card_data/tera_icon.png")
-        self.lv_x_icon = QPixmap(f"src/images/name_icons/lv_x_logo.png")
-        self.star_icon = QPixmap(f"src/images/name_icons/star_logo.png")
-        self.legend_icon = QPixmap(f"src/images/name_icons/legend.png")
+       
+        self.star_icon = f"src/images/name_icons/star_logo.png"
+      
         self.dice_icon = (QPixmap(f"src/images/ui/dice_black.png"), QPixmap(f"src/images/ui/dice_white.png"))
 
         self.trait_dict = {
@@ -57,20 +58,27 @@ class ImageManager:
             "\u03b8": QPixmap("src/images/card_data/traits/theta_icon.png"),
         }
 
-        self.v_dict  = {
-            "V": QPixmap("src/images/name_icons/v_icon.png"),
-            "VMAX": QPixmap("src/images/name_icons/v_max_icon.png"),
-            "VSTAR": QPixmap("src/images/name_icons/v_star_icon.png"),
-            "V-UNION": QPixmap("src/images/name_icons/v-union_icon.png")
+        
+
+        self.tag_dict  = {
+            "-EX": "src/images/name_icons/ex_legacy.png",
+            "BREAK": "src/images/name_icons/break.png",
+            "V": "src/images/name_icons/v_icon.png",
+            "VMAX": "src/images/name_icons/v_max_icon.png",
+            "VSTAR": "src/images/name_icons/v_star_icon.png",
+            "V-UNION": "src/images/name_icons/v-union_icon.png",
+            "LV.X": "src/images/name_icons/lv_x_logo.png",
+            "LEGEND": "src/images/name_icons/legend.png",
+            "\u2662": "src/images/name_icons/prism_star.png"
         }
 
 
         self.ex_dict = {
-            "Mega Evolution": QPixmap("src/images/name_icons/ex_sv.png"),
-            "Scarlet & Violet": QPixmap("src/images/name_icons/ex_sv.png"),
-            "XY": QPixmap("src/images/name_icons/ex_legacy.png"),
-            "Black & White": QPixmap("src/images/name_icons/ex_legacy.png"),
-            "Mega Pokemon": QPixmap("src/images/name_icons/ex_sv_mega.png")
+            "Mega Evolution": "src/images/name_icons/ex_sv.png",
+            "Scarlet & Violet": "src/images/name_icons/ex_sv.png",
+            "XY": "src/images/name_icons/ex_legacy.png",
+            "Black & White": "src/images/name_icons/ex_legacy.png",
+            "Mega Pokemon": "src/images/name_icons/ex_sv_mega.png"
         }
 
         self.counter_icon_dict = {
@@ -127,6 +135,7 @@ class ImageManager:
             "D": "src/images/card_data/energy/energy_darkness.png",
             "M": "src/images/card_data/energy/energy_metal.png",
             "DR": "src/images/card_data/energy/energy_dragon.png",
+            "N": "src/images/card_data/energy/energy_dragon.png",
             "Y": "src/images/card_data/energy/energy_fairy.png",
             "0": "src/images/card_data/energy/no_energy.png",
             "+": ("src/images/card_data/energy/plus_icon_black.png", "src/images/card_data/energy/plus_icon_white.png")
@@ -183,27 +192,30 @@ class ImageLabel(QLabel):
             
 
     def image_loaded(self):
-        reply = self._reply  
-        if reply is None:
+        reply = self.sender()
+        if reply is None or sip.isdeleted(reply):
+            self._reply = None
             self.download_finished.emit()
             return
+        
+        pixmap = QPixmap()
+        try:
+            pixmap.loadFromData(reply.readAll()) # type: ignore
+        except RuntimeError:
+            self._reply = None
+            self.download_finished.emit()
+            return
+        scaled = pixmap.scaled(
+            self.target_size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+        )
+        self.setPixmap(scaled)
+        
+        scaled.save(self.fp, "PNG")
 
-        data = reply.readAll() if not sip.isdeleted(reply) else None
-
-        if data:
-            pixmap = QPixmap()
-            pixmap.loadFromData(data)
-            scaled = pixmap.scaled(
-                self.target_size,
-                Qt.AspectRatioMode.KeepAspectRatio,
-                Qt.TransformationMode.SmoothTransformation
-            )
-            self.setPixmap(scaled)
-            scaled.save(self.fp, "PNG")
-
-       
-        if reply and not sip.isdeleted(reply):
-            reply.deleteLater()
+        if not sip.isdeleted(reply):
+            reply.deleteLater() # type: ignore
         self._reply = None
 
         self.download_finished.emit()
@@ -217,4 +229,5 @@ class ImageLabel(QLabel):
             Qt.TransformationMode.SmoothTransformation
         )
         self.setPixmap(scaled)
+    
     

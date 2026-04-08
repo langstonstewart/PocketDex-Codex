@@ -1,0 +1,3410 @@
+[
+    {
+        "ID": "RS-001",
+        "Name": "Aggron",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Retaliate",
+            "Mega Punch",
+            "Double Lariat"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC",
+            "MMCCC"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            "40",
+            "70\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage times the number of damage counters on Aggron.",
+            "",
+            "Flip 2 coins. This attack does 70 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83475%2Fpokemon-ruby-and-sapphire-aggron",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Aggron-RS1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-002",
+        "Name": "Beautifly",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": [
+            "Withering Dust"
+        ],
+        "Ability-Effect": [
+            "As long as Beautifly is in play, do not apply Resistance for all Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Stun Spore",
+            "Parallel Gain"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Remove 1 damage counter from each of your Pok\u00e9mon, including Beautifly."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83755%2Fpokemon-ruby-and-sapphire-beautifly",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Beautifly-RS2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-003",
+        "Name": "Blaziken",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "100",
+        "Ability": [
+            "Firestarter"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [R] Energy card from your discard pile to 1 of your Benched Pok\u00e9mon. This power can't be used if Blaziken is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Fire Stream"
+        ],
+        "Move-Energy": [
+            "RCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Discard a [R] Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83903%2Fpokemon-ruby-and-sapphire-blaziken-3-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Blaziken-RS3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-004",
+        "Name": "Camerupt",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lava Burn",
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "100"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84087%2Fpokemon-ruby-and-sapphire-camerupt",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Camerupt-RS4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-005",
+        "Name": "Delcatty",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "Energy Draw"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Max Energy Source"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Does 10 damage times the amount of Energy attached to all of your Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84734%2Fpokemon-ruby-and-sapphire-delcatty-5-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Delcatty-RS5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-006",
+        "Name": "Dustox",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": [
+            "Protective Dust"
+        ],
+        "Ability-Effect": [
+            "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Toxic",
+            "Gust"
+        ],
+        "Move-Energy": [
+            "GC",
+            "GCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pok\u00e9mon between turns.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85056%2Fpokemon-ruby-and-sapphire-dustox",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Dustox-RS6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-007",
+        "Name": "Gardevoir",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": [
+            "Psy Shadow"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for a [P] Energy card and attach it to 1 of your Pok\u00e9mon. Put 2 damage counters on that Pok\u00e9mon. Shuffle your deck afterward. This power can't be used if Gardevoir is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Energy Burst"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85632%2Fpokemon-ruby-and-sapphire-gardevoir",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Gardevoir-RS7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-008",
+        "Name": "Hariyama",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Slap Push",
+            "Mega Throw"
+        ],
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40+"
+        ],
+        "Effects": [
+            "Does 20 damage to each Defending Pok\u00e9mon.",
+            "If the Defending Pok\u00e9mon is a Pok\u00e9mon-ex, this attack does 40 damage plus 40 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86010%2Fpokemon-ruby-and-sapphire-hariyama-8-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Hariyama-RS8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-009",
+        "Name": "Manectric",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Attract Current",
+            "Thunder Jolt"
+        ],
+        "Move-Energy": [
+            "C",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50"
+        ],
+        "Effects": [
+            "Search your deck for a [L] Energy card and attach it to 1 of your Pok\u00e9mon. Shuffle your deck afterward.",
+            "Flip a coin. If tails, Manectric does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87153%2Fpokemon-ruby-and-sapphire-manectric-9-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Manectric-RS9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-010",
+        "Name": "Mightyena",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/10_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": [
+            "Intimidating Fang"
+        ],
+        "Ability-Effect": [
+            "As long as Mightyena is your Active Pok\u00e9mon, any damage done to your Pok\u00e9mon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Shakedown"
+        ],
+        "Move-Energy": [
+            "DCC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87443%2Fpokemon-ruby-and-sapphire-mightyena-10-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Mightyena-RS10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-011",
+        "Name": "Sceptile",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lizard Poison",
+            "Solarbeam"
+        ],
+        "Move-Energy": [
+            "C",
+            "GGCCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "If 1 Energy is attached to Sceptile, the Defending Pok\u00e9mon is now Asleep. If 2 Energy is attached to Sceptile, the Defending Pok\u00e9mon is now Poisoned. If 3 Energy is attached to Sceptile, the Defending Pok\u00e9mon is now Asleep and Poisoned. If 4 or more Energy is attached to Sceptile, the Defending Pok\u00e9mon is now Asleep, Burned, and Poisoned.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88944%2Fpokemon-ruby-and-sapphire-sceptile-11-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Sceptile-RS11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-012",
+        "Name": "Slaking",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": [
+            "Lazy"
+        ],
+        "Ability-Effect": [
+            "As long as Slaking is your Active Pok\u00e9mon, your opponent's Pok\u00e9mon can't use any Pok\u00e9-Powers."
+        ],
+        "Moves": [
+            "Critical Move"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89288%2Fpokemon-ruby-and-sapphire-slaking",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Slaking-RS12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-013",
+        "Name": "Swampert",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": [
+            "Water Call"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [W] Energy card from your hand to your Active Pok\u00e9mon. This power can't be used if Swampert is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Hypno Splash"
+        ],
+        "Move-Energy": [
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89675%2Fpokemon-ruby-and-sapphire-swampert-13-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Swampert-RS13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-014",
+        "Name": "Wailord",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex1/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Take Down",
+            "Surf"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "WWWCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "70"
+        ],
+        "Effects": [
+            "Wailord does 20 damage to itself.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90457%2Fpokemon-ruby-and-sapphire-wailord",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Wailord-RS14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-015",
+        "Name": "Blaziken",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Clutch",
+            "Flamethrower"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RCCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "80"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat until the end of your opponent's next turn.",
+            "Discard a [R] Energy card attached to Blaziken."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83904%2Fpokemon-ruby-and-sapphire-blaziken-15-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Blaziken-RS15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-016",
+        "Name": "Breloom",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Battle Blast"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "",
+            "Does 40 damage plus 10 more damage for each [F] Energy attached to Breloom."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83953%2Fpokemon-ruby-and-sapphire-breloom",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Breloom-RS16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-017",
+        "Name": "Donphan",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rend",
+            "Double Spin"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "60\u00d7"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon has any damage counters on it, this attack does 20 damage plus 20 more damage.",
+            "Flip 2 coins. This attack does 60 damage times the number of heads."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84871%2Fpokemon-ruby-and-sapphire-donphan",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Donphan-RS17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-018",
+        "Name": "Nosepass",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/18_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Invisible Hand",
+            "Repulsion"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "If any of your opponent's Active Pok\u00e9mon are Evolved Pok\u00e9mon, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+            "Flip a coin. If heads, your opponent returns the Defending Pok\u00e9mon and all cards attached to it to his or her hand. (If your opponent doesn't have any Benched Pok\u00e9mon or other Active Pok\u00e9mon, this attack does nothing. )"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87797%2Fpokemon-ruby-and-sapphire-nosepass",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Nosepass-RS18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-019",
+        "Name": "Pelipper",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stockpile",
+            "Spit Up",
+            "Swallow"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30",
+            "20"
+        ],
+        "Effects": [
+            "During your next turn, Spit Up's base damage is 70 instead of 30, and Swallow's base damage is 60 instead of 20.",
+            "",
+            "After your attack, remove from Pelipper the number of damage counters equal to the damage you did to the Defending Pok\u00e9mon. If Pelipper has fewer damage counters than that, remove all of them."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87974%2Fpokemon-ruby-and-sapphire-pelipper",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Pelipper-RS19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-020",
+        "Name": "Sceptile",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Energy Trans"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), move a [G] Energy card attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Sceptile is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Tail Rap"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "50\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 50 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88945%2Fpokemon-ruby-and-sapphire-sceptile-20-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Sceptile-RS20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-021",
+        "Name": "Seaking",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Arrow",
+            "Fast Stream"
+        ],
+        "Move-Energy": [
+            "W",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Move 1 Energy card attached to the Defending Pok\u00e9mon to the other Defending Pok\u00e9mon. (Ignore this effect if your opponent has only 1 Defending Pok\u00e9mon. )"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89021%2Fpokemon-ruby-and-sapphire-seaking",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Seaking-RS21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-022",
+        "Name": "Sharpedo",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Rough Skin"
+        ],
+        "Ability-Effect": [
+            "If Sharpedo is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Sharpedo is Knocked Out), put 2 damage counters on the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Dark Slash"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "You may discard a [D] Energy card attached to Sharpedo. If you do, this attack does 40 damage plus 30 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89097%2Fpokemon-ruby-and-sapphire-sharpedo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Sharpedo-RS22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-023",
+        "Name": "Swampert",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/23_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": [
+            "Natural Remedy"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you attach a [W] Energy card from your hand to Swampert, remove 1 damage counter from Swampert."
+        ],
+        "Moves": [
+            "Water Arrow",
+            "Waterfall"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89676%2Fpokemon-ruby-and-sapphire-swampert-23-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Swampert-RS23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-024",
+        "Name": "Weezing",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/24_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confusion Gas",
+            "Poison Smog"
+        ],
+        "Move-Energy": [
+            "G",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Confused.",
+            "Each Defending Pok\u00e9mon is now Poisoned. Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90556%2Fpokemon-ruby-and-sapphire-weezing",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Weezing-RS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-025",
+        "Name": "Aron",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/25_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rollout",
+            "Double Stab"
+        ],
+        "Move-Energy": [
+            "M",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 2 coins. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83628%2Fpokemon-ruby-and-sapphire-aron-25-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Aron-RS25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-026",
+        "Name": "Cascoon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Hard Cocoon"
+        ],
+        "Ability-Effect": [
+            "During your opponent's turn, if Cascoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30."
+        ],
+        "Moves": [
+            "Poison Thread"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84119%2Fpokemon-ruby-and-sapphire-cascoon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Cascoon-RS26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-027",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/27_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flare",
+            "Double Kick"
+        ],
+        "Move-Energy": [
+            "R",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 2 coins. This attack does 40 damage times the number of heads."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84400%2Fpokemon-ruby-and-sapphire-combusken-27-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Combusken-RS27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-028",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/28_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": [
+            "Natural Cure"
+        ],
+        "Ability-Effect": [
+            "When you attach a [R] Energy card from your hand to Combusken, remove all Special Conditions from Combusken."
+        ],
+        "Moves": [
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84401%2Fpokemon-ruby-and-sapphire-combusken-28-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Combusken-RS28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-029",
+        "Name": "Delcatty",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Call",
+            "Cannonball"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30+"
+        ],
+        "Effects": [
+            "Attach 1 Energy card from your discard pile to your Active Pok\u00e9mon.",
+            "Does 30 damage plus 10 more damage for each Energy attached to Delcatty but not used to pay for this attack's Energy cost."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84735%2Fpokemon-ruby-and-sapphire-delcatty-29-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Delcatty-RS29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-031",
+        "Name": "Grovyle",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/31_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Breath",
+            "Swift"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned.",
+            "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85935%2Fpokemon-ruby-and-sapphire-grovyle-31-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Grovyle-RS31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-030",
+        "Name": "Electrike",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/30_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge",
+            "Thunder Jolt"
+        ],
+        "Move-Energy": [
+            "L",
+            "LC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Attach a [L] Energy card from your discard pile to Electrike.",
+            "Flip a coin. If tails, Electrike does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85128%2Fpokemon-ruby-and-sapphire-electrike-30-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Electrike-RS30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-033",
+        "Name": "Hariyama",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shove",
+            "Slap Down"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86011%2Fpokemon-ruby-and-sapphire-hariyama-33-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Hariyama-RS33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-032",
+        "Name": "Grovyle",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/32_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": [
+            "Natural Cure"
+        ],
+        "Ability-Effect": [
+            "When you attach a [G] Energy card from your hand to Grovyle, remove all Special Conditions from Grovyle."
+        ],
+        "Moves": [
+            "Slash"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85936%2Fpokemon-ruby-and-sapphire-grovyle-32-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Grovyle-RS32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-035",
+        "Name": "Kirlia",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dazzle Dance",
+            "Life Drain"
+        ],
+        "Move-Energy": [
+            "C",
+            "P"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, each Defending Pok\u00e9mon is now Confused.",
+            "Flip a coin. If heads, put damage counters on the Defending Pok\u00e9mon until it is 10 HP away from being Knocked Out."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86460%2Fpokemon-ruby-and-sapphire-kirlia-35-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Kirlia-RS35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-034",
+        "Name": "Kirlia",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/34_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Removal Beam",
+            "Super Psy"
+        ],
+        "Move-Energy": [
+            "P",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86459%2Fpokemon-ruby-and-sapphire-kirlia-34-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Kirlia-RS34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-036",
+        "Name": "Lairon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/36_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Metal Claw"
+        ],
+        "Move-Energy": [
+            "CC",
+            "MCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86573%2Fpokemon-ruby-and-sapphire-lairon-36-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Lairon-RS36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-037",
+        "Name": "Lairon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/37_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Magnitude",
+            "One-Two Strike"
+        ],
+        "Move-Energy": [
+            "M",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30+"
+        ],
+        "Effects": [
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86574%2Fpokemon-ruby-and-sapphire-lairon-37-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Lairon-RS37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-038",
+        "Name": "Linoone",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/38_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Seek Out",
+            "Continuous Headbutt"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "40\u00d7"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+            "Flip a coin until you get tails. This attack does 40 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86803%2Fpokemon-ruby-and-sapphire-linoone",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Linoone-RS38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-040",
+        "Name": "Marshtomp",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/40_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble",
+            "Slash"
+        ],
+        "Move-Energy": [
+            "W",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87232%2Fpokemon-ruby-and-sapphire-marshtomp-40-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Marshtomp-RS40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-039",
+        "Name": "Manectric",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Gigashock"
+        ],
+        "Move-Energy": [
+            "CC",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87154%2Fpokemon-ruby-and-sapphire-manectric-39-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Manectric-RS39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-041",
+        "Name": "Marshtomp",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/41_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": [
+            "Natural Cure"
+        ],
+        "Ability-Effect": [
+            "When you attach a [W] Energy card from your hand to Marshtomp, remove all Special Conditions from Marshtomp."
+        ],
+        "Moves": [
+            "Aqua Sonic"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "This attack's damage is not affected by Resistance."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87233%2Fpokemon-ruby-and-sapphire-marshtomp-41-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Marshtomp-RS41?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-042",
+        "Name": "Mightyena",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/42_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Ambush"
+        ],
+        "Move-Energy": [
+            "CC",
+            "DCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30+"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 30 damage plus 30 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87444%2Fpokemon-ruby-and-sapphire-mightyena-42-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Mightyena-RS42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-043",
+        "Name": "Silcoon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/43_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": [
+            "Hard Cocoon"
+        ],
+        "Ability-Effect": [
+            "During your opponent's turn, if Silcoon would be damaged by an opponent's attack (after applying Weakness and Resistance), flip a coin. If heads, reduce that damage by 30."
+        ],
+        "Moves": [
+            "Gooey Thread"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat until the end of your opponent's next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89210%2Fpokemon-ruby-and-sapphire-silcoon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Silcoon-RS43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-044",
+        "Name": "Skitty",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/44_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Minor Errand-Running",
+            "Lullaby"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Search your deck for 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89259%2Fpokemon-ruby-and-sapphire-skitty-44-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Skitty-RS44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-045",
+        "Name": "Slakoth",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/45_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Claw",
+            "Slack Off"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "20",
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing.",
+            "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89295%2Fpokemon-ruby-and-sapphire-slakoth",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Slakoth-RS45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-046",
+        "Name": "Swellow",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/46_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "Drive Off"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Swellow is your Active Pok\u00e9mon, you may switch 1 of the Defending Pok\u00e9mon with 1 of your opponent's Benched Pok\u00e9mon. Your opponent picks the Benched Pok\u00e9mon to switch. This power can't be used if Swellow is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Wing Attack"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89688%2Fpokemon-ruby-and-sapphire-swellow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Swellow-RS46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-047",
+        "Name": "Vigoroth",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/47_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fury Swipes",
+            "Rage"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "20+"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 20 damage times the number of heads.",
+            "Does 20 damage plus 10 more damage for each damage counter on Vigoroth."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90366%2Fpokemon-ruby-and-sapphire-vigoroth",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Vigoroth-RS47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-048",
+        "Name": "Wailmer",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/48_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rest",
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WC"
+        ],
+        "Move-Damage": [
+            null,
+            "20+"
+        ],
+        "Effects": [
+            "Remove all Special Conditions and 4 damage counters from Wailmer (all if there are less than 4). Wailmer is now Asleep.",
+            "This attack does 20 damage plus 10 more damage for each [W] Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90450%2Fpokemon-ruby-and-sapphire-wailmer",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Wailmer-RS48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-049",
+        "Name": "Aron",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Teary Eyes",
+            "Ram"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Aron by attacks is reduced by 10.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83629%2Fpokemon-ruby-and-sapphire-aron-49-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Aron-RS49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-050",
+        "Name": "Aron",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83630%2Fpokemon-ruby-and-sapphire-aron-50-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Aron-RS50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-051",
+        "Name": "Carvanha",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/51_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": [
+            "Rough Skin"
+        ],
+        "Ability-Effect": [
+            "If Carvanha is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Carvanha is Knocked Out), put 1 damage counter on the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Big Bite"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat until the end of your opponent's next turn."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84111%2Fpokemon-ruby-and-sapphire-carvanha",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Carvanha-RS51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-053",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/53_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Thunder Wave",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, each Defending Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85130%2Fpokemon-ruby-and-sapphire-electrike-53-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Electrike-RS53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-052",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/52_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85129%2Fpokemon-ruby-and-sapphire-electrike-52-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Electrike-RS52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-054",
+        "Name": "Koffing",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/54_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Koffing does 10 damage to itself."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86490%2Fpokemon-ruby-and-sapphire-koffing",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Koffing-RS54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-055",
+        "Name": "Goldeen",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/55_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flail"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Does 10 damage for each damage counter on Goldeen."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85803%2Fpokemon-ruby-and-sapphire-goldeen",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Goldeen-RS55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-057",
+        "Name": "Makuhita",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/57_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fling",
+            "Low Kick"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87126%2Fpokemon-ruby-and-sapphire-makuhita-57-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Makuhita-RS57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-056",
+        "Name": "Makuhita",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/56_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slap Push",
+            "Lunge Out"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87125%2Fpokemon-ruby-and-sapphire-makuhita-56109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Makuhita-RS56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-059",
+        "Name": "Mudkip",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/59_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87605%2Fpokemon-ruby-and-sapphire-mudkip-59-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Mudkip-V1-RS59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-058",
+        "Name": "Makuhita",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/58_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fake Out"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87127%2Fpokemon-ruby-and-sapphire-makuhita-58-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Makuhita-RS58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-060",
+        "Name": "Mudkip",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/60_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound",
+            "Fury Swipes"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 3 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87606%2Fpokemon-ruby-and-sapphire-mudkip-60-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Mudkip-RS60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-061",
+        "Name": "Numel",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/61_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Burn Off"
+        ],
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, each Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87805%2Fpokemon-ruby-and-sapphire-numel",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Numel-RS61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-062",
+        "Name": "Phanpy",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/62_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stampede",
+            "Trembler"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 10 damage to each Defending Pok\u00e9mon, and each Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87996%2Fpokemon-ruby-and-sapphire-phanpy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Phanpy-RS62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-063",
+        "Name": "Poochyena",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/63_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88293%2Fpokemon-ruby-and-sapphire-poochyena-63-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Poochyena-RS63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-065",
+        "Name": "Poochyena",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/65_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shadow Bind"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat until the end of your opponent's next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88295%2Fpokemon-ruby-and-sapphire-poochyena-65-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Poochyena-RS65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-064",
+        "Name": "Poochyena",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/64_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Knock Off",
+            "Rear Kick"
+        ],
+        "Move-Energy": [
+            "D",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88294%2Fpokemon-ruby-and-sapphire-poochyena-64-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Poochyena-RS64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-067",
+        "Name": "Ralts",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/67_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Hypnoblast"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88555%2Fpokemon-ruby-and-sapphire-ralts-67-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Ralts-RS67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-066",
+        "Name": "Ralts",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/66_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confuse Ray"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88554%2Fpokemon-ruby-and-sapphire-ralts-66-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Ralts-RS66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-068",
+        "Name": "Ralts",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/68_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound",
+            "Link Blast"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "If Ralts and the Defending Pok\u00e9mon have a different amount of Energy attached to them, this attack's base damage is 10 instead of 40."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88556%2Fpokemon-ruby-and-sapphire-ralts-68-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Ralts-RS68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-069",
+        "Name": "Shroomish",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/69_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sleep Powder"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89181%2Fpokemon-ruby-and-sapphire-shroomish",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Shroomish-RS69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-070",
+        "Name": "Skitty",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/70_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Plus Energy",
+            "Scratch"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Attach a basic Energy card from your hand to 1 of your Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89260%2Fpokemon-ruby-and-sapphire-skitty-70-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Skitty-RS70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-071",
+        "Name": "Skitty",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/71_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89261%2Fpokemon-ruby-and-sapphire-skitty-71-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Skitty-RS71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-072",
+        "Name": "Taillow",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/72_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck",
+            "Wing Attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89730%2Fpokemon-ruby-and-sapphire-taillow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Taillow-RS72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-073",
+        "Name": "Torchic",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/73_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peck",
+            "Fireworks"
+        ],
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, discard a [R] Energy card attached to Torchic."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89949%2Fpokemon-ruby-and-sapphire-torchic-73-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Torchic-RS73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-074",
+        "Name": "Torchic",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/74_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Singe"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89950%2Fpokemon-ruby-and-sapphire-torchic-74-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Torchic-V1-RS74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-075",
+        "Name": "Treecko",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/75_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Breath"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90032%2Fpokemon-ruby-and-sapphire-treecko-75-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Treecko-RS75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-076",
+        "Name": "Treecko",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/76_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Slap",
+            "Razor Leaf"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90033%2Fpokemon-ruby-and-sapphire-treecko-76-109",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Treecko-V1-RS76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-077",
+        "Name": "Wingull",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/77_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surprise Attack"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90605%2Fpokemon-ruby-and-sapphire-wingull",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Wingull-RS77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-078",
+        "Name": "Wurmple",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/78_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Signs of Evolution",
+            "Poison Barb"
+        ],
+        "Move-Energy": [
+            "C",
+            "G"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Search your deck for Silcoon and Beautifly, or Cascoon and Dustox cards. Show 1 card or both cards of a pair to your opponent and put them into your hand. Shuffle your deck afterward.",
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90647%2Fpokemon-ruby-and-sapphire-wurmple",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Wurmple-RS78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-079",
+        "Name": "Zigzagoon",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/79_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fury Swipes"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90744%2Fpokemon-ruby-and-sapphire-zigzagoon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Zigzagoon-RS79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-080",
+        "Name": "Energy Removal 2",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/80_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pok\u00e9mon and discard it.",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85220%2Fpokemon-ruby-and-sapphire-energy-removal-2",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Energy-Removal-2-RS80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-081",
+        "Name": "Energy Restore",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/81_hires.png",
+        "Pack": null,
+        "Description": "Flip 3 coins. For each heads, put a Basic Energy card from your discard pile into your hand. If you don't have that many basic Energy cards in your discard pile, put all of them into your hand.",
+        "Illustrator": "Hideyuki Nakajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85225%2Fpokemon-ruby-and-sapphire-energy-restore",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Energy-Restore-RS81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-082",
+        "Name": "Energy Switch",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/82_hires.png",
+        "Pack": null,
+        "Description": "Move a basic Energy from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon.",
+        "Illustrator": "Ken Ikuji",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85252%2Fpokemon-ruby-and-sapphire-energy-switch",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Energy-Switch-RS82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-083",
+        "Name": "Lady Outing",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/83_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86571%2Fpokemon-ruby-and-sapphire-lady-outing",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Lady-Outing-RS83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-084",
+        "Name": "Lum Berry",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/84_hires.png",
+        "Pack": null,
+        "Description": "At the end of each turn, if the Pok\u00e9mon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card.",
+        "Illustrator": "Kazuo Yazawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86919%2Fpokemon-ruby-and-sapphire-lum-berry",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Lum-Berry-RS84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-085",
+        "Name": "Oran Berry",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/85_hires.png",
+        "Pack": null,
+        "Description": "At any time between turns, if the Pok\u00e9mon this card is attached to has at least 2 damage counters on it, remove 2 damage counters from it. Then discard Oran Berry.",
+        "Illustrator": "Kazuo Yazawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87888%2Fpokemon-ruby-and-sapphire-oran-berry",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Oran-Berry-V1-RS85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-086",
+        "Name": "Pok\u00e9 Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/86_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "Illustrator": "K. Hoshiba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88182%2Fpokemon-ruby-and-sapphire-poke-ball",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Poke-Ball-RS86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-087",
+        "Name": "Pok\u00e9mon Reversal",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/87_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, choose 1 of your opponent's Benched Pok\u00e9mon and switch it with your opponent's Active Pok\u00e9mon.",
+        "Illustrator": "Hiromichi Sugiyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88237%2Fpokemon-ruby-and-sapphire-pokemon-reversal",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Pokemon-Reversal-RS87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-088",
+        "Name": "Pok\u00e9Nav",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/88_hires.png",
+        "Pack": null,
+        "Description": "Look at the top 3 cards of your deck. You may reveal a Pok\u00e9mon or Energy card you find there and put it into your hand. Put the other cards back in any order.",
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88243%2Fpokemon-ruby-and-sapphire-pokenav",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/PokeNav-RS88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-089",
+        "Name": "Professor Birch",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex1/89_hires.png",
+        "Pack": null,
+        "Description": "Draw cards from your deck until you have 6 cards in your hand.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88381%2Fpokemon-ruby-and-sapphire-professor-birch",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Professor-Birch-RS89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-090",
+        "Name": "Energy Search",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/90_hires.png",
+        "Pack": null,
+        "Description": "Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "Illustrator": "Kai Ishikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85237%2Fpokemon-ruby-and-sapphire-energy-search",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Energy-Search-RS90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-091",
+        "Name": "Potion",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/91_hires.png",
+        "Pack": null,
+        "Description": "Heal 30 damage from 1 of your Pok\u00e9mon.",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88330%2Fpokemon-ruby-and-sapphire-potion",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Potion-RS91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-093",
+        "Name": "Darkness Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/93_hires.png",
+        "Pack": null,
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
+        "Illustrator": "Milky Isobe",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84683%2Fpokemon-ruby-and-sapphire-darkness-energy-special",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Darkness-Energy-V1-RS93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-092",
+        "Name": "Switch",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/92_hires.png",
+        "Pack": null,
+        "Description": "Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Hiromichi Sugiyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89709%2Fpokemon-ruby-and-sapphire-switch",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Switch-RS92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-094",
+        "Name": "Metal Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/94_hires.png",
+        "Pack": null,
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Illustrator": "Milky Isobe",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87356%2Fpokemon-ruby-and-sapphire-metal-energy-special",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Metal-Energy-V1-RS94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-095",
+        "Name": "Rainbow Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex1/95_hires.png",
+        "Pack": null,
+        "Description": "This card provides [C] Energy. While in play, this card provides every type of Energy but provides only 1 Energy at a time. When you attach this card from your hand to 1 of your Pok\u00e9mon, put 1 damage counter on that Pok\u00e9mon.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88545%2Fpokemon-ruby-and-sapphire-rainbow-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Rainbow-Energy-RS95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-096",
+        "Name": "Chansey ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/96_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Healing Egg",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "Remove 2 damage counters (1 if there is only 1) from each of your Pok\u00e9mon. Remove no damage counters from Chansey ex.",
+            "Chansey ex does 60 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84180%2Fpokemon-ruby-and-sapphire-chansey-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Chansey-ex-RS96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-097",
+        "Name": "Electabuzz ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/97_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85120%2Fpokemon-ruby-and-sapphire-electabuzz-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Electabuzz-ex-RS97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-098",
+        "Name": "Hitmonchan ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/98_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Steady Punch",
+            "Sky Uppercut"
+        ],
+        "Move-Energy": [
+            "F",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+            "This attack's damage is not affected by Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hiromichi Sugiyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86099%2Fpokemon-ruby-and-sapphire-hitmonchan-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Hitmonchan-ex-RS98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-100",
+        "Name": "Magmar ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/100_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smokescreen",
+            "Super Singe"
+        ],
+        "Move-Energy": [
+            "R",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            "The Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87054%2Fpokemon-ruby-and-sapphire-magmar-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Magmar-ex-RS100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-099",
+        "Name": "Lapras ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/99_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Ball",
+            "Confuse Ray"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "30"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 more damage for each Energy attached to Lapras ex but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+            "The Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86626%2Fpokemon-ruby-and-sapphire-lapras-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Lapras-ex-RS99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-101",
+        "Name": "Mewtwo ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/101_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Absorption",
+            "Psyburn"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Attach up to 2 Energy cards from your discard pile to Mewtwo ex.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87428%2Fpokemon-ruby-and-sapphire-mewtwo-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Mewtwo-ex-RS101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-102",
+        "Name": "Scyther ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/102_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Agility",
+            "Slash"
+        ],
+        "Move-Energy": [
+            "G",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "10",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther ex during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89007%2Fpokemon-ruby-and-sapphire-scyther-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Scyther-ex-RS102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-103",
+        "Name": "Sneasel ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex1/103_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Double Scratch",
+            "Beat Up"
+        ],
+        "Move-Energy": [
+            "D",
+            "DDC"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 10 damage times the number of heads.",
+            "Flip a coin for each of your Pok\u00e9mon in play (including Sneasel ex). This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89374%2Fpokemon-ruby-and-sapphire-sneasel-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Sneasel-ex-RS103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-104",
+        "Name": "Grass Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/104_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85874%2Fpokemon-ruby-and-sapphire-grass-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Grass-Energy-RS104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-105",
+        "Name": "Fighting Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/105_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85438%2Fpokemon-ruby-and-sapphire-fighting-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Fighting-Energy-RS105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-106",
+        "Name": "Water Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/106_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90506%2Fpokemon-ruby-and-sapphire-water-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Water-Energy-RS106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-107",
+        "Name": "Psychic Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/107_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88418%2Fpokemon-ruby-and-sapphire-psychic-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Psychic-Energy-RS107?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-108",
+        "Name": "Fire Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/108_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85458%2Fpokemon-ruby-and-sapphire-fire-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Fire-Energy-RS108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RS-109",
+        "Name": "Lightning Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex1/109_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86761%2Fpokemon-ruby-and-sapphire-lightning-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Ruby-Sapphire/Lightning-Energy-RS109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    }
+]
