@@ -291,7 +291,6 @@ class Application(QMainWindow):
 
     def cache_finished(self, cache_dict):
         self.cache_dict = cache_dict
-        print(f"Downloads finished.")
         self.stacked_layout.setCurrentWidget(self.main_menu_widget)
         self.show()
 
