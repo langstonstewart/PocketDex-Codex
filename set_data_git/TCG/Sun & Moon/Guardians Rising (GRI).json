@@ -1,37 +1,5 @@
 [
     {
-        "ID": "GRI-002",
-        "Name": "Weepinbell",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_002_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Muddy Acid"
-        ],
-        "Move-Energy": [
-            "GC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mina Nakai",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130687%2Fsm-guardians-rising-weepinbell",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Weepinbell-GRI2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-001",
         "Name": "Bellsprout",
         "Rarity": "Common",
@@ -62,6 +30,38 @@
         "Illustrator": "Aya Kusube",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130686%2Fsm-guardians-rising-bellsprout",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Bellsprout-GRI1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-002",
+        "Name": "Weepinbell",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Muddy Acid"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130687%2Fsm-guardians-rising-weepinbell",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Weepinbell-GRI2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-003",
@@ -132,6 +132,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Petilil-GRI4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-005",
+        "Name": "Lilligant",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Petal Blizzard",
+            "Petal Dance"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "40\u00d7"
+        ],
+        "Effects": [
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip 3 coins. This attack does 40 damage for each heads. This Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "You Iribi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130690%2Fsm-guardians-rising-lilligant",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lilligant-GRI5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-006",
         "Name": "Phantump",
         "Rarity": "Common",
@@ -166,42 +202,6 @@
         "Illustrator": "Sanosuke Sakuma",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130691%2Fsm-guardians-rising-phantump",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Phantump-GRI6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-005",
-        "Name": "Lilligant",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_005_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Petal Blizzard",
-            "Petal Dance"
-        ],
-        "Move-Energy": [
-            "C",
-            "GC"
-        ],
-        "Move-Damage": [
-            null,
-            "40\u00d7"
-        ],
-        "Effects": [
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip 3 coins. This attack does 40 damage for each heads. This Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "You Iribi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130690%2Fsm-guardians-rising-lilligant",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lilligant-GRI5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-007",
@@ -348,38 +348,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Victini-GRI10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-012",
-        "Name": "Lampent",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_012_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Will-O-Wisp"
-        ],
-        "Move-Energy": [
-            "R"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "0313",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130758%2Fsm-guardians-rising-lampent",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lampent-GRI12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-011",
         "Name": "Litwick",
         "Rarity": "Common",
@@ -410,6 +378,38 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130757%2Fsm-guardians-rising-litwick",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Litwick-GRI11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-012",
+        "Name": "Lampent",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Will-O-Wisp"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "0313",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130758%2Fsm-guardians-rising-lampent",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lampent-GRI12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-013",
@@ -520,42 +520,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Salandit-GRI15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-017",
-        "Name": "Turtonator",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_017_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Body Slam",
-            "Heat Blast"
-        ],
-        "Move-Energy": [
-            "CC",
-            "RRC"
-        ],
-        "Move-Damage": [
-            "30",
-            "90"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin Nagasawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130763%2Fsm-guardians-rising-turtonator",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Turtonator-GRI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-016",
         "Name": "Salazzle",
         "Rarity": "Rare",
@@ -592,6 +556,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Salazzle-GRI16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-017",
+        "Name": "Turtonator",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam",
+            "Heat Blast"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "30",
+            "90"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130763%2Fsm-guardians-rising-turtonator",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Turtonator-GRI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-018",
         "Name": "Turtonator-GX",
         "Rarity": "Double Rare",
@@ -620,7 +620,7 @@
         "Effects": [
             "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack (even if this Pok\u00e9mon is Knocked Out), put 8 damage counters on the Attacking Pok\u00e9mon.",
             "Discard 2 [R] Energy from this Pok\u00e9mon.",
-            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -630,42 +630,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130764%2Fsm-guardians-rising-turtonator-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Turtonator-GX-V1-GRI18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-019a",
-        "Name": "Alolan Sandshrew",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_019a_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Defense Curl",
-            "Ice Ball"
-        ],
-        "Move-Energy": [
-            "0",
-            "WCC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn.",
-            ""
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hideki Ishikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F197853%2Falternate-art-promos-alolan-sandshrew-19a-145",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Sandshrew-V2-GRI19a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-019",
@@ -704,10 +668,10 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Sandshrew-V1-GRI19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-021",
-        "Name": "Alolan Vulpix",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_021_R_EN_LG.png",
+        "ID": "GRI-019a",
+        "Name": "Alolan Sandshrew",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_019a_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
@@ -715,19 +679,19 @@
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Beacon",
-            "Icy Snow"
+            "Defense Curl",
+            "Ice Ball"
         ],
         "Move-Energy": [
             "0",
-            "CC"
+            "WCC"
         ],
         "Move-Damage": [
             null,
-            "20"
+            "30"
         ],
         "Effects": [
-            "Search your deck for up to 2 Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+            "Flip a coin. If heads, prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn.",
             ""
         ],
         "Weakness": "Metal",
@@ -735,9 +699,9 @@
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "You Iribi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130919%2Fsm-guardians-rising-alolan-vulpix",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Vulpix-V1-GRI21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hideki Ishikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F197853%2Falternate-art-promos-alolan-sandshrew-19a-145",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Sandshrew-V2-GRI19a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-020",
@@ -774,6 +738,42 @@
         "Illustrator": "TOKIYA",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130918%2Fsm-guardians-rising-alolan-sandslash",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Sandslash-GRI20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-021",
+        "Name": "Alolan Vulpix",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_021_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beacon",
+            "Icy Snow"
+        ],
+        "Move-Energy": [
+            "0",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "You Iribi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130919%2Fsm-guardians-rising-alolan-vulpix",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Vulpix-V1-GRI21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-021a",
@@ -838,9 +838,9 @@
             null
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -1056,42 +1056,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Sharpedo-GRI28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-030",
-        "Name": "Wailord",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_030_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "200",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dive",
-            "Open Sea"
-        ],
-        "Move-Energy": [
-            "WWC",
-            "WWWC"
-        ],
-        "Move-Damage": [
-            "40",
-            "80"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn.",
-            "Heal 30 damage from each of your [W] Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "OOYAMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130930%2Fsm-guardians-rising-wailord",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Wailord-GRI30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-029",
         "Name": "Wailmer",
         "Rarity": "Common",
@@ -1126,6 +1090,42 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130929%2Fsm-guardians-rising-wailmer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Wailmer-GRI29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-030",
+        "Name": "Wailord",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_030_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dive",
+            "Open Sea"
+        ],
+        "Move-Energy": [
+            "WWC",
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "40",
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn.",
+            "Heal 30 damage from each of your [W] Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "OOYAMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130930%2Fsm-guardians-rising-wailord",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Wailord-GRI30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-031",
@@ -1164,38 +1164,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Snorunt-GRI31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-033",
-        "Name": "Vanillite",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_033_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Triple Spin"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10\u00d7"
-        ],
-        "Effects": [
-            "Flip 3 coins. This attack does 10 damage for each heads."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "OOYAMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130933%2Fsm-guardians-rising-vanillite",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Vanillite-GRI33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-032",
         "Name": "Glalie",
         "Rarity": "Uncommon",
@@ -1230,6 +1198,38 @@
         "Illustrator": "so-taro",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130932%2Fsm-guardians-rising-glalie",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Glalie-GRI32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-033",
+        "Name": "Vanillite",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_033_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Triple Spin"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 10 damage for each heads."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "OOYAMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130933%2Fsm-guardians-rising-vanillite",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Vanillite-GRI33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-034",
@@ -1287,7 +1287,7 @@
             "80"
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may discard 2 [W] Energy from this Pok\u00e9mon. If you do, your opponent's Active Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Metal",
@@ -1336,6 +1336,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alomomola-GRI36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-037",
+        "Name": "Wishiwashi",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_037_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": [
+            "Schooling"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with a Wishiwashi-GX in your hand. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sharpshooting"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sanosuke Sakuma",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130937%2Fsm-guardians-rising-wishiwashi",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Wishiwashi-GRI37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-038",
         "Name": "Wishiwashi-GX",
         "Rarity": "Double Rare",
@@ -1364,7 +1400,7 @@
         "Effects": [
             "",
             "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
-            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1374,78 +1410,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130938%2Fsm-guardians-rising-wishiwashi-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Wishiwashi-GX-V1-GRI38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-037",
-        "Name": "Wishiwashi",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_037_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "30",
-        "Ability": [
-            "Schooling"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with a Wishiwashi-GX in your hand. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Sharpshooting"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sanosuke Sakuma",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130937%2Fsm-guardians-rising-wishiwashi",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Wishiwashi-GRI37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-040",
-        "Name": "Alolan Geodude",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_040_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rock Polish",
-            "Rollout"
-        ],
-        "Move-Energy": [
-            "0",
-            "LCC"
-        ],
-        "Move-Damage": [
-            null,
-            "40"
-        ],
-        "Effects": [
-            "During your next turn, this Pok\u00e9mon has no Retreat Cost.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hitoshi Ariga",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130942%2Fsm-guardians-rising-alolan-geodude",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Geodude-GRI40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-039",
@@ -1484,6 +1448,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Mareanie-GRI39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-040",
+        "Name": "Alolan Geodude",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_040_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Polish",
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "0",
+            "LCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon has no Retreat Cost.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130942%2Fsm-guardians-rising-alolan-geodude",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Alolan-Geodude-GRI40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-041",
         "Name": "Alolan Graveler",
         "Rarity": "Uncommon",
@@ -1508,7 +1508,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pok\u00e9mon does 20 damage to itself.",
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1612,7 +1612,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 20 more damage.",
-            "This attack does 30 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1622,6 +1622,46 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130946%2Fsm-guardians-rising-heliolisk",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Heliolisk-GRI44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-045",
+        "Name": "Vikavolt-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_045_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Charge Beam",
+            "Super Zap Cannon",
+            "Gigatron-GX"
+        ],
+        "Move-Energy": [
+            "L",
+            "LCCC",
+            "LCCC"
+        ],
+        "Move-Damage": [
+            "50",
+            "180",
+            null
+        ],
+        "Effects": [
+            "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
+            "Discard 2 Energy from this Pok\u00e9mon.",
+            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130947%2Fsm-guardians-rising-vikavolt-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Vikavolt-GX-V1-GRI45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-046",
@@ -1660,46 +1700,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Oricorio-V1-GRI46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-045",
-        "Name": "Vikavolt-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_045_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Lightning",
-        "HP": "240",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Charge Beam",
-            "Super Zap Cannon",
-            "Gigatron-GX"
-        ],
-        "Move-Energy": [
-            "L",
-            "LCCC",
-            "LCCC"
-        ],
-        "Move-Damage": [
-            "50",
-            "180",
-            null
-        ],
-        "Effects": [
-            "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
-            "Discard 2 Energy from this Pok\u00e9mon.",
-            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130947%2Fsm-guardians-rising-vikavolt-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Vikavolt-GX-V1-GRI45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-047",
         "Name": "Tapu Koko-GX",
         "Rarity": "Double Rare",
@@ -1728,7 +1728,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -2060,46 +2060,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Oricorio-GRI55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-057",
-        "Name": "Toxapex-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_057_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "210",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spike Cannon",
-            "Super Intense Poison",
-            "Total Shelter-GX"
-        ],
-        "Move-Energy": [
-            "P",
-            "PPP",
-            "PPP"
-        ],
-        "Move-Damage": [
-            "30\u00d7",
-            null,
-            "150"
-        ],
-        "Effects": [
-            "Flip 4 coins. This attack does 30 damage for each heads.",
-            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
-            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130963%2Fsm-guardians-rising-toxapex-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Toxapex-GX-V1-GRI57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-056",
         "Name": "Oricorio",
         "Rarity": "Rare",
@@ -2136,40 +2096,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Oricorio-V1-GRI56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-059",
-        "Name": "Dhelmise",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_059_R_EN_LG.png",
+        "ID": "GRI-057",
+        "Name": "Toxapex-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_057_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
+        "Stage": "Stage 1",
         "Type": "Psychic",
-        "HP": "120",
-        "Ability": [
-            "Steelworker"
-        ],
-        "Ability-Effect": [
-            "Your [M] Pok\u00e9mon's attacks do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
-        ],
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Anchor Shot"
+            "Spike Cannon",
+            "Super Intense Poison",
+            "Total Shelter-GX"
         ],
         "Move-Energy": [
-            "PCC"
+            "P",
+            "PPP",
+            "PPP"
         ],
         "Move-Damage": [
-            "70"
+            "30\u00d7",
+            null,
+            "150"
         ],
         "Effects": [
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+            "Flip 4 coins. This attack does 30 damage for each heads.",
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
+            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "Hasuno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130967%2Fsm-guardians-rising-dhelmise",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Dhelmise-GRI59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130963%2Fsm-guardians-rising-toxapex-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Toxapex-GX-V1-GRI57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-058",
@@ -2208,6 +2172,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Mimikyu-GRI58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-059",
+        "Name": "Dhelmise",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_059_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": [
+            "Steelworker"
+        ],
+        "Ability-Effect": [
+            "Your [M] Pok\u00e9mon's attacks do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Anchor Shot"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hasuno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130967%2Fsm-guardians-rising-dhelmise",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Dhelmise-GRI59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-060",
         "Name": "Tapu Lele-GX",
         "Rarity": "Double Rare",
@@ -2236,7 +2236,7 @@
         ],
         "Effects": [
             "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
-            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -2246,6 +2246,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130968%2Fsm-guardians-rising-tapu-lele-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Tapu-Lele-GX-V1-GRI60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-060a",
+        "Name": "Tapu Lele-GX",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_060a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "170",
+        "Ability": [
+            "Wonder Tag"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Moves": [
+            "Energy Drive",
+            "Tapu Cure-GX"
+        ],
+        "Move-Energy": [
+            "CC",
+            "P"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F179367%2Falternate-art-promos-tapu-lele-gx-60a-145",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Tapu-Lele-GX-V4-GRI60a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-061",
@@ -2284,46 +2324,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lunala-GRI61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-060a",
-        "Name": "Tapu Lele-GX",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_060a_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "170",
-        "Ability": [
-            "Wonder Tag"
-        ],
-        "Ability-Effect": [
-            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
-        ],
-        "Moves": [
-            "Energy Drive",
-            "Tapu Cure-GX"
-        ],
-        "Move-Energy": [
-            "CC",
-            "P"
-        ],
-        "Move-Damage": [
-            "20\u00d7",
-            null
-        ],
-        "Effects": [
-            "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
-            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F179367%2Falternate-art-promos-tapu-lele-gx-60a-145",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Tapu-Lele-GX-V4-GRI60a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-062",
         "Name": "Machop",
         "Rarity": "Common",
@@ -2354,6 +2354,38 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130972%2Fsm-guardians-rising-machop-62",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Machop-GRI62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-063",
+        "Name": "Machop",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_063_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dynamic Chop"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130973%2Fsm-guardians-rising-machop-63",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Machop-GRI63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-064",
@@ -2390,38 +2422,6 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130974%2Fsm-guardians-rising-machoke",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Machoke-GRI64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-063",
-        "Name": "Machop",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_063_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dynamic Chop"
-        ],
-        "Move-Energy": [
-            "FC"
-        ],
-        "Move-Damage": [
-            "50"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130973%2Fsm-guardians-rising-machop-63",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Machop-GRI63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-065",
@@ -2516,7 +2516,7 @@
             null
         ],
         "Effects": [
-            "This attack does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2704,46 +2704,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Pancham-GRI72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-074",
-        "Name": "Lycanroc-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_074_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "200",
-        "Ability": [
-            "Bloodthirsty Eyes"
-        ],
-        "Ability-Effect": [
-            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Claw Slash",
-            "Dangerous Rogue-GX"
-        ],
-        "Move-Energy": [
-            "FCC",
-            "FC"
-        ],
-        "Move-Damage": [
-            "110",
-            "50\u00d7"
-        ],
-        "Effects": [
-            "",
-            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130984%2Fsm-guardians-rising-lycanroc-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lycanroc-GX-V1-GRI74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-073",
         "Name": "Rockruff",
         "Rarity": "Common",
@@ -2778,6 +2738,46 @@
         "Illustrator": "Naoki Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130983%2Fsm-guardians-rising-rockruff",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Rockruff-GRI73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-074",
+        "Name": "Lycanroc-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_074_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "200",
+        "Ability": [
+            "Bloodthirsty Eyes"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Claw Slash",
+            "Dangerous Rogue-GX"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FC"
+        ],
+        "Move-Damage": [
+            "110",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130984%2Fsm-guardians-rising-lycanroc-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lycanroc-GX-V1-GRI74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-075",
@@ -2848,38 +2848,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Mudsdale-GRI76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-078",
-        "Name": "Murkrow",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_078_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Whirlwind"
-        ],
-        "Move-Energy": [
-            "D"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sekio",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130990%2Fsm-guardians-rising-murkrow",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Murkrow-GRI78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-077",
         "Name": "Minior",
         "Rarity": "Holo Rare",
@@ -2914,6 +2882,38 @@
         "Illustrator": "Naoki Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130989%2Fsm-guardians-rising-minior",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Minior-GRI77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-078",
+        "Name": "Murkrow",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_078_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Whirlwind"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sekio",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130990%2Fsm-guardians-rising-murkrow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Murkrow-GRI78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-079",
@@ -3092,46 +3092,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Beldum-GRI83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-085",
-        "Name": "Metagross-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_085_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Metal",
-        "HP": "250",
-        "Ability": [
-            "Geotech System"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may attach a [P] or [M] Energy card from your discard pile to your Active Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Giga Hammer",
-            "Algorithm-GX"
-        ],
-        "Move-Energy": [
-            "MMC",
-            "C"
-        ],
-        "Move-Damage": [
-            "150",
-            null
-        ],
-        "Effects": [
-            "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130997%2Fsm-guardians-rising-metagross-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Metagross-GX-V1-GRI85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-084",
         "Name": "Metang",
         "Rarity": "Uncommon",
@@ -3168,40 +3128,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Metang-GRI84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-087",
-        "Name": "Solgaleo",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_087_R_EN_LG.png",
+        "ID": "GRI-085",
+        "Name": "Metagross-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_085_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Metal",
-        "HP": "160",
-        "Ability": null,
-        "Ability-Effect": null,
+        "HP": "250",
+        "Ability": [
+            "Geotech System"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may attach a [P] or [M] Energy card from your discard pile to your Active Pok\u00e9mon."
+        ],
         "Moves": [
-            "Shining Arrow",
-            "Fangs of the Sunne"
+            "Giga Hammer",
+            "Algorithm-GX"
         ],
         "Move-Energy": [
-            "MC",
-            "MMC"
+            "MMC",
+            "C"
         ],
         "Move-Damage": [
-            null,
-            "170"
+            "150",
+            null
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "This Pok\u00e9mon can't use Fangs of the Sunne during your next turn."
+            "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131001%2Fsm-guardians-rising-solgaleo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Solgaleo-GRI87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130997%2Fsm-guardians-rising-metagross-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Metagross-GX-V1-GRI85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-086",
@@ -3238,6 +3202,42 @@
         "Illustrator": "Yoshinobu Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131000%2Fsm-guardians-rising-probopass",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Probopass-GRI86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-087",
+        "Name": "Solgaleo",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_087_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shining Arrow",
+            "Fangs of the Sunne"
+        ],
+        "Move-Energy": [
+            "MC",
+            "MMC"
+        ],
+        "Move-Damage": [
+            null,
+            "170"
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This Pok\u00e9mon can't use Fangs of the Sunne during your next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131001%2Fsm-guardians-rising-solgaleo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Solgaleo-GRI87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-088",
@@ -3408,7 +3408,7 @@
         "Effects": [
             "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
             "",
-            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -3448,7 +3448,7 @@
         "Effects": [
             "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
             "",
-            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -3568,6 +3568,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Sliggoo-GRI95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-096",
+        "Name": "Goodra",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_096_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Power Whip",
+            "Beat Slider"
+        ],
+        "Move-Energy": [
+            "C",
+            "WYC"
+        ],
+        "Move-Damage": [
+            null,
+            "130"
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of Energy attached to this Pok\u00e9mon to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131012%2Fsm-guardians-rising-goodra",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Goodra-GRI96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-097",
         "Name": "Drampa",
         "Rarity": "Holo Rare",
@@ -3602,42 +3638,6 @@
         "Illustrator": "match",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131013%2Fsm-guardians-rising-drampa",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Drampa-GRI97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-096",
-        "Name": "Goodra",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_096_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Dragon",
-        "HP": "160",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Power Whip",
-            "Beat Slider"
-        ],
-        "Move-Energy": [
-            "C",
-            "WYC"
-        ],
-        "Move-Damage": [
-            null,
-            "130"
-        ],
-        "Effects": [
-            "This attack does 20 damage times the amount of Energy attached to this Pok\u00e9mon to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoki Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131012%2Fsm-guardians-rising-goodra",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Goodra-GRI96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-098",
@@ -3740,7 +3740,7 @@
         "Effects": [
             "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "(You can't use more than 1 GX attack in a game. )"
+            "(You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -4280,7 +4280,7 @@
         "Effects": [
             "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
             "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 70 more damage.",
-            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -4348,20 +4348,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Aqua-Patch-V1-GRI119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-121",
-        "Name": "Choice Band",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_121_R_EN_LG.png",
-        "Pack": null,
-        "Description": "The attacks of the Pok\u00e9mon this card is attached to do 30 more damage to your opponent's Active Pok\u00e9mon-GX or Active Pok\u00e9mon-EX (before applying Weakness and Resistance).",
-        "Illustrator": "Eske Yoshinob",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131041%2Fsm-guardians-rising-choice-band",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Choice-Band-V1-GRI121?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-120",
         "Name": "Brooklet Hill",
         "Card-Type": "Stadium",
@@ -4376,18 +4362,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Brooklet-Hill-GRI120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-122",
-        "Name": "Energy Loto",
-        "Card-Type": "Item",
+        "ID": "GRI-121",
+        "Name": "Choice Band",
+        "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_122_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_121_R_EN_LG.png",
         "Pack": null,
-        "Description": "Look at the top 7 cards of your deck. You may reveal an Energy card you find there and put it into your hand. Shuffle the other cards back into your deck.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131042%2Fsm-guardians-rising-energy-loto",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Energy-Loto-GRI122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "The attacks of the Pok\u00e9mon this card is attached to do 30 more damage to your opponent's Active Pok\u00e9mon-GX or Active Pok\u00e9mon-EX (before applying Weakness and Resistance).",
+        "Illustrator": "Eske Yoshinob",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131041%2Fsm-guardians-rising-choice-band",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Choice-Band-V1-GRI121?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-121a",
@@ -4404,6 +4390,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Choice-Band-V2-GRI121a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GRI-122",
+        "Name": "Energy Loto",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_122_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Look at the top 7 cards of your deck. You may reveal an Energy card you find there and put it into your hand. Shuffle the other cards back into your deck.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131042%2Fsm-guardians-rising-energy-loto",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Energy-Loto-GRI122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GRI-123",
         "Name": "Energy Recycler",
         "Card-Type": "Item",
@@ -4418,20 +4418,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Energy-Recycler-GRI123?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-124a",
-        "Name": "Enhanced Hammer",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_124a_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F185982%2Fleague-and-championship-cards-enhanced-hammer-124a-145-league-promo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Enhanced-Hammer-V3-GRI124a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-124",
         "Name": "Enhanced Hammer",
         "Card-Type": "Item",
@@ -4444,6 +4430,20 @@
         "Illustrator": "Yoshinobu Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131044%2Fsm-guardians-rising-enhanced-hammer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Enhanced-Hammer-V1-GRI124?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-124a",
+        "Name": "Enhanced Hammer",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_124a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F185982%2Fleague-and-championship-cards-enhanced-hammer-124a-145-league-promo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Enhanced-Hammer-V3-GRI124a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-125",
@@ -4474,20 +4474,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Field-Blower-V3-GRI125a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GRI-127",
-        "Name": "Mallow",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_127_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131047%2Fsm-guardians-rising-mallow",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Mallow-V1-GRI127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GRI-126",
         "Name": "Hala",
         "Card-Type": "Supporter",
@@ -4500,6 +4486,20 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131046%2Fsm-guardians-rising-hala",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Hala-V1-GRI126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-127",
+        "Name": "Mallow",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_127_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131047%2Fsm-guardians-rising-mallow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Mallow-V1-GRI127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-128",
@@ -4600,7 +4600,7 @@
         "Effects": [
             "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack (even if this Pok\u00e9mon is Knocked Out), put 8 damage counters on the Attacking Pok\u00e9mon.",
             "Discard 2 [R] Energy from this Pok\u00e9mon.",
-            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -4638,9 +4638,9 @@
             null
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -4680,7 +4680,7 @@
         "Effects": [
             "",
             "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
-            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -4720,7 +4720,7 @@
         "Effects": [
             "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -4760,7 +4760,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -4800,7 +4800,7 @@
         "Effects": [
             "Flip 4 coins. This attack does 30 damage for each heads.",
             "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
-            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
+            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4840,7 +4840,7 @@
         ],
         "Effects": [
             "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
-            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -4850,6 +4850,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130969%2Fsm-guardians-rising-tapu-lele-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Tapu-Lele-GX-V2-GRI137?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-138",
+        "Name": "Lycanroc-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_138_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "200",
+        "Ability": [
+            "Bloodthirsty Eyes"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Claw Slash",
+            "Dangerous Rogue-GX"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FC"
+        ],
+        "Move-Damage": [
+            "110",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "",
+            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130985%2Fsm-guardians-rising-lycanroc-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lycanroc-GX-V2-GRI138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-139",
@@ -4880,7 +4920,7 @@
         ],
         "Effects": [
             "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -4920,7 +4960,7 @@
         "Effects": [
             "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
             "",
-            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -4930,46 +4970,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131007%2Fsm-guardians-rising-sylveon-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Sylveon-GX-V2-GRI140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-138",
-        "Name": "Lycanroc-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_138_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "200",
-        "Ability": [
-            "Bloodthirsty Eyes"
-        ],
-        "Ability-Effect": [
-            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Claw Slash",
-            "Dangerous Rogue-GX"
-        ],
-        "Move-Energy": [
-            "FCC",
-            "FC"
-        ],
-        "Move-Damage": [
-            "110",
-            "50\u00d7"
-        ],
-        "Effects": [
-            "",
-            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130985%2Fsm-guardians-rising-lycanroc-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Lycanroc-GX-V2-GRI138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-141",
@@ -5000,7 +5000,7 @@
         "Effects": [
             "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "(You can't use more than 1 GX attack in a game. )"
+            "(You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -5040,7 +5040,7 @@
         "Effects": [
             "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
             "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 70 more damage.",
-            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5122,7 +5122,7 @@
         ],
         "Effects": [
             "",
-            "Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game. )"
+            "Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -5162,7 +5162,7 @@
         "Effects": [
             "This attack does 20 more damage for each of your Benched [R] Pok\u00e9mon.",
             "Flip 2 coins. This attack does 50 more damage for each heads.",
-            "Your opponent's Active Pok\u00e9mon is now Burned. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Burned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -5202,7 +5202,7 @@
         "Effects": [
             "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack (even if this Pok\u00e9mon is Knocked Out), put 8 damage counters on the Attacking Pok\u00e9mon.",
             "Discard 2 [R] Energy from this Pok\u00e9mon.",
-            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Attach 5 [R] Energy cards from your discard pile to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -5242,7 +5242,7 @@
         "Effects": [
             "This attack does 20 more damage times the amount of [W] Energy attached to your Pok\u00e9mon.",
             "Discard an Energy from your opponent's Active Pok\u00e9mon.",
-            "Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -5280,9 +5280,9 @@
             null
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Move all damage counters from this Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -5322,7 +5322,7 @@
         "Effects": [
             "",
             "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
-            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -5362,7 +5362,7 @@
         "Effects": [
             "Attach an Energy card from your discard pile to this Pok\u00e9mon.",
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 60 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -5372,46 +5372,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130949%2Fsm-guardians-rising-vikavolt-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Vikavolt-GX-V3-GRI152?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-154",
-        "Name": "Toxapex-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_154_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "210",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spike Cannon",
-            "Super Intense Poison",
-            "Total Shelter-GX"
-        ],
-        "Move-Energy": [
-            "P",
-            "PPP",
-            "PPP"
-        ],
-        "Move-Damage": [
-            "30\u00d7",
-            null,
-            "150"
-        ],
-        "Effects": [
-            "Flip 4 coins. This attack does 30 damage for each heads.",
-            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
-            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130965%2Fsm-guardians-rising-toxapex-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Toxapex-GX-V3-GRI154?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-153",
@@ -5442,7 +5402,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage times the amount of Energy attached to all of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -5452,6 +5412,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130953%2Fsm-guardians-rising-tapu-koko-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Tapu-Koko-GX-V3-GRI153?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-154",
+        "Name": "Toxapex-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_154_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spike Cannon",
+            "Super Intense Poison",
+            "Total Shelter-GX"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP",
+            "PPP"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            null,
+            "150"
+        ],
+        "Effects": [
+            "Flip 4 coins. This attack does 30 damage for each heads.",
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 10 damage counters instead of 1 on that Pok\u00e9mon between turns.",
+            "Prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F130965%2Fsm-guardians-rising-toxapex-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Toxapex-GX-V3-GRI154?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-155",
@@ -5482,7 +5482,7 @@
         ],
         "Effects": [
             "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
-            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -5522,7 +5522,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage for each of your opponent's Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -5562,7 +5562,7 @@
         ],
         "Effects": [
             "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -5602,7 +5602,7 @@
         ],
         "Effects": [
             "This Pok\u00e9mon can't use Giga Hammer during your next turn.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -5642,7 +5642,7 @@
         "Effects": [
             "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
             "",
-            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 of your opponent's Benched Pok\u00e9mon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -5682,7 +5682,7 @@
         "Effects": [
             "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "(You can't use more than 1 GX attack in a game. )"
+            "(You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -5722,7 +5722,7 @@
         "Effects": [
             "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
             "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 70 more damage.",
-            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5732,20 +5732,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131035%2Fsm-guardians-rising-drampa-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Drampa-GX-V3-GRI160?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GRI-162",
-        "Name": "Enhanced Hammer",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_162_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131058%2Fsm-guardians-rising-enhanced-hammer-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Enhanced-Hammer-V2-GRI162?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-161",
@@ -5760,6 +5746,20 @@
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131057%2Fsm-guardians-rising-aqua-patch-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Aqua-Patch-V2-GRI161?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GRI-162",
+        "Name": "Enhanced Hammer",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_162_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a Special Energy attached to 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131058%2Fsm-guardians-rising-enhanced-hammer-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Enhanced-Hammer-V2-GRI162?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GRI-163",
@@ -5798,7 +5798,7 @@
         "Rarity": "Secret Rare",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/GRI/GRI_165_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F131061%2Fsm-guardians-rising-rare-candy-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Guardians-Rising/Rare-Candy-GRI165?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"

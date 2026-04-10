@@ -1,5 +1,41 @@
 [
     {
+        "ID": "RG-001",
+        "Name": "Beedrill",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex6/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Sting",
+            "Link Needle"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned.",
+            "This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one) you have in play."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83769%2Fpokemon-firered-and-leafgreen-beedrill",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Beedrill-FL1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "RG-002",
         "Name": "Butterfree",
         "Rarity": "Holo Rare",
@@ -38,42 +74,6 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84065%2Fpokemon-firered-and-leafgreen-butterfree",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Butterfree-FL2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "RG-001",
-        "Name": "Beedrill",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex6/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Poison Sting",
-            "Link Needle"
-        ],
-        "Move-Energy": [
-            "G",
-            "GCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "50+"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Poisoned.",
-            "This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one) you have in play."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83769%2Fpokemon-firered-and-leafgreen-beedrill",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Beedrill-FL1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-003",
@@ -128,7 +128,7 @@
             "Form Variation"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your discard pile for a Basic Pok\u00e9mon (excluding Pok\u00e9mon-ex and Ditto) and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) Place Ditto in the discard pile."
+            "Once during your turn (before your attack), you may search your discard pile for a Basic Pok\u00e9mon (excluding Pok\u00e9mon-ex and Ditto) and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) Place Ditto in the discard pile."
         ],
         "Moves": [
             "Energy Ball"
@@ -228,6 +228,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Kangaskhan-FL6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "RG-007",
+        "Name": "Marowak",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex6/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Linear Attack",
+            "Vengeance"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 30 damage plus 10 more damage for each Basic Pok\u00e9mon and each Evolution card in your discard pile. You can't add more than 60 damage in this way."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87226%2Fpokemon-firered-and-leafgreen-marowak",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Marowak-FL7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "RG-008",
         "Name": "Nidoking",
         "Rarity": "Holo Rare",
@@ -256,7 +292,7 @@
         ],
         "Effects": [
             "If the Defending Pok\u00e9mon already has any damage counters on it, the Defending Pok\u00e9mon is now Poisoned.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Nidoking can't use Bound Crush during your next turn."
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Nidoking can't use Bound Crush during your next turn."
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -266,42 +302,6 @@
         "Illustrator": "Hisao Nakamura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87696%2Fpokemon-firered-and-leafgreen-nidoking",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Nidoking-FL8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "RG-007",
-        "Name": "Marowak",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex6/7_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Linear Attack",
-            "Vengeance"
-        ],
-        "Move-Energy": [
-            "FC",
-            "FCC"
-        ],
-        "Move-Damage": [
-            null,
-            "30+"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Does 30 damage plus 10 more damage for each Basic Pok\u00e9mon and each Evolution card in your discard pile. You can't add more than 60 damage in this way."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87226%2Fpokemon-firered-and-leafgreen-marowak",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Marowak-FL7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-009",
@@ -560,7 +560,7 @@
         ],
         "Effects": [
             "Snorlax is now Asleep.",
-            "If Snorlax is Asleep, this attack does 30 damage plus 30 more damage. (This attack can be used even if Snorlax is Asleep. )"
+            "If Snorlax is Asleep, this attack does 30 damage plus 30 more damage. (This attack can be used even if Snorlax is Asleep.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -704,7 +704,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Asleep.",
-            "Flip a coin. If heads, Chansey does 50 damage to the Defending Pok\u00e9mon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5. )"
+            "Flip a coin. If heads, Chansey does 50 damage to the Defending Pok\u00e9mon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -714,42 +714,6 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84173%2Fpokemon-firered-and-leafgreen-chansey",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Chansey-FL19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "RG-021",
-        "Name": "Dodrio",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex6/21_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "70",
-        "Ability": [
-            "Retreat Aid"
-        ],
-        "Ability-Effect": [
-            "As long as Dodrio is on your Bench, you pay [C][C] less to retreat your Active Pok\u00e9mon (excluding Pok\u00e9mon-ex and Baby Pok\u00e9mon. )"
-        ],
-        "Moves": [
-            "Tri Attack"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "20\u00d7"
-        ],
-        "Effects": [
-            "Flip 3 coins. This attack does 20 damage times the number of heads."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84850%2Fpokemon-firered-and-leafgreen-dodrio",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Dodrio-FL21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-020",
@@ -790,6 +754,42 @@
         "Illustrator": "Aya Kusube",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84373%2Fpokemon-firered-and-leafgreen-cloyster",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Cloyster-FL20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-021",
+        "Name": "Dodrio",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex6/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "Retreat Aid"
+        ],
+        "Ability-Effect": [
+            "As long as Dodrio is on your Bench, you pay [C][C] less to retreat your Active Pok\u00e9mon (excluding Pok\u00e9mon-ex and Baby Pok\u00e9mon.)"
+        ],
+        "Moves": [
+            "Tri Attack"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84850%2Fpokemon-firered-and-leafgreen-dodrio",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Dodrio-FL21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-022",
@@ -891,7 +891,7 @@
             "50"
         ],
         "Effects": [
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -1156,42 +1156,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmeleon-FL31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-033",
-        "Name": "Exeggcute",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex6/33_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Psybeam",
-            "Double Spin"
-        ],
-        "Move-Energy": [
-            "P",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20\u00d7"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "Flip 2 coins. This attack does 20 damage times the number of heads."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85346%2Fpokemon-firered-and-leafgreen-exeggcute",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Exeggcute-FL33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-032",
         "Name": "Drowzee",
         "Rarity": "Uncommon",
@@ -1226,6 +1190,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84973%2Fpokemon-firered-and-leafgreen-drowsee",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Drowzee-FL32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-033",
+        "Name": "Exeggcute",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex6/33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psybeam",
+            "Double Spin"
+        ],
+        "Move-Energy": [
+            "P",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Flip 2 coins. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85346%2Fpokemon-firered-and-leafgreen-exeggcute",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Exeggcute-FL33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-034",
@@ -1360,7 +1360,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1370,42 +1370,6 @@
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86719%2Fpokemon-firered-and-leafgreen-lickitung",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Lickitung-FL37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "RG-039",
-        "Name": "Metapod",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex6/39_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": [
-            "Energy Protection"
-        ],
-        "Ability-Effect": [
-            "Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can't reduce more than 30 damage in this way."
-        ],
-        "Moves": [
-            "Sharpen"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87389%2Fpokemon-firered-and-leafgreen-metapod",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Metapod-FL39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-038",
@@ -1442,6 +1406,42 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87173%2Fpokemon-firered-and-leafgreen-mankey",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Mankey-FL38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-039",
+        "Name": "Metapod",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex6/39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": [
+            "Energy Protection"
+        ],
+        "Ability-Effect": [
+            "Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can't reduce more than 30 damage in this way."
+        ],
+        "Moves": [
+            "Sharpen"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87389%2Fpokemon-firered-and-leafgreen-metapod",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Metapod-FL39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-040",
@@ -1540,7 +1540,7 @@
         ],
         "Effects": [
             "",
-            "Choose up to 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Onix can't attack during your next turn."
+            "Choose up to 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Onix can't attack during your next turn."
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1550,6 +1550,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87879%2Fpokemon-firered-and-leafgreen-onix",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Onix-FL42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-043",
+        "Name": "Parasect",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex6/43_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Powder",
+            "Toxic Spore"
+        ],
+        "Move-Energy": [
+            "G",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 basic Energy cards and attach them to any of your Pok\u00e9mon (excluding Pok\u00e9mon-ex) in any way you like. Shuffle your deck afterward.",
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87957%2Fpokemon-firered-and-leafgreen-parasect",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Parasect-FL43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-044",
@@ -1590,42 +1626,6 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87984%2Fpokemon-firered-and-leafgreen-persian",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Persian-FL44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "RG-043",
-        "Name": "Parasect",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex6/43_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Energy Powder",
-            "Toxic Spore"
-        ],
-        "Move-Energy": [
-            "G",
-            "GC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 basic Energy cards and attach them to any of your Pok\u00e9mon (excluding Pok\u00e9mon-ex) in any way you like. Shuffle your deck afterward.",
-            "The Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87957%2Fpokemon-firered-and-leafgreen-parasect",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Parasect-FL43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-045",
@@ -1736,46 +1736,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Porygon-FL47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-049",
-        "Name": "Venomoth",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex6/49_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": [
-            "Protective Dust"
-        ],
-        "Ability-Effect": [
-            "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Sleep Poison",
-            "Razor Wind"
-        ],
-        "Move-Energy": [
-            "G",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep and Poisoned.",
-            "Flip a coin. If tails, this attack does nothing."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90301%2Fpokemon-firered-and-leafgreen-venomoth",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Venomoth-FL49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-048",
         "Name": "Raticate",
         "Rarity": "Uncommon",
@@ -1814,6 +1774,46 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88603%2Fpokemon-firered-and-leafgreen-raticate",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Raticate-FL48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-049",
+        "Name": "Venomoth",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex6/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Protective Dust"
+        ],
+        "Ability-Effect": [
+            "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Sleep Poison",
+            "Razor Wind"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep and Poisoned.",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90301%2Fpokemon-firered-and-leafgreen-venomoth",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Venomoth-FL49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-050",
@@ -2192,7 +2192,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2436,7 +2436,7 @@
         ],
         "Effects": [
             "Flip a coin. If tails, this attack does nothing.",
-            "Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp. ) Shuffle your deck afterward."
+            "Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2543,7 +2543,7 @@
             "20"
         ],
         "Effects": [
-            "Reveal cards from your deck until you reveal a Basic Pok\u00e9mon. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don't reveal a Basic Pok\u00e9mon, shuffle all the revealed cards back into your deck. )",
+            "Reveal cards from your deck until you reveal a Basic Pok\u00e9mon. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don't reveal a Basic Pok\u00e9mon, shuffle all the revealed cards back into your deck.)",
             ""
         ],
         "Weakness": "Psychic",
@@ -3182,20 +3182,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/EXP-ALL-FL91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-093",
-        "Name": "Life Herb",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex6/93_hires.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, heal 60 damage and remove all Special Conditions from 1 of your Pok\u00e9mon.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86731%2Fpokemon-firered-and-leafgreen-life-herb",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Life-Herb-FL93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-092",
         "Name": "Great Ball",
         "Card-Type": "Item",
@@ -3208,6 +3194,20 @@
         "Illustrator": "Nakaoka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85895%2Fpokemon-firered-and-leafgreen-great-ball",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Great-Ball-FL92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-093",
+        "Name": "Life Herb",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex6/93_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, heal 60 damage and remove all Special Conditions from 1 of your Pok\u00e9mon.",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86731%2Fpokemon-firered-and-leafgreen-life-herb",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Life-Herb-FL93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-094",
@@ -3238,20 +3238,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Poke-Ball-FL95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-097",
-        "Name": "Pok\u00e9mon Reversal",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex6/97_hires.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, choose 1 of your opponent's Benched Pok\u00e9mon and switch it with your opponent's Active Pok\u00e9mon.",
-        "Illustrator": "Hiromichi Sugiyama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88239%2Fpokemon-firered-and-leafgreen-pokemon-reversal",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Pokemon-Reversal-FL97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-096",
         "Name": "Pok\u00e9Dex HANDY909",
         "Card-Type": "Item",
@@ -3264,6 +3250,20 @@
         "Illustrator": "K. Utsunomiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88201%2Fpokemon-firered-and-leafgreen-pokedex-handy909",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/PokeDex-HANDY909-FL96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-097",
+        "Name": "Pok\u00e9mon Reversal",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex6/97_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, choose 1 of your opponent's Benched Pok\u00e9mon and switch it with your opponent's Active Pok\u00e9mon.",
+        "Illustrator": "Hiromichi Sugiyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88239%2Fpokemon-firered-and-leafgreen-pokemon-reversal",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Pokemon-Reversal-FL97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-098",
@@ -3322,20 +3322,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Potion-FL101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-103",
-        "Name": "Multi Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex6/103_hires.png",
-        "Pack": null,
-        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play. ) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87630%2Fpokemon-firered-and-leafgreen-multi-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Multi-Energy-FL103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-102",
         "Name": "Switch",
         "Card-Type": "Item",
@@ -3348,6 +3334,56 @@
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89712%2Fpokemon-firered-and-leafgreen-switch",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Switch-FL102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-103",
+        "Name": "Multi Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex6/103_hires.png",
+        "Pack": null,
+        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87630%2Fpokemon-firered-and-leafgreen-multi-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Multi-Energy-FL103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-104",
+        "Name": "Blastoise ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex6/104_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "150",
+        "Ability": [
+            "Energy Rain"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may attach a [W] Energy card from your hand to 1 of your Pok\u00e9mon. Put 1 damage counter on that Pok\u00e9mon. This power can't be used if Blastoise ex is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Hyper Whirlpool"
+        ],
+        "Move-Energy": [
+            "WWWC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. For each heads, your opponent discards an Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83900%2Fpokemon-firered-and-leafgreen-blastoise-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Blastoise-ex-FL104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-105",
@@ -3390,42 +3426,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charizard-ex-FL105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-104",
-        "Name": "Blastoise ex",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex6/104_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "150",
-        "Ability": [
-            "Energy Rain"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may attach a [W] Energy card from your hand to 1 of your Pok\u00e9mon. Put 1 damage counter on that Pok\u00e9mon. This power can't be used if Blastoise ex is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Hyper Whirlpool"
-        ],
-        "Move-Energy": [
-            "WWWC"
-        ],
-        "Move-Damage": [
-            "80"
-        ],
-        "Effects": [
-            "Flip a coin until you get tails. For each heads, your opponent discards an Energy card attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Hikaru Koike",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83900%2Fpokemon-firered-and-leafgreen-blastoise-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Blastoise-ex-FL104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-106",
         "Name": "Clefable ex",
         "Rarity": "Ultra Rare",
@@ -3449,7 +3449,7 @@
             "40"
         ],
         "Effects": [
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack. ) (No matter what type that Pok\u00e9mon is, Clefable ex's type is still [C]. ) Clefable ex performs that attack.",
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type that Pok\u00e9mon is, Clefable ex's type is still [C].) Clefable ex performs that attack.",
             ""
         ],
         "Weakness": "Fighting",
@@ -3606,6 +3606,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Mr-Mime-ex-FL110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "RG-111",
+        "Name": "Mr. Mime ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex6/111_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": [
+            "Magic Evens"
+        ],
+        "Ability-Effect": [
+            "If Mr. Mime ex would be damaged by an attack, prevent that attack's damage done to Mr. Mime ex if that damage is 20, 40, 60, 80, 100, 120, 140, 160, or 180."
+        ],
+        "Moves": [
+            "Breakdown"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87599%2Fpokemon-firered-and-leafgreen-mr-mime-ex-111-112",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Mr-Mime-ex-FL111?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "RG-112",
         "Name": "Venusaur ex",
         "Rarity": "Ultra Rare",
@@ -3644,42 +3680,6 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90323%2Fpokemon-firered-and-leafgreen-venusaur-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Venusaur-ex-FL112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "RG-111",
-        "Name": "Mr. Mime ex",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex6/111_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": [
-            "Magic Evens"
-        ],
-        "Ability-Effect": [
-            "If Mr. Mime ex would be damaged by an attack, prevent that attack's damage done to Mr. Mime ex if that damage is 20, 40, 60, 80, 100, 120, 140, 160, or 180."
-        ],
-        "Moves": [
-            "Breakdown"
-        ],
-        "Move-Energy": [
-            "PC"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pok\u00e9mon."
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87599%2Fpokemon-firered-and-leafgreen-mr-mime-ex-111-112",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Mr-Mime-ex-FL111?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "RG-113",
@@ -3754,42 +3754,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Articuno-ex-FL114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "RG-116",
-        "Name": "Zapdos ex",
-        "Rarity": "Secret Rare",
-        "Image": "https://images.pokemontcg.io/ex6/116_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "110",
-        "Ability": [
-            "Legendary Ascent"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you put Zapdos ex from your hand onto your Bench, you may switch 1 of your Active Pok\u00e9mon with Zapdos ex. If you do, you may also move any number of basic [L] Energy cards attached to your Pok\u00e9mon to Zapdos ex."
-        ],
-        "Moves": [
-            "Electron Crush"
-        ],
-        "Move-Energy": [
-            "LLC"
-        ],
-        "Move-Damage": [
-            "50+"
-        ],
-        "Effects": [
-            "You may discard an Energy card attached to Zapdos ex. If you do, this attack does 50 damage plus 20 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90723%2Fpokemon-firered-and-leafgreen-zapdos-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Zapdos-ex-FL116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "RG-115",
         "Name": "Moltres ex",
         "Rarity": "Secret Rare",
@@ -3824,5 +3788,41 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87566%2Fpokemon-firered-and-leafgreen-moltres-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Moltres-ex-FL115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "RG-116",
+        "Name": "Zapdos ex",
+        "Rarity": "Secret Rare",
+        "Image": "https://images.pokemontcg.io/ex6/116_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "110",
+        "Ability": [
+            "Legendary Ascent"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Zapdos ex from your hand onto your Bench, you may switch 1 of your Active Pok\u00e9mon with Zapdos ex. If you do, you may also move any number of basic [L] Energy cards attached to your Pok\u00e9mon to Zapdos ex."
+        ],
+        "Moves": [
+            "Electron Crush"
+        ],
+        "Move-Energy": [
+            "LLC"
+        ],
+        "Move-Damage": [
+            "50+"
+        ],
+        "Effects": [
+            "You may discard an Energy card attached to Zapdos ex. If you do, this attack does 50 damage plus 20 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90723%2Fpokemon-firered-and-leafgreen-zapdos-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Zapdos-ex-FL116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

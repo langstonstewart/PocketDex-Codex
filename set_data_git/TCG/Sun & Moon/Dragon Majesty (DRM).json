@@ -1,5 +1,37 @@
 [
     {
+        "ID": "DRM-001",
+        "Name": "Charmander",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fire Fang"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "tetsuya koizumi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175263%2Fdragon-majesty-charmander",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Charmander-DRM1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DRM-002",
         "Name": "Charmeleon",
         "Rarity": "Uncommon",
@@ -34,38 +66,6 @@
         "Illustrator": "kodama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175269%2Fdragon-majesty-charmeleon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Charmeleon-DRM2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DRM-001",
-        "Name": "Charmander",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_001_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fire Fang"
-        ],
-        "Move-Energy": [
-            "RC"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Burned."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "tetsuya koizumi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175263%2Fdragon-majesty-charmander",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Charmander-DRM1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-003",
@@ -196,7 +196,7 @@
             "90"
         ],
         "Effects": [
-            "Discard a [R] Energy from this Pok\u00e9mon. This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard a [R] Energy from this Pok\u00e9mon. This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -240,6 +240,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Victini-V1-DRM7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DRM-008",
+        "Name": "Darumaka",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_008_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Damage Rush"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175276%2Fdragon-majesty-darumaka",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Darumaka-DRM8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DRM-009",
         "Name": "Darmanitan",
         "Rarity": "Uncommon",
@@ -276,78 +308,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Darmanitan-DRM9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-008",
-        "Name": "Darumaka",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_008_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Damage Rush"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "Flip a coin until you get tails. This attack does 30 more damage for each heads."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175276%2Fdragon-majesty-darumaka",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Darumaka-DRM8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DRM-011",
-        "Name": "Reshiram-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_011_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "180",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Flame Charge",
-            "Scorching Column",
-            "Vermilion-GX"
-        ],
-        "Move-Energy": [
-            "C",
-            "RRRC",
-            "RRRC"
-        ],
-        "Move-Damage": [
-            null,
-            "110",
-            "180"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 [R] Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck.",
-            "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "You may attach up to 5 [R] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "PLANETA Otani",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175347%2Fdragon-majesty-reshiram-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Reshiram-GX-V1-DRM11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-010",
         "Name": "Heatmor",
         "Rarity": "Uncommon",
@@ -382,6 +342,46 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175312%2Fdragon-majesty-heatmor",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Heatmor-DRM10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-011",
+        "Name": "Reshiram-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flame Charge",
+            "Scorching Column",
+            "Vermilion-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "RRRC",
+            "RRRC"
+        ],
+        "Move-Damage": [
+            null,
+            "110",
+            "180"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 [R] Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck.",
+            "Your opponent's Active Pok\u00e9mon is now Burned.",
+            "You may attach up to 5 [R] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Otani",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175347%2Fdragon-majesty-reshiram-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Reshiram-GX-V1-DRM11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-012",
@@ -452,38 +452,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Salandit-DRM13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-015",
-        "Name": "Horsea",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_015_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Splatter"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175369%2Fdragon-majesty-horsea-15",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Horsea-DRM15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-014",
         "Name": "Salazzle",
         "Rarity": "Uncommon",
@@ -518,6 +486,38 @@
         "Illustrator": "Naoki Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175366%2Fdragon-majesty-salazzle",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Salazzle-DRM14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-015",
+        "Name": "Horsea",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splatter"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175369%2Fdragon-majesty-horsea-15",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Horsea-DRM15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-016",
@@ -612,7 +612,7 @@
         "Effects": [
             "This attack does 50 more damage times the amount of [W] Energy attached to this Pok\u00e9mon.",
             "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-            "This attack does 40 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 40 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -715,7 +715,7 @@
             "70+"
         ],
         "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This attack does 10 more damage times the amount of [W] Energy attached to this Pok\u00e9mon."
         ],
         "Weakness": "Grass",
@@ -764,42 +764,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Totodile-DRM22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-024",
-        "Name": "Feraligatr",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_024_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "160",
-        "Ability": [
-            "Downpour"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may discard a [W] Energy card from your hand."
-        ],
-        "Moves": [
-            "Riptide"
-        ],
-        "Move-Energy": [
-            "WW"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "This attack does 20 more damage for each [W] Energy card in your discard pile. Then, shuffle those cards into your deck."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175386%2Fdragon-majesty-feraligatr",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Feraligatr-DRM24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-023",
         "Name": "Croconaw",
         "Rarity": "Uncommon",
@@ -834,6 +798,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175385%2Fdragon-majesty-croconaw",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Croconaw-DRM23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-024",
+        "Name": "Feraligatr",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_024_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "160",
+        "Ability": [
+            "Downpour"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may discard a [W] Energy card from your hand."
+        ],
+        "Moves": [
+            "Riptide"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each [W] Energy card in your discard pile. Then, shuffle those cards into your deck."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175386%2Fdragon-majesty-feraligatr",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Feraligatr-DRM24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-025",
@@ -908,6 +908,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Quagsire-DRM26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DRM-027",
+        "Name": "Corsola",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_027_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble Shoot"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage times the amount of [W] Energy attached to this Pok\u00e9mon to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175400%2Fdragon-majesty-corsola",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Corsola-DRM27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DRM-028",
         "Name": "Feebas",
         "Rarity": "Common",
@@ -944,38 +976,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Feebas-DRM28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-027",
-        "Name": "Corsola",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_027_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bubble Shoot"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "This attack does 20 damage times the amount of [W] Energy attached to this Pok\u00e9mon to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175400%2Fdragon-majesty-corsola",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Corsola-DRM27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-029",
         "Name": "Milotic",
         "Rarity": "Uncommon",
@@ -1000,7 +1000,7 @@
         ],
         "Effects": [
             "Your opponent's Active Pok\u00e9mon is now Confused.",
-            "This attack does 40 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 40 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1048,38 +1048,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Phione-DRM30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-032",
-        "Name": "Trapinch",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_032_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mini Earthquake"
-        ],
-        "Move-Energy": [
-            "F"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175425%2Fdragon-majesty-trapinch",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Trapinch-DRM32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-031",
         "Name": "Wishiwashi",
         "Rarity": "Common",
@@ -1116,36 +1084,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Wishiwashi-DRM31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-034",
-        "Name": "Dratini",
+        "ID": "DRM-032",
+        "Name": "Trapinch",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_034_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_032_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Dragon",
+        "Type": "Fighting",
         "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Wrap"
+            "Mini Earthquake"
         ],
         "Move-Energy": [
-            "L"
+            "F"
         ],
         "Move-Damage": [
-            "10"
+            "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
-        "Weakness": "Fairy",
+        "Weakness": "Grass",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Ayaka Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175438%2Fdragon-majesty-dratini-34",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dratini-DRM34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175425%2Fdragon-majesty-trapinch",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Trapinch-DRM32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-033",
@@ -1182,6 +1150,38 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175431%2Fdragon-majesty-hydreigon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Hydreigon-DRM33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-034",
+        "Name": "Dratini",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_034_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wrap"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ayaka Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175438%2Fdragon-majesty-dratini-34",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dratini-DRM34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-035",
@@ -1280,7 +1280,7 @@
         "Effects": [
             "",
             "This Pok\u00e9mon can't attack during your next turn.",
-            "Put 3 [N] Pok\u00e9mon from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game. )"
+            "Put 3 [N] Pok\u00e9mon from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -1336,7 +1336,7 @@
             "Dragon Guard"
         ],
         "Ability-Effect": [
-            "Prevent all effects of your opponent's attacks, except damage, done to your [N] Pok\u00e9mon. (Existing effects are not removed. )"
+            "Prevent all effects of your opponent's attacks, except damage, done to your [N] Pok\u00e9mon. (Existing effects are not removed.)"
         ],
         "Moves": [
             "Sand Tomb"
@@ -1358,42 +1358,6 @@
         "Illustrator": "Shigenori Negishi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175456%2Fdragon-majesty-flygon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Flygon-DRM39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DRM-040a",
-        "Name": "Altaria",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_040a_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Dragon",
-        "HP": "80",
-        "Ability": [
-            "Fight Song"
-        ],
-        "Ability-Effect": [
-            "Your [N] Pok\u00e9mon's attacks do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
-        ],
-        "Moves": [
-            "Pierce"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin Nagasawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F184219%2Falternate-art-promos-altaria",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-V2-DRM40a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-040",
@@ -1432,6 +1396,82 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-V1-DRM40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DRM-040a",
+        "Name": "Altaria",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_040a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "80",
+        "Ability": [
+            "Fight Song"
+        ],
+        "Ability-Effect": [
+            "Your [N] Pok\u00e9mon's attacks do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Pierce"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F184219%2Falternate-art-promos-altaria",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-V2-DRM40a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-041",
+        "Name": "Altaria-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_041_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bright Tone",
+            "Sonic Edge",
+            "Euphoria-GX"
+        ],
+        "Move-Energy": [
+            "YC",
+            "WYC",
+            "YC"
+        ],
+        "Move-Damage": [
+            "50",
+            "110",
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX.",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "Your opponent's Active Pok\u00e9mon is now Asleep. Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175467%2Fdragon-majesty-altaria-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-GX-V1-DRM41?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DRM-042",
         "Name": "Bagon",
         "Rarity": "Common",
@@ -1466,46 +1506,6 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175468%2Fdragon-majesty-bagon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Bagon-DRM42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DRM-041",
-        "Name": "Altaria-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_041_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Dragon",
-        "HP": "200",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bright Tone",
-            "Sonic Edge",
-            "Euphoria-GX"
-        ],
-        "Move-Energy": [
-            "YC",
-            "WYC",
-            "YC"
-        ],
-        "Move-Damage": [
-            "50",
-            "110",
-            null
-        ],
-        "Effects": [
-            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175467%2Fdragon-majesty-altaria-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-GX-V1-DRM41?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-043",
@@ -1572,7 +1572,7 @@
         ],
         "Effects": [
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -1680,7 +1680,7 @@
         ],
         "Effects": [
             "This attack does 10 more damage for each damage counter on this Pok\u00e9mon.",
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -1720,7 +1720,7 @@
         "Effects": [
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
             "If this Pok\u00e9mon has any damage counters on it, this attack does 80 more damage.",
-            "Your opponent's Active Pok\u00e9mon is now Burned and Paralyzed. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Burned and Paralyzed. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -2052,20 +2052,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Swablu-DRM57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-059",
-        "Name": "Dragon Talon",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_059_R_EN_LG.png",
-        "Pack": null,
-        "Description": "If the [N] Pok\u00e9mon this card is attached to is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if that Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon.",
-        "Illustrator": "Toyste Beach",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175489%2Fdragon-majesty-dragon-talon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dragon-Talon-V1-DRM59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-058",
         "Name": "Blaine's Last Stand",
         "Card-Type": "Supporter",
@@ -2078,6 +2064,20 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175488%2Fdragon-majesty-blaines-last-stand",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Blaines-Last-Stand-V1-DRM58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-059",
+        "Name": "Dragon Talon",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_059_R_EN_LG.png",
+        "Pack": null,
+        "Description": "If the [N] Pok\u00e9mon this card is attached to is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if that Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175489%2Fdragon-majesty-dragon-talon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dragon-Talon-V1-DRM59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-060",
@@ -2192,7 +2192,7 @@
         "Effects": [
             "Search your deck for up to 2 [R] Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck.",
             "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "You may attach up to 5 [R] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "You may attach up to 5 [R] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2202,46 +2202,6 @@
         "Illustrator": "PLANETA Igarashi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175495%2Fdragon-majesty-reshiram-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Reshiram-GX-V2-DRM65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DRM-067",
-        "Name": "Dragonite-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_067_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Dragon",
-        "HP": "250",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dragon Claw",
-            "Giga Impact",
-            "Dragonporter-GX"
-        ],
-        "Move-Energy": [
-            "L",
-            "WLCC",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "70",
-            "200",
-            null
-        ],
-        "Effects": [
-            "",
-            "This Pok\u00e9mon can't attack during your next turn.",
-            "Put 3 [N] Pok\u00e9mon from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175497%2Fdragon-majesty-dragonite-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dragonite-GX-V2-DRM67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-066",
@@ -2272,7 +2232,7 @@
         "Effects": [
             "This attack does 50 more damage times the amount of [W] Energy attached to this Pok\u00e9mon.",
             "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-            "This attack does 40 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 40 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2282,6 +2242,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175496%2Fdragon-majesty-kingdra-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Kingdra-GX-V2-DRM66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-067",
+        "Name": "Dragonite-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_067_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "250",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dragon Claw",
+            "Giga Impact",
+            "Dragonporter-GX"
+        ],
+        "Move-Energy": [
+            "L",
+            "WLCC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "70",
+            "200",
+            null
+        ],
+        "Effects": [
+            "",
+            "This Pok\u00e9mon can't attack during your next turn.",
+            "Put 3 [N] Pok\u00e9mon from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175497%2Fdragon-majesty-dragonite-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dragonite-GX-V2-DRM67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-068",
@@ -2312,7 +2312,7 @@
         "Effects": [
             "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX.",
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Asleep. Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -2352,46 +2352,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Zinnia-V2-DRM70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-072",
-        "Name": "Altaria-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_072_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Dragon",
-        "HP": "200",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bright Tone",
-            "Sonic Edge",
-            "Euphoria-GX"
-        ],
-        "Move-Energy": [
-            "YC",
-            "WYC",
-            "YC"
-        ],
-        "Move-Damage": [
-            "50",
-            "110",
-            null
-        ],
-        "Effects": [
-            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175502%2Fdragon-majesty-altaria-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-GX-V3-DRM72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DRM-071",
         "Name": "Reshiram-GX",
         "Rarity": "Rainbow Rare",
@@ -2420,7 +2380,7 @@
         "Effects": [
             "Search your deck for up to 2 [R] Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck.",
             "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "You may attach up to 5 [R] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "You may attach up to 5 [R] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2430,6 +2390,46 @@
         "Illustrator": "PLANETA Igarashi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175501%2Fdragon-majesty-reshiram-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Reshiram-GX-V3-DRM71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-072",
+        "Name": "Altaria-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bright Tone",
+            "Sonic Edge",
+            "Euphoria-GX"
+        ],
+        "Move-Energy": [
+            "YC",
+            "WYC",
+            "YC"
+        ],
+        "Move-Damage": [
+            "50",
+            "110",
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX.",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "Your opponent's Active Pok\u00e9mon is now Asleep. Heal all damage from all of your Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175502%2Fdragon-majesty-altaria-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Altaria-GX-V3-DRM72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-073",
@@ -2460,7 +2460,7 @@
         ],
         "Effects": [
             "Discard 2 Energy from this Pok\u00e9mon.",
-            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -2470,20 +2470,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175503%2Fdragon-majesty-salamence-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Salamence-GX-V2-DRM73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DRM-075",
-        "Name": "Dragon Talon",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_075_R_EN_LG.png",
-        "Pack": null,
-        "Description": "If the [N] Pok\u00e9mon this card is attached to is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if that Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon.",
-        "Illustrator": "Toyste Beach",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175505%2Fdragon-majesty-dragon-talon-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dragon-Talon-V2-DRM75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-074",
@@ -2514,7 +2500,7 @@
         "Effects": [
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
             "If this Pok\u00e9mon has any damage counters on it, this attack does 80 more damage.",
-            "Your opponent's Active Pok\u00e9mon is now Burned and Paralyzed. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Burned and Paralyzed. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -2526,18 +2512,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/White-Kyurem-GX-V2-DRM74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DRM-077",
-        "Name": "Switch Raft",
-        "Card-Type": "Item",
+        "ID": "DRM-075",
+        "Name": "Dragon Talon",
+        "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_077_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_075_R_EN_LG.png",
         "Pack": null,
-        "Description": "Switch your Active [W] Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If you do, heal 30 damage from the Pok\u00e9mon you moved to your Bench.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175507%2Fdragon-majesty-switch-raft-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Switch-Raft-V2-DRM77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "If the [N] Pok\u00e9mon this card is attached to is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if that Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175505%2Fdragon-majesty-dragon-talon-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Dragon-Talon-V2-DRM75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-076",
@@ -2552,6 +2538,20 @@
         "Illustrator": "Eske Yoshinob",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175506%2Fdragon-majesty-fiery-flint-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Fiery-Flint-V2-DRM76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DRM-077",
+        "Name": "Switch Raft",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DRM/DRM_077_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Switch your Active [W] Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If you do, heal 30 damage from the Pok\u00e9mon you moved to your Bench.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175507%2Fdragon-majesty-switch-raft-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Dragon-Majesty/Switch-Raft-V2-DRM77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DRM-078",
@@ -2578,7 +2578,7 @@
         ],
         "Effects": [
             "Discard all basic [P] Energy from this Pok\u00e9mon. This attack does 80 more damage for each card you discarded in this way.",
-            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,

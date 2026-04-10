@@ -103,7 +103,7 @@
             "60"
         ],
         "Effects": [
-            "Discard up to 5 [F] Energy cards attached to Armaldo. For each Energy card you discarded, choose an opponent's Pok\u00e9mon in play and this attack does 20 damage to those Pok\u00e9mon. (You may choose the same Pok\u00e9mon more than once. ) This attack's damage isn't affected by Weakness or Resistance.",
+            "Discard up to 5 [F] Energy cards attached to Armaldo. For each Energy card you discarded, choose an opponent's Pok\u00e9mon in play and this attack does 20 damage to those Pok\u00e9mon. (You may choose the same Pok\u00e9mon more than once.) This attack's damage isn't affected by Weakness or Resistance.",
             "This attack's damage isn't affected by Resistance."
         ],
         "Weakness": "Grass",
@@ -176,7 +176,7 @@
             "50"
         ],
         "Effects": [
-            "Discard a [R] Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard a [R] Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -507,7 +507,7 @@
             "50"
         ],
         "Effects": [
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If Phoebe's Stadium is in play, the Defending Pok\u00e9mon is now Confused."
         ],
         "Weakness": "Darkness",
@@ -664,42 +664,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Mightyena-PK18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-020",
-        "Name": "Omastar",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex16/20_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Pull Down",
-            "Hydrocannon"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "30+"
-        ],
-        "Effects": [
-            "If your opponent has any Evolved Pok\u00e9mon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.",
-            "Does 30 damage plus 20 more damage for each [W] Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87869%2Fpokemon-power-keepers-omastar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Omastar-PK20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-019",
         "Name": "Ninetales",
         "Rarity": "Rare",
@@ -738,6 +702,42 @@
         "Illustrator": "Tomoaki Imakuni",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87771%2Fpokemon-power-keepers-ninetales",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Ninetales-PK19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-020",
+        "Name": "Omastar",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex16/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pull Down",
+            "Hydrocannon"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "If your opponent has any Evolved Pok\u00e9mon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.",
+            "Does 30 damage plus 20 more damage for each [W] Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87869%2Fpokemon-power-keepers-omastar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Omastar-PK20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-021",
@@ -1000,42 +1000,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Cacturne-PK27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-029",
-        "Name": "Combusken",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex16/29_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "80",
-        "Ability": [
-            "Natural Cure"
-        ],
-        "Ability-Effect": [
-            "When you attach a [R] Energy card from your hand to Combusken, remove all Special Conditions from Combusken."
-        ],
-        "Moves": [
-            "Lunge"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "50"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, this attack does nothing."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84410%2Fpokemon-power-keepers-combusken",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Combusken-PK29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-028",
         "Name": "Charmeleon",
         "Rarity": "Uncommon",
@@ -1070,6 +1034,42 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84230%2Fpokemon-power-keepers-charmeleon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Charmeleon-PK28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-029",
+        "Name": "Combusken",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex16/29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": [
+            "Natural Cure"
+        ],
+        "Ability-Effect": [
+            "When you attach a [R] Energy card from your hand to Combusken, remove all Special Conditions from Combusken."
+        ],
+        "Moves": [
+            "Lunge"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84410%2Fpokemon-power-keepers-combusken",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Combusken-PK29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-030",
@@ -1544,6 +1544,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Aron-PK42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PK-043",
+        "Name": "Bagon",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex16/43_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Retaliate"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Does 10 damage times the number of damage counters on Bagon."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": "Fire/Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83696%2Fpokemon-power-keepers-bagon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Bagon-PK43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PK-044",
         "Name": "Baltoy",
         "Rarity": "Common",
@@ -1580,36 +1612,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Baltoy-PK44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-043",
-        "Name": "Bagon",
+        "ID": "PK-045",
+        "Name": "Beldum",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex16/43_hires.png",
+        "Image": "https://images.pokemontcg.io/ex16/45_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Colorless",
+        "Type": "Metal",
         "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Retaliate"
+            "Magnetic Lines"
         ],
         "Move-Energy": [
-            "C"
+            "M"
         ],
         "Move-Damage": [
-            "10\u00d7"
+            "10"
         ],
         "Effects": [
-            "Does 10 damage times the number of damage counters on Bagon."
+            "Flip a coin. If heads, move a basic Energy card from the Defending Pok\u00e9mon to another of your opponent's Pok\u00e9mon. (Ignore this effect if your opponent has only 1 Pok\u00e9mon.)"
         ],
-        "Weakness": "Colorless",
-        "Resistance": "Fire/Fighting",
-        "Retreat-Cost": "1",
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83696%2Fpokemon-power-keepers-bagon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Bagon-PK43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83787%2Fpokemon-power-keepers-beldum",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Beldum-PK45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-046",
@@ -1642,70 +1674,6 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84074%2Fpokemon-power-keepers-cacnea",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Cacnea-PK46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PK-045",
-        "Name": "Beldum",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex16/45_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Magnetic Lines"
-        ],
-        "Move-Energy": [
-            "M"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, move a basic Energy card from the Defending Pok\u00e9mon to another of your opponent's Pok\u00e9mon. (Ignore this effect if your opponent has only 1 Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83787%2Fpokemon-power-keepers-beldum",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Beldum-PK45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PK-048",
-        "Name": "Charmander",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex16/48_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Smokescreen"
-        ],
-        "Move-Energy": [
-            "R"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sachiko Adachi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84214%2Fpokemon-power-keepers-charmander",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Charmander-PK48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-047",
@@ -1742,6 +1710,38 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84113%2Fpokemon-power-keepers-carvanha",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Carvanha-PK47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-048",
+        "Name": "Charmander",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex16/48_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smokescreen"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sachiko Adachi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84214%2Fpokemon-power-keepers-charmander",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Charmander-PK48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-049",
@@ -1812,42 +1812,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Duskull-PK50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-052",
-        "Name": "Lileep",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex16/52_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Surprise",
-            "Acid"
-        ],
-        "Move-Energy": [
-            "GC",
-            "GCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40"
-        ],
-        "Effects": [
-            "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86788%2Fpokemon-power-keepers-lileep",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Lileep-PK52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-051",
         "Name": "Kabuto",
         "Rarity": "Common",
@@ -1882,6 +1846,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86385%2Fpokemon-power-keepers-kabuto",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Kabuto-PK51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-052",
+        "Name": "Lileep",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex16/52_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surprise",
+            "Acid"
+        ],
+        "Move-Energy": [
+            "GC",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86788%2Fpokemon-power-keepers-lileep",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Lileep-PK52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-053",
@@ -1944,7 +1944,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -2295,7 +2295,7 @@
             "20\u00d7"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip 2 coins. This attack does 20 damage times the number of heads."
         ],
         "Weakness": "Metal",
@@ -2568,20 +2568,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Energy-Removal-2-PK74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-076",
-        "Name": "Glacia's Stadium",
-        "Card-Type": "Stadium",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex16/76_hires.png",
-        "Pack": null,
-        "Description": "Each player's [W] Pok\u00e9mon (excluding Pok\u00e9mon-ex) has no Weakness.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85751%2Fpokemon-power-keepers-glacias-stadium",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Glacias-Stadium-PK76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-075",
         "Name": "Energy Switch",
         "Card-Type": "Item",
@@ -2594,6 +2580,20 @@
         "Illustrator": "Ken Ikuji",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85256%2Fpokemon-power-keepers-energy-switch",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Energy-Switch-PK75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-076",
+        "Name": "Glacia's Stadium",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex16/76_hires.png",
+        "Pack": null,
+        "Description": "Each player's [W] Pok\u00e9mon (excluding Pok\u00e9mon-ex) has no Weakness.",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85751%2Fpokemon-power-keepers-glacias-stadium",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Glacias-Stadium-PK76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-077",
@@ -2624,20 +2624,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Master-Ball-PK78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-080",
-        "Name": "Professor Birch",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex16/80_hires.png",
-        "Pack": null,
-        "Description": "Draw cards from your deck until you have 6 cards in your hand.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88383%2Fpokemon-power-keepers-professor-birch",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Professor-Birch-PK80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-079",
         "Name": "Phoebe's Stadium",
         "Card-Type": "Stadium",
@@ -2650,6 +2636,20 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88010%2Fpokemon-power-keepers-phoebes-stadium",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Phoebes-Stadium-PK79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-080",
+        "Name": "Professor Birch",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex16/80_hires.png",
+        "Pack": null,
+        "Description": "Draw cards from your deck until you have 6 cards in your hand.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88383%2Fpokemon-power-keepers-professor-birch",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Professor-Birch-PK80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-081",
@@ -2707,7 +2707,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex16/84_hires.png",
         "Pack": null,
-        "Description": "Play Claw Fossil as if it were a Basic Pok\u00e9mon. While in play, Claw Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Claw Fossil from play.                                                    Ability:                          Jagged Stone                                              If Claw Fossil is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Claw Fossil is Knocked Out), put 1 damage counter on the Attacking Pok\u00e9mon.",
+        "Description": "Play Claw Fossil as if it were a Basic Pok\u00e9mon. While in play, Claw Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Claw Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84331%2Fpokemon-power-keepers-claw-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Claw-Fossil-PK84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2722,7 +2722,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex16/85_hires.png",
         "Pack": null,
-        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
+        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87665%2Fpokemon-power-keepers-mysterious-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Mysterious-Fossil-PK85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2741,7 +2741,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex16/86_hires.png",
         "Pack": null,
-        "Description": "Play Root Fossil as if it were a Basic Pok\u00e9mon. While in play, Root Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Root Fossil from play.                                                    Ability:                          Spongy Stone                                              At any time between turns, remove 1 damage counter from Root Fossil.",
+        "Description": "Play Root Fossil as if it were a Basic Pok\u00e9mon. While in play, Root Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Root Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88813%2Fpokemon-power-keepers-root-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Root-Fossil-PK86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2755,7 +2755,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex16/87_hires.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84688%2Fpokemon-power-keepers-darkness-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Darkness-Energy-PK87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2769,7 +2769,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex16/88_hires.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87361%2Fpokemon-power-keepers-metal-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Metal-Energy-PK88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2783,24 +2783,10 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex16/89_hires.png",
         "Pack": null,
-        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play. ) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
+        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87633%2Fpokemon-power-keepers-multi-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Multi-Energy-PK89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PK-091",
-        "Name": "Warp Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex16/91_hires.png",
-        "Pack": null,
-        "Description": "This card provides [C] Energy. When you attach this card from your hand to your Active Pok\u00e9mon, switch that Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-        "Illustrator": "Shin-ichi Yoshikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90474%2Fpokemon-power-keepers-warp-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Warp-Energy-PK91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-090",
@@ -2815,6 +2801,20 @@
         "Illustrator": "Shin-ichi Yoshikawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84541%2Fpokemon-power-keepers-cyclone-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Cyclone-Energy-PK90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-091",
+        "Name": "Warp Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex16/91_hires.png",
+        "Pack": null,
+        "Description": "This card provides [C] Energy. When you attach this card from your hand to your Active Pok\u00e9mon, switch that Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Shin-ichi Yoshikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90474%2Fpokemon-power-keepers-warp-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Warp-Energy-PK91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-092",
@@ -2841,7 +2841,7 @@
             "30"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -2953,7 +2953,7 @@
             "70"
         ],
         "Effects": [
-            "Does 70 damage to each of your opponent's Benched Pok\u00e9mon that has the same name as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 70 damage to each of your opponent's Benched Pok\u00e9mon that has the same name as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -2989,7 +2989,7 @@
         ],
         "Effects": [
             "Discard the top 5 cards from your deck.",
-            "Discard all [W] Energy attached to Salamence ex. This attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard all [W] Energy attached to Salamence ex. This attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Colorless",
         "Resistance": "Fire/Fighting",
@@ -3024,8 +3024,8 @@
             "60"
         ],
         "Effects": [
-            "Look at your opponent's hand and choose a Basic Pok\u00e9mon or Evolution card you find there. Choose 1 of that Pok\u00e9mon's attacks. Skill Hack copies that attack except for its Energy cost. (You must still do anything else required for that attack. ) (No matter what type that Pok\u00e9mon is, Shiftry ex's type is still [D]. ) Shiftry ex performs that attack.",
-            "Does 60 damage to each of your opponent's Benched Pok\u00e9mon that has the same name as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Look at your opponent's hand and choose a Basic Pok\u00e9mon or Evolution card you find there. Choose 1 of that Pok\u00e9mon's attacks. Skill Hack copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pok\u00e9mon is, Shiftry ex's type is still [D].) Shiftry ex performs that attack.",
+            "Does 60 damage to each of your opponent's Benched Pok\u00e9mon that has the same name as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Psychic",
@@ -3113,42 +3113,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Walrein-ex-PK99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-101",
-        "Name": "Jolteon Star",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex16/101_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "70",
-        "Ability": [
-            "Yellow Ray"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you put Jolteon Star from your hand onto your Bench, you may put 1 damage counter on each Active Pok\u00e9mon (both yours and your opponent's)."
-        ],
-        "Moves": [
-            "Agility"
-        ],
-        "Move-Energy": [
-            "LLC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Jolteon Star during your opponent's next turn."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86351%2Fpokemon-power-keepers-jolteon-star",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Jolteon-Gold-Star-PK101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-100",
         "Name": "Flareon Star",
         "Rarity": "Ultra Rare",
@@ -3183,6 +3147,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85503%2Fpokemon-power-keepers-flareon-star",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Flareon-Gold-Star-PK100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-101",
+        "Name": "Jolteon Star",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex16/101_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": [
+            "Yellow Ray"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Jolteon Star from your hand onto your Bench, you may put 1 damage counter on each Active Pok\u00e9mon (both yours and your opponent's)."
+        ],
+        "Moves": [
+            "Agility"
+        ],
+        "Move-Energy": [
+            "LLC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Jolteon Star during your opponent's next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86351%2Fpokemon-power-keepers-jolteon-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Jolteon-Gold-Star-PK101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PK-102",
@@ -3277,20 +3277,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Lightning-Energy-PK106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PK-108",
-        "Name": "Fighting Energy",
-        "Card-Type": "Basic Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex16/108_hires.png",
-        "Pack": null,
-        "Description": "",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85441%2Fpokemon-power-keepers-fighting-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Fighting-Energy-PK108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PK-107",
         "Name": "Psychic Energy",
         "Card-Type": "Basic Energy",
@@ -3303,5 +3289,19 @@
         "Illustrator": null,
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88422%2Fpokemon-power-keepers-psychic-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Psychic-Energy-PK107?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PK-108",
+        "Name": "Fighting Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex16/108_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85441%2Fpokemon-power-keepers-fighting-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Power-Keepers/Fighting-Energy-PK108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

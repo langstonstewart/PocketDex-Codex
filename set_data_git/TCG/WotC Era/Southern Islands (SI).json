@@ -1,5 +1,37 @@
 [
     {
+        "ID": "SI-001",
+        "Name": "Mew",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/si1/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rainbow Wave"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose a type of Energy other than [C] attached to Mew. This attack does 20 damage to each of your opponent's Pok\u00e9mon of that type (including Benched Pok\u00e9mon). Don't apply Weakness and Resistance."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiko Fukuyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46466%2Fpokemon-southern-islands-mew",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Mew-SI1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SI-002",
         "Name": "Pidgeot",
         "Rarity": null,
@@ -34,70 +66,6 @@
         "Illustrator": "Keiko Fukuyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46476%2Fpokemon-southern-islands-pidgeot",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Pidgeot-SI2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SI-001",
-        "Name": "Mew",
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/si1/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rainbow Wave"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Choose a type of Energy other than [C] attached to Mew. This attack does 20 damage to each of your opponent's Pok\u00e9mon of that type (including Benched Pok\u00e9mon). Don't apply Weakness and Resistance."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Keiko Fukuyama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46466%2Fpokemon-southern-islands-mew",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Mew-SI1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SI-004",
-        "Name": "Togepi",
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/si1/4_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bawl"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": null,
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Keiko Fukuyama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46478%2Fpokemon-southern-islands-togepi",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Togepi-SI4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SI-003",
@@ -136,6 +104,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Onix-SI3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SI-004",
+        "Name": "Togepi",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/si1/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bawl"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": null,
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiko Fukuyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46478%2Fpokemon-southern-islands-togepi",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Togepi-SI4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SI-005",
         "Name": "Ivysaur",
         "Rarity": null,
@@ -159,7 +159,7 @@
             "30"
         ],
         "Effects": [
-            "Each player flips a coin. Each player who gets heads chooses a total of 3 damage counters from among his or her Pok\u00e9mon and removes them. (If the player's Pok\u00e9mon have fewer total damage counters than that, he or she removes all of them. )",
+            "Each player flips a coin. Each player who gets heads chooses a total of 3 damage counters from among his or her Pok\u00e9mon and removes them. (If the player's Pok\u00e9mon have fewer total damage counters than that, he or she removes all of them.)",
             ""
         ],
         "Weakness": "Fire",
@@ -384,38 +384,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Marill-SI11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SI-013",
-        "Name": "Exeggutor",
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/si1/13_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sharpshooter"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. Flip a number of coins equal to the number of [G] Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pok\u00e9mon. Don't apply Weakness and Resistance."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46470%2Fpokemon-southern-islands-exeggutor",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Exeggutor-SI13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SI-012",
         "Name": "Lapras",
         "Rarity": null,
@@ -452,36 +420,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Lapras-SI12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SI-015",
-        "Name": "Wartortle",
+        "ID": "SI-013",
+        "Name": "Exeggutor",
         "Rarity": null,
-        "Image": "https://images.pokemontcg.io/si1/15_hires.png",
+        "Image": "https://images.pokemontcg.io/si1/13_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "60",
+        "Type": "Grass",
+        "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Water Gun"
+            "Sharpshooter"
         ],
         "Move-Energy": [
-            "WW"
+            "G"
         ],
         "Move-Damage": [
-            "20+"
+            null
         ],
         "Effects": [
-            "Does 20 damage plus 10 more damage for each [W] Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            "Choose 1 of your opponent's Pok\u00e9mon. Flip a number of coins equal to the number of [G] Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pok\u00e9mon. Don't apply Weakness and Resistance."
         ],
-        "Weakness": "Lightning",
+        "Weakness": "Fire",
         "Resistance": null,
-        "Retreat-Cost": "1",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46472%2Fpokemon-southern-islands-wartortle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Wartortle-SI15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46470%2Fpokemon-southern-islands-exeggutor",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Exeggutor-SI13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SI-014",
@@ -520,40 +488,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Slowking-SI14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SI-017",
-        "Name": "Vileplume",
+        "ID": "SI-015",
+        "Name": "Wartortle",
         "Rarity": null,
-        "Image": "https://images.pokemontcg.io/si1/17_hires.png",
+        "Image": "https://images.pokemontcg.io/si1/15_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "70",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Paradise Pollen",
-            "Horrid Pollen"
+            "Water Gun"
         ],
         "Move-Energy": [
-            "G",
-            "GGC"
+            "WW"
         ],
         "Move-Damage": [
-            null,
-            "30"
+            "20+"
         ],
         "Effects": [
-            "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pok\u00e9mon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1).",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, the Defending Pok\u00e9mon is now Confused."
+            "Does 20 damage plus 10 more damage for each [W] Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
         ],
-        "Weakness": "Fire",
+        "Weakness": "Lightning",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46474%2Fpokemon-southern-islands-vileplume",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Vileplume-SI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46472%2Fpokemon-southern-islands-wartortle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Wartortle-SI15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SI-016",
@@ -590,6 +554,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46473%2Fpokemon-southern-islands-lickitung",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Lickitung-SI16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SI-017",
+        "Name": "Vileplume",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/si1/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Paradise Pollen",
+            "Horrid Pollen"
+        ],
+        "Move-Energy": [
+            "G",
+            "GGC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pok\u00e9mon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1).",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46474%2Fpokemon-southern-islands-vileplume",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Southern-Islands/Vileplume-SI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SI-018",

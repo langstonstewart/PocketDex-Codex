@@ -260,7 +260,7 @@
         ],
         "Effects": [
             "You may move any amount of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "This attack does 60 damage for each Energy attached to this Pok\u00e9mon. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game. )"
+            "This attack does 60 damage for each Energy attached to this Pok\u00e9mon. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -270,42 +270,6 @@
         "Illustrator": "PLANETA Mochizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F450290%2Fswsh12-silver-tempest-serperior-vstar",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Serperior-VSTAR-V1-SIT008?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-010",
-        "Name": "Hisuian Lilligant",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_010_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Swelling Scent",
-            "Spiral Kick"
-        ],
-        "Move-Energy": [
-            "0",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 [G] Energy cards and attach them to your Benched Pok\u00e9mon in any way you like. Then, shuffle your deck.",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451630%2Fswsh12-silver-tempest-hisuian-lilligant",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Hisuian-Lilligant-SIT010?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-009",
@@ -344,6 +308,74 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Petilil-SIT009?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-010",
+        "Name": "Hisuian Lilligant",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Swelling Scent",
+            "Spiral Kick"
+        ],
+        "Move-Energy": [
+            "0",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 [G] Energy cards and attach them to your Benched Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451630%2Fswsh12-silver-tempest-hisuian-lilligant",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Hisuian-Lilligant-SIT010?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-011",
+        "Name": "Foongus",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Saya Tsuruta",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451632%2Fswsh12-silver-tempest-foongus",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Foongus-SIT011?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-012",
         "Name": "Amoonguss",
         "Rarity": "Rare",
@@ -378,38 +410,6 @@
         "Illustrator": "GOSSAN",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451633%2Fswsh12-silver-tempest-amoonguss",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Amoonguss-SIT012?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-011",
-        "Name": "Foongus",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_011_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ram"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Saya Tsuruta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451632%2Fswsh12-silver-tempest-foongus",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Foongus-SIT011?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-013",
@@ -484,42 +484,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Virizion-SIT014?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-016",
-        "Name": "Radiant Tsareena",
-        "Rarity": "Radiant Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_016_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "140",
-        "Ability": [
-            "Elegant Heal"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, you may heal 20 damage from each of your Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Aroma Shot"
-        ],
-        "Move-Energy": [
-            "GCC"
-        ],
-        "Move-Damage": [
-            "90"
-        ],
-        "Effects": [
-            "This Pok\u00e9mon recovers from all Special Conditions."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451645%2Fswsh12-silver-tempest-radiant-tsareena",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Radiant-Tsareena-SIT016?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-015",
         "Name": "Chesnaught V",
         "Rarity": "Double Rare",
@@ -554,6 +518,42 @@
         "Illustrator": "N-DESIGN Inc.",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451643%2Fswsh12-silver-tempest-chesnaught-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Chesnaught-V-V1-SIT015?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-016",
+        "Name": "Radiant Tsareena",
+        "Rarity": "Radiant Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "140",
+        "Ability": [
+            "Elegant Heal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may heal 20 damage from each of your Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Aroma Shot"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon recovers from all Special Conditions."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451645%2Fswsh12-silver-tempest-radiant-tsareena",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Radiant-Tsareena-SIT016?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-017",
@@ -944,42 +944,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Delphox-SIT027?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-029",
-        "Name": "Talonflame",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_029_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fire",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Quick Dive",
-            "Merciless Strike"
-        ],
-        "Move-Energy": [
-            "R",
-            "R"
-        ],
-        "Move-Damage": [
-            null,
-            "80+"
-        ],
-        "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "If your opponent's Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "KEIICHIRO ITO",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451660%2Fswsh12-silver-tempest-talonflame",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Talonflame-SIT029?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-028",
         "Name": "Fletchinder",
         "Rarity": "Uncommon",
@@ -1010,6 +974,42 @@
         "Illustrator": "Narumi Sato",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451659%2Fswsh12-silver-tempest-fletchinder",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Fletchinder-SIT028?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-029",
+        "Name": "Talonflame",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_029_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Dive",
+            "Merciless Strike"
+        ],
+        "Move-Energy": [
+            "R",
+            "R"
+        ],
+        "Move-Damage": [
+            null,
+            "80+"
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If your opponent's Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "KEIICHIRO ITO",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451660%2Fswsh12-silver-tempest-talonflame",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Talonflame-SIT029?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-030",
@@ -1084,42 +1084,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Torracat-SIT031?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-033",
-        "Name": "Alolan Vulpix V",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_033_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "190",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "White Drop",
-            "Frost Smash"
-        ],
-        "Move-Energy": [
-            "0",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "10+",
-            "110"
-        ],
-        "Effects": [
-            "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon V, this attack does 50 more damage.",
-            ""
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Ryota Murayama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451665%2Fswsh12-silver-tempest-alolan-vulpix-v",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Alolan-Vulpix-V-V1-SIT033?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-032",
         "Name": "Incineroar",
         "Rarity": "Rare",
@@ -1156,6 +1120,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Incineroar-SIT032?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-033",
+        "Name": "Alolan Vulpix V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_033_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "White Drop",
+            "Frost Smash"
+        ],
+        "Move-Energy": [
+            "0",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "110"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon V, this attack does 50 more damage.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryota Murayama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451665%2Fswsh12-silver-tempest-alolan-vulpix-v",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Alolan-Vulpix-V-V1-SIT033?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-034",
         "Name": "Alolan Vulpix VSTAR",
         "Rarity": "Triple Rare",
@@ -1180,7 +1180,7 @@
         ],
         "Effects": [
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon that have an Ability.",
-            "This attack does 70 damage for each of your opponent's Pok\u00e9mon V in play. This damage isn't affected by Weakness or Resistance.\u00a0(You can't use more than 1 VSTAR Power in a game. )"
+            "This attack does 70 damage for each of your opponent's Pok\u00e9mon V in play. This damage isn't affected by Weakness or Resistance.\u00a0(You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -1190,42 +1190,6 @@
         "Illustrator": "PLANETA Hiiragi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451667%2Fswsh12-silver-tempest-alolan-vulpix-vstar",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Alolan-Vulpix-VSTAR-V1-SIT034?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-036",
-        "Name": "Articuno",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_036_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ice Wing",
-            "Wild Freeze"
-        ],
-        "Move-Energy": [
-            "W",
-            "WW"
-        ],
-        "Move-Damage": [
-            "20",
-            "70"
-        ],
-        "Effects": [
-            "",
-            "This Pok\u00e9mon also does 50 damage to itself. Your opponent's Active Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451669%2Fswsh12-silver-tempest-articuno",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Articuno-SIT036?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-035",
@@ -1262,6 +1226,42 @@
         "Illustrator": "Saki Hayashiro",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451668%2Fswsh12-silver-tempest-omastar-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Omastar-V-V1-SIT035?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-036",
+        "Name": "Articuno",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_036_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Wing",
+            "Wild Freeze"
+        ],
+        "Move-Energy": [
+            "W",
+            "WW"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "",
+            "This Pok\u00e9mon also does 50 damage to itself. Your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451669%2Fswsh12-silver-tempest-articuno",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Articuno-SIT036?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-037",
@@ -1336,42 +1336,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Wailord-SIT038?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-040",
-        "Name": "Milotic",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_040_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Water Arrow",
-            "Mellow Wave"
-        ],
-        "Move-Energy": [
-            "W",
-            "WC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Your opponent's Active Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "KEIICHIRO ITO",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451675%2Fswsh12-silver-tempest-milotic",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Milotic-V1-SIT040?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-039",
         "Name": "Feebas",
         "Rarity": "Common",
@@ -1406,6 +1370,42 @@
         "Illustrator": "0313",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451674%2Fswsh12-silver-tempest-feebas",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Feebas-SIT039?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-040",
+        "Name": "Milotic",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_040_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Arrow",
+            "Mellow Wave"
+        ],
+        "Move-Energy": [
+            "W",
+            "WC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent's Active Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "KEIICHIRO ITO",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451675%2Fswsh12-silver-tempest-milotic",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Milotic-V1-SIT040?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-041",
@@ -1552,42 +1552,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Relicanth-SIT044?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-046",
-        "Name": "Keldeo",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_046_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Wave Splash",
-            "Four as One"
-        ],
-        "Move-Energy": [
-            "W",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "50+"
-        ],
-        "Effects": [
-            "",
-            "If Cobalion, Terrakion, and Virizion are on your Bench, this attack does 170 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsushi Furusawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451690%2Fswsh12-silver-tempest-keldeo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Keldeo-SIT046?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-045",
         "Name": "Phione",
         "Rarity": "Rare",
@@ -1624,6 +1588,74 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Phione-SIT045?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-046",
+        "Name": "Keldeo",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_046_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wave Splash",
+            "Four as One"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "If Cobalion, Terrakion, and Virizion are on your Bench, this attack does 170 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsushi Furusawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451690%2Fswsh12-silver-tempest-keldeo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Keldeo-SIT046?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-047",
+        "Name": "Dewpider",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_047_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hook"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451694%2Fswsh12-silver-tempest-dewpider",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Dewpider-SIT047?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-048",
         "Name": "Araquanid",
         "Rarity": "Uncommon",
@@ -1658,38 +1690,6 @@
         "Illustrator": "DOM",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451696%2Fswsh12-silver-tempest-araquanid",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Araquanid-SIT048?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-047",
-        "Name": "Dewpider",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_047_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Hook"
-        ],
-        "Move-Energy": [
-            "WC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451694%2Fswsh12-silver-tempest-dewpider",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Dewpider-SIT047?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-049",
@@ -1760,42 +1760,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Raichu-SIT050?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-052",
-        "Name": "Lanturn",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_052_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ram",
-            "Strong Volt"
-        ],
-        "Move-Energy": [
-            "L",
-            "LLC"
-        ],
-        "Move-Damage": [
-            "30",
-            "160"
-        ],
-        "Effects": [
-            "",
-            "Discard 2 Energy from this Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "aoki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451707%2Fswsh12-silver-tempest-lanturn",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lanturn-SIT052?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-051",
         "Name": "Chinchou",
         "Rarity": "Common",
@@ -1830,6 +1794,42 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451705%2Fswsh12-silver-tempest-chinchou",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Chinchou-SIT051?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-052",
+        "Name": "Lanturn",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_052_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Strong Volt"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "160"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "aoki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451707%2Fswsh12-silver-tempest-lanturn",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lanturn-SIT052?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-053",
@@ -1928,7 +1928,7 @@
         ],
         "Effects": [
             "",
-            "You can use this attack only if you have no Supporter cards in your discard pile. This attack does 100 damage to 1 of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You can use this attack only if you have no Supporter cards in your discard pile. This attack does 100 damage to 1 of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1976,42 +1976,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Zeraora-SIT056?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-058",
-        "Name": "Regieleki VMAX",
-        "Rarity": "Triple Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_058_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "VMAX",
-        "Type": "Lightning",
-        "HP": "310",
-        "Ability": [
-            "Transistor"
-        ],
-        "Ability-Effect": [
-            "Your Basic [L] Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
-        ],
-        "Moves": [
-            "Max Thunder and Lightning"
-        ],
-        "Move-Energy": [
-            "LCC"
-        ],
-        "Move-Damage": [
-            "220"
-        ],
-        "Effects": [
-            "During your next turn, this Pok\u00e9mon can't attack."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "N-DESIGN Inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F450293%2Fswsh12-silver-tempest-regieleki-vmax",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Regieleki-VMAX-V1-SIT058?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-057",
         "Name": "Regieleki V",
         "Rarity": "Double Rare",
@@ -2046,6 +2010,42 @@
         "Illustrator": "Eske Yoshinob",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451713%2Fswsh12-silver-tempest-regieleki-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Regieleki-V-V1-SIT057?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-058",
+        "Name": "Regieleki VMAX",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_058_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VMAX",
+        "Type": "Lightning",
+        "HP": "310",
+        "Ability": [
+            "Transistor"
+        ],
+        "Ability-Effect": [
+            "Your Basic [L] Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Max Thunder and Lightning"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "220"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't attack."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F450293%2Fswsh12-silver-tempest-regieleki-vmax",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Regieleki-VMAX-V1-SIT058?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-059",
@@ -2224,42 +2224,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Misdreavus-SIT062?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-065",
-        "Name": "Unown V",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_065_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "180",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shady Stamp",
-            "Victory Symbol"
-        ],
-        "Move-Energy": [
-            "P",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "30",
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Confused.",
-            "If you use this attack when you have only 1 Prize card remaining, you win this game."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "N-DESIGN Inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451719%2Fswsh12-silver-tempest-unown-v",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Unown-V-V1-SIT065?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-064",
         "Name": "Mismagius",
         "Rarity": "Rare",
@@ -2296,6 +2260,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Mismagius-SIT064?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-065",
+        "Name": "Unown V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_065_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shady Stamp",
+            "Victory Symbol"
+        ],
+        "Move-Energy": [
+            "P",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30",
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused.",
+            "If you use this attack when you have only 1 Prize card remaining, you win this game."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451719%2Fswsh12-silver-tempest-unown-v",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Unown-V-V1-SIT065?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-066",
         "Name": "Unown VSTAR",
         "Rarity": "Triple Rare",
@@ -2320,7 +2320,7 @@
         ],
         "Effects": [
             "Flip 3 coins. This attack does 70 damage for each heads.",
-            "Until this Pok\u00e9mon leaves play, it gains an Ability that has the effect\u00a0\u201cThe Weakness of each of your opponent's Pok\u00e9mon in play is now [P].\u00a0(The amount of Weakness doesn't change. )\" (You can't use more than 1 VSTAR Power in a game. )"
+            "Until this Pok\u00e9mon leaves play, it gains an Ability that has the effect\u00a0\u201cThe Weakness of each of your opponent's Pok\u00e9mon in play is now [P].\u00a0(The amount of Weakness doesn't change.)\" (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Fighting",
@@ -2484,7 +2484,7 @@
             "Star Rondo"
         ],
         "Ability-Effect": [
-            "During your turn, if this Pok\u00e9mon is on your Bench, you may switch it with your Active Pok\u00e9mon. If you do, switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, if this Pok\u00e9mon is on your Bench, you may switch it with your Active Pok\u00e9mon. If you do, switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Sudden Eater"
@@ -2544,42 +2544,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Meditite-SIT072?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-074",
-        "Name": "Chimecho",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_074_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dreaming Tone",
-            "Hang Down"
-        ],
-        "Move-Energy": [
-            "P",
-            "PC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "During your opponent's next turn, if an Energy card is attached to the Defending Pok\u00e9mon from your opponent's hand, that Pok\u00e9mon will be Asleep.",
-            ""
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451728%2Fswsh12-silver-tempest-chimecho",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Chimecho-SIT074?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-073",
         "Name": "Medicham",
         "Rarity": "Holo Rare",
@@ -2614,6 +2578,42 @@
         "Illustrator": "Aya Kusube",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451727%2Fswsh12-silver-tempest-medicham",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Medicham-SIT073?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-074",
+        "Name": "Chimecho",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_074_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dreaming Tone",
+            "Hang Down"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "During your opponent's next turn, if an Energy card is attached to the Defending Pok\u00e9mon from your opponent's hand, that Pok\u00e9mon will be Asleep.",
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451728%2Fswsh12-silver-tempest-chimecho",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Chimecho-SIT074?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-075",
@@ -2728,7 +2728,7 @@
             "Persistent Cells"
         ],
         "Ability-Effect": [
-            "If this Pok\u00e9mon is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, put it into your hand instead of the discard pile. (Discard all attached cards. )"
+            "If this Pok\u00e9mon is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, put it into your hand instead of the discard pile. (Discard all attached cards.)"
         ],
         "Moves": [
             "Cell Fork"
@@ -2856,42 +2856,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Espurr-SIT081?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-083",
-        "Name": "Swirlix",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_083_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Flop",
-            "Tackle"
-        ],
-        "Move-Energy": [
-            "P",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Asako Ito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451737%2Fswsh12-silver-tempest-swirlix",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Swirlix-SIT083?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-082",
         "Name": "Meowstic",
         "Rarity": "Uncommon",
@@ -2928,10 +2892,10 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Meowstic-SIT082?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-085",
-        "Name": "Dedenne",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_085_R_EN_LG.png",
+        "ID": "SIT-083",
+        "Name": "Swirlix",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_083_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
@@ -2939,29 +2903,29 @@
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Tail Smack",
-            "Dede-Short"
+            "Flop",
+            "Tackle"
         ],
         "Move-Energy": [
-            "C",
-            "L"
+            "P",
+            "CC"
         ],
         "Move-Damage": [
             "10",
-            "60"
+            "20"
         ],
         "Effects": [
             "",
-            "You can use this attack only if 1 of your Togedemaru used Toge Dash during your last turn. Your opponent's Active Pok\u00e9mon is now Paralyzed."
+            ""
         ],
         "Weakness": "Metal",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Shiburingaru",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451739%2Fswsh12-silver-tempest-dedenne",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Asako Ito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451737%2Fswsh12-silver-tempest-swirlix",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Swirlix-SIT083?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-084",
@@ -3000,10 +2964,10 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Slurpuff-SIT084?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-087",
-        "Name": "Dreepy",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_087_R_EN_LG.png",
+        "ID": "SIT-085",
+        "Name": "Dedenne",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_085_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
@@ -3011,25 +2975,29 @@
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Reckless Charge"
+            "Tail Smack",
+            "Dede-Short"
         ],
         "Move-Energy": [
-            "P"
+            "C",
+            "L"
         ],
         "Move-Damage": [
-            "30"
+            "10",
+            "60"
         ],
         "Effects": [
-            "This Pok\u00e9mon also does 10 damage to itself."
+            "",
+            "You can use this attack only if 1 of your Togedemaru used Toge Dash during your last turn. Your opponent's Active Pok\u00e9mon is now Paralyzed."
         ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
+        "Weakness": "Metal",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451741%2Fswsh12-silver-tempest-dreepy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Dreepy-SIT087?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Shiburingaru",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451739%2Fswsh12-silver-tempest-dedenne",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-086",
@@ -3066,6 +3034,38 @@
         "Illustrator": "kodama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451740%2Fswsh12-silver-tempest-indeedee",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Indeedee-SIT086?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-087",
+        "Name": "Dreepy",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_087_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Reckless Charge"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon also does 10 damage to itself."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451741%2Fswsh12-silver-tempest-dreepy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Dreepy-SIT087?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-088",
@@ -3204,42 +3204,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Phanpy-SIT091?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-093",
-        "Name": "Baltoy",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_093_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Find a Friend",
-            "Slap"
-        ],
-        "Move-Energy": [
-            "C",
-            "F"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451747%2Fswsh12-silver-tempest-baltoy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Baltoy-SIT093?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-092",
         "Name": "Donphan",
         "Rarity": "Uncommon",
@@ -3274,6 +3238,42 @@
         "Illustrator": "Anesaki Dynamic",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451746%2Fswsh12-silver-tempest-donphan",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Donphan-SIT092?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-093",
+        "Name": "Baltoy",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_093_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Find a Friend",
+            "Slap"
+        ],
+        "Move-Energy": [
+            "C",
+            "F"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451747%2Fswsh12-silver-tempest-baltoy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Baltoy-SIT093?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-094",
@@ -3380,6 +3380,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Armaldo-SIT096?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-097",
+        "Name": "Terrakion",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_097_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cavern Tackle"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all damage from attacks done to this Pok\u00e9mon. If 1 of your Pok\u00e9mon used Cavern Tackle during your last turn, this attack can't be used."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451751%2Fswsh12-silver-tempest-terrakion",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Terrakion-SIT097?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-098",
         "Name": "Hawlucha",
         "Rarity": "Common",
@@ -3414,38 +3446,6 @@
         "Illustrator": "Teeziro",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451752%2Fswsh12-silver-tempest-hawlucha",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Hawlucha-SIT098?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-097",
-        "Name": "Terrakion",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_097_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Cavern Tackle"
-        ],
-        "Move-Energy": [
-            "FFC"
-        ],
-        "Move-Damage": [
-            "120"
-        ],
-        "Effects": [
-            "During your opponent's next turn, prevent all damage from attacks done to this Pok\u00e9mon. If 1 of your Pok\u00e9mon used Cavern Tackle during your last turn, this attack can't be used."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "nagimiso",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451751%2Fswsh12-silver-tempest-terrakion",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Terrakion-SIT097?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-099",
@@ -3503,7 +3503,7 @@
             "120"
         ],
         "Effects": [
-            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Grass",
@@ -3620,42 +3620,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Zubat-SIT103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-105",
-        "Name": "Crobat",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_105_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Darkness",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Venomous Fang",
-            "Critical Bite"
-        ],
-        "Move-Energy": [
-            "D",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "50",
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Poisoned.",
-            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If 1 of your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 2 more Prize cards."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuya Oka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451759%2Fswsh12-silver-tempest-crobat",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Crobat-SIT105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-104",
         "Name": "Golbat",
         "Rarity": "Uncommon",
@@ -3686,6 +3650,42 @@
         "Illustrator": "Anesaki Dynamic",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451758%2Fswsh12-silver-tempest-golbat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Golbat-SIT104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-105",
+        "Name": "Crobat",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_105_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Venomous Fang",
+            "Critical Bite"
+        ],
+        "Move-Energy": [
+            "D",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "50",
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned.",
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If 1 of your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 2 more Prize cards."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuya Oka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451759%2Fswsh12-silver-tempest-crobat",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Crobat-SIT105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-106",
@@ -3783,7 +3783,7 @@
             "90"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. If that Pok\u00e9mon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. If that Pok\u00e9mon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Your opponent's Active Pok\u00e9mon is now Confused and Poisoned."
         ],
         "Weakness": "Fighting",
@@ -3794,6 +3794,38 @@
         "Illustrator": "MUGENUP",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451762%2Fswsh12-silver-tempest-skuntank-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Skuntank-V-V1-SIT108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-109",
+        "Name": "Croagunk",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_109_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Corkscrew Punch"
+        ],
+        "Move-Energy": [
+            "DC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451763%2Fswsh12-silver-tempest-croagunk",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Croagunk-SIT109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-110",
@@ -3830,38 +3862,6 @@
         "Illustrator": "Uta",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451764%2Fswsh12-silver-tempest-toxicroak",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Toxicroak-SIT110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-109",
-        "Name": "Croagunk",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_109_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Corkscrew Punch"
-        ],
-        "Move-Energy": [
-            "DC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin Nagasawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451763%2Fswsh12-silver-tempest-croagunk",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Croagunk-SIT109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-111",
@@ -3996,38 +3996,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Mareanie-SIT114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-116",
-        "Name": "Morpeko",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_116_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Peko Blaster"
-        ],
-        "Move-Energy": [
-            "L"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "You can use this attack only if 1 of your Dedenne used Dede-Short during your last turn. This attack does 60 damage to each of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "nagimiso",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451770%2Fswsh12-silver-tempest-morpeko",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Morpeko-SIT116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-115",
         "Name": "Toxapex",
         "Rarity": "Uncommon",
@@ -4062,6 +4030,38 @@
         "Illustrator": "Ligton",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451769%2Fswsh12-silver-tempest-toxapex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Toxapex-SIT115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-116",
+        "Name": "Morpeko",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_116_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Peko Blaster"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "You can use this attack only if 1 of your Dedenne used Dede-Short during your last turn. This attack does 60 damage to each of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451770%2Fswsh12-silver-tempest-morpeko",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Morpeko-SIT116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-117",
@@ -4100,6 +4100,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Beldum-SIT117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-118",
+        "Name": "Metang",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_118_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bullet Punch"
+        ],
+        "Move-Energy": [
+            "MC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 30 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451772%2Fswsh12-silver-tempest-metang",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Metang-SIT118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-119",
         "Name": "Metagross",
         "Rarity": "Holo Rare",
@@ -4134,38 +4166,6 @@
         "Illustrator": "Ryuta Fuse",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451773%2Fswsh12-silver-tempest-metagross",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Metagross-SIT119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-118",
-        "Name": "Metang",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_118_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Metal",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bullet Punch"
-        ],
-        "Move-Energy": [
-            "MC"
-        ],
-        "Move-Damage": [
-            "30+"
-        ],
-        "Effects": [
-            "Flip 2 coins. This attack does 30 more damage for each heads."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin Nagasawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451772%2Fswsh12-silver-tempest-metang",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Metang-SIT118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-120",
@@ -4240,38 +4240,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Ferroseed-SIT121?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-123",
-        "Name": "Klink",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_123_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Call Sign"
-        ],
-        "Move-Energy": [
-            "M"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kyoko Umemoto",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451776%2Fswsh12-silver-tempest-klink",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Klink-SIT123?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-122",
         "Name": "Ferrothorn",
         "Rarity": "Uncommon",
@@ -4306,6 +4274,38 @@
         "Illustrator": "Anesaki Dynamic",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451775%2Fswsh12-silver-tempest-ferrothorn",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Ferrothorn-SIT122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-123",
+        "Name": "Klink",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_123_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Call Sign"
+        ],
+        "Move-Energy": [
+            "M"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451776%2Fswsh12-silver-tempest-klink",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Klink-SIT123?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-124",
@@ -4412,42 +4412,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Cobalion-SIT126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-128",
-        "Name": "Magearna V",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_128_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "210",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Gear Throw",
-            "Special Laser"
-        ],
-        "Move-Energy": [
-            "M",
-            "MMC"
-        ],
-        "Move-Damage": [
-            null,
-            "100+"
-        ],
-        "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "If this Pok\u00e9mon has any Special Energy attached, this attack does 120 more damage."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "N-DESIGN Inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451781%2Fswsh12-silver-tempest-magearna-v",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Magearna-V-V1-SIT128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-127",
         "Name": "Togedemaru",
         "Rarity": "Common",
@@ -4478,6 +4442,42 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451780%2Fswsh12-silver-tempest-togedemaru",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Togedemaru-SIT127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-128",
+        "Name": "Magearna V",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_128_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gear Throw",
+            "Special Laser"
+        ],
+        "Move-Energy": [
+            "M",
+            "MMC"
+        ],
+        "Move-Damage": [
+            null,
+            "100+"
+        ],
+        "Effects": [
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If this Pok\u00e9mon has any Special Energy attached, this attack does 120 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451781%2Fswsh12-silver-tempest-magearna-v",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Magearna-V-V1-SIT128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-129",
@@ -4620,42 +4620,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Noibat-SIT132?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-134",
-        "Name": "Zygarde",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_134_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Dragon",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shout of Power",
-            "Speed Attack"
-        ],
-        "Move-Energy": [
-            "G",
-            "GF"
-        ],
-        "Move-Damage": [
-            "20",
-            "70"
-        ],
-        "Effects": [
-            "Attach a basic Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
-            ""
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Misa Tsutsui",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451787%2Fswsh12-silver-tempest-zygarde",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Zygarde-SIT134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-133",
         "Name": "Noivern",
         "Rarity": "Rare",
@@ -4692,6 +4656,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Noivern-SIT133?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-134",
+        "Name": "Zygarde",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_134_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shout of Power",
+            "Speed Attack"
+        ],
+        "Move-Energy": [
+            "G",
+            "GF"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "Attach a basic Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Misa Tsutsui",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451787%2Fswsh12-silver-tempest-zygarde",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Zygarde-SIT134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-135",
         "Name": "Regidrago V",
         "Rarity": "Double Rare",
@@ -4716,7 +4716,7 @@
         ],
         "Effects": [
             "Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pok\u00e9mon.",
-            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -4740,7 +4740,7 @@
             "Legacy Star"
         ],
         "Ability-Effect": [
-            "During your turn, you may discard the top 7 cards of your deck. Then, put up to 2 cards from your discard pile into your hand. (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, you may discard the top 7 cards of your deck. Then, put up to 2 cards from your discard pile into your hand. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Apex Dragon"
@@ -4848,7 +4848,7 @@
             "Summoning Star"
         ],
         "Ability-Effect": [
-            "During your turn, you may put up to 2 [C] Pok\u00e9mon that don't have a Rule Box from your discard pile onto your Bench. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes. ) (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, you may put up to 2 [C] Pok\u00e9mon that don't have a Rule Box from your discard pile onto your Bench. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes.) (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Tempest Dive"
@@ -4928,7 +4928,7 @@
             null
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Confused. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Confused. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5148,6 +5148,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Archeops-SIT147?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-148",
+        "Name": "Rufflet",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_148_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jump On"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kurumitsu",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451797%2Fswsh12-silver-tempest-rufflet",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Rufflet-SIT148?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-149",
         "Name": "Hisuian Braviary",
         "Rarity": "Rare",
@@ -5182,38 +5214,6 @@
         "Illustrator": "Jiro Sasumo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451798%2Fswsh12-silver-tempest-hisuian-braviary",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Hisuian-Braviary-SIT149?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-148",
-        "Name": "Rufflet",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_148_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Jump On"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 30 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kurumitsu",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451797%2Fswsh12-silver-tempest-rufflet",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Rufflet-SIT148?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-150",
@@ -5298,7 +5298,7 @@
         "Rarity": "Holo Rare",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_154_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Pok\u00e9mon V this card is attached to can use the VSTAR Power on this card.\u00a0(You still need the necessary Energy to use this attack. )[C][C][C] Star GravityPut damage counters on each of your opponent's Pok\u00e9mon V until its remaining HP is 100.\u00a0(You can't use more than 1 VSTAR Power in a game. )",
+        "Description": "The Pok\u00e9mon V this card is attached to can use the VSTAR Power on this card.\u00a0(You still need the necessary Energy to use this attack.)[C][C][C] Star GravityPut damage counters on each of your opponent's Pok\u00e9mon V until its remaining HP is 100.\u00a0(You can't use more than 1 VSTAR Power in a game.)",
         "Illustrator": "AYUMI ODASHIMA",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451802%2Fswsh12-silver-tempest-earthen-seal-stone",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Earthen-Seal-Stone-SIT154?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -5318,6 +5318,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Emergency-Jelly-SIT155?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-156",
+        "Name": "Forest Seal Stone",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_156_R_EN_LG.png",
+        "Pack": null,
+        "Description": "The Pok\u00e9mon V this card is attached to can use the VSTAR Power on this card.",
+        "Illustrator": "AYUMI ODASHIMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451804%2Fswsh12-silver-tempest-forest-seal-stone",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Forest-Seal-Stone-SIT156?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-157",
         "Name": "Furisode Girl",
         "Card-Type": "Supporter",
@@ -5330,20 +5344,6 @@
         "Illustrator": "Yusuke Ohmura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451805%2Fswsh12-silver-tempest-furisode-girl",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Furisode-Girl-V1-SIT157?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-156",
-        "Name": "Forest Seal Stone",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_156_R_EN_LG.png",
-        "Pack": null,
-        "Description": "The Pok\u00e9mon V this card is attached to can use the VSTAR Power on this card. Ability: Star AlchemyDuring your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. (You can't use more than 1 VSTAR Power in a game. )",
-        "Illustrator": "AYUMI ODASHIMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451804%2Fswsh12-silver-tempest-forest-seal-stone",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Forest-Seal-Stone-SIT156?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-158",
@@ -5374,20 +5374,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lance-V1-SIT159?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-161",
-        "Name": "Primordial Altar",
-        "Card-Type": "Stadium",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_161_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Once during each player's turn, that player may look at the top card of their deck. They may discard that card.",
-        "Illustrator": "AYUMI ODASHIMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451809%2Fswsh12-silver-tempest-primordial-altar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Primordial-Altar-SIT161?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-160",
         "Name": "Leafy Camo Poncho",
         "Card-Type": "Tool",
@@ -5402,18 +5388,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Leafy-Camo-Poncho-V1-SIT160?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-163",
-        "Name": "Quad Stone",
-        "Card-Type": "Item",
+        "ID": "SIT-161",
+        "Name": "Primordial Altar",
+        "Card-Type": "Stadium",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_163_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_161_R_EN_LG.png",
         "Pack": null,
-        "Description": "You may use 4 Quad Stone cards at once. \u2022 If you used 1 card, heal 10 damage from your Active Pok\u00e9mon. \u2022 If you used 4 cards, heal all damage from each of your Pok\u00e9mon. (This effect works one time for 4 cards. )",
-        "Illustrator": "sadaji",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451811%2Fswsh12-silver-tempest-quad-stone",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Quad-Stone-SIT163?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Once during each player's turn, that player may look at the top card of their deck. They may discard that card.",
+        "Illustrator": "AYUMI ODASHIMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451809%2Fswsh12-silver-tempest-primordial-altar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Primordial-Altar-SIT161?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-162",
@@ -5430,6 +5416,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Professor-Laventon-SIT162?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-163",
+        "Name": "Quad Stone",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_163_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You may use 4 Quad Stone cards at once. \u2022 If you used 1 card, heal 10 damage from your Active Pok\u00e9mon. \u2022 If you used 4 cards, heal all damage from each of your Pok\u00e9mon. (This effect works one time for 4 cards.)",
+        "Illustrator": "sadaji",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451811%2Fswsh12-silver-tempest-quad-stone",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Quad-Stone-SIT163?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-164",
         "Name": "Serena",
         "Card-Type": "Supporter",
@@ -5438,7 +5438,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_164_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose 1:\u2022 Discard up to 3 cards from your hand. (You must discard at least 1 card. )\u00a0If you do, draw cards until you have 5 cards in your hand. \u2022 Switch 1 of your opponent's Benched Pok\u00e9mon V with their Active Pok\u00e9mon.",
+        "Description": "Choose 1:\u2022 Discard up to 3 cards from your hand. (You must discard at least 1 card.)\u00a0If you do, draw cards until you have 5 cards in your hand. \u2022 Switch 1 of your opponent's Benched Pok\u00e9mon V with their Active Pok\u00e9mon.",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451812%2Fswsh12-silver-tempest-serena",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Serena-V1-SIT164?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -5457,6 +5457,20 @@
         "Illustrator": "AYUMI ODASHIMA",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451813%2Fswsh12-silver-tempest-unidentified-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Unidentified-Fossil-SIT165?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-166",
+        "Name": "Wallace",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_166_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 3 cards. Your opponent may draw a card. If they do, draw 1 more card.",
+        "Illustrator": "Megumi Mizutani",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451814%2Fswsh12-silver-tempest-wallace",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Wallace-V1-SIT166?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-167",
@@ -5485,20 +5499,6 @@
         "Illustrator": null,
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451816%2Fswsh12-silver-tempest-regenerative-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Regenerative-Energy-SIT168?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-166",
-        "Name": "Wallace",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_166_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Draw 3 cards. Your opponent may draw a card. If they do, draw 1 more card.",
-        "Illustrator": "Megumi Mizutani",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451814%2Fswsh12-silver-tempest-wallace",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Wallace-V1-SIT166?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-169",
@@ -5898,7 +5898,7 @@
             "90"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. If that Pok\u00e9mon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. If that Pok\u00e9mon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Your opponent's Active Pok\u00e9mon is now Confused and Poisoned."
         ],
         "Weakness": "Fighting",
@@ -5934,7 +5934,7 @@
             "90"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. If that Pok\u00e9mon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. If that Pok\u00e9mon retreated from the Active Spot during your opponent's last turn, this attack does 120 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Your opponent's Active Pok\u00e9mon is now Confused and Poisoned."
         ],
         "Weakness": "Fighting",
@@ -5945,6 +5945,42 @@
         "Illustrator": "Jiro Sasumo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451829%2Fswsh12-silver-tempest-skuntank-v-alternate-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Skuntank-V-V3-SIT181?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-182",
+        "Name": "Magearna V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_182_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gear Throw",
+            "Special Laser"
+        ],
+        "Move-Energy": [
+            "M",
+            "MMC"
+        ],
+        "Move-Damage": [
+            null,
+            "100+"
+        ],
+        "Effects": [
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If this Pok\u00e9mon has any Special Energy attached, this attack does 120 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451830%2Fswsh12-silver-tempest-magearna-v-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Magearna-V-V2-SIT182?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-183",
@@ -5971,7 +6007,7 @@
         ],
         "Effects": [
             "Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pok\u00e9mon.",
-            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -5981,42 +6017,6 @@
         "Illustrator": "N-DESIGN Inc.",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451831%2Fswsh12-silver-tempest-regidrago-v-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Regidrago-V-V2-SIT183?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-182",
-        "Name": "Magearna V",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_182_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "210",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Gear Throw",
-            "Special Laser"
-        ],
-        "Move-Energy": [
-            "M",
-            "MMC"
-        ],
-        "Move-Damage": [
-            null,
-            "100+"
-        ],
-        "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "If this Pok\u00e9mon has any Special Energy attached, this attack does 120 more damage."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "N-DESIGN Inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451830%2Fswsh12-silver-tempest-magearna-v-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Magearna-V-V2-SIT182?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-184",
@@ -6043,7 +6043,7 @@
         ],
         "Effects": [
             "Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pok\u00e9mon.",
-            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -6091,42 +6091,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lugia-V-V2-SIT185?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-187",
-        "Name": "Ho-Oh V",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_187_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "230",
-        "Ability": [
-            "Reviving Flame"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. If you do, attach up to 4 basic Energy cards from your discard pile to this Pok\u00e9mon. If you use this Ability, your turn ends."
-        ],
-        "Moves": [
-            "Rainbow Burn"
-        ],
-        "Move-Energy": [
-            "CCCC"
-        ],
-        "Move-Damage": [
-            "100+"
-        ],
-        "Effects": [
-            "This attack does 30 more damage for each type of basic Energy attached to this Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "N-DESIGN Inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451835%2Fswsh12-silver-tempest-ho-oh-v-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Ho-Oh-V-V2-SIT187?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-186",
         "Name": "Lugia V",
         "Rarity": "Ultra Rare",
@@ -6163,6 +6127,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lugia-V-V3-SIT186?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-187",
+        "Name": "Ho-Oh V",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_187_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "230",
+        "Ability": [
+            "Reviving Flame"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. If you do, attach up to 4 basic Energy cards from your discard pile to this Pok\u00e9mon. If you use this Ability, your turn ends."
+        ],
+        "Moves": [
+            "Rainbow Burn"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each type of basic Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "N-DESIGN Inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451835%2Fswsh12-silver-tempest-ho-oh-v-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Ho-Oh-V-V2-SIT187?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-188",
         "Name": "Brandon",
         "Card-Type": "Supporter",
@@ -6191,20 +6191,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Candice-V2-SIT189?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-191",
-        "Name": "Gym Trainer",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_191_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Draw 2 cards. If any of your Pok\u00e9mon were Knocked Out during your opponent's last turn, draw 2 more cards.",
-        "Illustrator": "Ryuta Fuse",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451839%2Fswsh12-silver-tempest-gym-trainer-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Gym-Trainer-V2-SIT191?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-190",
         "Name": "Furisode Girl",
         "Card-Type": "Supporter",
@@ -6217,6 +6203,20 @@
         "Illustrator": "saino misaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451838%2Fswsh12-silver-tempest-furisode-girl-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Furisode-Girl-V2-SIT190?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-191",
+        "Name": "Gym Trainer",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_191_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 2 cards. If any of your Pok\u00e9mon were Knocked Out during your opponent's last turn, draw 2 more cards.",
+        "Illustrator": "Ryuta Fuse",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451839%2Fswsh12-silver-tempest-gym-trainer-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Gym-Trainer-V2-SIT191?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-192",
@@ -6241,7 +6241,7 @@
         "Rarity": "Ultra Rare",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_193_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose 1:\u2022 Discard up to 3 cards from your hand. (You must discard at least 1 card. )\u00a0If you do, draw cards until you have 5 cards in your hand. \u2022 Switch 1 of your opponent's Benched Pok\u00e9mon V with their Active Pok\u00e9mon.",
+        "Description": "Choose 1:\u2022 Discard up to 3 cards from your hand. (You must discard at least 1 card.)\u00a0If you do, draw cards until you have 5 cards in your hand. \u2022 Switch 1 of your opponent's Benched Pok\u00e9mon V with their Active Pok\u00e9mon.",
         "Illustrator": "Megumi Mizutani",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451841%2Fswsh12-silver-tempest-serena-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Serena-V2-SIT193?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -6299,7 +6299,7 @@
         ],
         "Effects": [
             "You may move any amount of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "This attack does 60 damage for each Energy attached to this Pok\u00e9mon. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game. )"
+            "This attack does 60 damage for each Energy attached to this Pok\u00e9mon. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -6335,7 +6335,7 @@
         ],
         "Effects": [
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon that have an Ability.",
-            "This attack does 70 damage for each of your opponent's Pok\u00e9mon V in play. This damage isn't affected by Weakness or Resistance.\u00a0(You can't use more than 1 VSTAR Power in a game. )"
+            "This attack does 70 damage for each of your opponent's Pok\u00e9mon V in play. This damage isn't affected by Weakness or Resistance.\u00a0(You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -6407,7 +6407,7 @@
         ],
         "Effects": [
             "Flip 3 coins. This attack does 70 damage for each heads.",
-            "Until this Pok\u00e9mon leaves play, it gains an Ability that has the effect\u00a0\u201cThe Weakness of each of your opponent's Pok\u00e9mon in play is now [P].\u00a0(The amount of Weakness doesn't change. )\" (You can't use more than 1 VSTAR Power in a game. )"
+            "Until this Pok\u00e9mon leaves play, it gains an Ability that has the effect\u00a0\u201cThe Weakness of each of your opponent's Pok\u00e9mon in play is now [P].\u00a0(The amount of Weakness doesn't change.)\" (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Fighting",
@@ -6431,7 +6431,7 @@
             "Star Rondo"
         ],
         "Ability-Effect": [
-            "During your turn, if this Pok\u00e9mon is on your Bench, you may switch it with your Active Pok\u00e9mon. If you do, switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, if this Pok\u00e9mon is on your Bench, you may switch it with your Active Pok\u00e9mon. If you do, switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Sudden Eater"
@@ -6467,7 +6467,7 @@
             "Legacy Star"
         ],
         "Ability-Effect": [
-            "During your turn, you may discard the top 7 cards of your deck. Then, put up to 2 cards from your discard pile into your hand. (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, you may discard the top 7 cards of your deck. Then, put up to 2 cards from your discard pile into your hand. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Apex Dragon"
@@ -6503,7 +6503,7 @@
             "Summoning Star"
         ],
         "Ability-Effect": [
-            "During your turn, you may put up to 2 [C] Pok\u00e9mon that don't have a Rule Box from your discard pile onto your Bench. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes. ) (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, you may put up to 2 [C] Pok\u00e9mon that don't have a Rule Box from your discard pile onto your Bench. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes.) (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Tempest Dive"
@@ -6555,20 +6555,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Candice-V3-SIT204?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-206",
-        "Name": "Lance",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_206_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Search your deck for up to 3 [N] Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
-        "Illustrator": "Ryuta Fuse",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452002%2Fswsh12-silver-tempest-lance-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lance-V3-SIT207?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-205",
         "Name": "Furisode Girl",
         "Card-Type": "Supporter",
@@ -6583,6 +6569,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Furisode-Girl-V3-SIT205?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-206",
+        "Name": "Lance",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_206_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 3 [N] Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "Illustrator": "Ryuta Fuse",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452002%2Fswsh12-silver-tempest-lance-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Lance-V3-SIT207?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-207",
         "Name": "Serena",
         "Card-Type": "Supporter",
@@ -6591,7 +6591,7 @@
         "Rarity": "Rainbow Rare",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_207_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose 1:\u2022 Discard up to 3 cards from your hand. (You must discard at least 1 card. )\u00a0If you do, draw cards until you have 5 cards in your hand. \u2022 Switch 1 of your opponent's Benched Pok\u00e9mon V with their Active Pok\u00e9mon.",
+        "Description": "Choose 1:\u2022 Discard up to 3 cards from your hand. (You must discard at least 1 card.)\u00a0If you do, draw cards until you have 5 cards in your hand. \u2022 Switch 1 of your opponent's Benched Pok\u00e9mon V with their Active Pok\u00e9mon.",
         "Illustrator": "Megumi Mizutani",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452004%2Fswsh12-silver-tempest-serena-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Serena-V3-SIT208?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -6649,7 +6649,7 @@
         ],
         "Effects": [
             "You may move any amount of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "This attack does 60 damage for each Energy attached to this Pok\u00e9mon. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game. )"
+            "This attack does 60 damage for each Energy attached to this Pok\u00e9mon. Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -6673,7 +6673,7 @@
             "Summoning Star"
         ],
         "Ability-Effect": [
-            "During your turn, you may put up to 2 [C] Pok\u00e9mon that don't have a Rule Box from your discard pile onto your Bench. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes. ) (You can't use more than 1 VSTAR Power in a game. )"
+            "During your turn, you may put up to 2 [C] Pok\u00e9mon that don't have a Rule Box from your discard pile onto your Bench. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes.) (You can't use more than 1 VSTAR Power in a game.)"
         ],
         "Moves": [
             "Tempest Dive"
@@ -6812,7 +6812,7 @@
             "60"
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Your opponent's Active Pok\u00e9mon is now Asleep."
         ],
         "Weakness": "Lightning",
@@ -7021,7 +7021,7 @@
             null
         ],
         "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -7031,42 +7031,6 @@
         "Illustrator": "nagimiso",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452022%2Fswsh12-silver-tempest-trainer-gallery-passimian",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Passimian-SITTG08?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-TG-010",
-        "Name": "Smeargle",
-        "Rarity": "Character Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG10_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Colorful Palette",
-            "Ram"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Look at the top 5 cards of your deck. You may attach any number of basic Energy cards you find there to 1 of your Pok\u00e9mon. Shuffle the other cards back into your deck.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "KIYOTAKA OSHIYAMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452025%2Fswsh12-silver-tempest-trainer-gallery-smeargle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Smeargle-V2-SITTG10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-TG-009",
@@ -7105,40 +7069,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Druddigon-SITTG09?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-TG-012",
-        "Name": "Kricketune V",
-        "Rarity": "Character Super Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG12_R_EN_LG.png",
+        "ID": "SIT-TG-010",
+        "Name": "Smeargle",
+        "Rarity": "Character Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG10_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "180",
-        "Ability": [
-            "Exciting Stage"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, you may draw cards until you have 3 cards in your hand. If this Pok\u00e9mon is in the Active Spot, you may draw cards until you have 4 cards in your hand instead. You can't use more than 1 Exciting Stage Ability each turn."
-        ],
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "X-Scissor"
+            "Colorful Palette",
+            "Ram"
         ],
         "Move-Energy": [
-            "GCC"
+            "C",
+            "CC"
         ],
         "Move-Damage": [
-            "80+"
+            null,
+            "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 80 more damage."
+            "Look at the top 5 cards of your deck. You may attach any number of basic Energy cards you find there to 1 of your Pok\u00e9mon. Shuffle the other cards back into your deck.",
+            ""
         ],
-        "Weakness": "Fire",
+        "Weakness": "Fighting",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "HYOGONOSUKE",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452028%2Fswsh12-silver-tempest-trainer-gallery-kricketune-v",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Kricketune-V-SITTG12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "KIYOTAKA OSHIYAMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452025%2Fswsh12-silver-tempest-trainer-gallery-smeargle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Smeargle-V2-SITTG10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-TG-011",
@@ -7175,6 +7139,42 @@
         "Illustrator": "Yuu Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452027%2Fswsh12-silver-tempest-trainer-gallery-altaria",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Altaria-V2-SITTG11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-TG-012",
+        "Name": "Kricketune V",
+        "Rarity": "Character Super Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG12_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": [
+            "Exciting Stage"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may draw cards until you have 3 cards in your hand. If this Pok\u00e9mon is in the Active Spot, you may draw cards until you have 4 cards in your hand instead. You can't use more than 1 Exciting Stage Ability each turn."
+        ],
+        "Moves": [
+            "X-Scissor"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 80 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon V is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "HYOGONOSUKE",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452028%2Fswsh12-silver-tempest-trainer-gallery-kricketune-v",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Kricketune-V-SITTG12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-TG-013",
@@ -7305,7 +7305,7 @@
             "100"
         ],
         "Effects": [
-            "If 1 of your other Rapid Strike Pok\u00e9mon used an attack during your last turn, this attack also does 160 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If 1 of your other Rapid Strike Pok\u00e9mon used an attack during your last turn, this attack also does 160 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -7497,20 +7497,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Duraludon-VMAX-V1-SITTG21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SIT-TG-023",
-        "Name": "Friends in Galar",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG23_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Draw 3 cards.",
-        "Illustrator": "Sanosuke Sakuma",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452039%2Fswsh12-silver-tempest-trainer-gallery-friends-in-galar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Friends-in-Galar-SITTG23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SIT-TG-022",
         "Name": "Blissey V",
         "Rarity": "Character Super Rare",
@@ -7545,6 +7531,20 @@
         "Illustrator": "You Iribi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452037%2Fswsh12-silver-tempest-trainer-gallery-blissey-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Blissey-V-SITTG22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SIT-TG-023",
+        "Name": "Friends in Galar",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG23_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Draw 3 cards.",
+        "Illustrator": "Sanosuke Sakuma",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452039%2Fswsh12-silver-tempest-trainer-gallery-friends-in-galar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Friends-in-Galar-SITTG23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-TG-024",
@@ -7603,6 +7603,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Raihan-SITTG27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SIT-TG-028",
+        "Name": "Sordward & Shielbert",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG28_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose a Trainer card from your discard pile. Then, ask your opponent if you may put it into your hand. If yes, put that card into your hand. If no, draw 3 cards.",
+        "Illustrator": "nagimiso",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452047%2Fswsh12-silver-tempest-trainer-gallery-sordward-and-shielbert",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Sordward-Shielbert-SITTG28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SIT-TG-029",
         "Name": "Rayquaza VMAX",
         "Rarity": "Secret Rare",
@@ -7637,20 +7651,6 @@
         "Illustrator": "PLANETA Mochizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452048%2Fswsh12-silver-tempest-trainer-gallery-rayquaza-vmax-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Rayquaza-VMAX-V2-SITTG29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SIT-TG-028",
-        "Name": "Sordward & Shielbert",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SIT/SIT_TG28_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Choose a Trainer card from your discard pile. Then, ask your opponent if you may put it into your hand. If yes, put that card into your hand. If no, draw 3 cards.",
-        "Illustrator": "nagimiso",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F452047%2Fswsh12-silver-tempest-trainer-gallery-sordward-and-shielbert",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Silver-Tempest/Sordward-Shielbert-SITTG28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SIT-TG-030",

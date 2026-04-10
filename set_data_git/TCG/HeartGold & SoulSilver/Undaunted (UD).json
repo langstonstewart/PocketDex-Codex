@@ -288,42 +288,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Smeargle-UD8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-010",
-        "Name": "Umbreon",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_010_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Moonlight Fang",
-            "Quick Blow"
-        ],
-        "Move-Energy": [
-            "D",
-            "DC"
-        ],
-        "Move-Damage": [
-            "30",
-            "30+"
-        ],
-        "Effects": [
-            "During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pok\u00e9mon that has any Pok\u00e9-Powers or Pok\u00e9-Bodies.",
-            "Flip a coin. If heads, this attack does 30 damage plus 30 more damage."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90145%2Fundaunted-umbreon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Umbreon-UD10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-009",
         "Name": "Togekiss",
         "Rarity": "Holo Rare",
@@ -358,6 +322,42 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89924%2Fundaunted-togekiss",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Togekiss-UD9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-010",
+        "Name": "Umbreon",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Moonlight Fang",
+            "Quick Blow"
+        ],
+        "Move-Energy": [
+            "D",
+            "DC"
+        ],
+        "Move-Damage": [
+            "30",
+            "30+"
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pok\u00e9mon that has any Pok\u00e9-Powers or Pok\u00e9-Bodies.",
+            "Flip a coin. If heads, this attack does 30 damage plus 30 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90145%2Fundaunted-umbreon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Umbreon-UD10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-011",
@@ -420,7 +420,7 @@
         ],
         "Effects": [
             "Drifblim does 20 damage to itself.",
-            "Shuffle Drifblim and all cards attached to it back into your deck. Then, your opponent shuffles the Defending Pok\u00e9mon and all cards attached to it into his or her deck. (You choose your new Active Pok\u00e9mon first. )"
+            "Shuffle Drifblim and all cards attached to it back into your deck. Then, your opponent shuffles the Defending Pok\u00e9mon and all cards attached to it into his or her deck. (You choose your new Active Pok\u00e9mon first.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -455,7 +455,7 @@
             "30"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may switch Forretress with 1 of your Benched Pok\u00e9mon. If you do, your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon."
         ],
         "Weakness": "Fire",
@@ -528,7 +528,7 @@
         ],
         "Effects": [
             "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
-            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 50 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 50 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -576,42 +576,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Honchkrow-Shadow-Bind-UD16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-018",
-        "Name": "Metagross",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_018_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Metal",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Strength",
-            "Quad Smash"
-        ],
-        "Move-Energy": [
-            "MMC",
-            "MMCC"
-        ],
-        "Move-Damage": [
-            "70",
-            "50\u00d7"
-        ],
-        "Effects": [
-            "",
-            "Flip 4 coins. This attack does 50 damage times the number of heads."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "TOKIYA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87341%2Fundaunted-metagross",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Metagross-UD18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-017",
         "Name": "Leafeon",
         "Rarity": "Rare",
@@ -648,40 +612,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Leafeon-UD17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-020",
-        "Name": "Rotom",
+        "ID": "UD-018",
+        "Name": "Metagross",
         "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_020_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_018_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "60",
-        "Ability": [
-            "Mischievous Trick"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may switch 1 of your face-down Prize cards with the top card of your deck. This power can't be used if Rotom is affected by a Special Condition."
-        ],
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Plasma Arrow"
+            "Strength",
+            "Quad Smash"
         ],
         "Move-Energy": [
-            "L"
+            "MMC",
+            "MMCC"
         ],
         "Move-Damage": [
-            null
+            "70",
+            "50\u00d7"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage for each Energy attached to that Pok\u00e9mon. This attack's damage isn't affected by Weakness or Resistance."
+            "",
+            "Flip 4 coins. This attack does 50 damage times the number of heads."
         ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
-        "Retreat-Cost": "1",
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "MAHOU",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88839%2Fundaunted-rotom",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Rotom-UD20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "TOKIYA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87341%2Fundaunted-metagross",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Metagross-UD18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-019",
@@ -718,6 +682,42 @@
         "Illustrator": "Suwama Chiaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87518%2Fundaunted-mismagius",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Mismagius-UD19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-020",
+        "Name": "Rotom",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": [
+            "Mischievous Trick"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may switch 1 of your face-down Prize cards with the top card of your deck. This power can't be used if Rotom is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Plasma Arrow"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage for each Energy attached to that Pok\u00e9mon. This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88839%2Fundaunted-rotom",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Rotom-UD20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-021",
@@ -792,42 +792,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Tropius-UD22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-024",
-        "Name": "Vileplume",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_024_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "120",
-        "Ability": [
-            "Allergy Flower"
-        ],
-        "Ability-Effect": [
-            "Each player can't play any Trainer cards from his or her hand."
-        ],
-        "Moves": [
-            "Dazzling Pollen"
-        ],
-        "Move-Energy": [
-            "GGC"
-        ],
-        "Move-Damage": [
-            "50+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90381%2Fundaunted-vileplume",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Vileplume-UD24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-023",
         "Name": "Vespiquen",
         "Rarity": "Rare",
@@ -862,6 +826,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90329%2Fundaunted-vespiquen",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Vespiquen-UD23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-024",
+        "Name": "Vileplume",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_024_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": [
+            "Allergy Flower"
+        ],
+        "Ability-Effect": [
+            "Each player can't play any Trainer cards from his or her hand."
+        ],
+        "Moves": [
+            "Dazzling Pollen"
+        ],
+        "Move-Energy": [
+            "GGC"
+        ],
+        "Move-Damage": [
+            "50+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90381%2Fundaunted-vileplume",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Vileplume-UD24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-025",
@@ -900,38 +900,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Weavile-UD25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-027",
-        "Name": "Gloom",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_027_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Miracle Powder"
-        ],
-        "Move-Energy": [
-            "GC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, choose 1 Special Condition. The Defending Pok\u00e9mon is now affected by that Special Condition."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85786%2Fundaunted-gloom",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Gloom-UD27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-026",
         "Name": "Flareon",
         "Rarity": "Uncommon",
@@ -966,6 +934,38 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85498%2Fundaunted-flareon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Flareon-UD26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-027",
+        "Name": "Gloom",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_027_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Miracle Powder"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose 1 Special Condition. The Defending Pok\u00e9mon is now affected by that Special Condition."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85786%2Fundaunted-gloom",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Gloom-UD27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-028",
@@ -1148,6 +1148,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Pinsir-UD32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UD-033",
+        "Name": "Raichu",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_033_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pain-full Punch",
+            "Spark"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            "30",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88518%2Fundaunted-raichu",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Raichu-UD33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UD-034",
         "Name": "Raticate",
         "Rarity": "Uncommon",
@@ -1182,42 +1218,6 @@
         "Illustrator": "Sachiko Adachi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88606%2Fundaunted-raticate",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Raticate-UD34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UD-033",
-        "Name": "Raichu",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_033_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Pain-full Punch",
-            "Spark"
-        ],
-        "Move-Energy": [
-            "C",
-            "LC"
-        ],
-        "Move-Damage": [
-            "30",
-            "40"
-        ],
-        "Effects": [
-            "",
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88518%2Fundaunted-raichu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Raichu-UD33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-035",
@@ -1288,42 +1288,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Scyther-UD36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-038",
-        "Name": "Slowbro",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_038_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Full-Belly Refresh",
-            "Startling Trip"
-        ],
-        "Move-Energy": [
-            "C",
-            "PCC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "Remove all Special Conditions and 3 damage counters from Slowbro.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused. If tails, Slowbro is now Confused."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89308%2Fundaunted-slowbro",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Slowbro-UD38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-037",
         "Name": "Skuntank",
         "Rarity": "Uncommon",
@@ -1358,6 +1322,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89282%2Fundaunted-skuntank",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Skuntank-UD37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-038",
+        "Name": "Slowbro",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_038_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Full-Belly Refresh",
+            "Startling Trip"
+        ],
+        "Move-Energy": [
+            "C",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Remove all Special Conditions and 3 damage counters from Slowbro.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused. If tails, Slowbro is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89308%2Fundaunted-slowbro",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Slowbro-UD38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-039",
@@ -1456,7 +1456,7 @@
         ],
         "Effects": [
             "Remove 2 damage counters from Vaporeon.",
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1504,38 +1504,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Aron-UD42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-044",
-        "Name": "Combee",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_044_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Enraged Assault"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "If Vespiquen is on your Bench and has any damage counters on it, this attack does 20 damage plus 60 more damage and the Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84397%2Fundaunted-combee",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Combee-UD44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-043",
         "Name": "Beldum",
         "Rarity": "Common",
@@ -1570,6 +1538,38 @@
         "Illustrator": "TOKIYA",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83792%2Fundaunted-beldum",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Beldum-UD43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-044",
+        "Name": "Combee",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_044_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Enraged Assault"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "If Vespiquen is on your Bench and has any damage counters on it, this attack does 20 damage plus 60 more damage and the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84397%2Fundaunted-combee",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Combee-UD44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-045",
@@ -1644,6 +1644,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Drifloon-UD46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UD-047",
+        "Name": "Eevee",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_047_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kanako Eo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85087%2Fundaunted-eevee-47",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Eevee-Bite-UD47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UD-048",
         "Name": "Eevee",
         "Rarity": "Common",
@@ -1680,40 +1716,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Eevee-Call-for-Family-UD48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-047",
-        "Name": "Eevee",
+        "ID": "UD-049",
+        "Name": "Gligar",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_047_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_049_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
+        "Type": "Fighting",
+        "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Tackle",
-            "Bite"
+            "Stun Poison"
         ],
         "Move-Energy": [
-            "C",
-            "CC"
+            "FC"
         ],
         "Move-Damage": [
-            "10",
             "20"
         ],
         "Effects": [
-            "",
-            ""
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and Poisoned."
         ],
-        "Weakness": "Fighting",
-        "Resistance": null,
+        "Weakness": "Water",
+        "Resistance": "Lightning",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kanako Eo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85087%2Fundaunted-eevee-47",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Eevee-Bite-UD47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Naoki Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85768%2Fundaunted-gligar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Gligar-UD49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-050",
@@ -1752,10 +1784,10 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Grimer-UD50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-049",
-        "Name": "Gligar",
+        "ID": "UD-051",
+        "Name": "Hitmonchan",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_049_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_051_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
@@ -1763,25 +1795,29 @@
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Stun Poison"
+            "Detect",
+            "Sky Uppercut"
         ],
         "Move-Energy": [
+            "C",
             "FC"
         ],
         "Move-Damage": [
-            "20"
+            null,
+            "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and Poisoned."
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn.",
+            "This attack's damage isn't affected by Resistance."
         ],
-        "Weakness": "Water",
-        "Resistance": "Lightning",
+        "Weakness": "Psychic",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Naoki Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85768%2Fundaunted-gligar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Gligar-UD49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86095%2Fundaunted-hitmonchan",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Hitmonchan-UD51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-052",
@@ -1820,42 +1856,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Hitmonlee-UD52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-051",
-        "Name": "Hitmonchan",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_051_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Detect",
-            "Sky Uppercut"
-        ],
-        "Move-Energy": [
-            "C",
-            "FC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn.",
-            "This attack's damage isn't affected by Resistance."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86095%2Fundaunted-hitmonchan",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Hitmonchan-UD51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-053",
         "Name": "Houndour",
         "Rarity": "Common",
@@ -1886,6 +1886,38 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86230%2Fundaunted-houndour-53",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Houndour-Sharp-Fang-UD53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UD-054",
+        "Name": "Houndour",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_054_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jump On"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86231%2Fundaunted-houndour-54",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Houndour-UD54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-055",
@@ -1924,36 +1956,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Makuhita-UD55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-054",
-        "Name": "Houndour",
+        "ID": "UD-056",
+        "Name": "Mawile",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_054_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_056_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "50",
+        "Type": "Metal",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Jump On"
+            "Selfish Draw",
+            "Destructive Jaw"
         ],
         "Move-Energy": [
-            "D"
+            "C",
+            "MCC"
         ],
         "Move-Damage": [
-            "10+"
+            null,
+            "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+            "Look at the top card of your deck. You may put it into your hand. If not, discard it and draw a card.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and discard an Energy attached to the Defending Pok\u00e9mon."
         ],
-        "Weakness": "Fighting",
+        "Weakness": "Fire",
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86231%2Fundaunted-houndour-54",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Houndour-UD54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "TOKIYA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87263%2Fundaunted-mawile",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Mawile-UD56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-057",
@@ -1992,40 +2028,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Misdreavus-UD57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-056",
-        "Name": "Mawile",
+        "ID": "UD-058",
+        "Name": "Murkrow",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_056_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_058_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Metal",
+        "Type": "Darkness",
         "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Selfish Draw",
-            "Destructive Jaw"
+            "Astonish"
         ],
         "Move-Energy": [
-            "C",
-            "MCC"
+            "D"
         ],
         "Move-Damage": [
-            null,
-            "30"
+            "10"
         ],
         "Effects": [
-            "Look at the top card of your deck. You may put it into your hand. If not, discard it and draw a card.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and discard an Energy attached to the Defending Pok\u00e9mon."
+            "Flip a coin. If heads, choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck."
         ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "TOKIYA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87263%2Fundaunted-mawile",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Mawile-UD56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "kawayoo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87655%2Fundaunted-murkrow-58",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Murkrow-Astonish-UD58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-059",
@@ -2062,38 +2094,6 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87656%2Fundaunted-murkrow-59",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Murkrow-Glide-UD59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UD-058",
-        "Name": "Murkrow",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_058_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Astonish"
-        ],
-        "Move-Energy": [
-            "D"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kawayoo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87655%2Fundaunted-murkrow-58",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Murkrow-Astonish-UD58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UD-060",
@@ -2500,20 +2500,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Defender-UD72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UD-074",
-        "Name": "Flower Shop Lady",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_074_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Search your discard pile for 3 Pok\u00e9mon and 3 basic Energy cards. Show them to your opponent and shuffle them into your deck.",
-        "Illustrator": "Kanako Eo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85519%2Fundaunted-flower-shop-lady",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Flower-Shop-Lady-UD74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UD-073",
         "Name": "Energy Exchanger",
         "Card-Type": "Item",
@@ -2528,6 +2514,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Energy-Exchanger-UD73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UD-074",
+        "Name": "Flower Shop Lady",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_074_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your discard pile for 3 Pok\u00e9mon and 3 basic Energy cards. Show them to your opponent and shuffle them into your deck.",
+        "Illustrator": "Kanako Eo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85519%2Fundaunted-flower-shop-lady",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Flower-Shop-Lady-UD74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UD-075",
         "Name": "Legend Box",
         "Card-Type": "Item",
@@ -2536,7 +2536,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_075_R_EN_LG.png",
         "Pack": null,
-        "Description": "Reveal the top 10 cards of your deck. If you reveal both halves of a Pok\u00e9mon LEGEND, put those cards onto your Bench and attach all revealed Energy cards to that Pok\u00e9mon LEGEND. Shuffle the other cards back into your deck. (You can play only 1 Pok\u00e9mon LEGEND in this way. )",
+        "Description": "Reveal the top 10 cards of your deck. If you reveal both halves of a Pok\u00e9mon LEGEND, put those cards onto your Bench and attach all revealed Energy cards to that Pok\u00e9mon LEGEND. Shuffle the other cards back into your deck. (You can play only 1 Pok\u00e9mon LEGEND in this way.)",
         "Illustrator": "Shizurow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86709%2Fundaunted-legend-box",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Legend-Box-UD75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2592,7 +2592,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_079_R_EN_LG.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Kent Kanetsuna",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84693%2Fundaunted-darkness-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Darkness-Energy-V1-UD79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2606,7 +2606,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UD/UD_080_R_EN_LG.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Kent Kanetsuna",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87366%2Fundaunted-metal-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Undaunted/Metal-Energy-V1-UD80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2624,7 +2624,7 @@
             "Evolution Memories"
         ],
         "Ability-Effect": [
-            "Espeon can use the attacks of all Pok\u00e9mon you have in play that evolve from Eevee as its own. (You still need the necessary Energy to use each attack. )"
+            "Espeon can use the attacks of all Pok\u00e9mon you have in play that evolve from Eevee as its own. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [
             "Solar Ray"
@@ -2851,7 +2851,7 @@
             "100\u00d7"
         ],
         "Effects": [
-            "Discard the top 5 cards from your opponent's deck. This attack does 30 damage times the number of Energy cards you discarded to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Discard the top 5 cards from your opponent's deck. This attack does 30 damage times the number of Energy cards you discarded to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard the top 5 cards from your deck. This attack does 100 damage times the number of Energy cards you discarded."
         ],
         "Weakness": "Lightning",
@@ -2887,7 +2887,7 @@
             "100\u00d7"
         ],
         "Effects": [
-            "Discard the top 5 cards from your opponent's deck. This attack does 30 damage times the number of Energy cards you discarded to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Discard the top 5 cards from your opponent's deck. This attack does 30 damage times the number of Energy cards you discarded to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard the top 5 cards from your deck. This attack does 100 damage times the number of Energy cards you discarded."
         ],
         "Weakness": "Lightning",

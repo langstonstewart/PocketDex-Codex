@@ -168,7 +168,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -356,42 +356,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Torkoal-POP110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "P1-012",
-        "Name": "Minun",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pop1/12_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Thunder Wave",
-            "Spark"
-        ],
-        "Move-Energy": [
-            "L",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of those Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87483%2Fpokemon-pop-series-1-minun",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Minun-POP112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "P1-011",
         "Name": "Larvitar",
         "Rarity": "Common",
@@ -422,6 +386,42 @@
         "Illustrator": "Hisao Nakamura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86636%2Fpokemon-pop-series-1-larvitar",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Larvitar-POP111?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "P1-012",
+        "Name": "Minun",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop1/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunder Wave",
+            "Spark"
+        ],
+        "Move-Energy": [
+            "L",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of those Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87483%2Fpokemon-pop-series-1-minun",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Minun-POP112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "P1-013",
@@ -492,42 +492,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Surskit-POP114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "P1-016",
-        "Name": "Armaldo ex",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/pop1/16_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting",
-        "HP": "160",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Twin-blade",
-            "Supersonic Claws"
-        ],
-        "Move-Energy": [
-            "FC",
-            "FFCCC"
-        ],
-        "Move-Damage": [
-            null,
-            "80"
-        ],
-        "Effects": [
-            "Does 30 damage to each Defending Pok\u00e9mon.",
-            "This attack's damage is not affected by Resistance."
-        ],
-        "Weakness": "Grass/water",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Hikaru Koike",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83623%2Fpokemon-pop-series-1-armaldo-ex-non-holo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Armaldo-ex-POP116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "P1-015",
         "Name": "Swellow",
         "Rarity": "Common",
@@ -562,6 +526,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89690%2Fpokemon-pop-series-1-swellow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Swellow-POP115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "P1-016",
+        "Name": "Armaldo ex",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop1/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Twin-blade",
+            "Supersonic Claws"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "Does 30 damage to each Defending Pok\u00e9mon.",
+            "This attack's damage is not affected by Resistance."
+        ],
+        "Weakness": "Grass/water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83623%2Fpokemon-pop-series-1-armaldo-ex-non-holo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-1/Armaldo-ex-POP116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "P1-017",

@@ -1,5 +1,37 @@
 [
     {
+        "ID": "DCR-001",
+        "Name": "Team Magma's Numel",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ember"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97047%2Fdouble-crisis-team-magmas-numel",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Numel-DCR1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DCR-002",
         "Name": "Team Magma's Camerupt",
         "Rarity": "Holo Rare",
@@ -68,36 +100,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Spheal-DCR3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DCR-001",
-        "Name": "Team Magma's Numel",
+        "ID": "DCR-004",
+        "Name": "Team Aqua's Sealeo",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_001_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_004_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Ember"
+            "Splatter",
+            "Hail Storm"
         ],
         "Move-Energy": [
-            "RC"
+            "WC",
+            "WCC"
         ],
         "Move-Damage": [
-            "30"
+            null,
+            "60+"
         ],
         "Effects": [
-            "Discard an Energy attached to this Pok\u00e9mon."
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If your opponent's Active Pok\u00e9mon is a Team Magma Pok\u00e9mon, this attack does 60 more damage."
         ],
-        "Weakness": "Water",
+        "Weakness": "Metal",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "3",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Akira Komayama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97047%2Fdouble-crisis-team-magmas-numel",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Numel-DCR1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Naoki Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97050%2Fdouble-crisis-team-aquas-sealeo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Sealeo-DCR4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-005",
@@ -124,7 +160,7 @@
         ],
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
-            "Discard 2 [W] Energy attached to this Pok\u00e9mon. This attack does 80 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 [W] Energy attached to this Pok\u00e9mon. This attack does 80 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -134,42 +170,6 @@
         "Illustrator": "Hitoshi Ariga",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97051%2Fdouble-crisis-team-aquas-walrein",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Walrein-DCR5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DCR-004",
-        "Name": "Team Aqua's Sealeo",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_004_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Splatter",
-            "Hail Storm"
-        ],
-        "Move-Energy": [
-            "WC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            null,
-            "60+"
-        ],
-        "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "If your opponent's Active Pok\u00e9mon is a Team Magma Pok\u00e9mon, this attack does 60 more damage."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoki Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97050%2Fdouble-crisis-team-aquas-sealeo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Sealeo-DCR4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-006",
@@ -416,42 +416,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Aron-DCR12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DCR-014",
-        "Name": "Team Magma's Aggron",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_014_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rock Stomp",
-            "Boulder Storm"
-        ],
-        "Move-Energy": [
-            "FC",
-            "FFFC"
-        ],
-        "Move-Damage": [
-            "40\u00d7",
-            "120"
-        ],
-        "Effects": [
-            "Discard as many [F] Energy attached to your Pok\u00e9mon as you like. This attack does 40 damage times the amount of [F] Energy you discarded.",
-            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "TOKIYA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97060%2Fdouble-crisis-team-magmas-aggron",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Aggron-DCR14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DCR-013",
         "Name": "Team Magma's Lairon",
         "Rarity": "Common",
@@ -486,6 +450,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97059%2Fdouble-crisis-team-magmas-lairon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Lairon-DCR13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DCR-014",
+        "Name": "Team Magma's Aggron",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Stomp",
+            "Boulder Storm"
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "40\u00d7",
+            "120"
+        ],
+        "Effects": [
+            "Discard as many [F] Energy attached to your Pok\u00e9mon as you like. This attack does 40 damage times the amount of [F] Energy you discarded.",
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97060%2Fdouble-crisis-team-magmas-aggron",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Aggron-DCR14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-015",
@@ -792,7 +792,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_023_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Team Aqua Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )W        Attack 1",
+        "Description": "The Team Aqua Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)W        Attack 1",
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97069%2Fdouble-crisis-aqua-diffuser",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Aqua-Diffuser-DCR23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -818,24 +818,10 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_024_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Team Magma Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack. )F        Attack 1",
+        "Description": "The Team Magma Pok\u00e9mon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)F        Attack 1",
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97070%2Fdouble-crisis-magma-pointer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Magma-Pointer-DCR24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DCR-026",
-        "Name": "Team Aqua Grunt",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_026_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card. ) Draw 3 cards. If you discarded a Team Aqua Pok\u00e9mon, draw 1 more card.",
-        "Illustrator": "GAME FREAK inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97072%2Fdouble-crisis-team-aqua-grunt",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aqua-Grunt-DCR26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-025",
@@ -852,18 +838,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aqua-Admin-DCR25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DCR-028",
-        "Name": "Team Aqua's Secret Base",
-        "Card-Type": "Stadium",
+        "ID": "DCR-026",
+        "Name": "Team Aqua Grunt",
+        "Card-Type": "Supporter",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_028_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_026_R_EN_LG.png",
         "Pack": null,
-        "Description": "The Retreat Cost of each Pok\u00e9mon in play (except for Team Aqua Pok\u00e9mon) is [C] more.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97074%2Fdouble-crisis-team-aquas-secret-base",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Secret-Base-DCR28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Aqua Pok\u00e9mon, draw 1 more card.",
+        "Illustrator": "GAME FREAK inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97072%2Fdouble-crisis-team-aqua-grunt",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aqua-Grunt-DCR26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-027",
@@ -880,18 +866,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Great-Ball-DCR27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DCR-030",
-        "Name": "Team Magma Grunt",
-        "Card-Type": "Supporter",
+        "ID": "DCR-028",
+        "Name": "Team Aqua's Secret Base",
+        "Card-Type": "Stadium",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_030_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_028_R_EN_LG.png",
         "Pack": null,
-        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card. ) Draw 3 cards. If you discarded a Team Magma Pok\u00e9mon, draw 1 more card.",
-        "Illustrator": "GAME FREAK inc.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97076%2Fdouble-crisis-team-magma-grunt",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magma-Grunt-DCR30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "The Retreat Cost of each Pok\u00e9mon in play (except for Team Aqua Pok\u00e9mon) is [C] more.",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97074%2Fdouble-crisis-team-aquas-secret-base",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Aquas-Secret-Base-DCR28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-029",
@@ -908,6 +894,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magma-Admin-DCR29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DCR-030",
+        "Name": "Team Magma Grunt",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_030_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Magma Pok\u00e9mon, draw 1 more card.",
+        "Illustrator": "GAME FREAK inc.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97076%2Fdouble-crisis-team-magma-grunt",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magma-Grunt-DCR30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DCR-031",
         "Name": "Team Magma's Great Ball",
         "Card-Type": "Item",
@@ -920,20 +920,6 @@
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97077%2Fdouble-crisis-team-magmas-great-ball",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Great-Ball-DCR31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DCR-033",
-        "Name": "Double Aqua Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_033_R_EN_LG.png",
-        "Pack": null,
-        "Description": "This card can only be attached to Team Aqua Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [W][W] Energy only while it is attached to a Team Aqua Pok\u00e9mon. (If this card is attached to anything other than a Team Aqua Pok\u00e9mon, discard this card. )",
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97079%2Fdouble-crisis-double-aqua-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Double-Aqua-Energy-DCR33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DCR-032",
@@ -950,6 +936,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Team-Magmas-Secret-Base-DCR32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DCR-033",
+        "Name": "Double Aqua Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_033_R_EN_LG.png",
+        "Pack": null,
+        "Description": "This card can only be attached to Team Aqua Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [W][W] Energy only while it is attached to a Team Aqua Pok\u00e9mon. (If this card is attached to anything other than a Team Aqua Pok\u00e9mon, discard this card.)",
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97079%2Fdouble-crisis-double-aqua-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Double-Aqua-Energy-DCR33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DCR-034",
         "Name": "Double Magma Energy",
         "Card-Type": "Special Energy",
@@ -958,7 +958,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/DCR/DCR_034_R_EN_LG.png",
         "Pack": null,
-        "Description": "This card can only be attached to Team Magma Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [F][F] Energy only while it is attached to a Team Magma Pok\u00e9mon. (If this card is attached to anything other than a Team Magma Pok\u00e9mon, discard this card. )",
+        "Description": "This card can only be attached to Team Magma Pok\u00e9mon. Discard this card at the end of the turn you attached it. This card provides [F][F] Energy only while it is attached to a Team Magma Pok\u00e9mon. (If this card is attached to anything other than a Team Magma Pok\u00e9mon, discard this card.)",
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97080%2Fdouble-crisis-double-magma-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Double-Crisis/Double-Magma-Energy-DCR34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"

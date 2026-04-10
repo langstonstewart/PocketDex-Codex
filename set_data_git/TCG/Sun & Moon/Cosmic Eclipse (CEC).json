@@ -28,7 +28,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -132,7 +132,7 @@
         ],
         "Effects": [
             "This attack does 10 less damage for each damage counter on this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -267,7 +267,7 @@
             "80"
         ],
         "Effects": [
-            "During your next turn, ignore all Energy in the attack costs of [G] Pok\u00e9mon and [R] Pok\u00e9mon. (This includes Pok\u00e9mon that come into play on that turn. )",
+            "During your next turn, ignore all Energy in the attack costs of [G] Pok\u00e9mon and [R] Pok\u00e9mon. (This includes Pok\u00e9mon that come into play on that turn.)",
             ""
         ],
         "Weakness": "Fire",
@@ -278,42 +278,6 @@
         "Illustrator": "Yumi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201155%2Fsm-cosmic-eclipse-sunflora",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Sunflora-CEC8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-010",
-        "Name": "Lileep",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_010_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Confuse Ray",
-            "Seed Bomb"
-        ],
-        "Move-Energy": [
-            "G",
-            "GCC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Confused.",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Misa Tsutsui",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201159%2Fsm-cosmic-eclipse-lileep",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lileep-CEC10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-009",
@@ -350,6 +314,42 @@
         "Illustrator": "Satoshi Shirai",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201156%2Fsm-cosmic-eclipse-heracross",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Heracross-CEC9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-010",
+        "Name": "Lileep",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_010_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confuse Ray",
+            "Seed Bomb"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Misa Tsutsui",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201159%2Fsm-cosmic-eclipse-lileep",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lileep-CEC10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-011",
@@ -480,7 +480,7 @@
             "30+"
         ],
         "Effects": [
-            "If you have exactly 1 card in your hand, this attack does 100 more damage. If you have exactly 3 cards in your hand, your opponent's Active Pok\u00e9mon is now Confused. If you have exactly 6 cards in your hand, this attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If you have exactly 1 card in your hand, this attack does 100 more damage. If you have exactly 3 cards in your hand, your opponent's Active Pok\u00e9mon is now Confused. If you have exactly 6 cards in your hand, this attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -616,7 +616,7 @@
             null
         ],
         "Effects": [
-            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -664,6 +664,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Dartrix-CEC19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-020",
+        "Name": "Decidueye",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Skill Dive",
+            "Tracking Shot"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This attack does 80 damage to 1 of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201926%2Fsm-cosmic-eclipse-decidueye",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Decidueye-CEC20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-021",
         "Name": "Buzzwole",
         "Rarity": "Holo Rare",
@@ -700,40 +736,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Buzzwole-CEC21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-020",
-        "Name": "Decidueye",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_020_R_EN_LG.png",
+        "ID": "CEC-022",
+        "Name": "Charizard & Braixen-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_022_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "140",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "270",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Skill Dive",
-            "Tracking Shot"
+            "Brilliant Flare",
+            "Crimson Flame Pillar-GX"
         ],
         "Move-Energy": [
-            "G",
-            "CC"
+            "RRRC",
+            "R+"
         ],
         "Move-Damage": [
-            null,
-            "80"
+            "180",
+            null
         ],
         "Effects": [
-            "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "This attack does 80 damage to 1 of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)"
         ],
-        "Weakness": "Fire",
+        "Weakness": "Water",
         "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "kawayoo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201926%2Fsm-cosmic-eclipse-decidueye",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Decidueye-CEC20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F200351%2Fsm-cosmic-eclipse-charizard-and-braixen-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Charizard-Braixen-GX-V1-CEC22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-023",
@@ -772,42 +808,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Ponyta-CEC23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-022",
-        "Name": "Charizard & Braixen-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_022_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "270",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Brilliant Flare",
-            "Crimson Flame Pillar-GX"
-        ],
-        "Move-Energy": [
-            "RRRC",
-            "R+"
-        ],
-        "Move-Damage": [
-            "180",
-            null
-        ],
-        "Effects": [
-            "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
-            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F200351%2Fsm-cosmic-eclipse-charizard-and-braixen-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Charizard-Braixen-GX-V1-CEC22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-024",
         "Name": "Rapidash",
         "Rarity": "Uncommon",
@@ -831,7 +831,7 @@
             "60"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Water",
@@ -984,42 +984,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Entei-CEC28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-030",
-        "Name": "Victini",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_030_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": [
-            "Victory Heal"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may heal 20 damage from 1 of your Benched Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Combustion"
-        ],
-        "Move-Energy": [
-            "RC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Saya Tsuruta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201207%2Fsm-cosmic-eclipse-victini",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Victini-CEC30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-029",
         "Name": "Torkoal",
         "Rarity": "Uncommon",
@@ -1054,6 +1018,42 @@
         "Illustrator": "0313",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201206%2Fsm-cosmic-eclipse-torkoal",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Torkoal-V1-CEC29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-030",
+        "Name": "Victini",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_030_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": [
+            "Victory Heal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may heal 20 damage from 1 of your Benched Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Combustion"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Saya Tsuruta",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201207%2Fsm-cosmic-eclipse-victini",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Victini-CEC30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-031",
@@ -1228,7 +1228,7 @@
         ],
         "Effects": [
             "Put 2 [R] Energy attached to this Pok\u00e9mon into your hand.",
-            "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1336,7 +1336,7 @@
         ],
         "Effects": [
             "You may attach up to 3 [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. If you do, heal 50 damage from those Pok\u00e9mon for each card you attached to them in this way.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1420,42 +1420,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Psyduck-CEC40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-042",
-        "Name": "Vaporeon",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_042_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "110",
-        "Ability": [
-            "Vitality Cheer"
-        ],
-        "Ability-Effect": [
-            "Your Pok\u00e9mon-GX in play that evolve from Eevee get +60 HP. You can't apply more than 1 Vitality Cheer Ability at a time."
-        ],
-        "Moves": [
-            "Refreshing Rain"
-        ],
-        "Move-Energy": [
-            "WCC"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            "Heal 30 damage from each of your Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "sui",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201218%2Fsm-cosmic-eclipse-vaporeon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Vaporeon-CEC42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-041",
         "Name": "Golduck",
         "Rarity": "Uncommon",
@@ -1490,6 +1454,42 @@
         "Illustrator": "Shigenori Negishi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201217%2Fsm-cosmic-eclipse-golduck",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Golduck-CEC41?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-042",
+        "Name": "Vaporeon",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_042_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "110",
+        "Ability": [
+            "Vitality Cheer"
+        ],
+        "Ability-Effect": [
+            "Your Pok\u00e9mon-GX in play that evolve from Eevee get +60 HP. You can't apply more than 1 Vitality Cheer Ability at a time."
+        ],
+        "Moves": [
+            "Refreshing Rain"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Heal 30 damage from each of your Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201218%2Fsm-cosmic-eclipse-vaporeon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Vaporeon-CEC42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-043",
@@ -1824,7 +1824,7 @@
         ],
         "Effects": [
             "Your opponent can't play any Trainer cards from their hand during their next turn. If 1 of your Pok\u00e9mon used Cold Snap during your last turn, this attack can't be used.",
-            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -1928,7 +1928,7 @@
         ],
         "Effects": [
             "",
-            "Discard all Energy from this Pok\u00e9mon. This attack does 100 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard all Energy from this Pok\u00e9mon. This attack does 100 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1938,42 +1938,6 @@
         "Illustrator": "Hasuno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201231%2Fsm-cosmic-eclipse-prinplup",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Prinplup-CEC55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-057",
-        "Name": "Phione",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_057_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "70",
-        "Ability": [
-            "Whirlpool Suction"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if this Pok\u00e9mon is on your Bench, you may have your opponent switch their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. If you do, discard all cards attached to this Pok\u00e9mon and put it on the bottom of your deck."
-        ],
-        "Moves": [
-            "Rain Splash"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "AKIRA EGAWA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201233%2Fsm-cosmic-eclipse-phione",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Phione-CEC57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-056",
@@ -2010,6 +1974,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201232%2Fsm-cosmic-eclipse-empoleon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Empoleon-CEC56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-057",
+        "Name": "Phione",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_057_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Whirlpool Suction"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if this Pok\u00e9mon is on your Bench, you may have your opponent switch their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. If you do, discard all cards attached to this Pok\u00e9mon and put it on the bottom of your deck."
+        ],
+        "Moves": [
+            "Rain Splash"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "AKIRA EGAWA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201233%2Fsm-cosmic-eclipse-phione",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Phione-CEC57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-058",
@@ -2076,42 +2076,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Ducklett-CEC59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-061",
-        "Name": "Black Kyurem",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_061_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Frozen Wings",
-            "Dazzling Blizzard"
-        ],
-        "Move-Energy": [
-            "CC",
-            "WWCC"
-        ],
-        "Move-Damage": [
-            "30",
-            "100+"
-        ],
-        "Effects": [
-            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
-            "If you have any Stadium card in play, this attack does 100 more damage."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201237%2Fsm-cosmic-eclipse-black-kyurem",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Black-Kyurem-CEC61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-060",
         "Name": "Swanna",
         "Rarity": "Rare",
@@ -2146,6 +2110,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201236%2Fsm-cosmic-eclipse-swanna",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Swanna-CEC60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-061",
+        "Name": "Black Kyurem",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_061_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Frozen Wings",
+            "Dazzling Blizzard"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "100+"
+        ],
+        "Effects": [
+            "Discard a Special Energy from your opponent's Active Pok\u00e9mon.",
+            "If you have any Stadium card in play, this attack does 100 more damage."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201237%2Fsm-cosmic-eclipse-black-kyurem",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Black-Kyurem-CEC61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-062",
@@ -2208,7 +2208,7 @@
         ],
         "Effects": [
             "This attack does 20 damage for each of your Wishiwashi and Wishiwashi-GX in play.",
-            "Look at the top 12 cards of your deck and put any number of Basic Pok\u00e9mon you find there onto your Bench. Shuffle the other cards back into your deck. (You can't use more than 1 GX attack in a game. )"
+            "Look at the top 12 cards of your deck and put any number of Basic Pok\u00e9mon you find there onto your Bench. Shuffle the other cards back into your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2364,6 +2364,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Raichu-CEC67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-068",
+        "Name": "Magnemite",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_068_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mirror Shot"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack doesn't happen."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201242%2Fsm-cosmic-eclipse-magnemite",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Magnemite-V1-CEC68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-069",
         "Name": "Magneton",
         "Rarity": "Holo Rare",
@@ -2434,38 +2466,6 @@
         "Illustrator": "Uta",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201244%2Fsm-cosmic-eclipse-jolteon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Jolteon-CEC70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-068",
-        "Name": "Magnemite",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_068_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mirror Shot"
-        ],
-        "Move-Energy": [
-            "L"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack doesn't happen."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Suwama Chiaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201242%2Fsm-cosmic-eclipse-magnemite",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Magnemite-V1-CEC68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-071",
@@ -2564,7 +2564,7 @@
         ],
         "Effects": [
             "Search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck.",
-            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -2632,7 +2632,7 @@
         ],
         "Effects": [
             "This Pok\u00e9mon can't use Cosmic Burn during your next turn.",
-            "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
+            "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2656,7 +2656,7 @@
             "Blow-Away Bomb"
         ],
         "Ability-Effect": [
-            "Once during your turn, when you discard this Pok\u00e9mon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pok\u00e9mon. (Place damage counters after the effect of Roxie. )"
+            "Once during your turn, when you discard this Pok\u00e9mon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pok\u00e9mon. (Place damage counters after the effect of Roxie.)"
         ],
         "Moves": [
             "Poison Gas"
@@ -2692,7 +2692,7 @@
             "Blow-Away Bomb"
         ],
         "Ability-Effect": [
-            "Once during your turn, when you discard this Pok\u00e9mon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pok\u00e9mon. (Place damage counters after the effect of Roxie. )"
+            "Once during your turn, when you discard this Pok\u00e9mon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pok\u00e9mon. (Place damage counters after the effect of Roxie.)"
         ],
         "Moves": [
             "Balloon Burst"
@@ -3092,7 +3092,7 @@
         ],
         "Effects": [
             "Your opponent's Active Pok\u00e9mon is now Confused.",
-            "Your opponent chooses 1 of their own Pok\u00e9mon. This attack does 90 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Your opponent chooses 1 of their own Pok\u00e9mon. This attack does 90 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -3276,46 +3276,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Phantump-CEC93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-095",
-        "Name": "Oricorio-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_095_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "170",
-        "Ability": [
-            "Dance of Tribute"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if any of your Pok\u00e9mon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Dance of Tribute Ability each turn."
-        ],
-        "Moves": [
-            "Razor Wing",
-            "Strafe-GX"
-        ],
-        "Move-Energy": [
-            "PCC",
-            "PCC"
-        ],
-        "Move-Damage": [
-            "80",
-            "100"
-        ],
-        "Effects": [
-            "",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "aky CG Works",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201269%2Fsm-cosmic-eclipse-oricorio-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Oricorio-GX-V1-CEC95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-094",
         "Name": "Trevenant",
         "Rarity": "Rare",
@@ -3352,40 +3312,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Trevenant-CEC94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-097",
-        "Name": "Mimikyu",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_097_R_EN_LG.png",
+        "ID": "CEC-095",
+        "Name": "Oricorio-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_095_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
-        "HP": "70",
+        "HP": "170",
         "Ability": [
-            "Shadow Box"
+            "Dance of Tribute"
         ],
         "Ability-Effect": [
-            "Pok\u00e9mon-GX that have any damage counters on them (both yours and your opponent's) have no Abilities."
+            "Once during your turn (before your attack), if any of your Pok\u00e9mon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Dance of Tribute Ability each turn."
         ],
         "Moves": [
-            "Tail Trickery"
+            "Razor Wing",
+            "Strafe-GX"
         ],
         "Move-Energy": [
-            "CC"
+            "PCC",
+            "PCC"
         ],
         "Move-Damage": [
-            "20"
+            "80",
+            "100"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Confused."
+            "",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
-        "Weakness": null,
-        "Resistance": null,
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201272%2Fsm-cosmic-eclipse-mimikyu-97",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mimikyu-CEC97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "aky CG Works",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201269%2Fsm-cosmic-eclipse-oricorio-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Oricorio-GX-V1-CEC95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-096",
@@ -3424,6 +3388,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mimikyu-V1-CEC96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-097",
+        "Name": "Mimikyu",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_097_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": [
+            "Shadow Box"
+        ],
+        "Ability-Effect": [
+            "Pok\u00e9mon-GX that have any damage counters on them (both yours and your opponent's) have no Abilities."
+        ],
+        "Moves": [
+            "Tail Trickery"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201272%2Fsm-cosmic-eclipse-mimikyu-97",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mimikyu-CEC97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-098",
         "Name": "Dhelmise",
         "Rarity": "Uncommon",
@@ -3458,6 +3458,38 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201273%2Fsm-cosmic-eclipse-dhelmise",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Dhelmise-CEC98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-099",
+        "Name": "Cosmog",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_099_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ascension"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Search your deck for a card that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon to evolve it. Then, shuffle your deck."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mizue",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201274%2Fsm-cosmic-eclipse-cosmog-99-236",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Cosmog-V1-CEC99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-100",
@@ -3496,36 +3528,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Cosmog-CEC100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-099",
-        "Name": "Cosmog",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_099_R_EN_LG.png",
+        "ID": "CEC-101",
+        "Name": "Cosmoem",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_101_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
+        "Stage": "Stage 1",
         "Type": "Psychic",
-        "HP": "50",
+        "HP": "90",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Ascension"
+            "Stiffen"
         ],
         "Move-Energy": [
-            "P"
+            "C"
         ],
         "Move-Damage": [
             null
         ],
         "Effects": [
-            "Search your deck for a card that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon to evolve it. Then, shuffle your deck."
+            "During your opponent's next turn, this Pok\u00e9mon takes 40 less damage from attacks (after applying Weakness and Resistance)."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
-        "Retreat-Cost": "1",
+        "Retreat-Cost": "3",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Mizue",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201274%2Fsm-cosmic-eclipse-cosmog-99-236",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Cosmog-V1-CEC99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Aya Kusube",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201276%2Fsm-cosmic-eclipse-cosmoem",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Cosmoem-V1-CEC101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-102",
@@ -3562,38 +3594,6 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201277%2Fsm-cosmic-eclipse-lunala",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lunala-V1-CEC102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-101",
-        "Name": "Cosmoem",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_101_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Stiffen"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "During your opponent's next turn, this Pok\u00e9mon takes 40 less damage from attacks (after applying Weakness and Resistance)."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201276%2Fsm-cosmic-eclipse-cosmoem",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Cosmoem-V1-CEC101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-103",
@@ -3660,42 +3660,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Blacephalon-CEC104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-106",
-        "Name": "Nosepass",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_106_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Draw Toward",
-            "Zap Cannon"
-        ],
-        "Move-Energy": [
-            "CC",
-            "CCC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon.",
-            "This Pok\u00e9mon can't use Zap Cannon during your next turn."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Anesaki Dynamic",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201135%2Fsm-cosmic-eclipse-nosepass",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Nosepass-CEC106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-105",
         "Name": "Onix",
         "Rarity": "Common",
@@ -3732,36 +3696,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Onix-CEC105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-108",
-        "Name": "Trapinch",
+        "ID": "CEC-106",
+        "Name": "Nosepass",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_108_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_106_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
-        "HP": "60",
+        "HP": "80",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Dig"
+            "Draw Toward",
+            "Zap Cannon"
         ],
         "Move-Energy": [
-            "FC"
+            "CC",
+            "CCC"
         ],
         "Move-Damage": [
-            "30"
+            null,
+            "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon.",
+            "This Pok\u00e9mon can't use Zap Cannon during your next turn."
         ],
         "Weakness": "Grass",
         "Resistance": null,
-        "Retreat-Cost": "1",
+        "Retreat-Cost": "3",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201137%2Fsm-cosmic-eclipse-trapinch-108-236",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Trapinch-CEC108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Anesaki Dynamic",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201135%2Fsm-cosmic-eclipse-nosepass",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Nosepass-CEC106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-107",
@@ -3800,44 +3768,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Trapinch-CEC107?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-110",
-        "Name": "Flygon-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_110_R_EN_LG.png",
+        "ID": "CEC-108",
+        "Name": "Trapinch",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_108_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
+        "Stage": "Basic",
         "Type": "Fighting",
-        "HP": "240",
-        "Ability": [
-            "Dusty Defense"
-        ],
-        "Ability-Effect": [
-            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, all of your Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance)."
-        ],
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Desert Hurricane",
-            "Sonic Edge-GX"
+            "Dig"
         ],
         "Move-Energy": [
-            "FFF",
-            "FFF"
+            "FC"
         ],
         "Move-Damage": [
-            "120+",
-            "220"
+            "30"
         ],
         "Effects": [
-            "If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
         ],
         "Weakness": "Grass",
         "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201141%2Fsm-cosmic-eclipse-flygon-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Flygon-GX-V1-CEC110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201137%2Fsm-cosmic-eclipse-trapinch-108-236",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Trapinch-CEC108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-109",
@@ -3874,6 +3834,46 @@
         "Illustrator": "SATOSHI NAKAI",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201138%2Fsm-cosmic-eclipse-vibrava",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Vibrava-CEC109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-110",
+        "Name": "Flygon-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_110_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "240",
+        "Ability": [
+            "Dusty Defense"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, all of your Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Desert Hurricane",
+            "Sonic Edge-GX"
+        ],
+        "Move-Energy": [
+            "FFF",
+            "FFF"
+        ],
+        "Move-Damage": [
+            "120+",
+            "220"
+        ],
+        "Effects": [
+            "If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201141%2Fsm-cosmic-eclipse-flygon-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Flygon-GX-V1-CEC110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-111",
@@ -3948,42 +3948,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Armaldo-CEC112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-114",
-        "Name": "Drilbur",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_114_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rototiller",
-            "Mud-Slap"
-        ],
-        "Move-Energy": [
-            "C",
-            "F"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "Shuffle a card from your discard pile into your deck.",
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Suwama Chiaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201146%2Fsm-cosmic-eclipse-drilbur",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Drilbur-CEC114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-113",
         "Name": "Groudon",
         "Rarity": "Rare",
@@ -4018,6 +3982,42 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201145%2Fsm-cosmic-eclipse-groudon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Groudon-CEC113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-114",
+        "Name": "Drilbur",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_114_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rototiller",
+            "Mud-Slap"
+        ],
+        "Move-Energy": [
+            "C",
+            "F"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Shuffle a card from your discard pile into your deck.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201146%2Fsm-cosmic-eclipse-drilbur",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Drilbur-CEC114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-115",
@@ -4076,7 +4076,7 @@
             "60"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -4086,38 +4086,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201148%2Fsm-cosmic-eclipse-palpitoad",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Palpitoad-CEC116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-118",
-        "Name": "Throh",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_118_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Reverse Shoulder Throw"
-        ],
-        "Move-Energy": [
-            "FC"
-        ],
-        "Move-Damage": [
-            "30+"
-        ],
-        "Effects": [
-            "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 90 more damage."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201150%2Fsm-cosmic-eclipse-throh",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Throh-CEC118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-117",
@@ -4154,6 +4122,38 @@
         "Illustrator": "Shigenori Negishi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201149%2Fsm-cosmic-eclipse-seismitoad",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Seismitoad-CEC117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-118",
+        "Name": "Throh",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_118_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Reverse Shoulder Throw"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 90 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201150%2Fsm-cosmic-eclipse-throh",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Throh-CEC118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-119",
@@ -4224,42 +4224,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Pangoro-CEC120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-122",
-        "Name": "Crabominable",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_122_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "140",
-        "Ability": [
-            "Solid Shell"
-        ],
-        "Ability-Effect": [
-            "This Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance)."
-        ],
-        "Moves": [
-            "Freezing Punch"
-        ],
-        "Move-Energy": [
-            "FFC"
-        ],
-        "Move-Damage": [
-            "80+"
-        ],
-        "Effects": [
-            "If this Pok\u00e9mon has any [W] Energy attached to it, this attack does 80 more damage."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "tetsuya koizumi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201157%2Fsm-cosmic-eclipse-crabominable",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Crabominable-CEC122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-121",
         "Name": "Crabrawler",
         "Rarity": "Common",
@@ -4294,6 +4258,42 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201154%2Fsm-cosmic-eclipse-crabrawler",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Crabrawler-CEC121?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-122",
+        "Name": "Crabominable",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_122_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "140",
+        "Ability": [
+            "Solid Shell"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Freezing Punch"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has any [W] Energy attached to it, this attack does 80 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "tetsuya koizumi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201157%2Fsm-cosmic-eclipse-crabominable",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Crabominable-CEC122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-123",
@@ -4332,42 +4332,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Rockruff-CEC123?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-125",
-        "Name": "Passimian",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_125_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spike Draw",
-            "Seismic Toss"
-        ],
-        "Move-Energy": [
-            "F",
-            "FCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "70"
-        ],
-        "Effects": [
-            "Draw 2 cards.",
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201165%2Fsm-cosmic-eclipse-passimian",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Passimian-CEC125?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-124",
         "Name": "Lycanroc",
         "Rarity": "Holo Rare",
@@ -4404,40 +4368,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lycanroc-CEC124?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-127",
-        "Name": "Palossand",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_127_R_EN_LG.png",
+        "ID": "CEC-125",
+        "Name": "Passimian",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_125_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
+        "Stage": "Basic",
         "Type": "Fighting",
-        "HP": "140",
+        "HP": "110",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Guard Press",
-            "Earthquake"
+            "Spike Draw",
+            "Seismic Toss"
         ],
         "Move-Energy": [
-            "CCC",
-            "FCCC"
+            "F",
+            "FCC"
         ],
         "Move-Damage": [
-            "80",
-            "150"
+            "20",
+            "70"
         ],
         "Effects": [
-            "During your opponent's next turn, this Pok\u00e9mon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Draw 2 cards.",
+            ""
         ],
-        "Weakness": "Grass",
+        "Weakness": "Psychic",
         "Resistance": null,
-        "Retreat-Cost": "4",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "OOYAMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201168%2Fsm-cosmic-eclipse-palossand",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Palossand-CEC127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201165%2Fsm-cosmic-eclipse-passimian",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Passimian-CEC125?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-126",
@@ -4474,6 +4438,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201166%2Fsm-cosmic-eclipse-sandygast",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Sandygast-CEC126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-127",
+        "Name": "Palossand",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_127_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Guard Press",
+            "Earthquake"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "80",
+            "150"
+        ],
+        "Effects": [
+            "During your opponent's next turn, this Pok\u00e9mon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "OOYAMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201168%2Fsm-cosmic-eclipse-palossand",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Palossand-CEC127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-128",
@@ -4540,7 +4540,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -4550,42 +4550,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201170%2Fsm-cosmic-eclipse-alolan-persian-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Alolan-Persian-GX-V1-CEC129?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-131",
-        "Name": "Alolan Muk",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_131_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Panic Poison",
-            "Sludge Bomb"
-        ],
-        "Move-Energy": [
-            "DC",
-            "DDC"
-        ],
-        "Move-Damage": [
-            "20",
-            "110"
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Burned, Confused, and Poisoned.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "MAHOU",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201174%2Fsm-cosmic-eclipse-alolan-muk",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Alolan-Muk-CEC131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-130",
@@ -4622,6 +4586,42 @@
         "Illustrator": "Sekio",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201172%2Fsm-cosmic-eclipse-alolan-grimer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Alolan-Grimer-CEC130?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-131",
+        "Name": "Alolan Muk",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_131_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Panic Poison",
+            "Sludge Bomb"
+        ],
+        "Move-Energy": [
+            "DC",
+            "DDC"
+        ],
+        "Move-Damage": [
+            "20",
+            "110"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned, Confused, and Poisoned.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201174%2Fsm-cosmic-eclipse-alolan-muk",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Alolan-Muk-CEC131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-132",
@@ -4728,42 +4728,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Pawniard-CEC134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-136",
-        "Name": "Guzzlord",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_136_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "150",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mountain Munch",
-            "Red Banquet"
-        ],
-        "Move-Energy": [
-            "D",
-            "DDCC"
-        ],
-        "Move-Damage": [
-            null,
-            "120"
-        ],
-        "Effects": [
-            "Discard the top card of your opponent's deck.",
-            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201180%2Fsm-cosmic-eclipse-guzzlord",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Guzzlord-CEC136?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-135",
         "Name": "Bisharp",
         "Rarity": "Uncommon",
@@ -4798,6 +4762,42 @@
         "Illustrator": "SATOSHI NAKAI",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201179%2Fsm-cosmic-eclipse-bisharp",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Bisharp-CEC135?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-136",
+        "Name": "Guzzlord",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_136_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mountain Munch",
+            "Red Banquet"
+        ],
+        "Move-Energy": [
+            "D",
+            "DDCC"
+        ],
+        "Move-Damage": [
+            null,
+            "120"
+        ],
+        "Effects": [
+            "Discard the top card of your opponent's deck.",
+            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201180%2Fsm-cosmic-eclipse-guzzlord",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Guzzlord-CEC136?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-137",
@@ -4872,42 +4872,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Alolan-Sandslash-CEC138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-140",
-        "Name": "Mawile",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_140_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dual Calling",
-            "Dark Clamp"
-        ],
-        "Move-Energy": [
-            "C",
-            "C"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 TAG TEAM cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kodama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201185%2Fsm-cosmic-eclipse-mawile",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mawile-CEC140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-139",
         "Name": "Steelix",
         "Rarity": "Holo Rare",
@@ -4942,6 +4906,42 @@
         "Illustrator": "KEIICHIRO ITO",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201184%2Fsm-cosmic-eclipse-steelix",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Steelix-V1-CEC139?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-140",
+        "Name": "Mawile",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_140_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Calling",
+            "Dark Clamp"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 TAG TEAM cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kodama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201185%2Fsm-cosmic-eclipse-mawile",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mawile-CEC140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-141",
@@ -4980,42 +4980,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Probopass-CEC141?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-143",
-        "Name": "Togepi & Cleffa & Igglybuff-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_143_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "240",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rolling Panic",
-            "Supreme Puff-GX"
-        ],
-        "Move-Energy": [
-            "YYC",
-            "YY+"
-        ],
-        "Move-Damage": [
-            "120+",
-            null
-        ],
-        "Effects": [
-            "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-            "Take another turn after this one. (Skip the between-turns step. ) If this Pok\u00e9mon has at least 14 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles all of their Benched Pok\u00e9mon and all cards attached to them into their deck. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F200353%2Fsm-cosmic-eclipse-togepi-and-cleffa-and-igglybuff-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Togepi-Cleffa-Igglybuff-GX-V1-CEC143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-142",
         "Name": "Solgaleo",
         "Rarity": "Holo Rare",
@@ -5052,6 +5016,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Solgaleo-V1-CEC142?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-143",
+        "Name": "Togepi & Cleffa & Igglybuff-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_143_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rolling Panic",
+            "Supreme Puff-GX"
+        ],
+        "Move-Energy": [
+            "YYC",
+            "YY+"
+        ],
+        "Move-Damage": [
+            "120+",
+            null
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+            "Take another turn after this one. (Skip the between-turns step.) If this Pok\u00e9mon has at least 14 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles all of their Benched Pok\u00e9mon and all cards attached to them into their deck. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F200353%2Fsm-cosmic-eclipse-togepi-and-cleffa-and-igglybuff-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Togepi-Cleffa-Igglybuff-GX-V1-CEC143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-143a",
         "Name": "Togepi & Cleffa & Igglybuff-GX",
         "Rarity": null,
@@ -5076,7 +5076,7 @@
         ],
         "Effects": [
             "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-            "Take another turn after this one. (Skip the between-turns step. ) If this Pok\u00e9mon has at least 14 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles all of their Benched Pok\u00e9mon and all cards attached to them into their deck. (You can't use more than 1 GX attack in a game. )"
+            "Take another turn after this one. (Skip the between-turns step.) If this Pok\u00e9mon has at least 14 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles all of their Benched Pok\u00e9mon and all cards attached to them into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -5248,38 +5248,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Whimsicott-CEC148?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-150",
-        "Name": "Flab\u00e9b\u00e9",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_150_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Petal Blizzard"
-        ],
-        "Move-Energy": [
-            "Y"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201194%2Fsm-cosmic-eclipse-flabebe-150-236",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Flabebe-CEC150?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-149",
         "Name": "Flab\u00e9b\u00e9",
         "Rarity": "Common",
@@ -5310,6 +5278,38 @@
         "Illustrator": "tetsuya koizumi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201193%2Fsm-cosmic-eclipse-flabebe-149-236",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Flabebe-CEC149?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-150",
+        "Name": "Flab\u00e9b\u00e9",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_150_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Petal Blizzard"
+        ],
+        "Move-Energy": [
+            "Y"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201194%2Fsm-cosmic-eclipse-flabebe-150-236",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Flabebe-CEC150?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-151",
@@ -5512,7 +5512,7 @@
         ],
         "Effects": [
             "Search your deck for up to 3 basic Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
-            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -5548,7 +5548,7 @@
         ],
         "Effects": [
             "Discard up to 3 in any combination of basic [R] and basic [L] Energy cards from your Benched Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
-            "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -5588,7 +5588,7 @@
         ],
         "Effects": [
             "",
-            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game. ) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game. )"
+            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -5740,6 +5740,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Hakamo-o-CEC162?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-163",
+        "Name": "Kommo-o",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_163_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shout of Power",
+            "Scaly Uppercut"
+        ],
+        "Move-Energy": [
+            "F",
+            "LF"
+        ],
+        "Move-Damage": [
+            "60",
+            "90+"
+        ],
+        "Effects": [
+            "Attach a basic Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+            "You may discard a Pok\u00e9mon Tool card from this Pok\u00e9mon. If you do, this attack does 90 more damage."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "hatachu",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201647%2Fsm-cosmic-eclipse-kommo-o",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Kommo-o-CEC163?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-164",
         "Name": "Ultra Necrozma",
         "Rarity": "Holo Rare",
@@ -5800,7 +5836,7 @@
         ],
         "Effects": [
             "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5810,42 +5846,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201284%2Fsm-cosmic-eclipse-mega-lopunny-and-jigglypuff-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mega-Lopunny-Jigglypuff-GX-V1-CEC165?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-163",
-        "Name": "Kommo-o",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_163_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Dragon",
-        "HP": "160",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shout of Power",
-            "Scaly Uppercut"
-        ],
-        "Move-Energy": [
-            "F",
-            "LF"
-        ],
-        "Move-Damage": [
-            "60",
-            "90+"
-        ],
-        "Effects": [
-            "Attach a basic Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
-            "You may discard a Pok\u00e9mon Tool card from this Pok\u00e9mon. If you do, this attack does 90 more damage."
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "hatachu",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201647%2Fsm-cosmic-eclipse-kommo-o",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Kommo-o-CEC163?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-166",
@@ -6092,42 +6092,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Ursaring-CEC172?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-174",
-        "Name": "Lillipup",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_174_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Baby-Doll Eyes",
-            "Tackle"
-        ],
-        "Move-Energy": [
-            "C",
-            "CCC"
-        ],
-        "Move-Damage": [
-            null,
-            "40"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sekio",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201296%2Fsm-cosmic-eclipse-lillipup",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lillipup-CEC174?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-173",
         "Name": "Zangoose",
         "Rarity": "Uncommon",
@@ -6162,6 +6126,42 @@
         "Illustrator": "tetsuya koizumi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201295%2Fsm-cosmic-eclipse-zangoose",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Zangoose-CEC173?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-174",
+        "Name": "Lillipup",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_174_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Baby-Doll Eyes",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sekio",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201296%2Fsm-cosmic-eclipse-lillipup",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Lillipup-CEC174?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-175",
@@ -6224,7 +6224,7 @@
             "110"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -6268,42 +6268,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Rufflet-CEC177?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-179",
-        "Name": "Helioptile",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_179_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tail Whip",
-            "Rear Kick"
-        ],
-        "Move-Energy": [
-            "C",
-            "CCC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sekio",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201301%2Fsm-cosmic-eclipse-helioptile",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Helioptile-CEC179?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-178",
         "Name": "Braviary",
         "Rarity": "Rare",
@@ -6338,6 +6302,42 @@
         "Illustrator": "chibi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201300%2Fsm-cosmic-eclipse-braviary",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Braviary-CEC178?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-179",
+        "Name": "Helioptile",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_179_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Whip",
+            "Rear Kick"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sekio",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201301%2Fsm-cosmic-eclipse-helioptile",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Helioptile-CEC179?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-180",
@@ -6504,7 +6504,7 @@
         ],
         "Effects": [
             "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
-            "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -6552,7 +6552,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_187_R_EN_LG.png",
         "Pack": null,
-        "Description": "Whenever either player plays a Stadium card from their hand, discard that Stadium card after discarding this one. (The new Stadium card has no effect. )",
+        "Description": "Whenever either player plays a Stadium card from their hand, discard that Stadium card after discarding this one. (The new Stadium card has no effect.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201310%2Fsm-cosmic-eclipse-chaotic-swell",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Chaotic-Swell-CEC187?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -6606,7 +6606,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_190_R_EN_LG.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon this card is attached to has the Dragon Claw attack, it can use the GX attack on this card. (You still need the necessary Energy to use this attack. )[C][C][C] Destructive Drake GX 80\u00d7Discard all basic Energy from this Pok\u00e9mon. This attack does 80 damage for each card you discarded in this way. (You can't use more than 1 GX attack in a game. )CCC        Attack 1 80\u00d7",
+        "Description": "If the Pok\u00e9mon this card is attached to has the Dragon Claw attack, it can use the GX attack on this card. (You still need the necessary Energy to use this attack.)[C][C][C] Destructive Drake GX 80\u00d7Discard all basic Energy from this Pok\u00e9mon. This attack does 80 damage for each card you discarded in this way. (You can't use more than 1 GX attack in a game.)CCC        Attack 1 80\u00d7",
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201649%2Fsm-cosmic-eclipse-dragonium-z-dragon-claw",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Dragonium-Z-Dragon-Claw-CEC190?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -6753,20 +6753,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Ns-Resolve-V1-CEC200?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-202",
-        "Name": "Red & Blue",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_202_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Search your deck for a Pok\u00e9mon-GX that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck. (You can't use this card during your first turn or on a Pok\u00e9mon that was put into play this turn. )When you play this card, you may discard 2 other cards from your hand. If you do, search your deck for up to 2 basic Energy cards and attach them to the Pok\u00e9mon you evolved in this way.",
-        "Illustrator": "Megumi Mizutani",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201323%2Fsm-cosmic-eclipse-red-and-blue",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Red-Blue-V1-CEC202?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-201",
         "Name": "Professor Oak's Setup",
         "Card-Type": "Supporter",
@@ -6779,6 +6765,20 @@
         "Illustrator": "Megumi Mizutani",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201322%2Fsm-cosmic-eclipse-professor-oaks-setup",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Professor-Oaks-Setup-V1-CEC201?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-202",
+        "Name": "Red & Blue",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_202_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for a Pok\u00e9mon-GX that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck. (You can't use this card during your first turn or on a Pok\u00e9mon that was put into play this turn.)When you play this card, you may discard 2 other cards from your hand. If you do, search your deck for up to 2 basic Energy cards and attach them to the Pok\u00e9mon you evolved in this way.",
+        "Illustrator": "Megumi Mizutani",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201323%2Fsm-cosmic-eclipse-red-and-blue",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Red-Blue-V1-CEC202?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-203",
@@ -6852,20 +6852,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Unidentified-Fossil-CEC207?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-209",
-        "Name": "Draw Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_209_R_EN_LG.png",
-        "Pack": null,
-        "Description": "This card provides [C] Energy. When you attach this card from your hand to a Pok\u00e9mon, draw a card.",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201329%2Fsm-cosmic-eclipse-draw-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Draw-Energy-V1-CEC209?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-208",
         "Name": "Will",
         "Card-Type": "Supporter",
@@ -6878,6 +6864,20 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201328%2Fsm-cosmic-eclipse-will",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Will-CEC208?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-209",
+        "Name": "Draw Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_209_R_EN_LG.png",
+        "Pack": null,
+        "Description": "This card provides [C] Energy. When you attach this card from your hand to a Pok\u00e9mon, draw a card.",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201329%2Fsm-cosmic-eclipse-draw-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Draw-Energy-V1-CEC209?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-210",
@@ -6908,7 +6908,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -6948,7 +6948,7 @@
         ],
         "Effects": [
             "This attack does 10 less damage for each damage counter on this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -6984,7 +6984,7 @@
         ],
         "Effects": [
             "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
-            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game. )"
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -7024,7 +7024,7 @@
         ],
         "Effects": [
             "Put 2 [R] Energy attached to this Pok\u00e9mon into your hand.",
-            "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -7060,7 +7060,7 @@
         ],
         "Effects": [
             "You may attach up to 3 [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. If you do, heal 50 damage from those Pok\u00e9mon for each card you attached to them in this way.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -7070,42 +7070,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201333%2Fsm-cosmic-eclipse-blastoise-and-piplup-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Blastoise-Piplup-GX-V2-CEC214?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-216",
-        "Name": "Solgaleo & Lunala-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_216_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "270",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Cosmic Burn",
-            "Light of the Protector-GX"
-        ],
-        "Move-Energy": [
-            "PPPC",
-            "PPC+"
-        ],
-        "Move-Damage": [
-            "230",
-            "200"
-        ],
-        "Effects": [
-            "This Pok\u00e9mon can't use Cosmic Burn during your next turn.",
-            "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Hideki Ishikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201250%2Fsm-cosmic-eclipse-solgaleo-and-lunala-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Solgaleo-Lunala-GX-V2-CEC216?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-215",
@@ -7132,7 +7096,7 @@
         ],
         "Effects": [
             "You may attach up to 3 [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. If you do, heal 50 damage from those Pok\u00e9mon for each card you attached to them in this way.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -7142,6 +7106,42 @@
         "Illustrator": "Akira Komayama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201334%2Fsm-cosmic-eclipse-blastoise-and-piplup-gx-alternate-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Blastoise-Piplup-GX-V3-CEC215?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-216",
+        "Name": "Solgaleo & Lunala-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_216_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "270",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cosmic Burn",
+            "Light of the Protector-GX"
+        ],
+        "Move-Energy": [
+            "PPPC",
+            "PPC+"
+        ],
+        "Move-Damage": [
+            "230",
+            "200"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon can't use Cosmic Burn during your next turn.",
+            "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Hideki Ishikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201250%2Fsm-cosmic-eclipse-solgaleo-and-lunala-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Solgaleo-Lunala-GX-V2-CEC216?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-217",
@@ -7172,7 +7172,7 @@
         ],
         "Effects": [
             "",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Fighting",
@@ -7212,7 +7212,7 @@
         ],
         "Effects": [
             "If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -7252,7 +7252,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -7288,7 +7288,7 @@
         ],
         "Effects": [
             "Search your deck for up to 3 basic Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
-            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -7298,42 +7298,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201337%2Fsm-cosmic-eclipse-arceus-and-dialga-and-palkia-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Arceus-Dialga-Palkia-GX-V2-CEC220?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-222",
-        "Name": "Reshiram & Zekrom-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_222_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Dragon",
-        "HP": "270",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fabled Flarebolts",
-            "Cross Break-GX"
-        ],
-        "Move-Energy": [
-            "RL",
-            "RRLL+"
-        ],
-        "Move-Damage": [
-            "90\u00d7",
-            null
-        ],
-        "Effects": [
-            "Discard up to 3 in any combination of basic [R] and basic [L] Energy cards from your Benched Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
-            "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Naoki Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201339%2Fsm-cosmic-eclipse-reshiram-and-zekrom-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Reshiram-Zekrom-GX-V2-CEC222?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-221",
@@ -7360,7 +7324,7 @@
         ],
         "Effects": [
             "Search your deck for up to 3 basic Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
-            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -7370,6 +7334,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201338%2Fsm-cosmic-eclipse-arceus-and-dialga-and-palkia-gx-alternate-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Arceus-Dialga-Palkia-GX-V3-CEC221?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-222",
+        "Name": "Reshiram & Zekrom-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_222_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "270",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fabled Flarebolts",
+            "Cross Break-GX"
+        ],
+        "Move-Energy": [
+            "RL",
+            "RRLL+"
+        ],
+        "Move-Damage": [
+            "90\u00d7",
+            null
+        ],
+        "Effects": [
+            "Discard up to 3 in any combination of basic [R] and basic [L] Energy cards from your Benched Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
+            "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201339%2Fsm-cosmic-eclipse-reshiram-and-zekrom-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Reshiram-Zekrom-GX-V2-CEC222?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-223",
@@ -7400,7 +7400,7 @@
         ],
         "Effects": [
             "",
-            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game. ) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game. )"
+            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -7440,7 +7440,7 @@
         ],
         "Effects": [
             "",
-            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game. ) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game. )"
+            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -7476,7 +7476,7 @@
         ],
         "Effects": [
             "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -7486,6 +7486,42 @@
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201285%2Fsm-cosmic-eclipse-mega-lopunny-and-jigglypuff-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mega-Lopunny-Jigglypuff-GX-V2-CEC225?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-226",
+        "Name": "Mega Lopunny & Jigglypuff-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_226_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jumping Balloon",
+            "Puffy Smashers-GX"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "C+"
+        ],
+        "Move-Damage": [
+            "60+",
+            null
+        ],
+        "Effects": [
+            "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play.",
+            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Shibuzoh.",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201286%2Fsm-cosmic-eclipse-mega-lopunny-and-jigglypuff-gx-alternate-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mega-Lopunny-Jigglypuff-GX-V3-CEC226?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-227",
@@ -7516,7 +7552,7 @@
         ],
         "Effects": [
             "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
-            "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -7526,42 +7562,6 @@
         "Illustrator": "Megumi Mizutani",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201307%2Fsm-cosmic-eclipse-silvally-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Silvally-GX-V2-CEC227?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-226",
-        "Name": "Mega Lopunny & Jigglypuff-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_226_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "240",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Jumping Balloon",
-            "Puffy Smashers-GX"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "C+"
-        ],
-        "Move-Damage": [
-            "60+",
-            null
-        ],
-        "Effects": [
-            "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Shibuzoh.",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201286%2Fsm-cosmic-eclipse-mega-lopunny-and-jigglypuff-gx-alternate-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mega-Lopunny-Jigglypuff-GX-V3-CEC226?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-228",
@@ -7620,20 +7620,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mallow-Lana-V2-CEC231?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEC-233",
-        "Name": "Professor Oak's Setup",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_233_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Search your deck for up to 3 Basic Pok\u00e9mon of different types and put them onto your Bench. Then, shuffle your deck.",
-        "Illustrator": "Nabana Kensaku",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201981%2Fsm-cosmic-eclipse-professor-oaks-setup-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Professor-Oaks-Setup-V2-CEC233?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEC-232",
         "Name": "N's Resolve",
         "Card-Type": "Supporter",
@@ -7648,6 +7634,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Ns-Resolve-V2-CEC232?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-233",
+        "Name": "Professor Oak's Setup",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_233_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Search your deck for up to 3 Basic Pok\u00e9mon of different types and put them onto your Bench. Then, shuffle your deck.",
+        "Illustrator": "Nabana Kensaku",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201981%2Fsm-cosmic-eclipse-professor-oaks-setup-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Professor-Oaks-Setup-V2-CEC233?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-234",
         "Name": "Red & Blue",
         "Card-Type": "Supporter",
@@ -7656,7 +7656,7 @@
         "Rarity": "Ultra Rare",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_234_R_EN_LG.png",
         "Pack": null,
-        "Description": "Search your deck for a Pok\u00e9mon-GX that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck. (You can't use this card during your first turn or on a Pok\u00e9mon that was put into play this turn. )When you play this card, you may discard 2 other cards from your hand. If you do, search your deck for up to 2 basic Energy cards and attach them to the Pok\u00e9mon you evolved in this way.",
+        "Description": "Search your deck for a Pok\u00e9mon-GX that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck. (You can't use this card during your first turn or on a Pok\u00e9mon that was put into play this turn.)When you play this card, you may discard 2 other cards from your hand. If you do, search your deck for up to 2 basic Energy cards and attach them to the Pok\u00e9mon you evolved in this way.",
         "Illustrator": "Hitoshi Ariga",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201346%2Fsm-cosmic-eclipse-red-and-blue-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Red-Blue-V2-CEC234?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -7762,6 +7762,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Weavile-V2-CEC238?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CEC-239",
+        "Name": "Piplup",
+        "Rarity": "Character Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_239_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble Hold"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon is a Basic Pok\u00e9mon, it can't attack during your opponent's next turn."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomomi Kaneko",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201350%2Fsm-cosmic-eclipse-piplup-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Piplup-V2-CEC239?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CEC-240",
         "Name": "Wishiwashi",
         "Rarity": "Character Holo Rare",
@@ -7796,38 +7828,6 @@
         "Illustrator": "Misaki Hashimoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201351%2Fsm-cosmic-eclipse-wishiwashi-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Wishiwashi-V2-CEC240?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-239",
-        "Name": "Piplup",
-        "Rarity": "Character Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_239_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bubble Hold"
-        ],
-        "Move-Energy": [
-            "WWW"
-        ],
-        "Move-Damage": [
-            "80"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon is a Basic Pok\u00e9mon, it can't attack during your opponent's next turn."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomomi Kaneko",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201350%2Fsm-cosmic-eclipse-piplup-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Piplup-V2-CEC239?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-241",
@@ -7910,7 +7910,7 @@
             "Blow-Away Bomb"
         ],
         "Ability-Effect": [
-            "Once during your turn, when you discard this Pok\u00e9mon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pok\u00e9mon. (Place damage counters after the effect of Roxie. )"
+            "Once during your turn, when you discard this Pok\u00e9mon with the effect of Roxie, you may put 1 damage counter on each of your opponent's Pok\u00e9mon. (Place damage counters after the effect of Roxie.)"
         ],
         "Moves": [
             "Poison Gas"
@@ -8102,7 +8102,7 @@
             "110"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -8142,7 +8142,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -8152,42 +8152,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201609%2Fsm-cosmic-eclipse-venusaur-and-snivy-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Venusaur-Snivy-GX-V3-CEC249?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-251",
-        "Name": "Charizard & Braixen-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_251_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "270",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Brilliant Flare",
-            "Crimson Flame Pillar-GX"
-        ],
-        "Move-Energy": [
-            "RRRC",
-            "R+"
-        ],
-        "Move-Damage": [
-            "180",
-            null
-        ],
-        "Effects": [
-            "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
-            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201611%2Fsm-cosmic-eclipse-charizard-and-braixen-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Charizard-Braixen-GX-V3-CEC251?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-250",
@@ -8218,7 +8182,7 @@
         ],
         "Effects": [
             "This attack does 10 less damage for each damage counter on this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -8228,6 +8192,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201610%2Fsm-cosmic-eclipse-vileplume-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Vileplume-GX-V3-CEC250?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-251",
+        "Name": "Charizard & Braixen-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_251_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "270",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Brilliant Flare",
+            "Crimson Flame Pillar-GX"
+        ],
+        "Move-Energy": [
+            "RRRC",
+            "R+"
+        ],
+        "Move-Damage": [
+            "180",
+            null
+        ],
+        "Effects": [
+            "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201611%2Fsm-cosmic-eclipse-charizard-and-braixen-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Charizard-Braixen-GX-V3-CEC251?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-252",
@@ -8258,7 +8258,7 @@
         ],
         "Effects": [
             "Put 2 [R] Energy attached to this Pok\u00e9mon into your hand.",
-            "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -8294,7 +8294,7 @@
         ],
         "Effects": [
             "You may attach up to 3 [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. If you do, heal 50 damage from those Pok\u00e9mon for each card you attached to them in this way.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra [W] Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -8330,7 +8330,7 @@
         ],
         "Effects": [
             "This Pok\u00e9mon can't use Cosmic Burn during your next turn.",
-            "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
+            "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -8370,7 +8370,7 @@
         ],
         "Effects": [
             "",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Fighting",
@@ -8410,7 +8410,7 @@
         ],
         "Effects": [
             "If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -8450,7 +8450,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. This damage isn't affected by Weakness, Resistance, or any other effects on that Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -8486,7 +8486,7 @@
         ],
         "Effects": [
             "Search your deck for up to 3 basic Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
-            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra [W] Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -8522,7 +8522,7 @@
         ],
         "Effects": [
             "Discard up to 3 in any combination of basic [R] and basic [L] Energy cards from your Benched Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way.",
-            "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -8532,42 +8532,6 @@
         "Illustrator": "Naoki Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201620%2Fsm-cosmic-eclipse-reshiram-and-zekrom-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Reshiram-Zekrom-GX-V3-CEC259?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEC-261",
-        "Name": "Mega Lopunny & Jigglypuff-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_261_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "240",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Jumping Balloon",
-            "Puffy Smashers-GX"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "C+"
-        ],
-        "Move-Damage": [
-            "60+",
-            null
-        ],
-        "Effects": [
-            "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play.",
-            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "aky CG Works",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201287%2Fsm-cosmic-eclipse-mega-lopunny-and-jigglypuff-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mega-Lopunny-Jigglypuff-GX-V4-CEC261?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-260",
@@ -8598,7 +8562,7 @@
         ],
         "Effects": [
             "",
-            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game. ) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game. )"
+            "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pok\u00e9mon has at least 1 extra [P] Energy and 1 extra [D] Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -8608,6 +8572,42 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201622%2Fsm-cosmic-eclipse-naganadel-and-guzzlord-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Naganadel-Guzzlord-GX-V4-CEC260?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEC-261",
+        "Name": "Mega Lopunny & Jigglypuff-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEC/CEC_261_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jumping Balloon",
+            "Puffy Smashers-GX"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "C+"
+        ],
+        "Move-Damage": [
+            "60+",
+            null
+        ],
+        "Effects": [
+            "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play.",
+            "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F201287%2Fsm-cosmic-eclipse-mega-lopunny-and-jigglypuff-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Cosmic-Eclipse/Mega-Lopunny-Jigglypuff-GX-V4-CEC261?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEC-262",
@@ -8638,7 +8638,7 @@
         ],
         "Effects": [
             "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
-            "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,

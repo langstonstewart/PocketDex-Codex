@@ -1,37 +1,5 @@
 [
     {
-        "ID": "CL-002",
-        "Name": "Deoxys",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_002_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Cell Storm"
-        ],
-        "Move-Energy": [
-            "PPP"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            "Discard 2 [P] Energy attached to Deoxys and remove 6 damage counters from Deoxys."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84757%2Fcall-of-legends-deoxys-holo-rare",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Deoxys-CL2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-001",
         "Name": "Clefable",
         "Rarity": "Holo Rare",
@@ -66,6 +34,38 @@
         "Illustrator": "sui",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84348%2Fcall-of-legends-clefable",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Clefable-CL1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-002",
+        "Name": "Deoxys",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cell Storm"
+        ],
+        "Move-Energy": [
+            "PPP"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Discard 2 [P] Energy attached to Deoxys and remove 6 damage counters from Deoxys."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84757%2Fcall-of-legends-deoxys-holo-rare",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Deoxys-CL2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-003",
@@ -384,6 +384,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Jirachi-CL11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CL-012",
+        "Name": "Kyogre",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Destructive Tsunami"
+        ],
+        "Move-Energy": [
+            "WWWW"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pok\u00e9mon. If tails, this attack does 40 damage to each of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86550%2Fcall-of-legends-kyogre-holo-rare",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Kyogre-CL12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CL-013",
         "Name": "Leafeon",
         "Rarity": "Holo Rare",
@@ -418,38 +450,6 @@
         "Illustrator": "match",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86681%2Fcall-of-legends-leafeon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Leafeon-CL13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CL-012",
-        "Name": "Kyogre",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_012_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Destructive Tsunami"
-        ],
-        "Move-Energy": [
-            "WWWW"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pok\u00e9mon. If tails, this attack does 40 damage to each of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86550%2Fcall-of-legends-kyogre-holo-rare",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Kyogre-CL12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-014",
@@ -511,7 +511,7 @@
             "80"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -522,42 +522,6 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86910%2Fcall-of-legends-lugia",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Lugia-CL15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CL-017",
-        "Name": "Ninetales",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_017_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "90",
-        "Ability": [
-            "Roast Reveal"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may discard a [R] Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Will-o'-the-wisp"
-        ],
-        "Move-Energy": [
-            "RRC"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "TOKIYA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87777%2Fcall-of-legends-ninetales",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Ninetales-CL17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-016",
@@ -594,6 +558,42 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87061%2Fcall-of-legends-magmortar",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Magmortar-CL16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-017",
+        "Name": "Ninetales",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": [
+            "Roast Reveal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may discard a [R] Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Will-o'-the-wisp"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "TOKIYA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87777%2Fcall-of-legends-ninetales",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Ninetales-CL17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-018",
@@ -732,42 +732,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Smeargle-CL21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-023",
-        "Name": "Ampharos",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_023_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Lightning",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Acceleration Bolt",
-            "Thunder"
-        ],
-        "Move-Energy": [
-            "L",
-            "LCC"
-        ],
-        "Move-Damage": [
-            "30",
-            "80"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 basic Energy cards and attach them to 1 of your Pok\u00e9mon. Shuffle your deck afterward.",
-            "Flip a coin. If tails, Ampharos does 20 damage to itself."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83546%2Fcall-of-legends-ampharos",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Ampharos-CL23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-022",
         "Name": "Umbreon",
         "Rarity": "Holo Rare",
@@ -802,6 +766,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90147%2Fcall-of-legends-umbreon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Umbreon-CL22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-023",
+        "Name": "Ampharos",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_023_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Acceleration Bolt",
+            "Thunder"
+        ],
+        "Move-Energy": [
+            "L",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 basic Energy cards and attach them to 1 of your Pok\u00e9mon. Shuffle your deck afterward.",
+            "Flip a coin. If tails, Ampharos does 20 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83546%2Fcall-of-legends-ampharos",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Ampharos-CL23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-024",
@@ -863,7 +863,7 @@
             "80"
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Grass",
@@ -1511,7 +1511,7 @@
             "40"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fighting",
@@ -1596,42 +1596,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Jolteon-CL45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-047",
-        "Name": "Mime Jr.",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_047_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "30",
-        "Ability": [
-            "Sweet Sleeping Face"
-        ],
-        "Ability-Effect": [
-            "As long as Mime Jr. is Asleep, prevent all damage done to Mime Jr. by attacks."
-        ],
-        "Moves": [
-            "Sleepy Lost"
-        ],
-        "Move-Energy": [
-            "0"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Put the top card of your opponent's deck in the Lost Zone. Mime Jr. is now Asleep."
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Noriko Hotta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87472%2Fcall-of-legends-mime-jr",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Mime-Jr-CL47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-046",
         "Name": "Magby",
         "Rarity": "Uncommon",
@@ -1666,6 +1630,42 @@
         "Illustrator": "Akira Komayama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87007%2Fcall-of-legends-magby",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Magby-CL46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-047",
+        "Name": "Mime Jr.",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_047_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "30",
+        "Ability": [
+            "Sweet Sleeping Face"
+        ],
+        "Ability-Effect": [
+            "As long as Mime Jr. is Asleep, prevent all damage done to Mime Jr. by attacks."
+        ],
+        "Moves": [
+            "Sleepy Lost"
+        ],
+        "Move-Energy": [
+            "0"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put the top card of your opponent's deck in the Lost Zone. Mime Jr. is now Asleep."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Noriko Hotta",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87472%2Fcall-of-legends-mime-jr",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Mime-Jr-CL47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-048",
@@ -1772,6 +1772,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Riolu-CL50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CL-051",
+        "Name": "Seviper",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_051_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Buildup",
+            "Poison Effect"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "20+"
+        ],
+        "Effects": [
+            "Seviper is now Poisoned.",
+            "If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Wataru Kawahara",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89088%2Fcall-of-legends-seviper",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Seviper-CL51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CL-052",
         "Name": "Vaporeon",
         "Rarity": "Uncommon",
@@ -1796,7 +1832,7 @@
         ],
         "Effects": [
             "Remove 2 damage counters from Vaporeon.",
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1844,74 +1880,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Chikorita-CL53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-051",
-        "Name": "Seviper",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_051_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Poison Buildup",
-            "Poison Effect"
-        ],
-        "Move-Energy": [
-            "C",
-            "PC"
-        ],
-        "Move-Damage": [
-            null,
-            "20+"
-        ],
-        "Effects": [
-            "Seviper is now Poisoned.",
-            "If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Wataru Kawahara",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89088%2Fcall-of-legends-seviper",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Seviper-CL51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CL-055",
-        "Name": "Cyndaquil",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_055_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fireworks"
-        ],
-        "Move-Energy": [
-            "R"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, discard a [R] Energy attached to Cyndaquil."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84553%2Fcall-of-legends-cyndaquil",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Cyndaquil-CL55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-054",
         "Name": "Clefairy",
         "Rarity": "Common",
@@ -1946,6 +1914,38 @@
         "Illustrator": "sui",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84359%2Fcall-of-legends-clefairy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Clefairy-CL54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-055",
+        "Name": "Cyndaquil",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_055_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fireworks"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, discard a [R] Energy attached to Cyndaquil."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84553%2Fcall-of-legends-cyndaquil",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Cyndaquil-CL55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-056",
@@ -2124,6 +2124,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Koffing-CL60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CL-061",
+        "Name": "Magikarp",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_061_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87035%2Fcall-of-legends-magikarp",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Magikarp-CL61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CL-062",
         "Name": "Magmar",
         "Rarity": "Common",
@@ -2160,38 +2192,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Magmar-CL62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-061",
-        "Name": "Magikarp",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_061_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Splash"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87035%2Fcall-of-legends-magikarp",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Magikarp-CL61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-063",
         "Name": "Mareep",
         "Rarity": "Common",
@@ -2222,42 +2222,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87207%2Fcall-of-legends-mareep",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Mareep-CL63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CL-065",
-        "Name": "Misdreavus",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_065_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mumble",
-            "Dual Draw"
-        ],
-        "Move-Energy": [
-            "C",
-            "P"
-        ],
-        "Move-Damage": [
-            "10",
-            null
-        ],
-        "Effects": [
-            "",
-            "Each player draws 3 cards."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Suwama Chiaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87512%2Fcall-of-legends-misdreavus",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Misdreavus-CL65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-064",
@@ -2296,6 +2260,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Mawile-CL64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CL-065",
+        "Name": "Misdreavus",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_065_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mumble",
+            "Dual Draw"
+        ],
+        "Move-Energy": [
+            "C",
+            "P"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Each player draws 3 cards."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Suwama Chiaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87512%2Fcall-of-legends-misdreavus",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Misdreavus-CL65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CL-066",
         "Name": "Phanpy",
         "Rarity": "Common",
@@ -2332,38 +2332,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Phanpy-CL66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-068",
-        "Name": "Pineco",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_068_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rollout"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kyoko Umemoto",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88131%2Fcall-of-legends-pineco",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Pineco-CL68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-067",
         "Name": "Pidgey",
         "Rarity": "Common",
@@ -2398,6 +2366,38 @@
         "Illustrator": "Suwama Chiaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88052%2Fcall-of-legends-pidgey",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Pidgey-CL67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-068",
+        "Name": "Pineco",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_068_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88131%2Fcall-of-legends-pineco",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Pineco-CL68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-069",
@@ -2468,42 +2468,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Slowpoke-CL70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-072",
-        "Name": "Tangela",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_072_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Nutritional Support",
-            "Poisonpowder"
-        ],
-        "Move-Energy": [
-            "G",
-            "GCC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Search your deck for a [G] Energy card and attach it to 1 of your Pok\u00e9mon. Shuffle your deck afterward.",
-            "The Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Water",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hideaki Hakozaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89748%2Fcall-of-legends-tangela",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Tangela-CL72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-071",
         "Name": "Snubbull",
         "Rarity": "Common",
@@ -2538,6 +2502,42 @@
         "Illustrator": "Mizue",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89417%2Fcall-of-legends-snubbull",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Snubbull-CL71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-072",
+        "Name": "Tangela",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Nutritional Support",
+            "Poisonpowder"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Search your deck for a [G] Energy card and attach it to 1 of your Pok\u00e9mon. Shuffle your deck afterward.",
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideaki Hakozaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89748%2Fcall-of-legends-tangela",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Tangela-CL72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-073",
@@ -2654,20 +2654,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Cheerleaders-Cheer-CL76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CL-078",
-        "Name": "Dual Ball",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_078_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Flip 2 coins. For each heads, search your deck for a Basic Pok\u00e9mon, show it to your opponent, and put it into your hand. If you do, shuffle your deck afterward.",
-        "Illustrator": "Takashi Yamaguchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84989%2Fcall-of-legends-dual-ball",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Dual-Ball-CL78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CL-077",
         "Name": "Copycat",
         "Card-Type": "Supporter",
@@ -2680,6 +2666,20 @@
         "Illustrator": "Kanako Eo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84428%2Fcall-of-legends-copycat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Copycat-CL77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CL-078",
+        "Name": "Dual Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_078_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Flip 2 coins. For each heads, search your deck for a Basic Pok\u00e9mon, show it to your opponent, and put it into your hand. If you do, shuffle your deck afterward.",
+        "Illustrator": "Takashi Yamaguchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84989%2Fcall-of-legends-dual-ball",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Dual-Ball-CL78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CL-079",
@@ -2788,7 +2788,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_086_R_EN_LG.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Kent Kanetsuna",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84694%2Fcall-of-legends-darkness-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Darkness-Energy-CL86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2802,7 +2802,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CL/CL_087_R_EN_LG.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Kent Kanetsuna",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87367%2Fcall-of-legends-metal-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Call-of-Legends/Metal-Energy-CL87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3108,7 +3108,7 @@
             null
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pok\u00e9mon. If tails, this attack does 40 damage to each of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pok\u00e9mon. If tails, this attack does 40 damage to each of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -3143,7 +3143,7 @@
             "80"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -3280,7 +3280,7 @@
             null
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,

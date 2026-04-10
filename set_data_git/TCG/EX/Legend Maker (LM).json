@@ -64,7 +64,7 @@
         ],
         "Effects": [
             "Does 70 damage minus 10 damage for each damage counter on Aggron. If Aggron has any React Energy cards attached to it, this attack does 70 damage instead.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) During your next turn, Aggron can't use Bound Crush."
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) During your next turn, Aggron can't use Bound Crush."
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -103,7 +103,7 @@
         ],
         "Effects": [
             "Count the number of React Energy cards attached to Cradily and choose up to that number of your opponent's Evolved Pok\u00e9mon. Remove the highest Stage Evolution card from each of those Pok\u00e9mon, then have your opponent shuffle those cards into his or her deck.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Fire",
@@ -223,7 +223,7 @@
         ],
         "Effects": [
             "Search your discard pile for a [F] Energy card and attach it to Golem. If you do, remove 2 damage counters from Golem.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each damage counter on Golem to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each damage counter on Golem to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This attack's damage isn't affected by Resistance."
         ],
         "Weakness": "Water",
@@ -424,46 +424,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Muk-LM11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-013",
-        "Name": "Victreebel",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex12/13_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "100",
-        "Ability": [
-            "Nectar Pod"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may switch 1 of your opponent's Benched Stage 2 Evolved Pok\u00e9mon with 1 of the Defending Pok\u00e9mon. Your opponent chooses the Defending Pok\u00e9mon to switch. This power can't be used if Victreebel is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Sleep Poison",
-            "Sharp Leaf"
-        ],
-        "Move-Energy": [
-            "GC",
-            "GCC"
-        ],
-        "Move-Damage": [
-            "10",
-            "40+"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep and Poisoned.",
-            "Flip a coin. If heads, this attack does 40 damage plus 30 more damage."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90363%2Fpokemon-legend-maker-victreebel",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Victreebel-LM13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "LM-012",
         "Name": "Shiftry",
         "Rarity": "Holo Rare",
@@ -502,6 +462,46 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89156%2Fpokemon-legend-maker-shiftry",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Shiftry-LM12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "LM-013",
+        "Name": "Victreebel",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex12/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Nectar Pod"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may switch 1 of your opponent's Benched Stage 2 Evolved Pok\u00e9mon with 1 of the Defending Pok\u00e9mon. Your opponent chooses the Defending Pok\u00e9mon to switch. This power can't be used if Victreebel is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Sleep Poison",
+            "Sharp Leaf"
+        ],
+        "Move-Energy": [
+            "GC",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep and Poisoned.",
+            "Flip a coin. If heads, this attack does 40 damage plus 30 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90363%2Fpokemon-legend-maker-victreebel",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Victreebel-LM13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-014",
@@ -803,7 +803,7 @@
             "40"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon already has any damage counters on it, the Defending Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Water",
@@ -924,7 +924,7 @@
         ],
         "Effects": [
             "Search your deck for a [G] Pok\u00e9mon (excluding Pok\u00e9mon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-            "Does 20 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 20 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -1116,7 +1116,7 @@
         ],
         "Effects": [
             "Search your deck for Omanyte, Kabuto, Aerodactyl, Lileep, or Anorith and put up to 2 of them onto your Bench. Shuffle your deck afterward. Treat the new Benched Pok\u00e9mon as Basic Pok\u00e9mon.",
-            "If Anorith has any React Energy cards attached to it, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If Anorith has any React Energy cards attached to it, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1140,7 +1140,7 @@
             "Emerge"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if Cascoon is your Active Pok\u00e9mon, you may flip a coin. If heads, search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon. ) Shuffle your deck afterward. This power can't be used if Cascoon is affected by a Special Condition."
+            "Once during your turn (before your attack), if Cascoon is your Active Pok\u00e9mon, you may flip a coin. If heads, search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon.) Shuffle your deck afterward. This power can't be used if Cascoon is affected by a Special Condition."
         ],
         "Moves": [
             "Tackle"
@@ -1300,7 +1300,7 @@
             "20"
         ],
         "Effects": [
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1411,7 +1411,7 @@
             "10+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
         ],
         "Weakness": "Fighting",
@@ -1715,7 +1715,7 @@
             "20\u00d7"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip 3 coins. This attack does 20 damage times the number of heads."
         ],
         "Weakness": "Lightning",
@@ -1764,42 +1764,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Vibrava-LM46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-048",
-        "Name": "Aron",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex12/48_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Self Charge",
-            "Headbutt"
-        ],
-        "Move-Energy": [
-            "C",
-            "MC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Attach a [M] Energy card from your hand to Aron.",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83632%2Fpokemon-legend-maker-aron",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Aron-LM48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "LM-047",
         "Name": "Weepinbell",
         "Rarity": "Uncommon",
@@ -1836,40 +1800,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Weepinbell-LM47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-050",
-        "Name": "Chinchou",
+        "ID": "LM-048",
+        "Name": "Aron",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex12/50_hires.png",
+        "Image": "https://images.pokemontcg.io/ex12/48_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Lightning",
+        "Type": "Metal",
         "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Random Spark",
-            "Lightning Ball"
+            "Self Charge",
+            "Headbutt"
         ],
         "Move-Energy": [
-            "L",
-            "LC"
+            "C",
+            "MC"
         ],
         "Move-Damage": [
             null,
             "20"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Attach a [M] Energy card from your hand to Aron.",
             ""
         ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Sachiko Adachi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84306%2Fpokemon-legend-maker-chinchou",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Chinchou-LM50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83632%2Fpokemon-legend-maker-aron",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Aron-LM48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-049",
@@ -1902,6 +1866,42 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83808%2Fpokemon-legend-maker-bellsprout",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Bellsprout-LM49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "LM-050",
+        "Name": "Chinchou",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex12/50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Random Spark",
+            "Lightning Ball"
+        ],
+        "Move-Energy": [
+            "L",
+            "LC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sachiko Adachi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84306%2Fpokemon-legend-maker-chinchou",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Chinchou-LM50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-051",
@@ -1996,7 +1996,7 @@
             "50"
         ],
         "Effects": [
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Geodude does 50 damage to itself."
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Geodude does 50 damage to itself."
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2031,7 +2031,7 @@
             "20"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Grimer and put it onto Grimer. (This counts as evolving Grimer. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Grimer and put it onto Grimer. (This counts as evolving Grimer.) Shuffle your deck afterward.",
             ""
         ],
         "Weakness": "Psychic",
@@ -2136,7 +2136,7 @@
             "10"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2324,42 +2324,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Sentret-LM62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-064",
-        "Name": "Skitty",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex12/64_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Important Errands",
-            "Jump On"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "10+"
-        ],
-        "Effects": [
-            "Search your deck for a React Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Satoshi Ohta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89264%2Fpokemon-legend-maker-skitty",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Skitty-V1-LM64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "LM-063",
         "Name": "Shuppet",
         "Rarity": "Common",
@@ -2396,36 +2360,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Shuppet-LM63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-066",
-        "Name": "Tentacool",
+        "ID": "LM-064",
+        "Name": "Skitty",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex12/66_hires.png",
+        "Image": "https://images.pokemontcg.io/ex12/64_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Water",
+        "Type": "Colorless",
         "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Poison Sting"
+            "Important Errands",
+            "Jump On"
         ],
         "Move-Energy": [
-            "W"
+            "C",
+            "CC"
         ],
         "Move-Damage": [
-            null
+            null,
+            "10+"
         ],
         "Effects": [
-            "The Defending Pok\u00e9mon is now Poisoned."
+            "Search your deck for a React Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
         ],
-        "Weakness": "Lightning",
+        "Weakness": "Fighting",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Tomoaki Imakuni",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89867%2Fpokemon-legend-maker-tentacool",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Tentacool-LM66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Satoshi Ohta",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89264%2Fpokemon-legend-maker-skitty",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Skitty-V1-LM64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-065",
@@ -2460,6 +2428,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Spheal-LM65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "LM-066",
+        "Name": "Tentacool",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex12/66_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Sting"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomoaki Imakuni",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89867%2Fpokemon-legend-maker-tentacool",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Tentacool-LM66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "LM-067",
         "Name": "Trapinch",
         "Rarity": "Common",
@@ -2483,7 +2483,7 @@
             "20\u00d7"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip 2 coins. This attack does 20 damage times the number of heads."
         ],
         "Weakness": "Grass",
@@ -2532,42 +2532,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Voltorb-LM68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-070",
-        "Name": "Wurmple",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex12/70_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": [
-            "Poison Payback"
-        ],
-        "Ability-Effect": [
-            "If Wurmple is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Wurmple is Knocked Out), the Attacking Pok\u00e9mon is now Poisoned."
-        ],
-        "Moves": [
-            "String Pull"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Switch 1 of your opponent's Benched Pok\u00e9mon with 1 of the Defending Pok\u00e9mon. Your opponent chooses the Defending Pok\u00e9mon to switch."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90650%2Fpokemon-legend-maker-wurmple",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Wurmple-LM70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "LM-069",
         "Name": "Wailmer",
         "Rarity": "Common",
@@ -2604,18 +2568,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Wailmer-LM69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-072",
-        "Name": "Cursed Stone",
-        "Card-Type": "Stadium",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex12/72_hires.png",
-        "Pack": null,
-        "Description": "At any time between turns, each player puts 1 damage counter on his or her Pok\u00e9mon that has a Pok\u00e9-Power.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84538%2Fpokemon-legend-maker-cursed-stone",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Cursed-Stone-LM72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "ID": "LM-070",
+        "Name": "Wurmple",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex12/70_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": [
+            "Poison Payback"
+        ],
+        "Ability-Effect": [
+            "If Wurmple is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Wurmple is Knocked Out), the Attacking Pok\u00e9mon is now Poisoned."
+        ],
+        "Moves": [
+            "String Pull"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with 1 of the Defending Pok\u00e9mon. Your opponent chooses the Defending Pok\u00e9mon to switch."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90650%2Fpokemon-legend-maker-wurmple",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Wurmple-LM70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-071",
@@ -2654,6 +2640,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Wynaut-LM71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "LM-072",
+        "Name": "Cursed Stone",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex12/72_hires.png",
+        "Pack": null,
+        "Description": "At any time between turns, each player puts 1 damage counter on his or her Pok\u00e9mon that has a Pok\u00e9-Power.",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84538%2Fpokemon-legend-maker-cursed-stone",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Cursed-Stone-LM72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "LM-073",
         "Name": "Fieldworker",
         "Card-Type": "Supporter",
@@ -2690,7 +2690,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex12/75_hires.png",
         "Pack": null,
-        "Description": "Each player can't have more than 3 Benched Pok\u00e9mon. When Giant Stump comes into play, each player discards Benched Pok\u00e9mon and any cards attached to them until he or she has 3 Benched Pok\u00e9mon. (You discard your Pok\u00e9mon first. )",
+        "Description": "Each player can't have more than 3 Benched Pok\u00e9mon. When Giant Stump comes into play, each player discards Benched Pok\u00e9mon and any cards attached to them until he or she has 3 Benched Pok\u00e9mon. (You discard your Pok\u00e9mon first.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85697%2Fpokemon-legend-maker-giant-stump",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Giant-Stump-LM75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2710,6 +2710,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Power-Tree-LM76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "LM-077",
+        "Name": "Strange Cave",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex12/77_hires.png",
+        "Pack": null,
+        "Description": "Once during each player's turn, that player may put an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith onto his or her Bench from his or her hand. Treat the new Benched Pok\u00e9mon as Basic Pok\u00e9mon.",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89574%2Fpokemon-legend-maker-strange-cave",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Strange-Cave-LM77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "LM-078",
         "Name": "Claw Fossil",
         "Card-Type": "Item",
@@ -2723,24 +2737,25 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex12/78_hires.png",
         "Pack": null,
-        "Description": "Play Claw Fossil as if it were a Basic Pok\u00e9mon. While in play, Claw Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Claw Fossil from play.                                                    Ability:                          Jagged Stone                                              If Claw Fossil is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Claw Fossil is Knocked Out), put 1 damage counter on the Attacking Pok\u00e9mon.",
+        "Description": "Play Claw Fossil as if it were a Basic Pok\u00e9mon. While in play, Claw Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Claw Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84329%2Fpokemon-legend-maker-claw-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Claw-Fossil-LM78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "LM-077",
-        "Name": "Strange Cave",
-        "Card-Type": "Stadium",
+        "ID": "LM-079",
+        "Name": "Mysterious Fossil",
+        "Card-Type": "Item",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex12/77_hires.png",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex12/79_hires.png",
         "Pack": null,
-        "Description": "Once during each player's turn, that player may put an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith onto his or her Bench from his or her hand. Treat the new Benched Pok\u00e9mon as Basic Pok\u00e9mon.",
+        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
         "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89574%2Fpokemon-legend-maker-strange-cave",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Strange-Cave-LM77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87663%2Fpokemon-legend-maker-mysterious-fossil",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Mysterious-Fossil-LM79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-080",
@@ -2756,25 +2771,10 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex12/80_hires.png",
         "Pack": null,
-        "Description": "Play Root Fossil as if it were a Basic Pok\u00e9mon. While in play, Root Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Root Fossil from play.                                                    Ability:                          Spongy Stone                                              At any time between turns, remove 1 damage counter from Root Fossil.",
+        "Description": "Play Root Fossil as if it were a Basic Pok\u00e9mon. While in play, Root Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Root Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88811%2Fpokemon-legend-maker-root-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Root-Fossil-LM80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "LM-079",
-        "Name": "Mysterious Fossil",
-        "Card-Type": "Item",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex12/79_hires.png",
-        "Pack": null,
-        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87663%2Fpokemon-legend-maker-mysterious-fossil",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Mysterious-Fossil-LM79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-081",
@@ -2832,7 +2832,7 @@
             "100"
         ],
         "Effects": [
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard 2 [R] Energy or 1 React Energy card attached to Arcanine ex."
         ],
         "Weakness": "Water",
@@ -3013,7 +3013,7 @@
             "Versatile"
         ],
         "Ability-Effect": [
-            "Mew ex can use the attacks of all Pok\u00e9mon in play as its own. (You still need the necessary Energy to use each attack. )"
+            "Mew ex can use the attacks of all Pok\u00e9mon in play as its own. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [
             "Power Move"
@@ -3064,7 +3064,7 @@
             "80"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon is a [F] Pok\u00e9mon, this attack's base damage is 120 instead of 80."
         ],
         "Weakness": "Fighting/metal",
@@ -3101,7 +3101,7 @@
         ],
         "Effects": [
             "Prevent all effects of an attack, including damage, done to Regice Star by your opponent's Pok\u00e9mon-ex during your opponent's next turn.",
-            "If your opponent has only 1 Prize card left and Regice Star is the only Pok\u00e9mon you have in play, this attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has only 1 Prize card left and Regice Star is the only Pok\u00e9mon you have in play, this attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -3111,42 +3111,6 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88658%2Fpokemon-legend-maker-regice-star",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Regice-Gold-Star-LM90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "LM-092",
-        "Name": "Registeel Star",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex12/92_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Barrier Attack",
-            "Final Laser"
-        ],
-        "Move-Energy": [
-            "M",
-            "MMC"
-        ],
-        "Move-Damage": [
-            "10",
-            null
-        ],
-        "Effects": [
-            "During your opponent's next turn, any damage done to Registeel Star by attacks is reduced by 10 (after applying Weakness and Resistance).",
-            "Put 3 damage counters on your opponent's Pok\u00e9mon in any way you like. If your opponent has only 1 Prize card left and Registeel Star is the only Pok\u00e9mon you have in play, put 6 damage counters instead."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "3",
-        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88678%2Fpokemon-legend-maker-registeel-star",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Registeel-Gold-Star-LM92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-091",
@@ -3183,6 +3147,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88673%2Fpokemon-legend-maker-regirock-star",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Regirock-Gold-Star-LM91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "LM-092",
+        "Name": "Registeel Star",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex12/92_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Barrier Attack",
+            "Final Laser"
+        ],
+        "Move-Energy": [
+            "M",
+            "MMC"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Registeel Star by attacks is reduced by 10 (after applying Weakness and Resistance).",
+            "Put 3 damage counters on your opponent's Pok\u00e9mon in any way you like. If your opponent has only 1 Prize card left and Registeel Star is the only Pok\u00e9mon you have in play, put 6 damage counters instead."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88678%2Fpokemon-legend-maker-registeel-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Legend-Maker/Registeel-Gold-Star-LM92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "LM-093",

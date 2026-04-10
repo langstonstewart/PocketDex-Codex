@@ -60,7 +60,7 @@
         ],
         "Effects": [
             "Your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand during your opponent's next turn.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. If that Pok\u00e9mon already has damage counters on it, this attack does 60 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. If that Pok\u00e9mon already has damage counters on it, this attack does 60 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -148,46 +148,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Espeon-Delta-Species-DS4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-006",
-        "Name": "Gardevoir",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex11/6_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Psychic/Metal",
-        "HP": "100",
-        "Ability": [
-            "Energy Jump"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Gardevoir is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Psychic Rage",
-            "Black Magic"
-        ],
-        "Move-Energy": [
-            "MC",
-            "PCC"
-        ],
-        "Move-Damage": [
-            null,
-            "10+"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each damage counter on Gardevoir to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Does 10 damage plus 20 more damage times the number of your opponent's Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85640%2Fpokemon-delta-species-gardevoir-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Gardevoir-Delta-Species-DS6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DS-005",
         "Name": "Flareon",
         "Rarity": "Holo Rare",
@@ -224,6 +184,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Flareon-Delta-Species-DS5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DS-006",
+        "Name": "Gardevoir",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex11/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic/Metal",
+        "HP": "100",
+        "Ability": [
+            "Energy Jump"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Gardevoir is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Psychic Rage",
+            "Black Magic"
+        ],
+        "Move-Energy": [
+            "MC",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each damage counter on Gardevoir to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 10 damage plus 20 more damage times the number of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85640%2Fpokemon-delta-species-gardevoir-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Gardevoir-Delta-Species-DS6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DS-007",
         "Name": "Jolteon",
         "Rarity": "Holo Rare",
@@ -248,7 +248,7 @@
         ],
         "Effects": [
             "Search your deck for a Holon Energy card and attach it to Jolteon. Shuffle your deck afterward.",
-            "You may return an Energy card attached to Jolteon to your hand. If you do, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may return an Energy card attached to Jolteon to your hand. If you do, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -744,6 +744,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Azurill-DS20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DS-021",
+        "Name": "Holon's Electrode",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex11/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dazzle Blast"
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86155%2Fpokemon-delta-species-holons-electrode",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Holons-Electrode-DS21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DS-022",
         "Name": "Holon's Magneton",
         "Rarity": "Rare",
@@ -816,36 +848,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Hypno-DS23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-021",
-        "Name": "Holon's Electrode",
+        "ID": "DS-024",
+        "Name": "Mightyena",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex11/21_hires.png",
+        "Image": "https://images.pokemontcg.io/ex11/24_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
-        "Type": "Lightning",
+        "Type": "Darkness/Metal",
         "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Dazzle Blast"
+            "Delta Fang",
+            "Gang Up"
         ],
         "Move-Energy": [
-            "LC"
+            "DC",
+            "MC"
         ],
         "Move-Damage": [
-            "30"
+            "20",
+            "10\u00d7"
         ],
         "Effects": [
-            "The Defending Pok\u00e9mon is now Confused."
+            "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, that Pok\u00e9mon can't attack during your opponent's next turn.",
+            "Does 10 damage times the number of [D] Pok\u00e9mon and [M] Pok\u00e9mon you have in play."
         ],
         "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "0",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86155%2Fpokemon-delta-species-holons-electrode",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Holons-Electrode-DS21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87450%2Fpokemon-delta-species-mightyena-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Mightyena-Delta-Species-DS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-025",
@@ -884,42 +920,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Porygon2-DS25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-024",
-        "Name": "Mightyena",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex11/24_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness/Metal",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Delta Fang",
-            "Gang Up"
-        ],
-        "Move-Energy": [
-            "DC",
-            "MC"
-        ],
-        "Move-Damage": [
-            "20",
-            "10\u00d7"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, that Pok\u00e9mon can't attack during your opponent's next turn.",
-            "Does 10 damage times the number of [D] Pok\u00e9mon and [M] Pok\u00e9mon you have in play."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87450%2Fpokemon-delta-species-mightyena-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Mightyena-Delta-Species-DS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DS-026",
         "Name": "Rain Castform",
         "Rarity": "Rare",
@@ -932,7 +932,7 @@
             "Temperamental Weather"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for Castform, Sunny Castform, or Snow-cloud Castform and switch it with Rain Castform. (Any cards attached to Rain Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) Shuffle Rain Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for Castform, Sunny Castform, or Snow-cloud Castform and switch it with Rain Castform. (Any cards attached to Rain Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) Shuffle Rain Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Holon Splash"
@@ -1044,7 +1044,7 @@
             "Temperamental Weather"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Sunny Castform and switch it with Snow-cloud Castform. (Any cards attached to Snow-cloud Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) Shuffle Snow-cloud Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Sunny Castform and switch it with Snow-cloud Castform. (Any cards attached to Snow-cloud Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) Shuffle Snow-cloud Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Holon Blizzard"
@@ -1056,7 +1056,7 @@
             "20"
         ],
         "Effects": [
-            "If Snow-cloud Castform has any Holon Energy cards attached to it, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If Snow-cloud Castform has any Holon Energy cards attached to it, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -1116,7 +1116,7 @@
             "Temperamental Weather"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Snow-cloud Castform and switch it with Sunny Castform. (Any cards attached to Sunny Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) Shuffle Sunny Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Snow-cloud Castform and switch it with Sunny Castform. (Any cards attached to Sunny Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) Shuffle Sunny Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Holon Search"
@@ -1203,7 +1203,7 @@
             "50"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Psychic",
@@ -1228,7 +1228,7 @@
             "Temperamental Weather"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for Sunny Castform, Rain Castform, or Snow-cloud Castform and switch it with Castform. (Any cards attached to Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) Shuffle Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for Sunny Castform, Rain Castform, or Snow-cloud Castform and switch it with Castform. (Any cards attached to Castform, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) Shuffle Castform back into your deck. You can't use more than 1 Temperamental Weather Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Holon Draw"
@@ -1264,7 +1264,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Energy Link"
@@ -1300,7 +1300,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Toxic"
@@ -1336,7 +1336,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Rage"
@@ -1372,7 +1372,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Copy"
@@ -1384,7 +1384,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Ditto doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack. ) Ditto performs that attack."
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Ditto doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Ditto performs that attack."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1408,7 +1408,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Thunderbolt"
@@ -1444,7 +1444,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Smash Turn"
@@ -1560,7 +1560,7 @@
         ],
         "Effects": [
             "Each Defending Pok\u00e9mon is now Poisoned.",
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1724,42 +1724,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Kirlia-DS47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-049",
-        "Name": "Metang",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex11/49_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sharp Claws",
-            "Magnetic Blast"
-        ],
-        "Move-Energy": [
-            "CC",
-            "LCC"
-        ],
-        "Move-Damage": [
-            "20+",
-            "50"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87384%2Fpokemon-delta-species-metang-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Metang-Delta-Species-DS49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DS-048",
         "Name": "Magneton",
         "Rarity": "Uncommon",
@@ -1796,6 +1760,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Magneton-DS48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DS-049",
+        "Name": "Metang",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex11/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sharp Claws",
+            "Magnetic Blast"
+        ],
+        "Move-Energy": [
+            "CC",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87384%2Fpokemon-delta-species-metang-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Metang-Delta-Species-DS49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DS-050",
         "Name": "Persian",
         "Rarity": "Uncommon",
@@ -1820,7 +1820,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -2052,38 +2052,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Volbeat-DS56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-058",
-        "Name": "Bagon",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/58_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ember"
-        ],
-        "Move-Energy": [
-            "RC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "Discard a [R] Energy card attached to Bagon."
-        ],
-        "Weakness": "Colorless",
-        "Resistance": "Fire/Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83704%2Fpokemon-delta-species-bagon-058-113-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Bagon-Delta-Species-DS58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DS-057",
         "Name": "Bagon",
         "Rarity": "Common",
@@ -2114,6 +2082,38 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83703%2Fpokemon-delta-species-bagon-057-113-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Bagon-Delta-Species-DS57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DS-058",
+        "Name": "Bagon",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex11/58_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ember"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Discard a [R] Energy card attached to Bagon."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": "Fire/Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83704%2Fpokemon-delta-species-bagon-058-113-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Bagon-Delta-Species-DS58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-059",
@@ -2200,7 +2200,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Fireworks"
@@ -2236,7 +2236,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Linear Attack"
@@ -2248,7 +2248,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2258,42 +2258,6 @@
         "Illustrator": "Yuka Morii",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84839%2Fpokemon-delta-species-ditto-geodude",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DS-064",
-        "Name": "Ditto",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/64_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": [
-            "Duplicate"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
-        ],
-        "Moves": [
-            "Spiral Drain"
-        ],
-        "Move-Energy": [
-            "WC"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Remove 3 damage counter from Ditto (all if there are less than 3)."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84841%2Fpokemon-delta-species-ditto-64-113-squirtle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-063",
@@ -2308,7 +2272,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Thundershock"
@@ -2332,36 +2296,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-066",
-        "Name": "Dratini",
+        "ID": "DS-064",
+        "Name": "Ditto",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/66_hires.png",
+        "Image": "https://images.pokemontcg.io/ex11/64_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Type": "Water",
+        "HP": "60",
+        "Ability": [
+            "Duplicate"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+        ],
         "Moves": [
-            "Thunder Wave"
+            "Spiral Drain"
         ],
         "Move-Energy": [
-            "L"
+            "WC"
         ],
         "Move-Damage": [
-            "10"
+            "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+            "Remove 3 damage counter from Ditto (all if there are less than 3)."
         ],
-        "Weakness": "Colorless",
-        "Resistance": "Grass/Fighting",
+        "Weakness": "Lightning",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84941%2Fpokemon-delta-species-dratini-066-113-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Dratini-Delta-Species-DS66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84841%2Fpokemon-delta-species-ditto-64-113-squirtle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-065",
@@ -2400,36 +2368,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Dratini-Delta-Species-DS65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-068",
-        "Name": "Eevee",
+        "ID": "DS-066",
+        "Name": "Dratini",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/68_hires.png",
+        "Image": "https://images.pokemontcg.io/ex11/66_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Metal",
+        "Type": "Lightning",
         "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Metal Scoop"
+            "Thunder Wave"
         ],
         "Move-Energy": [
-            "C"
+            "L"
         ],
         "Move-Damage": [
             "10"
         ],
         "Effects": [
-            "Search your discard pile for a [M] Energy card and attach it to Eevee."
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
-        "Weakness": "Fighting",
-        "Resistance": null,
+        "Weakness": "Colorless",
+        "Resistance": "Grass/Fighting",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85097%2Fpokemon-delta-species-eevee-068-113",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Eevee-Delta-Species-DS68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84941%2Fpokemon-delta-species-dratini-066-113-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Dratini-Delta-Species-DS66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-067",
@@ -2468,38 +2436,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Drowzee-DS67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-070",
-        "Name": "Holon's Magnemite",
+        "ID": "DS-068",
+        "Name": "Eevee",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/70_hires.png",
+        "Image": "https://images.pokemontcg.io/ex11/68_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Metal",
-        "HP": "40",
+        "HP": "50",
         "Ability": null,
-        "Ability-Effect": [
-            "You may attach this as an Energy card from your hand to 1 of your Pok\u00e9mon. While attached, this card is a Special Energy card and provides Colorless Energy."
-        ],
+        "Ability-Effect": null,
         "Moves": [
-            "Linear Attack"
+            "Metal Scoop"
         ],
         "Move-Energy": [
-            "M"
+            "C"
         ],
         "Move-Damage": [
-            null
+            "10"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Search your discard pile for a [M] Energy card and attach it to Eevee."
         ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
+        "Weakness": "Fighting",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Katsura Tabata",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86156%2Fpokemon-delta-species-holons-magnemite",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Holons-Magnemite-DS70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85097%2Fpokemon-delta-species-eevee-068-113",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Eevee-Delta-Species-DS68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-069",
@@ -2536,6 +2502,40 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85082%2Fpokemon-delta-species-eevee-069-113",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Eevee-DS69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DS-070",
+        "Name": "Holon's Magnemite",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex11/70_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": [
+            "You may attach this as an Energy card from your hand to 1 of your Pok\u00e9mon. While attached, this card is a Special Energy card and provides Colorless Energy."
+        ],
+        "Moves": [
+            "Linear Attack"
+        ],
+        "Move-Energy": [
+            "M"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86156%2Fpokemon-delta-species-holons-magnemite",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Holons-Magnemite-DS70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-071",
@@ -2816,38 +2816,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Ponyta-DS78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-080",
-        "Name": "Porygon",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/80_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sharpen"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88310%2Fpokemon-delta-species-porygon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Porygon-DS80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DS-079",
         "Name": "Poochyena",
         "Rarity": "Common",
@@ -2882,6 +2850,38 @@
         "Illustrator": "Sachiko Adachi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88297%2Fpokemon-delta-species-poochyena",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Poochyena-DS79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DS-080",
+        "Name": "Porygon",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex11/80_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sharpen"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88310%2Fpokemon-delta-species-porygon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Porygon-DS80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-081",
@@ -2956,42 +2956,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Sandshrew-DS82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DS-084",
-        "Name": "Staryu",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/84_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Spinning Attack"
-        ],
-        "Move-Energy": [
-            "C",
-            "WC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89548%2Fpokemon-delta-species-staryu-084-113",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Staryu-DS84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DS-083",
         "Name": "Slowpoke",
         "Rarity": "Common",
@@ -3026,6 +2990,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89330%2Fpokemon-delta-species-slowpoke",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Slowpoke-DS83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DS-084",
+        "Name": "Staryu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex11/84_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Spinning Attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89548%2Fpokemon-delta-species-staryu-084-113",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Staryu-DS84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-085",
@@ -3084,7 +3084,7 @@
             null
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -3094,38 +3094,6 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89734%2Fpokemon-delta-species-taillow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Taillow-DS86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DS-088",
-        "Name": "Zubat",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex11/88_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Poison Fang"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90773%2Fpokemon-delta-species-zubat",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Zubat-DS88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-087",
@@ -3158,6 +3126,38 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90543%2Fpokemon-delta-species-weedle",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Weedle-DS87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DS-088",
+        "Name": "Zubat",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex11/88_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Fang"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90773%2Fpokemon-delta-species-zubat",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Zubat-DS88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-089",
@@ -3238,7 +3238,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex11/94_hires.png",
         "Pack": null,
-        "Description": "Each player's basic Energy cards attached to Pok\u00e9mon that has \u03b4 on its card are both their usual Energy type and [M] type but provide only 1 Energy at a time. (Has no effect other than providing Energy. )",
+        "Description": "Each player's basic Energy cards attached to Pok\u00e9mon that has \u03b4 on its card are both their usual Energy type and [M] type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86149%2Fpokemon-delta-species-holon-research-tower",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Holon-Research-Tower-DS94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3364,7 +3364,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex11/103_hires.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84686%2Fpokemon-delta-species-darkness-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Darkness-Energy-DS103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3420,50 +3420,10 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex11/107_hires.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87359%2Fpokemon-delta-species-metal-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Metal-Energy-DS107?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DS-109",
-        "Name": "Jolteon ex",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex11/109_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "100",
-        "Ability": [
-            "Evolutionary Thunder"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you play Jolteon ex from your hand to evolve 1 of your Pok\u00e9mon, you may put 1 damage counter on each of your opponent's Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Second Bite",
-            "Thunder Blast"
-        ],
-        "Move-Energy": [
-            "LC",
-            "LCC"
-        ],
-        "Move-Damage": [
-            "20+",
-            "70"
-        ],
-        "Effects": [
-            "Does 20 damage plus 10 more damage for each damage counter on the Defending Pok\u00e9mon.",
-            "Discard a [L] Energy card attached to Jolteon ex."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "0",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86352%2Fpokemon-delta-species-jolteon-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Jolteon-ex-DS109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-108",
@@ -3504,6 +3464,46 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85505%2Fpokemon-delta-species-flareon-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Flareon-ex-DS108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DS-109",
+        "Name": "Jolteon ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex11/109_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": [
+            "Evolutionary Thunder"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you play Jolteon ex from your hand to evolve 1 of your Pok\u00e9mon, you may put 1 damage counter on each of your opponent's Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Second Bite",
+            "Thunder Blast"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "70"
+        ],
+        "Effects": [
+            "Does 20 damage plus 10 more damage for each damage counter on the Defending Pok\u00e9mon.",
+            "Discard a [L] Energy card attached to Jolteon ex."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86352%2Fpokemon-delta-species-jolteon-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Delta-Species/Jolteon-ex-DS109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DS-110",

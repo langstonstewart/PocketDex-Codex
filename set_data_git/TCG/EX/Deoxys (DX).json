@@ -140,7 +140,7 @@
         ],
         "Effects": [
             "Search your discard pile for up to 2 basic Energy cards and attach them to your Pok\u00e9mon in any way you like.",
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -228,46 +228,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Crawdaunt-DX6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-008",
-        "Name": "Gyarados",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex8/8_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dragon Spark",
-            "Full Retaliation",
-            "Pulverize"
-        ],
-        "Move-Energy": [
-            "W",
-            "CC",
-            "WWCC"
-        ],
-        "Move-Damage": [
-            null,
-            "20\u00d7",
-            "50+"
-        ],
-        "Effects": [
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Does 20 damage times the number of damage counters on all of your Magikarp.",
-            "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85991%2Fpokemon-deoxys-gyarados",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Gyarados-DX8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DX-007",
         "Name": "Dusclops",
         "Rarity": "Holo Rare",
@@ -302,6 +262,46 @@
         "Illustrator": "Tomoko Wakai",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85025%2Fpokemon-deoxys-dusclops",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Dusclops-DX7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-008",
+        "Name": "Gyarados",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex8/8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dragon Spark",
+            "Full Retaliation",
+            "Pulverize"
+        ],
+        "Move-Energy": [
+            "W",
+            "CC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            null,
+            "20\u00d7",
+            "50+"
+        ],
+        "Effects": [
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 20 damage times the number of damage counters on all of your Magikarp.",
+            "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85991%2Fpokemon-deoxys-gyarados",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Gyarados-DX8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-009",
@@ -580,7 +580,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Link Blast"
@@ -616,7 +616,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Energy Crush"
@@ -652,7 +652,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Barrier Attack"
@@ -887,7 +887,7 @@
             "30+"
         ],
         "Effects": [
-            "Choose 3 of your opponent's Pok\u00e9mon. This attack does 10 damage to each of those Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 3 of your opponent's Pok\u00e9mon. This attack does 10 damage to each of those Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon already has any damage counters on it, this attack does 30 damage plus 20 more damage."
         ],
         "Weakness": "Lightning",
@@ -936,6 +936,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Shiftry-DX25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DX-026",
+        "Name": "Skarmory",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex8/26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": [
+            "Metallic Lift"
+        ],
+        "Ability-Effect": [
+            "If Skarmory has any [M] Energy attached to it, the Retreat Cost for Skarmory is 0."
+        ],
+        "Moves": [
+            "Spearhead",
+            "Heavy Metal"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Flip a coin for each [M] Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89238%2Fpokemon-deoxys-skarmory",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Skarmory-DX26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DX-027",
         "Name": "Tropius",
         "Rarity": "Rare",
@@ -976,44 +1016,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Tropius-DX27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-026",
-        "Name": "Skarmory",
+        "ID": "DX-028",
+        "Name": "Whiscash",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex8/26_hires.png",
+        "Image": "https://images.pokemontcg.io/ex8/28_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "70",
-        "Ability": [
-            "Metallic Lift"
-        ],
-        "Ability-Effect": [
-            "If Skarmory has any [M] Energy attached to it, the Retreat Cost for Skarmory is 0."
-        ],
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Spearhead",
-            "Heavy Metal"
+            "Raging Tremble",
+            "Dwindling Wave"
         ],
         "Move-Energy": [
             "C",
-            "CC"
+            "FFC"
         ],
         "Move-Damage": [
             null,
-            "10+"
+            "70-"
         ],
         "Effects": [
-            "Draw a card.",
-            "Flip a coin for each [M] Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads."
+            "Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pok\u00e9mon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pok\u00e9mon.",
+            "Does 70 damage minus 10 damage for each damage counter on Whiscash."
         ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89238%2Fpokemon-deoxys-skarmory",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Skarmory-DX26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90575%2Fpokemon-deoxys-whiscash",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Whiscash-DX28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-029",
@@ -1056,40 +1092,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Xatu-DX29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-028",
-        "Name": "Whiscash",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex8/28_hires.png",
+        "ID": "DX-030",
+        "Name": "Donphan",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex8/30_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Fighting",
-        "HP": "90",
+        "HP": "80",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Raging Tremble",
-            "Dwindling Wave"
+            "Spinning Horn",
+            "Rock Hurl"
         ],
         "Move-Energy": [
-            "C",
-            "FFC"
+            "F",
+            "FCC"
         ],
         "Move-Damage": [
             null,
-            "70-"
+            "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage for each damage counter on Whiscash to each Defending Pok\u00e9mon. If tails, this attack does 10 damage for each damage counter on Whiscash to the Defending Pok\u00e9mon.",
-            "Does 70 damage minus 10 damage for each damage counter on Whiscash."
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This attack's damage is not affected by Resistance."
         ],
         "Weakness": "Grass",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90575%2Fpokemon-deoxys-whiscash",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Whiscash-DX28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84873%2Fpokemon-deoxys-donphan",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Donphan-DX30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-031",
@@ -1126,42 +1162,6 @@
         "Illustrator": "Sachiko Adachi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85794%2Fpokemon-deoxys-golbat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Golbat-DX31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DX-030",
-        "Name": "Donphan",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex8/30_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spinning Horn",
-            "Rock Hurl"
-        ],
-        "Move-Energy": [
-            "F",
-            "FCC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "This attack's damage is not affected by Resistance."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84873%2Fpokemon-deoxys-donphan",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Donphan-DX30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-032",
@@ -1407,7 +1407,7 @@
             "40+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may do 40 damage plus 10 more damage for each [L] Energy attached to Manectric. If you do, Manectric does 10 damage to itself."
         ],
         "Weakness": "Fighting",
@@ -1418,6 +1418,42 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87155%2Fpokemon-deoxys-manectric",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Manectric-DX38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-039",
+        "Name": "Masquerain",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex8/39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": [
+            "Intimidating Pattern"
+        ],
+        "Ability-Effect": [
+            "As long as Masquerain is your Active Pok\u00e9mon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance). You can't use more than 1 Intimidating Pattern Pok\u00e9-Body each turn."
+        ],
+        "Moves": [
+            "Stun Spore"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87246%2Fpokemon-deoxys-masquerain",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Masquerain-DX39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-040",
@@ -1564,42 +1600,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Nuzleaf-DX43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-039",
-        "Name": "Masquerain",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex8/39_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "60",
-        "Ability": [
-            "Intimidating Pattern"
-        ],
-        "Ability-Effect": [
-            "As long as Masquerain is your Active Pok\u00e9mon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance). You can't use more than 1 Intimidating Pattern Pok\u00e9-Body each turn."
-        ],
-        "Moves": [
-            "Stun Spore"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87246%2Fpokemon-deoxys-masquerain",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Masquerain-DX39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DX-044",
         "Name": "Plusle",
         "Rarity": "Uncommon",
@@ -1736,7 +1736,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, the Defending Pok\u00e9mon is now Burned.",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon for each Lunatone you have in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon for each Lunatone you have in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1775,7 +1775,7 @@
             "10+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) You may move an Energy attached to that Pok\u00e9mon to another of your opponent's Pok\u00e9mon.",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) You may move an Energy attached to that Pok\u00e9mon to another of your opponent's Pok\u00e9mon.",
             "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
@@ -1786,6 +1786,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89533%2Fpokemon-deoxys-starmie",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Starmie-DX48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-049",
+        "Name": "Swellow",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex8/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mid-air Crush",
+            "Nosedive"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Flip a coin. If heads, your opponent discards 1 Energy card, if any, attached to that Pok\u00e9mon.",
+            "Flip a coin. If tails, Swellow does 10 damage to itself."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89691%2Fpokemon-deoxys-swellow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Swellow-DX49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-050",
@@ -1822,42 +1858,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90368%2Fpokemon-deoxys-vigoroth",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Vigoroth-DX50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DX-049",
-        "Name": "Swellow",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex8/49_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mid-air Crush",
-            "Nosedive"
-        ],
-        "Move-Energy": [
-            "CC",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "40"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Flip a coin. If heads, your opponent discards 1 Energy card, if any, attached to that Pok\u00e9mon.",
-            "Flip a coin. If tails, Swellow does 10 damage to itself."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89691%2Fpokemon-deoxys-swellow",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Swellow-DX49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-051",
@@ -1956,7 +1956,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Baltoy does 50 damage to itself."
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Baltoy does 50 damage to itself."
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2004,6 +2004,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Barboach-DX54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DX-055",
+        "Name": "Beldum",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex8/55_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flip Over"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Beldum does 10 damage to itself, and don't apply Weakness and Resistance to this damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83785%2Fpokemon-deoxys-beldum",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Beldum-DX55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DX-056",
         "Name": "Carvanha",
         "Rarity": "Common",
@@ -2038,74 +2070,6 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84112%2Fpokemon-deoxys-carvanha",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Carvanha-DX56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DX-055",
-        "Name": "Beldum",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex8/55_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Flip Over"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "Beldum does 10 damage to itself, and don't apply Weakness and Resistance to this damage."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83785%2Fpokemon-deoxys-beldum",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Beldum-DX55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DX-058",
-        "Name": "Duskull",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex8/58_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Paralyzing Gaze",
-            "Will-o'-the-wisp"
-        ],
-        "Move-Energy": [
-            "C",
-            "PC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            ""
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomoko Wakai",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85046%2Fpokemon-deoxys-duskull",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Duskull-DX58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-057",
@@ -2144,40 +2108,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Corphish-DX57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-060",
-        "Name": "Electrike",
+        "ID": "DX-058",
+        "Name": "Duskull",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex8/60_hires.png",
+        "Image": "https://images.pokemontcg.io/ex8/58_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
+        "Type": "Psychic",
+        "HP": "40",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Recharge",
-            "Quick Attack"
+            "Paralyzing Gaze",
+            "Will-o'-the-wisp"
         ],
         "Move-Energy": [
-            "L",
-            "CC"
+            "C",
+            "PC"
         ],
         "Move-Damage": [
             null,
-            "10+"
+            "20"
         ],
         "Effects": [
-            "Search your deck for a [L] Energy card and attach it to Electrike. Shuffle your deck afterward.",
-            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            ""
         ],
-        "Weakness": "Fighting",
-        "Resistance": null,
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hiroki Fuchino",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85133%2Fpokemon-deoxys-electrike-060-107",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Electrike-DX60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Tomoko Wakai",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85046%2Fpokemon-deoxys-duskull",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Duskull-DX58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-059",
@@ -2214,6 +2178,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85132%2Fpokemon-deoxys-electrike-059-107",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Electrike-DX59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-060",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex8/60_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Recharge",
+            "Quick Attack"
+        ],
+        "Move-Energy": [
+            "L",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "Search your deck for a [L] Energy card and attach it to Electrike. Shuffle your deck afterward.",
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hiroki Fuchino",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85133%2Fpokemon-deoxys-electrike-060-107",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Electrike-DX60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-061",
@@ -2428,42 +2428,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Natu-DX66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-068",
-        "Name": "Numel",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex8/68_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "40",
-        "Ability": [
-            "Dense"
-        ],
-        "Ability-Effect": [
-            "Any damage done to Numel by attacks from Evolved Pok\u00e9mon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance)."
-        ],
-        "Moves": [
-            "Ram"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87809%2Fpokemon-deoxys-numel",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Numel-DX68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DX-067",
         "Name": "Nincada",
         "Rarity": "Common",
@@ -2498,6 +2462,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87759%2Fpokemon-deoxys-nincada",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Nincada-DX67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-068",
+        "Name": "Numel",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex8/68_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "40",
+        "Ability": [
+            "Dense"
+        ],
+        "Ability-Effect": [
+            "Any damage done to Numel by attacks from Evolved Pok\u00e9mon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Ram"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87809%2Fpokemon-deoxys-numel",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Numel-DX68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-069",
@@ -2644,42 +2644,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Shroomish-DX72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-074",
-        "Name": "Slugma",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex8/74_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Collect",
-            "Combustion"
-        ],
-        "Move-Energy": [
-            "C",
-            "R"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "Draw a card.",
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89342%2Fpokemon-deoxys-slugma-074-107",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Slugma-DX74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DX-073",
         "Name": "Slakoth",
         "Rarity": "Common",
@@ -2714,6 +2678,42 @@
         "Illustrator": "Takao Unno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89296%2Fpokemon-deoxys-slakoth",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Slakoth-DX73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-074",
+        "Name": "Slugma",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex8/74_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Combustion"
+        ],
+        "Move-Energy": [
+            "C",
+            "R"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Draw a card.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89342%2Fpokemon-deoxys-slugma-074-107",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Slugma-DX74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-075",
@@ -2852,38 +2852,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Surskit-DX78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-080",
-        "Name": "Taillow",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex8/80_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fly"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Taillow during your opponent's next turn."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89732%2Fpokemon-deoxys-taillow",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Taillow-DX80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DX-079",
         "Name": "Swablu",
         "Rarity": "Common",
@@ -2918,6 +2886,38 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89654%2Fpokemon-deoxys-swablu",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Swablu-DX79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-080",
+        "Name": "Taillow",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex8/80_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fly"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Taillow during your opponent's next turn."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89732%2Fpokemon-deoxys-taillow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Taillow-DX80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-081",
@@ -2975,7 +2975,7 @@
             null
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Wurmple and put it on Wurmple. (This counts as evolving Wurmple. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Wurmple and put it on Wurmple. (This counts as evolving Wurmple.) Shuffle your deck afterward.",
             "Flip a coin. If heads, choose 1 Special Condition. Each Defending Pok\u00e9mon is now affected by that Special Condition."
         ],
         "Weakness": "Fire",
@@ -3102,7 +3102,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex8/89_hires.png",
         "Pack": null,
-        "Description": "Each player's Active Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex) can use any attack from its Basic Pok\u00e9mon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost. )",
+        "Description": "Each player's Active Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex) can use any attack from its Basic Pok\u00e9mon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87392%2Fpokemon-deoxys-meteor-falls",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Meteor-Falls-DX89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3150,20 +3150,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Strength-Charm-DX92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-094",
-        "Name": "Heal Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex8/94_hires.png",
-        "Pack": null,
-        "Description": "Heal Energy provides [C] Energy. When you attach this card from your hand to 1 of your Pok\u00e9mon, remove 1 damage counter and all Special Conditions from that Pok\u00e9mon. If Heal Energy is attached to Pok\u00e9mon-ex, Heal Energy has no effect other than providing Energy.",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86037%2Fpokemon-deoxys-heal-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Heal-Energy-DX94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DX-093",
         "Name": "Boost Energy",
         "Card-Type": "Special Energy",
@@ -3178,6 +3164,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Boost-Energy-DX93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DX-094",
+        "Name": "Heal Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex8/94_hires.png",
+        "Pack": null,
+        "Description": "Heal Energy provides [C] Energy. When you attach this card from your hand to 1 of your Pok\u00e9mon, remove 1 damage counter and all Special Conditions from that Pok\u00e9mon. If Heal Energy is attached to Pok\u00e9mon-ex, Heal Energy has no effect other than providing Energy.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86037%2Fpokemon-deoxys-heal-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Heal-Energy-DX94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DX-095",
         "Name": "Scramble Energy",
         "Card-Type": "Special Energy",
@@ -3190,42 +3190,6 @@
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88987%2Fpokemon-deoxys-scramble-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Scramble-Energy-DX95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DX-097",
-        "Name": "Deoxys ex",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex8/97_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "100",
-        "Ability": [
-            "Form Change"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
-        ],
-        "Moves": [
-            "Energy Burst"
-        ],
-        "Move-Energy": [
-            "PC"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "Does 10 damage plus 10 more damage for each Energy attached to Deoxys ex and the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84772%2Fpokemon-deoxys-deoxys-ex-normal-forme",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Deoxys-ex-DX97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-096",
@@ -3268,40 +3232,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Crobat-ex-DX96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DX-099",
+        "ID": "DX-097",
         "Name": "Deoxys ex",
         "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex8/99_hires.png",
+        "Image": "https://images.pokemontcg.io/ex8/97_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
-        "HP": "90",
+        "HP": "100",
         "Ability": [
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
-            "Psychic Shield"
+            "Energy Burst"
         ],
         "Move-Energy": [
-            "PCC"
+            "PC"
         ],
         "Move-Damage": [
-            "50"
+            "10+"
         ],
         "Effects": [
-            "Prevent all effects of attacks, including damage, done to Deoxys ex by your opponent's Pok\u00e9mon-ex during your opponent's next turn."
+            "Does 10 damage plus 10 more damage for each Energy attached to Deoxys ex and the Defending Pok\u00e9mon."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84771%2Fpokemon-deoxys-deoxys-ex-defense-forme",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Deoxys-ex-DX99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84772%2Fpokemon-deoxys-deoxys-ex-normal-forme",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Deoxys-ex-DX97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-098",
@@ -3316,7 +3280,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Psyburst"
@@ -3338,6 +3302,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84770%2Fpokemon-deoxys-deoxys-ex-attack-forme",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Deoxys-ex-DX98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DX-099",
+        "Name": "Deoxys ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex8/99_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": [
+            "Form Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Psychic Shield"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Prevent all effects of attacks, including damage, done to Deoxys ex by your opponent's Pok\u00e9mon-ex during your opponent's next turn."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84771%2Fpokemon-deoxys-deoxys-ex-defense-forme",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Deoxys/Deoxys-ex-DX99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DX-100",
@@ -3404,7 +3404,7 @@
         ],
         "Effects": [
             "Your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand during your opponent's next turn.",
-            "Discard all [L] Energy attached to Manectric ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard all [L] Energy attached to Manectric ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -3624,7 +3624,7 @@
         ],
         "Effects": [
             "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-            "Discard all Energy cards attached to Rayquaza Star. This attack does 100 damage to each of your opponent's Pok\u00e9mon-ex. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard all Energy cards attached to Rayquaza Star. This attack does 100 damage to each of your opponent's Pok\u00e9mon-ex. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Colorless",
         "Resistance": "Water/Fighting",

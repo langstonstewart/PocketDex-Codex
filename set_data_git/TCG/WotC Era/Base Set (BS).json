@@ -1,41 +1,5 @@
 [
     {
-        "ID": "BS-002",
-        "Name": "Blastoise",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base1/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": [
-            "Rain Dance"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn't use up your 1 Energy card attachment for the turn. ) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Hydro Pump"
-        ],
-        "Move-Energy": [
-            "WWW"
-        ],
-        "Move-Damage": [
-            "40+"
-        ],
-        "Effects": [
-            "Does 40 damage plus 10 more damage for each [W] Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42360%2Fpokemon-base-set-blastoise",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Blastoise-V1-BS2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BS-001",
         "Name": "Alakazam",
         "Rarity": "Holo Rare",
@@ -72,6 +36,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Alakazam-V1-BS1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BS-002",
+        "Name": "Blastoise",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base1/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": [
+            "Rain Dance"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Hydro Pump"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "Does 40 damage plus 10 more damage for each [W] Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd doesn't count."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42360%2Fpokemon-base-set-blastoise",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Blastoise-V1-BS2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BS-003",
         "Name": "Chansey",
         "Rarity": "Holo Rare",
@@ -95,7 +95,7 @@
             "80"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen. )",
+            "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
             "Chansey does 80 damage to itself."
         ],
         "Weakness": "Fighting",
@@ -168,7 +168,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep.",
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pok\u00e9mon is, Clefairy's type is still [C]. )"
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pok\u00e9mon is, Clefairy's type is still [C].)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -264,7 +264,7 @@
             "Strikes Back"
         ],
         "Ability-Effect": [
-            "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pok\u00e9mon. (Don't apply Weakness and Resistance. ) This power can't be used if Machamp is Asleep, Confused, or Paralyzed when your opponent attacks."
+            "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pok\u00e9mon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is Asleep, Confused, or Paralyzed when your opponent attacks."
         ],
         "Moves": [
             "Seismic Toss"
@@ -312,7 +312,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Magneton does 80 damage to itself."
+            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Magneton does 80 damage to itself."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -672,7 +672,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -779,7 +779,7 @@
             null
         ],
         "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )",
+            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)",
             "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
@@ -790,42 +790,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42363%2Fpokemon-base-set-pidgeotto",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Pidgeotto-V1-BS22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BS-024",
-        "Name": "Charmeleon",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base1/24_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Slash",
-            "Flamethrower"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "RRC"
-        ],
-        "Move-Damage": [
-            "30",
-            "50"
-        ],
-        "Effects": [
-            "",
-            "Discard 1 [R] Energy card attached to Charmeleon in order to use this attack."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42365%2Fpokemon-base-set-charmeleon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Charmeleon-V1-BS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-023",
@@ -862,6 +826,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42364%2Fpokemon-base-set-arcanine",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Arcanine-V1-BS23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BS-024",
+        "Name": "Charmeleon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base1/24_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Flamethrower"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "Discard 1 [R] Energy card attached to Charmeleon in order to use this attack."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42365%2Fpokemon-base-set-charmeleon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Charmeleon-V1-BS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-025",
@@ -1144,6 +1144,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Kadabra-V1-BS32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BS-033",
+        "Name": "Kakuna",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base1/33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stiffen",
+            "Poisonpowder"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GG"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42375%2Fpokemon-base-set-kakuna",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Kakuna-V1-BS33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BS-034",
         "Name": "Machoke",
         "Rarity": "Uncommon",
@@ -1180,40 +1216,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Machoke-V1-BS34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BS-033",
-        "Name": "Kakuna",
+        "ID": "BS-035",
+        "Name": "Magikarp",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base1/33_hires.png",
+        "Image": "https://images.pokemontcg.io/base1/35_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Stiffen",
-            "Poisonpowder"
+            "Tackle",
+            "Flail"
         ],
         "Move-Energy": [
-            "CC",
-            "GG"
+            "C",
+            "W"
         ],
         "Move-Damage": [
-            null,
-            "20"
+            "10",
+            "10\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen. )",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+            "",
+            "Does 10 damage times the number of damage counters on Magikarp."
         ],
-        "Weakness": "Fire",
+        "Weakness": "Lightning",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42375%2Fpokemon-base-set-kakuna",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Kakuna-V1-BS33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42377%2Fpokemon-base-set-magikarp",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Magikarp-V1-BS35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-036",
@@ -1250,42 +1286,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42378%2Fpokemon-base-set-magmar",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Magmar-V1-BS36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BS-035",
-        "Name": "Magikarp",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base1/35_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Flail"
-        ],
-        "Move-Energy": [
-            "C",
-            "W"
-        ],
-        "Move-Damage": [
-            "10",
-            "10\u00d7"
-        ],
-        "Effects": [
-            "",
-            "Does 10 damage times the number of damage counters on Magikarp."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42377%2Fpokemon-base-set-magikarp",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Magikarp-V1-BS35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-037",
@@ -1487,7 +1487,7 @@
             "40"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen. )",
+            "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -1632,38 +1632,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Charmander-V1-BS46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BS-048",
-        "Name": "Doduo",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base1/48_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fury Attack"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10\u00d7"
-        ],
-        "Effects": [
-            "Flip 2 coins. This attack does 10 damage times the number of heads."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42391%2Fpokemon-base-set-doduo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Doduo-V1-BS48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BS-047",
         "Name": "Diglett",
         "Rarity": "Common",
@@ -1698,6 +1666,38 @@
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42390%2Fpokemon-base-set-diglett",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Diglett-V1-BS47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BS-048",
+        "Name": "Doduo",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base1/48_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fury Attack"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42391%2Fpokemon-base-set-doduo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Doduo-V1-BS48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-049",
@@ -1860,7 +1860,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Does 10 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Magnemite does 40 damage to itself."
+            "Does 10 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Magnemite does 40 damage to itself."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1964,7 +1964,7 @@
         ],
         "Effects": [
             "",
-            "During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen. )"
+            "During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1996,7 +1996,7 @@
             "10"
         ],
         "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -2044,6 +2044,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Pikachu-V1-BS58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BS-059",
+        "Name": "Poliwag",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base1/59_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 more damage for each [W] Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd don't count."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42403%2Fpokemon-base-set-poliwag",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Poliwag-V1-BS59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BS-060",
         "Name": "Ponyta",
         "Rarity": "Common",
@@ -2078,38 +2110,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42405%2Fpokemon-base-set-ponyta",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Ponyta-V1-BS60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BS-059",
-        "Name": "Poliwag",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base1/59_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Water Gun"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "Does 10 damage plus 10 more damage for each [W] Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra [W] Energy after the 2nd don't count."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42403%2Fpokemon-base-set-poliwag",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Poliwag-V1-BS59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-061",
@@ -2200,7 +2200,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen. )"
+            "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2434,7 +2434,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/base1/71_hires.png",
         "Pack": null,
-        "Description": "Discard 2 cards from your hand. (If you can't discard 2 cards, you can't play this card. ) Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+        "Description": "Discard 2 cards from your hand. (If you can't discard 2 cards, you can't play this card.) Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42417%2Fpokemon-base-set-computer-search",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Computer-Search-V1-BS71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2448,7 +2448,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/base1/72_hires.png",
         "Pack": null,
-        "Description": "Devolve 1 of your evolved Pok\u00e9mon and put the highest Stage Evolution card on it into your hand. (That Pok\u00e9mon can't evolve this turn. )",
+        "Description": "Devolve 1 of your evolved Pok\u00e9mon and put the highest Stage Evolution card on it into your hand. (That Pok\u00e9mon can't evolve this turn.)",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42418%2Fpokemon-base-set-devolution-spray",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Devolution-Spray-V1-BS72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2532,7 +2532,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/base1/78_hires.png",
         "Pack": null,
-        "Description": "Choose 1 of your Pok\u00e9mon in play and return its Basic Pok\u00e9mon card to your hand. (Discard all cards attached to that card. )",
+        "Description": "Choose 1 of your Pok\u00e9mon in play and return its Basic Pok\u00e9mon card to your hand. (Discard all cards attached to that card.)",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42423%2Fpokemon-base-set-scoop-up",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Scoop-Up-V1-BS78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2602,7 +2602,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/base1/83_hires.png",
         "Pack": null,
-        "Description": "Shuffle 2 cards from your hand into your deck. (If you can't shuffle 2 cards into your deck, you can't play this card. ) Then, draw a card.",
+        "Description": "Shuffle 2 cards from your hand into your deck. (If you can't shuffle 2 cards into your deck, you can't play this card.) Then, draw a card.",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42429%2Fpokemon-base-set-maintenance",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Maintenance-V1-BS83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2644,7 +2644,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/base1/86_hires.png",
         "Pack": null,
-        "Description": "Choose 1 Basic Pok\u00e9mon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pok\u00e9mon Flute if your opponent's Bench is full. )",
+        "Description": "Choose 1 Basic Pok\u00e9mon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pok\u00e9mon Flute if your opponent's Bench is full.)",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F108647%2Fpokemon-base-set-pokemon-flute",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Pokemon-Flute-V1-BS86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2678,20 +2678,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Professor-Oak-V1-BS88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BS-090",
-        "Name": "Super Potion",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base1/90_hires.png",
-        "Pack": null,
-        "Description": "Heal 60 damage from 1 of your Pok\u00e9mon. If you do, discard an Energy attached to that Pok\u00e9mon.",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42434%2Fpokemon-base-set-super-potion",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Super-Potion-V1-BS90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BS-089",
         "Name": "Revive",
         "Card-Type": "Item",
@@ -2704,6 +2690,20 @@
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42432%2Fpokemon-base-set-revive",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Revive-V1-BS89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BS-090",
+        "Name": "Super Potion",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base1/90_hires.png",
+        "Pack": null,
+        "Description": "Heal 60 damage from 1 of your Pok\u00e9mon. If you do, discard an Energy attached to that Pok\u00e9mon.",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42434%2Fpokemon-base-set-super-potion",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Super-Potion-V1-BS90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-091",
@@ -2762,20 +2762,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Potion-V1-BS94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BS-096",
-        "Name": "Double Colorless Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base1/96_hires.png",
-        "Pack": null,
-        "Description": "Double Colorless Energy provides [C][C] Energy.",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42440%2Fpokemon-base-set-double-colorless-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Double-Colorless-Energy-V1-BS96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BS-095",
         "Name": "Switch",
         "Card-Type": "Item",
@@ -2788,6 +2774,20 @@
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42439%2Fpokemon-base-set-switch",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Switch-V1-BS95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BS-096",
+        "Name": "Double Colorless Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base1/96_hires.png",
+        "Pack": null,
+        "Description": "Double Colorless Energy provides [C][C] Energy.",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42440%2Fpokemon-base-set-double-colorless-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Double-Colorless-Energy-V1-BS96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BS-097",
@@ -2846,20 +2846,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Lightning-Energy-V1-BS100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BS-102",
-        "Name": "Water Energy",
-        "Card-Type": "Basic Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/base1/102_hires.png",
-        "Pack": null,
-        "Description": "",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42350%2Fpokemon-base-set-water-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Water-Energy-V1-BS102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BS-101",
         "Name": "Psychic Energy",
         "Card-Type": "Basic Energy",
@@ -2872,5 +2858,19 @@
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42349%2Fpokemon-base-set-psychic-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Psychic-Energy-V1-BS101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BS-102",
+        "Name": "Water Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/base1/102_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F42350%2Fpokemon-base-set-water-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set/Water-Energy-V1-BS102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

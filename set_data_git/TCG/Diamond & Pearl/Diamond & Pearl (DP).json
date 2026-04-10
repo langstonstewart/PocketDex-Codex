@@ -131,8 +131,8 @@
             "70"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -204,7 +204,7 @@
         ],
         "Effects": [
             "This attack's damage isn't affected by Resistance.",
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -240,7 +240,7 @@
             "80"
         ],
         "Effects": [
-            "Move all [L] Energy attached to Luxray to 1 of your Benched Pok\u00e9mon. (Ignore this effect if you don't have any Benched Pok\u00e9mon. )"
+            "Move all [L] Energy attached to Luxray to 1 of your Benched Pok\u00e9mon. (Ignore this effect if you don't have any Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -288,42 +288,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Magnezone-Lv48-DP8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DP-010",
-        "Name": "Mismagius",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/dp1/10_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Avenge",
-            "Psywave"
-        ],
-        "Move-Energy": [
-            "P",
-            "PPC"
-        ],
-        "Move-Damage": [
-            null,
-            "30+"
-        ],
-        "Effects": [
-            "Count the number of your Pok\u00e9mon that have any damage counters on them. Put that many damage counters on the Defending Pok\u00e9mon.",
-            "Does 30 damage plus 20 more damage for each Energy attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mikiko Takeda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87514%2Fpokemon-diamond-and-pearl-mismagius",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Mismagius-Lv37-DP10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DP-009",
         "Name": "Manaphy",
         "Rarity": "Holo Rare",
@@ -358,6 +322,42 @@
         "Illustrator": "Nakaoka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87143%2Fpokemon-diamond-and-pearl-manaphy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Manaphy-Lv20-DP9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DP-010",
+        "Name": "Mismagius",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/dp1/10_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Avenge",
+            "Psywave"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Count the number of your Pok\u00e9mon that have any damage counters on them. Put that many damage counters on the Defending Pok\u00e9mon.",
+            "Does 30 damage plus 20 more damage for each Energy attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mikiko Takeda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87514%2Fpokemon-diamond-and-pearl-mismagius",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Mismagius-Lv37-DP10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DP-011",
@@ -456,7 +456,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Poisoned.",
-            "If Budew is anywhere under Roserade, choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If Budew is anywhere under Roserade, choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -527,7 +527,7 @@
             "30"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon that doesn't have any damage counters on it. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon that doesn't have any damage counters on it. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pok\u00e9mon between turns."
         ],
         "Weakness": "Fighting",
@@ -780,7 +780,7 @@
         ],
         "Effects": [
             "Flip 2 coins. This attack does 30 damage times the number of heads.",
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack. ) Clefable performs that attack."
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) Clefable performs that attack."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -852,7 +852,7 @@
         ],
         "Effects": [
             "Search your discard pile for up to 5 in any combination of Pok\u00e9mon and Supporter cards. Show them to your opponent and shuffle them into your deck.",
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -1068,7 +1068,7 @@
         ],
         "Effects": [
             "Flip a coin until you get tails. Remove a number of damage counters equal to the number of heads from 1 of your Pok\u00e9mon.",
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) You may switch Lopunny with 1 of your Benched Pok\u00e9mon."
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) You may switch Lopunny with 1 of your Benched Pok\u00e9mon."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1176,7 +1176,7 @@
             "30\u00d7"
         ],
         "Effects": [
-            "Discard 2 cards from your hand. (If you can't discard 2 cards, this attack does nothing. ) Flip 2 coins. This attack does 30 damage times the number of heads."
+            "Discard 2 cards from your hand. (If you can't discard 2 cards, this attack does nothing.) Flip 2 coins. This attack does 30 damage times the number of heads."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1260,42 +1260,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Pachirisu-Lv23-DP35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DP-037",
-        "Name": "Snorlax",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/dp1/37_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Block",
-            "Ease Up"
-        ],
-        "Move-Energy": [
-            "C",
-            "CCCC"
-        ],
-        "Move-Damage": [
-            null,
-            "40+"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
-            "Snorlax is now Asleep. If Snorlax is evolved from Munchlax, this attack does 40 damage plus 30 more damage."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89389%2Fpokemon-diamond-and-pearl-snorlax",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Snorlax-Lv35-DP37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DP-036",
         "Name": "Purugly",
         "Rarity": "Rare",
@@ -1330,6 +1294,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88464%2Fpokemon-diamond-and-pearl-purugly",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Purugly-Lv44-DP36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DP-037",
+        "Name": "Snorlax",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/dp1/37_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Block",
+            "Ease Up"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40+"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            "Snorlax is now Asleep. If Snorlax is evolved from Munchlax, this attack does 40 damage plus 30 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89389%2Fpokemon-diamond-and-pearl-snorlax",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Snorlax-Lv35-DP37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DP-038",
@@ -1676,7 +1676,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, put 2 damage counters on each of your opponent's Pok\u00e9mon. If tails, put 2 damage counters on 1 of your Pok\u00e9mon.",
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -2071,8 +2071,8 @@
             null
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2107,8 +2107,8 @@
             "50"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip a coin. If tails, discard a [R] Energy attached to Rapidash and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If tails, discard a [R] Energy attached to Rapidash and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2188,42 +2188,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Riolu-Lv7-DP61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DP-063",
-        "Name": "Silcoon",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp1/63_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Harden",
-            "Entangling String"
-        ],
-        "Move-Energy": [
-            "G",
-            "GC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "During your opponent's next turn, If Silcoon would be damaged by an attack, prevent that attack's damage done to Silcoon if that damage is 30 or less.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89212%2Fpokemon-diamond-and-pearl-silcoon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Silcoon-Lv8-DP63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DP-062",
         "Name": "Seaking",
         "Rarity": "Uncommon",
@@ -2258,6 +2222,42 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89026%2Fpokemon-diamond-and-pearl-seaking",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Seaking-Lv41-DP62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DP-063",
+        "Name": "Silcoon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp1/63_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Harden",
+            "Entangling String"
+        ],
+        "Move-Energy": [
+            "G",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "During your opponent's next turn, If Silcoon would be damaged by an attack, prevent that attack's damage done to Silcoon if that damage is 30 or less.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89212%2Fpokemon-diamond-and-pearl-silcoon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Silcoon-Lv8-DP63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DP-064",
@@ -2416,7 +2416,7 @@
             "DRAW"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if Unown D is on your Bench, you may flip a coin. If heads, each player may draw a card. (You draw your card first. )"
+            "Once during your turn (before your attack), if Unown D is on your Bench, you may flip a coin. If heads, each player may draw a card. (You draw your card first.)"
         ],
         "Moves": [
             "Hidden Power"
@@ -2604,7 +2604,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -2832,42 +2832,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Combee-Lv8-DP79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DP-081",
-        "Name": "Electabuzz",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp1/81_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Thunderpunch",
-            "Shock Wave"
-        ],
-        "Move-Energy": [
-            "LC",
-            "LL"
-        ],
-        "Move-Damage": [
-            "30+",
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If Electabuzz is evolved from Elekid, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85114%2Fpokemon-diamond-and-pearl-electabuzz",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Electabuzz-Lv29-DP81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DP-080",
         "Name": "Duskull",
         "Rarity": "Common",
@@ -2892,7 +2856,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -2902,6 +2866,42 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85050%2Fpokemon-diamond-and-pearl-duskull",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Duskull-Lv15-DP80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DP-081",
+        "Name": "Electabuzz",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp1/81_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunderpunch",
+            "Shock Wave"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LL"
+        ],
+        "Move-Damage": [
+            "30+",
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If Electabuzz is evolved from Elekid, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85114%2Fpokemon-diamond-and-pearl-electabuzz",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Electabuzz-Lv29-DP81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DP-082",
@@ -3196,7 +3196,7 @@
             "Baby Evolution"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr. ) and remove all damage counters from Mime Jr."
+            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr."
         ],
         "Moves": [
             "Mime"
@@ -3279,7 +3279,7 @@
             "20"
         ],
         "Effects": [
-            "Choose up to 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Onix can't attack during your next turn.",
+            "Choose up to 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Onix can't attack during your next turn.",
             ""
         ],
         "Weakness": "Grass",
@@ -3492,7 +3492,7 @@
             "10"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -3826,7 +3826,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/dp1/112_hires.png",
         "Pack": null,
-        "Description": "Choose 1 card in your hand and shuffle the rest of your cards into your deck. Then, draw 4 cards. (If this is the only card in your hand, you can't play this card. )",
+        "Description": "Choose 1 card in your hand and shuffle the rest of your cards into your deck. Then, draw 4 cards. (If this is the only card in your hand, you can't play this card.)",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88407%2Fpokemon-diamond-and-pearl-professor-rowan",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Professor-Rowan-DP112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3846,20 +3846,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Rival-DP113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DP-115",
-        "Name": "Super Scoop Up",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp1/115_hires.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, put 1 of your Pok\u00e9mon and all cards attached to it into your hand.",
-        "Illustrator": "Shizurow",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89638%2Fpokemon-diamond-and-pearl-super-scoop-up",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Super-Scoop-Up-DP115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DP-114",
         "Name": "Speed Stadium",
         "Card-Type": "Stadium",
@@ -3872,6 +3858,20 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89443%2Fpokemon-diamond-and-pearl-speed-stadium",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Speed-Stadium-DP114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DP-115",
+        "Name": "Super Scoop Up",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp1/115_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, put 1 of your Pok\u00e9mon and all cards attached to it into your hand.",
+        "Illustrator": "Shizurow",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89638%2Fpokemon-diamond-and-pearl-super-scoop-up",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Diamond-Pearl/Super-Scoop-Up-DP115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DP-116",
@@ -3942,7 +3942,7 @@
             "Supreme Command"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may choose up to 2 cards from your opponent's hand without looking and put them face down next to the Defending Pok\u00e9mon. (These cards are not in play or in your opponent's hand. ) At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition."
+            "Once during your turn (before your attack), you may choose up to 2 cards from your opponent's hand without looking and put them face down next to the Defending Pok\u00e9mon. (These cards are not in play or in your opponent's hand.) At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition."
         ],
         "Moves": [
             "Hydro Impact"
@@ -3954,7 +3954,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Empoleon can't attack during your next turn."
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Empoleon can't attack during your next turn."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -3990,7 +3990,7 @@
             "150"
         ],
         "Effects": [
-            "Search your discard pile for 8 [R] Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 [R] Energy cards in your discard pile. )"
+            "Search your discard pile for 8 [R] Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 [R] Energy cards in your discard pile.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -4026,7 +4026,7 @@
             "100"
         ],
         "Effects": [
-            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Torterra does 30 damage to itself."
+            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Torterra does 30 damage to itself."
         ],
         "Weakness": "Fire",
         "Resistance": null,

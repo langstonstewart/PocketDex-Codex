@@ -1,5 +1,41 @@
 [
     {
+        "ID": "GE-001",
+        "Name": "Blaziken",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/dp4/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Fire Dance",
+            "Flame Kick"
+        ],
+        "Move-Energy": [
+            "C",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "30",
+            null
+        ],
+        "Effects": [
+            "Search your discard pile for a [R] Energy card and attach it to 1 of your Pok\u00e9mon.",
+            "Discard 2 [R] Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83909%2Fpokemon-great-encounters-blaziken",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Blaziken-Lv56-GE1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GE-002",
         "Name": "Cresselia",
         "Rarity": "Holo Rare",
@@ -34,42 +70,6 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84467%2Fpokemon-great-encounters-cresselia",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Cresselia-Lv48-GE2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GE-001",
-        "Name": "Blaziken",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/dp4/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fire",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fire Dance",
-            "Flame Kick"
-        ],
-        "Move-Energy": [
-            "C",
-            "RRC"
-        ],
-        "Move-Damage": [
-            "30",
-            null
-        ],
-        "Effects": [
-            "Search your discard pile for a [R] Energy card and attach it to 1 of your Pok\u00e9mon.",
-            "Discard 2 [R] Energy attached to Blaziken. This attack does 80 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83909%2Fpokemon-great-encounters-blaziken",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Blaziken-Lv56-GE1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-003",
@@ -347,7 +347,7 @@
             "60"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Remove 3 damage counters from Tangrowth. The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
         ],
         "Weakness": "Fire",
@@ -468,42 +468,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Beedrill-Lv41-GE13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GE-015",
-        "Name": "Claydol",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/dp4/15_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": [
-            "Cosmic Power"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Spinning Attack"
-        ],
-        "Move-Energy": [
-            "FC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84337%2Fpokemon-great-encounters-claydol",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Claydol-Lv45-V1-GE15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GE-014",
         "Name": "Butterfree",
         "Rarity": "Rare",
@@ -538,6 +502,42 @@
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84066%2Fpokemon-great-encounters-butterfree",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Butterfree-Lv36-GE14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GE-015",
+        "Name": "Claydol",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/dp4/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": [
+            "Cosmic Power"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Spinning Attack"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84337%2Fpokemon-great-encounters-claydol",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Claydol-Lv45-V1-GE15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-016",
@@ -599,7 +599,7 @@
             "70"
         ],
         "Effects": [
-            "Flip 2 coins. If the first coin is heads, this attack does 50 damage to the Defending Pok\u00e9mon. If the first coin is tails, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If the second coin is heads, the Defending Pok\u00e9mon is now Confused. If the second coin is tails, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during your opponent's next turn.",
+            "Flip 2 coins. If the first coin is heads, this attack does 50 damage to the Defending Pok\u00e9mon. If the first coin is tails, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If the second coin is heads, the Defending Pok\u00e9mon is now Confused. If the second coin is tails, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during your opponent's next turn.",
             ""
         ],
         "Weakness": "Fighting",
@@ -610,42 +610,6 @@
         "Illustrator": "Daisuke Ito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85372%2Fpokemon-great-encounters-exploud",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Exploud-Lv58-GE17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GE-019",
-        "Name": "Hypno",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/dp4/19_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dream Catcher",
-            "Hypnoblast"
-        ],
-        "Move-Energy": [
-            "CC",
-            "PPC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon is Asleep, move all damage counters from Hypno to the Defending Pok\u00e9mon.",
-            "The Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86254%2Fpokemon-great-encounters-hypno",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Hypno-Lv28-GE19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-018",
@@ -682,6 +646,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86207%2Fpokemon-great-encounters-houndoom",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Houndoom-Lv41-GE18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GE-019",
+        "Name": "Hypno",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/dp4/19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dream Catcher",
+            "Hypnoblast"
+        ],
+        "Move-Energy": [
+            "CC",
+            "PPC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon is Asleep, move all damage counters from Hypno to the Defending Pok\u00e9mon.",
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86254%2Fpokemon-great-encounters-hypno",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Hypno-Lv28-GE19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-020",
@@ -851,7 +851,7 @@
             "20"
         ],
         "Effects": [
-            "Choose 1 face-down Prize card (yours or your opponent's) and put it face up. If that card is a Supporter card, use the effect of that card as the effect of this attack. (That card remains face up for the rest of the game. )",
+            "Choose 1 face-down Prize card (yours or your opponent's) and put it face up. If that card is a Supporter card, use the effect of that card as the effect of this attack. (That card remains face up for the rest of the game.)",
             "During your next turn, if an attack does damage to the Defending Pok\u00e9mon (after applying Weakness and Resistance), that attack does 20 more damage."
         ],
         "Weakness": "Fire",
@@ -1032,7 +1032,7 @@
             "30"
         ],
         "Effects": [
-            "Discard a card from your hand. (If you can't discard a card from your hand, this attack does nothing. )"
+            "Discard a card from your hand. (If you can't discard a card from your hand, this attack does nothing.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1320,7 +1320,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Floatzel during your opponent's next turn.",
-            "Flip a coin. If heads, this attack does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1535,8 +1535,8 @@
             "30"
         ],
         "Effects": [
-            "Move a Pok\u00e9mon Tool card attached to 1 of your opponent's Pok\u00e9mon to another of your opponent's Pok\u00e9mon (excluding Pok\u00e9mon that already has a Pok\u00e9mon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing. )",
-            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Move a Pok\u00e9mon Tool card attached to 1 of your opponent's Pok\u00e9mon to another of your opponent's Pok\u00e9mon (excluding Pok\u00e9mon that already has a Pok\u00e9mon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing.)",
+            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1571,7 +1571,7 @@
             "40+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
         ],
         "Weakness": "Fighting",
@@ -1644,7 +1644,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon and 10 damage to each of your opponent's other Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon and 10 damage to each of your opponent's other Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1668,7 +1668,7 @@
             "Emerge"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if Metapod is your Active Pok\u00e9mon, you may flip a coin. If heads, search your deck for a card that evolves from Metapod and put it onto Metapod. (This counts as evolving Metapod. ) Shuffle your deck afterward. This power can't be used if Metapod is affected by a Special Condition."
+            "Once during your turn (before your attack), if Metapod is your Active Pok\u00e9mon, you may flip a coin. If heads, search your deck for a card that evolves from Metapod and put it onto Metapod. (This counts as evolving Metapod.) Shuffle your deck afterward. This power can't be used if Metapod is affected by a Special Condition."
         ],
         "Moves": [
             "Ram"
@@ -1980,42 +1980,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Togetic-Lv23-GE55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GE-057",
-        "Name": "Unown [G]",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp4/57_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "50",
-        "Ability": [
-            "GUARD"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if Unown G is on your Bench, you may discard all cards attached to Unown G and attach Unown G to 1 of your Pok\u00e9mon as a Pok\u00e9mon Tool card. As long as Unown G is attached to a Pok\u00e9mon, prevent all effects of attacks, excluding damage, done to that Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Hidden Power"
-        ],
-        "Move-Energy": [
-            "PC"
-        ],
-        "Move-Damage": [
-            "50"
-        ],
-        "Effects": [
-            "If Unown G has any damage counters on it, this attack's base damage is 10."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Daisuke Ito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90210%2Fpokemon-great-encounters-unown-g",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Unown-G-Lv17-GE57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GE-056",
         "Name": "Unown [F]",
         "Rarity": "Uncommon",
@@ -2052,6 +2016,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Unown-F-Lv13-GE56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "GE-057",
+        "Name": "Unown [G]",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp4/57_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": [
+            "GUARD"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Unown G is on your Bench, you may discard all cards attached to Unown G and attach Unown G to 1 of your Pok\u00e9mon as a Pok\u00e9mon Tool card. As long as Unown G is attached to a Pok\u00e9mon, prevent all effects of attacks, excluding damage, done to that Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Hidden Power"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "If Unown G has any damage counters on it, this attack's base damage is 10."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Daisuke Ito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90210%2Fpokemon-great-encounters-unown-g",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Unown-G-Lv17-GE57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "GE-058",
         "Name": "Wailmer",
         "Rarity": "Uncommon",
@@ -2075,7 +2075,7 @@
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -2147,7 +2147,7 @@
             "20"
         ],
         "Effects": [
-            "If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing. )",
+            "If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)",
             "Switch Baltoy with 1 of your Benched Pok\u00e9mon."
         ],
         "Weakness": "Grass",
@@ -2244,7 +2244,7 @@
             "Pupate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if Caterpie is your Active Pok\u00e9mon, you may flip a coin. If heads, search your deck for a card that evolves from Caterpie and put it onto Caterpie. (This counts as evolving Caterpie. ) Shuffle your deck afterward. This power can't be used if Caterpie is affected by a Special Condition."
+            "Once during your turn (before your attack), if Caterpie is your Active Pok\u00e9mon, you may flip a coin. If heads, search your deck for a card that evolves from Caterpie and put it onto Caterpie. (This counts as evolving Caterpie.) Shuffle your deck afterward. This power can't be used if Caterpie is affected by a Special Condition."
         ],
         "Moves": [
             "Tackle"
@@ -2304,42 +2304,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Clamperl-Lv15-GE64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GE-066",
-        "Name": "Ekans",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp4/66_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shed Skin",
-            "Poison Fang"
-        ],
-        "Move-Energy": [
-            "C",
-            "P"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "Remove 2 damage counters from Ekans.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85103%2Fpokemon-great-encounters-ekans",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Ekans-Lv16-GE66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GE-065",
         "Name": "Drowzee",
         "Rarity": "Common",
@@ -2374,6 +2338,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84976%2Fpokemon-great-encounters-drowzee",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Drowzee-Lv13-GE65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GE-066",
+        "Name": "Ekans",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp4/66_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shed Skin",
+            "Poison Fang"
+        ],
+        "Move-Energy": [
+            "C",
+            "P"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Remove 2 damage counters from Ekans.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85103%2Fpokemon-great-encounters-ekans",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Ekans-Lv16-GE66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-067",
@@ -2664,42 +2664,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Koffing-Lv18-GE74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GE-076",
-        "Name": "Lunatone",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp4/76_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": [
-            "Gravity Change"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can't be used if Lunatone is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Knock Over"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "You may discard any Stadium card in play."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86926%2Fpokemon-great-encounters-lunatone",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Lunatone-Lv31-GE76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GE-075",
         "Name": "Krabby",
         "Rarity": "Common",
@@ -2736,40 +2700,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Krabby-Lv8-GE75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GE-078",
-        "Name": "Makuhita",
+        "ID": "GE-076",
+        "Name": "Lunatone",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp4/78_hires.png",
+        "Image": "https://images.pokemontcg.io/dp4/76_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Ability": [
+            "Gravity Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may discard a card from your hand. Then, if you have Solrock in play, draw a card. This power can't be used if Lunatone is affected by a Special Condition."
+        ],
         "Moves": [
-            "Punch",
-            "Arm Thrust"
+            "Knock Over"
         ],
         "Move-Energy": [
-            "C",
-            "FC"
+            "C"
         ],
         "Move-Damage": [
-            "10",
-            "40"
+            "20"
         ],
         "Effects": [
-            "",
-            "Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
+            "You may discard any Stadium card in play."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87131%2Fpokemon-great-encounters-makuhita",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Makuhita-Lv15-GE78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86926%2Fpokemon-great-encounters-lunatone",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Lunatone-Lv31-GE76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-077",
@@ -2806,6 +2770,42 @@
         "Illustrator": "Motofumi Fujiwara",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86936%2Fpokemon-great-encounters-luvdisc",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Luvdisc-Lv28-GE77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GE-078",
+        "Name": "Makuhita",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp4/78_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Punch",
+            "Arm Thrust"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87131%2Fpokemon-great-encounters-makuhita",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Makuhita-Lv15-GE78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-079",
@@ -3084,7 +3084,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swablu during your opponent's next turn.",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -3094,42 +3094,6 @@
         "Illustrator": "Kanako Eo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89657%2Fpokemon-great-encounters-swablu",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Swablu-Lv7-GE86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "GE-088",
-        "Name": "Togepi",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp4/88_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Yawn",
-            "Find a Friend"
-        ],
-        "Move-Energy": [
-            "C",
-            "C"
-        ],
-        "Move-Damage": [
-            null,
-            null
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep.",
-            "Flip a coin. If heads, search your deck for a Pok\u00e9mon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89934%2Fpokemon-great-encounters-togepi",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Togepi-Lv4-GE88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-087",
@@ -3166,6 +3130,42 @@
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89744%2Fpokemon-great-encounters-tangela",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Tangela-Lv12-GE87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GE-088",
+        "Name": "Togepi",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp4/88_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Yawn",
+            "Find a Friend"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep.",
+            "Flip a coin. If heads, search your deck for a Pok\u00e9mon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89934%2Fpokemon-great-encounters-togepi",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Togepi-Lv4-GE88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-089",
@@ -3252,7 +3252,7 @@
             "LINK"
         ],
         "Ability-Effect": [
-            "Unown L can use any attack from any Unown in play (both yours and your opponent's). (You still have to pay for that attack's Energy cost. )"
+            "Unown L can use any attack from any Unown in play (both yours and your opponent's). (You still have to pay for that attack's Energy cost.)"
         ],
         "Moves": [
             "Hidden Power"
@@ -3312,42 +3312,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Volbeat-Lv34-GE92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "GE-094",
-        "Name": "Whismur",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp4/94_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mumble",
-            "Uproar"
-        ],
-        "Move-Energy": [
-            "0",
-            "C"
-        ],
-        "Move-Damage": [
-            "10",
-            null
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Takao Unno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90583%2Fpokemon-great-encounters-whismur",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Whismur-Lv8-GE94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "GE-093",
         "Name": "Weedle",
         "Rarity": "Common",
@@ -3382,6 +3346,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90544%2Fpokemon-great-encounters-weedle",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Weedle-Lv5-GE93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "GE-094",
+        "Name": "Whismur",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp4/94_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mumble",
+            "Uproar"
+        ],
+        "Move-Energy": [
+            "0",
+            "C"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Takao Unno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90583%2Fpokemon-great-encounters-whismur",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Whismur-Lv8-GE94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "GE-095",
@@ -3534,7 +3534,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/dp4/102_hires.png",
         "Pack": null,
-        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88593%2Fpokemon-great-encounters-rare-candy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Great-Encounters/Rare-Candy-GE102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3672,7 +3672,7 @@
             "60"
         ],
         "Effects": [
-            "You may move all Energy cards attached to Palkia to your Benched Pok\u00e9mon in any way you like. (Ignore this effect if you don't have any Benched Pok\u00e9mon. )"
+            "You may move all Energy cards attached to Palkia to your Benched Pok\u00e9mon in any way you like. (Ignore this effect if you don't have any Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,

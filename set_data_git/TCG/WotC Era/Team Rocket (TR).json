@@ -23,8 +23,8 @@
             "40"
         ],
         "Effects": [
-            "You may switch Dark Alakazam with 1 of your Benched Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )",
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "You may switch Dark Alakazam with 1 of your Benched Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)",
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -59,8 +59,8 @@
             "10"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. ) If that Pok\u00e9mon has a Pok\u00e9mon Power, that power stops working until the end of your opponent's next turn.",
-            "The Defending Pok\u00e9mon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) If that Pok\u00e9mon has a Pok\u00e9mon Power, that power stops working until the end of your opponent's next turn.",
+            "The Defending Pok\u00e9mon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -70,6 +70,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84563%2Fpokemon-team-rocket-dark-arbok-2",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Arbok-V1-TR2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TR-003",
+        "Name": "Dark Blastoise",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base5/3_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hydrocannon",
+            "Rocket Tackle"
+        ],
+        "Move-Energy": [
+            "WW",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30+",
+            "40"
+        ],
+        "Effects": [
+            "Does 30 damage plus 20 more damage for each [W] Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.",
+            "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84568%2Fpokemon-team-rocket-dark-blastoise-3",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Blastoise-V2-TR3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-004",
@@ -108,78 +144,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Charizard-TR4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-003",
-        "Name": "Dark Blastoise",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base5/3_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Hydrocannon",
-            "Rocket Tackle"
-        ],
-        "Move-Energy": [
-            "WW",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "30+",
-            "40"
-        ],
-        "Effects": [
-            "Does 30 damage plus 20 more damage for each [W] Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.",
-            "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84568%2Fpokemon-team-rocket-dark-blastoise-3",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Blastoise-V2-TR3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TR-006",
-        "Name": "Dark Dugtrio",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base5/6_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "50",
-        "Ability": [
-            "Sinkhole"
-        ],
-        "Ability-Effect": [
-            "Whenever your opponent's Active Pok\u00e9mon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance. ) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Knock Down"
-        ],
-        "Move-Energy": [
-            "FF"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
-        ],
-        "Weakness": "Grass",
-        "Resistance": "Lightning",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84588%2Fpokemon-team-rocket-dark-dugtrio-6",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dugtrio-TR6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TR-005",
         "Name": "Dark Dragonite",
         "Rarity": "Holo Rare",
@@ -214,6 +178,78 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84584%2Fpokemon-team-rocket-dark-dragonite-5",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dragonite-TR5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TR-006",
+        "Name": "Dark Dugtrio",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base5/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": [
+            "Sinkhole"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent's Active Pok\u00e9mon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Knock Down"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84588%2Fpokemon-team-rocket-dark-dugtrio-6",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dugtrio-TR6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TR-007",
+        "Name": "Dark Golbat",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base5/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": [
+            "Sneak Attack"
+        ],
+        "Ability-Effect": [
+            "When you play Dark Golbat from your hand, you may choose 1 of your opponent's Pok\u00e9mon. If you do, Dark Golbat does 10 damage to that Pok\u00e9mon. Apply Weakness and Resistance."
+        ],
+        "Moves": [
+            "Flitter"
+        ],
+        "Move-Energy": [
+            "GG"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84601%2Fpokemon-team-rocket-dark-golbat-7",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Golbat-TR7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-008",
@@ -252,42 +288,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Gyarados-V1-TR8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-007",
-        "Name": "Dark Golbat",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base5/7_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": [
-            "Sneak Attack"
-        ],
-        "Ability-Effect": [
-            "When you play Dark Golbat from your hand, you may choose 1 of your opponent's Pok\u00e9mon. If you do, Dark Golbat does 10 damage to that Pok\u00e9mon. Apply Weakness and Resistance."
-        ],
-        "Moves": [
-            "Flitter"
-        ],
-        "Move-Energy": [
-            "GG"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84601%2Fpokemon-team-rocket-dark-golbat-7",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Golbat-TR7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TR-009",
         "Name": "Dark Hypno",
         "Rarity": "Holo Rare",
@@ -312,7 +312,7 @@
         ],
         "Effects": [
             "",
-            "Your opponent flips a number of coins equal to the number of Pok\u00e9mon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Your opponent flips a number of coins equal to the number of Pok\u00e9mon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -383,7 +383,7 @@
             "30"
         ],
         "Effects": [
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )",
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
             "If the Defending Pok\u00e9mon has any basic Energy cards attached to it, choose 1 of them. If your opponent has any Benched Pok\u00e9mon, choose 1 of them and attach that Energy card to it."
         ],
         "Weakness": "Fighting",
@@ -491,7 +491,7 @@
             "20"
         ],
         "Effects": [
-            "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance. ). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance.",
+            "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance.). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance.",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned; if tails, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Psychic",
@@ -512,7 +512,7 @@
         "Rarity": "Holo Rare",
         "Image": "https://images.pokemontcg.io/base5/15_hires.png",
         "Pack": null,
-        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game. )",
+        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game.)",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86073%2Fpokemon-team-rocket-here-comes-team-rocket-15",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Here-Comes-Team-Rocket-TR15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -569,8 +569,8 @@
             "40"
         ],
         "Effects": [
-            "You may switch Dark Alakazam with 1 of your Benched Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )",
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "You may switch Dark Alakazam with 1 of your Benched Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)",
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -605,8 +605,8 @@
             "10"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. ) If that Pok\u00e9mon has a Pok\u00e9mon Power, that power stops working until the end of your opponent's next turn.",
-            "The Defending Pok\u00e9mon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) If that Pok\u00e9mon has a Pok\u00e9mon Power, that power stops working until the end of your opponent's next turn.",
+            "The Defending Pok\u00e9mon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -642,7 +642,7 @@
         ],
         "Effects": [
             "Does 30 damage plus 20 more damage for each [W] Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.",
-            "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen. )"
+            "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -652,42 +652,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84570%2Fpokemon-team-rocket-dark-blastoise-20",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Blastoise-V1-TR20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TR-022",
-        "Name": "Dark Dragonite",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/base5/22_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Colorless",
-        "HP": "70",
-        "Ability": [
-            "Summon Minions"
-        ],
-        "Ability-Effect": [
-            "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Shuffle your deck afterward."
-        ],
-        "Moves": [
-            "Giant Tail"
-        ],
-        "Move-Energy": [
-            "CCCC"
-        ],
-        "Move-Damage": [
-            "70"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, this attack does nothing."
-        ],
-        "Weakness": null,
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84586%2Fpokemon-team-rocket-dark-dragonite-22",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dragonite-TR22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-021",
@@ -726,6 +690,78 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Charizard-TR21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "TR-022",
+        "Name": "Dark Dragonite",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/base5/22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": [
+            "Summon Minions"
+        ],
+        "Ability-Effect": [
+            "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Shuffle your deck afterward."
+        ],
+        "Moves": [
+            "Giant Tail"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84586%2Fpokemon-team-rocket-dark-dragonite-22",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dragonite-TR22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TR-023",
+        "Name": "Dark Dugtrio",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/base5/23_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": [
+            "Sinkhole"
+        ],
+        "Ability-Effect": [
+            "Whenever your opponent's Active Pok\u00e9mon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Knock Down"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84589%2Fpokemon-team-rocket-dark-dugtrio-23",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dugtrio-TR23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TR-024",
         "Name": "Dark Golbat",
         "Rarity": "Rare",
@@ -750,7 +786,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": "Fighting",
@@ -760,42 +796,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84602%2Fpokemon-team-rocket-dark-golbat-24",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Golbat-TR24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TR-023",
-        "Name": "Dark Dugtrio",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/base5/23_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "50",
-        "Ability": [
-            "Sinkhole"
-        ],
-        "Ability-Effect": [
-            "Whenever your opponent's Active Pok\u00e9mon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance. ) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Knock Down"
-        ],
-        "Move-Energy": [
-            "FF"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
-        ],
-        "Weakness": "Grass",
-        "Resistance": "Lightning",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84589%2Fpokemon-team-rocket-dark-dugtrio-23",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dugtrio-TR23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-025",
@@ -858,7 +858,7 @@
         ],
         "Effects": [
             "",
-            "Your opponent flips a number of coins equal to the number of Pok\u00e9mon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Your opponent flips a number of coins equal to the number of Pok\u00e9mon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -929,7 +929,7 @@
             "30"
         ],
         "Effects": [
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )",
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
             "If the Defending Pok\u00e9mon has any basic Energy cards attached to it, choose 1 of them. If your opponent has any Benched Pok\u00e9mon, choose 1 of them and attach that Energy card to it."
         ],
         "Weakness": "Fighting",
@@ -1037,7 +1037,7 @@
             "20"
         ],
         "Effects": [
-            "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance. ). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance.",
+            "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance.). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance.",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned; if tails, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Psychic",
@@ -1048,42 +1048,6 @@
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84672%2Fpokemon-team-rocket-dark-weezing-31",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Weezing-TR31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TR-033",
-        "Name": "Dark Dragonair",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base5/33_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": [
-            "Evolutionary Light"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Tail Strike"
-        ],
-        "Move-Energy": [
-            "CCC"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
-        ],
-        "Weakness": null,
-        "Resistance": "Psychic",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84580%2Fpokemon-team-rocket-dark-dragonair",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dragonair-TR33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-032",
@@ -1122,40 +1086,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Charmeleon-TR32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-035",
-        "Name": "Dark Flareon",
+        "ID": "TR-033",
+        "Name": "Dark Dragonair",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base5/35_hires.png",
+        "Image": "https://images.pokemontcg.io/base5/33_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": [
+            "Evolutionary Light"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed."
+        ],
         "Moves": [
-            "Rage",
-            "Playing with Fire"
+            "Tail Strike"
         ],
         "Move-Energy": [
-            "C",
-            "RR"
+            "CCC"
         ],
         "Move-Damage": [
-            "10+",
-            "30+"
+            "20+"
         ],
         "Effects": [
-            "Does 10 damage plus 10 more damage for each damage counter on Dark Flareon.",
-            "Use this attack only if there are any [R] Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
+            "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
         ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
+        "Weakness": null,
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84597%2Fpokemon-team-rocket-dark-flareon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Flareon-TR35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84580%2Fpokemon-team-rocket-dark-dragonair",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Dragonair-TR33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-034",
@@ -1194,6 +1158,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Electrode-TR34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "TR-035",
+        "Name": "Dark Flareon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base5/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rage",
+            "Playing with Fire"
+        ],
+        "Move-Energy": [
+            "C",
+            "RR"
+        ],
+        "Move-Damage": [
+            "10+",
+            "30+"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 more damage for each damage counter on Dark Flareon.",
+            "Use this attack only if there are any [R] Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84597%2Fpokemon-team-rocket-dark-flareon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Flareon-TR35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TR-036",
         "Name": "Dark Gloom",
         "Rarity": "Uncommon",
@@ -1228,42 +1228,6 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84600%2Fpokemon-team-rocket-dark-gloom",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Gloom-TR36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TR-038",
-        "Name": "Dark Jolteon",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base5/38_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Lightning Flash",
-            "Thunder Attack"
-        ],
-        "Move-Energy": [
-            "L",
-            "LLC"
-        ],
-        "Move-Damage": [
-            "20",
-            "30"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84617%2Fpokemon-team-rocket-dark-jolteon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Jolteon-TR38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-037",
@@ -1302,6 +1266,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Golduck-TR37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "TR-038",
+        "Name": "Dark Jolteon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base5/38_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lightning Flash",
+            "Thunder Attack"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84617%2Fpokemon-team-rocket-dark-jolteon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Jolteon-TR38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TR-039",
         "Name": "Dark Kadabra",
         "Rarity": "Uncommon",
@@ -1326,7 +1326,7 @@
             "30"
         ],
         "Effects": [
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1362,7 +1362,7 @@
         ],
         "Effects": [
             "Before doing damage, choose 1 of your opponent's Benched Pok\u00e9mon and switch it with the Defending Pok\u00e9mon. Do the damage to the new Defending Pok\u00e9mon. This attack can't be used if your opponent has no Benched Pok\u00e9mon.",
-            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1506,7 +1506,7 @@
         ],
         "Effects": [
             "",
-            "You may discard 1 [R] Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may discard 1 [R] Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1554,42 +1554,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Vaporeon-TR45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-047",
-        "Name": "Magikarp",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base5/47_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Flop",
-            "Rapid Evolution"
-        ],
-        "Move-Energy": [
-            "C",
-            "WWW"
-        ],
-        "Move-Damage": [
-            "10",
-            null
-        ],
-        "Effects": [
-            "",
-            "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp. ) Shuffle your deck afterward."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87021%2Fpokemon-team-rocket-magikarp",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Magikarp-TR47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TR-046",
         "Name": "Dark Wartortle",
         "Rarity": "Uncommon",
@@ -1626,40 +1590,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Wartortle-TR46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-049",
-        "Name": "Abra",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base5/49_hires.png",
+        "ID": "TR-047",
+        "Name": "Magikarp",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base5/47_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "40",
+        "Type": "Water",
+        "HP": "30",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Vanish",
-            "Psyshock"
+            "Flop",
+            "Rapid Evolution"
         ],
         "Move-Energy": [
-            "P",
-            "P"
+            "C",
+            "WWW"
         ],
         "Move-Damage": [
-            null,
-            "10"
+            "10",
+            null
         ],
         "Effects": [
-            "Shuffle Abra into your deck. (Discard all cards attached to Abra. )",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+            "",
+            "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
         ],
-        "Weakness": "Psychic",
+        "Weakness": "Lightning",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83445%2Fpokemon-team-rocket-abra",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Abra-TR49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87021%2Fpokemon-team-rocket-magikarp",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Magikarp-TR47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-048",
@@ -1698,40 +1662,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Porygon-TR48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-051",
-        "Name": "Dark Raticate",
+        "ID": "TR-049",
+        "Name": "Abra",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base5/51_hires.png",
+        "Image": "https://images.pokemontcg.io/base5/49_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "50",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "40",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Gnaw",
-            "Hyper Fang"
+            "Vanish",
+            "Psyshock"
         ],
         "Move-Energy": [
-            "CC",
-            "CCC"
+            "P",
+            "P"
         ],
         "Move-Damage": [
-            "20",
-            "50"
+            null,
+            "10"
         ],
         "Effects": [
-            "",
-            "Flip a coin. If tails, this attack does nothing."
+            "Shuffle Abra into your deck. (Discard all cards attached to Abra.)",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
+        "Weakness": "Psychic",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84649%2Fpokemon-team-rocket-dark-raticate",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Raticate-TR51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83445%2Fpokemon-team-rocket-abra",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Abra-TR49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-050",
@@ -1770,6 +1734,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Charmander-TR50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "TR-051",
+        "Name": "Dark Raticate",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base5/51_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw",
+            "Hyper Fang"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin-ichi Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84649%2Fpokemon-team-rocket-dark-raticate",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dark-Raticate-TR51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TR-052",
         "Name": "Diglett",
         "Rarity": "Common",
@@ -1793,7 +1793,7 @@
             "20"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
             ""
         ],
         "Weakness": "Grass",
@@ -1838,42 +1838,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Dratini-TR53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-055",
-        "Name": "Eevee",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base5/55_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Sand-attack"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "10"
-        ],
-        "Effects": [
-            "",
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85078%2Fpokemon-team-rocket-eevee",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Eevee-TR55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TR-054",
         "Name": "Drowzee",
         "Rarity": "Common",
@@ -1908,6 +1872,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84969%2Fpokemon-team-rocket-drowzee",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Drowzee-TR54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TR-055",
+        "Name": "Eevee",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base5/55_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Sand-attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "",
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85078%2Fpokemon-team-rocket-eevee",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Eevee-TR55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-056",
@@ -2146,7 +2146,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon and flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Choose 1 of your opponent's Pok\u00e9mon and flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -2366,6 +2366,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Squirtle-TR68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "TR-069",
+        "Name": "Voltorb",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base5/69_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Speed Ball"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90409%2Fpokemon-team-rocket-voltorb",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Voltorb-TR69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TR-070",
         "Name": "Zubat",
         "Rarity": "Common",
@@ -2402,36 +2434,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Zubat-TR70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-069",
-        "Name": "Voltorb",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base5/69_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "40",
+        "ID": "TR-071",
+        "Name": "Here Comes Team Rocket!",
+        "Card-Type": "Supporter",
         "Ability": null,
         "Ability-Effect": null,
-        "Moves": [
-            "Speed Ball"
-        ],
-        "Move-Energy": [
-            "L"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/base5/71_hires.png",
+        "Pack": null,
+        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game.)",
         "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90409%2Fpokemon-team-rocket-voltorb",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Voltorb-TR69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86074%2Fpokemon-team-rocket-here-comes-team-rocket-71",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Here-Comes-Team-Rocket-TR71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-072",
@@ -2446,20 +2460,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88792%2Fpokemon-team-rocket-rockets-sneak-attack-72",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Rockets-Sneak-Attack-TR72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TR-071",
-        "Name": "Here Comes Team Rocket!",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/base5/71_hires.png",
-        "Pack": null,
-        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game. )",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86074%2Fpokemon-team-rocket-here-comes-team-rocket-71",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Here-Comes-Team-Rocket-TR71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-073",
@@ -2484,7 +2484,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/base5/74_hires.png",
         "Pack": null,
-        "Description": "Ask your opponent if he or she accepts your challenge. If your opponent declines (or if both Benches are full), draw 2 cards. If your opponent accepts, each of you searches your decks for any number of Basic Pok\u00e9mon cards and puts them face down onto your Benches. (A player can't do this if his or her Bench is full. ) When you both have finished, shuffle your decks and turn those cards face up.",
+        "Description": "Ask your opponent if he or she accepts your challenge. If your opponent declines (or if both Benches are full), draw 2 cards. If your opponent accepts, each of you searches your decks for any number of Basic Pok\u00e9mon cards and puts them face down onto your Benches. (A player can't do this if his or her Bench is full.) When you both have finished, shuffle your decks and turn those cards face up.",
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84159%2Fpokemon-team-rocket-challenge",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Challenge-TR74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2518,20 +2518,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Imposter-Oaks-Revenge-TR76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-078",
-        "Name": "Goop Gas Attack",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base5/78_hires.png",
-        "Pack": null,
-        "Description": "All Pok\u00e9mon Powers stop working until the end of your opponent's next turn.",
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85841%2Fpokemon-team-rocket-goop-gas-attack",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Goop-Gas-Attack-TR78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TR-077",
         "Name": "Nightly Garbage Run",
         "Card-Type": "Item",
@@ -2546,18 +2532,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Nightly-Garbage-Run-TR77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-080",
-        "Name": "Rainbow Energy",
-        "Card-Type": "Special Energy",
+        "ID": "TR-078",
+        "Name": "Goop Gas Attack",
+        "Card-Type": "Item",
         "Ability": null,
         "Ability-Effect": null,
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/base5/80_hires.png",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base5/78_hires.png",
         "Pack": null,
-        "Description": "This card provides [C] Energy. While in play, this card provides every type of Energy but provides only 1 Energy at a time. When you attach this card from your hand to 1 of your Pok\u00e9mon, put 1 damage counter on that Pok\u00e9mon.",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88551%2Fpokemon-team-rocket-rainbow-energy-80",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Rainbow-Energy-V2-TR80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "All Pok\u00e9mon Powers stop working until the end of your opponent's next turn.",
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85841%2Fpokemon-team-rocket-goop-gas-attack",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Goop-Gas-Attack-TR78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-079",
@@ -2574,18 +2560,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Sleep-TR79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TR-082",
-        "Name": "Potion Energy",
+        "ID": "TR-080",
+        "Name": "Rainbow Energy",
         "Card-Type": "Special Energy",
         "Ability": null,
         "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base5/82_hires.png",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/base5/80_hires.png",
         "Pack": null,
-        "Description": "If you play this card from your hand, remove 1 damage counter from the Pok\u00e9mon you attach it to, if it has any. Potion Energy provides [C] energy. (Doesn't count as a basic Energy card. )",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88350%2Fpokemon-team-rocket-potion-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Potion-Energy-TR82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "This card provides [C] Energy. While in play, this card provides every type of Energy but provides only 1 Energy at a time. When you attach this card from your hand to 1 of your Pok\u00e9mon, put 1 damage counter on that Pok\u00e9mon.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88551%2Fpokemon-team-rocket-rainbow-energy-80",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Rainbow-Energy-V2-TR80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-081",
@@ -2596,10 +2582,24 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/base5/81_hires.png",
         "Pack": null,
-        "Description": "If you play this card from your hand, the Pok\u00e9mon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provides [C] energy. (Doesn't count as a basic Energy card. )",
+        "Description": "If you play this card from your hand, the Pok\u00e9mon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provides [C] energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85584%2Fpokemon-team-rocket-full-heal-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Full-Heal-Energy-TR81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TR-082",
+        "Name": "Potion Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base5/82_hires.png",
+        "Pack": null,
+        "Description": "If you play this card from your hand, remove 1 damage counter from the Pok\u00e9mon you attach it to, if it has any. Potion Energy provides [C] energy. (Doesn't count as a basic Energy card.)",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88350%2Fpokemon-team-rocket-potion-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Team-Rocket/Potion-Energy-TR82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TR-083",
@@ -2622,7 +2622,7 @@
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,

@@ -1,5 +1,41 @@
 [
     {
+        "ID": "TRR-001",
+        "Name": "Azumarill",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex7/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": [
+            "Froth"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pok\u00e9mon, you may use this power. Each Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Moves": [
+            "Water Punch"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin for each [W] Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83682%2Fpokemon-team-rocket-returns-azumarill",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Azumarill-TRR1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TRR-002",
         "Name": "Dark Ampharos",
         "Rarity": "Holo Rare",
@@ -40,42 +76,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Ampharos-TRR2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TRR-001",
-        "Name": "Azumarill",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex7/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": [
-            "Froth"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pok\u00e9mon, you may use this power. Each Defending Pok\u00e9mon is now Paralyzed."
-        ],
-        "Moves": [
-            "Water Punch"
-        ],
-        "Move-Energy": [
-            "WC"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Flip a coin for each [W] Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83682%2Fpokemon-team-rocket-returns-azumarill",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Azumarill-TRR1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TRR-003",
         "Name": "Dark Crobat",
         "Rarity": "Holo Rare",
@@ -103,8 +103,8 @@
             null
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Remove from Dark Crobat a number of damage counters equal to the number of your opponent's Pok\u00e9mon in play.",
-            "Does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Remove from Dark Crobat a number of damage counters equal to the number of your opponent's Pok\u00e9mon in play.",
+            "Does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -211,7 +211,7 @@
             "20\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, choose an attack on 1 of your Pok\u00e9mon in play that has Dark in its name (excluding this one). Dark Link copies that attack except for its Energy cost. (You must still do anything else required for that attack. ) (No matter what type that Pok\u00e9mon is, Dark Hypno's type is still [P] [D]. ) Dark Hypno performs that attack.",
+            "Flip a coin. If heads, choose an attack on 1 of your Pok\u00e9mon in play that has Dark in its name (excluding this one). Dark Link copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pok\u00e9mon is, Dark Hypno's type is still [P] [D].) Dark Hypno performs that attack.",
             "Does 20 damage times the number of your opponent's Benched Pok\u00e9mon."
         ],
         "Weakness": "Psychic",
@@ -508,7 +508,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack. ) (No matter what type that Pok\u00e9mon is, Togetic's type is still [C]. ) Togetic performs that attack."
+            "Choose 1 of your opponent's Benched Pok\u00e9mon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pok\u00e9mon is, Togetic's type is still [C].) Togetic performs that attack."
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -560,42 +560,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Dragonite-TRR15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TRR-017",
-        "Name": "Dark Raticate",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex7/17_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dark Seed",
-            "Spread Poison"
-        ],
-        "Move-Energy": [
-            "D",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn. Put 5 damage counters on the Defending Pok\u00e9mon at the end of your opponent's next turn.",
-            "The Defending Pok\u00e9mon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84650%2Fpokemon-team-rocket-returns-dark-raticate",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Raticate-TRR17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TRR-016",
         "Name": "Dark Muk",
         "Rarity": "Rare",
@@ -634,6 +598,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84631%2Fpokemon-team-rocket-returns-dark-muk",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Muk-TRR16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TRR-017",
+        "Name": "Dark Raticate",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex7/17_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dark Seed",
+            "Spread Poison"
+        ],
+        "Move-Energy": [
+            "D",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn. Put 5 damage counters on the Defending Pok\u00e9mon at the end of your opponent's next turn.",
+            "The Defending Pok\u00e9mon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84650%2Fpokemon-team-rocket-returns-dark-raticate",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Raticate-TRR17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-018",
@@ -699,7 +699,7 @@
         ],
         "Effects": [
             "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar.",
-            "Does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 70 damage plus 50 more damage."
         ],
         "Weakness": "Fighting",
@@ -1100,7 +1100,7 @@
         ],
         "Effects": [
             "Each Defending Pok\u00e9mon is now Poisoned.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage for each [C] Energy in that Pok\u00e9mon's Retreat Cost (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage for each [C] Energy in that Pok\u00e9mon's Retreat Cost (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -1240,7 +1240,7 @@
             null
         ],
         "Effects": [
-            "Does 30 damage to 1 of your opponent's Pok\u00e9mon. Dark Golbat can't attack during your next turn. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 30 damage to 1 of your opponent's Pok\u00e9mon. Dark Golbat can't attack during your next turn. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1250,6 +1250,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84603%2Fpokemon-team-rocket-returns-dark-golbat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Golbat-TRR34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TRR-035",
+        "Name": "Dark Golduck",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex7/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water/Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Darkness Shield",
+            "Cold Crush"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pok\u00e9mon during your opponent's next turn.",
+            "You may discard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Nakaoka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84605%2Fpokemon-team-rocket-returns-dark-golduck",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Golduck-TRR35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-036",
@@ -1290,42 +1326,6 @@
         "Illustrator": "Nakaoka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84608%2Fpokemon-team-rocket-returns-dark-gyarados",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Gyarados-TRR36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TRR-035",
-        "Name": "Dark Golduck",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex7/35_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water/Darkness",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Darkness Shield",
-            "Cold Crush"
-        ],
-        "Move-Energy": [
-            "WC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, prevent all effects of an attack, including damage, done to each of your Active Pok\u00e9mon during your opponent's next turn.",
-            "You may discard an Energy card attached to Dark Golduck. If you do, discard an Energy attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Nakaoka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84605%2Fpokemon-team-rocket-returns-dark-golduck",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Golduck-TRR35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-037",
@@ -1388,7 +1388,7 @@
         ],
         "Effects": [
             "Does 10 damage plus 10 more damage for each basic Energy card attached to all of your Active Pok\u00e9mon.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1459,7 +1459,7 @@
             null
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance. ) Then, search your deck for a card that evolves from Dark Pupitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar. ) Shuffle your deck afterward.",
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance.) Then, search your deck for a card that evolves from Dark Pupitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward.",
             "Does 20 damage to each Defending Pok\u00e9mon."
         ],
         "Weakness": "Grass",
@@ -1584,42 +1584,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Heracross-TRR43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TRR-045",
-        "Name": "Mantine",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex7/45_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "70",
-        "Ability": [
-            "Ripples"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pok\u00e9mon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Aqua Slash"
-        ],
-        "Move-Energy": [
-            "WC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "Mantine can't attack during your next turn."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87182%2Fpokemon-team-rocket-returns-mantine",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Mantine-TRR45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TRR-044",
         "Name": "Magmar",
         "Rarity": "Uncommon",
@@ -1654,6 +1618,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87045%2Fpokemon-team-rocket-returns-magmar",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Magmar-TRR44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TRR-045",
+        "Name": "Mantine",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex7/45_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Ripples"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pok\u00e9mon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Aqua Slash"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Mantine can't attack during your next turn."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87182%2Fpokemon-team-rocket-returns-mantine",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Mantine-TRR45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-046",
@@ -1824,7 +1824,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Asleep.",
-            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack. ) (No matter what type that Pok\u00e9mon is, Togepi's type is still [C]. ) Togepi performs that attack."
+            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pok\u00e9mon is, Togepi's type is still [C].) Togepi performs that attack."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1859,7 +1859,7 @@
             "10\u00d7"
         ],
         "Effects": [
-            "Reveal cards from your deck until you reveal a Basic Pok\u00e9mon. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don't reveal a Basic Pok\u00e9mon, shuffle all the revealed cards back into your deck. )",
+            "Reveal cards from your deck until you reveal a Basic Pok\u00e9mon. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don't reveal a Basic Pok\u00e9mon, shuffle all the revealed cards back into your deck.)",
             "Flip 2 coins. This attack does 10 damage times the number of heads."
         ],
         "Weakness": "Grass",
@@ -3014,7 +3014,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex7/86_hires.png",
         "Pack": null,
-        "Description": "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first. )",
+        "Description": "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88767%2Fpokemon-team-rocket-returns-rockets-admin",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Rockets-Admin-TRR86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3082,7 +3082,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex7/90_hires.png",
         "Pack": null,
-        "Description": "Each Pok\u00e9mon with Dark or Rocket's in its name (both yours and your opponent's) can use attacks on this card instead of its own.",
+        "Description": "Each Pok\u00e9mon with Dark or Rocket's in its name (both yours and your opponent's) can use attacks on this card instead of its own.                                        C        Feint Attack              Does 20 damage to 1 of your opponent's Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88798%2Fpokemon-team-rocket-returns-rockets-tricky-gym",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Rockets-Tricky-Gym-TRR90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3110,24 +3110,10 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex7/92_hires.png",
         "Pack": null,
-        "Description": "Search your deck for a Basic Pok\u00e9mon (excluding Pok\u00e9mon-ex) and switch it with 1 of your Basic Pok\u00e9mon (excluding Pok\u00e9mon-ex) in play. (Any cards attached to that Pok\u00e9mon, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) Place the first Basic Pok\u00e9mon in the discard pile. Shuffle your deck afterward.",
+        "Description": "Search your deck for a Basic Pok\u00e9mon (excluding Pok\u00e9mon-ex) and switch it with 1 of your Basic Pok\u00e9mon (excluding Pok\u00e9mon-ex) in play. (Any cards attached to that Pok\u00e9mon, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) Place the first Basic Pok\u00e9mon in the discard pile. Shuffle your deck afterward.",
         "Illustrator": "Katsura Tabata",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89728%2Fpokemon-team-rocket-returns-swoop-teleporter",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Swoop-Teleporter-TRR92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "TRR-094",
-        "Name": "Dark Metal Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex7/94_hires.png",
-        "Pack": null,
-        "Description": "Attach Dark [M] Energy to 1 of your Pok\u00e9mon. While in play, Dark [M] Energy provides [D] Energy and [M] Energy, but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no effect other than providing Energy. )",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84628%2Fpokemon-team-rocket-returns-dark-metal-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Metal-Energy-TRR94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-093",
@@ -3144,6 +3130,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Venture-Bomb-TRR93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "TRR-094",
+        "Name": "Dark Metal Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex7/94_hires.png",
+        "Pack": null,
+        "Description": "Attach Dark [M] Energy to 1 of your Pok\u00e9mon. While in play, Dark [M] Energy provides [D] Energy and [M] Energy, but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no effect other than providing Energy.)",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84628%2Fpokemon-team-rocket-returns-dark-metal-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Dark-Metal-Energy-TRR94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "TRR-095",
         "Name": "R Energy",
         "Card-Type": "Special Energy",
@@ -3152,7 +3152,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex7/95_hires.png",
         "Pack": null,
-        "Description": "R Energy can be attached only to a Pok\u00e9mon that has Dark or Rocket's in its name. While in play, R Energy provides 2 [D] Energy. (Doesn't count as a basic Energy card. ) If the Pok\u00e9mon R Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). When your turn ends, discard R Energy.",
+        "Description": "R Energy can be attached only to a Pok\u00e9mon that has Dark or Rocket's in its name. While in play, R Energy provides 2 [D] Energy. (Doesn't count as a basic Energy card.) If the Pok\u00e9mon R Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). When your turn ends, discard R Energy.",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88496%2Fpokemon-team-rocket-returns-r-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/R-Energy-TRR95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3198,46 +3198,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Rockets-Articuno-ex-TRR96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TRR-098",
-        "Name": "Rocket's Hitmonchan ex",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex7/98_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "100",
-        "Ability": [
-            "Strikes Back"
-        ],
-        "Ability-Effect": [
-            "If Rocket's Hitmonchan ex is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Rocket's Hitmonchan ex is Knocked Out), put 2 damage counters on the Attacking Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Mach Punch",
-            "Magnum Punch"
-        ],
-        "Move-Energy": [
-            "F",
-            "FFC"
-        ],
-        "Move-Damage": [
-            "10",
-            "60"
-        ],
-        "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88774%2Fpokemon-team-rocket-returns-rockets-hitmonchan-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Rockets-Hitmonchan-ex-TRR98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TRR-097",
         "Name": "Rocket's Entei ex",
         "Rarity": "Ultra Rare",
@@ -3266,7 +3226,7 @@
         ],
         "Effects": [
             "Search your discard pile for an Energy card and attach it to Rocket's Entei ex.",
-            "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -3276,6 +3236,46 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88769%2Fpokemon-team-rocket-returns-rockets-entei-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Rockets-Entei-ex-TRR97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TRR-098",
+        "Name": "Rocket's Hitmonchan ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex7/98_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": [
+            "Strikes Back"
+        ],
+        "Ability-Effect": [
+            "If Rocket's Hitmonchan ex is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Rocket's Hitmonchan ex is Knocked Out), put 2 damage counters on the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Mach Punch",
+            "Magnum Punch"
+        ],
+        "Move-Energy": [
+            "F",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "10",
+            "60"
+        ],
+        "Effects": [
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88774%2Fpokemon-team-rocket-returns-rockets-hitmonchan-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Rockets-Hitmonchan-ex-TRR98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-099",
@@ -3304,7 +3304,7 @@
             "70"
         ],
         "Effects": [
-            "Discard an Energy card attached to Rocket's Mewtwo ex, and then switch all damage counters on Rocket's Mewtwo ex with those on the Defending Pok\u00e9mon. (If an effect of this attack is prevented, this attack does nothing. )",
+            "Discard an Energy card attached to Rocket's Mewtwo ex, and then switch all damage counters on Rocket's Mewtwo ex with those on the Defending Pok\u00e9mon. (If an effect of this attack is prevented, this attack does nothing.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep.",
             ""
         ],
@@ -3626,42 +3626,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Mudkip-Gold-Star-TRR107?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "TRR-109",
-        "Name": "Treecko Star",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex7/109_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Spring Back"
-        ],
-        "Move-Energy": [
-            "C",
-            "GG"
-        ],
-        "Move-Damage": [
-            "10",
-            "20+"
-        ],
-        "Effects": [
-            "",
-            "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Water",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90046%2Fpokemon-team-rocket-returns-treecko-star",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Treecko-Gold-Star-TRR109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "TRR-108",
         "Name": "Torchic Star",
         "Rarity": "Ultra Rare",
@@ -3696,6 +3660,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89965%2Fpokemon-team-rocket-returns-torchic-star",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Torchic-Gold-Star-TRR108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "TRR-109",
+        "Name": "Treecko Star",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex7/109_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Spring Back"
+        ],
+        "Move-Energy": [
+            "C",
+            "GG"
+        ],
+        "Move-Damage": [
+            "10",
+            "20+"
+        ],
+        "Effects": [
+            "",
+            "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90046%2Fpokemon-team-rocket-returns-treecko-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Treecko-Gold-Star-TRR109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "TRR-110",
@@ -3742,7 +3742,7 @@
         "Rarity": "Secret Rare",
         "Image": "https://images.pokemontcg.io/ex7/111_hires.png",
         "Pack": null,
-        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game. )",
+        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game.)",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86075%2Fpokemon-team-rocket-returns-here-comes-team-rocket",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Here-Comes-Team-Rocket-TRR111?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"

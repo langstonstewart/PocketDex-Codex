@@ -1,41 +1,5 @@
 [
     {
-        "ID": "MA-002",
-        "Name": "Team Aqua's Crawdaunt",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex4/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water/Darkness",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Aqua Reverse",
-            "Deep Impact"
-        ],
-        "Move-Energy": [
-            "DC",
-            "WWC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40"
-        ],
-        "Effects": [
-            "Before doing damage, you may choose 1 of your opponent's Benched Pok\u00e9mon that has Team Magma in its name and switch it with 1 of the Defending Pok\u00e9mon. Your opponent chooses the Defending Pok\u00e9mon to switch.",
-            "If the Defending Pok\u00e9mon already has any damage counters on it, the Defending Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Nakaoka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89783%2Fpokemon-team-magma-vs-team-aqua-team-aquas-crawdaunt-2-95",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Crawdaunt-MA2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MA-001",
         "Name": "Team Aqua's Cacturne",
         "Rarity": "Holo Rare",
@@ -70,6 +34,42 @@
         "Illustrator": "K. Utsunomiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89775%2Fpokemon-team-magma-vs-team-aqua-team-aquas-cacturne",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Cacturne-MA1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MA-002",
+        "Name": "Team Aqua's Crawdaunt",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex4/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water/Darkness",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aqua Reverse",
+            "Deep Impact"
+        ],
+        "Move-Energy": [
+            "DC",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Before doing damage, you may choose 1 of your opponent's Benched Pok\u00e9mon that has Team Magma in its name and switch it with 1 of the Defending Pok\u00e9mon. Your opponent chooses the Defending Pok\u00e9mon to switch.",
+            "If the Defending Pok\u00e9mon already has any damage counters on it, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Nakaoka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89783%2Fpokemon-team-magma-vs-team-aqua-team-aquas-crawdaunt-2-95",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Crawdaunt-MA2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MA-003",
@@ -136,7 +136,7 @@
             "50"
         ],
         "Effects": [
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's) that has Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's) that has Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -319,7 +319,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
         ],
         "Weakness": "Grass",
@@ -440,6 +440,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magmas-Torkoal-MA12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "MA-013",
+        "Name": "Raichu",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex4/13_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spark",
+            "Kerzap"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If heads, this attack does 40 damage plus 40 more damage to the Defending Pok\u00e9mon and discard all [L] Energy cards attached to Raichu."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88506%2Fpokemon-team-magma-vs-team-aqua-raichu",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Raichu-MA13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "MA-014",
         "Name": "Team Aqua's Crawdaunt",
         "Rarity": "Rare",
@@ -474,42 +510,6 @@
         "Illustrator": "Nakaoka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89784%2Fpokemon-team-magma-vs-team-aqua-team-aquas-crawdaunt-14-95",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Crawdaunt-MA14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MA-013",
-        "Name": "Raichu",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex4/13_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spark",
-            "Kerzap"
-        ],
-        "Move-Energy": [
-            "LC",
-            "LLC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40+"
-        ],
-        "Effects": [
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip a coin. If heads, this attack does 40 damage plus 40 more damage to the Defending Pok\u00e9mon and discard all [L] Energy cards attached to Raichu."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88506%2Fpokemon-team-magma-vs-team-aqua-raichu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Raichu-MA13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MA-015",
@@ -620,42 +620,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Seviper-MA17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MA-019",
-        "Name": "Team Magma's Camerupt",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex4/19_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "80",
-        "Ability": [
-            "Overheat"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Mamga's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Flame Ball"
-        ],
-        "Move-Energy": [
-            "RCC"
-        ],
-        "Move-Damage": [
-            "50"
-        ],
-        "Effects": [
-            "You may move a [R] Energy card attached to Team Magma's Camerupt to 1 of your Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Katsura Tabata",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89824%2Fpokemon-team-magma-vs-team-aqua-team-magmas-camerupt",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magmas-Camerupt-MA19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MA-018",
         "Name": "Team Aqua's Sharpedo",
         "Rarity": "Rare",
@@ -690,6 +654,42 @@
         "Illustrator": "Katsura Tabata",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89800%2Fpokemon-team-magma-vs-team-aqua-team-aquas-sharpedo-18-95",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Sharpedo-MA18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MA-019",
+        "Name": "Team Magma's Camerupt",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex4/19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": [
+            "Overheat"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Mamga's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Flame Ball"
+        ],
+        "Move-Energy": [
+            "RCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "You may move a [R] Energy card attached to Team Magma's Camerupt to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89824%2Fpokemon-team-magma-vs-team-aqua-team-magmas-camerupt",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magmas-Camerupt-MA19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MA-020",
@@ -751,7 +751,7 @@
             "40+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon is Pok\u00e9mon-ex, this attack does 40 damage plus 40 more damage."
         ],
         "Weakness": "Fighting",
@@ -967,7 +967,7 @@
             "10"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, search your discard pile for a [L] Energy card and attach it to Team Aqua's Electrike."
         ],
         "Weakness": "Fighting",
@@ -1184,7 +1184,7 @@
         ],
         "Effects": [
             "Put 2 damage counters on your opponent's Pok\u00e9mon in any way you like.",
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2436,20 +2436,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magmas-Rhyhorn-MA68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MA-070",
-        "Name": "Team Magma Schemer",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex4/70_hires.png",
-        "Pack": null,
-        "Description": "Discard any 1 Pok\u00e9mon from your hand. Then draw 3 cards. If you discarded a Pok\u00e9mon with Team Magma in its name, draw 4 cards instead.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89816%2Fpokemon-team-magma-vs-team-aqua-team-magma-schemer",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magma-Schemer-MA70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MA-069",
         "Name": "Team Aqua Schemer",
         "Card-Type": "Supporter",
@@ -2462,6 +2448,20 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89772%2Fpokemon-team-magma-vs-team-aqua-team-aqua-schemer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aqua-Schemer-MA69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MA-070",
+        "Name": "Team Magma Schemer",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex4/70_hires.png",
+        "Pack": null,
+        "Description": "Discard any 1 Pok\u00e9mon from your hand. Then draw 3 cards. If you discarded a Pok\u00e9mon with Team Magma in its name, draw 4 cards instead.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89816%2Fpokemon-team-magma-vs-team-aqua-team-magma-schemer",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magma-Schemer-MA70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MA-071",
@@ -2542,7 +2542,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/76_hires.png",
         "Pack": null,
-        "Description": "At any time between turns, if the Pok\u00e9mon Team Aqua Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward, then discard Team Aqua Belt.",
+        "Description": "At any time between turns, if the Pok\u00e9mon Team Aqua Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward, then discard Team Aqua Belt.",
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89769%2Fpokemon-team-magma-vs-team-aqua-team-aqua-belt",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aqua-Belt-MA76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2596,7 +2596,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/79_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Aqua in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Aqua Technical Machine 01.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Aqua in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Aqua Technical Machine 01.                                        C        Miracle 10             Choose 1 Special Condition. The Defending Pok\u00e9mon is now affected by that Special Condition.",
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89773%2Fpokemon-team-magma-vs-team-aqua-team-aqua-technical-machine-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Aquas-Technical-Machine-01-MA79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2624,7 +2624,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/81_hires.png",
         "Pack": null,
-        "Description": "At any time between turns, if the Pok\u00e9mon Team Magma Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward, then discard Team Magma Belt.",
+        "Description": "At any time between turns, if the Pok\u00e9mon Team Magma Belt is attached to is your Active Pok\u00e9mon, search your deck for a card that evolves from that Pok\u00e9mon and put it on that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward, then discard Team Magma Belt.",
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89813%2Fpokemon-team-magma-vs-team-aqua-team-magma-belt",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magma-Belt-MA81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2678,7 +2678,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/84_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Magma in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Magma Technical Machine 01.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon that has Team Magma in its name. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Team Magma Technical Machine 01.                                        C        Crushing Magma 10             Choose an Energy card attached to the Defending Pok\u00e9mon and put that card at the bottom of your opponent's deck.",
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89817%2Fpokemon-team-magma-vs-team-aqua-team-magma-technical-machine-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Team-Magmas-Technical-Machine-01-MA84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2698,20 +2698,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Warp-Point-MA85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MA-087",
-        "Name": "Magma Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex4/87_hires.png",
-        "Pack": null,
-        "Description": "Magma Energy can be attached only to a Pok\u00e9mon with Team Magma in its name. Magma Energy provides [F] and /or [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy. ) At the end of your turn, discard Magma Energy.",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87039%2Fpokemon-team-magma-vs-team-aqua-magma-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Magma-Energy-MA87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MA-086",
         "Name": "Aqua Energy",
         "Card-Type": "Special Energy",
@@ -2720,10 +2706,24 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex4/86_hires.png",
         "Pack": null,
-        "Description": "Aqua Energy can be attached only to a Pok\u00e9mon with Team Aqua in its name. Aqua Energy provides [W] and [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy. ) At the end of your turn, discard Aqua Energy.",
+        "Description": "Aqua Energy can be attached only to a Pok\u00e9mon with Team Aqua in its name. Aqua Energy provides [W] and [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy.) At the end of your turn, discard Aqua Energy.",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83565%2Fpokemon-team-magma-vs-team-aqua-aqua-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Aqua-Energy-MA86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MA-087",
+        "Name": "Magma Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex4/87_hires.png",
+        "Pack": null,
+        "Description": "Magma Energy can be attached only to a Pok\u00e9mon with Team Magma in its name. Magma Energy provides [F] and /or [D] Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy.) At the end of your turn, discard Magma Energy.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87039%2Fpokemon-team-magma-vs-team-aqua-magma-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Magma-Energy-MA87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MA-088",
@@ -2734,7 +2734,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex4/88_hires.png",
         "Pack": null,
-        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy. ) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
+        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy.) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84895%2Fpokemon-team-magma-vs-team-aqua-double-rainbow-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Team-Magma-vs-Team-Aqua/Double-Rainbow-Energy-MA88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2764,7 +2764,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pok\u00e9mon is now Burned.",
-            "Discard 2 [R] Energy attached to Blaziken ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 [R] Energy attached to Blaziken ex and then choose 1 of your opponent's Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water/psychic",
         "Resistance": null,
@@ -2951,7 +2951,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. You may move an Energy card attached to that Pok\u00e9mon to another of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. You may move an Energy card attached to that Pok\u00e9mon to another of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may return all basic Energy cards attached to Suicune ex to your hand. If you do, this attack does 50 damage plus 10 more damage for each basic Energy card you returned."
         ],
         "Weakness": "Lightning",
@@ -2988,7 +2988,7 @@
         ],
         "Effects": [
             "Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack's Energy cost. You can't add more than 80 damage in this way.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -3024,7 +3024,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies or any other effects on that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies or any other effects on that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,

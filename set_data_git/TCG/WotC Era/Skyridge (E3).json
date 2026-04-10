@@ -1,41 +1,5 @@
 [
     {
-        "ID": "E3-002",
-        "Name": "Alakazam",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard3/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Psychic",
-        "HP": "100",
-        "Ability": [
-            "Energy Jump"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may move an Energy card from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Alakazam is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Psychic"
-        ],
-        "Move-Energy": [
-            "CCC"
-        ],
-        "Move-Damage": [
-            "30+"
-        ],
-        "Effects": [
-            "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83499%2Fpokemon-skyridge-alakazam-2",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Alakazam-V2-SK2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-001",
         "Name": "Aerodactyl",
         "Rarity": "Rare",
@@ -70,6 +34,42 @@
         "Illustrator": "Toshinao Aoki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83465%2Fpokemon-skyridge-aerodactyl",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Aerodactyl-SK1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-002",
+        "Name": "Alakazam",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard3/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": [
+            "Energy Jump"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may move an Energy card from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Alakazam is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Psychic"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kimiya Masago",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83499%2Fpokemon-skyridge-alakazam-2",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Alakazam-V2-SK2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-003",
@@ -140,7 +140,7 @@
         ],
         "Effects": [
             "If there are any [W] Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Articuno.",
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Pok\u00e9mon in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Pok\u00e9mon in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Fighting",
@@ -260,42 +260,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Dewgong-V2-SK7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-009",
-        "Name": "Forretress",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard3/9_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Metal",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spinning Blow",
-            "Scatterbomb"
-        ],
-        "Move-Energy": [
-            "CC",
-            "MCC"
-        ],
-        "Move-Damage": [
-            "20\u00d7",
-            "40"
-        ],
-        "Effects": [
-            "Flip 2 coins. This attack does 20 damage times the number of heads. If both coins are heads, switch Forretress with 1 of your Benched Pok\u00e9mon.",
-            "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pok\u00e9mon. For each tails, do 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85544%2Fpokemon-skyridge-forretress-9",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Forretress-V2-SK9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-008",
         "Name": "Flareon",
         "Rarity": "Rare",
@@ -334,6 +298,42 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85491%2Fpokemon-skyridge-flareon-8",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Flareon-V2-SK8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-009",
+        "Name": "Forretress",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard3/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spinning Blow",
+            "Scatterbomb"
+        ],
+        "Move-Energy": [
+            "CC",
+            "MCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "40"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 damage times the number of heads. If both coins are heads, switch Forretress with 1 of your Benched Pok\u00e9mon.",
+            "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pok\u00e9mon. For each tails, do 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85544%2Fpokemon-skyridge-forretress-9",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Forretress-V2-SK9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-010",
@@ -432,7 +432,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-            "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pok\u00e9mon minus the number of your Benched Pok\u00e9mon. (For example, if your opponent has 3 Benched Pok\u00e9mon and you have 1, this attack will do 30 damage plus 40 more damage. )"
+            "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pok\u00e9mon minus the number of your Benched Pok\u00e9mon. (For example, if your opponent has 3 Benched Pok\u00e9mon and you have 1, this attack will do 30 damage plus 40 more damage.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -543,7 +543,7 @@
             "50"
         ],
         "Effects": [
-            "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Pok\u00e9-Powers, Pok\u00e9-Bodies, and Trainer cards still happen. )",
+            "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Pok\u00e9-Powers, Pok\u00e9-Bodies, and Trainer cards still happen.)",
             "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": "Fire",
@@ -620,7 +620,7 @@
         ],
         "Effects": [
             "Each player discard the top card of his or her deck. This attack does 20 damage plus 20 more damage for each [R] Energy card discarded in this way.",
-            "Discard a [R] Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pok\u00e9mon, this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard a [R] Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pok\u00e9mon, this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -692,7 +692,7 @@
             "40"
         ],
         "Effects": [
-            "You may discard all [L] Energy cards attached to Magneton when you use this attack. If you do, put damage counters equal to the amount of Energy cards removed in this way on any number of your opponent's Benched Pok\u00e9mon in the way you like. (For example, if you discard 3 [L] Energy cards, you can put 1 damage counter on 1 of your opponent's Benched Pok\u00e9mon and 2 on another. )"
+            "You may discard all [L] Energy cards attached to Magneton when you use this attack. If you do, put damage counters equal to the amount of Energy cards removed in this way on any number of your opponent's Benched Pok\u00e9mon in the way you like. (For example, if you discard 3 [L] Energy cards, you can put 1 damage counter on 1 of your opponent's Benched Pok\u00e9mon and 2 on another.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -728,7 +728,7 @@
         ],
         "Effects": [
             "If Magneton and the Defending Pok\u00e9mon don't have the same number of Energy cards attached to them, the player controlling the Active Pok\u00e9mon with the fewest number of Energy cards attached to it switches 1 of his or her Benched Pok\u00e9mon with his or her Active Pok\u00e9mon.",
-            "This attack does 30 damage plus 10 damage times the number of your Benched Pok\u00e9mon minus the number of your opponent's Benched Pok\u00e9mon. (For example, if your opponent has 1 Benched Pok\u00e9mon and you have 3, this attack will do 30 damage plus 20 more damage. )"
+            "This attack does 30 damage plus 10 damage times the number of your Benched Pok\u00e9mon minus the number of your opponent's Benched Pok\u00e9mon. (For example, if your opponent has 1 Benched Pok\u00e9mon and you have 3, this attack will do 30 damage plus 20 more damage.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -792,7 +792,7 @@
             "Evolution Helper"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pok\u00e9mon and attach it to your Active Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward."
+            "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pok\u00e9mon and attach it to your Active Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward."
         ],
         "Moves": [
             "Double Claw"
@@ -876,7 +876,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, the Defending Pok\u00e9mon is now Asleep.",
-            "For each Benched Pok\u00e9mon (yours and your opponent's), flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "For each Benched Pok\u00e9mon (yours and your opponent's), flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -916,7 +916,7 @@
         "Effects": [
             "Attach any number of basic Energy cards from your hand to Politoed.",
             "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-            "Move 2 [W] Energy cards attached to Politoed to 1 or 2 of your Benched Pok\u00e9mon. (You may put both on the same Pok\u00e9mon or 1 each on 2 different Pok\u00e9mon. ) If you have no Benched Pok\u00e9mon, ignore this effect."
+            "Move 2 [W] Energy cards attached to Politoed to 1 or 2 of your Benched Pok\u00e9mon. (You may put both on the same Pok\u00e9mon or 1 each on 2 different Pok\u00e9mon.) If you have no Benched Pok\u00e9mon, ignore this effect."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -987,7 +987,7 @@
             "50"
         ],
         "Effects": [
-            "This attack does 20 damage to each Pok\u00e9mon with a Pok\u00e9-Body or Pok\u00e9-Power (yours and your opponent's). (Don't apply Weakness or Resistance. )",
+            "This attack does 20 damage to each Pok\u00e9mon with a Pok\u00e9-Body or Pok\u00e9-Power (yours and your opponent's). (Don't apply Weakness or Resistance.)",
             "Flip a coin. If tails, put 2 damage counters on Raichu."
         ],
         "Weakness": "Fighting",
@@ -1012,7 +1012,7 @@
             "Pure Body"
         ],
         "Ability-Effect": [
-            "To attach a [L] Energy card from your hand to Raikou, you must discard an Energy card attached to Raikou. (Attach the [L] Energy, and then discard an Energy card from Raikou. )"
+            "To attach a [L] Energy card from your hand to Raikou, you must discard an Energy card attached to Raikou. (Attach the [L] Energy, and then discard an Energy card from Raikou.)"
         ],
         "Moves": [
             "Lightning Sphere"
@@ -1320,7 +1320,7 @@
         ],
         "Effects": [
             "If there are any [L] Energy card in your discard pile, flip a coin. If heads, attach 1 of them to Electrode.",
-            "This attack does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Electrode does 100 damage to itself."
+            "This attack does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Electrode does 100 damage to itself."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1780,7 +1780,7 @@
         ],
         "Effects": [
             "Search your deck for a Technical Machine or Pok\u00e9mon Tool card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any. (Do the damage before switching the Pok\u00e9mon. )"
+            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any. (Do the damage before switching the Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -1812,7 +1812,7 @@
             "10"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done by attacks to Diglett during your opponent's next turn. (Any other effects of attacks still happen. )"
+            "Flip a coin. If heads, prevent all damage done by attacks to Diglett during your opponent's next turn. (Any other effects of attacks still happen.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -1848,7 +1848,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Ditto doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack. )"
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Ditto doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1883,8 +1883,8 @@
             null
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done by attacks to Dugtrio during your opponent's next turn. (Any other effects of attacks still happen. )",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. Don't apply Weakness or Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Flip a coin. If heads, prevent all damage done by attacks to Dugtrio during your opponent's next turn. (Any other effects of attacks still happen.)",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. Don't apply Weakness or Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -2031,7 +2031,7 @@
             "40\u00d7"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip 2 coins. This attack does 40 damage times the number of heads."
         ],
         "Weakness": "Fire",
@@ -2076,42 +2076,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Gastly-SK57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-059",
-        "Name": "Gligar",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard3/59_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Irongrip",
-            "Sharp Stinger"
-        ],
-        "Move-Energy": [
-            "F",
-            "FC"
-        ],
-        "Move-Damage": [
-            "10",
-            "10"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned. If tails, the Defending Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85763%2Fpokemon-skyridge-gligar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Gligar-SK59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-058",
         "Name": "Girafarig",
         "Rarity": "Common",
@@ -2146,6 +2110,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85727%2Fpokemon-skyridge-girafarig",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Girafarig-SK58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-059",
+        "Name": "Gligar",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard3/59_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Irongrip",
+            "Sharp Stinger"
+        ],
+        "Move-Energy": [
+            "F",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned. If tails, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin-ichi Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85763%2Fpokemon-skyridge-gligar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Gligar-SK59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-060",
@@ -2207,7 +2207,7 @@
             "50"
         ],
         "Effects": [
-            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any. (Do the damage before switching the Pok\u00e9mon. )",
+            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any. (Do the damage before switching the Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Fighting",
@@ -2218,42 +2218,6 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85862%2Fpokemon-skyridge-granbull",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Granbull-SK61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-063",
-        "Name": "Haunter",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard3/63_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Confuse Ray",
-            "Shadow Hand"
-        ],
-        "Move-Energy": [
-            "CC",
-            "PCC"
-        ],
-        "Move-Damage": [
-            "10",
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "You may discard up to 2 cards from your hand. If you do, draw that many cards."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kyoko Umemoto",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86023%2Fpokemon-skyridge-haunter",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Haunter-SK63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-062",
@@ -2292,40 +2256,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Growlithe-SK62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-065",
-        "Name": "Hoothoot",
+        "ID": "E3-063",
+        "Name": "Haunter",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard3/65_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard3/63_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "40",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Hypnosis",
-            "Eerie Light"
+            "Confuse Ray",
+            "Shadow Hand"
         ],
         "Move-Energy": [
-            "C",
-            "C"
+            "CC",
+            "PCC"
         ],
         "Move-Damage": [
-            null,
-            null
+            "10",
+            "30"
         ],
         "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "You may discard up to 2 cards from your hand. If you do, draw that many cards."
         ],
-        "Weakness": "Lightning",
+        "Weakness": "Darkness",
         "Resistance": "Fighting",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hizuki Misono",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86170%2Fpokemon-skyridge-hoothoot",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Hoothoot-SK65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kyoko Umemoto",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86023%2Fpokemon-skyridge-haunter",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Haunter-SK63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-064",
@@ -2362,6 +2326,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86061%2Fpokemon-skyridge-heracross",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Heracross-SK64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-065",
+        "Name": "Hoothoot",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard3/65_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hypnosis",
+            "Eerie Light"
+        ],
+        "Move-Energy": [
+            "C",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hizuki Misono",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86170%2Fpokemon-skyridge-hoothoot",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Hoothoot-SK65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-066",
@@ -2676,7 +2676,7 @@
         ],
         "Effects": [
             "Flip a coin. If tails, this attack does nothing.",
-            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any. (Do the damage before switching the Pok\u00e9mon. )"
+            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any. (Do the damage before switching the Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2923,7 +2923,7 @@
             "10"
         ],
         "Effects": [
-            "Search your deck for a Basic Pok\u00e9mon card named Nidoran \u2640 or Nidoran \u2642 and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full. )",
+            "Search your deck for a Basic Pok\u00e9mon card named Nidoran \u2640 or Nidoran \u2642 and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
             ""
         ],
         "Weakness": "Psychic",
@@ -2934,6 +2934,38 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87714%2Fpokemon-skyridge-nidoran-f-81",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Nidoran-F-SK81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-082",
+        "Name": "Nidoran \u2640",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard3/82_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Sting"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masako Yamashita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87716%2Fpokemon-skyridge-nidoran-f-82",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Nidoran-F-SK82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-083",
@@ -2970,38 +3002,6 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87734%2Fpokemon-skyridge-nidorina",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Nidorina-SK83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-082",
-        "Name": "Nidoran \u2640",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard3/82_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Poison Sting"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masako Yamashita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87716%2Fpokemon-skyridge-nidoran-f-82",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Nidoran-F-SK82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-084",
@@ -3231,7 +3231,7 @@
             "10"
         ],
         "Effects": [
-            "Search your deck for a Baby Pok\u00e9mon or Basic Pok\u00e9mon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full. )",
+            "Search your deck for a Baby Pok\u00e9mon or Basic Pok\u00e9mon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fighting",
@@ -3304,7 +3304,7 @@
         ],
         "Effects": [
             "Flip 2 coins. This attack does 10 damage times the number of heads.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -3339,7 +3339,7 @@
             "20\u00d7"
         ],
         "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, choose up to 2 of them. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If your opponent has any Benched Pok\u00e9mon, choose up to 2 of them. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip 3 coins. This attack does 20 damage times the number of heads. If you get at least 1 heads, the Defending Pok\u00e9mon is now Poisoned."
         ],
         "Weakness": "Grass",
@@ -3350,6 +3350,38 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88931%2Fpokemon-skyridge-sandslash",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Sandslash-SK93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-094",
+        "Name": "Seel",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard3/94_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cold Breath"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89050%2Fpokemon-skyridge-seel-94",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Seel-SK94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-095",
@@ -3386,38 +3418,6 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89051%2Fpokemon-skyridge-seel-95",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Seel-SK95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-094",
-        "Name": "Seel",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard3/94_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Cold Breath"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89050%2Fpokemon-skyridge-seel-94",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Seel-SK94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-096",
@@ -3492,38 +3492,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Skarmory-SK97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-099",
-        "Name": "Slugma",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard3/99_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Singe"
-        ],
-        "Move-Energy": [
-            "RC"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Burned."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89339%2Fpokemon-skyridge-slugma-99",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Slugma-SK99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-098",
         "Name": "Slugma",
         "Rarity": "Common",
@@ -3558,6 +3526,38 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89338%2Fpokemon-skyridge-slugma-98",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Slugma-SK98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-099",
+        "Name": "Slugma",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard3/99_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Singe"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89339%2Fpokemon-skyridge-slugma-99",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Slugma-SK99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-100",
@@ -3656,7 +3656,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
-            "Flip a coin. If heads, this attack does 20 damage to the Defending Pok\u00e9mon (don't apply Weakness or Resistance). If tails and your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 20 damage to the Defending Pok\u00e9mon (don't apply Weakness or Resistance). If tails and your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -3872,7 +3872,7 @@
         ],
         "Effects": [
             "",
-            "If your opponent has any Benched Pok\u00e9mon, flip a coin. If heads, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, flip a coin. If heads, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -4192,7 +4192,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -4268,20 +4268,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Relic-Hunter-SK120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-122",
-        "Name": "Crystal Shard",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/122_hires.png",
-        "Pack": null,
-        "Description": "As long as this card is attached to a Pok\u00e9mon, that Pok\u00e9mon's type (color) is [C]. If that Pok\u00e9mon attacks, discard this card at the end of the turn.",
-        "Illustrator": "Jungo Suzuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84519%2Fpokemon-skyridge-crystal-shard",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Crystal-Shard-SK122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-121",
         "Name": "Apricorn Maker",
         "Card-Type": "Supporter",
@@ -4296,18 +4282,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Apricorn-Maker-SK121?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-124",
-        "Name": "Fast Ball",
-        "Card-Type": "Item",
+        "ID": "E3-122",
+        "Name": "Crystal Shard",
+        "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/124_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard3/122_hires.png",
         "Pack": null,
-        "Description": "Reveal cards from your deck until you reveal an Evolution card. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don't reveal an Evolution card, shuffle all the revealed cards back into your deck. )",
-        "Illustrator": "Katsura Tabata",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85391%2Fpokemon-skyridge-fast-ball",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Fast-Ball-SK124?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "As long as this card is attached to a Pok\u00e9mon, that Pok\u00e9mon's type (color) is [C]. If that Pok\u00e9mon attacks, discard this card at the end of the turn.",
+        "Illustrator": "Jungo Suzuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84519%2Fpokemon-skyridge-crystal-shard",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Crystal-Shard-SK122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-123",
@@ -4322,6 +4308,20 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84782%2Fpokemon-skyridge-desert-shaman",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Desert-Shaman-SK123?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-124",
+        "Name": "Fast Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard3/124_hires.png",
+        "Pack": null,
+        "Description": "Reveal cards from your deck until you reveal an Evolution card. Show that card to your opponent and put it into your hand. Shuffle the other revealed cards into your deck. (If you don't reveal an Evolution card, shuffle all the revealed cards back into your deck.)",
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85391%2Fpokemon-skyridge-fast-ball",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Fast-Ball-SK124?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-125",
@@ -4352,20 +4352,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Friend-Ball-SK126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-128",
-        "Name": "Lure Ball",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/128_hires.png",
-        "Pack": null,
-        "Description": "Flip 3 coins. For each heads, put an Evolution Pok\u00e9mon from your discard pile into your hand.",
-        "Illustrator": "Katsura Tabata",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86931%2Fpokemon-skyridge-lure-ball",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Lure-Ball-SK128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-127",
         "Name": "Hyper Potion",
         "Card-Type": "Item",
@@ -4380,30 +4366,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Hyper-Potion-SK127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-130",
-        "Name": "Miracle Sphere \u03b2",
-        "Card-Type": "Item/Technical Machine",
+        "ID": "E3-128",
+        "Name": "Lure Ball",
+        "Card-Type": "Item",
         "Ability": null,
         "Ability-Effect": null,
-        "Moves": [
-            "Freezing Force"
-        ],
-        "Move-Energy": [
-            "WCC"
-        ],
-        "Move-Damage": [
-            "30+"
-        ],
-        "Effects": [
-            "If the Pok\u00e9mon using this attack has [R] and [W] basic Energy cards attached to it, this attack does 30 damage plus 10 more damage and the Defending Pok\u00e9mon is now Burned. If the Pok\u00e9mon using this attack has [W] and [P] basic Energy cards attached to it, choose an Energy card attached to the Defending Pok\u00e9mon, if any, and your opponent shuffles that card into his or her deck."
-        ],
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/130_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard3/128_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Evolved [R], [W], or [P] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere \u03b2.",
-        "Illustrator": "Hiromichi Sugiyama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87498%2Fpokemon-skyridge-miracle-sphere-beta",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Miracle-Sphere-beta-SK130?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Flip 3 coins. For each heads, put an Evolution Pok\u00e9mon from your discard pile into your hand.",
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86931%2Fpokemon-skyridge-lure-ball",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Lure-Ball-SK128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-129",
@@ -4426,24 +4400,36 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/129_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Evolved [R], [L], or [F] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Miracle Plate \u03b1.",
+        "Description": "Attach this card to 1 of your Evolved [R], [L], or [F] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Miracle Plate \u03b1.                                        RCC        Fire Force 30+             If the Pok\u00e9mon using this attack has [R] and [L] basic Energy cards attached to it, the Defending Pok\u00e9mon is now Confused. If the Pok\u00e9mon using this attack has [R] and [F] basic Energy cards attached to it, this attack does 30 damage plus 10 more damage and remove 3 damage counters from the Pok\u00e9mon that Miracle Plate \u03b1 is attached to.",
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87497%2Fpokemon-skyridge-miracle-sphere-alpha",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Miracle-Sphere-alpha-SK129?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-132",
-        "Name": "Mirage Stadium",
-        "Card-Type": "Stadium",
+        "ID": "E3-130",
+        "Name": "Miracle Sphere \u03b2",
+        "Card-Type": "Item/Technical Machine",
         "Ability": null,
         "Ability-Effect": null,
+        "Moves": [
+            "Freezing Force"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If the Pok\u00e9mon using this attack has [R] and [W] basic Energy cards attached to it, this attack does 30 damage plus 10 more damage and the Defending Pok\u00e9mon is now Burned. If the Pok\u00e9mon using this attack has [W] and [P] basic Energy cards attached to it, choose an Energy card attached to the Defending Pok\u00e9mon, if any, and your opponent shuffles that card into his or her deck."
+        ],
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/132_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard3/130_hires.png",
         "Pack": null,
-        "Description": "Whenever a player tries to retreat a Pok\u00e9mon during his or her turn, that player flips a coin. If heads, that player retreats that Pok\u00e9mon (and discards Energy normally). If tails, that Pok\u00e9mon can't retreat this turn (the player doesn't discard any Energy).",
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87500%2Fpokemon-skyridge-mirage-stadium",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mirage-Stadium-SK132?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Attach this card to 1 of your Evolved [R], [W], or [P] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere \u03b2.                                        WCC        Freezing Force 30+             If the Pok\u00e9mon using this attack has [R] and [W] basic Energy cards attached to it, this attack does 30 damage plus 10 more damage and the Defending Pok\u00e9mon is now Burned. If the Pok\u00e9mon using this attack has [W] and [P] basic Energy cards attached to it, choose an Energy card attached to the Defending Pok\u00e9mon, if any, and your opponent shuffles that card into his or her deck.",
+        "Illustrator": "Hiromichi Sugiyama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87498%2Fpokemon-skyridge-miracle-sphere-beta",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Miracle-Sphere-beta-SK130?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-131",
@@ -4466,10 +4452,24 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/131_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Evolved [G], [W], or [L] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere \u03b3.",
+        "Description": "Attach this card to 1 of your Evolved [G], [W], or [L] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere \u03b3.                                        LCC        Thunder Force 30+             If the Pok\u00e9mon using this attack has [G] and [L] basic Energy cards attached to it, the Defending Pok\u00e9mon is now Asleep and Poisoned. If the Pok\u00e9mon using this attack has [W] and [L] basic Energy cards attached to it, this attack does 30 damage plus 10 more damage and lets you put 1 damage counter on each of your opponent's Benched Pok\u00e9mon.",
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87499%2Fpokemon-skyridge-miracle-sphere-gamma",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Miracle-Sphere-gamma-SK131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-132",
+        "Name": "Mirage Stadium",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard3/132_hires.png",
+        "Pack": null,
+        "Description": "Whenever a player tries to retreat a Pok\u00e9mon during his or her turn, that player flips a coin. If heads, that player retreats that Pok\u00e9mon (and discards Energy normally). If tails, that Pok\u00e9mon can't retreat this turn (the player doesn't discard any Energy).",
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87500%2Fpokemon-skyridge-mirage-stadium",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mirage-Stadium-SK132?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-133",
@@ -4492,7 +4492,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/133_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b1.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b1.                                        C        Desert Burn              If your opponent has 5 or more Prizes, search your deck for a Trainer card, show it to your opponent, and put it into your hand. If your opponent has only 1 Prize, the Defending Pok\u00e9mon is now Burned, Paralyzed, and Poisoned.",
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87670%2Fpokemon-skyridge-mystery-plate-alpha",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mystery-Plate-alpha-SK133?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4518,7 +4518,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/134_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b2.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b2.                                        C        Stone Crush              If your opponent has 5 or more Prizes, draw 3 cards. If your opponent has only 1 Prize, choose 2 Energy cards attached to the Defending Pok\u00e9mon (1 if there is only 1). Your opponent shuffles those cards into his or her deck.",
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87671%2Fpokemon-skyridge-mystery-plate-beta",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mystery-Plate-beta-SK134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4544,7 +4544,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/135_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b3.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b3.                                        C        Retro Cave              If your opponent has 5 or more Prizes, shuffle your hand into your deck and then draw 6 cards. If your opponent has exactly 2 Prizes, choose 1 of your opponent's Evolved Pok\u00e9mon. Your opponent puts the top card on that Evolved Pok\u00e9mon on the bottom of his or her deck. (This counts as devolving that Pok\u00e9mon.)",
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87673%2Fpokemon-skyridge-mystery-plate-gamma",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mystery-Plate-gamma-SK135?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4570,24 +4570,10 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/136_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b4.",
+        "Description": "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate \u03b4.                                        C        Healing Oasis              If your opponent has 5 or more Prizes, search your deck for up to 3 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If your opponent has exactly 2 Prizes, remove all damage counters from 1 of your Pok\u00e9mon.",
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87672%2Fpokemon-skyridge-mystery-plate-delta",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mystery-Plate-delta-SK136?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-138",
-        "Name": "Oracle",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/138_hires.png",
-        "Pack": null,
-        "Description": "Choose 2 cards from your deck and shuffle the rest of your deck. Put the chosen cards on top of your deck in any order.",
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87887%2Fpokemon-skyridge-oracle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Oracle-SK138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-137",
@@ -4604,6 +4590,34 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Mystery-Zone-SK137?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "E3-138",
+        "Name": "Oracle",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard3/138_hires.png",
+        "Pack": null,
+        "Description": "Choose 2 cards from your deck and shuffle the rest of your deck. Put the chosen cards on top of your deck in any order.",
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87887%2Fpokemon-skyridge-oracle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Oracle-SK138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-139",
+        "Name": "Star Piece",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard3/139_hires.png",
+        "Pack": null,
+        "Description": "At any time between turns, if the Pok\u00e9mon this card is attached to is Benched and has 2 or more damage counters on it, search your deck for an Evolution card that Pok\u00e9mon evolves into and put it on top of that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward. Then, discard Star Piece.",
+        "Illustrator": "Jungo Suzuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89507%2Fpokemon-skyridge-star-piece",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Star-Piece-SK139?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E3-140",
         "Name": "Underground Expedition",
         "Card-Type": "Supporter",
@@ -4618,18 +4632,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Underground-Expedition-SK140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-139",
-        "Name": "Star Piece",
-        "Card-Type": "Tool",
+        "ID": "E3-141",
+        "Name": "Underground Lake",
+        "Card-Type": "Stadium",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/139_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard3/141_hires.png",
         "Pack": null,
-        "Description": "At any time between turns, if the Pok\u00e9mon this card is attached to is Benched and has 2 or more damage counters on it, search your deck for an Evolution card that Pok\u00e9mon evolves into and put it on top of that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward. Then, discard Star Piece.",
-        "Illustrator": "Jungo Suzuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89507%2Fpokemon-skyridge-star-piece",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Star-Piece-SK139?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Once during each player's turn, that player may put an Omanyte or a Kabuto card from his or her discard pile onto his or her Bench. (Cards put on the Bench this way are considered Basic Pok\u00e9mon.)",
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90157%2Fpokemon-skyridge-underground-lake",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Underground-Lake-SK141?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-142",
@@ -4644,20 +4658,6 @@
         "Illustrator": "Shin-ichi Yoshikawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83947%2Fpokemon-skyridge-bounce-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Bounce-Energy-SK142?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-141",
-        "Name": "Underground Lake",
-        "Card-Type": "Stadium",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard3/141_hires.png",
-        "Pack": null,
-        "Description": "Once during each player's turn, that player may put an Omanyte or a Kabuto card from his or her discard pile onto his or her Bench. (Cards put on the Bench this way are considered Basic Pok\u00e9mon. )",
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90157%2Fpokemon-skyridge-underground-lake",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Underground-Lake-SK141?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-143",
@@ -4682,7 +4682,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard3/144_hires.png",
         "Pack": null,
-        "Description": "This card provides [C] Energy. When you play this card from your hand and attach it to 1 of your Evolved Pok\u00e9mon, you may remove up to 2 damage counters from that Pok\u00e9mon and discard the top card from it. (This counts as devolving it. )",
+        "Description": "This card provides [C] Energy. When you play this card from your hand and attach it to 1 of your Evolved Pok\u00e9mon, you may remove up to 2 damage counters from that Pok\u00e9mon and discard the top card from it. (This counts as devolving it.)",
         "Illustrator": "Shin-ichi Yoshikawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88718%2Fpokemon-skyridge-retro-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Retro-Energy-SK144?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4836,7 +4836,7 @@
         ],
         "Effects": [
             "",
-            "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pok\u00e9mon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pok\u00e9mon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -5032,7 +5032,7 @@
         ],
         "Effects": [
             "If there are any [W] Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Articuno.",
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Pok\u00e9mon in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Pok\u00e9mon in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Fighting",
@@ -5080,42 +5080,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Beedrill-V1-SKH4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E3-006H",
-        "Name": "Dewgong",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard3/H6_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Freeze Lock",
-            "Crushing Ice"
-        ],
-        "Move-Energy": [
-            "WC",
-            "WWCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to his or her Active Pok\u00e9mon during his or her next turn.",
-            "This attack does 40 damage plus 10 more damage for each [C] Energy in the Defending Pok\u00e9mon's Retreat Cost. Damage is calculated using the Defending Pok\u00e9mon's Retreat Cost after applying effects to the Retreat Cost."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84785%2Fpokemon-skyridge-dewgong-h6",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Dewgong-V1-SKH6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E3-005H",
         "Name": "Crobat",
         "Rarity": "Holo Rare",
@@ -5150,6 +5114,42 @@
         "Illustrator": "Kimiya Masago",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84483%2Fpokemon-skyridge-crobat-h5",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Crobat-V1-SKH5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-006H",
+        "Name": "Dewgong",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard3/H6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Freeze Lock",
+            "Crushing Ice"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WWCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to his or her Active Pok\u00e9mon during his or her next turn.",
+            "This attack does 40 damage plus 10 more damage for each [C] Energy in the Defending Pok\u00e9mon's Retreat Cost. Damage is calculated using the Defending Pok\u00e9mon's Retreat Cost after applying effects to the Retreat Cost."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84785%2Fpokemon-skyridge-dewgong-h6",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Dewgong-V1-SKH6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-007H",
@@ -5216,7 +5216,7 @@
         ],
         "Effects": [
             "Flip 2 coins. This attack does 20 damage times the number of heads. If both coins are heads, switch Forretress with 1 of your Benched Pok\u00e9mon.",
-            "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pok\u00e9mon. For each tails, do 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pok\u00e9mon. For each tails, do 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -5300,6 +5300,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Gyarados-V1-SKH10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "E3-011H",
+        "Name": "Houndoom",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard3/H11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ambush",
+            "Lonely Fang"
+        ],
+        "Move-Energy": [
+            "CC",
+            "DCC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "30+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+            "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pok\u00e9mon minus the number of your Benched Pok\u00e9mon. (For example, if your opponent has 3 Benched Pok\u00e9mon and you have 1, this attack will do 30 damage plus 40 more damage.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kimiya Masago",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86200%2Fpokemon-skyridge-houndoom-h11",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Houndoom-V1-SKH11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E3-012H",
         "Name": "Jolteon",
         "Rarity": "Holo Rare",
@@ -5338,42 +5374,6 @@
         "Illustrator": "Hikaru Koike",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86337%2Fpokemon-skyridge-jolteon-h12",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Jolteon-V1-SKH12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-011H",
-        "Name": "Houndoom",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard3/H11_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ambush",
-            "Lonely Fang"
-        ],
-        "Move-Energy": [
-            "CC",
-            "DCC"
-        ],
-        "Move-Damage": [
-            "10+",
-            "30+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-            "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pok\u00e9mon minus the number of your Benched Pok\u00e9mon. (For example, if your opponent has 3 Benched Pok\u00e9mon and you have 1, this attack will do 30 damage plus 40 more damage. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86200%2Fpokemon-skyridge-houndoom-h11",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Houndoom-V1-SKH11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-013H",
@@ -5435,7 +5435,7 @@
             "50"
         ],
         "Effects": [
-            "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Pok\u00e9-Powers, Pok\u00e9-Bodies, and Trainer cards still happen. )",
+            "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Pok\u00e9-Powers, Pok\u00e9-Bodies, and Trainer cards still happen.)",
             "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": "Fire",
@@ -5512,7 +5512,7 @@
         ],
         "Effects": [
             "Each player discard the top card of his or her deck. This attack does 20 damage plus 20 more damage for each [R] Energy card discarded in this way.",
-            "Discard a [R] Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pok\u00e9mon, this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard a [R] Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pok\u00e9mon, this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -5584,7 +5584,7 @@
             "40"
         ],
         "Effects": [
-            "You may discard all [L] Energy cards attached to Magneton when you use this attack. If you do, put damage counters equal to the amount of Energy cards removed in this way on any number of your opponent's Benched Pok\u00e9mon in the way you like. (For example, if you discard 3 [L] Energy cards, you can put 1 damage counter on 1 of your opponent's Benched Pok\u00e9mon and 2 on another. )"
+            "You may discard all [L] Energy cards attached to Magneton when you use this attack. If you do, put damage counters equal to the amount of Energy cards removed in this way on any number of your opponent's Benched Pok\u00e9mon in the way you like. (For example, if you discard 3 [L] Energy cards, you can put 1 damage counter on 1 of your opponent's Benched Pok\u00e9mon and 2 on another.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5620,7 +5620,7 @@
         ],
         "Effects": [
             "If Magneton and the Defending Pok\u00e9mon don't have the same number of Energy cards attached to them, the player controlling the Active Pok\u00e9mon with the fewest number of Energy cards attached to it switches 1 of his or her Benched Pok\u00e9mon with his or her Active Pok\u00e9mon.",
-            "This attack does 30 damage plus 10 damage times the number of your Benched Pok\u00e9mon minus the number of your opponent's Benched Pok\u00e9mon. (For example, if your opponent has 1 Benched Pok\u00e9mon and you have 3, this attack will do 30 damage plus 20 more damage. )"
+            "This attack does 30 damage plus 10 damage times the number of your Benched Pok\u00e9mon minus the number of your opponent's Benched Pok\u00e9mon. (For example, if your opponent has 1 Benched Pok\u00e9mon and you have 3, this attack will do 30 damage plus 20 more damage.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -5684,7 +5684,7 @@
             "Evolution Helper"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pok\u00e9mon and attach it to your Active Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward."
+            "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pok\u00e9mon and attach it to your Active Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward."
         ],
         "Moves": [
             "Double Claw"
@@ -5706,6 +5706,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87703%2Fpokemon-skyridge-nidoqueen-h21",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Nidoqueen-V1-SKH21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-022H",
+        "Name": "Piloswine",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard3/H22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Freezing Breath",
+            "Trample"
+        ],
+        "Move-Energy": [
+            "WCC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, the Defending Pok\u00e9mon is now Asleep.",
+            "For each Benched Pok\u00e9mon (yours and your opponent's), flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88112%2Fpokemon-skyridge-piloswine-h22",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Piloswine-V1-SKH22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-023H",
@@ -5736,7 +5772,7 @@
         "Effects": [
             "Attach any number of basic Energy cards from your hand to Politoed.",
             "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-            "Move 2 [W] Energy cards attached to Politoed to 1 or 2 of your Benched Pok\u00e9mon. (You may put both on the same Pok\u00e9mon or 1 each on 2 different Pok\u00e9mon. ) If you have no Benched Pok\u00e9mon, ignore this effect."
+            "Move 2 [W] Energy cards attached to Politoed to 1 or 2 of your Benched Pok\u00e9mon. (You may put both on the same Pok\u00e9mon or 1 each on 2 different Pok\u00e9mon.) If you have no Benched Pok\u00e9mon, ignore this effect."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -5746,42 +5782,6 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88247%2Fpokemon-skyridge-politoed-h23",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Politoed-V1-SKH23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-022H",
-        "Name": "Piloswine",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard3/H22_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Freezing Breath",
-            "Trample"
-        ],
-        "Move-Energy": [
-            "WCC",
-            "FCCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, the Defending Pok\u00e9mon is now Asleep.",
-            "For each Benched Pok\u00e9mon (yours and your opponent's), flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88112%2Fpokemon-skyridge-piloswine-h22",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Piloswine-V1-SKH22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-024H",
@@ -5843,7 +5843,7 @@
             "50"
         ],
         "Effects": [
-            "This attack does 20 damage to each Pok\u00e9mon with a Pok\u00e9-Body or Pok\u00e9-Power (yours and your opponent's). (Don't apply Weakness or Resistance. )",
+            "This attack does 20 damage to each Pok\u00e9mon with a Pok\u00e9-Body or Pok\u00e9-Power (yours and your opponent's). (Don't apply Weakness or Resistance.)",
             "Flip a coin. If tails, put 2 damage counters on Raichu."
         ],
         "Weakness": "Fighting",
@@ -5854,6 +5854,42 @@
         "Illustrator": "Yuka Morii",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88502%2Fpokemon-skyridge-raichu-h25",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Raichu-V1-SKH25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E3-026H",
+        "Name": "Raikou",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard3/H26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": [
+            "Pure Body"
+        ],
+        "Ability-Effect": [
+            "To attach a [L] Energy card from your hand to Raikou, you must discard an Energy card attached to Raikou. (Attach the [L] Energy, and then discard an Energy card from Raikou.)"
+        ],
+        "Moves": [
+            "Lightning Sphere"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "You may flip a coin. If heads, discard all [L] Energy cards attached to Raikou. This attack does 40 damage plus 20 more damage for each Energy card discarded in this way."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88531%2Fpokemon-skyridge-raikou-h26",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Raikou-V1-SKH26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-027H",
@@ -5890,42 +5926,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88728%2Fpokemon-skyridge-rhydon-h27",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Rhydon-V1-SKH27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E3-026H",
-        "Name": "Raikou",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard3/H26_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "70",
-        "Ability": [
-            "Pure Body"
-        ],
-        "Ability-Effect": [
-            "To attach a [L] Energy card from your hand to Raikou, you must discard an Energy card attached to Raikou. (Attach the [L] Energy, and then discard an Energy card from Raikou. )"
-        ],
-        "Moves": [
-            "Lightning Sphere"
-        ],
-        "Move-Energy": [
-            "LCC"
-        ],
-        "Move-Damage": [
-            "40+"
-        ],
-        "Effects": [
-            "You may flip a coin. If heads, discard all [L] Energy cards attached to Raikou. This attack does 40 damage plus 20 more damage for each Energy card discarded in this way."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88531%2Fpokemon-skyridge-raikou-h26",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Skyridge/Raikou-V1-SKH26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E3-028H",

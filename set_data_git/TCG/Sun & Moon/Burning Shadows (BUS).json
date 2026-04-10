@@ -1,5 +1,37 @@
 [
     {
+        "ID": "BUS-001",
+        "Name": "Caterpie",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Surprise Attack"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sekio",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138271%2Fsm-burning-shadows-caterpie",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Caterpie-BUS1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-002",
         "Name": "Metapod",
         "Rarity": "Uncommon",
@@ -34,38 +66,6 @@
         "Illustrator": "Suwama Chiaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138272%2Fsm-burning-shadows-metapod",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Metapod-BUS2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-001",
-        "Name": "Caterpie",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_001_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Surprise Attack"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, this attack does nothing."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sekio",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138271%2Fsm-burning-shadows-caterpie",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Caterpie-BUS1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-003",
@@ -240,38 +240,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tangela-BUS7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-009",
-        "Name": "Ledyba",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_009_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Agility"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ayaka Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138279%2Fsm-burning-shadows-ledyba",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ledyba-BUS9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-008",
         "Name": "Tangrowth",
         "Rarity": "Rare",
@@ -308,40 +276,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tangrowth-BUS8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-011",
-        "Name": "Heracross",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_011_R_EN_LG.png",
+        "ID": "BUS-009",
+        "Name": "Ledyba",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_009_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
-        "HP": "110",
-        "Ability": [
-            "Guts"
-        ],
-        "Ability-Effect": [
-            "If this Pok\u00e9mon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pok\u00e9mon is not Knocked Out, and its remaining HP becomes 10."
-        ],
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Pitch"
+            "Agility"
         ],
         "Move-Energy": [
-            "GG"
+            "G"
         ],
         "Move-Damage": [
-            "50"
+            "10"
         ],
         "Effects": [
-            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
         ],
         "Weakness": "Fire",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Shin Nagasawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138281%2Fsm-burning-shadows-heracross",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Heracross-BUS11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Ayaka Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138279%2Fsm-burning-shadows-ledyba",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ledyba-BUS9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-010",
@@ -380,6 +344,74 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ledian-BUS10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-011",
+        "Name": "Heracross",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": [
+            "Guts"
+        ],
+        "Ability-Effect": [
+            "If this Pok\u00e9mon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pok\u00e9mon is not Knocked Out, and its remaining HP becomes 10."
+        ],
+        "Moves": [
+            "Pitch"
+        ],
+        "Move-Energy": [
+            "GG"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138281%2Fsm-burning-shadows-heracross",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Heracross-BUS11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-012",
+        "Name": "Pansage",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_012_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vine Whip"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shigenori Negishi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138282%2Fsm-burning-shadows-pansage",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Pansage-BUS12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-013",
         "Name": "Simisage",
         "Rarity": "Uncommon",
@@ -416,38 +448,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Simisage-BUS13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-012",
-        "Name": "Pansage",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_012_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Vine Whip"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shigenori Negishi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138282%2Fsm-burning-shadows-pansage",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Pansage-BUS12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-014",
         "Name": "Dewpider",
         "Rarity": "Common",
@@ -478,42 +478,6 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138284%2Fsm-burning-shadows-dewpider",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Dewpider-BUS14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-016",
-        "Name": "Wimpod",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_016_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": [
-            "Wimp Out"
-        ],
-        "Ability-Effect": [
-            "During your first turn, this Pok\u00e9mon has no Retreat Cost."
-        ],
-        "Moves": [
-            "Gnaw"
-        ],
-        "Move-Energy": [
-            "GCC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138286%2Fsm-burning-shadows-wimpod",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wimpod-BUS16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-015",
@@ -552,6 +516,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Araquanid-BUS15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-016",
+        "Name": "Wimpod",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_016_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Wimp Out"
+        ],
+        "Ability-Effect": [
+            "During your first turn, this Pok\u00e9mon has no Retreat Cost."
+        ],
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138286%2Fsm-burning-shadows-wimpod",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wimpod-BUS16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-017",
         "Name": "Golisopod-GX",
         "Rarity": "Double Rare",
@@ -580,7 +580,7 @@
         "Effects": [
             "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 90 more damage.",
             "During your opponent's next turn, this Pok\u00e9mon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -728,7 +728,7 @@
         "Effects": [
             "",
             "Discard 3 [R] Energy from this Pok\u00e9mon.",
-            "Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game. )"
+            "Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -766,9 +766,9 @@
             null
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This Pok\u00e9mon can't use Phoenix Burn during your next turn.",
-            "Put 3 in any combination of [R] Pok\u00e9mon-GX or [R] Pok\u00e9mon-EX from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game. )"
+            "Put 3 in any combination of [R] Pok\u00e9mon-GX or [R] Pok\u00e9mon-EX from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -848,46 +848,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Simisear-BUS23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-025",
-        "Name": "Salazzle-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_025_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "200",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Diabolical Claws",
-            "Heat Blast",
-            "Queen's Haze-GX"
-        ],
-        "Move-Energy": [
-            "RR",
-            "RR",
-            "RR"
-        ],
-        "Move-Damage": [
-            "50\u00d7",
-            "110",
-            null
-        ],
-        "Effects": [
-            "This attack does 50 damage for each Prize card you have taken.",
-            "",
-            "Discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138503%2Fsm-burning-shadows-salazzle-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Salazzle-GX-V1-BUS25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-024",
         "Name": "Heatmor",
         "Rarity": "Uncommon",
@@ -924,40 +884,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Heatmor-BUS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-027",
-        "Name": "Alolan Vulpix",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_027_R_EN_LG.png",
+        "ID": "BUS-025",
+        "Name": "Salazzle-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_025_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "200",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Powder Snow",
-            "Icy Snow"
+            "Diabolical Claws",
+            "Heat Blast",
+            "Queen's Haze-GX"
         ],
         "Move-Energy": [
-            "0",
-            "WW"
+            "RR",
+            "RR",
+            "RR"
         ],
         "Move-Damage": [
-            null,
-            "30"
+            "50\u00d7",
+            "110",
+            null
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Asleep.",
-            ""
+            "This attack does 50 damage for each Prize card you have taken.",
+            "",
+            "Discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
-        "Weakness": "Metal",
+        "Weakness": "Water",
         "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "Saya Tsuruta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138507%2Fsm-burning-shadows-alolan-vulpix",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Vulpix-BUS27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138503%2Fsm-burning-shadows-salazzle-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Salazzle-GX-V1-BUS25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-026",
@@ -994,6 +958,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138506%2Fsm-burning-shadows-turtonator",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Turtonator-BUS26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-027",
+        "Name": "Alolan Vulpix",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_027_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Powder Snow",
+            "Icy Snow"
+        ],
+        "Move-Energy": [
+            "0",
+            "WW"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Asleep.",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Saya Tsuruta",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138507%2Fsm-burning-shadows-alolan-vulpix",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Vulpix-BUS27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-028",
@@ -1052,7 +1052,7 @@
             null
         ],
         "Effects": [
-            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1084,7 +1084,7 @@
             null
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1094,6 +1094,42 @@
         "Illustrator": "Suwama Chiaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138510%2Fsm-burning-shadows-seadra",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Seadra-BUS30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-031",
+        "Name": "Kingdra",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_031_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Brine",
+            "Tornado Shot"
+        ],
+        "Move-Energy": [
+            "W",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            "90"
+        ],
+        "Effects": [
+            "This attack does 90 damage to 1 of your opponent's Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Discard a [W] Energy from this Pok\u00e9mon. This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138511%2Fsm-burning-shadows-kingdra",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Kingdra-BUS31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-032",
@@ -1128,42 +1164,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Magikarp-BUS32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-031",
-        "Name": "Kingdra",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_031_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Brine",
-            "Tornado Shot"
-        ],
-        "Move-Energy": [
-            "W",
-            "W"
-        ],
-        "Move-Damage": [
-            null,
-            "90"
-        ],
-        "Effects": [
-            "This attack does 90 damage to 1 of your opponent's Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Discard a [W] Energy from this Pok\u00e9mon. This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138511%2Fsm-burning-shadows-kingdra",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Kingdra-BUS31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-033",
         "Name": "Gyarados",
         "Rarity": "Holo Rare",
@@ -1188,7 +1188,7 @@
         ],
         "Effects": [
             "This attack does 50 damage for each Magikarp in your discard pile.",
-            "This attack does 30 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1340,6 +1340,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Simipour-BUS37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-038",
+        "Name": "Bruxish",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_038_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnash Teeth",
+            "Synchronoise"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused.",
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that shares a type with your opponent's Active Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138518%2Fsm-burning-shadows-bruxish",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Bruxish-BUS38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-039",
         "Name": "Tapu Fini-GX",
         "Rarity": "Double Rare",
@@ -1367,8 +1403,8 @@
         ],
         "Effects": [
             "You may switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
+            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -1378,42 +1414,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138519%2Fsm-burning-shadows-tapu-fini-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tapu-Fini-GX-V1-BUS39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-038",
-        "Name": "Bruxish",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_038_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Gnash Teeth",
-            "Synchronoise"
-        ],
-        "Move-Energy": [
-            "W",
-            "WCC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Confused.",
-            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that shares a type with your opponent's Active Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138518%2Fsm-burning-shadows-bruxish",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Bruxish-BUS38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-039a",
@@ -1443,8 +1443,8 @@
         ],
         "Effects": [
             "You may switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
+            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -1688,7 +1688,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
-            "You may do 80 more damage. If you do, this attack does 80 damage to 1 of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may do 80 more damage. If you do, this attack does 80 damage to 1 of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1698,42 +1698,6 @@
         "Illustrator": "hatachu",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138528%2Fsm-burning-shadows-eelektross",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Eelektross-BUS46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-048",
-        "Name": "Slowking",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_048_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Drift Ashore",
-            "Unarmed"
-        ],
-        "Move-Energy": [
-            "P",
-            "PPP"
-        ],
-        "Move-Damage": [
-            null,
-            "110"
-        ],
-        "Effects": [
-            "Search your deck for a card and put it into your hand. Then, shuffle your deck.",
-            "If you have no cards in your hand, ignore all Energy in this attack's cost."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Eri Yamaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138530%2Fsm-burning-shadows-slowking",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Slowking-BUS48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-047",
@@ -1770,6 +1734,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138529%2Fsm-burning-shadows-togedemaru",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Togedemaru-BUS47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-048",
+        "Name": "Slowking",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_048_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Drift Ashore",
+            "Unarmed"
+        ],
+        "Move-Energy": [
+            "P",
+            "PPP"
+        ],
+        "Move-Damage": [
+            null,
+            "110"
+        ],
+        "Effects": [
+            "Search your deck for a card and put it into your hand. Then, shuffle your deck.",
+            "If you have no cards in your hand, ignore all Energy in this attack's cost."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Eri Yamaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138530%2Fsm-burning-shadows-slowking",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Slowking-BUS48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-049",
@@ -2128,6 +2128,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Scolipede-BUS58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-059",
+        "Name": "Espurr",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_059_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Perplexing Eyes"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon's Weakness is now [P] until the end of your next turn. (The amount of Weakness doesn't change.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138541%2Fsm-burning-shadows-espurr",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Espurr-BUS59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-060",
         "Name": "Meowstic",
         "Rarity": "Rare",
@@ -2162,38 +2194,6 @@
         "Illustrator": "Anesaki Dynamic",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138542%2Fsm-burning-shadows-meowstic",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Meowstic-BUS60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-059",
-        "Name": "Espurr",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_059_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Perplexing Eyes"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon's Weakness is now [P] until the end of your next turn. (The amount of Weakness doesn't change. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138541%2Fsm-burning-shadows-espurr",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Espurr-BUS59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-061",
@@ -2264,46 +2264,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Palossand-BUS62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-064",
-        "Name": "Machamp-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_064_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting",
-        "HP": "250",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Cross-Cut",
-            "Bedrock Breaker",
-            "Muscle Punch-GX"
-        ],
-        "Move-Energy": [
-            "FF",
-            "FFF",
-            "FFF"
-        ],
-        "Move-Damage": [
-            "60+",
-            "130",
-            "180"
-        ],
-        "Effects": [
-            "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 60 more damage.",
-            "Discard any Stadium card in play.",
-            "This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138550%2Fsm-burning-shadows-machamp-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Machamp-GX-V1-BUS64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-063",
         "Name": "Necrozma-GX",
         "Rarity": "Double Rare",
@@ -2332,7 +2292,7 @@
         ],
         "Effects": [
             "Discard all [P] Energy from this Pok\u00e9mon. This attack does 60 more damage for each card you discarded in this way.",
-            "This attack does 100 damage to each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 100 damage to each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2342,6 +2302,82 @@
         "Illustrator": "PLANETA",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138545%2Fsm-burning-shadows-necrozma-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Necrozma-GX-V1-BUS63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-064",
+        "Name": "Machamp-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_064_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "250",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cross-Cut",
+            "Bedrock Breaker",
+            "Muscle Punch-GX"
+        ],
+        "Move-Energy": [
+            "FF",
+            "FFF",
+            "FFF"
+        ],
+        "Move-Damage": [
+            "60+",
+            "130",
+            "180"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 60 more damage.",
+            "Discard any Stadium card in play.",
+            "This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138550%2Fsm-burning-shadows-machamp-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Machamp-GX-V1-BUS64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-065",
+        "Name": "Rhyhorn",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_065_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunge Out",
+            "Horn Drill"
+        ],
+        "Move-Energy": [
+            "CC",
+            "FFC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "miki kudo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138551%2Fsm-burning-shadows-rhyhorn",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Rhyhorn-BUS65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-066",
@@ -2416,42 +2452,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Rhyperior-BUS67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-065",
-        "Name": "Rhyhorn",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_065_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Lunge Out",
-            "Horn Drill"
-        ],
-        "Move-Energy": [
-            "CC",
-            "FFC"
-        ],
-        "Move-Damage": [
-            "20",
-            "60"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "miki kudo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138551%2Fsm-burning-shadows-rhyhorn",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Rhyhorn-BUS65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-068",
         "Name": "Lunatone",
         "Rarity": "Uncommon",
@@ -2524,42 +2524,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Solrock-BUS69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-071",
-        "Name": "Lucario",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_071_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "120",
-        "Ability": [
-            "Stance"
-        ],
-        "Ability-Effect": [
-            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may prevent all effects of your opponent's attacks, including damage, done to this Pok\u00e9mon until the end of your opponent's next turn."
-        ],
-        "Moves": [
-            "Submarine Blow"
-        ],
-        "Move-Energy": [
-            "FFF"
-        ],
-        "Move-Damage": [
-            "120"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "nagimiso",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138557%2Fsm-burning-shadows-lucario",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Lucario-BUS71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-070",
         "Name": "Riolu",
         "Rarity": "Common",
@@ -2594,6 +2558,42 @@
         "Illustrator": "Saya Tsuruta",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138556%2Fsm-burning-shadows-riolu",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Riolu-BUS70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-071",
+        "Name": "Lucario",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_071_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": [
+            "Stance"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may prevent all effects of your opponent's attacks, including damage, done to this Pok\u00e9mon until the end of your opponent's next turn."
+        ],
+        "Moves": [
+            "Submarine Blow"
+        ],
+        "Move-Energy": [
+            "FFF"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138557%2Fsm-burning-shadows-lucario",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Lucario-BUS71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-072",
@@ -2632,6 +2632,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Sawk-BUS72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-073",
+        "Name": "Crabrawler",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_073_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Light Punch"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138559%2Fsm-burning-shadows-crabrawler",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Crabrawler-BUS73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-074",
         "Name": "Crabominable",
         "Rarity": "Rare",
@@ -2666,38 +2698,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138560%2Fsm-burning-shadows-crabominable",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Crabominable-BUS74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-073",
-        "Name": "Crabrawler",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_073_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Light Punch"
-        ],
-        "Move-Energy": [
-            "FF"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kirisAki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138559%2Fsm-burning-shadows-crabrawler",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Crabrawler-BUS73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-075",
@@ -2828,7 +2828,7 @@
         ],
         "Effects": [
             "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon.",
-            "This Pok\u00e9mon does 30 damage to itself. This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This Pok\u00e9mon does 30 damage to itself. This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2888,7 +2888,7 @@
             "Shadow Hunt"
         ],
         "Ability-Effect": [
-            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile. (You still need the necessary Energy to use each attack. )"
+            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [
             "Beatdown",
@@ -2904,7 +2904,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage times the amount of basic Energy attached to this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage times the amount of basic Energy attached to this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2952,6 +2952,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Rattata-BUS81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-082",
+        "Name": "Alolan Raticate",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_082_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Enhanced Fang",
+            "Hyper Fang"
+        ],
+        "Move-Energy": [
+            "0",
+            "D"
+        ],
+        "Move-Damage": [
+            "10+",
+            "60"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has a Pok\u00e9mon Tool card attached to it, this attack does 50 more damage.",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138570%2Fsm-burning-shadows-alolan-raticate",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Raticate-BUS82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-083",
         "Name": "Alolan Grimer",
         "Rarity": "Common",
@@ -2988,40 +3024,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Grimer-BUS83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-082",
-        "Name": "Alolan Raticate",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_082_R_EN_LG.png",
+        "ID": "BUS-084",
+        "Name": "Alolan Muk-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_084_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Darkness",
-        "HP": "120",
+        "HP": "220",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Enhanced Fang",
-            "Hyper Fang"
+            "Chemical Breath",
+            "Crunch",
+            "Tri Hazard-GX"
         ],
         "Move-Energy": [
-            "0",
-            "D"
+            "DCC",
+            "DDCC",
+            "0"
         ],
         "Move-Damage": [
             "10+",
-            "60"
+            "120",
+            null
         ],
         "Effects": [
-            "If this Pok\u00e9mon has a Pok\u00e9mon Tool card attached to it, this attack does 50 more damage.",
-            "Flip a coin. If tails, this attack does nothing."
+            "This attack does 70 more damage for each Special Condition affecting your opponent's Active Pok\u00e9mon.",
+            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. The new Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138570%2Fsm-burning-shadows-alolan-raticate",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Raticate-BUS82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138572%2Fsm-burning-shadows-alolan-muk-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Muk-GX-V1-BUS84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-085",
@@ -3060,46 +3100,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Sneasel-BUS85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-084",
-        "Name": "Alolan Muk-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_084_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "220",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Chemical Breath",
-            "Crunch",
-            "Tri Hazard-GX"
-        ],
-        "Move-Energy": [
-            "DCC",
-            "DDCC",
-            "0"
-        ],
-        "Move-Damage": [
-            "10+",
-            "120",
-            null
-        ],
-        "Effects": [
-            "This attack does 70 more damage for each Special Condition affecting your opponent's Active Pok\u00e9mon.",
-            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
-            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. The new Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "4",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138572%2Fsm-burning-shadows-alolan-muk-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Muk-GX-V1-BUS84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-086",
         "Name": "Weavile",
         "Rarity": "Rare",
@@ -3123,7 +3123,7 @@
             "70"
         ],
         "Effects": [
-            "This attack does 60 damage to each Pok\u00e9mon that has an Ability (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 60 damage to each Pok\u00e9mon that has an Ability (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Fighting",
@@ -3134,46 +3134,6 @@
         "Illustrator": "Satoshi Shirai",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138576%2Fsm-burning-shadows-weavile",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Weavile-BUS86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-088",
-        "Name": "Darkrai-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_088_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "180",
-        "Ability": [
-            "Restoration"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. Then, attach a [D] Energy card from your discard pile to this Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Dark Cleave",
-            "Dead End-GX"
-        ],
-        "Move-Energy": [
-            "DDC",
-            "DDC"
-        ],
-        "Move-Damage": [
-            "130",
-            null
-        ],
-        "Effects": [
-            "This attack's damage isn't affected by Resistance.",
-            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "PLANETA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138578%2Fsm-burning-shadows-darkrai-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-GX-V1-BUS88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-087",
@@ -3212,6 +3172,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-V1-BUS87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-088",
+        "Name": "Darkrai-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_088_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "180",
+        "Ability": [
+            "Restoration"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. Then, attach a [D] Energy card from your discard pile to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Dark Cleave",
+            "Dead End-GX"
+        ],
+        "Move-Energy": [
+            "DDC",
+            "DDC"
+        ],
+        "Move-Damage": [
+            "130",
+            null
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance.",
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138578%2Fsm-burning-shadows-darkrai-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-GX-V1-BUS88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "BUS-088a",
         "Name": "Darkrai-GX",
         "Rarity": null,
@@ -3240,7 +3240,7 @@
         ],
         "Effects": [
             "This attack's damage isn't affected by Resistance.",
-            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -3286,38 +3286,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Inkay-BUS89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-091",
-        "Name": "Ralts",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_091_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Draining Kiss"
-        ],
-        "Move-Energy": [
-            "Y"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Heal 10 damage from this Pok\u00e9mon."
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yumi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138583%2Fsm-burning-shadows-ralts",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ralts-BUS91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-090",
         "Name": "Malamar",
         "Rarity": "Rare",
@@ -3354,38 +3322,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Malamar-BUS90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-092a",
-        "Name": "Kirlia",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_092a_R_EN_LG.png",
+        "ID": "BUS-091",
+        "Name": "Ralts",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_091_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
+        "Stage": "Basic",
         "Type": "Fairy",
-        "HP": "80",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Smack",
-            "Magical Shot"
+            "Draining Kiss"
         ],
         "Move-Energy": [
-            "C",
-            "YC"
+            "Y"
         ],
         "Move-Damage": [
-            "20",
-            "30"
+            "10"
         ],
         "Effects": [
-            "",
-            ""
+            "Heal 10 damage from this Pok\u00e9mon."
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Anesaki Dynamic"
+        "Illustrator": "Yumi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138583%2Fsm-burning-shadows-ralts",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ralts-BUS91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-092",
@@ -3424,6 +3390,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Kirlia-BUS92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "BUS-092a",
+        "Name": "Kirlia",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_092a_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fairy",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smack",
+            "Magical Shot"
+        ],
+        "Move-Energy": [
+            "C",
+            "YC"
+        ],
+        "Move-Damage": [
+            "20",
+            "30"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Anesaki Dynamic"
+    },
+    {
         "ID": "BUS-093",
         "Name": "Gardevoir-GX",
         "Rarity": "Double Rare",
@@ -3452,7 +3452,7 @@
         ],
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to both Active Pok\u00e9mon.",
-            "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -3532,38 +3532,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Cutiefly-BUS95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-097",
-        "Name": "Morelull",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_097_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ram"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hitoshi Ariga",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138591%2Fsm-burning-shadows-morelull",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Morelull-BUS97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-096",
         "Name": "Ribombee",
         "Rarity": "Uncommon",
@@ -3598,6 +3566,38 @@
         "Illustrator": "Megumi Mizutani",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138590%2Fsm-burning-shadows-ribombee",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ribombee-BUS96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-097",
+        "Name": "Morelull",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_097_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138591%2Fsm-burning-shadows-morelull",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Morelull-BUS97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-098",
@@ -3664,7 +3664,7 @@
         "Effects": [
             "Your opponent can't play any Item cards from their hand during their next turn.",
             "Your opponent can't play any Special Energy cards from their hand during their next turn.",
-            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -3888,42 +3888,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Porygon-Z-V1-BUS105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-106",
-        "Name": "Hoothoot",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_106_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "See Through",
-            "Peck"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Your opponent reveals their hand.",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "MAHOU",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138602%2Fsm-burning-shadows-hoothoot",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Hoothoot-BUS106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-105a",
         "Name": "Porygon-Z",
         "Rarity": null,
@@ -3958,6 +3922,42 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F161362%2Falternate-art-promos-porygon-z-105a-147",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Porygon-Z-V2-BUS105a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-106",
+        "Name": "Hoothoot",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_106_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "See Through",
+            "Peck"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Your opponent reveals their hand.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138602%2Fsm-burning-shadows-hoothoot",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Hoothoot-BUS106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-107",
@@ -4186,7 +4186,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_114_R_EN_LG.png",
         "Pack": null,
-        "Description": "Each player switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. (Your opponent switches first. If a player does not have a Benched Pok\u00e9mon, that player doesn't switch Pok\u00e9mon. )",
+        "Description": "Each player switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. (Your opponent switches first. If a player does not have a Benched Pok\u00e9mon, that player doesn't switch Pok\u00e9mon.)",
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138625%2Fsm-burning-shadows-escape-rope",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Escape-Rope-V1-BUS114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4234,20 +4234,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Kiawe-V1-BUS116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-117",
-        "Name": "Lana",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_117_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Heal 50 damage from each of your Pok\u00e9mon that has any [W] Energy attached to it.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138614%2Fsm-burning-shadows-lana",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Lana-BUS117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-116a",
         "Name": "Kiawe",
         "Card-Type": "Supporter",
@@ -4260,6 +4246,20 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F193264%2Fleague-and-championship-cards-kiawe-116a-147",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Kiawe-V3-BUS116a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-117",
+        "Name": "Lana",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_117_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Heal 50 damage from each of your Pok\u00e9mon that has any [W] Energy attached to it.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138614%2Fsm-burning-shadows-lana",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Lana-BUS117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-118",
@@ -4276,20 +4276,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Mount-Lanakila-BUS118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-120",
-        "Name": "Plumeria",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_120_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Discard 2 cards from your hand. If you do, discard an Energy from 1 of your opponent's Pok\u00e9mon.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138617%2Fsm-burning-shadows-plumeria",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Plumeria-V1-BUS120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-119",
         "Name": "Olivia",
         "Card-Type": "Supporter",
@@ -4302,6 +4288,20 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138615%2Fsm-burning-shadows-olivia",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Olivia-BUS119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-120",
+        "Name": "Plumeria",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_120_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard 2 cards from your hand. If you do, discard an Energy from 1 of your opponent's Pok\u00e9mon.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138617%2Fsm-burning-shadows-plumeria",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Plumeria-V1-BUS120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-121",
@@ -4388,20 +4388,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Weakness-Policy-BUS126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-128",
-        "Name": "Wishful Baton",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_128_R_EN_LG.png",
-        "Pack": null,
-        "Description": "If the Pok\u00e9mon this card is attached to is your Active Pok\u00e9mon and is Knocked Out by damage from an opponent's attack, move up to 3 basic Energy cards from that Pok\u00e9mon to 1 of your Benched Pok\u00e9mon.",
-        "Illustrator": "Toyste Beach",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138629%2Fsm-burning-shadows-wishful-baton",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wishful-Baton-BUS128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-127",
         "Name": "Wicke",
         "Card-Type": "Supporter",
@@ -4416,44 +4402,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wicke-V1-BUS127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-130",
-        "Name": "Tapu Bulu-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_130_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "180",
+        "ID": "BUS-128",
+        "Name": "Wishful Baton",
+        "Card-Type": "Tool",
         "Ability": null,
         "Ability-Effect": null,
-        "Moves": [
-            "Horn Attack",
-            "Nature's Judgment",
-            "Tapu Wilderness-GX"
-        ],
-        "Move-Energy": [
-            "G",
-            "GGC",
-            "GGC"
-        ],
-        "Move-Damage": [
-            "30",
-            "120+",
-            "150"
-        ],
-        "Effects": [
-            "",
-            "You may discard all Energy from this Pok\u00e9mon. If you do, this attack does 60 more damage.",
-            "Heal all damage from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138638%2Fsm-burning-shadows-tapu-bulu-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tapu-Bulu-GX-V1-BUS130?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_128_R_EN_LG.png",
+        "Pack": null,
+        "Description": "If the Pok\u00e9mon this card is attached to is your Active Pok\u00e9mon and is Knocked Out by damage from an opponent's attack, move up to 3 basic Energy cards from that Pok\u00e9mon to 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Toyste Beach",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138629%2Fsm-burning-shadows-wishful-baton",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wishful-Baton-BUS128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-129",
@@ -4484,7 +4444,7 @@
         "Effects": [
             "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 90 more damage.",
             "During your opponent's next turn, this Pok\u00e9mon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -4494,6 +4454,86 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138295%2Fsm-burning-shadows-golisopod-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Golisopod-GX-V2-BUS129?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-130",
+        "Name": "Tapu Bulu-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_130_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Horn Attack",
+            "Nature's Judgment",
+            "Tapu Wilderness-GX"
+        ],
+        "Move-Energy": [
+            "G",
+            "GGC",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "30",
+            "120+",
+            "150"
+        ],
+        "Effects": [
+            "",
+            "You may discard all Energy from this Pok\u00e9mon. If you do, this attack does 60 more damage.",
+            "Heal all damage from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138638%2Fsm-burning-shadows-tapu-bulu-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tapu-Bulu-GX-V1-BUS130?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-131",
+        "Name": "Ho-Oh-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_131_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sacred Fire",
+            "Phoenix Burn",
+            "Eternal Flame-GX"
+        ],
+        "Move-Energy": [
+            "RCC",
+            "RRRC",
+            "RCC"
+        ],
+        "Move-Damage": [
+            null,
+            "180",
+            null
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This Pok\u00e9mon can't use Phoenix Burn during your next turn.",
+            "Put 3 in any combination of [R] Pok\u00e9mon-GX or [R] Pok\u00e9mon-EX from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138499%2Fsm-burning-shadows-ho-oh-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ho-Oh-GX-V2-BUS131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-132",
@@ -4524,7 +4564,7 @@
         "Effects": [
             "This attack does 50 damage for each Prize card you have taken.",
             "",
-            "Discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -4534,46 +4574,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138504%2Fsm-burning-shadows-salazzle-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Salazzle-GX-V2-BUS132?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-131",
-        "Name": "Ho-Oh-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_131_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "190",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sacred Fire",
-            "Phoenix Burn",
-            "Eternal Flame-GX"
-        ],
-        "Move-Energy": [
-            "RCC",
-            "RRRC",
-            "RCC"
-        ],
-        "Move-Damage": [
-            null,
-            "180",
-            null
-        ],
-        "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "This Pok\u00e9mon can't use Phoenix Burn during your next turn.",
-            "Put 3 in any combination of [R] Pok\u00e9mon-GX or [R] Pok\u00e9mon-EX from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138499%2Fsm-burning-shadows-ho-oh-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Ho-Oh-GX-V2-BUS131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-133",
@@ -4603,8 +4603,8 @@
         ],
         "Effects": [
             "You may switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
+            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -4644,7 +4644,7 @@
         ],
         "Effects": [
             "Discard all [P] Energy from this Pok\u00e9mon. This attack does 60 more damage for each card you discarded in this way.",
-            "This attack does 100 damage to each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 100 damage to each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4684,7 +4684,7 @@
         "Effects": [
             "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 60 more damage.",
             "Discard any Stadium card in play.",
-            "This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4724,7 +4724,7 @@
         "Effects": [
             "Discard an Energy from your opponent's Active Pok\u00e9mon.",
             "",
-            "Discard 2 Energy from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard 2 Energy from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -4748,7 +4748,7 @@
             "Shadow Hunt"
         ],
         "Ability-Effect": [
-            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile. (You still need the necessary Energy to use each attack. )"
+            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [
             "Beatdown",
@@ -4764,7 +4764,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 50 damage times the amount of basic Energy attached to this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage times the amount of basic Energy attached to this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4774,46 +4774,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138567%2Fsm-burning-shadows-marshadow-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Marshadow-GX-V2-BUS137?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-139",
-        "Name": "Darkrai-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_139_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "180",
-        "Ability": [
-            "Restoration"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. Then, attach a [D] Energy card from your discard pile to this Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Dark Cleave",
-            "Dead End-GX"
-        ],
-        "Move-Energy": [
-            "DDC",
-            "DDC"
-        ],
-        "Move-Damage": [
-            "130",
-            null
-        ],
-        "Effects": [
-            "This attack's damage isn't affected by Resistance.",
-            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138579%2Fsm-burning-shadows-darkrai-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-GX-V2-BUS139?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-138",
@@ -4844,7 +4804,7 @@
         "Effects": [
             "This attack does 70 more damage for each Special Condition affecting your opponent's Active Pok\u00e9mon.",
             "Discard an Energy from your opponent's Active Pok\u00e9mon.",
-            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. The new Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game. )"
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. The new Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -4854,6 +4814,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138573%2Fsm-burning-shadows-alolan-muk-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Muk-GX-V2-BUS138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-139",
+        "Name": "Darkrai-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_139_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "180",
+        "Ability": [
+            "Restoration"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. Then, attach a [D] Energy card from your discard pile to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Dark Cleave",
+            "Dead End-GX"
+        ],
+        "Move-Energy": [
+            "DDC",
+            "DDC"
+        ],
+        "Move-Damage": [
+            "130",
+            null
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance.",
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138579%2Fsm-burning-shadows-darkrai-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-GX-V2-BUS139?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-140",
@@ -4884,7 +4884,7 @@
         ],
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to both Active Pok\u00e9mon.",
-            "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -4924,7 +4924,7 @@
         "Effects": [
             "Your opponent can't play any Item cards from their hand during their next turn.",
             "Your opponent can't play any Special Energy cards from their hand during their next turn.",
-            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -4934,20 +4934,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138594%2Fsm-burning-shadows-noivern-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Noivern-GX-V2-BUS141?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-143",
-        "Name": "Guzma",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_143_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. If you do, switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138610%2Fsm-burning-shadows-guzma-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Guzma-V2-BUS143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-142",
@@ -4962,6 +4948,20 @@
         "Illustrator": "Megumi Mizutani",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138609%2Fsm-burning-shadows-acerola-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Acerola-V2-BUS142?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-143",
+        "Name": "Guzma",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_143_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. If you do, switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138610%2Fsm-burning-shadows-guzma-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Guzma-V2-BUS143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-144",
@@ -4992,20 +4992,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Plumeria-V2-BUS145?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-147",
-        "Name": "Wicke",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_147_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Each player counts the cards in their hand, shuffles those cards into their deck, then draws that many cards.",
-        "Illustrator": "Naoki Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138620%2Fsm-burning-shadows-wicke-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wicke-V2-BUS147?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-146",
         "Name": "Sophocles",
         "Card-Type": "Supporter",
@@ -5018,6 +5004,20 @@
         "Illustrator": "Sanosuke Sakuma",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138619%2Fsm-burning-shadows-sophocles-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Sophocles-V2-BUS146?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-147",
+        "Name": "Wicke",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_147_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player counts the cards in their hand, shuffles those cards into their deck, then draws that many cards.",
+        "Illustrator": "Naoki Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138620%2Fsm-burning-shadows-wicke-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Wicke-V2-BUS147?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-148",
@@ -5048,7 +5048,7 @@
         "Effects": [
             "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 90 more damage.",
             "During your opponent's next turn, this Pok\u00e9mon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -5088,7 +5088,7 @@
         "Effects": [
             "",
             "You may discard all Energy from this Pok\u00e9mon. If you do, this attack does 60 more damage.",
-            "Heal all damage from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Heal all damage from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -5128,7 +5128,7 @@
         "Effects": [
             "",
             "Discard 3 [R] Energy from this Pok\u00e9mon.",
-            "Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game. )"
+            "Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -5168,7 +5168,7 @@
         "Effects": [
             "This attack does 50 damage for each Prize card you have taken.",
             "",
-            "Discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -5178,6 +5178,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138505%2Fsm-burning-shadows-salazzle-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Salazzle-GX-V3-BUS151?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-152",
+        "Name": "Tapu Fini-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_152_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aqua Ring",
+            "Hydro Shot",
+            "Tapu Storm-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "WWC",
+            "W"
+        ],
+        "Move-Damage": [
+            "20",
+            null,
+            null
+        ],
+        "Effects": [
+            "You may switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138521%2Fsm-burning-shadows-tapu-fini-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tapu-Fini-GX-V3-BUS152?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-153",
@@ -5208,7 +5248,7 @@
         ],
         "Effects": [
             "Discard all [P] Energy from this Pok\u00e9mon. This attack does 60 more damage for each card you discarded in this way.",
-            "This attack does 100 damage to each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 100 damage to each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX. This damage isn't affected by Weakness or Resistance. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -5218,46 +5258,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138547%2Fsm-burning-shadows-necrozma-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Necrozma-GX-V3-BUS153?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-152",
-        "Name": "Tapu Fini-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_152_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "170",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Aqua Ring",
-            "Hydro Shot",
-            "Tapu Storm-GX"
-        ],
-        "Move-Energy": [
-            "C",
-            "WWC",
-            "W"
-        ],
-        "Move-Damage": [
-            "20",
-            null,
-            null
-        ],
-        "Effects": [
-            "You may switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
-            "Discard 2 [W] Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Shuffle your opponent's Active Pok\u00e9mon and all cards attached to it into their deck. If your opponent has no Benched Pok\u00e9mon, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138521%2Fsm-burning-shadows-tapu-fini-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Tapu-Fini-GX-V3-BUS152?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-154",
@@ -5288,7 +5288,7 @@
         "Effects": [
             "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 60 more damage.",
             "Discard any Stadium card in play.",
-            "This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by Resistance. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -5298,46 +5298,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138548%2Fsm-burning-shadows-machamp-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Machamp-GX-V3-BUS154?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BUS-156",
-        "Name": "Marshadow-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_156_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "150",
-        "Ability": [
-            "Shadow Hunt"
-        ],
-        "Ability-Effect": [
-            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile. (You still need the necessary Energy to use each attack. )"
-        ],
-        "Moves": [
-            "Beatdown",
-            "Peerless Hundred Blows-GX"
-        ],
-        "Move-Energy": [
-            "FFC",
-            "F"
-        ],
-        "Move-Damage": [
-            "120",
-            "50\u00d7"
-        ],
-        "Effects": [
-            "",
-            "This attack does 50 damage times the amount of basic Energy attached to this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138568%2Fsm-burning-shadows-marshadow-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Marshadow-GX-V3-BUS156?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-155",
@@ -5368,7 +5328,7 @@
         "Effects": [
             "Discard an Energy from your opponent's Active Pok\u00e9mon.",
             "",
-            "Discard 2 Energy from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Discard 2 Energy from this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -5380,44 +5340,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Lycanroc-GX-V2-BUS155?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-158",
-        "Name": "Darkrai-GX",
+        "ID": "BUS-156",
+        "Name": "Marshadow-GX",
         "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_158_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_156_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "180",
+        "Type": "Fighting",
+        "HP": "150",
         "Ability": [
-            "Restoration"
+            "Shadow Hunt"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. Then, attach a [D] Energy card from your discard pile to this Pok\u00e9mon."
+            "This Pok\u00e9mon can use the attacks of any Basic Pok\u00e9mon in your discard pile. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [
-            "Dark Cleave",
-            "Dead End-GX"
+            "Beatdown",
+            "Peerless Hundred Blows-GX"
         ],
         "Move-Energy": [
-            "DDC",
-            "DDC"
+            "FFC",
+            "F"
         ],
         "Move-Damage": [
-            "130",
-            null
+            "120",
+            "50\u00d7"
         ],
         "Effects": [
-            "This attack's damage isn't affected by Resistance.",
-            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "",
+            "This attack does 50 damage times the amount of basic Energy attached to this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "2",
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
         "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138580%2Fsm-burning-shadows-darkrai-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-GX-V3-BUS158?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138568%2Fsm-burning-shadows-marshadow-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Marshadow-GX-V3-BUS156?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-157",
@@ -5448,7 +5408,7 @@
         "Effects": [
             "This attack does 70 more damage for each Special Condition affecting your opponent's Active Pok\u00e9mon.",
             "Discard an Energy from your opponent's Active Pok\u00e9mon.",
-            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. The new Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game. )"
+            "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon. The new Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -5458,6 +5418,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138574%2Fsm-burning-shadows-alolan-muk-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Alolan-Muk-GX-V3-BUS157?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-158",
+        "Name": "Darkrai-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_158_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "180",
+        "Ability": [
+            "Restoration"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if this Pok\u00e9mon is in your discard pile, you may put it onto your Bench. Then, attach a [D] Energy card from your discard pile to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Dark Cleave",
+            "Dead End-GX"
+        ],
+        "Move-Energy": [
+            "DDC",
+            "DDC"
+        ],
+        "Move-Damage": [
+            "130",
+            null
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance.",
+            "If your opponent's Active Pok\u00e9mon is affected by a Special Condition, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138580%2Fsm-burning-shadows-darkrai-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkrai-GX-V3-BUS158?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-159",
@@ -5488,7 +5488,7 @@
         ],
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to both Active Pok\u00e9mon.",
-            "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -5528,7 +5528,7 @@
         "Effects": [
             "Your opponent can't play any Item cards from their hand during their next turn.",
             "Your opponent can't play any Special Energy cards from their hand during their next turn.",
-            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 50 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -5554,20 +5554,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Bodybuilding-Dumbbells-V2-BUS161?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-163",
-        "Name": "Escape Rope",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_163_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Each player switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. (Your opponent switches first. If a player does not have a Benched Pok\u00e9mon, that player doesn't switch Pok\u00e9mon. )",
-        "Illustrator": "Toyste Beach",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138624%2Fsm-burning-shadows-escape-rope-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Escape-Rope-V2-BUS163?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-162",
         "Name": "Choice Band",
         "Card-Type": "Tool",
@@ -5582,18 +5568,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Choice-Band-BUS162?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-165",
-        "Name": "Rescue Stretcher",
+        "ID": "BUS-163",
+        "Name": "Escape Rope",
         "Card-Type": "Item",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_165_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_163_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose 1:\u2022 Put a Pok\u00e9mon from your discard pile into your hand. \u2022 Shuffle 3 Pok\u00e9mon from your discard pile into your deck.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138632%2Fsm-burning-shadows-rescue-stretcher-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Rescue-Stretcher-BUS165?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Each player switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon. (Your opponent switches first. If a player does not have a Benched Pok\u00e9mon, that player doesn't switch Pok\u00e9mon.)",
+        "Illustrator": "Toyste Beach",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138624%2Fsm-burning-shadows-escape-rope-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Escape-Rope-V2-BUS163?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-164",
@@ -5608,6 +5594,20 @@
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138633%2Fsm-burning-shadows-multi-switch-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Multi-Switch-BUS164?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-165",
+        "Name": "Rescue Stretcher",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_165_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Choose 1:\u2022 Put a Pok\u00e9mon from your discard pile into your hand. \u2022 Shuffle 3 Pok\u00e9mon from your discard pile into your deck.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138632%2Fsm-burning-shadows-rescue-stretcher-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Rescue-Stretcher-BUS165?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BUS-166",
@@ -5638,20 +5638,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Fire-Energy-BUS167?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "BUS-169",
-        "Name": "Fairy Energy",
-        "Card-Type": "Basic Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_169_R_EN_LG.png",
-        "Pack": null,
-        "Description": "",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138637%2Fsm-burning-shadows-fairy-energy-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Fairy-Energy-BUS169?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "BUS-168",
         "Name": "Darkness Energy",
         "Card-Type": "Basic Energy",
@@ -5664,5 +5650,19 @@
         "Illustrator": null,
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138636%2Fsm-burning-shadows-darkness-energy-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Darkness-Energy-BUS168?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BUS-169",
+        "Name": "Fairy Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/BUS/BUS_169_R_EN_LG.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138637%2Fsm-burning-shadows-fairy-energy-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Burning-Shadows/Fairy-Energy-BUS169?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

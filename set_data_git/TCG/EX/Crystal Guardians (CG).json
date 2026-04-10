@@ -1,45 +1,5 @@
 [
     {
-        "ID": "CG-002",
-        "Name": "Blastoise",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex14/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting/Metal",
-        "HP": "110",
-        "Ability": [
-            "Shield Veil"
-        ],
-        "Ability-Effect": [
-            "Each of your Active Pok\u00e9mon has no Weakness."
-        ],
-        "Moves": [
-            "Enraged Linear Attack",
-            "Skull Bash"
-        ],
-        "Move-Energy": [
-            "FC",
-            "MCC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each damage counter on Blastoise to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83899%2Fpokemon-crystal-guardians-blastoise-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Blastoise-Delta-Species-CG2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CG-001",
         "Name": "Banette",
         "Rarity": "Holo Rare",
@@ -76,6 +36,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Banette-CG1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CG-002",
+        "Name": "Blastoise",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex14/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting/Metal",
+        "HP": "110",
+        "Ability": [
+            "Shield Veil"
+        ],
+        "Ability-Effect": [
+            "Each of your Active Pok\u00e9mon has no Weakness."
+        ],
+        "Moves": [
+            "Enraged Linear Attack",
+            "Skull Bash"
+        ],
+        "Move-Energy": [
+            "FC",
+            "MCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each damage counter on Blastoise to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83899%2Fpokemon-crystal-guardians-blastoise-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Blastoise-Delta-Species-CG2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CG-003",
         "Name": "Camerupt",
         "Rarity": "Holo Rare",
@@ -103,7 +103,7 @@
             "50"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Water",
@@ -256,7 +256,7 @@
         ],
         "Effects": [
             "Count the number of your opponent's Pok\u00e9mon. Search your deck for up to that number of Basic Pok\u00e9mon and put them onto your Bench. Shuffle your deck afterward.",
-            "If you have a Stadium card in play, remove 1 damage counter from each of your Pok\u00e9mon. If your opponent has a Stadium card in play, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If you have a Stadium card in play, remove 1 damage counter from each of your Pok\u00e9mon. If your opponent has a Stadium card in play, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -292,7 +292,7 @@
         ],
         "Effects": [
             "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any.",
-            "If Manectric has a Pok\u00e9mon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon-ex. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If Manectric has a Pok\u00e9mon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon-ex. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -555,7 +555,7 @@
             "50"
         ],
         "Effects": [
-            "Choose 3 of your opponent's Pok\u00e9mon. This attack does 10 damage to each of those Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 3 of your opponent's Pok\u00e9mon. This attack does 10 damage to each of those Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Fire",
@@ -840,7 +840,7 @@
         ],
         "Effects": [
             "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -876,7 +876,7 @@
         ],
         "Effects": [
             "",
-            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1283,7 +1283,7 @@
             "40+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
         ],
         "Weakness": "Fire",
@@ -1463,7 +1463,7 @@
             "20"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Shuppet and put it onto Shuppet. (This counts as evolving Shuppet. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Shuppet and put it onto Shuppet. (This counts as evolving Shuppet.) Shuffle your deck afterward.",
             ""
         ],
         "Weakness": "Darkness",
@@ -1936,6 +1936,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Jigglypuff-CG53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "CG-054",
+        "Name": "Krabby",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex14/54_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vital Pinchers"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86525%2Fpokemon-crystal-guardians-krabby",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Krabby-CG54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "CG-055",
         "Name": "Lotad",
         "Rarity": "Common",
@@ -1972,36 +2004,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Lotad-CG55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CG-054",
-        "Name": "Krabby",
+        "ID": "CG-056",
+        "Name": "Meditite",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex14/54_hires.png",
+        "Image": "https://images.pokemontcg.io/ex14/56_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Water",
-        "HP": "40",
+        "Type": "Fighting",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Vital Pinchers"
+            "Kick",
+            "Pure Power"
         ],
         "Move-Energy": [
-            "C"
+            "F",
+            "CC"
         ],
         "Move-Damage": [
-            "10+"
+            "10",
+            null
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+            "",
+            "Put 2 damage counters on your opponent's Pok\u00e9mon in any way you like."
         ],
-        "Weakness": "Lightning",
+        "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86525%2Fpokemon-crystal-guardians-krabby",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Krabby-CG54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87282%2Fpokemon-crystal-guardians-meditite",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Meditite-CG56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CG-057",
@@ -2038,42 +2074,6 @@
         "Illustrator": "Hisao Nakamura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87611%2Fpokemon-crystal-guardians-mudkip-057-100",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Mudkip-CG57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CG-056",
-        "Name": "Meditite",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex14/56_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Kick",
-            "Pure Power"
-        ],
-        "Move-Energy": [
-            "F",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            null
-        ],
-        "Effects": [
-            "",
-            "Put 2 damage counters on your opponent's Pok\u00e9mon in any way you like."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87282%2Fpokemon-crystal-guardians-meditite",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Meditite-CG56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CG-058",
@@ -2654,7 +2654,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex14/80_hires.png",
         "Pack": null,
-        "Description": "The Pok\u00e9mon this card is attached to can use any attack from its Basic Pok\u00e9mon card or any Evolution card from which the Pok\u00e9mon evolved. (You still have to pay for that attack's Energy cost. ) Discard this card at the end of any turn the Pok\u00e9mon attacks.",
+        "Description": "The Pok\u00e9mon this card is attached to can use any attack from its Basic Pok\u00e9mon card or any Evolution card from which the Pok\u00e9mon evolved. (You still have to pay for that attack's Energy cost.) Discard this card at the end of any turn the Pok\u00e9mon attacks.",
         "Illustrator": "Shizurow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87308%2Fpokemon-crystal-guardians-memory-berry",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Memory-Berry-CG80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2766,7 +2766,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex14/88_hires.png",
         "Pack": null,
-        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy. ) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
+        "Description": "Double Rainbow Energy can be attached only to an Evolved Pok\u00e9mon (excluding Pok\u00e9mon-ex). While in play, Double Rainbow Energy provides every type of Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy when not in play and has no effect other than providing Energy.) Damage done to your opponent's Pok\u00e9mon by the Pok\u00e9mon Double Rainbow Energy is attached to is reduced by 10 (after applying Weakness and Resistance). When the Pok\u00e9mon Double Rainbow Energy is attached to is no longer an Evolved Pok\u00e9mon, discard Double Rainbow Energy.",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84893%2Fpokemon-crystal-guardians-double-rainbow-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Crystal-Guardians/Double-Rainbow-Energy-CG88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2799,7 +2799,7 @@
             "100"
         ],
         "Effects": [
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack doe 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack doe 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "During your next turn, Aggron ex can't use Mega Burn."
         ],
         "Weakness": "Fire",
@@ -2860,7 +2860,7 @@
             "Constrain"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may use this power. Each player discards cards until that player has 6 cards in his or her hand. (You discard first. ) This power can't be used if Delcatty ex is affected by a Special Condition."
+            "Once during your turn (before your attack), you may use this power. Each player discards cards until that player has 6 cards in his or her hand. (You discard first.) This power can't be used if Delcatty ex is affected by a Special Condition."
         ],
         "Moves": [
             "Upstream",
@@ -3028,7 +3028,7 @@
             null
         ],
         "Effects": [
-            "Discard 2 Energy attached to Kyogre ex. Choose 1 of your opponent's Pok\u00e9mon. This attack does 70 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 Energy attached to Kyogre ex. Choose 1 of your opponent's Pok\u00e9mon. This attack does 70 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -3103,7 +3103,7 @@
             "70"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. If that Pok\u00e9mon already has any damage counters on it, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. If that Pok\u00e9mon already has any damage counters on it, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Grass",
@@ -3140,7 +3140,7 @@
             "60+"
         ],
         "Effects": [
-            "You may discard 2 cards from your hand. If you do, this attack does 60 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may discard 2 cards from your hand. If you do, this attack does 60 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -3176,7 +3176,7 @@
         ],
         "Effects": [
             "Put any 1 card from your discard pile into your hand.",
-            "Discard a Basic Pok\u00e9mon or Evolution card from your hand. Choose 1 of that card's attacks. Skill Copy copies this attack. This attack does nothing if Alakazam Star doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack. ) Alakazam Star performs that attack."
+            "Discard a Basic Pok\u00e9mon or Evolution card from your hand. Choose 1 of that card's attacks. Skill Copy copies this attack. This attack does nothing if Alakazam Star doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Alakazam Star performs that attack."
         ],
         "Weakness": "Psychic",
         "Resistance": null,

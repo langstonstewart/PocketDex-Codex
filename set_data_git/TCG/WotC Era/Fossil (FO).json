@@ -1,41 +1,5 @@
 [
     {
-        "ID": "FO-002",
-        "Name": "Articuno",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base3/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Freeze Dry",
-            "Blizzard"
-        ],
-        "Move-Energy": [
-            "WWW",
-            "WWWW"
-        ],
-        "Move-Damage": [
-            "30",
-            "50"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": null,
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106518%2Fpokemon-fossil-articuno-2",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Articuno-V1-FO2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FO-001",
         "Name": "Aerodactyl",
         "Rarity": "Holo Rare",
@@ -70,6 +34,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44418%2Fpokemon-fossil-aerodactyl-1",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Aerodactyl-V1-FO1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FO-002",
+        "Name": "Articuno",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base3/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Freeze Dry",
+            "Blizzard"
+        ],
+        "Move-Energy": [
+            "WWW",
+            "WWWW"
+        ],
+        "Move-Damage": [
+            "30",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106518%2Fpokemon-fossil-articuno-2",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Articuno-V1-FO2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-003",
@@ -160,7 +160,7 @@
             "30"
         ],
         "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": "Fighting",
@@ -208,6 +208,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Haunter-V1-FO6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FO-007",
+        "Name": "Hitmonlee",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base3/7_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stretch Kick",
+            "High Jump Kick"
+        ],
+        "Move-Energy": [
+            "FF",
+            "FFF"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106523%2Fpokemon-fossil-hitmonlee-7",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Hitmonlee-V1-FO7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FO-008",
         "Name": "Hypno",
         "Rarity": "Holo Rare",
@@ -232,7 +268,7 @@
         ],
         "Effects": [
             "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -242,78 +278,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106524%2Fpokemon-fossil-hypno-8",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Hypno-V1-FO8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FO-007",
-        "Name": "Hitmonlee",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base3/7_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Stretch Kick",
-            "High Jump Kick"
-        ],
-        "Move-Energy": [
-            "FF",
-            "FFF"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106523%2Fpokemon-fossil-hitmonlee-7",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Hitmonlee-V1-FO7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FO-010",
-        "Name": "Lapras",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base3/10_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Water Gun",
-            "Confuse Ray"
-        ],
-        "Move-Energy": [
-            "W",
-            "WW"
-        ],
-        "Move-Damage": [
-            "10+",
-            "10"
-        ],
-        "Effects": [
-            "Does 10 damage plus 10 more damage for each [W] Energy attached to Lapras but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44419%2Fpokemon-fossil-lapras-10",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Lapras-V1-FO10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-009",
@@ -352,6 +316,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Kabutops-V1-FO9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FO-010",
+        "Name": "Lapras",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base3/10_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun",
+            "Confuse Ray"
+        ],
+        "Move-Energy": [
+            "W",
+            "WW"
+        ],
+        "Move-Damage": [
+            "10+",
+            "10"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 more damage for each [W] Energy attached to Lapras but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44419%2Fpokemon-fossil-lapras-10",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Lapras-V1-FO10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FO-011",
         "Name": "Magneton",
         "Rarity": "Holo Rare",
@@ -375,8 +375,8 @@
             "100"
         ],
         "Effects": [
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )",
-            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Magneton does 100 damage to itself."
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Magneton does 100 damage to itself."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -424,38 +424,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Moltres-V1-FO12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FO-014",
-        "Name": "Raichu",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/base3/14_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Gigashock"
-        ],
-        "Move-Energy": [
-            "LLLL"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "Choose 3 of your opponent's Benched Pok\u00e9mon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If your opponent has fewer than 3 Benched Pok\u00e9mon, do the damage to each of them."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44423%2Fpokemon-fossil-raichu-14",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Raichu-V1-FO14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FO-013",
         "Name": "Muk",
         "Rarity": "Holo Rare",
@@ -492,6 +460,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Muk-V1-FO13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FO-014",
+        "Name": "Raichu",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/base3/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gigashock"
+        ],
+        "Move-Energy": [
+            "LLLL"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Choose 3 of your opponent's Benched Pok\u00e9mon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If your opponent has fewer than 3 Benched Pok\u00e9mon, do the damage to each of them."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44423%2Fpokemon-fossil-raichu-14",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Raichu-V1-FO14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FO-015",
         "Name": "Zapdos",
         "Rarity": "Holo Rare",
@@ -512,7 +512,7 @@
             "40"
         ],
         "Effects": [
-            "For each of your opponent's Benched Pok\u00e9mon, flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Then, Zapdos does 10 damage times the number of tails to itself."
+            "For each of your opponent's Benched Pok\u00e9mon, flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Then, Zapdos does 10 damage times the number of tails to itself."
         ],
         "Weakness": null,
         "Resistance": "Fighting",
@@ -584,7 +584,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": "Fighting",
@@ -624,42 +624,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Ditto-V2-FO18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FO-020",
-        "Name": "Gengar",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/base3/20_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": [
-            "Curse"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pok\u00e9mon to another (even if it would Knock Out the other Pok\u00e9mon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Dark Mind"
-        ],
-        "Move-Energy": [
-            "PPP"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": null,
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44428%2Fpokemon-fossil-gengar-20",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Gengar-V2-FO20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FO-019",
         "Name": "Dragonite",
         "Rarity": "Rare",
@@ -694,6 +658,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44427%2Fpokemon-fossil-dragonite-19",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Dragonite-V2-FO19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FO-020",
+        "Name": "Gengar",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/base3/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": [
+            "Curse"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pok\u00e9mon to another (even if it would Knock Out the other Pok\u00e9mon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Dark Mind"
+        ],
+        "Move-Energy": [
+            "PPP"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44428%2Fpokemon-fossil-gengar-20",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Gengar-V2-FO20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-021",
@@ -755,7 +755,7 @@
             "50"
         ],
         "Effects": [
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Psychic",
@@ -792,7 +792,7 @@
         ],
         "Effects": [
             "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -840,42 +840,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Kabutops-V2-FO24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FO-026",
-        "Name": "Magneton",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/base3/26_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sonicboom",
-            "Selfdestruct"
-        ],
-        "Move-Energy": [
-            "LC",
-            "LLLL"
-        ],
-        "Move-Damage": [
-            "20",
-            "100"
-        ],
-        "Effects": [
-            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )",
-            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Magneton does 100 damage to itself."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106528%2Fpokemon-fossil-magneton-26",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Magneton-V2-FO26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FO-025",
         "Name": "Lapras",
         "Rarity": "Rare",
@@ -910,6 +874,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106527%2Fpokemon-fossil-lapras-25",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Lapras-V2-FO25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FO-026",
+        "Name": "Magneton",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/base3/26_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sonicboom",
+            "Selfdestruct"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LLLL"
+        ],
+        "Move-Damage": [
+            "20",
+            "100"
+        ],
+        "Effects": [
+            "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Magneton does 100 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F106528%2Fpokemon-fossil-magneton-26",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Magneton-V2-FO26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-027",
@@ -1004,7 +1004,7 @@
             "30"
         ],
         "Effects": [
-            "Choose 3 of your opponent's Benched Pok\u00e9mon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If your opponent has fewer than 3 Benched Pok\u00e9mon, do the damage to each of them."
+            "Choose 3 of your opponent's Benched Pok\u00e9mon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If your opponent has fewer than 3 Benched Pok\u00e9mon, do the damage to each of them."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1036,7 +1036,7 @@
             "40"
         ],
         "Effects": [
-            "For each of your opponent's Benched Pok\u00e9mon, flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Then, Zapdos does 10 damage times the number of tails to itself."
+            "For each of your opponent's Benched Pok\u00e9mon, flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Then, Zapdos does 10 damage times the number of tails to itself."
         ],
         "Weakness": null,
         "Resistance": "Fighting",
@@ -1071,7 +1071,7 @@
             "20"
         ],
         "Effects": [
-            "Flip a coin. If heads and if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )",
+            "Flip a coin. If heads and if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)",
             "The Defending Pok\u00e9mon is now Poisoned."
         ],
         "Weakness": "Psychic",
@@ -1252,7 +1252,7 @@
         ],
         "Effects": [
             "",
-            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Golem does 100 damage to itself."
+            "Does 20 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Golem does 100 damage to itself."
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1287,7 +1287,7 @@
             "40"
         ],
         "Effects": [
-            "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen. )",
+            "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
             ""
         ],
         "Weakness": "Grass",
@@ -1298,42 +1298,6 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44439%2Fpokemon-fossil-graveler",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Graveler-FO37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FO-039",
-        "Name": "Magmar",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base3/39_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Smokescreen",
-            "Smog"
-        ],
-        "Move-Energy": [
-            "R",
-            "RR"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44441%2Fpokemon-fossil-magmar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Magmar-FO39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-038",
@@ -1370,6 +1334,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44440%2Fpokemon-fossil-kingler",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Kingler-FO38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FO-039",
+        "Name": "Magmar",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base3/39_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smokescreen",
+            "Smog"
+        ],
+        "Move-Energy": [
+            "R",
+            "RR"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44441%2Fpokemon-fossil-magmar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Magmar-FO39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-040",
@@ -1480,42 +1480,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Seadra-FO42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FO-044",
-        "Name": "Tentacruel",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/base3/44_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Supersonic",
-            "Jellyfish Sting"
-        ],
-        "Move-Energy": [
-            "W",
-            "WW"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "The Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44446%2Fpokemon-fossil-tentacruel",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Tentacruel-FO44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FO-043",
         "Name": "Slowbro",
         "Rarity": "Uncommon",
@@ -1552,6 +1516,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Slowbro-FO43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FO-044",
+        "Name": "Tentacruel",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/base3/44_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Supersonic",
+            "Jellyfish Sting"
+        ],
+        "Move-Energy": [
+            "W",
+            "WW"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "The Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44446%2Fpokemon-fossil-tentacruel",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Tentacruel-FO44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FO-045",
         "Name": "Weezing",
         "Rarity": "Uncommon",
@@ -1576,7 +1576,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned.",
-            "Does 10 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Weezing does 60 damage to itself."
+            "Does 10 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Weezing does 60 damage to itself."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1586,38 +1586,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44447%2Fpokemon-fossil-weezing",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Weezing-FO45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FO-047",
-        "Name": "Geodude",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base3/47_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Stone Barrage"
-        ],
-        "Move-Energy": [
-            "FC"
-        ],
-        "Move-Damage": [
-            "10\u00d7"
-        ],
-        "Effects": [
-            "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44449%2Fpokemon-fossil-geodude",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Geodude-FO47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-046",
@@ -1654,6 +1622,38 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44448%2Fpokemon-fossil-ekans",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Ekans-FO46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FO-047",
+        "Name": "Geodude",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base3/47_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stone Barrage"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44449%2Fpokemon-fossil-geodude",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Geodude-FO47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FO-048",
@@ -1736,7 +1736,7 @@
             "Kabuto Armor"
         ],
         "Ability-Effect": [
-            "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen. ) This power stops working while Kabuto is Asleep, Confused, or Paralyzed."
+            "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is Asleep, Confused, or Paralyzed."
         ],
         "Moves": [
             "Scratch"
@@ -1783,7 +1783,7 @@
             "20"
         ],
         "Effects": [
-            "Search your deck for a Basic Pok\u00e9mon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full. )",
+            "Search your deck for a Basic Pok\u00e9mon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -1868,6 +1868,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Psyduck-FO53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FO-054",
+        "Name": "Shellder",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/base3/54_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Supersonic",
+            "Hide in Shell"
+        ],
+        "Move-Energy": [
+            "W",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44456%2Fpokemon-fossil-shellder",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Shellder-FO54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FO-055",
         "Name": "Slowpoke",
         "Rarity": "Common",
@@ -1904,42 +1940,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Slowpoke-FO55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FO-054",
-        "Name": "Shellder",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/base3/54_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Supersonic",
-            "Hide in Shell"
-        ],
-        "Move-Energy": [
-            "W",
-            "W"
-        ],
-        "Move-Damage": [
-            null,
-            null
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44456%2Fpokemon-fossil-shellder",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Shellder-FO54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FO-056",
         "Name": "Tentacool",
         "Rarity": "Common",
@@ -1952,7 +1952,7 @@
             "Cowardice"
         ],
         "Ability-Effect": [
-            "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool. ) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed."
+            "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed."
         ],
         "Moves": [
             "Acid"
@@ -2077,7 +2077,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/base3/62_hires.png",
         "Pack": null,
-        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
+        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F44464%2Fpokemon-fossil-mysterious-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Fossil/Mysterious-Fossil-FO62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"

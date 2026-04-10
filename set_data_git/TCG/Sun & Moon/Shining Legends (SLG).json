@@ -268,7 +268,7 @@
         ],
         "Effects": [
             "You may attach a basic Energy card from your hand to this Pok\u00e9mon.",
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -344,7 +344,7 @@
         "Effects": [
             "",
             "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -384,7 +384,7 @@
         "Effects": [
             "",
             "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -536,6 +536,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Reshiram-SLG14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SLG-015",
+        "Name": "Litten",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Live Coal"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146668%2Fshining-legends-litten",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Litten-SLG15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SLG-016",
         "Name": "Torracat",
         "Rarity": "Common",
@@ -570,38 +602,6 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146669%2Fshining-legends-torracat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Torracat-SLG16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SLG-015",
-        "Name": "Litten",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_015_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Live Coal"
-        ],
-        "Move-Energy": [
-            "R"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146668%2Fshining-legends-litten",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Litten-SLG15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-017",
@@ -676,42 +676,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Totodile-SLG18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SLG-020",
-        "Name": "Feraligatr",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_020_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "160",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Crunch",
-            "Hydro Splash"
-        ],
-        "Move-Energy": [
-            "WCC",
-            "WCCC"
-        ],
-        "Move-Damage": [
-            "80",
-            "130"
-        ],
-        "Effects": [
-            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "nagimiso",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146673%2Fshining-legends-feraligatr",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Feraligatr-SLG20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SLG-019",
         "Name": "Croconaw",
         "Rarity": "Common",
@@ -746,6 +710,42 @@
         "Illustrator": "Naoki Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146672%2Fshining-legends-croconaw",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Croconaw-SLG19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SLG-020",
+        "Name": "Feraligatr",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_020_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crunch",
+            "Hydro Splash"
+        ],
+        "Move-Energy": [
+            "WCC",
+            "WCCC"
+        ],
+        "Move-Damage": [
+            "80",
+            "130"
+        ],
+        "Effects": [
+            "Discard an Energy from your opponent's Active Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "nagimiso",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146673%2Fshining-legends-feraligatr",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Feraligatr-SLG20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-021",
@@ -987,7 +987,7 @@
             "50\u00d7"
         ],
         "Effects": [
-            "This attack does 50 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip 4 coins. This attack does 50 damage for each heads."
         ],
         "Weakness": "Lightning",
@@ -1060,7 +1060,7 @@
         "Effects": [
             "This attack does 20 more damage times the amount of [L] Energy attached to your Pok\u00e9mon.",
             "This Pok\u00e9mon does 30 damage to itself.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1104,6 +1104,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Voltorb-SLG30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SLG-031",
+        "Name": "Electrode",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_031_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Swift"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146684%2Fshining-legends-electrode",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Electrode-SLG31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SLG-032",
         "Name": "Raikou",
         "Rarity": "Holo Rare",
@@ -1138,38 +1170,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146688%2Fshining-legends-raikou",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Raikou-SLG32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SLG-031",
-        "Name": "Electrode",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_031_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Swift"
-        ],
-        "Move-Energy": [
-            "L"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kyoko Umemoto",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146684%2Fshining-legends-electrode",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Electrode-SLG31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-033",
@@ -1228,7 +1228,7 @@
         ],
         "Effects": [
             "Draw a card.",
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1408,7 +1408,7 @@
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
             "Heal 30 damage from this Pok\u00e9mon.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1479,7 +1479,7 @@
             "70"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Psychic",
@@ -1700,42 +1700,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Spiritomb-SLG47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SLG-049",
-        "Name": "Liepard",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_049_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Torment",
-            "Slash"
-        ],
-        "Move-Energy": [
-            "D",
-            "DC"
-        ],
-        "Move-Damage": [
-            "30",
-            "60"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Active Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kawayoo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146711%2Fshining-legends-liepard",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Liepard-SLG49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SLG-048",
         "Name": "Purrloin",
         "Rarity": "Common",
@@ -1770,6 +1734,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146710%2Fshining-legends-purrloin",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Purrloin-SLG48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SLG-049",
+        "Name": "Liepard",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_049_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Torment",
+            "Slash"
+        ],
+        "Move-Energy": [
+            "D",
+            "DC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Active Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146711%2Fshining-legends-liepard",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Liepard-SLG49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-050",
@@ -1908,7 +1908,7 @@
         ],
         "Effects": [
             "This attack does 20 damage for each of your Pok\u00e9mon in play.",
-            "Choose 1 of your opponent's Pok\u00e9mon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game. )"
+            "Choose 1 of your opponent's Pok\u00e9mon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -1956,42 +1956,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Yveltal-SLG54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SLG-056",
-        "Name": "Shining Rayquaza",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_056_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Dragon",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Dragon Pulse",
-            "Sky Judgment"
-        ],
-        "Move-Energy": [
-            "L",
-            "RLLC"
-        ],
-        "Move-Damage": [
-            "40",
-            "190"
-        ],
-        "Effects": [
-            "Discard the top 2 cards of your deck.",
-            "Discard 3 Energy from this Pok\u00e9mon."
-        ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoki Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146719%2Fshining-legends-shining-rayquaza",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Shining-Rayquaza-SLG56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SLG-055",
         "Name": "Hoopa",
         "Rarity": "Holo Rare",
@@ -2028,6 +1992,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Hoopa-SLG55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SLG-056",
+        "Name": "Shining Rayquaza",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_056_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dragon Pulse",
+            "Sky Judgment"
+        ],
+        "Move-Energy": [
+            "L",
+            "RLLC"
+        ],
+        "Move-Damage": [
+            "40",
+            "190"
+        ],
+        "Effects": [
+            "Discard the top 2 cards of your deck.",
+            "Discard 3 Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoki Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146719%2Fshining-legends-shining-rayquaza",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Shining-Rayquaza-SLG56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SLG-057",
         "Name": "Shining Arceus",
         "Rarity": "Holo Rare",
@@ -2052,7 +2052,7 @@
             null
         ],
         "Effects": [
-            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -2062,20 +2062,6 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146720%2Fshining-legends-shining-arceus",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Shining-Arceus-SLG57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SLG-059",
-        "Name": "Energy Retrieval",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_059_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Put up to 2 Basic Energy cards from your discard pile into your hand.",
-        "Illustrator": "Toyste Beach",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146722%2Fshining-legends-energy-retrieval",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Energy-Retrieval-SLG59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-058",
@@ -2090,6 +2076,20 @@
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146721%2Fshining-legends-damage-mover",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Damage-Mover-SLG58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SLG-059",
+        "Name": "Energy Retrieval",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_059_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Put up to 2 Basic Energy cards from your discard pile into your hand.",
+        "Illustrator": "Toyste Beach",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146722%2Fshining-legends-energy-retrieval",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Energy-Retrieval-SLG59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-060",
@@ -2218,6 +2218,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Ultra-Ball-V1-SLG68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SLG-068a",
+        "Name": "Ultra Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_068a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F185721%2Fleague-and-championship-cards-ultra-ball-68a-73-league-promo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Ultra-Ball-V2-SLG68a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SLG-069",
         "Name": "Double Colorless Energy",
         "Card-Type": "Special Energy",
@@ -2244,60 +2258,6 @@
         "Illustrator": null,
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146734%2Fshining-legends-warp-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Warp-Energy-SLG70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SLG-068a",
-        "Name": "Ultra Ball",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_068a_R_EN_LG.png",
-        "Pack": null,
-        "Description": "You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F185721%2Fleague-and-championship-cards-ultra-ball-68a-73-league-promo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Ultra-Ball-V2-SLG68a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SLG-072",
-        "Name": "Mewtwo-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_072_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "190",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Full Burst",
-            "Super Absorption",
-            "Psystrike-GX"
-        ],
-        "Move-Energy": [
-            "P",
-            "PC",
-            "PPP"
-        ],
-        "Move-Damage": [
-            "30\u00d7",
-            "60",
-            "200"
-        ],
-        "Effects": [
-            "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
-            "Heal 30 damage from this Pok\u00e9mon.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146696%2Fshining-legends-mewtwo-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Mewtwo-GX-V2-SLG72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-071",
@@ -2328,7 +2288,7 @@
         "Effects": [
             "",
             "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2338,6 +2298,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146736%2Fshining-legends-entei-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Entei-GX-V2-SLG71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SLG-072",
+        "Name": "Mewtwo-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/SLG/SLG_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Full Burst",
+            "Super Absorption",
+            "Psystrike-GX"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC",
+            "PPP"
+        ],
+        "Move-Damage": [
+            "30\u00d7",
+            "60",
+            "200"
+        ],
+        "Effects": [
+            "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F146696%2Fshining-legends-mewtwo-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Shining-Legends/Mewtwo-GX-V2-SLG72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SLG-073",
@@ -2382,7 +2382,7 @@
         "Effects": [
             "",
             "Your opponent's Active Pok\u00e9mon is now Burned.",
-            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 150 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2422,7 +2422,7 @@
         "Effects": [
             "This attack does 20 more damage times the amount of [L] Energy attached to your Pok\u00e9mon.",
             "This Pok\u00e9mon does 30 damage to itself.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -2462,7 +2462,7 @@
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
             "Heal 30 damage from this Pok\u00e9mon.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2502,7 +2502,7 @@
         ],
         "Effects": [
             "This attack does 20 damage for each of your Pok\u00e9mon in play.",
-            "Choose 1 of your opponent's Pok\u00e9mon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game. )"
+            "Choose 1 of your opponent's Pok\u00e9mon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -2542,7 +2542,7 @@
         ],
         "Effects": [
             "This attack does 20 damage for each of your Pok\u00e9mon in play.",
-            "Choose 1 of your opponent's Pok\u00e9mon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game. )"
+            "Choose 1 of your opponent's Pok\u00e9mon's attacks and use it as this attack. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -2582,7 +2582,7 @@
         "Effects": [
             "This attack does 30 damage times the amount of Energy attached to this Pok\u00e9mon.",
             "Heal 30 damage from this Pok\u00e9mon.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,

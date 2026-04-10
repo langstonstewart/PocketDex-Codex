@@ -36,6 +36,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Venusaur-EX-XY1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "XY-002",
+        "Name": "M Venusaur-EX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Mega Evolution",
+        "Type": "Grass",
+        "HP": "230",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crisis Vine"
+        ],
+        "Move-Energy": [
+            "GGGC"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86955%2Fxy-base-set-m-venusaur-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/MVenusaur-EX-XY2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "XY-003",
         "Name": "Weedle",
         "Rarity": "Common",
@@ -68,36 +100,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Weedle-XY3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-002",
-        "Name": "M Venusaur-EX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_002_R_EN_LG.png",
+        "ID": "XY-004",
+        "Name": "Kakuna",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_004_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Mega Evolution",
+        "Stage": "Stage 1",
         "Type": "Grass",
-        "HP": "230",
+        "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Crisis Vine"
+            "Harden"
         ],
         "Move-Energy": [
-            "GGGC"
+            "G"
         ],
         "Move-Damage": [
-            "120"
+            null
         ],
         "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned."
+            "During your opponent's next turn, if this Pok\u00e9mon would be damaged by an attack, prevent that attack's damage done to this Pok\u00e9mon if that damage is 60 or less."
         ],
         "Weakness": "Fire",
         "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86955%2Fxy-base-set-m-venusaur-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/MVenusaur-EX-XY2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86417%2Fxy-base-set-kakuna",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Kakuna-XY4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-005",
@@ -136,74 +168,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Beedrill-XY5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-004",
-        "Name": "Kakuna",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_004_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Harden"
-        ],
-        "Move-Energy": [
-            "G"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "During your opponent's next turn, if this Pok\u00e9mon would be damaged by an attack, prevent that attack's damage done to this Pok\u00e9mon if that damage is 60 or less."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86417%2Fxy-base-set-kakuna",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Kakuna-XY4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "XY-007",
-        "Name": "Ledian",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_007_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Mach Punch"
-        ],
-        "Move-Energy": [
-            "C",
-            "GG"
-        ],
-        "Move-Damage": [
-            "30",
-            "50"
-        ],
-        "Effects": [
-            "",
-            "This attack does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hitoshi Ariga",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86696%2Fxy-base-set-ledian",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Ledian-XY7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-006",
         "Name": "Ledyba",
         "Rarity": "Common",
@@ -234,6 +198,42 @@
         "Illustrator": "Mizue",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86706%2Fxy-base-set-ledyba",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Ledyba-XY6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-007",
+        "Name": "Ledian",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Mach Punch"
+        ],
+        "Move-Energy": [
+            "C",
+            "GG"
+        ],
+        "Move-Damage": [
+            "30",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "This attack does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86696%2Fxy-base-set-ledian",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Ledian-XY7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-008",
@@ -412,42 +412,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Chespin-XY12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-014",
-        "Name": "Chesnaught",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_014_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "160",
-        "Ability": [
-            "Spiky Shield"
-        ],
-        "Ability-Effect": [
-            "If this Pok\u00e9mon is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if this Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Touchdown"
-        ],
-        "Move-Energy": [
-            "GGCC"
-        ],
-        "Move-Damage": [
-            "90"
-        ],
-        "Effects": [
-            "Heal 20 damage from this Pok\u00e9mon."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84267%2Fxy-base-set-chesnaught",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Chesnaught-XY14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-013",
         "Name": "Quilladin",
         "Rarity": "Uncommon",
@@ -482,6 +446,42 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88489%2Fxy-base-set-quilladin",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Quilladin-XY13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-014",
+        "Name": "Chesnaught",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_014_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "160",
+        "Ability": [
+            "Spiky Shield"
+        ],
+        "Ability-Effect": [
+            "If this Pok\u00e9mon is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if this Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Touchdown"
+        ],
+        "Move-Energy": [
+            "GGCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84267%2Fxy-base-set-chesnaught",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Chesnaught-XY14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-015",
@@ -764,38 +764,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Pansear-XY22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-024",
-        "Name": "Fennekin",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_024_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Will-O-Wisp"
-        ],
-        "Move-Energy": [
-            "R"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85409%2Fxy-base-set-fennekin",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fennekin-XY24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-023",
         "Name": "Simisear",
         "Rarity": "Rare",
@@ -830,6 +798,38 @@
         "Illustrator": "sui",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89230%2Fxy-base-set-simisear",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Simisear-XY23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-024",
+        "Name": "Fennekin",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_024_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Will-O-Wisp"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85409%2Fxy-base-set-fennekin",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fennekin-XY24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-025",
@@ -904,42 +904,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Delphox-XY26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-028",
-        "Name": "Talonflame",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_028_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fire",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Devastating Wind",
-            "Flare Blitz"
-        ],
-        "Move-Energy": [
-            "C",
-            "RR"
-        ],
-        "Move-Damage": [
-            null,
-            "100"
-        ],
-        "Effects": [
-            "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
-            "Discard all [R] Energy attached to this Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89739%2Fxy-base-set-talonflame",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Talonflame-XY28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-027",
         "Name": "Fletchinder",
         "Rarity": "Uncommon",
@@ -974,6 +938,42 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85506%2Fxy-base-set-fletchinder",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fletchinder-XY27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-028",
+        "Name": "Talonflame",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_028_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Devastating Wind",
+            "Flare Blitz"
+        ],
+        "Move-Energy": [
+            "C",
+            "RR"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
+            "Discard all [R] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89739%2Fxy-base-set-talonflame",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Talonflame-XY28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-029",
@@ -1032,7 +1032,7 @@
             "120"
         ],
         "Effects": [
-            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1288,38 +1288,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Panpour-XY37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-039",
-        "Name": "Froakie",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_039_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bounce"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85567%2Fxy-base-set-froakie",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Froakie-XY39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-038",
         "Name": "Simipour",
         "Rarity": "Rare",
@@ -1354,6 +1322,38 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89220%2Fxy-base-set-simipour",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Simipour-XY38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-039",
+        "Name": "Froakie",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_039_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bounce"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85567%2Fxy-base-set-froakie",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Froakie-XY39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-040",
@@ -1740,38 +1740,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Grumpig-XY50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-052",
-        "Name": "Whirlipede",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_052_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Continuous Tumble"
-        ],
-        "Move-Energy": [
-            "PC"
-        ],
-        "Move-Damage": [
-            "30\u00d7"
-        ],
-        "Effects": [
-            "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90573%2Fxy-base-set-whirlipede",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Whirlipede-XY52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-051",
         "Name": "Venipede",
         "Rarity": "Common",
@@ -1804,40 +1772,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Venipede-XY51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-054",
-        "Name": "Phantump",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_054_R_EN_LG.png",
+        "ID": "XY-052",
+        "Name": "Whirlipede",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_052_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
+        "Stage": "Stage 1",
         "Type": "Psychic",
-        "HP": "60",
+        "HP": "90",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Astonish",
-            "Hook"
+            "Continuous Tumble"
         ],
         "Move-Energy": [
-            "P",
-            "PCC"
+            "PC"
         ],
         "Move-Damage": [
-            null,
-            "30"
+            "30\u00d7"
         ],
         "Effects": [
-            "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
-            ""
+            "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
         ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88006%2Fxy-base-set-phantump",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Phantump-XY54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90573%2Fxy-base-set-whirlipede",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Whirlipede-XY52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-053",
@@ -1876,6 +1840,78 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Scolipede-XY53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "XY-054",
+        "Name": "Phantump",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_054_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Astonish",
+            "Hook"
+        ],
+        "Move-Energy": [
+            "P",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88006%2Fxy-base-set-phantump",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Phantump-XY54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-055",
+        "Name": "Trevenant",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_055_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "110",
+        "Ability": [
+            "Forest's Curse"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, your opponent can't play any Item cards from his or her hand."
+        ],
+        "Moves": [
+            "Tree Slam"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "This attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90047%2Fxy-base-set-trevenant",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Trevenant-XY55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "XY-056",
         "Name": "Pumpkaboo",
         "Rarity": "Common",
@@ -1906,42 +1942,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88444%2Fxy-base-set-pumpkaboo",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Pumpkaboo-V1-XY56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "XY-055",
-        "Name": "Trevenant",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_055_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "110",
-        "Ability": [
-            "Forest's Curse"
-        ],
-        "Ability-Effect": [
-            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, your opponent can't play any Item cards from his or her hand."
-        ],
-        "Moves": [
-            "Tree Slam"
-        ],
-        "Move-Energy": [
-            "PCC"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            "This attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90047%2Fxy-base-set-trevenant",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Trevenant-XY55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-057",
@@ -2039,7 +2039,7 @@
             "60"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This attack's damage isn't affected by Resistance."
         ],
         "Weakness": "Grass",
@@ -2086,6 +2086,42 @@
         "Illustrator": "MAHOU",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88744%2Fxy-base-set-rhyhorn",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Rhyhorn-XY60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-061",
+        "Name": "Rhydon",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_061_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Horn Drill",
+            "Mad Mountain"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FFFC"
+        ],
+        "Move-Damage": [
+            "50",
+            null
+        ],
+        "Effects": [
+            "",
+            "Flip 2 coins. If both are heads, discard the top card of your opponent's deck for each damage counter on this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88736%2Fxy-base-set-rhydon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Rhydon-XY61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-062",
@@ -2160,74 +2196,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Lunatone-XY63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-061",
-        "Name": "Rhydon",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_061_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Horn Drill",
-            "Mad Mountain"
-        ],
-        "Move-Energy": [
-            "FCC",
-            "FFFC"
-        ],
-        "Move-Damage": [
-            "50",
-            null
-        ],
-        "Effects": [
-            "",
-            "Flip 2 coins. If both are heads, discard the top card of your opponent's deck for each damage counter on this Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88736%2Fxy-base-set-rhydon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Rhydon-XY61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "XY-065",
-        "Name": "Timburr",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_065_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Pummel"
-        ],
-        "Move-Energy": [
-            "FC"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 20 more damage."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "MAHOU",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89917%2Fxy-base-set-timburr",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Timburr-XY65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-064",
         "Name": "Solrock",
         "Rarity": "Uncommon",
@@ -2262,6 +2230,38 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89432%2Fxy-base-set-solrock",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Solrock-XY64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-065",
+        "Name": "Timburr",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_065_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pummel"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "MAHOU",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89917%2Fxy-base-set-timburr",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Timburr-XY65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-066",
@@ -2564,7 +2564,7 @@
             "Upside-Down Evolution"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), if this Pok\u00e9mon is Confused, you may search your deck for a card that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon. (This counts as evolving this Pok\u00e9mon. ) Shuffle your deck afterward."
+            "Once during your turn (before your attack), if this Pok\u00e9mon is Confused, you may search your deck for a card that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon. (This counts as evolving this Pok\u00e9mon.) Shuffle your deck afterward."
         ],
         "Moves": [
             "Confusion Wave"
@@ -2952,7 +2952,7 @@
             "Stance Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with an Aegislash in your hand. (Any cards attached to this Pok\u00e9mon, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon. )"
+            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with an Aegislash in your hand. (Any cards attached to this Pok\u00e9mon, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon.)"
         ],
         "Moves": [
             "Buster Swing"
@@ -2974,6 +2974,42 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83462%2Fxy-base-set-aegislash-85",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Aegislash-V1-XY85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-086",
+        "Name": "Aegislash",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_086_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "140",
+        "Ability": [
+            "Stance Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with an Aegislash in your hand. (Any cards attached to this Pok\u00e9mon, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon.)"
+        ],
+        "Moves": [
+            "King's Shield"
+        ],
+        "Move-Energy": [
+            "MMCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn. This Pok\u00e9mon can't use King's Shield during your next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83463%2Fxy-base-set-aegislash-86",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Aegislash-XY86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-087",
@@ -3010,42 +3046,6 @@
         "Illustrator": "Kanako Eo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86322%2Fxy-base-set-jigglypuff-87",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Jigglypuff-XY87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "XY-086",
-        "Name": "Aegislash",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_086_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Metal",
-        "HP": "140",
-        "Ability": [
-            "Stance Change"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may switch this Pok\u00e9mon with an Aegislash in your hand. (Any cards attached to this Pok\u00e9mon, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon. )"
-        ],
-        "Moves": [
-            "King's Shield"
-        ],
-        "Move-Energy": [
-            "MMCC"
-        ],
-        "Move-Damage": [
-            "50"
-        ],
-        "Effects": [
-            "Prevent all damage done to this Pok\u00e9mon by attacks during your opponent's next turn. This Pok\u00e9mon can't use King's Shield during your next turn."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83463%2Fxy-base-set-aegislash-86",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Aegislash-XY86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-088",
@@ -3308,7 +3308,7 @@
             "Sweet Veil"
         ],
         "Ability-Effect": [
-            "Each of your Pok\u00e9mon that has any [Y] Energy attached to it can't be affected by any Special Conditions. (Remove any Special Conditions affecting those Pok\u00e9mon. )"
+            "Each of your Pok\u00e9mon that has any [Y] Energy attached to it can't be affected by any Special Conditions. (Remove any Special Conditions affecting those Pok\u00e9mon.)"
         ],
         "Moves": [
             "Draining Kiss"
@@ -3330,6 +3330,42 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89349%2Fxy-base-set-slurpuff",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Slurpuff-XY95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-096",
+        "Name": "Xerneas",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_096_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Geomancy",
+            "Rainbow Spear"
+        ],
+        "Move-Energy": [
+            "Y",
+            "YYC"
+        ],
+        "Move-Damage": [
+            null,
+            "100"
+        ],
+        "Effects": [
+            "Choose 2 of your Benched Pok\u00e9mon. For each of those Pok\u00e9mon, search your deck for a [Y] Energy card and attach it to that Pok\u00e9mon. Shuffle your deck afterward.",
+            "Discard an Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90669%2Fxy-base-set-xerneas",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Xerneas-XY96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-097",
@@ -3355,7 +3391,7 @@
             "140"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This Pok\u00e9mon can't use X Blast during your next turn."
         ],
         "Weakness": "Metal",
@@ -3398,42 +3434,6 @@
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84867%2Fxy-base-set-doduo",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Doduo-XY98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "XY-096",
-        "Name": "Xerneas",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_096_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Geomancy",
-            "Rainbow Spear"
-        ],
-        "Move-Energy": [
-            "Y",
-            "YYC"
-        ],
-        "Move-Damage": [
-            null,
-            "100"
-        ],
-        "Effects": [
-            "Choose 2 of your Benched Pok\u00e9mon. For each of those Pok\u00e9mon, search your deck for a [Y] Energy card and attach it to that Pok\u00e9mon. Shuffle your deck afterward.",
-            "Discard an Energy attached to this Pok\u00e9mon."
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90669%2Fxy-base-set-xerneas",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Xerneas-XY96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-099",
@@ -3508,38 +3508,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Tauros-XY100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-102",
-        "Name": "Taillow",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_102_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Aerial Ace"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 30 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "sui",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89737%2Fxy-base-set-taillow",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Taillow-XY102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-101",
         "Name": "Dunsparce",
         "Rarity": "Uncommon",
@@ -3574,6 +3542,38 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85015%2Fxy-base-set-dunsparce",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Dunsparce-XY101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-102",
+        "Name": "Taillow",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_102_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aerial Ace"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sui",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89737%2Fxy-base-set-taillow",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Taillow-XY102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-103",
@@ -3648,38 +3648,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Skitty-XY104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-106",
-        "Name": "Bidoof",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_106_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Hyper Fang"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, this attack does nothing."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83830%2Fxy-base-set-bidoof",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Bidoof-XY106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-105",
         "Name": "Delcatty",
         "Rarity": "Uncommon",
@@ -3714,6 +3682,38 @@
         "Illustrator": "Suwama Chiaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84743%2Fxy-base-set-delcatty",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Delcatty-XY105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-106",
+        "Name": "Bidoof",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_106_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Fang"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83830%2Fxy-base-set-bidoof",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Bidoof-XY106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-107",
@@ -3788,42 +3788,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Lillipup-XY108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-110",
-        "Name": "Stoutland",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_110_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Colorless",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bite Off",
-            "Wild Barking"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "CCCC"
-        ],
-        "Move-Damage": [
-            "60+",
-            "80"
-        ],
-        "Effects": [
-            "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon-EX, this attack does 60 more damage.",
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89573%2Fxy-base-set-stoutland",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Stoutland-XY110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-109",
         "Name": "Herdier",
         "Rarity": "Uncommon",
@@ -3860,6 +3824,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Herdier-XY109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "XY-110",
+        "Name": "Stoutland",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_110_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite Off",
+            "Wild Barking"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "60+",
+            "80"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon-EX, this attack does 60 more damage.",
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89573%2Fxy-base-set-stoutland",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Stoutland-XY110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "XY-111",
         "Name": "Bunnelby",
         "Rarity": "Common",
@@ -3890,42 +3890,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84046%2Fxy-base-set-bunnelby",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Bunnelby-XY111?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "XY-113",
-        "Name": "Fletchling",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_113_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Me First",
-            "Peck"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Draw a card.",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85507%2Fxy-base-set-fletchling",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fletchling-XY113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-112",
@@ -3964,18 +3928,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Diggersby-XY112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-115",
-        "Name": "Cassius",
-        "Card-Type": "Supporter",
+        "ID": "XY-113",
+        "Name": "Fletchling",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_113_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_115_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Shuffle 1 of your Pok\u00e9mon and all cards attached to it into your deck.",
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84124%2Fxy-base-set-cassius",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Cassius-XY115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Moves": [
+            "Me First",
+            "Peck"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Draw a card.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85507%2Fxy-base-set-fletchling",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fletchling-XY113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-114",
@@ -4014,6 +4000,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Furfrou-XY114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "XY-115",
+        "Name": "Cassius",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_115_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle 1 of your Pok\u00e9mon and all cards attached to it into your deck.",
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84124%2Fxy-base-set-cassius",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Cassius-XY115?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "XY-116",
         "Name": "Evosoda",
         "Card-Type": "Item",
@@ -4022,7 +4022,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_116_R_EN_LG.png",
         "Pack": null,
-        "Description": "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward. You can't use this card during your first turn or on a Pok\u00e9mon that was put into play this turn.",
+        "Description": "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward. You can't use this card during your first turn or on a Pok\u00e9mon that was put into play this turn.",
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85335%2Fxy-base-set-evosoda",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Evosoda-XY116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4042,20 +4042,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fairy-Garden-XY117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-119",
-        "Name": "Hard Charm",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_119_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Any damage done to the Pok\u00e9mon this card is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance).",
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86009%2Fxy-base-set-hard-charm",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Hard-Charm-XY119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-118",
         "Name": "Great Ball",
         "Card-Type": "Item",
@@ -4068,6 +4054,20 @@
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85901%2Fxy-base-set-great-ball",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Great-Ball-XY118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-119",
+        "Name": "Hard Charm",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_119_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Any damage done to the Pok\u00e9mon this card is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance).",
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86009%2Fxy-base-set-hard-charm",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Hard-Charm-XY119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-120",
@@ -4266,20 +4266,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Fire-Energy-XY133?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "XY-135",
-        "Name": "Lightning Energy",
-        "Card-Type": "Basic Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_135_R_EN_LG.png",
-        "Pack": null,
-        "Description": "",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86784%2Fxy-base-set-lightning-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Lightning-Energy-XY135?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "XY-134",
         "Name": "Water Energy",
         "Card-Type": "Basic Energy",
@@ -4292,6 +4278,20 @@
         "Illustrator": null,
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90528%2Fxy-base-set-water-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Water-Energy-XY134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "XY-135",
+        "Name": "Lightning Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/XY/XY_135_R_EN_LG.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86784%2Fxy-base-set-lightning-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/XY/Lightning-Energy-XY135?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "XY-136",
@@ -4567,7 +4567,7 @@
             "140"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This Pok\u00e9mon can't use X Blast during your next turn."
         ],
         "Weakness": "Metal",

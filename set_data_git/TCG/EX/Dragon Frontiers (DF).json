@@ -168,7 +168,7 @@
             "Sharing"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may look at your opponent's hand. You may use the effect of a Supporter card you find there as the effect of this power. (The Supporter card remains in your opponent's hand. ) You can't use more than 1 Sharing Pok\u00e9-Power each turn. This power can't be used if Milotic is affected by a Special Condition."
+            "Once during your turn (before your attack), you may look at your opponent's hand. You may use the effect of a Supporter card you find there as the effect of this power. (The Supporter card remains in your opponent's hand.) You can't use more than 1 Sharing Pok\u00e9-Power each turn. This power can't be used if Milotic is affected by a Special Condition."
         ],
         "Moves": [
             "Flare"
@@ -215,8 +215,8 @@
             "60"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "You may discard a Basic Pok\u00e9mon or Evolution card from your hand. If you do, choose 1 of your opponent's Benched Pok\u00e9mon and do 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "You may discard a Basic Pok\u00e9mon or Evolution card from your hand. If you do, choose 1 of your opponent's Benched Pok\u00e9mon and do 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -391,7 +391,7 @@
             "30"
         ],
         "Effects": [
-            "Choose an attack on 1 of your opponent's Pok\u00e9mon in play that has \u03b4 on its card. Delta Copy copies that attack except for its Energy cost. (You must still do anything else required for that attack. ) Togetic performs that attack.",
+            "Choose an attack on 1 of your opponent's Pok\u00e9mon in play that has \u03b4 on its card. Delta Copy copies that attack except for its Energy cost. (You must still do anything else required for that attack.) Togetic performs that attack.",
             ""
         ],
         "Weakness": "Lightning",
@@ -1704,7 +1704,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1780,42 +1780,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Horsea-Delta-Species-DF50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-052",
-        "Name": "Larvitar",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/52_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Paralyzing Gaze",
-            "Horn Attack"
-        ],
-        "Move-Energy": [
-            "L",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86647%2Fpokemon-dragon-frontiers-larvitar-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Larvitar-Delta-Species-DF52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DF-051",
         "Name": "Larvitar",
         "Rarity": "Common",
@@ -1852,36 +1816,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Larvitar-DF51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-054",
-        "Name": "Mareep",
+        "ID": "DF-052",
+        "Name": "Larvitar",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/54_hires.png",
+        "Image": "https://images.pokemontcg.io/ex15/52_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "40",
+        "Type": "Lightning",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Tail Whap"
+            "Paralyzing Gaze",
+            "Horn Attack"
         ],
         "Move-Energy": [
-            "C"
+            "L",
+            "CC"
         ],
         "Move-Damage": [
-            "10"
+            null,
+            "20"
         ],
         "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
             ""
         ],
-        "Weakness": "Fighting",
+        "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Sachiko Adachi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87209%2Fpokemon-dragon-frontiers-mareep-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Mareep-Delta-Species-DF54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86647%2Fpokemon-dragon-frontiers-larvitar-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Larvitar-Delta-Species-DF52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-053",
@@ -1918,6 +1886,38 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86707%2Fpokemon-dragon-frontiers-ledyba-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Ledyba-Delta-Species-DF53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DF-054",
+        "Name": "Mareep",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex15/54_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tail Whap"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sachiko Adachi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87209%2Fpokemon-dragon-frontiers-mareep-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Mareep-Delta-Species-DF54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-055",
@@ -1988,38 +1988,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Nidoran-F-Delta-Species-DF56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-058",
-        "Name": "Pupitar",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/58_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Headbutt"
-        ],
-        "Move-Energy": [
-            "F"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88450%2Fpokemon-dragon-frontiers-pupitar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Pupitar-DF58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DF-057",
         "Name": "Nidoran \u2642",
         "Rarity": "Common",
@@ -2054,6 +2022,70 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87731%2Fpokemon-dragon-frontiers-nidoran-m-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Nidoran-M-Delta-Species-DF57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DF-058",
+        "Name": "Pupitar",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex15/58_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88450%2Fpokemon-dragon-frontiers-pupitar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Pupitar-DF58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DF-059",
+        "Name": "Pupitar",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex15/59_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Beam"
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88456%2Fpokemon-dragon-frontiers-pupitar-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Pupitar-Delta-Species-DF59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-060",
@@ -2092,36 +2124,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Ralts-DF60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-059",
-        "Name": "Pupitar",
+        "ID": "DF-061",
+        "Name": "Ralts",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/59_hires.png",
+        "Image": "https://images.pokemontcg.io/ex15/61_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "70",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Hyper Beam"
+            "Calm Mind",
+            "Will-o'-the-wisp"
         ],
         "Move-Energy": [
-            "LC"
+            "C",
+            "RC"
         ],
         "Move-Damage": [
+            null,
             "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
+            "Remove 2 damage counters from Ralts.",
+            ""
         ],
-        "Weakness": "Grass",
+        "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88456%2Fpokemon-dragon-frontiers-pupitar-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Pupitar-Delta-Species-DF59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kyoko Umemoto",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88568%2Fpokemon-dragon-frontiers-ralts-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Ralts-Delta-Species-DF61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-062",
@@ -2158,42 +2194,6 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89055%2Fpokemon-dragon-frontiers-seel-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Seel-Delta-Species-DF62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DF-061",
-        "Name": "Ralts",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/61_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Calm Mind",
-            "Will-o'-the-wisp"
-        ],
-        "Move-Energy": [
-            "C",
-            "RC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Remove 2 damage counters from Ralts.",
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kyoko Umemoto",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88568%2Fpokemon-dragon-frontiers-ralts-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Ralts-Delta-Species-DF61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-063",
@@ -2328,6 +2328,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Taillow-Delta-Species-DF66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DF-067",
+        "Name": "Totodile",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex15/67_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Rage"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10+"
+        ],
+        "Effects": [
+            "",
+            "Does 10 damage plus 10 more damage for each damage counter on Totodile."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90004%2Fpokemon-dragon-frontiers-totodile-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Totodile-Delta-Species-DF67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DF-068",
         "Name": "Trapinch",
         "Rarity": "Common",
@@ -2364,40 +2400,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Trapinch-Delta-Species-DF68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-067",
-        "Name": "Totodile",
+        "ID": "DF-069",
+        "Name": "Trapinch",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/67_hires.png",
+        "Image": "https://images.pokemontcg.io/ex15/69_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Lightning",
+        "Type": "Psychic",
         "HP": "40",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Scratch",
-            "Rage"
+            "Quick Bind"
         ],
         "Move-Energy": [
-            "C",
-            "LC"
+            "P"
         ],
         "Move-Damage": [
-            "10",
-            "10+"
+            null
         ],
         "Effects": [
-            "",
-            "Does 10 damage plus 10 more damage for each damage counter on Totodile."
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
         ],
-        "Weakness": "Lightning",
+        "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90004%2Fpokemon-dragon-frontiers-totodile-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Totodile-Delta-Species-DF67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90028%2Fpokemon-dragon-frontiers-trapinch-069-101-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Trapinch-Delta-Species-DF69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-070",
@@ -2436,52 +2468,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Vulpix-Delta-Species-DF70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-069",
-        "Name": "Trapinch",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex15/69_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Quick Bind"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90028%2Fpokemon-dragon-frontiers-trapinch-069-101-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Trapinch-Delta-Species-DF69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DF-072",
-        "Name": "Buffer Piece",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex15/72_hires.png",
-        "Pack": null,
-        "Description": "Damage done to the Pok\u00e9mon Buffer Piece is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance). At the end of your opponent's turn after you played Buffer Piece, discard Buffer Piece.",
-        "Illustrator": "Katsura Tabata",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84013%2Fpokemon-dragon-frontiers-buffer-piece",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Buffer-Piece-DF72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DF-071",
         "Name": "Wooper",
         "Rarity": "Common",
@@ -2516,6 +2502,20 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90639%2Fpokemon-dragon-frontiers-wooper-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Wooper-Delta-Species-DF71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DF-072",
+        "Name": "Buffer Piece",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex15/72_hires.png",
+        "Pack": null,
+        "Description": "Damage done to the Pok\u00e9mon Buffer Piece is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance). At the end of your opponent's turn after you played Buffer Piece, discard Buffer Piece.",
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84013%2Fpokemon-dragon-frontiers-buffer-piece",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Buffer-Piece-DF72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-073",
@@ -2568,7 +2568,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex15/76_hires.png",
         "Pack": null,
-        "Description": "Choose up to 2 of your Prize cards and put them face up. (These cards remain face up for the rest of the game. ) Draw 2 cards.",
+        "Description": "Choose up to 2 of your Prize cards and put them face up. (These cards remain face up for the rest of the game.) Draw 2 cards.",
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86291%2Fpokemon-dragon-frontiers-island-hermit",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Island-Hermit-DF76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2658,20 +2658,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/TV-Reporter-DF82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-084",
-        "Name": "Holon Energy FF",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex15/84_hires.png",
-        "Pack": null,
-        "Description": "Holon Energy FF provides [C] Energy. If the Pok\u00e9mon that Holon Energy FF is attached to also has a basic [R] Energy card attached to it, that Pok\u00e9mon has no Weakness. If the Pok\u00e9mon that Holon Energy FF is attached to also has a basic [F] Energy card attached to it, damage done by that Pok\u00e9mon's attack isn't affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pok\u00e9mon-ex.",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86137%2Fpokemon-dragon-frontiers-holon-energy-ff",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Holon-Energy-FF-DF84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DF-083",
         "Name": "Switch",
         "Card-Type": "Item",
@@ -2686,18 +2672,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Switch-DF83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DF-086",
-        "Name": "Holon Energy WP",
+        "ID": "DF-084",
+        "Name": "Holon Energy FF",
         "Card-Type": "Special Energy",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex15/86_hires.png",
+        "Image": "https://images.pokemontcg.io/ex15/84_hires.png",
         "Pack": null,
-        "Description": "Holon Energy WP provides [C] Energy. If the Pok\u00e9mon that Holon Energy WP is attached to also has a basic [W] Energy card attached to it, prevent all effects, excluding damage, done to that Pok\u00e9mon by your opponent's Pok\u00e9mon. If the Pok\u00e9mon that Holon Energy WP is attached to also has a basic [P] Energy card attached to it, that Pok\u00e9mon's Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pok\u00e9mon-ex.",
+        "Description": "Holon Energy FF provides [C] Energy. If the Pok\u00e9mon that Holon Energy FF is attached to also has a basic [R] Energy card attached to it, that Pok\u00e9mon has no Weakness. If the Pok\u00e9mon that Holon Energy FF is attached to also has a basic [F] Energy card attached to it, damage done by that Pok\u00e9mon's attack isn't affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pok\u00e9mon-ex.",
         "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86141%2Fpokemon-dragon-frontiers-holon-energy-wp",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Holon-Energy-WP-DF86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86137%2Fpokemon-dragon-frontiers-holon-energy-ff",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Holon-Energy-FF-DF84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-085",
@@ -2712,6 +2698,20 @@
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86139%2Fpokemon-dragon-frontiers-holon-energy-gl",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Holon-Energy-GL-DF85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DF-086",
+        "Name": "Holon Energy WP",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex15/86_hires.png",
+        "Pack": null,
+        "Description": "Holon Energy WP provides [C] Energy. If the Pok\u00e9mon that Holon Energy WP is attached to also has a basic [W] Energy card attached to it, prevent all effects, excluding damage, done to that Pok\u00e9mon by your opponent's Pok\u00e9mon. If the Pok\u00e9mon that Holon Energy WP is attached to also has a basic [P] Energy card attached to it, that Pok\u00e9mon's Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pok\u00e9mon-ex.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86141%2Fpokemon-dragon-frontiers-holon-energy-wp",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Holon-Energy-WP-DF86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DF-087",
@@ -2736,7 +2736,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex15/88_hires.png",
         "Pack": null,
-        "Description": "\u03b4 Rainbow Energy provides [C] Energy. While attached to a Pok\u00e9mon that has \u03b4 on its card, \u03b4 Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy. )",
+        "Description": "\u03b4 Rainbow Energy provides [C] Energy. While attached to a Pok\u00e9mon that has \u03b4 on its card, \u03b4 Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.)",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84755%2Fpokemon-dragon-frontiers-delta-rainbow-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon-Frontiers/Rainbow-Energy-Delta-DF88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2852,7 +2852,7 @@
             "80"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": null,
@@ -3043,7 +3043,7 @@
             "70"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to the Pok\u00e9mon. If you choose a Pok\u00e9mon that has any Pok\u00e9-Powers or Pok\u00e9-Bodies, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to the Pok\u00e9mon. If you choose a Pok\u00e9mon that has any Pok\u00e9-Powers or Pok\u00e9-Bodies, this attack does 50 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": null,
@@ -3084,7 +3084,7 @@
         ],
         "Effects": [
             "",
-            "You may do up to 40 damage instead of 80 to the Defending Pok\u00e9mon. If you do, this attack does 40 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may do up to 40 damage instead of 80 to the Defending Pok\u00e9mon. If you do, this attack does 40 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Colorless",
         "Resistance": "Fire/Fighting",
@@ -3195,8 +3195,8 @@
             null
         ],
         "Effects": [
-            "Choose an attack on 1 of your opponent's Pok\u00e9mon in play. Mimicry copies that attack. This attack does nothing if Mew Star doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack. ) Mew Star performs that attack.",
-            "Choose 1 basic Energy card attached to Mew Star. This attack does 20 damage to each of your opponent's Pok\u00e9mon that is the same type as the basic Energy card that you chose. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose an attack on 1 of your opponent's Pok\u00e9mon in play. Mimicry copies that attack. This attack does nothing if Mew Star doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew Star performs that attack.",
+            "Choose 1 basic Energy card attached to Mew Star. This attack does 20 damage to each of your opponent's Pok\u00e9mon that is the same type as the basic Energy card that you chose. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,

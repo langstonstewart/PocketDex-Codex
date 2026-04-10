@@ -1,41 +1,5 @@
 [
     {
-        "ID": "P3-002",
-        "Name": "Flareon",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/pop3/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Quick Attack",
-            "Fire Spin"
-        ],
-        "Move-Energy": [
-            "CC",
-            "RRC"
-        ],
-        "Move-Damage": [
-            "10+",
-            "70"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-            "Discard 2 basic Energy cards attached to Flareon or this attack does nothing."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85495%2Fpokemon-pop-series-3-flareon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Flareon-POP32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "P3-001",
         "Name": "Blastoise",
         "Rarity": "Rare",
@@ -70,6 +34,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83891%2Fpokemon-pop-series-3-blastoise",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Blastoise-POP31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "P3-002",
+        "Name": "Flareon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pop3/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "70"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+            "Discard 2 basic Energy cards attached to Flareon or this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85495%2Fpokemon-pop-series-3-flareon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Flareon-POP32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "P3-003",
@@ -136,7 +136,7 @@
         "Effects": [
             "Draw a card. If you have Plusle in play, draw 2 cards instead.",
             "During your opponent's next turn, any damage done by attacks from the Defending Pok\u00e9mon is reduced by 10 (before applying Weakness and Resistance).",
-            "Choose 1 of your opponent's Pok\u00e9mon that has any Pok\u00e9-Powers. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon that has any Pok\u00e9-Powers. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -176,7 +176,7 @@
         "Effects": [
             "Draw a card. If you have Minun in play, draw 2 cards instead.",
             "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-            "Choose 1 of your opponent's Pok\u00e9mon that has any Pok\u00e9-Bodies. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon that has any Pok\u00e9-Bodies. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -372,7 +372,7 @@
             "Duplicate"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Psybeam"
@@ -432,42 +432,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Eevee-POP313?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "P3-015",
-        "Name": "Marshtomp",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pop3/15_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mud Slap",
-            "Double-edge"
-        ],
-        "Move-Energy": [
-            "F",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40"
-        ],
-        "Effects": [
-            "",
-            "Marshtomp does 10 damage to itself."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87236%2Fpokemon-pop-series-3-marshtomp",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Marshtomp-POP315?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "P3-014",
         "Name": "Ivysaur",
         "Rarity": "Common",
@@ -502,6 +466,42 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86299%2Fpokemon-pop-series-3-ivysaur",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Ivysaur-POP314?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "P3-015",
+        "Name": "Marshtomp",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pop3/15_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mud Slap",
+            "Double-edge"
+        ],
+        "Move-Energy": [
+            "F",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Marshtomp does 10 damage to itself."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87236%2Fpokemon-pop-series-3-marshtomp",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/POP-Series-3/Marshtomp-POP315?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "P3-016",

@@ -1,5 +1,45 @@
 [
     {
+        "ID": "UNB-001",
+        "Name": "Pheromosa & Buzzwole-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_001_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "260",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jet Punch",
+            "Elegant Sole",
+            "Beast Game-GX"
+        ],
+        "Move-Energy": [
+            "G",
+            "GGC",
+            "G+"
+        ],
+        "Move-Damage": [
+            "30",
+            "190",
+            "50"
+        ],
+        "Effects": [
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "During your next turn, this Pok\u00e9mon's Elegant Sole attack's base damage is 60.",
+            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F188401%2Fsm-unbroken-bonds-pheromosa-and-buzzwole-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Pheromosa-Buzzwole-GX-V1-UNB1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-002",
         "Name": "Caterpie",
         "Rarity": "Common",
@@ -34,46 +74,6 @@
         "Illustrator": "Shibuzoh.",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189040%2Fsm-unbroken-bonds-caterpie",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Caterpie-UNB2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-001",
-        "Name": "Pheromosa & Buzzwole-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_001_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "260",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Jet Punch",
-            "Elegant Sole",
-            "Beast Game-GX"
-        ],
-        "Move-Energy": [
-            "G",
-            "GGC",
-            "G+"
-        ],
-        "Move-Damage": [
-            "30",
-            "190",
-            "50"
-        ],
-        "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "During your next turn, this Pok\u00e9mon's Elegant Sole attack's base damage is 60.",
-            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F188401%2Fsm-unbroken-bonds-pheromosa-and-buzzwole-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Pheromosa-Buzzwole-GX-V1-UNB1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-003",
@@ -112,42 +112,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Metapod-UNB3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-005",
-        "Name": "Oddish",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_005_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Stun Spore",
-            "Seed Bomb"
-        ],
-        "Move-Energy": [
-            "C",
-            "GC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "0313",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189043%2Fsm-unbroken-bonds-oddish-5",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Oddish-UNB5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-004",
         "Name": "Butterfree",
         "Rarity": "Rare",
@@ -182,6 +146,42 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189042%2Fsm-unbroken-bonds-butterfree",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Butterfree-UNB4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-005",
+        "Name": "Oddish",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_005_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stun Spore",
+            "Seed Bomb"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "0313",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189043%2Fsm-unbroken-bonds-oddish-5",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Oddish-UNB5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-006",
@@ -379,7 +379,7 @@
             "30"
         ],
         "Effects": [
-            "You can use this attack only if your opponent's Active Pok\u00e9mon is affected by a Special Condition. This attack does 90 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "You can use this attack only if your opponent's Active Pok\u00e9mon is affected by a Special Condition. This attack does 90 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Your opponent's Active Pok\u00e9mon is now Poisoned."
         ],
         "Weakness": "Fire",
@@ -416,7 +416,7 @@
         ],
         "Effects": [
             "If you played Koga's Trap from your hand during this turn, this attack does 90 more damage. If you played Janine from your hand during this turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon during your opponent's next turn.",
-            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -604,42 +604,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Tangrowth-UNB17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-019",
-        "Name": "Kartana",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_019_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Big Cut",
-            "False Swipe"
-        ],
-        "Move-Energy": [
-            "G",
-            "GCC"
-        ],
-        "Move-Damage": [
-            "10+",
-            null
-        ],
-        "Effects": [
-            "If you have exactly 4 Prize cards remaining, this attack does 120 more damage.",
-            "Flip a coin. If heads, put damage counters on your opponent's Active Pok\u00e9mon until its remaining HP is 10."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin Nagasawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189061%2Fsm-unbroken-bonds-kartana",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Kartana-UNB19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-018",
         "Name": "Grubbin",
         "Rarity": "Common",
@@ -676,6 +640,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Grubbin-UNB18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-019",
+        "Name": "Kartana",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Big Cut",
+            "False Swipe"
+        ],
+        "Move-Energy": [
+            "G",
+            "GCC"
+        ],
+        "Move-Damage": [
+            "10+",
+            null
+        ],
+        "Effects": [
+            "If you have exactly 4 Prize cards remaining, this attack does 120 more damage.",
+            "Flip a coin. If heads, put damage counters on your opponent's Active Pok\u00e9mon until its remaining HP is 10."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin Nagasawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189061%2Fsm-unbroken-bonds-kartana",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Kartana-UNB19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-020",
         "Name": "Reshiram & Charizard-GX",
         "Rarity": "Double Rare",
@@ -704,7 +704,7 @@
         "Effects": [
             "This attack does 10 more damage for each damage counter on this Pok\u00e9mon.",
             "This Pok\u00e9mon can't use Flare Strike during your next turn.",
-            "If this Pok\u00e9mon has at least 3 extra [R] Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [R] Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -896,6 +896,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Volcanion-UNB25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-026",
+        "Name": "Litten",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_026_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Singe"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "0313",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189071%2Fsm-unbroken-bonds-litten-26",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Litten-UNB26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-027",
         "Name": "Litten",
         "Rarity": "Common",
@@ -930,38 +962,6 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189073%2Fsm-unbroken-bonds-litten-27",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Litten-UNB27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-026",
-        "Name": "Litten",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_026_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Singe"
-        ],
-        "Move-Energy": [
-            "R"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Burned."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "0313",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189071%2Fsm-unbroken-bonds-litten-26",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Litten-UNB26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-028",
@@ -1064,42 +1064,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Salandit-UNB30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-032",
-        "Name": "Blacephalon",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_032_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Blazer",
-            "Fireball Circus"
-        ],
-        "Move-Energy": [
-            "R",
-            "RRR"
-        ],
-        "Move-Damage": [
-            "10+",
-            "50\u00d7"
-        ],
-        "Effects": [
-            "Turn 1 of your face-down Prize cards face up. If it's a [R] Energy card, this attack does 50 more damage. (That Prize card remains face up for the rest of the game. )",
-            "Discard any number of [R] Energy cards from your hand. This attack does 50 damage for each card you discarded in this way."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kawayoo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189084%2Fsm-unbroken-bonds-blacephalon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Blacephalon-UNB32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-031",
         "Name": "Salazzle",
         "Rarity": "Rare",
@@ -1134,6 +1098,42 @@
         "Illustrator": "hatachu",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189082%2Fsm-unbroken-bonds-salazzle",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Salazzle-UNB31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-032",
+        "Name": "Blacephalon",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_032_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blazer",
+            "Fireball Circus"
+        ],
+        "Move-Energy": [
+            "R",
+            "RRR"
+        ],
+        "Move-Damage": [
+            "10+",
+            "50\u00d7"
+        ],
+        "Effects": [
+            "Turn 1 of your face-down Prize cards face up. If it's a [R] Energy card, this attack does 50 more damage. (That Prize card remains face up for the rest of the game.)",
+            "Discard any number of [R] Energy cards from your hand. This attack does 50 damage for each card you discarded in this way."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189084%2Fsm-unbroken-bonds-blacephalon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Blacephalon-UNB32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-033",
@@ -1232,7 +1232,7 @@
         ],
         "Effects": [
             "Shuffle any amount of [W] Energy from your Pok\u00e9mon into your deck. This attack does 60 damage for each card you shuffled into your deck in this way.",
-            "Attach any number of [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Attach any number of [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1580,7 +1580,7 @@
         ],
         "Effects": [
             "",
-            "Discard 2 Energy from this Pok\u00e9mon. This attack does 60 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 Energy from this Pok\u00e9mon. This attack does 60 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,
@@ -1932,6 +1932,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Raichu-UNB55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-056",
+        "Name": "Stunfisk",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_056_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Raging Thunder",
+            "Electric Trap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "30",
+            "30\u00d7"
+        ],
+        "Effects": [
+            "This attack does 10 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "This attack does 30 damage for each of your Pok\u00e9mon that has any damage counters on it."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "sowsow",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189155%2Fsm-unbroken-bonds-stunfisk",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Stunfisk-UNB56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-057",
         "Name": "Dedenne-GX",
         "Rarity": "Double Rare",
@@ -1960,7 +1996,7 @@
         ],
         "Effects": [
             "",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1970,78 +2006,6 @@
         "Illustrator": "PLANETA Igarashi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189156%2Fsm-unbroken-bonds-dedenne-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dedenne-GX-V1-UNB57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-056",
-        "Name": "Stunfisk",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_056_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Raging Thunder",
-            "Electric Trap"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            "30",
-            "30\u00d7"
-        ],
-        "Effects": [
-            "This attack does 10 damage to 1 of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "This attack does 30 damage for each of your Pok\u00e9mon that has any damage counters on it."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "sowsow",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189155%2Fsm-unbroken-bonds-stunfisk",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Stunfisk-UNB56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-059",
-        "Name": "Vikavolt",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_059_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Lightning",
-        "HP": "150",
-        "Ability": [
-            "Stealthy Body"
-        ],
-        "Ability-Effect": [
-            "If there is any Stadium card in play, this Pok\u00e9mon has no Weakness."
-        ],
-        "Moves": [
-            "Electricannon"
-        ],
-        "Move-Energy": [
-            "LLLC"
-        ],
-        "Move-Damage": [
-            "120+"
-        ],
-        "Effects": [
-            "You may discard all [L] Energy from this Pok\u00e9mon. If you do, this attack does 100 more damage."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hasuno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189160%2Fsm-unbroken-bonds-vikavolt",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Vikavolt-UNB59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-058",
@@ -2078,6 +2042,42 @@
         "Illustrator": "Sekio",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189159%2Fsm-unbroken-bonds-charjabug",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Charjabug-UNB58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-059",
+        "Name": "Vikavolt",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_059_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "150",
+        "Ability": [
+            "Stealthy Body"
+        ],
+        "Ability-Effect": [
+            "If there is any Stadium card in play, this Pok\u00e9mon has no Weakness."
+        ],
+        "Moves": [
+            "Electricannon"
+        ],
+        "Move-Energy": [
+            "LLLC"
+        ],
+        "Move-Damage": [
+            "120+"
+        ],
+        "Effects": [
+            "You may discard all [L] Energy from this Pok\u00e9mon. If you do, this attack does 100 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hasuno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189160%2Fsm-unbroken-bonds-vikavolt",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Vikavolt-UNB59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-060",
@@ -2144,7 +2144,7 @@
         "Effects": [
             "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 8 damage counters instead of 1 on that Pok\u00e9mon between turns.",
             "If your opponent's Active Pok\u00e9mon is Poisoned, heal 100 damage from this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2372,38 +2372,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Gastly-UNB67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-069",
-        "Name": "Haunter",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_069_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sinister Fog"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 1 damage counter on each of your opponent's Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189169%2Fsm-unbroken-bonds-haunter",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Haunter-UNB69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-068",
         "Name": "Gastly",
         "Rarity": "Common",
@@ -2434,6 +2402,38 @@
         "Illustrator": "MAHOU",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189168%2Fsm-unbroken-bonds-gastly-68",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Gastly-UNB68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-069",
+        "Name": "Haunter",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_069_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sinister Fog"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 1 damage counter on each of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189169%2Fsm-unbroken-bonds-haunter",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Haunter-UNB69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-070",
@@ -2544,42 +2544,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Hypno-UNB72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-074",
-        "Name": "Weezing",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_074_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "120",
-        "Ability": [
-            "Detention Gas"
-        ],
-        "Ability-Effect": [
-            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, put 1 damage counter on each of your opponent's Basic Pok\u00e9mon between turns."
-        ],
-        "Moves": [
-            "Splattering Sludge"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "OOYAMA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189174%2Fsm-unbroken-bonds-weezing",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Weezing-UNB74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-073",
         "Name": "Koffing",
         "Rarity": "Common",
@@ -2610,6 +2574,42 @@
         "Illustrator": "Mizue",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189173%2Fsm-unbroken-bonds-koffing",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Koffing-UNB73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-074",
+        "Name": "Weezing",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_074_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": [
+            "Detention Gas"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, put 1 damage counter on each of your opponent's Basic Pok\u00e9mon between turns."
+        ],
+        "Moves": [
+            "Splattering Sludge"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "OOYAMA",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189174%2Fsm-unbroken-bonds-weezing",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Weezing-UNB74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-075",
@@ -2684,6 +2684,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Mew-V1-UNB76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-077",
+        "Name": "Misdreavus",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_077_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ominous Eyes"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put 1 damage counter on 1 of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189177%2Fsm-unbroken-bonds-misdreavus",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Misdreavus-UNB77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-078",
         "Name": "Mismagius",
         "Rarity": "Rare",
@@ -2720,38 +2752,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Mismagius-UNB78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-077",
-        "Name": "Misdreavus",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_077_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ominous Eyes"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Put 1 damage counter on 1 of your opponent's Pok\u00e9mon."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189177%2Fsm-unbroken-bonds-misdreavus",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Misdreavus-UNB77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-079",
         "Name": "Espurr",
         "Rarity": "Common",
@@ -2776,7 +2776,7 @@
         ],
         "Effects": [
             "Draw a card. If you do, this Pok\u00e9mon is now Asleep.",
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon for each damage counter on that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon for each damage counter on that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2812,7 +2812,7 @@
         ],
         "Effects": [
             "Draw 3 cards. If you do, this Pok\u00e9mon is now Asleep.",
-            "The Defending Pok\u00e9mon's Weakness is now [P] until the end of your next turn. (The amount of Weakness doesn't change. )"
+            "The Defending Pok\u00e9mon's Weakness is now [P] until the end of your next turn. (The amount of Weakness doesn't change.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2888,7 +2888,7 @@
         "Effects": [
             "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.",
             "",
-            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2898,42 +2898,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F188407%2Fsm-unbroken-bonds-marshadow-and-machamp-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Marshadow-Machamp-GX-V1-UNB82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-084",
-        "Name": "Sandslash",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_084_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Continuous Scratch",
-            "Sand Tomb"
-        ],
-        "Move-Energy": [
-            "C",
-            "FCC"
-        ],
-        "Move-Damage": [
-            "30\u00d7",
-            "90"
-        ],
-        "Effects": [
-            "Flip 4 coins. This attack does 30 damage for each heads.",
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shigenori Negishi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189183%2Fsm-unbroken-bonds-sandslash",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Sandslash-UNB84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-083",
@@ -2972,36 +2936,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Sandshrew-UNB83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-086",
-        "Name": "Dugtrio",
+        "ID": "UNB-084",
+        "Name": "Sandslash",
         "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_086_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_084_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Fighting",
-        "HP": "90",
+        "HP": "110",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Home Ground"
+            "Continuous Scratch",
+            "Sand Tomb"
         ],
         "Move-Energy": [
-            "F"
+            "C",
+            "FCC"
         ],
         "Move-Damage": [
-            "30+"
+            "30\u00d7",
+            "90"
         ],
         "Effects": [
-            "If you have any Stadium card in play, this attack does 60 more damage."
+            "Flip 4 coins. This attack does 30 damage for each heads.",
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
         ],
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Akira Komayama",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189185%2Fsm-unbroken-bonds-dugtrio",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dugtrio-UNB86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Shigenori Negishi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189183%2Fsm-unbroken-bonds-sandslash",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Sandslash-UNB84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-085",
@@ -3038,6 +3006,38 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189184%2Fsm-unbroken-bonds-diglett",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Diglett-UNB85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-086",
+        "Name": "Dugtrio",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_086_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Home Ground"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If you have any Stadium card in play, this attack does 60 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Akira Komayama",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189185%2Fsm-unbroken-bonds-dugtrio",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dugtrio-UNB86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-087",
@@ -3112,6 +3112,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Graveler-UNB88?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-089",
+        "Name": "Golem",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_089_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Steamroller",
+            "Heavy Slam"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "FCCC"
+        ],
+        "Move-Damage": [
+            "100",
+            "180-"
+        ],
+        "Effects": [
+            "This attack's damage isn't affected by Resistance.",
+            "This attack does 20 less damage for each [C] in your opponent's Active Pok\u00e9mon's Retreat Cost."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kyoko Umemoto",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189188%2Fsm-unbroken-bonds-golem",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Golem-UNB89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-090",
         "Name": "Cubone",
         "Rarity": "Common",
@@ -3184,40 +3220,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Marowak-UNB91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-089",
-        "Name": "Golem",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_089_R_EN_LG.png",
+        "ID": "UNB-092",
+        "Name": "Rhyhorn",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_092_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
+        "Stage": "Basic",
         "Type": "Fighting",
-        "HP": "180",
+        "HP": "80",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Steamroller",
-            "Heavy Slam"
+            "Push Down"
         ],
         "Move-Energy": [
-            "CCC",
-            "FCCC"
+            "F"
         ],
         "Move-Damage": [
-            "100",
-            "180-"
+            "20"
         ],
         "Effects": [
-            "This attack's damage isn't affected by Resistance.",
-            "This attack does 20 less damage for each [C] in your opponent's Active Pok\u00e9mon's Retreat Cost."
+            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
         ],
         "Weakness": "Grass",
         "Resistance": null,
-        "Retreat-Cost": "4",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kyoko Umemoto",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189188%2Fsm-unbroken-bonds-golem",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Golem-UNB89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "sowsow",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189191%2Fsm-unbroken-bonds-rhyhorn-92",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Rhyhorn-UNB92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-093",
@@ -3254,38 +3286,6 @@
         "Illustrator": "otumami",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189192%2Fsm-unbroken-bonds-rhyhorn-93",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Rhyhorn-UNB93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-092",
-        "Name": "Rhyhorn",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_092_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Push Down"
-        ],
-        "Move-Energy": [
-            "F"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "sowsow",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189191%2Fsm-unbroken-bonds-rhyhorn-92",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Rhyhorn-UNB92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-094",
@@ -3348,7 +3348,7 @@
         ],
         "Effects": [
             "If the Defending Pok\u00e9mon is a Basic Pok\u00e9mon, it can't attack during your opponent's next turn.",
-            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -3464,34 +3464,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Gligar-UNB98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-100",
-        "Name": "Tyrogue",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_100_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": [
-            "Bratty Kick"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may flip a coin. If heads, put 3 damage counters on 1 of your opponent's Pok\u00e9mon. If you use this Ability, your turn ends."
-        ],
-        "Moves": [],
-        "Move-Energy": [],
-        "Move-Damage": [],
-        "Effects": [],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mina Nakai",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189199%2Fsm-unbroken-bonds-tyrogue",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Tyrogue-UNB100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-099",
         "Name": "Gliscor",
         "Rarity": "Uncommon",
@@ -3528,6 +3500,70 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Gliscor-UNB99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-100",
+        "Name": "Tyrogue",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_100_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": [
+            "Bratty Kick"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may flip a coin. If heads, put 3 damage counters on 1 of your opponent's Pok\u00e9mon. If you use this Ability, your turn ends."
+        ],
+        "Moves": [],
+        "Move-Energy": [],
+        "Move-Damage": [],
+        "Effects": [],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189199%2Fsm-unbroken-bonds-tyrogue",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Tyrogue-UNB100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-101",
+        "Name": "Hitmontop",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_101_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Finishing Combo",
+            "Spinning Attack"
+        ],
+        "Move-Energy": [
+            "F",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "You can use this attack only if your Hitmonlee used Special Combo during your last turn. This attack does 60 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189200%2Fsm-unbroken-bonds-hitmontop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Hitmontop-UNB101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-102",
         "Name": "Riolu",
         "Rarity": "Common",
@@ -3560,42 +3596,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Riolu-UNB102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-101",
-        "Name": "Hitmontop",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_101_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Finishing Combo",
-            "Spinning Attack"
-        ],
-        "Move-Energy": [
-            "F",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "You can use this attack only if your Hitmonlee used Special Combo during your last turn. This attack does 60 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189200%2Fsm-unbroken-bonds-hitmontop",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Hitmontop-UNB101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-103",
         "Name": "Landorus",
         "Rarity": "Holo Rare",
@@ -3619,7 +3619,7 @@
             "60"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
         ],
         "Weakness": "Grass",
@@ -3764,7 +3764,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of [D] Energy attached to all of your Pok\u00e9mon.",
-            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -3835,8 +3835,8 @@
             null
         ],
         "Effects": [
-            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon-GX and Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Your opponent reveals their hand. Discard 2 cards from it. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon-GX and Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent reveals their hand. Discard 2 cards from it. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -3846,6 +3846,38 @@
         "Illustrator": "sadaji",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189207%2Fsm-unbroken-bonds-honchkrow-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Honchkrow-GX-V1-UNB109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-110",
+        "Name": "Carvanha",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_110_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "SATOSHI NAKAI",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189210%2Fsm-unbroken-bonds-carvanha",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Carvanha-UNB110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-111",
@@ -3884,36 +3916,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Sharpedo-UNB111?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-110",
-        "Name": "Carvanha",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_110_R_EN_LG.png",
+        "ID": "UNB-112",
+        "Name": "Spiritomb",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_112_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Darkness",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Ability": [
+            "Building Spite"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may put 1 damage counter on this Pok\u00e9mon."
+        ],
         "Moves": [
-            "Gnaw"
+            "Anguish Cry"
         ],
         "Move-Energy": [
             "D"
         ],
         "Move-Damage": [
-            "10"
+            "10+"
         ],
         "Effects": [
-            ""
+            "This attack does 30 more damage for each damage counter on this Pok\u00e9mon."
         ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
+        "Weakness": null,
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "SATOSHI NAKAI",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189210%2Fsm-unbroken-bonds-carvanha",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Carvanha-UNB110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189212%2Fsm-unbroken-bonds-spiritomb",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Spiritomb-UNB112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-113",
@@ -3950,42 +3986,6 @@
         "Illustrator": "Yuka Morii",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189213%2Fsm-unbroken-bonds-sandile-113",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Sandile-UNB113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-112",
-        "Name": "Spiritomb",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_112_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "60",
-        "Ability": [
-            "Building Spite"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may put 1 damage counter on this Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Anguish Cry"
-        ],
-        "Move-Energy": [
-            "D"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "This attack does 30 more damage for each damage counter on this Pok\u00e9mon."
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189212%2Fsm-unbroken-bonds-spiritomb",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Spiritomb-UNB112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-114",
@@ -4115,7 +4115,7 @@
             "70"
         ],
         "Effects": [
-            "The Pok\u00e9mon that has the least HP remaining, except for this Pok\u00e9mon, is Knocked Out. (If multiple Pok\u00e9mon are tied, choose one. )",
+            "The Pok\u00e9mon that has the least HP remaining, except for this Pok\u00e9mon, is Knocked Out. (If multiple Pok\u00e9mon are tied, choose one.)",
             "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pok\u00e9mon."
         ],
         "Weakness": "Fighting",
@@ -4126,6 +4126,38 @@
         "Illustrator": "Yusuke Ohmura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189217%2Fsm-unbroken-bonds-greninja",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Greninja-UNB117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-118",
+        "Name": "Inkay",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_118_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Perplex"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189218%2Fsm-unbroken-bonds-inkay",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Inkay-UNB118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-119",
@@ -4164,38 +4196,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Malamar-UNB119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-118",
-        "Name": "Inkay",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_118_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Perplex"
-        ],
-        "Move-Energy": [
-            "D"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189218%2Fsm-unbroken-bonds-inkay",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Inkay-UNB118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-120",
         "Name": "Lucario & Melmetal-GX",
         "Rarity": "Double Rare",
@@ -4224,7 +4224,7 @@
         "Effects": [
             "Search your deck for a [M] Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck.",
             "",
-            "For the rest of this game, your [M] Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your [M] Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -4472,7 +4472,7 @@
             "30"
         ],
         "Effects": [
-            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -4580,7 +4580,7 @@
         "Effects": [
             "Search your deck for up to 2 [Y] Energy cards and attach them to your Benched Pok\u00e9mon in any way you like. Then, shuffle your deck.",
             "Move any number of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -4684,6 +4684,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Clefable-UNB133?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-134",
+        "Name": "Jigglypuff",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_134_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ball Roll"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 20 damage for each heads."
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yumi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189232%2Fsm-unbroken-bonds-jigglypuff",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Jigglypuff-UNB134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-135",
         "Name": "Wigglytuff",
         "Rarity": "Rare",
@@ -4718,38 +4750,6 @@
         "Illustrator": "miki kudo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189233%2Fsm-unbroken-bonds-wigglytuff",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Wigglytuff-UNB135?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-134",
-        "Name": "Jigglypuff",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_134_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ball Roll"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "20\u00d7"
-        ],
-        "Effects": [
-            "Flip a coin until you get tails. This attack does 20 damage for each heads."
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yumi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189232%2Fsm-unbroken-bonds-jigglypuff",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Jigglypuff-UNB134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-136",
@@ -4916,7 +4916,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of Energy attached to this Pok\u00e9mon.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -5232,7 +5232,7 @@
         ],
         "Effects": [
             "This attack does 20 more damage for each Pok\u00e9mon in your discard pile. You can't add more than 180 damage in this way.",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5456,42 +5456,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Porygon-UNB155?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-157",
-        "Name": "Porygon-Z",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_157_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Colorless",
-        "HP": "130",
-        "Ability": [
-            "Crazy Code"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Tantrum"
-        ],
-        "Move-Energy": [
-            "CCC"
-        ],
-        "Move-Damage": [
-            "120"
-        ],
-        "Effects": [
-            "This Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Misa Tsutsui",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189259%2Fsm-unbroken-bonds-porygon-z",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Porygon-Z-UNB157?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-156",
         "Name": "Porygon2",
         "Rarity": "Uncommon",
@@ -5526,6 +5490,42 @@
         "Illustrator": "sowsow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189258%2Fsm-unbroken-bonds-porygon2",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Porygon2-UNB156?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-157",
+        "Name": "Porygon-Z",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_157_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": [
+            "Crazy Code"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Tantrum"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "120"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Misa Tsutsui",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189259%2Fsm-unbroken-bonds-porygon-z",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Porygon-Z-UNB157?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-158",
@@ -5588,7 +5588,7 @@
         ],
         "Effects": [
             "Draw a card. If you do, this Pok\u00e9mon is now Asleep.",
-            "This attack does 60 damage to 1 of your opponent's Pok\u00e9mon-GX or Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 60 damage to 1 of your opponent's Pok\u00e9mon-GX or Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -5598,34 +5598,6 @@
         "Illustrator": "sowsow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189261%2Fsm-unbroken-bonds-glameow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Glameow-UNB159?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-161",
-        "Name": "Happiny",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_161_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": [
-            "Playhouse Heal"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may flip a coin. If heads, heal 60 damage from 1 of your Pok\u00e9mon. If you use this Ability, your turn ends."
-        ],
-        "Moves": [],
-        "Move-Energy": [],
-        "Move-Damage": [],
-        "Effects": [],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Eri Yamaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189263%2Fsm-unbroken-bonds-happiny",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Happiny-UNB161?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-160",
@@ -5662,6 +5634,34 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189262%2Fsm-unbroken-bonds-purugly",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Purugly-UNB160?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-161",
+        "Name": "Happiny",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_161_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": [
+            "Playhouse Heal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may flip a coin. If heads, heal 60 damage from 1 of your Pok\u00e9mon. If you use this Ability, your turn ends."
+        ],
+        "Moves": [],
+        "Move-Energy": [],
+        "Move-Damage": [],
+        "Effects": [],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Eri Yamaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189263%2Fsm-unbroken-bonds-happiny",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Happiny-UNB161?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-162",
@@ -5728,7 +5728,7 @@
         ],
         "Effects": [
             "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon.",
-            "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
+            "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -5776,7 +5776,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_166_R_EN_LG.png",
         "Pack": null,
-        "Description": "Devolve 1 of your evolved Pok\u00e9mon by shuffling any number of Evolution cards on it into your deck. (That Pok\u00e9mon can't evolve this turn. )",
+        "Description": "Devolve 1 of your evolved Pok\u00e9mon by shuffling any number of Evolution cards on it into your deck. (That Pok\u00e9mon can't evolve this turn.)",
         "Illustrator": "Toyste Beach",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189266%2Fsm-unbroken-bonds-devolution-spray-z",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Devolution-Spray-Z-UNB166?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -5796,20 +5796,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dusk-Stone-UNB167?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-169",
-        "Name": "Electromagnetic Radar",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_169_R_EN_LG.png",
-        "Pack": null,
-        "Description": "You can play this card only if you discard 2 other cards from your hand. Search your deck for up to 2 in any combination of [L] Pok\u00e9mon-GX and [L] Pok\u00e9mon-EX, reveal them, and put them into your hand. Then, shuffle your deck.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189269%2Fsm-unbroken-bonds-electromagnetic-radar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Electromagnetic-Radar-V1-UNB169?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-168",
         "Name": "Dust Island",
         "Card-Type": "Stadium",
@@ -5822,6 +5808,20 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189268%2Fsm-unbroken-bonds-dust-island",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dust-Island-UNB168?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-169",
+        "Name": "Electromagnetic Radar",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_169_R_EN_LG.png",
+        "Pack": null,
+        "Description": "You can play this card only if you discard 2 other cards from your hand. Search your deck for up to 2 in any combination of [L] Pok\u00e9mon-GX and [L] Pok\u00e9mon-EX, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189269%2Fsm-unbroken-bonds-electromagnetic-radar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Electromagnetic-Radar-V1-UNB169?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-170",
@@ -6118,20 +6118,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Ultra-Forest-Kartenvoy-UNB188?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-189a",
-        "Name": "Welder",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_189a_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Attach up to 2 [R] Energy cards from your hand to 1 of your Pok\u00e9mon. If you do, draw 3 cards.",
-        "Illustrator": "Hitoshi Ariga",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F205392%2Fleague-and-championship-cards-welder-189a-214-regional-championship-promo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Welder-V3-UNB189a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-189",
         "Name": "Welder",
         "Card-Type": "Supporter",
@@ -6144,6 +6130,20 @@
         "Illustrator": "Hitoshi Ariga",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189298%2Fsm-unbroken-bonds-welder",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Welder-V1-UNB189?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-189a",
+        "Name": "Welder",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_189a_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Attach up to 2 [R] Energy cards from your hand to 1 of your Pok\u00e9mon. If you do, draw 3 cards.",
+        "Illustrator": "Hitoshi Ariga",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F205392%2Fleague-and-championship-cards-welder-189a-214-regional-championship-promo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Welder-V3-UNB189a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-190",
@@ -6186,9 +6186,9 @@
             "50"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "During your next turn, this Pok\u00e9mon's Elegant Sole attack's base damage is 60.",
-            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -6198,42 +6198,6 @@
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189303%2Fsm-unbroken-bonds-pheromosa-and-buzzwole-gx-191-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Pheromosa-Buzzwole-GX-V2-UNB191?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-193",
-        "Name": "Venomoth-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_193_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "200",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shinobi Mastery",
-            "Ten-Card Return-GX"
-        ],
-        "Move-Energy": [
-            "GCC",
-            "C"
-        ],
-        "Move-Damage": [
-            "110+",
-            "60"
-        ],
-        "Effects": [
-            "If you played Koga's Trap from your hand during this turn, this attack does 90 more damage. If you played Janine from your hand during this turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon during your opponent's next turn.",
-            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189051%2Fsm-unbroken-bonds-venomoth-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Venomoth-GX-V2-UNB193?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-192",
@@ -6262,9 +6226,9 @@
             "50"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "During your next turn, this Pok\u00e9mon's Elegant Sole attack's base damage is 60.",
-            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -6274,6 +6238,42 @@
         "Illustrator": "kirisAki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189304%2Fsm-unbroken-bonds-pheromosa-and-buzzwole-gx-192-alternate-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Pheromosa-Buzzwole-GX-V3-UNB192?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-193",
+        "Name": "Venomoth-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_193_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shinobi Mastery",
+            "Ten-Card Return-GX"
+        ],
+        "Move-Energy": [
+            "GCC",
+            "C"
+        ],
+        "Move-Damage": [
+            "110+",
+            "60"
+        ],
+        "Effects": [
+            "If you played Koga's Trap from your hand during this turn, this attack does 90 more damage. If you played Janine from your hand during this turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon during your opponent's next turn.",
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189051%2Fsm-unbroken-bonds-venomoth-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Venomoth-GX-V2-UNB193?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-194",
@@ -6304,7 +6304,7 @@
         "Effects": [
             "This attack does 10 more damage for each damage counter on this Pok\u00e9mon.",
             "This Pok\u00e9mon can't use Flare Strike during your next turn.",
-            "If this Pok\u00e9mon has at least 3 extra [R] Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [R] Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -6344,7 +6344,7 @@
         ],
         "Effects": [
             "",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -6354,46 +6354,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189158%2Fsm-unbroken-bonds-dedenne-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dedenne-GX-V2-UNB195?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-196",
-        "Name": "Muk & Alolan Muk-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_196_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "270",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Severe Poison",
-            "Poison Absorption",
-            "Nasty Goo Mix-GX"
-        ],
-        "Move-Energy": [
-            "PCC",
-            "PCCC",
-            "0+"
-        ],
-        "Move-Damage": [
-            null,
-            "120",
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 8 damage counters instead of 1 on that Pok\u00e9mon between turns.",
-            "If your opponent's Active Pok\u00e9mon is Poisoned, heal 100 damage from this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189305%2Fsm-unbroken-bonds-muk-and-alolan-muk-gx-196-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Muk-Alolan-Muk-GX-V2-UNB196?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-195a",
@@ -6424,7 +6384,7 @@
         ],
         "Effects": [
             "",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -6434,6 +6394,46 @@
         "Illustrator": "kanahei",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F216699%2Falternate-art-promos-dedenne-gx-195a-214",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dedenne-GX-V4-UNB195a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-196",
+        "Name": "Muk & Alolan Muk-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_196_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "270",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Severe Poison",
+            "Poison Absorption",
+            "Nasty Goo Mix-GX"
+        ],
+        "Move-Energy": [
+            "PCC",
+            "PCCC",
+            "0+"
+        ],
+        "Move-Damage": [
+            null,
+            "120",
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 8 damage counters instead of 1 on that Pok\u00e9mon between turns.",
+            "If your opponent's Active Pok\u00e9mon is Poisoned, heal 100 damage from this Pok\u00e9mon.",
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": "When your TAG TEAM is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189305%2Fsm-unbroken-bonds-muk-and-alolan-muk-gx-196-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Muk-Alolan-Muk-GX-V2-UNB196?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-197",
@@ -6464,7 +6464,7 @@
         "Effects": [
             "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 8 damage counters instead of 1 on that Pok\u00e9mon between turns.",
             "If your opponent's Active Pok\u00e9mon is Poisoned, heal 100 damage from this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -6504,7 +6504,7 @@
         "Effects": [
             "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.",
             "",
-            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -6544,7 +6544,7 @@
         "Effects": [
             "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.",
             "",
-            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -6580,7 +6580,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of [D] Energy attached to all of your Pok\u00e9mon.",
-            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -6616,7 +6616,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of [D] Energy attached to all of your Pok\u00e9mon.",
-            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -6655,8 +6655,8 @@
             null
         ],
         "Effects": [
-            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon-GX and Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Your opponent reveals their hand. Discard 2 cards from it. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon-GX and Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent reveals their hand. Discard 2 cards from it. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -6696,7 +6696,7 @@
         "Effects": [
             "Search your deck for a [M] Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck.",
             "",
-            "For the rest of this game, your [M] Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your [M] Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -6736,7 +6736,7 @@
         "Effects": [
             "Search your deck for up to 2 [Y] Energy cards and attach them to your Benched Pok\u00e9mon in any way you like. Then, shuffle your deck.",
             "Move any number of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -6776,7 +6776,7 @@
         "Effects": [
             "Search your deck for up to 2 [Y] Energy cards and attach them to your Benched Pok\u00e9mon in any way you like. Then, shuffle your deck.",
             "Move any number of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -6816,7 +6816,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of Energy attached to this Pok\u00e9mon.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -6856,7 +6856,7 @@
         ],
         "Effects": [
             "This attack does 20 more damage for each Pok\u00e9mon in your discard pile. You can't add more than 180 damage in this way.",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -6896,7 +6896,7 @@
         ],
         "Effects": [
             "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon.",
-            "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
+            "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -6978,6 +6978,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Reds-Challenge-V2-UNB213?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UNB-214",
+        "Name": "Welder",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_214_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Attach up to 2 [R] Energy cards from your hand to 1 of your Pok\u00e9mon. If you do, draw 3 cards.",
+        "Illustrator": "Hitoshi Ariga",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189299%2Fsm-unbroken-bonds-welder-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Welder-V2-UNB214?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UNB-215",
         "Name": "Pheromosa & Buzzwole-GX",
         "Rarity": "Rainbow Rare",
@@ -7004,9 +7018,9 @@
             "50"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "During your next turn, this Pok\u00e9mon's Elegant Sole attack's base damage is 60.",
-            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Pok\u00e9mon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pok\u00e9mon has at least 7 extra Energy attached to it (in addition to this attack's cost), take 3 more Prize cards instead. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -7016,20 +7030,6 @@
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189321%2Fsm-unbroken-bonds-pheromosa-and-buzzwole-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Pheromosa-Buzzwole-GX-V4-UNB215?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-214",
-        "Name": "Welder",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_214_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Attach up to 2 [R] Energy cards from your hand to 1 of your Pok\u00e9mon. If you do, draw 3 cards.",
-        "Illustrator": "Hitoshi Ariga",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189299%2Fsm-unbroken-bonds-welder-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Welder-V2-UNB214?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-216",
@@ -7056,7 +7056,7 @@
         ],
         "Effects": [
             "If you played Koga's Trap from your hand during this turn, this attack does 90 more damage. If you played Janine from your hand during this turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon during your opponent's next turn.",
-            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -7096,7 +7096,7 @@
         "Effects": [
             "This attack does 10 more damage for each damage counter on this Pok\u00e9mon.",
             "This Pok\u00e9mon can't use Flare Strike during your next turn.",
-            "If this Pok\u00e9mon has at least 3 extra [R] Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [R] Energy attached to it (in addition to this attack's cost), this attack does 100 more damage, and this attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -7106,46 +7106,6 @@
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189319%2Fsm-unbroken-bonds-reshiram-and-charizard-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Reshiram-Charizard-GX-V3-UNB217?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-219",
-        "Name": "Dedenne-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_219_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "160",
-        "Ability": [
-            "Dedechange"
-        ],
-        "Ability-Effect": [
-            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may discard your hand and draw 6 cards. You can't use more than 1 Dedechange Ability each turn."
-        ],
-        "Moves": [
-            "Static Shock",
-            "Tingly Return-GX"
-        ],
-        "Move-Energy": [
-            "LC",
-            "LC"
-        ],
-        "Move-Damage": [
-            "50",
-            "50"
-        ],
-        "Effects": [
-            "",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189157%2Fsm-unbroken-bonds-dedenne-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dedenne-GX-V3-UNB219?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-218",
@@ -7176,7 +7136,7 @@
         ],
         "Effects": [
             "Shuffle any amount of [W] Energy from your Pok\u00e9mon into your deck. This attack does 60 damage for each card you shuffled into your deck in this way.",
-            "Attach any number of [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game. )"
+            "Attach any number of [W] Energy cards from your hand to your Pok\u00e9mon in any way you like. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -7186,6 +7146,46 @@
         "Illustrator": "sadaji",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189100%2Fsm-unbroken-bonds-blastoise-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Blastoise-GX-V2-UNB218?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-219",
+        "Name": "Dedenne-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_219_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "160",
+        "Ability": [
+            "Dedechange"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may discard your hand and draw 6 cards. You can't use more than 1 Dedechange Ability each turn."
+        ],
+        "Moves": [
+            "Static Shock",
+            "Tingly Return-GX"
+        ],
+        "Move-Energy": [
+            "LC",
+            "LC"
+        ],
+        "Move-Damage": [
+            "50",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed. Put this Pok\u00e9mon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189157%2Fsm-unbroken-bonds-dedenne-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Dedenne-GX-V3-UNB219?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-220",
@@ -7216,7 +7216,7 @@
         "Effects": [
             "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 8 damage counters instead of 1 on that Pok\u00e9mon between turns.",
             "If your opponent's Active Pok\u00e9mon is Poisoned, heal 100 damage from this Pok\u00e9mon.",
-            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game. )"
+            "Your opponent's Active Pok\u00e9mon is now Paralyzed and Poisoned. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), put 15 damage counters instead of 1 on that Pok\u00e9mon between turns. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -7256,7 +7256,7 @@
         "Effects": [
             "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage.",
             "",
-            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), and if it would be Knocked Out by damage from an opponent's attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -7292,7 +7292,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of [D] Energy attached to all of your Pok\u00e9mon.",
-            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game. )"
+            "Put 2 in any combination of [D] Pok\u00e9mon-GX and [D] Pok\u00e9mon-EX from your discard pile onto your Bench. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), attach 2 Energy cards from your discard pile to each Pok\u00e9mon that you put onto your Bench in this way. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -7302,6 +7302,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189312%2Fsm-unbroken-bonds-greninja-and-zoroark-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Greninja-Zoroark-GX-V4-UNB222?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-223",
+        "Name": "Honchkrow-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_223_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "210",
+        "Ability": [
+            "Ruler of the Night"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, your opponent can't play any Pok\u00e9mon Tool, Special Energy, or Stadium cards from their hand."
+        ],
+        "Moves": [
+            "Feather Storm",
+            "Unfair-GX"
+        ],
+        "Move-Energy": [
+            "DCC",
+            "CC"
+        ],
+        "Move-Damage": [
+            "90",
+            null
+        ],
+        "Effects": [
+            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon-GX and Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent reveals their hand. Discard 2 cards from it. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "sadaji",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189209%2Fsm-unbroken-bonds-honchkrow-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Honchkrow-GX-V3-UNB223?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-224",
@@ -7332,7 +7372,7 @@
         "Effects": [
             "Search your deck for a [M] Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck.",
             "",
-            "For the rest of this game, your [M] Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "For the rest of this game, your [M] Pok\u00e9mon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), discard all Energy from your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -7342,46 +7382,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189314%2Fsm-unbroken-bonds-lucario-and-melmetal-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Lucario-Melmetal-GX-V3-UNB224?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-223",
-        "Name": "Honchkrow-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_223_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "210",
-        "Ability": [
-            "Ruler of the Night"
-        ],
-        "Ability-Effect": [
-            "As long as this Pok\u00e9mon is your Active Pok\u00e9mon, your opponent can't play any Pok\u00e9mon Tool, Special Energy, or Stadium cards from their hand."
-        ],
-        "Moves": [
-            "Feather Storm",
-            "Unfair-GX"
-        ],
-        "Move-Energy": [
-            "DCC",
-            "CC"
-        ],
-        "Move-Damage": [
-            "90",
-            null
-        ],
-        "Effects": [
-            "This attack does 30 damage to 2 of your opponent's Benched Pok\u00e9mon-GX and Pok\u00e9mon-EX. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Your opponent reveals their hand. Discard 2 cards from it. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "sadaji",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189209%2Fsm-unbroken-bonds-honchkrow-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Honchkrow-GX-V3-UNB223?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-225",
@@ -7412,7 +7412,7 @@
         "Effects": [
             "Search your deck for up to 2 [Y] Energy cards and attach them to your Benched Pok\u00e9mon in any way you like. Then, shuffle your deck.",
             "Move any number of Energy from your Pok\u00e9mon to your other Pok\u00e9mon in any way you like.",
-            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game. )"
+            "If this Pok\u00e9mon has at least 3 extra [Y] Energy attached to it (in addition to this attack's cost), your opponent shuffles their hand into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -7422,46 +7422,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189317%2Fsm-unbroken-bonds-gardevoir-and-sylveon-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Gardevoir-Sylveon-GX-V4-UNB225?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UNB-227",
-        "Name": "Persian-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_227_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "200",
-        "Ability": [
-            "Cat Walk"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if 1 of your Pok\u00e9mon-GX or Pok\u00e9mon-EX was Knocked Out during your opponent's last turn, you may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck. You can't use more than 1 Cat Walk Ability each turn."
-        ],
-        "Moves": [
-            "Vengeance",
-            "Slash Back-GX"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "10+",
-            "150"
-        ],
-        "Effects": [
-            "This attack does 20 more damage for each Pok\u00e9mon in your discard pile. You can't add more than 180 damage in this way.",
-            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189251%2Fsm-unbroken-bonds-persian-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Persian-GX-V3-UNB227?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-226",
@@ -7492,7 +7452,7 @@
         ],
         "Effects": [
             "This attack does 30 more damage times the amount of Energy attached to this Pok\u00e9mon.",
-            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game. )"
+            "Search your deck for up to 5 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -7502,6 +7462,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189240%2Fsm-unbroken-bonds-whimsicott-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Whimsicott-GX-V3-UNB226?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-227",
+        "Name": "Persian-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_227_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "200",
+        "Ability": [
+            "Cat Walk"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if 1 of your Pok\u00e9mon-GX or Pok\u00e9mon-EX was Knocked Out during your opponent's last turn, you may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck. You can't use more than 1 Cat Walk Ability each turn."
+        ],
+        "Moves": [
+            "Vengeance",
+            "Slash Back-GX"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "150"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each Pok\u00e9mon in your discard pile. You can't add more than 180 damage in this way.",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189251%2Fsm-unbroken-bonds-persian-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Persian-GX-V3-UNB227?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-228",
@@ -7532,7 +7532,7 @@
         ],
         "Effects": [
             "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon.",
-            "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game. )"
+            "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don't have that many cards in your deck, this attack does nothing. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -7558,20 +7558,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Beast-Bringer-V2-UNB229?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UNB-231",
-        "Name": "Fire Crystal",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_231_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Put 3 [R] Energy cards from your discard pile into your hand.",
-        "Illustrator": "Yoshinobu Saito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189275%2Fsm-unbroken-bonds-fire-crystal-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Fire-Crystal-V2-UNB231?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UNB-230",
         "Name": "Electromagnetic Radar",
         "Card-Type": "Item",
@@ -7584,6 +7570,20 @@
         "Illustrator": "Yoshinobu Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189270%2Fsm-unbroken-bonds-electromagnetic-radar-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Electromagnetic-Radar-V2-UNB230?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UNB-231",
+        "Name": "Fire Crystal",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UNB/UNB_231_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Put 3 [R] Energy cards from your discard pile into your hand.",
+        "Illustrator": "Yoshinobu Saito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F189275%2Fsm-unbroken-bonds-fire-crystal-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unbroken-Bonds/Fire-Crystal-V2-UNB231?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UNB-232",

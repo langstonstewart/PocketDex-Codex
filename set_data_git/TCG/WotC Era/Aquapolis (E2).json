@@ -1,5 +1,41 @@
 [
     {
+        "ID": "E2-001",
+        "Name": "Ampharos",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thundershock",
+            "Reflect Energy"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "If you have any Benched Pok\u00e9mon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Shin-ichi Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83536%2Fpokemon-aquapolis-ampharos",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Ampharos-V2-AQ1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E2-002",
         "Name": "Arcanine",
         "Rarity": "Rare",
@@ -144,78 +180,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Bellossom-V2-AQ5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-001",
-        "Name": "Ampharos",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Lightning",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Thundershock",
-            "Reflect Energy"
-        ],
-        "Move-Energy": [
-            "L",
-            "LLC"
-        ],
-        "Move-Damage": [
-            "20",
-            "50"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "If you have any Benched Pok\u00e9mon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83536%2Fpokemon-aquapolis-ampharos",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Ampharos-V2-AQ1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-007",
-        "Name": "Donphan",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/7_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Earthquake",
-            "Double Stab"
-        ],
-        "Move-Energy": [
-            "F",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "30",
-            "40\u00d7"
-        ],
-        "Effects": [
-            "Does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip 2 coins. This attack does 40 damage times the number of heads."
-        ],
-        "Weakness": "Grass",
-        "Resistance": "Lightning",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84870%2Fpokemon-aquapolis-donphan",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Donphan-AQ7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-006",
         "Name": "Blissey",
         "Rarity": "Rare",
@@ -252,40 +216,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Blissey-V2-AQ6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-009",
-        "Name": "Elekid",
+        "ID": "E2-007",
+        "Name": "Donphan",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/9_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard2/7_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "30",
-        "Ability": [
-            "Baby Rule"
-        ],
-        "Ability-Effect": [
-            "If your Active Pok\u00e9mon is a Baby Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
-        ],
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Energy Kick"
+            "Earthquake",
+            "Double Stab"
         ],
         "Move-Energy": [
-            "L"
+            "F",
+            "CCC"
         ],
         "Move-Damage": [
-            null
+            "30",
+            "40\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, choose an Energy card attached to the Defending Pok\u00e9mon. Your opponent moves that card to 1 of his or her other Pok\u00e9mon. (If your opponent has no Benched Pok\u00e9mon, this attack does nothing. )"
+            "Does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip 2 coins. This attack does 40 damage times the number of heads."
         ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
+        "Weakness": "Grass",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hikaru Koike",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85167%2Fpokemon-aquapolis-elekid",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Elekid-AQ9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84870%2Fpokemon-aquapolis-donphan",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Donphan-AQ7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-008",
@@ -324,6 +288,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Electrode-V2-AQ8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "E2-009",
+        "Name": "Elekid",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule"
+        ],
+        "Ability-Effect": [
+            "If your Active Pok\u00e9mon is a Baby Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
+        "Moves": [
+            "Energy Kick"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose an Energy card attached to the Defending Pok\u00e9mon. Your opponent moves that card to 1 of his or her other Pok\u00e9mon. (If your opponent has no Benched Pok\u00e9mon, this attack does nothing.)"
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85167%2Fpokemon-aquapolis-elekid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Elekid-AQ9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E2-010",
         "Name": "Entei",
         "Rarity": "Rare",
@@ -336,7 +336,7 @@
             "Pure Body"
         ],
         "Ability-Effect": [
-            "To attach a [R] Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the [R] Energy, and then discard an Energy from Entei. )"
+            "To attach a [R] Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the [R] Energy, and then discard an Energy from Entei.)"
         ],
         "Moves": [
             "Burning Fang"
@@ -396,6 +396,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Espeon-V2-AQ11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "E2-012",
+        "Name": "Exeggutor",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Eggsplosion",
+            "Called Shot"
+        ],
+        "Move-Energy": [
+            "C",
+            "G"
+        ],
+        "Move-Damage": [
+            "40\u00d7",
+            null
+        ],
+        "Effects": [
+            "Discard any number of Energy cards attached to any of your Pok\u00e9mon. Flip a number of coins equal to the number of Energy cards discarded this way. This attack does 40 damage times the number of heads.",
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage times the amount of [G] Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85354%2Fpokemon-aquapolis-exeggutor-12",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Exeggutor-V2-AQ12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E2-013",
         "Name": "Exeggutor",
         "Rarity": "Rare",
@@ -430,42 +466,6 @@
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85356%2Fpokemon-aquapolis-exeggutor-13",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Exeggutor-V3-AQ13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-012",
-        "Name": "Exeggutor",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/12_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Super Eggsplosion",
-            "Called Shot"
-        ],
-        "Move-Energy": [
-            "C",
-            "G"
-        ],
-        "Move-Damage": [
-            "40\u00d7",
-            null
-        ],
-        "Effects": [
-            "Discard any number of Energy cards attached to any of your Pok\u00e9mon. Flip a number of coins equal to the number of Energy cards discarded this way. This attack does 40 damage times the number of heads.",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage times the amount of [G] Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85354%2Fpokemon-aquapolis-exeggutor-12",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Exeggutor-V2-AQ12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-014",
@@ -504,42 +504,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Houndoom-V2-AQ14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-016",
-        "Name": "Hypno",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/16_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": [
-            "Sleep Pendulum"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if Hypno is your Active Pok\u00e9mon, you may make the Defending Pok\u00e9mon Asleep. This power can't be used if Hypno is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Spiral Aura"
-        ],
-        "Move-Energy": [
-            "PCC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch the Defending Pok\u00e9mon with it."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86249%2Fpokemon-aquapolis-hypno",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hypno-V2-AQ16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-015",
         "Name": "Houndoom",
         "Rarity": "Rare",
@@ -574,6 +538,42 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86203%2Fpokemon-aquapolis-houndoom-15",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Houndoom-V3-AQ15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-016",
+        "Name": "Hypno",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": [
+            "Sleep Pendulum"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Hypno is your Active Pok\u00e9mon, you may make the Defending Pok\u00e9mon Asleep. This power can't be used if Hypno is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Spiral Aura"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch the Defending Pok\u00e9mon with it."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86249%2Fpokemon-aquapolis-hypno",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hypno-V2-AQ16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-017",
@@ -732,7 +732,7 @@
             "Ion Coating"
         ],
         "Ability-Effect": [
-            "You may use this power once during each of your turns (before your attack). All [L] Energy attached to your Active Pok\u00e9mon becomes [W] Energy for the rest of the turn. (This effect ends if your Active Pok\u00e9mon retreats or is returned to your hand. ) This power can't be used if Lanturn is affected by a Special Condition."
+            "You may use this power once during each of your turns (before your attack). All [L] Energy attached to your Active Pok\u00e9mon becomes [W] Energy for the rest of the turn. (This effect ends if your Active Pok\u00e9mon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition."
         ],
         "Moves": [
             "Electric Tackle"
@@ -780,7 +780,7 @@
             "30"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon that are the same type (color) as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon that are the same type (color) as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -900,42 +900,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Ninetales-V2-AQ25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-027",
-        "Name": "Parasect",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/27_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sleep Inducer",
-            "Rapture Pollen"
-        ],
-        "Move-Energy": [
-            "G",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon and switch the Defending Pok\u00e9mon with it. The new Defending Pok\u00e9mon is now Asleep.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep. If tails, remove 2 damage counters from Parasect."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masako Yamashita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87954%2Fpokemon-aquapolis-parasect",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Parasect-AQ27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-026",
         "Name": "Octillery",
         "Rarity": "Rare",
@@ -970,6 +934,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87829%2Fpokemon-aquapolis-octillery",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Octillery-V2-AQ26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-027",
+        "Name": "Parasect",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/27_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sleep Inducer",
+            "Rapture Pollen"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Benched Pok\u00e9mon and switch the Defending Pok\u00e9mon with it. The new Defending Pok\u00e9mon is now Asleep.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep. If tails, remove 2 damage counters from Parasect."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masako Yamashita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87954%2Fpokemon-aquapolis-parasect",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Parasect-AQ27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-028",
@@ -1251,7 +1251,7 @@
             "50+"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon. ) Then, flip a coin. If tails, this attack can't be used during your next turn.",
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon.) Then, flip a coin. If tails, this attack can't be used during your next turn.",
             "Flip 2 coins. If both are heads, this attack does 50 damage plus 20 more damage. If both are tails, this attack does nothing. If 1 is heads and 1 is tails, this attack just does 50 damage."
         ],
         "Weakness": "Fire",
@@ -1287,7 +1287,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack. )",
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)",
             "Search your deck for a basic Energy card and attach it to Sudowoodo. Shuffle your deck afterward."
         ],
         "Weakness": "Water",
@@ -1312,7 +1312,7 @@
             "Pure Body"
         ],
         "Ability-Effect": [
-            "To attach a [W] Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the [W] Energy, and then discard an Energy card from Suicune. )"
+            "To attach a [W] Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the [W] Energy, and then discard an Energy card from Suicune.)"
         ],
         "Moves": [
             "Hypno Wave"
@@ -1396,7 +1396,7 @@
             null
         ],
         "Effects": [
-            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack. ) (No matter what type the Defending Pok\u00e9mon is, Togetic is still [C]. ) Togetic performs that attack."
+            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack.) (No matter what type the Defending Pok\u00e9mon is, Togetic is still [C].) Togetic performs that attack."
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -1688,7 +1688,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1840,42 +1840,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Growlithe-AQ51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-053",
-        "Name": "Marill",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard2/53_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Headbutt",
-            "Sleepy Ball"
-        ],
-        "Move-Energy": [
-            "C",
-            "WC"
-        ],
-        "Move-Damage": [
-            "10",
-            "10"
-        ],
-        "Effects": [
-            "",
-            "The Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87212%2Fpokemon-aquapolis-marill",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Marill-AQ53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-052",
         "Name": "Magnemite",
         "Rarity": "Uncommon",
@@ -1910,6 +1874,42 @@
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87066%2Fpokemon-aquapolis-magnemite-52",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Magnemite-AQ52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-053",
+        "Name": "Marill",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard2/53_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt",
+            "Sleepy Ball"
+        ],
+        "Move-Energy": [
+            "C",
+            "WC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10"
+        ],
+        "Effects": [
+            "",
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87212%2Fpokemon-aquapolis-marill",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Marill-AQ53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-054",
@@ -2124,42 +2124,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Seaking-AQ59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-061",
-        "Name": "Smoochum",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard2/61_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "30",
-        "Ability": [
-            "Baby Rule"
-        ],
-        "Ability-Effect": [
-            "If your Active Pok\u00e9mon is a Baby Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
-        ],
-        "Moves": [
-            "Energy Kiss"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            "10\u00d7"
-        ],
-        "Effects": [
-            "Flip a number of coins equal to the number of Energy cards attached to the Defending Pok\u00e9mon. This attack does 10 damage times the number of heads."
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89360%2Fpokemon-aquapolis-smoochum",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Smoochum-AQ61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-060",
         "Name": "Skiploom",
         "Rarity": "Uncommon",
@@ -2194,6 +2158,42 @@
         "Illustrator": "Yuka Morii",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89254%2Fpokemon-aquapolis-skiploom",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Skiploom-AQ60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-061",
+        "Name": "Smoochum",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard2/61_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule"
+        ],
+        "Ability-Effect": [
+            "If your Active Pok\u00e9mon is a Baby Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
+        "Moves": [
+            "Energy Kiss"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10\u00d7"
+        ],
+        "Effects": [
+            "Flip a number of coins equal to the number of Energy cards attached to the Defending Pok\u00e9mon. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89360%2Fpokemon-aquapolis-smoochum",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Smoochum-AQ61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-062",
@@ -2268,42 +2268,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Tyrogue-AQ63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-065",
-        "Name": "Weepinbell",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard2/65_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Growth",
-            "Double Razor Leaf"
-        ],
-        "Move-Energy": [
-            "C",
-            "GC"
-        ],
-        "Move-Damage": [
-            null,
-            "30\u00d7"
-        ],
-        "Effects": [
-            "Attach up to 2 [G] Energy cards from your hand to Weepinbell.",
-            "Flip 2 coins. This attack does 30 damage times the number of heads."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90551%2Fpokemon-aquapolis-weepinbell",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Weepinbell-AQ65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-064",
         "Name": "Voltorb",
         "Rarity": "Uncommon",
@@ -2340,40 +2304,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Voltorb-AQ64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-067",
-        "Name": "Aipom",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard2/67_hires.png",
+        "ID": "E2-065",
+        "Name": "Weepinbell",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard2/65_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Stretch Tail",
-            "Skedaddle"
+            "Growth",
+            "Double Razor Leaf"
         ],
         "Move-Energy": [
             "C",
-            "CC"
+            "GC"
         ],
         "Move-Damage": [
             null,
-            "20"
+            "30\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, choose 1 of your opponent's Benched Pok\u00e9mon and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Return Aipom and all basic Energy cards attached to it to your hand. If you have no Benched Pok\u00e9mon, this attack does nothing."
+            "Attach up to 2 [G] Energy cards from your hand to Weepinbell.",
+            "Flip 2 coins. This attack does 30 damage times the number of heads."
         ],
-        "Weakness": "Fighting",
+        "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83487%2Fpokemon-aquapolis-aipom",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Aipom-AQ67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90551%2Fpokemon-aquapolis-weepinbell",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Weepinbell-AQ65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-066",
@@ -2410,6 +2374,42 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90630%2Fpokemon-aquapolis-wooper-66",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Wooper-AQ66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-067",
+        "Name": "Aipom",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard2/67_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Stretch Tail",
+            "Skedaddle"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose 1 of your opponent's Benched Pok\u00e9mon and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Return Aipom and all basic Energy cards attached to it to your hand. If you have no Benched Pok\u00e9mon, this attack does nothing."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83487%2Fpokemon-aquapolis-aipom",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Aipom-AQ67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-068",
@@ -2484,42 +2484,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Chansey-AQ69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-071",
-        "Name": "Chinchou",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard2/71_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Jolt",
-            "Confuse Ray"
-        ],
-        "Move-Energy": [
-            "C",
-            "LC"
-        ],
-        "Move-Damage": [
-            null,
-            "10"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84302%2Fpokemon-aquapolis-chinchou-71",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Chinchou-AQ71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-070",
         "Name": "Chinchou",
         "Rarity": "Common",
@@ -2554,6 +2518,42 @@
         "Illustrator": "Yuka Morii",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84301%2Fpokemon-aquapolis-chinchou-70",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Chinchou-AQ70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-071",
+        "Name": "Chinchou",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard2/71_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jolt",
+            "Confuse Ray"
+        ],
+        "Move-Energy": [
+            "C",
+            "LC"
+        ],
+        "Move-Damage": [
+            null,
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84302%2Fpokemon-aquapolis-chinchou-71",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Chinchou-AQ71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-072",
@@ -2772,38 +2772,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Exeggcute-AQ77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-079",
-        "Name": "Grimer",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard2/79_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Poison Sludge"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85907%2Fpokemon-aquapolis-grimer",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Grimer-AQ79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-078",
         "Name": "Goldeen",
         "Rarity": "Common",
@@ -2834,6 +2802,38 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85804%2Fpokemon-aquapolis-goldeen",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Goldeen-AQ78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-079",
+        "Name": "Grimer",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard2/79_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Sludge"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85907%2Fpokemon-aquapolis-grimer",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Grimer-AQ79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-080",
@@ -2908,42 +2908,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hitmonchan-AQ81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-083",
-        "Name": "Hoppip",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ecard2/83_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "40",
-        "Ability": [
-            "Lightweight"
-        ],
-        "Ability-Effect": [
-            "You pay [C] less to retreat Hoppip for each [G] Energy attached to it."
-        ],
-        "Moves": [
-            "Careless Tackle"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Hoppip does 10 damage to itself."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Water",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86178%2Fpokemon-aquapolis-hoppip",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hoppip-AQ83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-082",
         "Name": "Hitmontop",
         "Rarity": "Common",
@@ -2978,6 +2942,42 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86113%2Fpokemon-aquapolis-hitmontop",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hitmontop-AQ82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-083",
+        "Name": "Hoppip",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ecard2/83_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": [
+            "Lightweight"
+        ],
+        "Ability-Effect": [
+            "You pay [C] less to retreat Hoppip for each [G] Energy attached to it."
+        ],
+        "Moves": [
+            "Careless Tackle"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Hoppip does 10 damage to itself."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86178%2Fpokemon-aquapolis-hoppip",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hoppip-AQ83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-084",
@@ -4206,7 +4206,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/119_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [D] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Darkness Cube 01.",
+        "Description": "Attach this card to 1 of your [D] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Darkness Cube 01.                                        D        Plunder 10             Before doing damage, discard any Trainer cards attached to the Defending Pok\u00e9mon.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84675%2Fpokemon-aquapolis-darkness-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Darkness-Cube-01-AQ119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4246,7 +4246,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/121_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [F] Pok\u00e9mon in play. That Pok\u00e9mon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.",
+        "Description": "Attach this card to 1 of your [F] Pok\u00e9mon in play. That Pok\u00e9mon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.                                        F        Violent Rage 10\u00d7             Flip a number of coins equal to the number of damage counters on this Pok\u00e9mon. This attack does 10 damage times the number of heads.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85432%2Fpokemon-aquapolis-fighting-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Fighting-Cube-01-AQ121?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4272,7 +4272,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/122_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [R] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Fire Cube 01.",
+        "Description": "Attach this card to 1 of your [R] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Fire Cube 01.                                        R        Singe              The Defending Pok\u00e9mon is now Burned.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85451%2Fpokemon-aquapolis-fire-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Fire-Cube-01-AQ122?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4312,7 +4312,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/124_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [G] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Grass Cube 01.",
+        "Description": "Attach this card to 1 of your [G] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Grass Cube 01.                                        G        Sleep Poison              The Defending Pok\u00e9mon is now Asleep and Poisoned.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85868%2Fpokemon-aquapolis-grass-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Grass-Cube-01-AQ124?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4346,20 +4346,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Juggler-AQ126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-128",
-        "Name": "Memory Berry",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard2/128_hires.png",
-        "Pack": null,
-        "Description": "The Pok\u00e9mon this card is attached to can use any attack from its Basic Pok\u00e9mon card or any Evolution card from which the Pok\u00e9mon evolved. (You still have to pay for that attack's Energy cost. ) Discard this card at the end of any turn the Pok\u00e9mon attacks.",
-        "Illustrator": "Shin-ichi Yoshikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87307%2Fpokemon-aquapolis-memory-berry",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Memory-Berry-AQ128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-127",
         "Name": "Lightning Cube 01",
         "Card-Type": "Item/Technical Machine",
@@ -4380,10 +4366,24 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/127_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [L] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Lightning Cube 01.",
+        "Description": "Attach this card to 1 of your [L] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Lightning Cube 01.                                        L        Discharge 40\u00d7             Discard all [L] Energy cards attached to this Pok\u00e9mon. Then, flip a number of coins equal to the number of Energy cards discarded that way. This attack does 40 damage times the number of heads.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86754%2Fpokemon-aquapolis-lightning-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Lightning-Cube-01-AQ127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-128",
+        "Name": "Memory Berry",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard2/128_hires.png",
+        "Pack": null,
+        "Description": "The Pok\u00e9mon this card is attached to can use any attack from its Basic Pok\u00e9mon card or any Evolution card from which the Pok\u00e9mon evolved. (You still have to pay for that attack's Energy cost.) Discard this card at the end of any turn the Pok\u00e9mon attacks.",
+        "Illustrator": "Shin-ichi Yoshikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87307%2Fpokemon-aquapolis-memory-berry",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Memory-Berry-AQ128?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-129",
@@ -4406,7 +4406,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/129_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [M] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Metal Cube 01.",
+        "Description": "Attach this card to 1 of your [M] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Metal Cube 01.                                        M        Metal Reversal 10             Before doing damage, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch it with the Defending Pok\u00e9mon.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87348%2Fpokemon-aquapolis-metal-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Metal-Cube-01-AQ129?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4460,24 +4460,10 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/132_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [P] Pok\u00e9mon in play. That Pok\u00e9mon may us this card's attack instead of its own. At the end of your turn, discard Psychic Cube 01.",
+        "Description": "Attach this card to 1 of your [P] Pok\u00e9mon in play. That Pok\u00e9mon may us this card's attack instead of its own. At the end of your turn, discard Psychic Cube 01.                                        P        Psy Confuse              The Defending Pok\u00e9mon is now Confused.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88412%2Fpokemon-aquapolis-psychic-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Psychic-Cube-01-AQ132?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-134",
-        "Name": "Super Energy Removal 2",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard2/134_hires.png",
-        "Pack": null,
-        "Description": "Flip 2 coins. If both are heads, discard all Energy cards attached to the Defending Pok\u00e9mon. If both are tails, discard all Energy cards attached to your Active Pok\u00e9mon. If 1 is heads and 1 is tails, this card does nothing.",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89627%2Fpokemon-aquapolis-super-energy-removal-2",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Super-Energy-Removal-2-AQ134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-133",
@@ -4492,6 +4478,20 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89056%2Fpokemon-aquapolis-seer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Seer-AQ133?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-134",
+        "Name": "Super Energy Removal 2",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard2/134_hires.png",
+        "Pack": null,
+        "Description": "Flip 2 coins. If both are heads, discard all Energy cards attached to the Defending Pok\u00e9mon. If both are tails, discard all Energy cards attached to your Active Pok\u00e9mon. If 1 is heads and 1 is tails, this card does nothing.",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89627%2Fpokemon-aquapolis-super-energy-removal-2",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Super-Energy-Removal-2-AQ134?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-135",
@@ -4584,24 +4584,10 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ecard2/140_hires.png",
         "Pack": null,
-        "Description": "Attach this card to 1 of your [W] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Water Cube 01.",
+        "Description": "Attach this card to 1 of your [W] Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Water Cube 01.                                        W        Splatter              Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness or Resistance.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90500%2Fpokemon-aquapolis-water-cube-01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Water-Cube-01-AQ140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-142",
-        "Name": "Darkness Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/142_hires.png",
-        "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
-        "Illustrator": "Milky Isobe",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84696%2Fpokemon-aquapolis-darkness-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Darkness-Energy-AQ142?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-141",
@@ -4618,6 +4604,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Weakness-Guard-AQ141?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "E2-142",
+        "Name": "Darkness Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/142_hires.png",
+        "Pack": null,
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
+        "Illustrator": "Milky Isobe",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84696%2Fpokemon-aquapolis-darkness-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Darkness-Energy-AQ142?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E2-143",
         "Name": "Metal Energy",
         "Card-Type": "Special Energy",
@@ -4626,7 +4626,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ecard2/143_hires.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87369%2Fpokemon-aquapolis-metal-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Metal-Energy-AQ143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4646,20 +4646,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Rainbow-Energy-AQ144?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-146",
-        "Name": "Crystal Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ecard2/146_hires.png",
-        "Pack": null,
-        "Description": "Crystal Energy provides 1 Energy of all types (colors) of basic Energy cards attached to the Pok\u00e9mon Crystal Energy is attached to. If there are no basic Energy cards attached to the Pok\u00e9mon Crystal Energy is attached to, Crystal Energy provides [C] Energy.",
-        "Illustrator": "Shin-ichi Yoshikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84518%2Fpokemon-aquapolis-crystal-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Crystal-Energy-AQ146?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-145",
         "Name": "Boost Energy",
         "Card-Type": "Special Energy",
@@ -4672,6 +4658,20 @@
         "Illustrator": "Shin-ichi Yoshikawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83937%2Fpokemon-aquapolis-boost-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Boost-Energy-AQ145?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-146",
+        "Name": "Crystal Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ecard2/146_hires.png",
+        "Pack": null,
+        "Description": "Crystal Energy provides 1 Energy of all types (colors) of basic Energy cards attached to the Pok\u00e9mon Crystal Energy is attached to. If there are no basic Energy cards attached to the Pok\u00e9mon Crystal Energy is attached to, Crystal Energy provides [C] Energy.",
+        "Illustrator": "Shin-ichi Yoshikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84518%2Fpokemon-aquapolis-crystal-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Crystal-Energy-AQ146?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-147",
@@ -4715,7 +4715,7 @@
             "60"
         ],
         "Effects": [
-            "Kingdra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack. )",
+            "Kingdra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack.)",
             "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra."
         ],
         "Weakness": "Lightning",
@@ -4796,7 +4796,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Poisoned.",
-            "Flip a coin, If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin, If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -5024,42 +5024,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Blissey-V1-AQH6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-008H",
-        "Name": "Entei",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/H8_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": [
-            "Pure Body"
-        ],
-        "Ability-Effect": [
-            "To attach a [R] Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the [R] Energy, and then discard an Energy from Entei. )"
-        ],
-        "Moves": [
-            "Burning Fang"
-        ],
-        "Move-Energy": [
-            "RCC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "You may flip a coin. If heads, discard a [R] Energy card attached to Entei and the Defending Pok\u00e9mon is now Burned."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85267%2Fpokemon-aquapolis-entei-h8",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Entei-V1-AQH8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-007H",
         "Name": "Electrode",
         "Rarity": "Holo Rare",
@@ -5094,6 +5058,42 @@
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85147%2Fpokemon-aquapolis-electrode-h7",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Electrode-V1-AQH7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-008H",
+        "Name": "Entei",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/H8_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": [
+            "Pure Body"
+        ],
+        "Ability-Effect": [
+            "To attach a [R] Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the [R] Energy, and then discard an Energy from Entei.)"
+        ],
+        "Moves": [
+            "Burning Fang"
+        ],
+        "Move-Energy": [
+            "RCC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "You may flip a coin. If heads, discard a [R] Energy card attached to Entei and the Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85267%2Fpokemon-aquapolis-entei-h8",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Entei-V1-AQH8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-009H",
@@ -5156,7 +5156,7 @@
         ],
         "Effects": [
             "Discard any number of Energy cards attached to any of your Pok\u00e9mon. Flip a number of coins equal to the number of Energy cards discarded this way. This attack does 40 damage times the number of heads.",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage times the amount of [G] Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage times the amount of [G] Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -5166,42 +5166,6 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85353%2Fpokemon-aquapolis-exeggutor-h10",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Exeggutor-V1-AQH10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-012H",
-        "Name": "Hypno",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/H12_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": [
-            "Sleep Pendulum"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if Hypno is your Active Pok\u00e9mon, you may make the Defending Pok\u00e9mon Asleep. This power can't be used if Hypno is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Spiral Aura"
-        ],
-        "Move-Energy": [
-            "PCC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch the Defending Pok\u00e9mon with it."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86248%2Fpokemon-aquapolis-hypno-h12",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hypno-V1-AQH12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-011H",
@@ -5238,6 +5202,42 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86199%2Fpokemon-aquapolis-houndoom-h11",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Houndoom-V1-AQH11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-012H",
+        "Name": "Hypno",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/H12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": [
+            "Sleep Pendulum"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Hypno is your Active Pok\u00e9mon, you may make the Defending Pok\u00e9mon Asleep. This power can't be used if Hypno is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Spiral Aura"
+        ],
+        "Move-Energy": [
+            "PCC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch the Defending Pok\u00e9mon with it."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86248%2Fpokemon-aquapolis-hypno-h12",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Hypno-V1-AQH12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-013H",
@@ -5324,7 +5324,7 @@
             "Ion Coating"
         ],
         "Ability-Effect": [
-            "You may use this power once during each of your turns (before your attack). All [L] Energy attached to your Active Pok\u00e9mon becomes [W] Energy for the rest of the turn. (This effect ends if your Active Pok\u00e9mon retreats or is returned to your hand. ) This power can't be used if Lanturn is affected by a Special Condition."
+            "You may use this power once during each of your turns (before your attack). All [L] Energy attached to your Active Pok\u00e9mon becomes [W] Energy for the rest of the turn. (This effect ends if your Active Pok\u00e9mon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition."
         ],
         "Moves": [
             "Electric Tackle"
@@ -5372,7 +5372,7 @@
             "30"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon that are the same type (color) as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon that are the same type (color) as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
@@ -5492,6 +5492,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Ninetales-V1-AQH19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "E2-020H",
+        "Name": "Octillery",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/H20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": [
+            "Suction Cups"
+        ],
+        "Ability-Effect": [
+            "As long as Octillery is your Active Pok\u00e9mon, whenever the Defending Pok\u00e9mon retreats, discard all Energy cards attached to the Defending Pok\u00e9mon when it goes to the Bench."
+        ],
+        "Moves": [
+            "Smokescreen"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87828%2Fpokemon-aquapolis-octillery-h20",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Octillery-V1-AQH20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "E2-021H",
         "Name": "Scizor",
         "Rarity": "Holo Rare",
@@ -5532,78 +5568,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Scizor-V1-AQH21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-020H",
-        "Name": "Octillery",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/H20_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": [
-            "Suction Cups"
-        ],
-        "Ability-Effect": [
-            "As long as Octillery is your Active Pok\u00e9mon, whenever the Defending Pok\u00e9mon retreats, discard all Energy cards attached to the Defending Pok\u00e9mon when it goes to the Bench."
-        ],
-        "Moves": [
-            "Smokescreen"
-        ],
-        "Move-Energy": [
-            "WCC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87828%2Fpokemon-aquapolis-octillery-h20",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Octillery-V1-AQH20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-023H",
-        "Name": "Steelix",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/H23_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Metal",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Earth Rift",
-            "Iron Smash"
-        ],
-        "Move-Energy": [
-            "CC",
-            "MMCC"
-        ],
-        "Move-Damage": [
-            "10",
-            "50+"
-        ],
-        "Effects": [
-            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon. ) Then, flip a coin. If tails, this attack can't be used during your next turn.",
-            "Flip 2 coins. If both are heads, this attack does 50 damage plus 20 more damage. If both are tails, this attack does nothing. If 1 is heads and 1 is tails, this attack just does 50 damage."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89557%2Fpokemon-aquapolis-steelix-h23",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Steelix-V1-AQH23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "E2-022H",
         "Name": "Slowking",
         "Rarity": "Holo Rare",
@@ -5640,40 +5604,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Slowking-V1-AQH22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "E2-025H",
-        "Name": "Suicune",
+        "ID": "E2-023H",
+        "Name": "Steelix",
         "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/H25_hires.png",
+        "Image": "https://images.pokemontcg.io/ecard2/H23_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "70",
-        "Ability": [
-            "Pure Body"
-        ],
-        "Ability-Effect": [
-            "To attach a [W] Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the [W] Energy, and then discard an Energy card from Suicune. )"
-        ],
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Hypno Wave"
+            "Earth Rift",
+            "Iron Smash"
         ],
         "Move-Energy": [
-            "WCC"
+            "CC",
+            "MMCC"
         ],
         "Move-Damage": [
-            "30+"
+            "10",
+            "50+"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pok\u00e9mon is now Asleep."
+            "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness or Resistance for Benched Pok\u00e9mon.) Then, flip a coin. If tails, this attack can't be used during your next turn.",
+            "Flip 2 coins. If both are heads, this attack does 50 damage plus 20 more damage. If both are tails, this attack does nothing. If 1 is heads and 1 is tails, this attack just does 50 damage."
         ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "4",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89598%2Fpokemon-aquapolis-suicune-h25",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Suicune-V1-AQH25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89557%2Fpokemon-aquapolis-steelix-h23",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Steelix-V1-AQH23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-024H",
@@ -5699,7 +5663,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack. )",
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)",
             "Search your deck for a basic Energy card and attach it to Sudowoodo. Shuffle your deck afterward."
         ],
         "Weakness": "Water",
@@ -5710,6 +5674,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89589%2Fpokemon-aquapolis-sudowoodo-h24",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Sudowoodo-V1-AQH24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-025H",
+        "Name": "Suicune",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/H25_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Pure Body"
+        ],
+        "Ability-Effect": [
+            "To attach a [W] Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the [W] Energy, and then discard an Energy card from Suicune.)"
+        ],
+        "Moves": [
+            "Hypno Wave"
+        ],
+        "Move-Energy": [
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89598%2Fpokemon-aquapolis-suicune-h25",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Suicune-V1-AQH25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-026H",
@@ -5772,7 +5772,7 @@
             null
         ],
         "Effects": [
-            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack. ) (No matter what type the Defending Pok\u00e9mon is, Togetic is still [C]. ) Togetic performs that attack."
+            "Flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack.) (No matter what type the Defending Pok\u00e9mon is, Togetic is still [C].) Togetic performs that attack."
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -5782,42 +5782,6 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89940%2Fpokemon-aquapolis-togetic-h27",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Togetic-V1-AQH27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "E2-029H",
-        "Name": "Umbreon",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ecard2/H29_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Darkness",
-        "HP": "80",
-        "Ability": [
-            "Dark Moon"
-        ],
-        "Ability-Effect": [
-            "As long as Umbreon is your Active Pok\u00e9mon and has a [D] Energy attached to it, once during your turn (before your attack), you may look at your opponent's hand. Choose from it a number of cards up to the number of [D] Energy attached to Umbreon and shuffle them into your opponent's deck. Your opponent then draws the same number of cards from his or her deck. This power can't be used if Umbreon is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Shadow Bind"
-        ],
-        "Move-Energy": [
-            "CCC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90139%2Fpokemon-aquapolis-umbreon-h29",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Umbreon-V1-AQH29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-028H",
@@ -5858,6 +5822,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90114%2Fpokemon-aquapolis-tyranitar-h28",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Tyranitar-V1-AQH28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "E2-029H",
+        "Name": "Umbreon",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ecard2/H29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": [
+            "Dark Moon"
+        ],
+        "Ability-Effect": [
+            "As long as Umbreon is your Active Pok\u00e9mon and has a [D] Energy attached to it, once during your turn (before your attack), you may look at your opponent's hand. Choose from it a number of cards up to the number of [D] Energy attached to Umbreon and shuffle them into your opponent's deck. Your opponent then draws the same number of cards from his or her deck. This power can't be used if Umbreon is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Shadow Bind"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90139%2Fpokemon-aquapolis-umbreon-h29",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Aquapolis/Umbreon-V1-AQH29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "E2-030H",

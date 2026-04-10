@@ -1,45 +1,5 @@
 [
     {
-        "ID": "SF-002",
-        "Name": "Empoleon",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/dp7/2_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Metal",
-        "HP": "130",
-        "Ability": [
-            "Emperor Aura"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), when you play Empoleon from your hand to evolve 1 of your Active Pok\u00e9mon, you may use this power. Your opponent can't attach any Energy cards from his or her hand to his or her Pok\u00e9mon during your opponent's next turn."
-        ],
-        "Moves": [
-            "Steel Wing",
-            "Whirlpool"
-        ],
-        "Move-Energy": [
-            "CC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "40",
-            "60"
-        ],
-        "Effects": [
-            "During your opponent's next turn, any damage done to Empoleon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-            "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85199%2Fpokemon-stormfront-empoleon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Empoleon-Lv52-STF2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-001",
         "Name": "Dusknoir",
         "Rarity": "Holo Rare",
@@ -80,6 +40,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Dusknoir-Lv48-STF1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SF-002",
+        "Name": "Empoleon",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/dp7/2_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "130",
+        "Ability": [
+            "Emperor Aura"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you play Empoleon from your hand to evolve 1 of your Active Pok\u00e9mon, you may use this power. Your opponent can't attach any Energy cards from his or her hand to his or her Pok\u00e9mon during your opponent's next turn."
+        ],
+        "Moves": [
+            "Steel Wing",
+            "Whirlpool"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "40",
+            "60"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Empoleon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+            "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85199%2Fpokemon-stormfront-empoleon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Empoleon-Lv52-STF2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SF-003",
         "Name": "Infernape",
         "Rarity": "Holo Rare",
@@ -108,7 +108,7 @@
         ],
         "Effects": [
             "During your opponent's next turn, any damage done to Infernape by attacks is increased by 30 (after applying Weakness and Resistance).",
-            "Discard 2 [R] Energy attached to Infernape and this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 [R] Energy attached to Infernape and this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -160,42 +160,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Lumineon-Lv38-STF4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SF-006",
-        "Name": "Magnezone",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/dp7/6_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Lightning",
-        "HP": "120",
-        "Ability": [
-            "Super Connectivity"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your discard pile for a [L] or [M] Energy card and attach it to your Active Pok\u00e9mon. Then, put 1 damage counter on that Pok\u00e9mon. This power can't be used if Magnezone is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Gyro Ball"
-        ],
-        "Move-Energy": [
-            "LCC"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            "You may switch Magnezone with 1 of your Benched Pok\u00e9mon. If you do, your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomoaki Imakuni",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87115%2Fpokemon-stormfront-magnezone-6",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Magnezone-Lv46-STF6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-005",
         "Name": "Magnezone",
         "Rarity": "Holo Rare",
@@ -234,6 +198,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87114%2Fpokemon-stormfront-magnezone-5",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Magnezone-Lv44-STF5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SF-006",
+        "Name": "Magnezone",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/dp7/6_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": [
+            "Super Connectivity"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your discard pile for a [L] or [M] Energy card and attach it to your Active Pok\u00e9mon. Then, put 1 damage counter on that Pok\u00e9mon. This power can't be used if Magnezone is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Gyro Ball"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "You may switch Magnezone with 1 of your Benched Pok\u00e9mon. If you do, your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomoaki Imakuni",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87115%2Fpokemon-stormfront-magnezone-6",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Magnezone-Lv46-STF6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SF-007",
@@ -352,46 +352,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Regigigas-Lv47-STF9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SF-011",
-        "Name": "Torterra",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/dp7/11_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting",
-        "HP": "140",
-        "Ability": [
-            "Sunshine Song"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), when you play Torterra from your hand to evolve 1 of your Pok\u00e9mon, you may choose as many of your [G] Pok\u00e9mon in play as you like. For each [G] Pok\u00e9mon you choose, search your deck for an Evolution card that evolves from that Pok\u00e9mon and evolve it. Shuffle your deck afterward."
-        ],
-        "Moves": [
-            "Crash Impact",
-            "Land Shake"
-        ],
-        "Move-Energy": [
-            "CC",
-            "GGCC"
-        ],
-        "Move-Damage": [
-            "60",
-            "80"
-        ],
-        "Effects": [
-            "Torterra does 20 damage to itself. Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any.",
-            "During your opponent's next turn, when your opponent puts a Basic Pok\u00e9mon from his or her hand onto his or her Bench, put 2 damage counters on that Pok\u00e9mon."
-        ],
-        "Weakness": "Water",
-        "Resistance": "Lightning",
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89985%2Fpokemon-stormfront-torterra",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Torterra-Lv47-STF11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-010",
         "Name": "Sceptile",
         "Rarity": "Holo Rare",
@@ -432,6 +392,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Sceptile-Lv56-STF10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SF-011",
+        "Name": "Torterra",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/dp7/11_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "140",
+        "Ability": [
+            "Sunshine Song"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), when you play Torterra from your hand to evolve 1 of your Pok\u00e9mon, you may choose as many of your [G] Pok\u00e9mon in play as you like. For each [G] Pok\u00e9mon you choose, search your deck for an Evolution card that evolves from that Pok\u00e9mon and evolve it. Shuffle your deck afterward."
+        ],
+        "Moves": [
+            "Crash Impact",
+            "Land Shake"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GGCC"
+        ],
+        "Move-Damage": [
+            "60",
+            "80"
+        ],
+        "Effects": [
+            "Torterra does 20 damage to itself. Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon, if any.",
+            "During your opponent's next turn, when your opponent puts a Basic Pok\u00e9mon from his or her hand onto his or her Bench, put 2 damage counters on that Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89985%2Fpokemon-stormfront-torterra",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Torterra-Lv47-STF11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SF-012",
         "Name": "Abomasnow",
         "Rarity": "Rare",
@@ -459,7 +459,7 @@
             "60"
         ],
         "Effects": [
-            "Does 20 damage to each of your opponent's Benched Pok\u00e9mon, excluding [G] Pok\u00e9mon and [W] Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 20 damage to each of your opponent's Benched Pok\u00e9mon, excluding [G] Pok\u00e9mon and [W] Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If Abomasnow evolved from Snover during this turn, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fire",
@@ -811,7 +811,7 @@
             "60+"
         ],
         "Effects": [
-            "Flip a coin until you get tails. This attack does 30 damage times the number of heads or you may start again. Each time you start again, put 2 damage counters on Mamoswine. (If Mamoswine would be Knocked Out, you can't start again. )",
+            "Flip a coin until you get tails. This attack does 30 damage times the number of heads or you may start again. Each time you start again, put 2 damage counters on Mamoswine. (If Mamoswine would be Knocked Out, you can't start again.)",
             "Does 60 damage plus 10 more damage for each Swinub on your Bench, plus 20 more damage for each Piloswine on your Bench, and 40 more damage for each Mamoswine on your Bench."
         ],
         "Weakness": "Grass",
@@ -852,7 +852,7 @@
         ],
         "Effects": [
             "",
-            "Discard 2 [R] Energy attached to Rapidash and choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 [R] Energy attached to Rapidash and choose 1 of your opponent's Pok\u00e9mon. This attack does 60 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -891,7 +891,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Flip a coin. If heads, discard an Energy card attached to that Pok\u00e9mon.",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Flip a coin. If heads, discard an Energy card attached to that Pok\u00e9mon.",
             "If the Defending Pok\u00e9mon is Poisoned, this attack does 50 damage plus 30 more damage."
         ],
         "Weakness": "Fire",
@@ -1087,7 +1087,7 @@
             "100\u00d7"
         ],
         "Effects": [
-            "Choose a number of your opponent's Pok\u00e9mon up to the amount of Energy attached to Steelix. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose a number of your opponent's Pok\u00e9mon up to the amount of Energy attached to Steelix. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin until you get tails. This attack does 100 damage times the number of heads."
         ],
         "Weakness": "Fire",
@@ -1128,7 +1128,7 @@
         ],
         "Effects": [
             "Flip 2 coins. If the first coin is heads, the Defending Pok\u00e9mon is now Confused. If the second coin is heads, the Defending Pok\u00e9mon is now Poisoned.",
-            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Water",
@@ -1168,7 +1168,7 @@
         ],
         "Effects": [
             "Does 20 damage times the amount of Energy attached to Tyranitar.",
-            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -1298,42 +1298,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Budew-Lv8-STF33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SF-035",
-        "Name": "Dusclops",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp7/35_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Confuse Ray",
-            "Trick Room"
-        ],
-        "Move-Energy": [
-            "PC",
-            "PCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "If you have a Stadium card in play, this attack does 40 damage plus 20 more damage. If your opponent has a Stadium card in play, remove 2 damage counters from Dusclops."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85030%2Fpokemon-stormfront-dusclops-35",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Dusclops-Lv40-STF35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-034",
         "Name": "Dusclops",
         "Rarity": "Uncommon",
@@ -1368,6 +1332,42 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85029%2Fpokemon-stormfront-dusclops-34",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Dusclops-Lv41-STF34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SF-035",
+        "Name": "Dusclops",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp7/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confuse Ray",
+            "Trick Room"
+        ],
+        "Move-Energy": [
+            "PC",
+            "PCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "If you have a Stadium card in play, this attack does 40 damage plus 20 more damage. If your opponent has a Stadium card in play, remove 2 damage counters from Dusclops."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85030%2Fpokemon-stormfront-dusclops-35",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Dusclops-Lv40-STF35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SF-036",
@@ -1518,6 +1518,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Grovyle-Lv23-STF39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SF-040",
+        "Name": "Haunter",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp7/40_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Smog",
+            "Hoodwink"
+        ],
+        "Move-Energy": [
+            "0",
+            "P"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Poisoned.",
+            "You may search your opponent's discard pile for up to 3 in any combination of Trainer, Supporter, or Stadium cards and put them into your opponent's hand."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86028%2Fpokemon-stormfront-haunter",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Haunter-Lv35-STF40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SF-041",
         "Name": "Machoke",
         "Rarity": "Uncommon",
@@ -1577,7 +1613,7 @@
             "40+"
         ],
         "Effects": [
-            "If you have a Stadium card in play, this attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If you have a Stadium card in play, this attack does 20 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pok\u00e9mon."
         ],
         "Weakness": "Fire",
@@ -1666,42 +1702,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Miltank-Lv27-STF44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SF-040",
-        "Name": "Haunter",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp7/40_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Smog",
-            "Hoodwink"
-        ],
-        "Move-Energy": [
-            "0",
-            "P"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Poisoned.",
-            "You may search your opponent's discard pile for up to 3 in any combination of Trainer, Supporter, or Stadium cards and put them into your opponent's hand."
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86028%2Fpokemon-stormfront-haunter",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Haunter-Lv35-STF40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-045",
         "Name": "Pichu",
         "Rarity": "Uncommon",
@@ -1762,7 +1762,7 @@
         ],
         "Effects": [
             "Does 20 damage plus 10 more damage for each damage counter on Piloswine. Then, remove 4 damage counters from Piloswine.",
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -1822,7 +1822,7 @@
             "Overeager"
         ],
         "Ability-Effect": [
-            "If Sableye is your Active Pok\u00e9mon at the beginning of the game, you go first. (If each player's Active Pok\u00e9mon has the Overeager Pok\u00e9-Body, this power does nothing. )"
+            "If Sableye is your Active Pok\u00e9mon at the beginning of the game, you go first. (If each player's Active Pok\u00e9mon has the Overeager Pok\u00e9-Body, this power does nothing.)"
         ],
         "Moves": [
             "Impersonate",
@@ -1946,7 +1946,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-            "Flip a coin. If heads, this attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -1982,7 +1982,7 @@
         ],
         "Effects": [
             "",
-            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -2198,7 +2198,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -2246,42 +2246,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Duskull-Lv12-STF59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SF-061",
-        "Name": "Finneon",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp7/61_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Aqua Liner",
-            "Mouth Pump"
-        ],
-        "Move-Energy": [
-            "0",
-            "W"
-        ],
-        "Move-Damage": [
-            null,
-            "10+"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85450%2Fpokemon-stormfront-finneon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Finneon-Lv16-STF61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-060",
         "Name": "Duskull",
         "Rarity": "Common",
@@ -2316,6 +2280,42 @@
         "Illustrator": "Sachiko Adachi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85053%2Fpokemon-stormfront-duskull-60",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Duskull-Lv10-STF60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SF-061",
+        "Name": "Finneon",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp7/61_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Aqua Liner",
+            "Mouth Pump"
+        ],
+        "Move-Energy": [
+            "0",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            "10+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85450%2Fpokemon-stormfront-finneon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Finneon-Lv16-STF61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SF-062",
@@ -2378,7 +2378,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -2522,7 +2522,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -3116,7 +3116,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/dp7/87_hires.png",
         "Pack": null,
-        "Description": "Search your discard pile for 2 different Trainer, Supporter, or Stadium cards, show them to your opponent, and your opponent chooses 1 of them. Put that card into your hand, and discard the other card. (If all Trainer, Supporter, and Stadium cards in your discard pile have the same name, choose 1 of them. Show that card to your opponent and put it into your hand. )",
+        "Description": "Search your discard pile for 2 different Trainer, Supporter, or Stadium cards, show them to your opponent, and your opponent chooses 1 of them. Put that card into your hand, and discard the other card. (If all Trainer, Supporter, and Stadium cards in your discard pile have the same name, choose 1 of them. Show that card to your opponent and put it into your hand.)",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87223%2Fpokemon-stormfront-marleys-request",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Marleys-Request-SF87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3192,20 +3192,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Potion-STF92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SF-094",
-        "Name": "Cyclone Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp7/94_hires.png",
-        "Pack": null,
-        "Description": "This card provides [C] Energy. When you play this card from your hand and attach it to your Active Pok\u00e9mon, your opponent switches his or her Active Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84542%2Fpokemon-stormfront-cyclone-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Cyclone-Energy-STF94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SF-093",
         "Name": "Switch",
         "Card-Type": "Item",
@@ -3218,6 +3204,20 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89717%2Fpokemon-stormfront-switch",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Switch-STF93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SF-094",
+        "Name": "Cyclone Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp7/94_hires.png",
+        "Pack": null,
+        "Description": "This card provides [C] Energy. When you play this card from your hand and attach it to your Active Pok\u00e9mon, your opponent switches his or her Active Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84542%2Fpokemon-stormfront-cyclone-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Stormfront/Cyclone-Energy-STF94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SF-095",
@@ -3275,7 +3275,7 @@
             "Heat Wave"
         ],
         "Ability-Effect": [
-            "Your opponent can't remove the Special Condition Burned by evolving or devolving his or her Burned Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto the Burned Pok\u00e9mon. ) Whenever your opponent flips a coin for the Special Condition Burned between turns, treat it as tails.",
+            "Your opponent can't remove the Special Condition Burned by evolving or devolving his or her Burned Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto the Burned Pok\u00e9mon.) Whenever your opponent flips a coin for the Special Condition Burned between turns, treat it as tails.",
             "Once at the end of your turn, if Heatran is on your Bench, you may use this power. If you discarded basic Energy cards attached to your [R] or [M] Active Pok\u00e9mon by using that Pok\u00e9mon's attack this turn, attach up to 2 of those Energy cards to that Pok\u00e9mon."
         ],
         "Moves": [],
@@ -3352,7 +3352,7 @@
             null
         ],
         "Effects": [
-            "Discard 2 [L] Energy cards from your hand and choose 1 of your opponent's Pok\u00e9mon. This attack does 80 to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 [L] Energy cards from your hand and choose 1 of your opponent's Pok\u00e9mon. This attack does 80 to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -3614,7 +3614,7 @@
             "20"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. Flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. Flip a coin. If heads, this attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Search your discard pile for a [L] Energy card and attach it to Voltorb.",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],

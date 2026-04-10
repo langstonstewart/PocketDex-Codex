@@ -1,5 +1,6 @@
 import os, json, datetime, copy
 from src import setmanager, themes, image_manager
+from src.resource_path import resource_path
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QToolButton, QVBoxLayout, QHBoxLayout, QGridLayout, QStackedLayout, QMainWindow, QSizePolicy, QScrollArea, QGraphicsOpacityEffect, QGraphicsColorizeEffect, QFileDialog, QMessageBox
 from PyQt6.QtCore import Qt, QSize, QUrl, QTimer, QObject, pyqtSignal, QThread
 from PyQt6.QtGui import QFont, QCursor, QIcon, QDesktopServices, QPixmap, QColor, QKeySequence, QShortcut
@@ -7,6 +8,7 @@ from math import ceil
 from functools import partial
 from PyQt6.QtNetwork import QNetworkAccessManager
 import random
+
 
 class CacheWorker(QObject):
     finished = pyqtSignal(dict)      
@@ -104,7 +106,7 @@ class Application(QMainWindow):
         self.IM = image_manager.ImageManager()
         self.settings = self.init_app_data()
         self.resize(1400, 1150)
-        self.setWindowIcon(QIcon("src/images/ui/logo_icon.png"))
+        self.setWindowIcon(QIcon(resource_path(f"src/images/ui/logo_icon.png")))
         self.setWindowTitle(f"PocketDex Codex v{self.settings['UserData']['version']}")
 
         self.set_col_count = 6
@@ -115,7 +117,7 @@ class Application(QMainWindow):
 
         self.bb_dict = {}
 
-        self.rarity_dict = None
+        self.rarity_dict = {}
 
         self.set_sep_lens = {4: 1200, 
                              6: 1700,
@@ -190,11 +192,11 @@ class Application(QMainWindow):
 
 
     def init_app_data(self):
-        with open(f'src\\app_data\\app_settings.json', "r+") as settings_file:
+        with open(resource_path(f"src\\app_data\\app_settings.json"), "r+") as settings_file:
             return json.load(settings_file)
 
     def init_set_dir(self):
-        self.project_dir = f"src\\app_data"
+        self.project_dir = resource_path(f"src\\app_data")
         self.local_doc = os.path.join(os.path.expanduser("~"), "Documents", "PocketDex Codex")
 
         os.makedirs(self.local_doc, exist_ok=True)
@@ -283,9 +285,9 @@ class Application(QMainWindow):
                         if set['SetID'] not in self.IM.logo_dict.keys():
 
                             if "Promo" in set.keys():
-                                set_pixmap = QPixmap(f"src/images/set_logo/{set_list[0]}/black_star_promo.png")
+                                set_pixmap = QPixmap(resource_path(f"src/images/set_logo/{set_list[0]}/black_star_promo.png"))
                             else:
-                                set_pixmap = QPixmap(f"src/images/set_logo/{set_list[0]}/{set_name}.png")
+                                set_pixmap = QPixmap(resource_path(f"src/images/set_logo/{set_list[0]}/{set_name}.png"))
 
                             self.IM.logo_dict[set['SetID']] = set_pixmap
 
@@ -535,6 +537,8 @@ class Application(QMainWindow):
         elif category == "set_list_pocket.json":
             self.category_dir = "TCG Pocket"
 
+        self.rarity_dict = {}
+
         date_text = f"{self.set_dict[list(self.set_dict.keys())[-1]][-2]["Release Date"]} - {self.set_dict[list(self.set_dict.keys())[0]][0]["Release Date"]} | {set_count} Sets"
         
         with open(f'{self.local_doc}\\{self.category_dir}\\favorites\\favorites.json', 'r+', encoding="UTF-8") as f_file:
@@ -709,7 +713,7 @@ class Application(QMainWindow):
             self.set_inverse = 1
             self.settings['UserData']['set_inverse'] = 1
             
-        with open("src/app_data/app_settings.json", "w+") as config_file:
+        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
                 json.dump(self.settings, config_file, indent=4)
 
         self.go_back(self.main_layout)
@@ -1106,7 +1110,7 @@ This project is not affiliated with or associated with these entities.''')
             self.col_count = 4
             self.settings["UserData"]["col_count"] = 4
         
-        with open("src/app_data/app_settings.json", "w+") as config_file:
+        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
                 json.dump(self.settings, config_file, indent=4)
 
         
@@ -1191,23 +1195,12 @@ This project is not affiliated with or associated with these entities.''')
         with open(self.set_fp, "r+") as set_file:
             self.set_list = json.load(set_file)
 
-            self.rarity_dict = {}
-
-            self.rarity_dict["N/A"] = (QPixmap(f"src/images/rarities/TCG/none_black.png"), QPixmap(f"src/images/rarities/TCG/none_white.png"))
-
             for card in self.set_list:
                 if card["Rarity"] is None:
                     card["Rarity"] = "N/A"
 
             with open(self.set_fp, "w+") as set_file:
                 json.dump(self.set_list, set_file, indent=4)
-
-            for card in self.set_list:
-                if card["Rarity"] != "N/A" and card["Rarity"] not in self.rarity_dict.keys():
-                    rarity_pixmap = QPixmap(f"src/images/rarities/{self.category_dir}/{card["Rarity"].replace(" ", "_").lower()}.png")
-
-                    self.rarity_dict[card["Rarity"]] = rarity_pixmap.scaled(rarity_pixmap.width() // scale_int, rarity_pixmap.width() // scale_int, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
-
 
             self.loading_header = QHBoxLayout()
             self.loading_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1669,38 +1662,6 @@ This project is not affiliated with or associated with these entities.''')
                     
                 ex_layout.addWidget(ex_label)
 
-            card_extra_layout = QHBoxLayout()
-            card_extra_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            self.cd_layout.addLayout(card_extra_layout) # type: ignore
-
-            paint_icon = QLabel("")
-            paint_icon.setPixmap(self.IM.paint_icon[self.mode].scaled(36, 36, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
-            paint_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-            paint_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            card_extra_layout.addWidget(paint_icon)
-
-            i_label = QLabel(f"Illustrated by {self.set_list[card_index]["Illustrator"]}")
-            i_label.setFont(self.main_font)
-            i_label.setProperty("class", "header2")
-            i_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            card_extra_layout.addWidget(i_label)
-
-            card_extra_layout.addSpacing(25)
-
-            pb_icon = QLabel("")
-            pb_icon.setPixmap(self.IM.pokeball_icon[self.mode].scaled(36, 36, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
-            pb_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-            pb_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            card_extra_layout.addWidget(pb_icon)
-
-            card_index_label = QLabel(f"{card_index + 1} of {len(self.set_list)}")
-            card_index_label.setFont(self.main_font)
-            card_index_label.setProperty("class", "header2")
-            card_index_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            card_extra_layout.addWidget(card_index_label)
-
-            self.seperator(self.cd_layout, 1100)
-
         else:
             self.seperator(self.cd_layout, 1100)
 
@@ -1801,59 +1762,111 @@ This project is not affiliated with or associated with these entities.''')
 
                 self.seperator(desc_layout, 1100)
 
-            rule_layout = QVBoxLayout()
-            rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            self.cd_layout.addLayout(rule_layout) # type: ignore
+        rule_layout = QVBoxLayout()
+        rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.cd_layout.addLayout(rule_layout) # type: ignore
 
-            if self.set_list[card_index]["Card-Type"] in self.IM.card_desc_dict.keys():
+        if self.set_list[card_index]["Card-Type"] in self.IM.card_desc_dict.keys():
 
-                card_rule_label = QLabel(f"{self.IM.card_desc_dict[self.set_list[card_index]["Card-Type"]]}")
-                card_rule_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                card_rule_label.setFont(self.main_font)
-                card_rule_label.setTextFormat(Qt.TextFormat.RichText)
-                card_rule_label.setProperty("class", "header2")
-                card_rule_label.setMinimumWidth(1000)
-                card_rule_label.setMaximumWidth(1000)
-                card_rule_label.setWordWrap(True)
-                card_rule_label.setMinimumHeight(card_rule_label.sizeHint().height() * 5)
-                card_rule_label.setMaximumHeight(card_rule_label.sizeHint().height() * 5)
-                card_rule_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-                
-                rule_layout.addWidget(card_rule_label, alignment=Qt.AlignmentFlag.AlignHCenter)
+            card_rule_label = QLabel(f"{self.IM.card_desc_dict[self.set_list[card_index]["Card-Type"]]}")
+            card_rule_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            card_rule_label.setFont(self.main_font)
+            card_rule_label.setTextFormat(Qt.TextFormat.RichText)
+            card_rule_label.setProperty("class", "header2")
+            card_rule_label.setMinimumWidth(1000)
+            card_rule_label.setMaximumWidth(1000)
+            card_rule_label.setWordWrap(True)
+            card_rule_label.setMinimumHeight(card_rule_label.sizeHint().height() * 5)
+            card_rule_label.setMaximumHeight(card_rule_label.sizeHint().height() * 5)
+            card_rule_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
+            
+            rule_layout.addWidget(card_rule_label, alignment=Qt.AlignmentFlag.AlignHCenter)
 
-            misc_extra_layout = QHBoxLayout()
-            misc_extra_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            rule_layout.addLayout(misc_extra_layout) # type: ignore
+        misc_extra_layout = QHBoxLayout()
+        misc_extra_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        rule_layout.addLayout(misc_extra_layout) # type: ignore
 
-            if self.set_list[card_index]["Illustrator"]:
+        if self.set_list[card_index]["Illustrator"]:
 
-                paint_icon = QLabel("")
-                paint_icon.setPixmap(self.IM.paint_icon[self.mode].scaled(36, 36, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
-                paint_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-                paint_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                misc_extra_layout.addWidget(paint_icon)
+            paint_icon = QLabel("")
+            paint_icon.setPixmap(self.IM.paint_icon[self.mode].scaled(36, 36, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+            paint_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+            paint_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            misc_extra_layout.addWidget(paint_icon)
 
-                i_label = QLabel(f"Illustrated by {self.set_list[card_index]["Illustrator"]}")
-                i_label.setFont(self.main_font)
-                i_label.setProperty("class", "header2")
-                i_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-                misc_extra_layout.addWidget(i_label)
+            i_label = QLabel(f"Illustrated by {self.set_list[card_index]["Illustrator"]}")
+            i_label.setFont(self.main_font)
+            i_label.setProperty("class", "header2")
+            i_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+            misc_extra_layout.addWidget(i_label)
 
-                misc_extra_layout.addSpacing(25)
+            misc_extra_layout.addSpacing(25)
 
-            pb_icon = QLabel("")
-            pb_icon.setPixmap(self.rarity_dict["N/A"][self.mode].scaled(50, 50, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
-            pb_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-            pb_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            misc_extra_layout.addWidget(pb_icon)
+        pb_icon = QLabel("")
+        pb_icon.setPixmap(self.rarity_dict["N/A"][self.mode].scaled(36, 36, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+        pb_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        pb_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        misc_extra_layout.addWidget(pb_icon)
 
-            card_index_label = QLabel(f"{card_index + 1} of {len(self.set_list)}")
-            card_index_label.setFont(self.main_font)
-            card_index_label.setProperty("class", "header2")
-            card_index_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            misc_extra_layout.addWidget(card_index_label)
+        card_index_label = QLabel(f"{card_index + 1} of {len(self.set_list)}")
+        card_index_label.setFont(self.main_font)
+        card_index_label.setProperty("class", "header2")
+        card_index_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        misc_extra_layout.addWidget(card_index_label)
 
-            self.seperator(self.cd_layout, 1100)
+        self.seperator(rule_layout, 1100)
+
+        prices_layout = QHBoxLayout()
+        prices_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        rule_layout.addLayout(prices_layout) # type: ignore
+
+        def on_enter(label: QLabel, event):
+            label.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+            
+            
+        def on_leave(label: QLabel, event):
+            label.setCursor(QCursor(Qt.CursorShape.ArrowCursor))
+            
+        
+        def on_click(url, event):
+            QDesktopServices.openUrl(QUrl(url))
+
+        if "tcg_player_link" in self.set_list[card_index].keys() and self.set_list[card_index]["tcg_player_link"] is not None:
+
+            tp_icon = QLabel("")
+            tp_icon.setPixmap(self.IM.tcgplayer_icon[self.mode].scaled(self.IM.tcgplayer_icon[self.mode].width() // 10, self.IM.tcgplayer_icon[self.mode].height() // 10, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+            tp_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+            tp_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            prices_layout.addWidget(tp_icon)
+
+            tp_text = QLabel(f"View Card on TCGPlayer...")
+            tp_text.setFont(self.main_font)
+            tp_text.setProperty("class", "Link_Label")
+            tp_text.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+            tp_text.enterEvent = partial(on_enter, tp_text)
+            tp_text.leaveEvent = partial(on_leave, tp_text) # type: ignore
+            tp_text.mousePressEvent = partial(on_click, self.set_list[card_index]["tcg_player_link"]) # type: ignore
+
+            prices_layout.addWidget(tp_text)
+
+        if "cardmarket_link" in self.set_list[card_index].keys() and self.set_list[card_index]["cardmarket_link"] is not None:
+
+            cm_icon = QLabel("")
+            cm_icon.setPixmap(self.IM.cm_icon[self.mode].scaled(36, 36, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+            cm_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+            cm_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            prices_layout.addWidget(cm_icon)
+
+            cm_text = QLabel(f"View Card on Cardmarket...")
+            cm_text.setFont(self.main_font)
+            cm_text.setProperty("class", "Link_Label")
+            cm_text.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+            cm_text.enterEvent = partial(on_enter, cm_text)
+            cm_text.leaveEvent = partial(on_leave, cm_text) # type: ignore
+            cm_text.mousePressEvent = partial(on_click, self.set_list[card_index]["cardmarket_link"]) # type: ignore
+            prices_layout.addWidget(cm_text)
 
         button_layout = QHBoxLayout()
         button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -2019,7 +2032,15 @@ This project is not affiliated with or associated with these entities.''')
 
         card_text = f"{self.set_list[card_index]["Name"]}"
 
-        name_tags = ["-EX", " BREAK", " VMAX", " VSTAR", " V-UNION", " LEGEND", " \u2662"]
+        name_tags = [("-EX", "vertical-align: bottom;"), 
+                     ("BREAK", "vertical-align: middle;"), 
+                     ("VMAX", "vertical-align: bottom;"), 
+                     ("VSTAR", "vertical-align: bottom;"), 
+                     ("V-UNION", "vertical-align: bottom;"), 
+                     ("LEGEND", "vertical-align: middle;"), 
+                     ("\u2662", "vertical-align: middle;"), 
+                     ("-GX", "vertical-align: middle;"), 
+                     ("LV.X", "vertical-align: top;")]
 
         if self.category_dir == "TCG Pocket" and " ex" in card_text:
 
@@ -2040,7 +2061,7 @@ This project is not affiliated with or associated with these entities.''')
 
             img_path = self.IM.tag_dict["V"]
 
-            html_img = f'<img src="{img_path}" style="vertical-align: middle;">'
+            html_img = f'<img src="{img_path}" style="vertical-align: top;">'
             card_text = card_text.replace(card_text[-2:], f' {html_img}').strip()
             
 
@@ -2051,35 +2072,21 @@ This project is not affiliated with or associated with these entities.''')
             html_img = f'<img src="{img_path}" style="vertical-align: middle;">'
             card_text = card_text.replace("-GX", f' {html_img}').strip()
 
-        elif "-GX" in card_text:
-
-            img_path = self.IM.gx_icon
-
-            html_img = f'<img src="{img_path}" style="vertical-align: middle;">'
-            card_text = card_text.replace("-GX", f' {html_img}').strip()
-
-        elif " LV.X" in card_text:
-
-            img_path = self.IM.tag_dict["LV.X"]
-
-            html_img = f'<img src="{img_path}">'
-            card_text = card_text.replace(" LV.X", f' {html_img}').strip()
-
         elif card_text[-5:] == " Star":
 
             img_path = self.IM.star_icon
 
-            html_img = f'<img src="{img_path}" style="vertical-align: middle;">'
+            html_img = f'<img src="{img_path}" style="vertical-align: top;">'
             card_text = card_text.replace(card_text[-5:], f' {html_img}').strip()
 
         elif self.series:
             for tag in name_tags:
-                if tag in card_text:
+                if tag[0] in card_text:
                    
-                    img_path = self.IM.tag_dict[tag.strip()]
+                    img_path = self.IM.tag_dict[tag[0]]
 
-                    html_img = f'<img src="{img_path}" style="vertical-align: middle;">'
-                    card_text = card_text.replace(tag, f' {html_img}').strip()
+                    html_img = f'<img src="{img_path}" style="{tag[1]}">'
+                    card_text = card_text.replace(tag[0], f' {html_img}').strip()
 
         card_text = card_text.replace("&", "&amp;")
 
@@ -2206,29 +2213,18 @@ This project is not affiliated with or associated with these entities.''')
         current_card = 0
         all_rows = False
 
-        scale_int = 1 if self.category_dir == "TCG Pocket" else 3
-
-        self.rarity_dict = {}
-
-        self.rarity_dict["N/A"] = (QPixmap(f"src/images/rarities/TCG/none_black.png"), QPixmap(f"src/images/rarities/TCG/none_white.png"))
-
-
         data_changed = False
         for card in self.set_list:
             if card["Rarity"] is None:
                 card["Rarity"] = "N/A"
                 data_changed = True
-
         
         if data_changed:
             with open(self.set_fp, "w+") as set_file:
                 json.dump(self.set_list, set_file, indent=4)
 
-        for card in self.set_list:
-            if card["Rarity"] != "N/A" and card["Rarity"] not in self.rarity_dict.keys():
-                rarity_pixmap = QPixmap(f"src/images/rarities/{self.category_dir}/{card["Rarity"].replace(" ", "_").lower()}.png")
-
-                self.rarity_dict[card["Rarity"]] = rarity_pixmap.scaled(rarity_pixmap.width() // scale_int, rarity_pixmap.width() // scale_int, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+        if not self.rarity_dict:
+            self.init_rarities()
 
         while True:
             if all_rows:
@@ -2401,6 +2397,18 @@ This project is not affiliated with or associated with these entities.''')
         self.bb_layout.addWidget(self.f_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
 
 
+    def init_rarities(self):
+        scale_int = 1 if self.category_dir == "TCG Pocket" else 3
+
+        self.rarity_dict["N/A"] = (QPixmap(resource_path(f"src/images/rarities/TCG/none_black.png")), QPixmap(resource_path(f"src/images/rarities/TCG/none_white.png")))
+
+        for rarity in self.IM.rarity_dict[self.category_dir]:
+                
+            rarity_pixmap = QPixmap(resource_path(f"src/images/rarities/{self.category_dir}/{rarity.replace(" ", "_").lower()}.png"))
+
+            self.rarity_dict[rarity] = rarity_pixmap.scaled(rarity_pixmap.width() // scale_int, rarity_pixmap.width() // scale_int, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+
+
     def display_favorites(self):
 
         self.fb_list = []
@@ -2460,18 +2468,9 @@ This project is not affiliated with or associated with these entities.''')
             current_card = 0
             all_rows = False
 
-            scale_int = 1 if self.category_dir == "TCG Pocket" else 3
-
-            self.rarity_dict = {}
-
-            self.rarity_dict["N/A"] = (QPixmap(f"src/images/rarities/TCG/none_black.png"), QPixmap(f"src/images/rarities/TCG/none_white.png"))
-
-
-            for card in self.favorite_list:
-                if card["Rarity"] != "N/A" and card["Rarity"] not in self.rarity_dict.keys():
-                    rarity_pixmap = QPixmap(f"src/images/rarities/{self.category_dir}/{card["Rarity"].replace(" ", "_").lower()}.png")
-
-                    self.rarity_dict[card["Rarity"]] = rarity_pixmap.scaled(rarity_pixmap.width() // scale_int, rarity_pixmap.width() // scale_int, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+            
+            if not self.rarity_dict:
+                self.init_rarities()
 
             while True:
                 if all_rows:
@@ -2602,7 +2601,7 @@ This project is not affiliated with or associated with these entities.''')
 
             self.switch_scrollbar()
 
-        with open("src/app_data/app_settings.json", "w+") as config_file:
+        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
                 json.dump(self.settings, config_file, indent=4)
 
         self.reload_images()

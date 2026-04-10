@@ -211,7 +211,7 @@
             "60"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may move a [R] Energy card attached to Magmortar to 1 of your Benched Pok\u00e9mon."
         ],
         "Weakness": "Water",
@@ -248,7 +248,7 @@
             "60"
         ],
         "Effects": [
-            "If you have a Stadium card in play, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that is the same type as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If you have a Stadium card in play, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon that is the same type as the Defending Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -444,46 +444,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Swampert-Lv60-SV12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-014",
-        "Name": "Yanmega",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/pl3/14_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "100",
-        "Ability": [
-            "Speed Boost"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if Yanmega is your Active Pok\u00e9mon, you may search your discard pile for a [G] Energy card and attach it to Yanmega. This power can't be used if Yanmega is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Wind Return",
-            "Speed Dive"
-        ],
-        "Move-Energy": [
-            "CC",
-            "GGCC"
-        ],
-        "Move-Damage": [
-            "20+",
-            "70"
-        ],
-        "Effects": [
-            "You may return all [G] Energy attached to Yanmega to your hand. If you do, this attack does 20 damage plus 20 more damage for each Energy card you returned.",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90692%2Fpokemon-supreme-victors-yanmega",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Yanmega-Lv53-SV14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SV-013",
         "Name": "Venusaur",
         "Rarity": "Holo Rare",
@@ -524,6 +484,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Venusaur-Lv55-SV13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SV-014",
+        "Name": "Yanmega",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/pl3/14_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Speed Boost"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Yanmega is your Active Pok\u00e9mon, you may search your discard pile for a [G] Energy card and attach it to Yanmega. This power can't be used if Yanmega is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Wind Return",
+            "Speed Dive"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GGCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "70"
+        ],
+        "Effects": [
+            "You may return all [G] Energy attached to Yanmega to your hand. If you do, this attack does 20 damage plus 20 more damage for each Energy card you returned.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90692%2Fpokemon-supreme-victors-yanmega",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Yanmega-Lv53-SV14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SV-015",
         "Name": "Arcanine G",
         "Rarity": "Rare",
@@ -548,7 +548,7 @@
             "40"
         ],
         "Effects": [
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -692,7 +692,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Burned.",
-            "Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -727,7 +727,7 @@
             "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Flip a coin. If heads, this attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Water",
@@ -738,6 +738,42 @@
         "Illustrator": "Wataru Kawahara",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84200%2Fpokemon-supreme-victors-charizard-g",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Charizard-G-Lv65-SV20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-021",
+        "Name": "Chimecho",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pl3/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Heal Bell",
+            "Super Psywave"
+        ],
+        "Move-Energy": [
+            "C",
+            "P"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Remove 3 damage counters from each of your Pok\u00e9mon.",
+            "Choose 1 of your opponent's Pok\u00e9mon. Count the amount of Energy attached to that Pok\u00e9mon. Put that many damage counters on the Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yukiko Baba",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84296%2Fpokemon-supreme-victors-chimecho",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chimecho-Lv30-SV21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-022",
@@ -776,40 +812,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Claydol-Lv51-SV22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-021",
-        "Name": "Chimecho",
+        "ID": "SV-023",
+        "Name": "Crawdaunt G",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/pl3/21_hires.png",
+        "Image": "https://images.pokemontcg.io/pl3/23_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "70",
+        "Type": "Darkness",
+        "HP": "80",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Heal Bell",
-            "Super Psywave"
+            "Smash Turn",
+            "Hyper Beam"
         ],
         "Move-Energy": [
             "C",
-            "P"
+            "DCC"
         ],
         "Move-Damage": [
-            null,
-            null
+            "10",
+            "40"
         ],
         "Effects": [
-            "Remove 3 damage counters from each of your Pok\u00e9mon.",
-            "Choose 1 of your opponent's Pok\u00e9mon. Count the amount of Energy attached to that Pok\u00e9mon. Put that many damage counters on the Pok\u00e9mon."
+            "You may switch Crawdaunt G with 1 of your Benched Pok\u00e9mon.",
+            "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
         ],
-        "Weakness": "Psychic",
+        "Weakness": "Lightning",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84296%2Fpokemon-supreme-victors-chimecho",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chimecho-Lv30-SV21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Wataru Kawahara",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84466%2Fpokemon-supreme-victors-crawdaunt-g",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Crawdaunt-G-Lv61-SV23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-024",
@@ -850,42 +886,6 @@
         "Illustrator": "Kanako Eo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84791%2Fpokemon-supreme-victors-dewgong",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Dewgong-Lv40-SV24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SV-023",
-        "Name": "Crawdaunt G",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/pl3/23_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Smash Turn",
-            "Hyper Beam"
-        ],
-        "Move-Energy": [
-            "C",
-            "DCC"
-        ],
-        "Move-Damage": [
-            "10",
-            "40"
-        ],
-        "Effects": [
-            "You may switch Crawdaunt G with 1 of your Benched Pok\u00e9mon.",
-            "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Wataru Kawahara",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84466%2Fpokemon-supreme-victors-crawdaunt-g",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Crawdaunt-G-Lv61-SV23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-025",
@@ -1168,7 +1168,7 @@
             "30"
         ],
         "Effects": [
-            "Does 30 damage to each of your opponent's Benched Pok\u00e9mon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 30 damage to each of your opponent's Benched Pok\u00e9mon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1604,7 +1604,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -1819,7 +1819,7 @@
             "40"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Water",
@@ -2180,7 +2180,7 @@
         ],
         "Effects": [
             "",
-            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Colorless",
         "Resistance": null,
@@ -2228,42 +2228,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Hippopotas-Lv29-SV61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-063",
-        "Name": "Lopunny",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl3/63_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ice Beam",
-            "Rear Kick"
-        ],
-        "Move-Energy": [
-            "CC",
-            "CC"
-        ],
-        "Move-Damage": [
-            "20",
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kanako Eo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86826%2Fpokemon-supreme-victors-lopunny",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Lopunny-Lv34-SV63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SV-062",
         "Name": "Ivysaur",
         "Rarity": "Uncommon",
@@ -2298,6 +2262,42 @@
         "Illustrator": "Kanako Eo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86303%2Fpokemon-supreme-victors-ivysaur",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Ivysaur-Lv26-SV62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-063",
+        "Name": "Lopunny",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl3/63_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Beam",
+            "Rear Kick"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kanako Eo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86826%2Fpokemon-supreme-victors-lopunny",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Lopunny-Lv34-SV63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-064",
@@ -2611,7 +2611,7 @@
             "20"
         ],
         "Effects": [
-            "Move a Pok\u00e9mon Tool card attached to 1 of your opponent's Pok\u00e9mon to another of your opponent's Pok\u00e9mon (excluding Pok\u00e9mon that already has a Pok\u00e9mon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing. )",
+            "Move a Pok\u00e9mon Tool card attached to 1 of your opponent's Pok\u00e9mon to another of your opponent's Pok\u00e9mon (excluding Pok\u00e9mon that already has a Pok\u00e9mon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -2647,7 +2647,7 @@
             "30"
         ],
         "Effects": [
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Switch Ninjask with 1 of your Benched Pok\u00e9mon.",
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Switch Ninjask with 1 of your Benched Pok\u00e9mon.",
             "Remove from 1 of your Pok\u00e9mon the number of damage counters equal to the damage you did to the Defending Pok\u00e9mon."
         ],
         "Weakness": "Fire",
@@ -2755,7 +2755,7 @@
             "10"
         ],
         "Effects": [
-            "If you have the same number of cards or less in your hand as your opponent, draw cards until you have 1 more card than your opponent. (If you have more cards in your hand than your opponent, this attack does nothing. )",
+            "If you have the same number of cards or less in your hand as your opponent, draw cards until you have 1 more card than your opponent. (If you have more cards in your hand than your opponent, this attack does nothing.)",
             "Attach a [L] Energy card from your hand to 1 of your Pok\u00e9mon."
         ],
         "Weakness": "Fighting",
@@ -2792,7 +2792,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -2802,42 +2802,6 @@
         "Illustrator": "Takao Unno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88515%2Fpokemon-supreme-victors-raichu",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Raichu-Lv35-SV77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SV-079",
-        "Name": "Relicanth",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl3/79_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Grand Swell",
-            "Amnesia"
-        ],
-        "Move-Energy": [
-            "F",
-            "FC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon for each Pok\u00e9mon Tool and Stadium card your opponent has in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Choose 1 of the Defending Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88688%2Fpokemon-supreme-victors-relicanth",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Relicanth-Lv36-SV79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-078",
@@ -2874,6 +2838,42 @@
         "Illustrator": "Ryota Saito",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88609%2Fpokemon-supreme-victors-raticate-g",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Raticate-G-Lv57-SV78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-079",
+        "Name": "Relicanth",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl3/79_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Grand Swell",
+            "Amnesia"
+        ],
+        "Move-Energy": [
+            "F",
+            "FC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon for each Pok\u00e9mon Tool and Stadium card your opponent has in play. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Choose 1 of the Defending Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88688%2Fpokemon-supreme-victors-relicanth",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Relicanth-Lv36-SV79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-080",
@@ -2972,7 +2972,7 @@
         ],
         "Effects": [
             "Discard all [L] Energy attached to Rotom. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.",
-            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -3043,7 +3043,7 @@
             "20"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
         ],
         "Weakness": null,
@@ -3092,42 +3092,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Staravia-Lv16-SV85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-087",
-        "Name": "Wailmer",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl3/87_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Hydro Pump",
-            "Take Down"
-        ],
-        "Move-Energy": [
-            "WC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "20+",
-            "50"
-        ],
-        "Effects": [
-            "Does 20 damage plus 10 more damage for each [W] Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-            "Wailmer does 20 damage to itself."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90454%2Fpokemon-supreme-victors-wailmer",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Wailmer-Lv10-SV87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SV-086",
         "Name": "Togekiss C",
         "Rarity": "Uncommon",
@@ -3162,6 +3126,42 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89926%2Fpokemon-supreme-victors-togekiss-c",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Togekiss-C-Lv60-SV86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-087",
+        "Name": "Wailmer",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl3/87_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hydro Pump",
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "50"
+        ],
+        "Effects": [
+            "Does 20 damage plus 10 more damage for each [W] Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+            "Wailmer does 20 damage to itself."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90454%2Fpokemon-supreme-victors-wailmer",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Wailmer-Lv10-SV87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-088",
@@ -3304,42 +3304,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Bidoof-Lv12-SV91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-093",
-        "Name": "Bulbasaur",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl3/93_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "Move-Energy": [
-            "C",
-            "GC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84035%2Fpokemon-supreme-victors-bulbasaur",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Bulbasaur-Lv13-SV93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SV-092",
         "Name": "Buizel",
         "Rarity": "Common",
@@ -3376,40 +3340,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Buizel-Lv7-SV92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-095",
-        "Name": "Chatot",
+        "ID": "SV-093",
+        "Name": "Bulbasaur",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl3/95_hires.png",
+        "Image": "https://images.pokemontcg.io/pl3/93_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Colorless",
+        "Type": "Grass",
         "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Call for Family",
-            "Nosedive"
+            "Tackle",
+            "Vine Whip"
         ],
         "Move-Energy": [
             "C",
-            "CC"
+            "GC"
         ],
         "Move-Damage": [
-            null,
-            "30"
+            "10",
+            "20"
         ],
         "Effects": [
-            "Search your deck for a Basic Pok\u00e9mon and put it onto your Bench. Shuffle your deck afterward.",
-            "Flip a coin. If tails, Chatot does 10 damage to itself."
+            "",
+            ""
         ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
+        "Weakness": "Fire",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Satoshi Ohta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84242%2Fpokemon-supreme-victors-chatot",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chatot-Lv28-SV95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84035%2Fpokemon-supreme-victors-bulbasaur",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Bulbasaur-Lv13-SV93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-094",
@@ -3446,6 +3410,42 @@
         "Illustrator": "Kanako Eo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84043%2Fpokemon-supreme-victors-buneary",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Buneary-Lv9-SV94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-095",
+        "Name": "Chatot",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl3/95_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Call for Family",
+            "Nosedive"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Search your deck for a Basic Pok\u00e9mon and put it onto your Bench. Shuffle your deck afterward.",
+            "Flip a coin. If tails, Chatot does 10 damage to itself."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Satoshi Ohta",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84242%2Fpokemon-supreme-victors-chatot",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chatot-Lv28-SV95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-096",
@@ -3520,6 +3520,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chimchar-Lv11-SV97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SV-098",
+        "Name": "Chingling",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl3/98_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": [
+            "Baby Evolution"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may put Chimecho from your hand onto Chingling (this counts as evolving Chingling) and remove all damage counters from Chingling."
+        ],
+        "Moves": [
+            "Chime"
+        ],
+        "Move-Energy": [
+            "0"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84315%2Fpokemon-supreme-victors-chingling",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chingling-Lv7-SV98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SV-099",
         "Name": "Combee",
         "Rarity": "Common",
@@ -3556,40 +3592,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Combee-Lv4-SV99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-098",
-        "Name": "Chingling",
+        "ID": "SV-100",
+        "Name": "Corphish",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl3/98_hires.png",
+        "Image": "https://images.pokemontcg.io/pl3/100_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Psychic",
+        "Type": "Water",
         "HP": "50",
-        "Ability": [
-            "Baby Evolution"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may put Chimecho from your hand onto Chingling (this counts as evolving Chingling) and remove all damage counters from Chingling."
-        ],
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Chime"
+            "Crabhammer",
+            "Sharp Pincers"
         ],
         "Move-Energy": [
-            "0"
+            "C",
+            "W"
         ],
         "Move-Damage": [
-            null
+            "10",
+            "10+"
         ],
         "Effects": [
-            "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile. )"
+            "",
+            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
         ],
-        "Weakness": "Psychic",
+        "Weakness": "Lightning",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84315%2Fpokemon-supreme-victors-chingling",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Chingling-Lv7-SV98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84436%2Fpokemon-supreme-victors-corphish",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Corphish-Lv11-SV100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-101",
@@ -3626,42 +3662,6 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84477%2Fpokemon-supreme-victors-croagunk",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Croagunk-Lv10-SV101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SV-100",
-        "Name": "Corphish",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl3/100_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Crabhammer",
-            "Sharp Pincers"
-        ],
-        "Move-Energy": [
-            "C",
-            "W"
-        ],
-        "Move-Damage": [
-            "10",
-            "10+"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84436%2Fpokemon-supreme-victors-corphish",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Corphish-Lv11-SV100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-102",
@@ -3732,42 +3732,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Drifloon-Lv10-SV103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-105",
-        "Name": "Geodude",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl3/105_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Knuckle Punch",
-            "Focus Fist"
-        ],
-        "Move-Energy": [
-            "C",
-            "FC"
-        ],
-        "Move-Damage": [
-            "10",
-            "30"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If tails, this attack does nothing."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85692%2Fpokemon-supreme-victors-geodude",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Geodude-Lv9-SV105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SV-104",
         "Name": "Feebas",
         "Rarity": "Common",
@@ -3802,6 +3766,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85405%2Fpokemon-supreme-victors-feebas",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Feebas-Lv5-SV104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-105",
+        "Name": "Geodude",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl3/105_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Knuckle Punch",
+            "Focus Fist"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85692%2Fpokemon-supreme-victors-geodude",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Geodude-Lv9-SV105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-106",
@@ -4132,7 +4132,7 @@
             "Baby Evolution"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr. ) and remove all damage counters from Mime Jr."
+            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr."
         ],
         "Moves": [
             "Encore"
@@ -4216,7 +4216,7 @@
         ],
         "Effects": [
             "Search your deck for a Basic Pok\u00e9mon and put it onto your Bench. Shuffle your deck afterward.",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -4918,42 +4918,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Absol-G-LVX-SV141?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "SV-143",
-        "Name": "Charizard G LV.X",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/pl3/143_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Level Up",
-        "Type": "Fire",
-        "HP": "120",
-        "Ability": [
-            "Call for Power"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may move an Energy attached to 1 of your Pok\u00e9mon to Charizard G. This power can't be used if Charizard G is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Malevolent Fire"
-        ],
-        "Move-Energy": [
-            "RRCCC"
-        ],
-        "Move-Damage": [
-            "150"
-        ],
-        "Effects": [
-            "Flip a coin. If tails, discard all Energy attached to Charizard G."
-        ],
-        "Weakness": "Water",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "3",
-        "Ex-Rule": "Put this card onto your Active Charizard G. Charizard G LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
-        "Flavor-Text": null,
-        "Illustrator": "Wataru Kawahara",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84201%2Fpokemon-supreme-victors-charizard-g-lvx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Charizard-G-LVX-SV143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "SV-142",
         "Name": "Blaziken FB LV.X",
         "Rarity": "Ultra Rare",
@@ -4988,6 +4952,42 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83915%2Fpokemon-supreme-victors-blaziken-fb-lvx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Blaziken-FB-LVX-SV142?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "SV-143",
+        "Name": "Charizard G LV.X",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/pl3/143_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": [
+            "Call for Power"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may move an Energy attached to 1 of your Pok\u00e9mon to Charizard G. This power can't be used if Charizard G is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Malevolent Fire"
+        ],
+        "Move-Energy": [
+            "RRCCC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, discard all Energy attached to Charizard G."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "Put this card onto your Active Charizard G. Charizard G LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Wataru Kawahara",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84201%2Fpokemon-supreme-victors-charizard-g-lvx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Charizard-G-LVX-SV143?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-144",
@@ -5050,7 +5050,7 @@
             null
         ],
         "Effects": [
-            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Garchomp C can't use Dragon Rush during your next turn."
+            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Garchomp C can't use Dragon Rush during your next turn."
         ],
         "Weakness": "Colorless",
         "Resistance": null,
@@ -5060,42 +5060,6 @@
         "Illustrator": "Shizurow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85629%2Fpokemon-supreme-victors-garchomp-c-lvx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Garchomp-C-LVX-SV145?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "SV-147",
-        "Name": "Staraptor FB LV.X",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/pl3/147_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Level Up",
-        "Type": "Colorless",
-        "HP": "100",
-        "Ability": [
-            "Fast Call"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Staraptor FB is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Defog"
-        ],
-        "Move-Energy": [
-            "CCC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "Before doing damage, you may discard any Stadium card in play. If you do, this attack's base damage is 70 instead of 40."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": "Put this card onto your Active Staraptor FB. Staraptor FB LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
-        "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89512%2Fpokemon-supreme-victors-staraptor-fb-lvx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Staraptor-FB-LVX-SV147?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "SV-146",
@@ -5134,6 +5098,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Rayquaza-C-LVX-SV146?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "SV-147",
+        "Name": "Staraptor FB LV.X",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/pl3/147_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": [
+            "Fast Call"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Staraptor FB is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Defog"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Before doing damage, you may discard any Stadium card in play. If you do, this attack's base damage is 70 instead of 40."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Staraptor FB. Staraptor FB LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89512%2Fpokemon-supreme-victors-staraptor-fb-lvx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Supreme-Victors/Staraptor-FB-LVX-SV147?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "SV-148",
         "Name": "Articuno",
         "Rarity": "Secret Rare",
@@ -5154,7 +5154,7 @@
             "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": "Fighting",
@@ -5218,7 +5218,7 @@
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, and if your opponent has any Benched Pok\u00e9mon, choose 1 of them. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If tails, Zapdos does 30 damage to itself."
+            "Flip a coin. If heads, and if your opponent has any Benched Pok\u00e9mon, choose 1 of them. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If tails, Zapdos does 30 damage to itself."
         ],
         "Weakness": null,
         "Resistance": "Fighting",

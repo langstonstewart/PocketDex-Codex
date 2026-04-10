@@ -20,7 +20,7 @@
             "40"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -56,7 +56,7 @@
         ],
         "Effects": [
             "",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -104,42 +104,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Bellossom-NG3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-005",
-        "Name": "Feraligatr",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo1/5_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "120",
-        "Ability": [
-            "Downpour"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may discard a [W] Energy card from your hand. This power can't be used if Feraligatr is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Riptide"
-        ],
-        "Move-Energy": [
-            "WWW"
-        ],
-        "Move-Damage": [
-            "10+"
-        ],
-        "Effects": [
-            "Does 10 damage plus 10 damage times the number of [W] Energy cards in your discard pile. Then, shuffle all [W] Energy cards from your discard pile into your deck."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85413%2Fpokemon-neo-genesis-feraligatr-5",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Feraligatr-NG5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-004",
         "Name": "Feraligatr",
         "Rarity": "Holo Rare",
@@ -174,6 +138,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85412%2Fpokemon-neo-genesis-feraligatr-4",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Feraligatr-NG4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-005",
+        "Name": "Feraligatr",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/neo1/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": [
+            "Downpour"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may discard a [W] Energy card from your hand. This power can't be used if Feraligatr is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Riptide"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Does 10 damage plus 10 damage times the number of [W] Energy cards in your discard pile. Then, shuffle all [W] Energy cards from your discard pile into your deck."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85413%2Fpokemon-neo-genesis-feraligatr-5",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Feraligatr-NG5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-006",
@@ -284,6 +284,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Kingdra-NG8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "N1-009",
+        "Name": "Lugia",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/neo1/9_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Elemental Blast"
+        ],
+        "Move-Energy": [
+            "RWL"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Discard a [R] Energy card, a [W] Energy card, and a [L] Energy card attached to Lugia in order to use this attack."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hironobu Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86903%2Fpokemon-neo-genesis-lugia",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Lugia-NG9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "N1-010",
         "Name": "Meganium",
         "Rarity": "Holo Rare",
@@ -320,36 +352,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Meganium-NG10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-009",
-        "Name": "Lugia",
+        "ID": "N1-011",
+        "Name": "Meganium",
         "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo1/9_hires.png",
+        "Image": "https://images.pokemontcg.io/neo1/11_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": [
+            "Wild Growth"
+        ],
+        "Ability-Effect": [
+            "As long as Meganium is in play each [G] Energy card attached to your [G] Pok\u00e9mon instead provides [G][G]. This power stops working while Meganium is Asleep, Confused, or Paralyzed."
+        ],
         "Moves": [
-            "Elemental Blast"
+            "Soothing Scent"
         ],
         "Move-Energy": [
-            "RWL"
+            "GGGG"
         ],
         "Move-Damage": [
-            "90"
+            "40"
         ],
         "Effects": [
-            "Discard a [R] Energy card, a [W] Energy card, and a [L] Energy card attached to Lugia in order to use this attack."
+            "The Defending Pok\u00e9mon is now Asleep."
         ],
-        "Weakness": "Psychic",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "3",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86903%2Fpokemon-neo-genesis-lugia",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Lugia-NG9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87287%2Fpokemon-neo-genesis-meganium-11",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Meganium-NG11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-012",
@@ -386,42 +422,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88011%2Fpokemon-neo-genesis-pichu",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Pichu-NG12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "N1-011",
-        "Name": "Meganium",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo1/11_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "100",
-        "Ability": [
-            "Wild Growth"
-        ],
-        "Ability-Effect": [
-            "As long as Meganium is in play each [G] Energy card attached to your [G] Pok\u00e9mon instead provides [G][G]. This power stops working while Meganium is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Soothing Scent"
-        ],
-        "Move-Energy": [
-            "GGGG"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87287%2Fpokemon-neo-genesis-meganium-11",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Meganium-NG11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-013",
@@ -496,42 +496,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Slowking-NG14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-016",
-        "Name": "Togetic",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo1/16_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Super Metronome",
-            "Fly"
-        ],
-        "Move-Energy": [
-            "C",
-            "CCC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, choose an attack on 1 of your opponent's Pok\u00e9mon. Super Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack. ) (No matter what type the Defending Pok\u00e9mon is, Togetic's type is still [C]. ) Togetic performs that attack. (Togetic can make that attack even if it does not have the appropriate number or type of Energy attached to it necessary to make the attack. )",
-            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Togetic; if tails, this attack does nothing (not even damage)."
-        ],
-        "Weakness": null,
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89939%2Fpokemon-neo-genesis-togetic",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Togetic-NG16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-015",
         "Name": "Steelix",
         "Rarity": "Holo Rare",
@@ -566,6 +530,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89555%2Fpokemon-neo-genesis-steelix",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Steelix-NG15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-016",
+        "Name": "Togetic",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/neo1/16_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Super Metronome",
+            "Fly"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, choose an attack on 1 of your opponent's Pok\u00e9mon. Super Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type the Defending Pok\u00e9mon is, Togetic's type is still [C].) Togetic performs that attack. (Togetic can make that attack even if it does not have the appropriate number or type of Energy attached to it necessary to make the attack.)",
+            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Togetic; if tails, this attack does nothing (not even damage)."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89939%2Fpokemon-neo-genesis-togetic",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Togetic-NG16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-017",
@@ -628,7 +628,7 @@
             "80"
         ],
         "Effects": [
-            "Discard 3 [R] Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pok\u00e9mon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 3 [R] Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pok\u00e9mon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -648,7 +648,7 @@
         "Rarity": "Holo Rare",
         "Image": "https://images.pokemontcg.io/neo1/19_hires.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87368%2Fpokemon-neo-genesis-metal-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Metal-Energy-N119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -714,7 +714,7 @@
         ],
         "Effects": [
             "Does 10 damage times the number of damage counters on Donphan.",
-            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with his or her Active Pok\u00e9mon, then, if you have any Benched Pok\u00e9mon, you switch 1 of them with your Active Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with his or her Active Pok\u00e9mon, then, if you have any Benched Pok\u00e9mon, you switch 1 of them with your Active Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -724,6 +724,36 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84872%2Fpokemon-neo-genesis-donphan",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Donphan-NG21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-022",
+        "Name": "Elekid",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/neo1/22_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "30",
+        "Ability": [
+            "Baby Rule",
+            "Playful Punch"
+        ],
+        "Ability-Effect": [
+            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack.",
+            "Once during your turn (before your attack), you may flip a coin. If heads, do 20 damage to your opponent's Active Pok\u00e9mon. (Apply Weakness and Resistance.) Either way, this ends your turn. This power can't be used if Elekid is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [],
+        "Move-Energy": [],
+        "Move-Damage": [],
+        "Effects": [],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85168%2Fpokemon-neo-genesis-elekid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Elekid-NG22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-023",
@@ -762,36 +792,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Magby-NG23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-022",
-        "Name": "Elekid",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo1/22_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "30",
-        "Ability": [
-            "Baby Rule",
-            "Playful Punch"
-        ],
-        "Ability-Effect": [
-            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack.",
-            "Once during your turn (before your attack), you may flip a coin. If heads, do 20 damage to your opponent's Active Pok\u00e9mon. (Apply Weakness and Resistance. ) Either way, this ends your turn. This power can't be used if Elekid is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [],
-        "Move-Energy": [],
-        "Move-Damage": [],
-        "Effects": [],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85168%2Fpokemon-neo-genesis-elekid",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Elekid-NG22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-024",
         "Name": "Murkrow",
         "Rarity": "Rare",
@@ -815,7 +815,7 @@
             null
         ],
         "Effects": [
-            "The Defending Pok\u00e9mon can't retreat as long as Murkrow remains your Active Pok\u00e9mon. (Benching or evolving either Pok\u00e9mon ends this effect. )",
+            "The Defending Pok\u00e9mon can't retreat as long as Murkrow remains your Active Pok\u00e9mon. (Benching or evolving either Pok\u00e9mon ends this effect.)",
             "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": null,
@@ -864,42 +864,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Sneasel-NG25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-027",
-        "Name": "Ariados",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo1/27_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spider Web",
-            "Poison Bite"
-        ],
-        "Move-Energy": [
-            "G",
-            "GGG"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't retreat. (Benching or evolving that Pok\u00e9mon ends this effect. )",
-            "If this attack damages the Defending Pok\u00e9mon, the Defending Pok\u00e9mon is now Poisoned and you remove a number of damage counters from Ariados equal to half that damage (rounded up to the nearest 10). If Ariados has fewer damage counters than that, remove all of them."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83615%2Fpokemon-neo-genesis-ariados",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Ariados-NG27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-026",
         "Name": "Aipom",
         "Rarity": "Uncommon",
@@ -936,6 +900,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Aipom-NG26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "N1-027",
+        "Name": "Ariados",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/neo1/27_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spider Web",
+            "Poison Bite"
+        ],
+        "Move-Energy": [
+            "G",
+            "GGG"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't retreat. (Benching or evolving that Pok\u00e9mon ends this effect.)",
+            "If this attack damages the Defending Pok\u00e9mon, the Defending Pok\u00e9mon is now Poisoned and you remove a number of damage counters from Ariados equal to half that damage (rounded up to the nearest 10). If Ariados has fewer damage counters than that, remove all of them."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83615%2Fpokemon-neo-genesis-ariados",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Ariados-NG27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "N1-028",
         "Name": "Bayleef",
         "Rarity": "Uncommon",
@@ -960,7 +960,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned.",
-            "During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pok\u00e9mon Powers and Trainer cards still happen. )"
+            "During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pok\u00e9mon Powers and Trainer cards still happen.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -1044,42 +1044,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Clefairy-NG30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-032",
-        "Name": "Croconaw",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo1/32_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Tackle",
-            "Sweep Away"
-        ],
-        "Move-Energy": [
-            "CC",
-            "WWC"
-        ],
-        "Move-Damage": [
-            "20",
-            "50"
-        ],
-        "Effects": [
-            "",
-            "Discard the top 3 cards from your deck."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84496%2Fpokemon-neo-genesis-croconaw-32",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Croconaw-NG32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-031",
         "Name": "Croconaw",
         "Rarity": "Uncommon",
@@ -1114,6 +1078,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84495%2Fpokemon-neo-genesis-croconaw-31",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Croconaw-NG31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-032",
+        "Name": "Croconaw",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/neo1/32_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle",
+            "Sweep Away"
+        ],
+        "Move-Energy": [
+            "CC",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "",
+            "Discard the top 3 cards from your deck."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84496%2Fpokemon-neo-genesis-croconaw-32",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Croconaw-NG32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-033",
@@ -1260,42 +1260,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Gloom-NG36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-038",
-        "Name": "Lanturn",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo1/38_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "70",
-        "Ability": [
-            "Hydroelectric Power"
-        ],
-        "Ability-Effect": [
-            "You may make Floodlight do 10 more damage for each [W] Energy attached to Lanturn, but not used to pay for Floodlight's Energy cost. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Floodlight"
-        ],
-        "Move-Energy": [
-            "LL"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86603%2Fpokemon-neo-genesis-lanturn",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Lanturn-NG38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-037",
         "Name": "Granbull",
         "Rarity": "Uncommon",
@@ -1330,6 +1294,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85861%2Fpokemon-neo-genesis-granbull",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Granbull-NG37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-038",
+        "Name": "Lanturn",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/neo1/38_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": [
+            "Hydroelectric Power"
+        ],
+        "Ability-Effect": [
+            "You may make Floodlight do 10 more damage for each [W] Energy attached to Lanturn, but not used to pay for Floodlight's Energy cost. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed."
+        ],
+        "Moves": [
+            "Floodlight"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86603%2Fpokemon-neo-genesis-lanturn",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Lanturn-NG38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-039",
@@ -1531,8 +1531,8 @@
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack. (Benching or evolving the Defending Pok\u00e9mon ends this effect. )",
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon; if tails, this attack does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack. (Benching or evolving the Defending Pok\u00e9mon ends this effect.)",
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon; if tails, this attack does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -1568,7 +1568,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your own Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
@@ -1604,7 +1604,7 @@
         ],
         "Effects": [
             "Discard 1 [R] Energy card attached to Quilava in order to use this attack.",
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1640,7 +1640,7 @@
         ],
         "Effects": [
             "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-            "If the Defending Pok\u00e9mon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pok\u00e9mon with that Char counter. (Char counters stay on the Pok\u00e9mon as long as it's in play. )"
+            "If the Defending Pok\u00e9mon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pok\u00e9mon with that Char counter. (Char counters stay on the Pok\u00e9mon as long as it's in play.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1676,7 +1676,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If your opponent has any Benched Pok\u00e9mon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1686,38 +1686,6 @@
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89009%2Fpokemon-neo-genesis-seadra",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Seadra-NG48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "N1-050",
-        "Name": "Sunflora",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo1/50_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Petal Dance"
-        ],
-        "Move-Energy": [
-            "GGG"
-        ],
-        "Move-Damage": [
-            "30\u00d7"
-        ],
-        "Effects": [
-            "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage)."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89612%2Fpokemon-neo-genesis-sunflora",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Sunflora-NG50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-049",
@@ -1754,6 +1722,38 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89252%2Fpokemon-neo-genesis-skiploom",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Skiploom-NG49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-050",
+        "Name": "Sunflora",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/neo1/50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Petal Dance"
+        ],
+        "Move-Energy": [
+            "GGG"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage)."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89612%2Fpokemon-neo-genesis-sunflora",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Sunflora-NG50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-051",
@@ -1848,7 +1848,7 @@
         ],
         "Effects": [
             "",
-            "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen. )"
+            "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -1883,7 +1883,7 @@
             "20"
         ],
         "Effects": [
-            "If the Defending Pok\u00e9mon attacks Chikorita during your opponent's next turn, any damage done to Chikorita is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pok\u00e9mon ends this effect. )",
+            "If the Defending Pok\u00e9mon attacks Chikorita during your opponent's next turn, any damage done to Chikorita is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pok\u00e9mon ends this effect.)",
             ""
         ],
         "Weakness": "Fire",
@@ -1955,7 +1955,7 @@
             "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack Cyndaquil during your opponent's next turn. (Benching or evolving either Pok\u00e9mon ends this effect. )",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack Cyndaquil during your opponent's next turn. (Benching or evolving either Pok\u00e9mon ends this effect.)",
             "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": "Water",
@@ -1966,42 +1966,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84543%2Fpokemon-neo-genesis-cyndaquil-56",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Cyndaquil-NG56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "N1-058",
-        "Name": "Girafarig",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/58_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Agility",
-            "Psybeam"
-        ],
-        "Move-Energy": [
-            "CC",
-            "PP"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
-        ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85726%2Fpokemon-neo-genesis-girafarig",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Girafarig-NG58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-057",
@@ -2040,40 +2004,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Cyndaquil-V1-NG57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-060",
-        "Name": "Hoothoot",
+        "ID": "N1-058",
+        "Name": "Girafarig",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/60_hires.png",
+        "Image": "https://images.pokemontcg.io/neo1/58_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
+        "Type": "Psychic",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Hypnosis",
-            "Peck"
+            "Agility",
+            "Psybeam"
         ],
         "Move-Energy": [
-            "C",
-            "CC"
+            "CC",
+            "PP"
         ],
         "Move-Damage": [
-            null,
+            "10",
             "20"
         ],
         "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep.",
-            ""
+            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused."
         ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
+        "Weakness": null,
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86169%2Fpokemon-neo-genesis-hoothoot",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Hoothoot-NG60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85726%2Fpokemon-neo-genesis-girafarig",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Girafarig-NG58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-059",
@@ -2112,6 +2076,78 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Gligar-NG59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "N1-060",
+        "Name": "Hoothoot",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/neo1/60_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hypnosis",
+            "Peck"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86169%2Fpokemon-neo-genesis-hoothoot",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Hoothoot-NG60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-061",
+        "Name": "Hoppip",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/neo1/61_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hop",
+            "Sprout"
+        ],
+        "Move-Energy": [
+            "C",
+            "G"
+        ],
+        "Move-Damage": [
+            "10",
+            null
+        ],
+        "Effects": [
+            "",
+            "Search your deck for a Basic Pok\u00e9mon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86177%2Fpokemon-neo-genesis-hoppip",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Hoppip-NG61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "N1-062",
         "Name": "Horsea",
         "Rarity": "Common",
@@ -2142,74 +2178,6 @@
         "Illustrator": "Miki Tanaka",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86185%2Fpokemon-neo-genesis-horsea",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Horsea-NG62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "N1-061",
-        "Name": "Hoppip",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/61_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Hop",
-            "Sprout"
-        ],
-        "Move-Energy": [
-            "C",
-            "G"
-        ],
-        "Move-Damage": [
-            "10",
-            null
-        ],
-        "Effects": [
-            "",
-            "Search your deck for a Basic Pok\u00e9mon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86177%2Fpokemon-neo-genesis-hoppip",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Hoppip-NG61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "N1-064",
-        "Name": "Mantine",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/64_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Undulate"
-        ],
-        "Move-Energy": [
-            "WW"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87179%2Fpokemon-neo-genesis-mantine",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Mantine-NG64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-063",
@@ -2248,40 +2216,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Ledyba-NG63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-066",
-        "Name": "Marill",
+        "ID": "N1-064",
+        "Name": "Mantine",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/66_hires.png",
+        "Image": "https://images.pokemontcg.io/neo1/64_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
-        "HP": "40",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Defense Curl",
-            "Bubble Bomb"
+            "Undulate"
         ],
         "Move-Energy": [
-            "C",
             "WW"
         ],
         "Move-Damage": [
-            null,
-            "30"
+            "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen. )",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, Marill does 10 damage to itself."
+            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine."
         ],
         "Weakness": "Lightning",
-        "Resistance": null,
+        "Resistance": "Fighting",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87213%2Fpokemon-neo-genesis-marill",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Marill-NG66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87179%2Fpokemon-neo-genesis-mantine",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Mantine-NG64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-065",
@@ -2320,6 +2284,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Mareep-NG65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "N1-066",
+        "Name": "Marill",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/neo1/66_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Defense Curl",
+            "Bubble Bomb"
+        ],
+        "Move-Energy": [
+            "C",
+            "WW"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed. If tails, Marill does 10 damage to itself."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87213%2Fpokemon-neo-genesis-marill",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Marill-NG66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "N1-067",
         "Name": "Natu",
         "Rarity": "Common",
@@ -2344,7 +2344,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
         ],
         "Weakness": "Psychic",
         "Resistance": "Fighting",
@@ -2392,42 +2392,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Oddish-NG68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-070",
-        "Name": "Pikachu",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/70_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Quick Attack",
-            "Agility"
-        ],
-        "Move-Energy": [
-            "C",
-            "LLC"
-        ],
-        "Move-Damage": [
-            "10+",
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Pikachu."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88072%2Fpokemon-neo-genesis-pikachu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Pikachu-NG70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-069",
         "Name": "Onix",
         "Rarity": "Common",
@@ -2462,6 +2426,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87875%2Fpokemon-neo-genesis-onix",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Onix-NG69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-070",
+        "Name": "Pikachu",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/neo1/70_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Quick Attack",
+            "Agility"
+        ],
+        "Move-Energy": [
+            "C",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "10+",
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Pikachu."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88072%2Fpokemon-neo-genesis-pikachu",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Pikachu-NG70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-071",
@@ -2519,7 +2519,7 @@
             "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen. )",
+            "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fire",
@@ -2591,7 +2591,7 @@
             "10"
         ],
         "Effects": [
-            "Flip a coin. If heads and if your opponent has any Benched Pok\u00e9mon, he of she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon. )",
+            "Flip a coin. If heads and if your opponent has any Benched Pok\u00e9mon, he of she chooses 1 of them and switches it with the Defending Pok\u00e9mon. (Do the damage before switching the Pok\u00e9mon.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fighting",
@@ -2712,38 +2712,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Sudowoodo-NG77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-079",
-        "Name": "Swinub",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo1/79_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Powder Snow"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Grass",
-        "Resistance": "Lightning",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89698%2Fpokemon-neo-genesis-swinub",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Swinub-NG79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-078",
         "Name": "Sunkern",
         "Rarity": "Common",
@@ -2778,6 +2746,38 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89617%2Fpokemon-neo-genesis-sunkern",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Sunkern-NG78?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-079",
+        "Name": "Swinub",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/neo1/79_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Powder Snow"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Grass",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89698%2Fpokemon-neo-genesis-swinub",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Swinub-NG79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-080",
@@ -2839,7 +2839,7 @@
             "10\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pok\u00e9mon ends this effect. )",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pok\u00e9mon ends this effect.)",
             "Flip 3 coins. This attack does 10 damage times the number of heads."
         ],
         "Weakness": "Grass",
@@ -2910,7 +2910,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/neo1/84_hires.png",
         "Pack": null,
-        "Description": "Whenever an attack, Pok\u00e9mon Power, or Trainer card discards another player's non-[C] Energy card from a Pok\u00e9mon, return that Energy card to its owner's hand. (Energy cards that are discarded when that Pok\u00e9mon is Knocked Out don't count. )",
+        "Description": "Whenever an attack, Pok\u00e9mon Power, or Trainer card discards another player's non-[C] Energy card from a Pok\u00e9mon, return that Energy card to its owner's hand. (Energy cards that are discarded when that Pok\u00e9mon is Knocked Out don't count.)",
         "Illustrator": "Shin-ichi Yoshikawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85066%2Fpokemon-neo-genesis-ecogym",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Ecogym-N184?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2994,7 +2994,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/neo1/90_hires.png",
         "Pack": null,
-        "Description": "Your opponent may choose 5 Basic Pok\u00e9mon, Evolution, and/or basic Energy cards in his or her discard pile. (If your opponent doesn't have that many, he or she chooses all or none of them. ) If your opponent chooses any cards, he or she shuffles them into his or her deck. Either way, you may do the same, and you can't play any more Trainer cards this turn.",
+        "Description": "Your opponent may choose 5 Basic Pok\u00e9mon, Evolution, and/or basic Energy cards in his or her discard pile. (If your opponent doesn't have that many, he or she chooses all or none of them.) If your opponent chooses any cards, he or she shuffles them into his or her deck. Either way, you may do the same, and you can't play any more Trainer cards this turn.",
         "Illustrator": "\"Big Mama\" Tagawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89918%2Fpokemon-neo-genesis-time-capsule",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Time-Capsule-N190?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3056,20 +3056,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Miracle-Berry-N194?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-096",
-        "Name": "Professor Elm",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo1/96_hires.png",
-        "Pack": null,
-        "Description": "Shuffle your hand into your deck. Then, draw 7 cards. You can't play any more Trainer cards this turn.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88388%2Fpokemon-neo-genesis-professor-elm",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Professor-Elm-N196?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "N1-095",
         "Name": "New Pok\u00e9dex",
         "Card-Type": "Item",
@@ -3082,6 +3068,20 @@
         "Illustrator": "Keiji Kinebuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87690%2Fpokemon-neo-genesis-new-pokedex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/New-Pokedex-N195?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-096",
+        "Name": "Professor Elm",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/neo1/96_hires.png",
+        "Pack": null,
+        "Description": "Shuffle your hand into your deck. Then, draw 7 cards. You can't play any more Trainer cards this turn.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88388%2Fpokemon-neo-genesis-professor-elm",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Professor-Elm-N196?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-097",
@@ -3162,24 +3162,10 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/neo1/102_hires.png",
         "Pack": null,
-        "Description": "Your opponent may search his or her deck for 1 Basic Pok\u00e9mon card and put it onto his or her Bench. Then, you may search your deck for 1 Basic Pok\u00e9mon card and put it onto your Bench. Then, each player shuffles his or her deck. (A player can't do any of this if his or her Bench is full. )",
+        "Description": "Your opponent may search his or her deck for 1 Basic Pok\u00e9mon card and put it onto his or her Bench. Then, you may search your deck for 1 Basic Pok\u00e9mon card and put it onto your Bench. Then, each player shuffles his or her deck. (A player can't do any of this if his or her Bench is full.)",
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88228%2Fpokemon-neo-genesis-pokemon-march",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Pokemon-March-N1102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "N1-104",
-        "Name": "Darkness Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo1/104_hires.png",
-        "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
-        "Illustrator": "Milky Isobe",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84695%2Fpokemon-neo-genesis-darkness-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Darkness-Energy-N1104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-103",
@@ -3196,18 +3182,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Super-Rod-NG103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "N1-106",
-        "Name": "Fighting Energy",
-        "Card-Type": "Basic Energy",
+        "ID": "N1-104",
+        "Name": "Darkness Energy",
+        "Card-Type": "Special Energy",
         "Ability": null,
         "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/neo1/106_hires.png",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/neo1/104_hires.png",
         "Pack": null,
-        "Description": "",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85434%2Fpokemon-neo-genesis-fighting-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Fighting-Energy-NG106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
+        "Illustrator": "Milky Isobe",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84695%2Fpokemon-neo-genesis-darkness-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Darkness-Energy-N1104?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-105",
@@ -3222,6 +3208,20 @@
         "Illustrator": "Hideki Kazama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88654%2Fpokemon-neo-genesis-recycle-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Recycle-Energy-N1105?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "N1-106",
+        "Name": "Fighting Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/neo1/106_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85434%2Fpokemon-neo-genesis-fighting-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Genesis/Fighting-Energy-NG106?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "N1-107",

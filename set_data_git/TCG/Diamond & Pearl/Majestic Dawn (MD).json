@@ -1,5 +1,41 @@
 [
     {
+        "ID": "MD-001",
+        "Name": "Articuno",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/dp5/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": [
+            "Freezing Screech"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Articuno from your hand onto your Bench, you may flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon. That Pok\u00e9mon is now Paralyzed."
+        ],
+        "Moves": [
+            "Blizzard"
+        ],
+        "Move-Energy": [
+            "WWC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83649%2Fpokemon-majestic-dawn-articuno",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Articuno-Lv46-MD1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "MD-002",
         "Name": "Cresselia",
         "Rarity": "Holo Rare",
@@ -34,42 +70,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84468%2Fpokemon-majestic-dawn-cresselia",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Cresselia-Lv43-MD2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MD-001",
-        "Name": "Articuno",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/dp5/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": [
-            "Freezing Screech"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you put Articuno from your hand onto your Bench, you may flip a coin. If heads, choose 1 of the Defending Pok\u00e9mon. That Pok\u00e9mon is now Paralyzed."
-        ],
-        "Moves": [
-            "Blizzard"
-        ],
-        "Move-Energy": [
-            "WWC"
-        ],
-        "Move-Damage": [
-            "60"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. If tails, this attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83649%2Fpokemon-majestic-dawn-articuno",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Articuno-Lv46-MD1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-003",
@@ -212,7 +212,7 @@
             "70"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -439,7 +439,7 @@
             "30"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward.",
             "The Defending Pok\u00e9mon is now Asleep."
         ],
         "Weakness": "Lightning",
@@ -623,8 +623,8 @@
             "50+"
         ],
         "Effects": [
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Does 50 damage plus 10 more damage for each of your Benched Pok\u00e9mon. Flip a coin. If tails, this attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 50 damage plus 10 more damage for each of your Benched Pok\u00e9mon. Flip a coin. If tails, this attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -672,42 +672,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Espeon-Lv44-MD18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MD-020",
-        "Name": "Glaceon",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/dp5/20_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ice Shot",
-            "Icy Wind"
-        ],
-        "Move-Energy": [
-            "WC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "30",
-            "60"
-        ],
-        "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85745%2Fpokemon-majestic-dawn-glaceon-20",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Glaceon-Lv46-MD20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MD-019",
         "Name": "Flareon",
         "Rarity": "Rare",
@@ -742,6 +706,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85496%2Fpokemon-majestic-dawn-flareon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Flareon-Lv43-MD19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MD-020",
+        "Name": "Glaceon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/dp5/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Shot",
+            "Icy Wind"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "60"
+        ],
+        "Effects": [
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85745%2Fpokemon-majestic-dawn-glaceon-20",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Glaceon-Lv46-MD20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-021",
@@ -803,7 +803,7 @@
             "40\u00d7"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard all [R] Energy attached to Infernape. This attack does 40 damage times the amount of [R] Energy you discarded."
         ],
         "Weakness": "Water",
@@ -912,7 +912,7 @@
         ],
         "Effects": [
             "",
-            "If Plusle is on your Bench, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "If Plusle is on your Bench, this attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1068,6 +1068,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Scizor-Lv42-MD29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "MD-030",
+        "Name": "Torterra",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/dp5/30_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Earthquake",
+            "Frenzy Plant"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GGCC"
+        ],
+        "Move-Damage": [
+            "60",
+            "100"
+        ],
+        "Effects": [
+            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Torterra can't use Frenzy Plant during your next turn."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Daisuke Ito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89984%2Fpokemon-majestic-dawn-torterra",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Torterra-Lv51-MD30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "MD-031",
         "Name": "Toxicroak",
         "Rarity": "Rare",
@@ -1102,42 +1138,6 @@
         "Illustrator": "Kent Kanetsuna",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90008%2Fpokemon-majestic-dawn-toxicroak",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Toxicroak-Lv32-MD31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MD-030",
-        "Name": "Torterra",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/dp5/30_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Grass",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Earthquake",
-            "Frenzy Plant"
-        ],
-        "Move-Energy": [
-            "CC",
-            "GGCC"
-        ],
-        "Move-Damage": [
-            "60",
-            "100"
-        ],
-        "Effects": [
-            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Torterra can't use Frenzy Plant during your next turn."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Daisuke Ito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89984%2Fpokemon-majestic-dawn-torterra",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Torterra-Lv51-MD30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-032",
@@ -1212,42 +1212,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Unown-P-Lv17-MD33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MD-035",
-        "Name": "Ambipom",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp5/35_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Astonish",
-            "Hang High"
-        ],
-        "Move-Energy": [
-            "CC",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "20",
-            null
-        ],
-        "Effects": [
-            "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83527%2Fpokemon-majestic-dawn-ambipom",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Ambipom-Lv34-MD35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MD-034",
         "Name": "Vaporeon",
         "Rarity": "Rare",
@@ -1282,6 +1246,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90284%2Fpokemon-majestic-dawn-vaporeon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Vaporeon-Lv45-MD34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MD-035",
+        "Name": "Ambipom",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp5/35_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Astonish",
+            "Hang High"
+        ],
+        "Move-Energy": [
+            "CC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20",
+            null
+        ],
+        "Effects": [
+            "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83527%2Fpokemon-majestic-dawn-ambipom",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Ambipom-Lv34-MD35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-036",
@@ -1599,8 +1599,8 @@
             "50"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1720,42 +1720,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Staravia-Lv23-MD47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MD-049",
-        "Name": "Unown [Q]",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp5/49_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "30",
-        "Ability": [
-            "QUICK"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if Unown Q is on your Bench, you may discard all cards attached to Unown Q and attach Unown Q to 1 of your Pok\u00e9mon as a Pok\u00e9mon Tool card. As long as Unown Q is attached to a Pok\u00e9mon, you pay [C] less to retreat that Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Hidden Power"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "20"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kent Kanetsuna",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90230%2Fpokemon-majestic-dawn-unown-q",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Unown-Q-Lv15-MD49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "MD-048",
         "Name": "Sudowoodo",
         "Rarity": "Uncommon",
@@ -1792,6 +1756,78 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Sudowoodo-Lv25-MD48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "MD-049",
+        "Name": "Unown [Q]",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp5/49_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "30",
+        "Ability": [
+            "QUICK"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), if Unown Q is on your Bench, you may discard all cards attached to Unown Q and attach Unown Q to 1 of your Pok\u00e9mon as a Pok\u00e9mon Tool card. As long as Unown Q is attached to a Pok\u00e9mon, you pay [C] less to retreat that Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Hidden Power"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kent Kanetsuna",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90230%2Fpokemon-majestic-dawn-unown-q",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Unown-Q-Lv15-MD49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MD-050",
+        "Name": "Aipom",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp5/50_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Collect",
+            "Hand Trick"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Draw a card.",
+            "Return Aipom and all cards attached to it to your hand. (If you don't have any Benched Pok\u00e9mon, this attack does nothing.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83490%2Fpokemon-majestic-dawn-aipom-50",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Aipom-Lv16-MD50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "MD-051",
         "Name": "Aipom",
         "Rarity": "Common",
@@ -1826,42 +1862,6 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83491%2Fpokemon-majestic-dawn-aipom-51",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Aipom-Lv15-MD51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MD-050",
-        "Name": "Aipom",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp5/50_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Collect",
-            "Hand Trick"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Draw a card.",
-            "Return Aipom and all cards attached to it to your hand. (If you don't have any Benched Pok\u00e9mon, this attack does nothing. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83490%2Fpokemon-majestic-dawn-aipom-50",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Aipom-Lv16-MD50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-052",
@@ -2104,7 +2104,7 @@
             null
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2296,6 +2296,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Eevee-Lv12-MD63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "MD-064",
+        "Name": "Electrike",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp5/64_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Random Spark",
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "L",
+            "CC"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Daisuke Ito",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85140%2Fpokemon-majestic-dawn-electrike",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Electrike-Lv18-MD64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "MD-065",
         "Name": "Glameow",
         "Rarity": "Common",
@@ -2330,42 +2366,6 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85760%2Fpokemon-majestic-dawn-glameow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Glameow-Lv15-MD65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MD-064",
-        "Name": "Electrike",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp5/64_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Random Spark",
-            "Tackle"
-        ],
-        "Move-Energy": [
-            "L",
-            "CC"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            ""
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Daisuke Ito",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85140%2Fpokemon-majestic-dawn-electrike",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Electrike-Lv18-MD64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-066",
@@ -2500,7 +2500,7 @@
             "20"
         ],
         "Effects": [
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2644,7 +2644,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2654,42 +2654,6 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89142%2Fpokemon-majestic-dawn-shellos-east-sea",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Shellos-East-Sea-Lv19-MD73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MD-075",
-        "Name": "Starly",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp5/75_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Whirlwind",
-            "Flap"
-        ],
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kent Kanetsuna",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89523%2Fpokemon-majestic-dawn-starly",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Starly-Lv10-MD75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-074",
@@ -2726,6 +2690,42 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89441%2Fpokemon-majestic-dawn-spearow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Spearow-Lv10-MD74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MD-075",
+        "Name": "Starly",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp5/75_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Whirlwind",
+            "Flap"
+        ],
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kent Kanetsuna",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89523%2Fpokemon-majestic-dawn-starly",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Starly-Lv10-MD75?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-076",
@@ -2919,7 +2919,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/dp5/84_hires.png",
         "Pack": null,
-        "Description": "Play Old Amber as if it were a [C] Basic Pok\u00e9mon. (Old Amber counts as a Trainer card as well, but if Old Amber is Knocked Out, this counts as a Knocked Out Pok\u00e9mon. ) Old Amber can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Old Amber from play. (This doesn't count as a Knocked Out Pok\u00e9mon. )                        Ability:                          Hard Amber                                              As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent's).",
+        "Description": "Play Old Amber as if it were a [C] Basic Pok\u00e9mon. (Old Amber counts as a Trainer card as well, but if Old Amber is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Old Amber can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Old Amber from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87848%2Fpokemon-majestic-dawn-old-amber",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Old-Amber-MD84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2994,29 +2994,10 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/dp5/89_hires.png",
         "Pack": null,
-        "Description": "Play Dome Fossil as if it were a [C] Basic Pok\u00e9mon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon. ) Dome Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon. )                        Ability:                          Rock Reaction                                              When you attach a [F] Energy card from your hand to Dome Fossil (excluding effects of attacks or Pok\u00e9-Powers), search your deck for a card that evolves from Dome Fossil and put it onto Dome Fossil (this counts as evolving Dome Fossil). Shuffle your deck afterward.",
+        "Description": "Play Dome Fossil as if it were a [C] Basic Pok\u00e9mon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Dome Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84868%2Fpokemon-majestic-dawn-dome-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Dome-Fossil-MD89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "MD-091",
-        "Name": "Helix Fossil",
-        "Card-Type": "Item",
-        "HP": "50",
-        "Ability": [
-            "Aqua Reaction"
-        ],
-        "Ability-Effect": [
-            "When you attach a [W] Energy card from your hand to Helix Fossil (excluding effects of attacks or Pok\u00e9-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward."
-        ],
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/dp5/91_hires.png",
-        "Pack": null,
-        "Description": "Play Helix Fossil as if it were a [C] Basic Pok\u00e9mon. (Helix Fossil counts as a Trainer card as well, but if Helix Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon. ) Helix Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Helix Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon. )                        Ability:                          Aqua Reaction                                              When you attach a [W] Energy card from your hand to Helix Fossil (excluding effects of attacks or Pok\u00e9-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward.",
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86057%2Fpokemon-majestic-dawn-helix-fossil",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Helix-Fossil-MD91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-090",
@@ -3033,18 +3014,23 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Energy-Search-MD90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "MD-093",
-        "Name": "Darkness Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/dp5/93_hires.png",
+        "ID": "MD-091",
+        "Name": "Helix Fossil",
+        "Card-Type": "Item",
+        "HP": "50",
+        "Ability": [
+            "Aqua Reaction"
+        ],
+        "Ability-Effect": [
+            "When you attach a [W] Energy card from your hand to Helix Fossil (excluding effects of attacks or Pok\u00e9-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward."
+        ],
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/dp5/91_hires.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
-        "Illustrator": "Takumi Akabane",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84691%2Fpokemon-majestic-dawn-darkness-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Darkness-Energy-MD93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Play Helix Fossil as if it were a [C] Basic Pok\u00e9mon. (Helix Fossil counts as a Trainer card as well, but if Helix Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Helix Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Helix Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)",
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86057%2Fpokemon-majestic-dawn-helix-fossil",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Helix-Fossil-MD91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-092",
@@ -3059,6 +3045,20 @@
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84086%2Fpokemon-majestic-dawn-call-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Call-Energy-V1-MD92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MD-093",
+        "Name": "Darkness Energy",
+        "Card-Type": "Special Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/dp5/93_hires.png",
+        "Pack": null,
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
+        "Illustrator": "Takumi Akabane",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84691%2Fpokemon-majestic-dawn-darkness-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Darkness-Energy-MD93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MD-094",
@@ -3083,7 +3083,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/dp5/95_hires.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87364%2Fpokemon-majestic-dawn-metal-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Majestic-Dawn/Metal-Energy-MD95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3163,7 +3163,7 @@
             "70"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Metal",
         "Resistance": null,

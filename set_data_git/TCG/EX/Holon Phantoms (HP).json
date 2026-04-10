@@ -1,5 +1,41 @@
 [
     {
+        "ID": "HP-001",
+        "Name": "Armaldo",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex13/1_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting/Metal",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Delta Edge",
+            "Fossil Charge"
+        ],
+        "Move-Energy": [
+            "MC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "70",
+            "50"
+        ],
+        "Effects": [
+            "If you have any Supporter cards in play, this attack's base damage is 20 instead of 70.",
+            "You may discard a Claw Fossil, Mysterious Fossil, Root Fossil, or Holon Fossil from your hand. If you do, choose 1 of your opponent's Benched Pok\u00e9mon and do 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83622%2Fpokemon-holon-phantoms-armaldo-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Armaldo-Delta-Species-HP1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "HP-002",
         "Name": "Cradily",
         "Rarity": "Holo Rare",
@@ -36,78 +72,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Cradily-Delta-Species-HP2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-001",
-        "Name": "Armaldo",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex13/1_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting/Metal",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Delta Edge",
-            "Fossil Charge"
-        ],
-        "Move-Energy": [
-            "MC",
-            "FCC"
-        ],
-        "Move-Damage": [
-            "70",
-            "50"
-        ],
-        "Effects": [
-            "If you have any Supporter cards in play, this attack's base damage is 20 instead of 70.",
-            "You may discard a Claw Fossil, Mysterious Fossil, Root Fossil, or Holon Fossil from your hand. If you do, choose 1 of your opponent's Benched Pok\u00e9mon and do 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83622%2Fpokemon-holon-phantoms-armaldo-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Armaldo-Delta-Species-HP1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HP-004",
-        "Name": "Deoxys",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex13/4_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "80",
-        "Ability": [
-            "Form Change"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
-        ],
-        "Moves": [
-            "Delta Reduction"
-        ],
-        "Move-Energy": [
-            "MC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "During your opponent's next turn, any damage done to Deoxys by attacks in reduced by 30 (before applying Weakness and Resistance)."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84762%2Fpokemon-holon-phantoms-deoxys-delta-species-defense-forme",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Deoxys-Delta-Species-HP4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "HP-003",
         "Name": "Deoxys",
         "Rarity": "Holo Rare",
@@ -120,7 +84,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Energy Loop"
@@ -144,6 +108,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Deoxys-Delta-Species-HP3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "HP-004",
+        "Name": "Deoxys",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex13/4_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "80",
+        "Ability": [
+            "Form Change"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+        ],
+        "Moves": [
+            "Delta Reduction"
+        ],
+        "Move-Energy": [
+            "MC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "During your opponent's next turn, any damage done to Deoxys by attacks in reduced by 30 (before applying Weakness and Resistance)."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84762%2Fpokemon-holon-phantoms-deoxys-delta-species-defense-forme",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Deoxys-Delta-Species-HP4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "HP-005",
         "Name": "Deoxys",
         "Rarity": "Holo Rare",
@@ -156,7 +156,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Crystal Laser"
@@ -192,7 +192,7 @@
             "Form Change"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon. ) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
+            "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pok\u00e9mon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Pok\u00e9-Power each turn."
         ],
         "Moves": [
             "Teleportation Burst"
@@ -632,42 +632,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Vileplume-Delta-Species-HP17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-019",
-        "Name": "Bellossom",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex13/19_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": [
-            "Fellowship"
-        ],
-        "Ability-Effect": [
-            "Bellossom can use the attacks of all Oddish, Gloom, Vileplume, Vileplume ex, or other Bellossom you have in play as its own. (You still need the necessary Energy to use each attack. )"
-        ],
-        "Moves": [
-            "Aqua Flower"
-        ],
-        "Move-Energy": [
-            "WC"
-        ],
-        "Move-Damage": [
-            "40"
-        ],
-        "Effects": [
-            "During your opponent's next turn, Bellossom has no Weakness."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Water",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83803%2Fpokemon-holon-phantoms-bellossom-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Bellossom-Delta-Species-HP19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "HP-018",
         "Name": "Absol",
         "Rarity": "Rare",
@@ -692,7 +656,7 @@
         ],
         "Effects": [
             "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -704,40 +668,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Absol-HP18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-021",
-        "Name": "Latias",
+        "ID": "HP-019",
+        "Name": "Bellossom",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex13/21_hires.png",
+        "Image": "https://images.pokemontcg.io/ex13/19_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": [
+            "Fellowship"
+        ],
+        "Ability-Effect": [
+            "Bellossom can use the attacks of all Oddish, Gloom, Vileplume, Vileplume ex, or other Bellossom you have in play as its own. (You still need the necessary Energy to use each attack.)"
+        ],
         "Moves": [
-            "Combustion",
-            "Super Singe"
+            "Aqua Flower"
         ],
         "Move-Energy": [
-            "RC",
-            "RRC"
+            "WC"
         ],
         "Move-Damage": [
-            "20",
             "40"
         ],
         "Effects": [
-            "",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Burned."
+            "During your opponent's next turn, Bellossom has no Weakness."
         ],
-        "Weakness": "Colorless",
-        "Resistance": "Psychic/Fighting",
+        "Weakness": "Fire",
+        "Resistance": "Water",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86657%2Fpokemon-holon-phantoms-latias-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Latias-Delta-Species-HP21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83803%2Fpokemon-holon-phantoms-bellossom-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Bellossom-Delta-Species-HP19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-020",
@@ -774,6 +738,42 @@
         "Illustrator": "Hiromichi Sugiyama",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83907%2Fpokemon-holon-phantoms-blaziken",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Blaziken-HP20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "HP-021",
+        "Name": "Latias",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex13/21_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Combustion",
+            "Super Singe"
+        ],
+        "Move-Energy": [
+            "RC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            "20",
+            "40"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": "Psychic/Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86657%2Fpokemon-holon-phantoms-latias-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Latias-Delta-Species-HP21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-022",
@@ -884,6 +884,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Mewtwo-Delta-Species-HP24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "HP-025",
+        "Name": "Nosepass",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex13/25_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Supersonic",
+            "Rock Slide"
+        ],
+        "Move-Energy": [
+            "C",
+            "FC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87800%2Fpokemon-holon-phantoms-nosepass",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Nosepass-HP25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "HP-026",
         "Name": "Rayquaza",
         "Rarity": "Rare",
@@ -918,42 +954,6 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88635%2Fpokemon-holon-phantoms-rayquaza-026-110-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Rayquaza-Delta-Species-HP26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HP-025",
-        "Name": "Nosepass",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex13/25_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Supersonic",
-            "Rock Slide"
-        ],
-        "Move-Energy": [
-            "C",
-            "FC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Confused.",
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87800%2Fpokemon-holon-phantoms-nosepass",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Nosepass-HP25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-027",
@@ -1016,7 +1016,7 @@
             "40"
         ],
         "Effects": [
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -1026,42 +1026,6 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88671%2Fpokemon-holon-phantoms-regirock",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Regirock-HP28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HP-030",
-        "Name": "Relicanth",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex13/30_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "70",
-        "Ability": [
-            "Aqua Lift"
-        ],
-        "Ability-Effect": [
-            "If Relicanth has any [W] Energy attached to it, the Retreat Cost for Relicanth is 0."
-        ],
-        "Moves": [
-            "Knock Away"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88686%2Fpokemon-holon-phantoms-relicanth",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Relicanth-HP30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-029",
@@ -1100,40 +1064,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Registeel-HP29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-032",
-        "Name": "Seviper",
+        "ID": "HP-030",
+        "Name": "Relicanth",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex13/32_hires.png",
+        "Image": "https://images.pokemontcg.io/ex13/30_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Grass",
+        "Type": "Water",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Ability": [
+            "Aqua Lift"
+        ],
+        "Ability-Effect": [
+            "If Relicanth has any [W] Energy attached to it, the Retreat Cost for Relicanth is 0."
+        ],
         "Moves": [
-            "Poison Fang",
-            "Bite"
+            "Knock Away"
         ],
         "Move-Energy": [
-            "C",
-            "GCC"
+            "CC"
         ],
         "Move-Damage": [
-            null,
-            "40"
+            "20+"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned.",
-            ""
+            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
         ],
-        "Weakness": "Psychic",
+        "Weakness": "Lightning",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89084%2Fpokemon-holon-phantoms-seviper",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Seviper-HP32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88686%2Fpokemon-holon-phantoms-relicanth",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Relicanth-HP30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-031",
@@ -1170,6 +1134,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88849%2Fpokemon-holon-phantoms-sableye",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Sableye-HP31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "HP-032",
+        "Name": "Seviper",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex13/32_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Poison Fang",
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C",
+            "GCC"
+        ],
+        "Move-Damage": [
+            null,
+            "40"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned.",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89084%2Fpokemon-holon-phantoms-seviper",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Seviper-HP32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-033",
@@ -1303,7 +1303,7 @@
             "60"
         ],
         "Effects": [
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Camerupt does 10 damage to itself."
         ],
         "Weakness": "Water",
@@ -1375,7 +1375,7 @@
             "40"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
         ],
         "Weakness": "Psychic",
@@ -1484,7 +1484,7 @@
         ],
         "Effects": [
             "Does 10 damage plus 10 more damage for each Pok\u00e9mon you have in play that has \u03b4 on its card.",
-            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Pok\u00e9mon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1578,7 +1578,7 @@
         "HP": "50",
         "Ability": null,
         "Ability-Effect": [
-            "You may attach this as an Energy card from your hand to 1 of your Pok\u00e9mon that already has an Energy card attached to it. When you attach this card, return an Energy card attached to that Pok\u00e9mon to your hand. While attached, this card is a Special Energy card and provides every type of Energy but 2 Energy at a time. (Has no effect other than providing Energy. )"
+            "You may attach this as an Energy card from your hand to 1 of your Pok\u00e9mon that already has an Energy card attached to it. When you attach this card, return an Energy card attached to that Pok\u00e9mon to your hand. While attached, this card is a Special Energy card and provides every type of Energy but 2 Energy at a time. (Has no effect other than providing Energy.)"
         ],
         "Moves": [
             "Delta Draw"
@@ -1982,7 +1982,7 @@
         ],
         "Effects": [
             "This attack's damage isn't affected by Resistance.",
-            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2030,42 +2030,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Wobbuffet-HP56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-058",
-        "Name": "Aron",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex13/58_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mud Slap",
-            "Metal Claw"
-        ],
-        "Move-Energy": [
-            "C",
-            "MC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Grass",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83633%2Fpokemon-holon-phantoms-aron",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Aron-HP58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "HP-057",
         "Name": "Anorith",
         "Rarity": "Common",
@@ -2100,6 +2064,42 @@
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83562%2Fpokemon-holon-phantoms-anorith-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Anorith-Delta-Species-HP57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "HP-058",
+        "Name": "Aron",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex13/58_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mud Slap",
+            "Metal Claw"
+        ],
+        "Move-Energy": [
+            "C",
+            "MC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Grass",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83633%2Fpokemon-holon-phantoms-aron",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Aron-HP58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-059",
@@ -2338,7 +2338,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -2658,7 +2658,7 @@
         ],
         "Effects": [
             "Draw 3 cards.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2950,42 +2950,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Surskit-HP82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-084",
-        "Name": "Trapinch",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex13/84_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Big Bite",
-            "Mud Slap"
-        ],
-        "Move-Energy": [
-            "G",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
-            ""
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90026%2Fpokemon-holon-phantoms-trapinch-delta-species",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Trapinch-Delta-Species-HP84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "HP-083",
         "Name": "Torchic",
         "Rarity": "Common",
@@ -3022,18 +2986,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Torchic-HP83?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-086",
-        "Name": "Holon Fossil",
-        "Card-Type": "Item",
+        "ID": "HP-084",
+        "Name": "Trapinch",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex13/84_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex13/86_hires.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, search your deck for an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith and put it onto your Bench. Shuffle your deck afterward. If tails, put an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith from your hand onto your Bench. Treat the new Benched Pok\u00e9mon as a Basic Pok\u00e9mon.",
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86143%2Fpokemon-holon-phantoms-holon-fossil",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Holon-Fossil-HP86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Moves": [
+            "Big Bite",
+            "Mud Slap"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can't retreat during your opponent's next turn.",
+            ""
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90026%2Fpokemon-holon-phantoms-trapinch-delta-species",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Trapinch-Delta-Species-HP84?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-085",
@@ -3048,6 +3034,20 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86134%2Fpokemon-holon-phantoms-holon-adventurer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Holon-Adventurer-HP85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "HP-086",
+        "Name": "Holon Fossil",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex13/86_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, search your deck for an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith and put it onto your Bench. Shuffle your deck afterward. If tails, put an Omanyte, Kabuto, Aerodactyl, Aerodactyl ex, Lileep, or Anorith from your hand onto your Bench. Treat the new Benched Pok\u00e9mon as a Basic Pok\u00e9mon.",
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86143%2Fpokemon-holon-phantoms-holon-fossil",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Holon-Fossil-HP86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-087",
@@ -3070,7 +3070,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex13/87_hires.png",
         "Pack": null,
-        "Description": "Each player's Pok\u00e9mon that has \u03b4 on its card can use attacks on this card instead of its own.",
+        "Description": "Each player's Pok\u00e9mon that has \u03b4 on its card can use attacks on this card instead of its own.                                        C        Delta Call              Search your deck for a Pok\u00e9mon that has \u03b4 on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86144%2Fpokemon-holon-phantoms-holon-lake",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Holon-Lake-HP87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3112,7 +3112,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex13/90_hires.png",
         "Pack": null,
-        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88591%2Fpokemon-holon-phantoms-rare-candy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Rare-Candy-HP90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3131,7 +3131,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex13/91_hires.png",
         "Pack": null,
-        "Description": "Play Claw Fossil as if it were a Basic Pok\u00e9mon. While in play, Claw Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Claw Fossil from play.                                                    Ability:                          Jagged Stone                                              If Claw Fossil is your Active Pok\u00e9mon and is damaged by an opponent's attack (even if Claw Fossil is Knocked Out), put 1 damage counter on the Attacking Pok\u00e9mon.",
+        "Description": "Play Claw Fossil as if it were a Basic Pok\u00e9mon. While in play, Claw Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Claw Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84330%2Fpokemon-holon-phantoms-claw-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Claw-Fossil-HP91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3146,7 +3146,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex13/92_hires.png",
         "Pack": null,
-        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
+        "Description": "Play Mysterious Fossil as if it were a Basic Pok\u00e9mon. While in play, Mysterious Fossil counts as a Pok\u00e9mon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87664%2Fpokemon-holon-phantoms-mysterious-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Mysterious-Fossil-HP92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3165,7 +3165,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/ex13/93_hires.png",
         "Pack": null,
-        "Description": "Play Root Fossil as if it were a Basic Pok\u00e9mon. While in play, Root Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway. ) At any time during your turn before your attack, you may discard Root Fossil from play.                                                    Ability:                          Spongy Stone                                              At any time between turns, remove 1 damage counter from Root Fossil.",
+        "Description": "Play Root Fossil as if it were a Basic Pok\u00e9mon. While in play, Root Fossil counts as a [C] Pok\u00e9mon (instead of a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pok\u00e9mon. (Discard it anyway.) At any time during your turn before your attack, you may discard Root Fossil from play.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88812%2Fpokemon-holon-phantoms-root-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Root-Fossil-HP93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3179,7 +3179,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex13/94_hires.png",
         "Pack": null,
-        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "If the Pok\u00e9mon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Darkness Energy is attached to isn't [D]. Darkness Energy provides [D] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84687%2Fpokemon-holon-phantoms-darkness-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Darkness-Energy-HP94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3193,7 +3193,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex13/95_hires.png",
         "Pack": null,
-        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card. )",
+        "Description": "Damage done by attacks to the Pok\u00e9mon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pok\u00e9mon that Metal Energy is attached to isn't [M]. Metal Energy provides [M] Energy. (Doesn't count as a basic Energy card.)",
         "Illustrator": "Milky Isobe",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87360%2Fpokemon-holon-phantoms-metal-energy-special",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Metal-Energy-HP95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3207,7 +3207,7 @@
         "Rarity": "Rare",
         "Image": "https://images.pokemontcg.io/ex13/96_hires.png",
         "Pack": null,
-        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play. ) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
+        "Description": "Attach Multi Energy to 1 of your Pok\u00e9mon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) Multi energy provides [C] Energy when attached to a Pok\u00e9mon that already has Special Energy cards attached to it.",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87632%2Fpokemon-holon-phantoms-multi-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Multi-Energy-HP96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3221,7 +3221,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex13/97_hires.png",
         "Pack": null,
-        "Description": "Attach Dark [M] Energy to 1 of your Pok\u00e9mon. While in play, Dark [M] Energy provides [D] Energy and [M] Energy, but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no effect other than providing Energy. )",
+        "Description": "Attach Dark [M] Energy to 1 of your Pok\u00e9mon. While in play, Dark [M] Energy provides [D] Energy and [M] Energy, but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no effect other than providing Energy.)",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84629%2Fpokemon-holon-phantoms-dark-metal-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Dark-Metal-Energy-HP97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3235,7 +3235,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/ex13/98_hires.png",
         "Pack": null,
-        "Description": "\u03b4 Rainbow Energy provides [C] Energy. While attached to a Pok\u00e9mon that has \u03b4 on its card, \u03b4 Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy. )",
+        "Description": "\u03b4 Rainbow Energy provides [C] Energy. While attached to a Pok\u00e9mon that has \u03b4 on its card, \u03b4 Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.)",
         "Illustrator": "Takumi Akabane",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84754%2Fpokemon-holon-phantoms-delta-rainbow-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Rainbow-Energy-Delta-HP98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3521,20 +3521,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Lightning-Energy-HP108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "HP-110",
-        "Name": "Fighting Energy",
-        "Card-Type": "Basic Energy",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex13/110_hires.png",
-        "Pack": null,
-        "Description": "",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85440%2Fpokemon-holon-phantoms-fighting-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Fighting-Energy-HP110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "HP-109",
         "Name": "Psychic Energy",
         "Card-Type": "Basic Energy",
@@ -3547,6 +3533,20 @@
         "Illustrator": null,
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88421%2Fpokemon-holon-phantoms-psychic-energy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Psychic-Energy-HP109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "HP-110",
+        "Name": "Fighting Energy",
+        "Card-Type": "Basic Energy",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex13/110_hires.png",
+        "Pack": null,
+        "Description": "",
+        "Illustrator": null,
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85440%2Fpokemon-holon-phantoms-fighting-energy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Holon-Phantoms/Fighting-Energy-HP110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "HP-111",

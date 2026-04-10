@@ -68,7 +68,7 @@
         ],
         "Effects": [
             "Does 20 damage plus 10 more damage for each Energy attached to all Pok\u00e9mon (both yours and your opponent's).",
-            "Discard 2 Energy attached to Blastoise. Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 60 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Blastoise can't use Double Launcher during your next turn."
+            "Discard 2 Energy attached to Blastoise. Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 60 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Blastoise can't use Double Launcher during your next turn."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -320,7 +320,7 @@
             "Let Loose"
         ],
         "Ability-Effect": [
-            "Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Each player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first. )"
+            "Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Each player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first.)"
         ],
         "Moves": [
             "Earth Power"
@@ -332,7 +332,7 @@
             "60"
         ],
         "Effects": [
-            "Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip 2 coins. This attack does 10 damage times the number of heads to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -411,7 +411,7 @@
             "40"
         ],
         "Effects": [
-            "This attack does 30 damage to each Pok\u00e9mon that has any Pok\u00e9-Powers (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to each Pok\u00e9mon that has any Pok\u00e9-Powers (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Search your deck for a [L] Energy card and attach it to 1 of your Pok\u00e9mon. Shuffle your deck afterward."
         ],
         "Weakness": "Fighting",
@@ -422,6 +422,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87162%2Fpokemon-platinum-manectric",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Manectric-Lv45-PL11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-012",
+        "Name": "Palkia G",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/pl1/12_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splashing Turn",
+            "Pearl Breath"
+        ],
+        "Move-Energy": [
+            "WC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "50"
+        ],
+        "Effects": [
+            "You may switch Palkia G with 1 of your Benched Pok\u00e9mon.",
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yusuke Ishikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87917%2Fpokemon-platinum-palkia-g",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Palkia-G-Lv78-PL12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-013",
@@ -462,42 +498,6 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88571%2Fpokemon-platinum-rampardos",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Rampardos-Lv54-PL13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-012",
-        "Name": "Palkia G",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/pl1/12_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Splashing Turn",
-            "Pearl Breath"
-        ],
-        "Move-Energy": [
-            "WC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "50"
-        ],
-        "Effects": [
-            "You may switch Palkia G with 1 of your Benched Pok\u00e9mon.",
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yusuke Ishikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87917%2Fpokemon-platinum-palkia-g",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Palkia-G-Lv78-PL12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-014",
@@ -572,42 +572,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Shaymin-Lv56-PL15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-017",
-        "Name": "Weavile G",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/pl1/17_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Call for Family",
-            "Team Attack"
-        ],
-        "Move-Energy": [
-            "0",
-            "DCC"
-        ],
-        "Move-Damage": [
-            null,
-            "10+"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 basic Pok\u00e9mon SP and put them onto your Bench. Shuffle your deck afterward.",
-            "Does 10 damage plus 10 more damage for each Pok\u00e9mon SP you have in play."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Makoto Imai",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90536%2Fpokemon-platinum-weavile-g",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Weavile-G-Lv48-PL17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PL-016",
         "Name": "Slaking",
         "Rarity": "Holo Rare",
@@ -644,44 +608,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Slaking-Lv62-PL16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-019",
-        "Name": "Banette",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/pl1/19_hires.png",
+        "ID": "PL-017",
+        "Name": "Weavile G",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/pl1/17_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "90",
-        "Ability": [
-            "Temper Tantrum"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may discard as many cards as you like from your hand. If you do, put that many damage counters on Banette. This power can't be used if Banette is affected by a Special Condition."
-        ],
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Darkness Switch",
-            "Loneliness"
+            "Call for Family",
+            "Team Attack"
         ],
         "Move-Energy": [
-            "P",
-            "PC"
+            "0",
+            "DCC"
         ],
         "Move-Damage": [
             null,
-            "30+"
+            "10+"
         ],
         "Effects": [
-            "Discard an Energy card attached to Banette, and then switch all damage counters on Banette with those on the Defending Pok\u00e9mon. (If an effect of this attack is prevented, this attack does nothing. )",
-            "You may show your hand to your opponent. If you do and if you don't have any Pok\u00e9mon in your hand, this attack does 30 damage plus 30 more damage."
+            "Search your deck for up to 2 basic Pok\u00e9mon SP and put them onto your Bench. Shuffle your deck afterward.",
+            "Does 10 damage plus 10 more damage for each Pok\u00e9mon SP you have in play."
         ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
-        "Retreat-Cost": "1",
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "0",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83723%2Fpokemon-platinum-banette",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Banette-Lv48-PL19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Makoto Imai",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90536%2Fpokemon-platinum-weavile-g",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Weavile-G-Lv48-PL17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-018",
@@ -722,6 +682,46 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83517%2Fpokemon-platinum-altaria",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Altaria-Lv48-PL18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-019",
+        "Name": "Banette",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pl1/19_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": [
+            "Temper Tantrum"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may discard as many cards as you like from your hand. If you do, put that many damage counters on Banette. This power can't be used if Banette is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Darkness Switch",
+            "Loneliness"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "30+"
+        ],
+        "Effects": [
+            "Discard an Energy card attached to Banette, and then switch all damage counters on Banette with those on the Defending Pok\u00e9mon. (If an effect of this attack is prevented, this attack does nothing.)",
+            "You may show your hand to your opponent. If you do and if you don't have any Pok\u00e9mon in your hand, this attack does 30 damage plus 30 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83723%2Fpokemon-platinum-banette",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Banette-Lv48-PL19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-020",
@@ -904,7 +904,7 @@
         ],
         "Effects": [
             "Your opponent switches the Defending Pok\u00e9mon with 1 of his or her Benched Pok\u00e9mon.",
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": "Lightning",
@@ -980,7 +980,7 @@
         ],
         "Effects": [
             "Choose 1 card from your opponent's hand without looking and discard it.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 70 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Empoleon can't use Jet Smash during your next turn."
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 70 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Empoleon can't use Jet Smash during your next turn."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1087,7 +1087,7 @@
             "40+"
         ],
         "Effects": [
-            "If your opponent has any [W] Energy attached to any of his or her Pok\u00e9mon, you may do 30 damage to any 1 Benched Pok\u00e9mon instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "If your opponent has any [W] Energy attached to any of his or her Pok\u00e9mon, you may do 30 damage to any 1 Benched Pok\u00e9mon instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may move all Energy cards attached to Golduck to 1 of your Benched Pok\u00e9mon. If you do, this attack does 40 damage plus 20 more damage."
         ],
         "Weakness": "Lightning",
@@ -1123,7 +1123,7 @@
             "100-"
         ],
         "Effects": [
-            "Flip a coin for each of your opponent's Pok\u00e9mon. If that coin flip is heads, this attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Flip a coin for each of your opponent's Pok\u00e9mon. If that coin flip is heads, this attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Does 100 damage minus 10 damage for each damage counter on Gyarados G."
         ],
         "Weakness": "Lightning",
@@ -1172,42 +1172,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Infernape-Lv44-PL31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-033",
-        "Name": "Lickilicky",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/pl1/33_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Harrumph",
-            "Body Press"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "CCCC"
-        ],
-        "Move-Damage": [
-            null,
-            "60"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Before doing damage, discard all Trainer cards attached to that Pok\u00e9mon.",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and discard an Energy card attached to the Defending Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86713%2Fpokemon-platinum-lickilicky",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Lickilicky-Lv52-PL33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PL-032",
         "Name": "Kricketune",
         "Rarity": "Rare",
@@ -1242,6 +1206,42 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86533%2Fpokemon-platinum-kricketune",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Kricketune-Lv46-PL32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-033",
+        "Name": "Lickilicky",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/pl1/33_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Harrumph",
+            "Body Press"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 40 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Before doing damage, discard all Trainer cards attached to that Pok\u00e9mon.",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed and discard an Energy card attached to the Defending Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86713%2Fpokemon-platinum-lickilicky",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Lickilicky-Lv52-PL33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-034",
@@ -1379,7 +1379,7 @@
             "60"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
         ],
         "Weakness": "Lightning",
@@ -1524,7 +1524,7 @@
             "40"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": "Fire",
@@ -1559,7 +1559,7 @@
             "20"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 50 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon that has any damage counters on it. This attack does 50 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may discard a [G] or [D] Energy attached to Cacturne. If you discard a [G] Energy, the Defending Pok\u00e9mon is now Poisoned. If you discard a [D] Energy, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fire",
@@ -1598,7 +1598,7 @@
             "30"
         ],
         "Effects": [
-            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Remove 2 damage counters from Carnivine.",
             "If the Defending Pok\u00e9mon already has any damage counters on it, the Defending Pok\u00e9mon is now Burned and Poisoned."
         ],
@@ -1635,7 +1635,7 @@
             "20"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon.) Shuffle your deck afterward.",
             "The Defending Pok\u00e9mon is now Poisoned."
         ],
         "Weakness": "Fire",
@@ -1646,42 +1646,6 @@
         "Illustrator": "Yukiko Baba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84122%2Fpokemon-platinum-cascoon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Cascoon-Lv10-PL44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-046",
-        "Name": "Cranidos",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl1/46_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rock Smash",
-            "Knock Over"
-        ],
-        "Move-Energy": [
-            "F",
-            "FC"
-        ],
-        "Move-Damage": [
-            "20+",
-            "40"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-            "You may discard any Stadium card in play."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84460%2Fpokemon-platinum-cranidos",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Cranidos-Lv27-PL46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-045",
@@ -1720,40 +1684,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Combusken-Lv27-PL45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-048",
-        "Name": "Flaaffy",
+        "ID": "PL-046",
+        "Name": "Cranidos",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl1/48_hires.png",
+        "Image": "https://images.pokemontcg.io/pl1/46_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
-        "Type": "Lightning",
+        "Type": "Fighting",
         "HP": "80",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Spark",
-            "Tail Code"
+            "Rock Smash",
+            "Knock Over"
         ],
         "Move-Energy": [
-            "L",
-            "LC"
+            "F",
+            "FC"
         ],
         "Move-Damage": [
-            "10",
-            "30"
+            "20+",
+            "40"
         ],
         "Effects": [
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Move an Energy card attached to the Defending Pok\u00e9mon to another of your opponent's Pok\u00e9mon."
+            "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+            "You may discard any Stadium card in play."
         ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
+        "Weakness": "Grass",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85481%2Fpokemon-platinum-flaaffy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Flaaffy-Lv22-PL48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84460%2Fpokemon-platinum-cranidos",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Cranidos-Lv27-PL46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-047",
@@ -1790,6 +1754,42 @@
         "Illustrator": "Makoto Imai",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84494%2Fpokemon-platinum-crobat-g",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Crobat-G-Lv44-PL47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-048",
+        "Name": "Flaaffy",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl1/48_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spark",
+            "Tail Code"
+        ],
+        "Move-Energy": [
+            "L",
+            "LC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Move an Energy card attached to the Defending Pok\u00e9mon to another of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85481%2Fpokemon-platinum-flaaffy",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Flaaffy-Lv22-PL48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-049",
@@ -1959,7 +1959,7 @@
             "20+"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Does 20 damage plus 10 more damage for each of your Benched Pok\u00e9mon."
         ],
         "Weakness": "Fire",
@@ -2148,7 +2148,7 @@
         ],
         "Effects": [
             "Reveal the top 5 cards of your deck. Flip a coin for each Energy card you find there. This attack does 50 damage times the number of heads. Shuffle the revealed cards back into your deck.",
-            "Any time the Defending Pok\u00e9mon tries to attack, your opponent flips a coin. If tails, that attack does nothing. (If the Defending Pok\u00e9mon is no longer your opponent's Active Pok\u00e9mon, this effect ends. )"
+            "Any time the Defending Pok\u00e9mon tries to attack, your opponent flips a coin. If tails, that attack does nothing. (If the Defending Pok\u00e9mon is no longer your opponent's Active Pok\u00e9mon, this effect ends.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2219,7 +2219,7 @@
             "70"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, discard an Energy card attached to the Defending Pok\u00e9mon."
         ],
         "Weakness": "Water",
@@ -2230,42 +2230,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88377%2Fpokemon-platinum-probopass",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Probopass-Lv49-PL60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-062",
-        "Name": "Shieldon",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl1/62_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Metal",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Endure",
-            "Rock Slide"
-        ],
-        "Move-Energy": [
-            "C",
-            "MC"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, during your opponent's next turn, if Shieldon would be Knocked Out by damage from an attack, Shieldon is not Knocked Out and its remaining HP becomes 10 instead.",
-            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89151%2Fpokemon-platinum-shieldon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Shieldon-Lv21-PL62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-061",
@@ -2308,6 +2272,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Seviper-Lv30-PL61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PL-062",
+        "Name": "Shieldon",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl1/62_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Endure",
+            "Rock Slide"
+        ],
+        "Move-Energy": [
+            "C",
+            "MC"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, if Shieldon would be Knocked Out by damage from an attack, Shieldon is not Knocked Out and its remaining HP becomes 10 instead.",
+            "Does 10 damage to 2 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89151%2Fpokemon-platinum-shieldon",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Shieldon-Lv21-PL62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PL-063",
         "Name": "Silcoon",
         "Rarity": "Uncommon",
@@ -2331,7 +2331,7 @@
             "20"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward.",
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fire",
@@ -2380,46 +2380,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Vigoroth-Lv28-PL64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-066",
-        "Name": "Zangoose",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl1/66_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "80",
-        "Ability": [
-            "Thick Skin"
-        ],
-        "Ability-Effect": [
-            "Zangoose can't be affected by any Special Conditions."
-        ],
-        "Moves": [
-            "Invite and Strike",
-            "Chop Up"
-        ],
-        "Move-Energy": [
-            "C",
-            "CCC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "Switch the Defending Pok\u00e9mon with 1 of your opponent's Benched Pok\u00e9mon. This attack does 20 damage to the new Defending Pok\u00e9mon.",
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90707%2Fpokemon-platinum-zangoose",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Zangoose-Lv29-PL66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PL-065",
         "Name": "Wartortle",
         "Rarity": "Uncommon",
@@ -2456,6 +2416,46 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Wartortle-Lv25-PL65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PL-066",
+        "Name": "Zangoose",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl1/66_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": [
+            "Thick Skin"
+        ],
+        "Ability-Effect": [
+            "Zangoose can't be affected by any Special Conditions."
+        ],
+        "Moves": [
+            "Invite and Strike",
+            "Chop Up"
+        ],
+        "Move-Energy": [
+            "C",
+            "CCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Switch the Defending Pok\u00e9mon with 1 of your opponent's Benched Pok\u00e9mon. This attack does 20 damage to the new Defending Pok\u00e9mon.",
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90707%2Fpokemon-platinum-zangoose",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Zangoose-Lv29-PL66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PL-067",
         "Name": "Cacnea",
         "Rarity": "Common",
@@ -2480,7 +2480,7 @@
         ],
         "Effects": [
             "If Cacnea has any [D] Energy attached to it, this attack does 10 damage plus 10 more damage.",
-            "Flip 2 coins. For each heads, choose 1 of your opponent's Pok\u00e9mon and this attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can choose the same Pok\u00e9mon more than once, but you can't do more than 10 damage to that Pok\u00e9mon in this way. )"
+            "Flip 2 coins. For each heads, choose 1 of your opponent's Pok\u00e9mon and this attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can choose the same Pok\u00e9mon more than once, but you can't do more than 10 damage to that Pok\u00e9mon in this way.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Water",
@@ -2528,42 +2528,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Carnivine-Lv39-PL68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-070",
-        "Name": "Chimchar",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl1/70_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bite",
-            "Fire Punch"
-        ],
-        "Move-Energy": [
-            "C",
-            "RC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84288%2Fpokemon-platinum-chimchar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Chimchar-Lv10-PL70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PL-069",
         "Name": "Chansey",
         "Rarity": "Common",
@@ -2600,6 +2564,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Chansey-Lv26-PL69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PL-070",
+        "Name": "Chimchar",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl1/70_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Fire Punch"
+        ],
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84288%2Fpokemon-platinum-chimchar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Chimchar-Lv10-PL70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PL-071",
         "Name": "Combee",
         "Rarity": "Common",
@@ -2624,7 +2624,7 @@
         ],
         "Effects": [
             "Draw a card.",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -2696,7 +2696,7 @@
         ],
         "Effects": [
             "Search your deck for a Basic Pok\u00e9mon and put it onto your Bench. Shuffle your deck afterward.",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -2840,7 +2840,7 @@
         ],
         "Effects": [
             "Search your deck for up to 2 in any combination of Stadium cards or Trainer cards that has Team Galactic's Invention in its name, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. If that Pok\u00e9mon already has any damage counters on it, this attack does 20 damage plus 20 more damage. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. If that Pok\u00e9mon already has any damage counters on it, this attack does 20 damage plus 20 more damage. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -3127,7 +3127,7 @@
             "20"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -3138,42 +3138,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88149%2Fpokemon-platinum-piplup",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Piplup-Lv12-PL85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-087",
-        "Name": "Psyduck",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl1/87_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Headache",
-            "Latent Power"
-        ],
-        "Move-Energy": [
-            "0",
-            "W"
-        ],
-        "Move-Damage": [
-            null,
-            "30"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn.",
-            "Flip a coin. If tails, this attack does no damage to the Defending Pok\u00e9mon. Instead, Psyduck is now Confused."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88439%2Fpokemon-platinum-psyduck",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Psyduck-Lv19-PL87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-086",
@@ -3210,6 +3174,42 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88301%2Fpokemon-platinum-poochyena",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Poochyena-Lv12-PL86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-087",
+        "Name": "Psyduck",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl1/87_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headache",
+            "Latent Power"
+        ],
+        "Move-Energy": [
+            "0",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn.",
+            "Flip a coin. If tails, this attack does no damage to the Defending Pok\u00e9mon. Instead, Psyduck is now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Tomokazu Komiya",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88439%2Fpokemon-platinum-psyduck",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Psyduck-Lv19-PL87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-088",
@@ -3380,7 +3380,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Asleep.",
-            "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pok\u00e9mon, this attack does nothing. )"
+            "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pok\u00e9mon, this attack does nothing.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -3464,42 +3464,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Skuntank-G-Lv46-PL94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-096",
-        "Name": "Squirtle",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl1/96_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Skull Bash",
-            "Bite"
-        ],
-        "Move-Energy": [
-            "C",
-            "WC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89495%2Fpokemon-platinum-squirtle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Squirtle-Lv16-PL96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "PL-095",
         "Name": "Slakoth",
         "Rarity": "Common",
@@ -3536,40 +3500,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Slakoth-Lv11-PL95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-098",
-        "Name": "Tauros",
+        "ID": "PL-096",
+        "Name": "Squirtle",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl1/98_hires.png",
+        "Image": "https://images.pokemontcg.io/pl1/96_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "70",
+        "Type": "Water",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Show Off",
-            "Take Down"
+            "Skull Bash",
+            "Bite"
         ],
         "Move-Energy": [
-            "0",
-            "C"
+            "C",
+            "WC"
         ],
         "Move-Damage": [
-            null,
+            "10",
             "20"
         ],
         "Effects": [
-            "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-            "Flip a coin. If tails, Tauros does 10 damage to itself."
+            "",
+            ""
         ],
-        "Weakness": "Fighting",
+        "Weakness": "Lightning",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89765%2Fpokemon-platinum-tauros",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Tauros-Lv23-PL98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89495%2Fpokemon-platinum-squirtle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Squirtle-Lv16-PL96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-097",
@@ -3608,6 +3572,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Swablu-Lv11-PL97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PL-098",
+        "Name": "Tauros",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl1/98_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Show Off",
+            "Take Down"
+        ],
+        "Move-Energy": [
+            "0",
+            "C"
+        ],
+        "Move-Damage": [
+            null,
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+            "Flip a coin. If tails, Tauros does 10 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89765%2Fpokemon-platinum-tauros",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Tauros-Lv23-PL98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PL-099",
         "Name": "Torchic",
         "Rarity": "Common",
@@ -3642,42 +3642,6 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89961%2Fpokemon-platinum-torchic",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Torchic-Lv12-PL99?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-101",
-        "Name": "Turtwig",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl1/101_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ram",
-            "Body Slam"
-        ],
-        "Move-Energy": [
-            "G",
-            "GC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Water",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90077%2Fpokemon-platinum-turtwig",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Turtwig-Lv14-PL101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-100",
@@ -3716,22 +3680,22 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Torkoal-Lv28-PL100?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "PL-103",
-        "Name": "Wurmple",
+        "ID": "PL-101",
+        "Name": "Turtwig",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/pl1/103_hires.png",
+        "Image": "https://images.pokemontcg.io/pl1/101_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
-        "HP": "50",
+        "HP": "60",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
             "Ram",
-            "Poison Sting"
+            "Body Slam"
         ],
         "Move-Energy": [
-            "C",
+            "G",
             "GC"
         ],
         "Move-Damage": [
@@ -3740,16 +3704,16 @@
         ],
         "Effects": [
             "",
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
         ],
         "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
+        "Resistance": "Water",
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90652%2Fpokemon-platinum-wurmple",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Wurmple-Lv5-PL103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90077%2Fpokemon-platinum-turtwig",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Turtwig-Lv14-PL101?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-102",
@@ -3786,6 +3750,42 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90442%2Fpokemon-platinum-vulpix",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Vulpix-Lv12-PL102?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-103",
+        "Name": "Wurmple",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/pl1/103_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram",
+            "Poison Sting"
+        ],
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuka Morii",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90652%2Fpokemon-platinum-wurmple",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Wurmple-Lv5-PL103?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-104",
@@ -3838,24 +3838,10 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/pl1/107_hires.png",
         "Pack": null,
-        "Description": "Flip a coin. If heads, search your deck for a Pok\u00e9mon LV. X that levels up from 1 of your Pok\u00e9mon, and put it onto that Pok\u00e9mon. (This counts as leveling up that Pok\u00e9mon. ) Shuffle your deck afterward.",
+        "Description": "Flip a coin. If heads, search your deck for a Pok\u00e9mon LV. X that levels up from 1 of your Pok\u00e9mon, and put it onto that Pok\u00e9mon. (This counts as leveling up that Pok\u00e9mon.) Shuffle your deck afterward.",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86711%2Fpokemon-platinum-level-max",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Level-Max-PL107?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-109",
-        "Name": "Looker's Investigation",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl1/109_hires.png",
-        "Pack": null,
-        "Description": "Look at your opponent's hand, then choose you or your opponent. That player shuffles his or her hand into his or her deck and draws up to 5 cards.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86822%2Fpokemon-platinum-lookers-investigation",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Lookers-Investigation-PL109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-108",
@@ -3872,6 +3858,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Life-Herb-PL108?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PL-109",
+        "Name": "Looker's Investigation",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl1/109_hires.png",
+        "Pack": null,
+        "Description": "Look at your opponent's hand, then choose you or your opponent. That player shuffles his or her hand into his or her deck and draws up to 5 cards.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86822%2Fpokemon-platinum-lookers-investigation",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Lookers-Investigation-PL109?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PL-110",
         "Name": "Memory Berry",
         "Card-Type": "Tool",
@@ -3880,7 +3880,7 @@
         "Rarity": "Uncommon",
         "Image": "https://images.pokemontcg.io/pl1/110_hires.png",
         "Pack": null,
-        "Description": "The Pok\u00e9mon this card is attached to can use any attack from its Basic Pok\u00e9mon card or any Evolution card from which the Pok\u00e9mon evolved. (You still have to pay for that attack's Energy cost. ) Discard this card at the end of any turn the Pok\u00e9mon attacks.",
+        "Description": "The Pok\u00e9mon this card is attached to can use any attack from its Basic Pok\u00e9mon card or any Evolution card from which the Pok\u00e9mon evolved. (You still have to pay for that attack's Energy cost.) Discard this card at the end of any turn the Pok\u00e9mon attacks.",
         "Illustrator": "Shizurow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87306%2Fpokemon-platinum-memory-berry",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Memory-Berry-PL110?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -3970,6 +3970,20 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Team-Galactics-Invention-G-101-Energy-Gain-PL116?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "PL-117",
+        "Name": "Team Galactic's Invention G-103 Power Spray",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/pl1/117_hires.png",
+        "Pack": null,
+        "Description": "You may play this card during your opponent's turn when your opponent's Pok\u00e9mon uses any Pok\u00e9-Power. Prevent all effects of that Pok\u00e9-Power. (This counts as that Pok\u00e9mon using its Pok\u00e9-Power.) If you have 2 or less Pok\u00e9mon SP in play, you can't play this card.",
+        "Illustrator": "Yusuke Ishikawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89806%2Fpokemon-platinum-team-galactics-invention-g-103-power-spray",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Team-Galactics-Invention-G-103-Power-Spray-PL117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "PL-118",
         "Name": "Team Galactic's Invention G-105 Pok\u00e9 Turn",
         "Card-Type": "Item",
@@ -3982,20 +3996,6 @@
         "Illustrator": "Makoto Imai",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89807%2Fpokemon-platinum-team-galactics-invention-g-105-poke-turn",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Team-Galactics-Invention-G-105-Poke-Turn-PL118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-117",
-        "Name": "Team Galactic's Invention G-103 Power Spray",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/pl1/117_hires.png",
-        "Pack": null,
-        "Description": "You may play this card during your opponent's turn when your opponent's Pok\u00e9mon uses any Pok\u00e9-Power. Prevent all effects of that Pok\u00e9-Power. (This counts as that Pok\u00e9mon using its Pok\u00e9-Power. ) If you have 2 or less Pok\u00e9mon SP in play, you can't play this card.",
-        "Illustrator": "Yusuke Ishikawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89806%2Fpokemon-platinum-team-galactics-invention-g-103-power-spray",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Team-Galactics-Invention-G-103-Power-Spray-PL117?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-119",
@@ -4011,7 +4011,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/pl1/119_hires.png",
         "Pack": null,
-        "Description": "Play Armor Fossil as if it were a [C] Basic Pok\u00e9mon. (Armor Fossil counts as a Trainer card as well, but if Armor Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon. ) Armor Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Armor Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon. )                        Ability:                          Armor Stone                                              Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
+        "Description": "Play Armor Fossil as if it were a [C] Basic Pok\u00e9mon. (Armor Fossil counts as a Trainer card as well, but if Armor Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Armor Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Armor Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83626%2Fpokemon-platinum-armor-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Armor-Fossil-PL119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4030,7 +4030,7 @@
         "Rarity": "Common",
         "Image": "https://images.pokemontcg.io/pl1/120_hires.png",
         "Pack": null,
-        "Description": "Play Skull Fossil as if it were a [C] Basic Pok\u00e9mon. (Skull Fossil counts as a Trainer card as well, but if Skull Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon. ) Skull Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Skull Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon. )                        Ability:                          Skull Stone                                              During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pok\u00e9mon.",
+        "Description": "Play Skull Fossil as if it were a [C] Basic Pok\u00e9mon. (Skull Fossil counts as a Trainer card as well, but if Skull Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Skull Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Skull Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)",
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89278%2Fpokemon-platinum-skull-fossil",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Skull-Fossil-PL120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -4110,7 +4110,7 @@
             "40"
         ],
         "Effects": [
-            "Does 40 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+            "Does 40 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4134,7 +4134,7 @@
             "Invisible Tentacles"
         ],
         "Ability-Effect": [
-            "Whenever your opponent's Pok\u00e9mon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pok\u00e9mon can't attack. ) You can't use more than 1 Invisible Tentacles Pok\u00e9-Body each turn."
+            "Whenever your opponent's Pok\u00e9mon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pok\u00e9mon can't attack.) You can't use more than 1 Invisible Tentacles Pok\u00e9-Body each turn."
         ],
         "Moves": [
             "Darkness Lost"
@@ -4146,7 +4146,7 @@
             null
         ],
         "Effects": [
-            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If any of your opponent's Pok\u00e9mon would be Knocked Out by damage from this attack, put that Pok\u00e9mon and all cards attached to it in the Lost Zone instead of discarding it."
+            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If any of your opponent's Pok\u00e9mon would be Knocked Out by damage from this attack, put that Pok\u00e9mon and all cards attached to it in the Lost Zone instead of discarding it."
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -4170,7 +4170,7 @@
             "Lost Cyclone"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may use this power. Any player who has 4 or more Benched Pok\u00e9mon chooses 3 of his or her Benched Pok\u00e9mon. Put the other Benched Pok\u00e9mon and all cards attached to them in the Lost Zone. (You choose your Pok\u00e9mon first. ) This power can't be used it Palkia G is affected by a Special Condition."
+            "Once during your turn (before your attack), you may use this power. Any player who has 4 or more Benched Pok\u00e9mon chooses 3 of his or her Benched Pok\u00e9mon. Put the other Benched Pok\u00e9mon and all cards attached to them in the Lost Zone. (You choose your Pok\u00e9mon first.) This power can't be used it Palkia G is affected by a Special Condition."
         ],
         "Moves": [
             "Hydro Shot"
@@ -4182,7 +4182,7 @@
             null
         ],
         "Effects": [
-            "Discard 2 Energy attached to Palkia G. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard 2 Energy attached to Palkia G. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -4192,42 +4192,6 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87918%2Fpokemon-platinum-palkia-g-lvx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Palkia-G-LVX-PL125?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "PL-127",
-        "Name": "Shaymin LV.X",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/pl1/127_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Level Up",
-        "Type": "Grass",
-        "HP": "110",
-        "Ability": [
-            "Revenge Seed"
-        ],
-        "Ability-Effect": [
-            "If any of your [G] Pok\u00e9mon were Knocked Out by damage from an opponent's attack during his or her last turn, each of Shaymin's attacks does 60 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance)."
-        ],
-        "Moves": [
-            "Energy Flare"
-        ],
-        "Move-Energy": [
-            "GC"
-        ],
-        "Move-Damage": [
-            "50"
-        ],
-        "Effects": [
-            "You may move any number of Energy cards attached to your Pok\u00e9mon to your other Pok\u00e9mon in any way you like."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": "Put this card onto your Active Shaymin. Shaymin LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
-        "Flavor-Text": null,
-        "Illustrator": "Shizurow",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89115%2Fpokemon-platinum-shaymin-lvx-sky-forme",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Shaymin-LVX-PL127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-126",
@@ -4264,6 +4228,42 @@
         "Illustrator": "Shizurow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89114%2Fpokemon-platinum-shaymin-lvx-land-forme",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Shaymin-LVX-PL126?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "PL-127",
+        "Name": "Shaymin LV.X",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/pl1/127_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Level Up",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": [
+            "Revenge Seed"
+        ],
+        "Ability-Effect": [
+            "If any of your [G] Pok\u00e9mon were Knocked Out by damage from an opponent's attack during his or her last turn, each of Shaymin's attacks does 60 more damage to the Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Energy Flare"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "You may move any number of Energy cards attached to your Pok\u00e9mon to your other Pok\u00e9mon in any way you like."
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card onto your Active Shaymin. Shaymin LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level.",
+        "Flavor-Text": null,
+        "Illustrator": "Shizurow",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89115%2Fpokemon-platinum-shaymin-lvx-sky-forme",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Platinum/Shaymin-LVX-PL127?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "PL-128",
@@ -4481,8 +4481,8 @@
         ],
         "Effects": [
             "Search your deck for up to 2 [R] Energy cards, show them to your opponent, and put them in your hand. Shuffle your deck afterward.",
-            "Does 10 damage to each of your opponent's Benched [G] Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "Discard a [R] Energy card from your hand. (If you can't discard a card from your hand, this attack does nothing. )"
+            "Does 10 damage to each of your opponent's Benched [G] Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Discard a [R] Energy card from your hand. (If you can't discard a card from your hand, this attack does nothing.)"
         ],
         "Weakness": "Water",
         "Resistance": null,

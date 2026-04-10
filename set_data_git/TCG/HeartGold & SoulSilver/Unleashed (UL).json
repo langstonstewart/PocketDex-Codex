@@ -136,7 +136,7 @@
         ],
         "Effects": [
             "",
-            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -172,7 +172,7 @@
             "30"
         ],
         "Effects": [
-            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -182,6 +182,42 @@
         "Illustrator": "Hideaki Hakozaki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87517%2Funleashed-mismagius",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Mismagius-UL5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-006",
+        "Name": "Octillery",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_006_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Switch Cannon",
+            "Ink Bomb"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Switch Octillery with 1 of your Benched Pok\u00e9mon.",
+            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87834%2Funleashed-octillery",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Octillery-UL6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-007",
@@ -220,40 +256,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Politoed-V1-UL7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-006",
-        "Name": "Octillery",
+        "ID": "UL-008",
+        "Name": "Shaymin",
         "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_006_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_008_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Celebration Wind"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Shaymin from your hand onto your Bench, you may move as many Energy cards attached to your Pok\u00e9mon as you like to any of your other Pok\u00e9mon."
+        ],
         "Moves": [
-            "Switch Cannon",
-            "Ink Bomb"
+            "Energy Bloom"
         ],
         "Move-Energy": [
-            "W",
-            "WCC"
+            "GC"
         ],
         "Move-Damage": [
-            null,
-            "50"
+            "30"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Switch Octillery with 1 of your Benched Pok\u00e9mon.",
-            "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+            "Remove 3 damage counters from each of your Pok\u00e9mon that has any Energy attached to it."
         ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "2",
+        "Weakness": "Fire",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87834%2Funleashed-octillery",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Octillery-UL6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hideaki Hakozaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89109%2Funleashed-shaymin",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Shaymin-UL8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-009",
@@ -290,42 +326,6 @@
         "Illustrator": "Sachiko Adachi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89596%2Funleashed-sudowoodo",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Sudowoodo-UL9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-008",
-        "Name": "Shaymin",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_008_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "70",
-        "Ability": [
-            "Celebration Wind"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you put Shaymin from your hand onto your Bench, you may move as many Energy cards attached to your Pok\u00e9mon as you like to any of your other Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Energy Bloom"
-        ],
-        "Move-Energy": [
-            "GC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "Remove 3 damage counters from each of your Pok\u00e9mon that has any Energy attached to it."
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hideaki Hakozaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89109%2Funleashed-shaymin",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Shaymin-UL8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-010",
@@ -436,6 +436,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Beedrill-UL12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UL-013",
+        "Name": "Blastoise",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_013_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": [
+            "Wash Out"
+        ],
+        "Ability-Effect": [
+            "As often as you like during your turn (before your attack), you may move a [W] Energy attached to 1 of your Benched Pok\u00e9mon to your Active Pok\u00e9mon. This power can't be used if Blastoise is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Hydro Launcher"
+        ],
+        "Move-Energy": [
+            "WWCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Return 2 [W] Energy attached to Blastoise to your hand. Choose 1 of your opponent's Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83895%2Funleashed-blastoise",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Blastoise-UL13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UL-014",
         "Name": "Crobat",
         "Rarity": "Rare",
@@ -470,42 +506,6 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84488%2Funleashed-crobat-rare",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Crobat-V1-UL14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-013",
-        "Name": "Blastoise",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_013_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "130",
-        "Ability": [
-            "Wash Out"
-        ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may move a [W] Energy attached to 1 of your Benched Pok\u00e9mon to your Active Pok\u00e9mon. This power can't be used if Blastoise is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Hydro Launcher"
-        ],
-        "Move-Energy": [
-            "WWCC"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Return 2 [W] Energy attached to Blastoise to your hand. Choose 1 of your opponent's Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83895%2Funleashed-blastoise",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Blastoise-UL13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-015",
@@ -603,7 +603,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "You may do 50 damage plus 30 more damage. If you do, return an Energy card attached to Kingdra to your hand."
         ],
         "Weakness": "Lightning",
@@ -614,42 +614,6 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86447%2Funleashed-kingdra",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Kingdra-UL17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-019",
-        "Name": "Lucario",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_019_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bulk Up",
-            "Magnum Punch"
-        ],
-        "Move-Energy": [
-            "C",
-            "FF"
-        ],
-        "Move-Damage": [
-            "30",
-            "50"
-        ],
-        "Effects": [
-            "During your next turn, each of Lucario's attacks does 30 more damage to the Defending Pok\u00e9mon (before applying Weakness and Resistance).",
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86880%2Funleashed-lucario",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Lucario-UL19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-018",
@@ -686,6 +650,42 @@
         "Illustrator": "sui",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86610%2Funleashed-lanturn",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Lanturn-UL18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-019",
+        "Name": "Lucario",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_019_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bulk Up",
+            "Magnum Punch"
+        ],
+        "Move-Energy": [
+            "C",
+            "FF"
+        ],
+        "Move-Damage": [
+            "30",
+            "50"
+        ],
+        "Effects": [
+            "During your next turn, each of Lucario's attacks does 30 more damage to the Defending Pok\u00e9mon (before applying Weakness and Resistance).",
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86880%2Funleashed-lucario",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Lucario-UL19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-020",
@@ -747,7 +747,7 @@
             "60+"
         ],
         "Effects": [
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Flip a coin. If heads, this attack does 60 damage plus 40 more damage and the Defending Pok\u00e9mon is now Confused."
         ],
         "Weakness": "Lightning",
@@ -784,7 +784,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Pok\u00e9mon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -1135,7 +1135,7 @@
             null
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Kakuna and put it onto Kakuna. (This counts as evolving Kakuna. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Kakuna and put it onto Kakuna. (This counts as evolving Kakuna.) Shuffle your deck afterward.",
             "The Defending Pok\u00e9mon is now Poisoned."
         ],
         "Weakness": "Fire",
@@ -1146,42 +1146,6 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86415%2Funleashed-kakuna",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Kakuna-UL32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-034",
-        "Name": "Minun",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_034_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Call for Family",
-            "Tag Team Boost"
-        ],
-        "Move-Energy": [
-            "C",
-            "L"
-        ],
-        "Move-Damage": [
-            null,
-            "10+"
-        ],
-        "Effects": [
-            "Search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Shuffle your deck afterward.",
-            "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87491%2Funleashed-minun",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Minun-UL34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-033",
@@ -1220,10 +1184,10 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Metang-UL33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-036",
-        "Name": "Plusle",
+        "ID": "UL-034",
+        "Name": "Minun",
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_036_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_034_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Lightning",
@@ -1231,8 +1195,8 @@
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Collect",
-            "Thunder Jolt"
+            "Call for Family",
+            "Tag Team Boost"
         ],
         "Move-Energy": [
             "C",
@@ -1240,11 +1204,11 @@
         ],
         "Move-Damage": [
             null,
-            "20"
+            "10+"
         ],
         "Effects": [
-            "Draw 2 cards.",
-            "Flip a coin. If tails, Plusle does 10 damage to itself."
+            "Search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Shuffle your deck afterward.",
+            "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage."
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -1252,8 +1216,8 @@
         "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88171%2Funleashed-plusle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Plusle-UL36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87491%2Funleashed-minun",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Minun-UL34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-035",
@@ -1292,40 +1256,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Numel-UL35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-038",
-        "Name": "Pupitar",
+        "ID": "UL-036",
+        "Name": "Plusle",
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_038_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_036_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "70",
-        "Ability": [
-            "Boost Gas"
-        ],
-        "Ability-Effect": [
-            "If Pupitar has any Energy attached to it, the Retreat Cost for Pupitar is 0."
-        ],
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Rage"
+            "Collect",
+            "Thunder Jolt"
         ],
         "Move-Energy": [
-            "CC"
+            "C",
+            "L"
         ],
         "Move-Damage": [
-            "20+"
+            null,
+            "20"
         ],
         "Effects": [
-            "Does 20 damage plus 10 more damage for each damage counter on Pupitar."
+            "Draw 2 cards.",
+            "Flip a coin. If tails, Plusle does 10 damage to itself."
         ],
-        "Weakness": "Water",
-        "Resistance": "Lightning",
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88453%2Funleashed-pupitar-38",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Pupitar-Boost-Gas-UL38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88171%2Funleashed-plusle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Plusle-UL36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-037",
@@ -1362,6 +1326,42 @@
         "Illustrator": "Naoyo Kimura",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88268%2Funleashed-poliwhirl",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Poliwhirl-V1-UL37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-038",
+        "Name": "Pupitar",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_038_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": [
+            "Boost Gas"
+        ],
+        "Ability-Effect": [
+            "If Pupitar has any Energy attached to it, the Retreat Cost for Pupitar is 0."
+        ],
+        "Moves": [
+            "Rage"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Does 20 damage plus 10 more damage for each damage counter on Pupitar."
+        ],
+        "Weakness": "Water",
+        "Resistance": "Lightning",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88453%2Funleashed-pupitar-38",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Pupitar-Boost-Gas-UL38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-039",
@@ -1423,7 +1423,7 @@
             "50"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -1434,42 +1434,6 @@
         "Illustrator": "Shin Nagasawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89016%2Funleashed-seadra",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Seadra-UL40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-042",
-        "Name": "Wartortle",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_042_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Water Arrow",
-            "Surf"
-        ],
-        "Move-Energy": [
-            "W",
-            "WCC"
-        ],
-        "Move-Damage": [
-            null,
-            "50"
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90491%2Funleashed-wartortle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Wartortle-UL42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-041",
@@ -1506,6 +1470,42 @@
         "Illustrator": "Tomokazu Komiya",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89766%2Funleashed-tauros",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Tauros-UL41?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-042",
+        "Name": "Wartortle",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_042_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Arrow",
+            "Surf"
+        ],
+        "Move-Energy": [
+            "W",
+            "WCC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90491%2Funleashed-wartortle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Wartortle-UL42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-043",
@@ -1596,7 +1596,7 @@
             "10"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1712,42 +1712,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Chinchou-UL48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-050",
-        "Name": "Larvitar",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_050_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Mountain Eater",
-            "Reckless Charge"
-        ],
-        "Move-Energy": [
-            "C",
-            "C"
-        ],
-        "Move-Damage": [
-            null,
-            "20"
-        ],
-        "Effects": [
-            "Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.",
-            "Larvitar does 10 damage to itself."
-        ],
-        "Weakness": "Water",
-        "Resistance": "Lightning",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86644%2Funleashed-larvitar-50",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Larvitar-Mountain-Eater-UL50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UL-049",
         "Name": "Horsea",
         "Rarity": "Common",
@@ -1784,40 +1748,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Horsea-UL49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-052",
-        "Name": "Magmar",
+        "ID": "UL-050",
+        "Name": "Larvitar",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_052_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_050_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "70",
+        "Type": "Fighting",
+        "HP": "50",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Live Coal",
-            "Magma Punch"
+            "Mountain Eater",
+            "Reckless Charge"
         ],
         "Move-Energy": [
-            "R",
-            "RC"
+            "C",
+            "C"
         ],
         "Move-Damage": [
-            "10",
+            null,
             "20"
         ],
         "Effects": [
-            "",
-            ""
+            "Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.",
+            "Larvitar does 10 damage to itself."
         ],
         "Weakness": "Water",
-        "Resistance": null,
+        "Resistance": "Lightning",
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87050%2Funleashed-magmar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Magmar-UL52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86644%2Funleashed-larvitar-50",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Larvitar-Mountain-Eater-UL50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-051",
@@ -1856,36 +1820,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Larvitar-UL51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-054",
-        "Name": "Misdreavus",
+        "ID": "UL-052",
+        "Name": "Magmar",
         "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_054_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_052_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "50",
+        "Type": "Fire",
+        "HP": "70",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Sharpshooting"
+            "Live Coal",
+            "Magma Punch"
         ],
         "Move-Energy": [
-            "P"
+            "R",
+            "RC"
         ],
         "Move-Damage": [
-            null
+            "10",
+            "20"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "",
+            ""
         ],
-        "Weakness": "Darkness",
-        "Resistance": "Colorless",
+        "Weakness": "Water",
+        "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hideaki Hakozaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87510%2Funleashed-misdreavus",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Misdreavus-UL54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87050%2Funleashed-magmar",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Magmar-UL52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-053",
@@ -1922,6 +1890,38 @@
         "Illustrator": "Sachiko Adachi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87176%2Funleashed-mankey",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Mankey-UL53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-054",
+        "Name": "Misdreavus",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_054_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sharpshooting"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Colorless",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideaki Hakozaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87510%2Funleashed-misdreavus",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Misdreavus-UL54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-055",
@@ -2088,7 +2088,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -2168,42 +2168,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Roselia-UL61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-063",
-        "Name": "Squirtle",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_063_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rain Splash",
-            "Shell Attack"
-        ],
-        "Move-Energy": [
-            "W",
-            "WWC"
-        ],
-        "Move-Damage": [
-            "10",
-            "40"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89496%2Funleashed-squirtle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Squirtle-UL63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UL-062",
         "Name": "Spearow",
         "Rarity": "Common",
@@ -2238,6 +2202,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89442%2Funleashed-spearow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Spearow-UL62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-063",
+        "Name": "Squirtle",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_063_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rain Splash",
+            "Shell Attack"
+        ],
+        "Move-Energy": [
+            "W",
+            "WWC"
+        ],
+        "Move-Damage": [
+            "10",
+            "40"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89496%2Funleashed-squirtle",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Squirtle-UL63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-064",
@@ -2308,42 +2308,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Teddiursa-UL65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-067",
-        "Name": "Turtwig",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_067_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Leech Seed",
-            "Ram"
-        ],
-        "Move-Energy": [
-            "G",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "If this attack does any damage to the Defending Pok\u00e9mon (after applying Weakness and Resistance), remove 1 damage counter from Turtwig.",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Water",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "match",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90080%2Funleashed-turtwig",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Turtwig-UL67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UL-066",
         "Name": "Tropius",
         "Rarity": "Common",
@@ -2378,6 +2342,42 @@
         "Illustrator": "match",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90061%2Funleashed-tropius",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Tropius-UL66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-067",
+        "Name": "Turtwig",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_067_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leech Seed",
+            "Ram"
+        ],
+        "Move-Energy": [
+            "G",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "If this attack does any damage to the Defending Pok\u00e9mon (after applying Weakness and Resistance), remove 1 damage counter from Turtwig.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Water",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "match",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90080%2Funleashed-turtwig",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Turtwig-UL67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-068",
@@ -2435,7 +2435,7 @@
             "10"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from Weedle and put it onto Weedle. (This counts as evolving Weedle. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from Weedle and put it onto Weedle. (This counts as evolving Weedle.) Shuffle your deck afterward.",
             ""
         ],
         "Weakness": "Fire",
@@ -2472,7 +2472,7 @@
         ],
         "Effects": [
             "",
-            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -2482,20 +2482,6 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90776%2Funleashed-zubat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Zubat-UL70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-072",
-        "Name": "Dual Ball",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_072_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Flip 2 coins. For each heads, search your deck for a Basic Pok\u00e9mon, show it to your opponent, and put it into your hand. If you do, shuffle your deck afterward.",
-        "Illustrator": "Takashi Yamaguchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84988%2Funleashed-dual-ball",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Dual-Ball-UL72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-071",
@@ -2510,6 +2496,20 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84246%2Funleashed-cheerleaders-cheer",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Cheerleaders-Cheer-UL71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-072",
+        "Name": "Dual Ball",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_072_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Flip 2 coins. For each heads, search your deck for a Basic Pok\u00e9mon, show it to your opponent, and put it into your hand. If you do, shuffle your deck afterward.",
+        "Illustrator": "Takashi Yamaguchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84988%2Funleashed-dual-ball",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Dual-Ball-UL72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-073",
@@ -2646,7 +2646,7 @@
         "Rarity": "Uncommon",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_082_R_EN_LG.png",
         "Pack": null,
-        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+        "Description": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card on the Basic Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
         "Illustrator": "Noriko Hotta",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88595%2Funleashed-rare-candy",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Rare-Candy-V1-UL82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
@@ -2690,7 +2690,7 @@
         ],
         "Effects": [
             "The Defending Pok\u00e9mon is now Poisoned. Put 4 damage counters instead of 1 on that Pok\u00e9mon between turns.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -2738,6 +2738,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Kingdra-Spray-Splash-UL85?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "UL-086",
+        "Name": "Lanturn",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_086_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "110",
+        "Ability": [
+            "Submerge"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may use this power. Lanturn's type is [W] until the end of your turn. This power can't be used if Lanturn is affected by a Special Condition."
+        ],
+        "Moves": [
+            "Powerful Spark"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "Does 40 damage plus 10 more damage for each Energy attached to all of your Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hideaki Hakozaki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86611%2Funleashed-lanturn-prime",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Lanturn-Underwater-Dive-UL86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "UL-087",
         "Name": "Steelix",
         "Rarity": "Double Rare",
@@ -2778,42 +2814,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Steelix-Perfect-Metal-UL87?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-086",
-        "Name": "Lanturn",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_086_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Lightning",
-        "HP": "110",
-        "Ability": [
-            "Submerge"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may use this power. Lanturn's type is [W] until the end of your turn. This power can't be used if Lanturn is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Powerful Spark"
-        ],
-        "Move-Energy": [
-            "LCC"
-        ],
-        "Move-Damage": [
-            "40+"
-        ],
-        "Effects": [
-            "Does 40 damage plus 10 more damage for each Energy attached to all of your Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hideaki Hakozaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86611%2Funleashed-lanturn-prime",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Lanturn-Underwater-Dive-UL86?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UL-088",
         "Name": "Tyranitar",
         "Rarity": "Double Rare",
@@ -2840,7 +2840,7 @@
             "120"
         ],
         "Effects": [
-            "This attack does 20 damage to each Pok\u00e9mon in play (both yours and your opponent's) (excluding any [D] Pok\u00e9mon). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to each Pok\u00e9mon in play (both yours and your opponent's) (excluding any [D] Pok\u00e9mon). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This attack's damage isn't affected by Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on the Defending Pok\u00e9mon.",
             "Discard the top 3 cards of your deck."
         ],
@@ -2894,42 +2894,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Ursaring-Berserk-UL89?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "UL-091",
-        "Name": "Entei & Raikou LEGEND",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_091_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "LEGEND",
-        "Type": "Fire/Lightning",
-        "HP": "140",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Detonation Spin",
-            "Thunder Fall"
-        ],
-        "Move-Energy": [
-            "RC",
-            "LC"
-        ],
-        "Move-Damage": [
-            "90",
-            null
-        ],
-        "Effects": [
-            "Discard a [R] Energy attached to Entei & Raikou LEGEND.",
-            "Discard all Energy attached to Entei & Raikou LEGEND. This attack does 80 damage to each Pok\u00e9mon that has any Pok\u00e9-Powers (both yours and your opponent's). This attack's damage isn't affected by Weakness or Resistance."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": "Put this card from your hand onto your Bench only with the onther half of Entei & Raikou LEGEND.",
-        "Flavor-Text": null,
-        "Illustrator": "Shinji Higuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85276%2Funleashed-entei-and-raikou-legend-bottom",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Entei-Raikou-LEGEND-Bottom-UL91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "UL-090",
         "Name": "Entei & Raikou LEGEND",
         "Rarity": "Ultra Rare",
@@ -2964,6 +2928,42 @@
         "Illustrator": "Shinji Higuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85277%2Funleashed-entei-and-raikou-legend-top",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Entei-Raikou-LEGEND-Top-UL90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-091",
+        "Name": "Entei & Raikou LEGEND",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_091_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "LEGEND",
+        "Type": "Fire/Lightning",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Detonation Spin",
+            "Thunder Fall"
+        ],
+        "Move-Energy": [
+            "RC",
+            "LC"
+        ],
+        "Move-Damage": [
+            "90",
+            null
+        ],
+        "Effects": [
+            "Discard a [R] Energy attached to Entei & Raikou LEGEND.",
+            "Discard all Energy attached to Entei & Raikou LEGEND. This attack does 80 damage to each Pok\u00e9mon that has any Pok\u00e9-Powers (both yours and your opponent's). This attack's damage isn't affected by Weakness or Resistance."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": "Put this card from your hand onto your Bench only with the onther half of Entei & Raikou LEGEND.",
+        "Flavor-Text": null,
+        "Illustrator": "Shinji Higuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85276%2Funleashed-entei-and-raikou-legend-bottom",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Entei-Raikou-LEGEND-Bottom-UL91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-092",
@@ -3061,7 +3061,7 @@
             "80"
         ],
         "Effects": [
-            "Return 2 [W] Energy attached to Suicune & Entei LEGEND to your hand. Choose one of your opponent's Benched Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Return 2 [W] Energy attached to Suicune & Entei LEGEND to your hand. Choose one of your opponent's Benched Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "The Defending Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Lightning",
@@ -3072,20 +3072,6 @@
         "Illustrator": "Shinji Higuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89610%2Funleashed-suicune-and-entei-legend-top",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Suicune-Entei-LEGEND-Top-UL94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "UL-TWO-000",
-        "Name": "Alph Lithograph",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Secret Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_TWO_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Shuffle your deck!",
-        "Illustrator": "Milky Isobe",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83510%2Funleashed-alph-lithograph",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Alph-Lithograph-ULTWO?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "UL-095",
@@ -3111,7 +3097,7 @@
             "80"
         ],
         "Effects": [
-            "Return 2 [W] Energy attached to Suicune & Entei LEGEND to your hand. Choose one of your opponent's Benched Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Return 2 [W] Energy attached to Suicune & Entei LEGEND to your hand. Choose one of your opponent's Benched Pok\u00e9mon. This attack does 100 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "The Defending Pok\u00e9mon is now Burned."
         ],
         "Weakness": "Lightning",
@@ -3122,5 +3108,19 @@
         "Illustrator": "Shinji Higuchi",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89609%2Funleashed-suicune-and-entei-legend-bottom",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Suicune-Entei-LEGEND-Bottom-UL95?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "UL-TWO-000",
+        "Name": "Alph Lithograph",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Secret Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/UL/UL_TWO_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Shuffle your deck!",
+        "Illustrator": "Milky Isobe",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83510%2Funleashed-alph-lithograph",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Unleashed/Alph-Lithograph-ULTWO?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

@@ -1,41 +1,5 @@
 [
     {
-        "ID": "DPP-002",
-        "Name": "Chimchar",
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/dpp/DP02_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Scratch",
-            "Ember"
-        ],
-        "Move-Energy": [
-            "0",
-            "RC"
-        ],
-        "Move-Damage": [
-            "10",
-            "30"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If tails, discard a [R] Energy attached to Chimchar."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84286%2Fpokemon-diamond-and-pearl-promos-chimchar-dp02",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Chimchar-Lv8-DPPRDP02?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DPP-001",
         "Name": "Turtwig",
         "Rarity": null,
@@ -70,6 +34,42 @@
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90075%2Fpokemon-diamond-and-pearl-promos-turtwig-dp01",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Turtwig-Lv10-DPPRDP01?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DPP-002",
+        "Name": "Chimchar",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP02_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch",
+            "Ember"
+        ],
+        "Move-Energy": [
+            "0",
+            "RC"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, discard a [R] Energy attached to Chimchar."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84286%2Fpokemon-diamond-and-pearl-promos-chimchar-dp02",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Chimchar-Lv8-DPPRDP02?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DPP-003",
@@ -182,7 +182,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -218,7 +218,7 @@
         ],
         "Effects": [
             "",
-            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -290,7 +290,7 @@
             "100"
         ],
         "Effects": [
-            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Torterra does 30 damage to itself."
+            "Does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Torterra does 30 damage to itself."
         ],
         "Weakness": "Fire",
         "Resistance": null,
@@ -326,7 +326,7 @@
             "150"
         ],
         "Effects": [
-            "Search your discard pile for 8 [R] Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 [R] Energy cards in your discard pile. )"
+            "Search your discard pile for 8 [R] Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 [R] Energy cards in your discard pile.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -350,7 +350,7 @@
             "Supreme Command"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may choose up to 2 cards from your opponent's hand without looking and put them face down next to the Defending Pok\u00e9mon. (These cards are not in play or in your opponent's hand. ) At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition."
+            "Once during your turn (before your attack), you may choose up to 2 cards from your opponent's hand without looking and put them face down next to the Defending Pok\u00e9mon. (These cards are not in play or in your opponent's hand.) At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition."
         ],
         "Moves": [
             "Hydro Impact"
@@ -362,7 +362,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Empoleon can't attack during your next turn."
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Empoleon can't attack during your next turn."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -386,7 +386,7 @@
             "Stance"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), when you put Lucario LV. X from your hand onto your Active Lucario, you may use this power. Prevent all effects of an attack, including damage, done to Lucario during your opponent's next turn. (If Lucario is no longer your Active Pok\u00e9mon, this effect ends. )"
+            "Once during your turn (before your attack), when you put Lucario LV. X from your hand onto your Active Lucario, you may use this power. Prevent all effects of an attack, including damage, done to Lucario during your opponent's next turn. (If Lucario is no longer your Active Pok\u00e9mon, this effect ends.)"
         ],
         "Moves": [
             "Close Combat"
@@ -498,7 +498,7 @@
             "10"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -606,7 +606,7 @@
             "60"
         ],
         "Effects": [
-            "You may move all Energy cards attached to Palkia to your Benched Pok\u00e9mon in any way you like. (Ignore this effect if you don't have any Benched Pok\u00e9mon. )"
+            "You may move all Energy cards attached to Palkia to your Benched Pok\u00e9mon in any way you like. (Ignore this effect if you don't have any Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -678,7 +678,7 @@
         ],
         "Effects": [
             "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-            "If Magby isn't anywhere under Magmortar, discard 2 Energy cards from your hand. (If you can't discard 2 Energy cards from your hand, this attack does nothing. )"
+            "If Magby isn't anywhere under Magmortar, discard 2 Energy cards from your hand. (If you can't discard 2 Energy cards from your hand, this attack does nothing.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -738,7 +738,7 @@
             "Baby Evolution"
         ],
         "Ability-Effect": [
-            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr. ) and remove all damage counters from Mime Jr."
+            "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr."
         ],
         "Moves": [
             "Mime"
@@ -826,7 +826,7 @@
         ],
         "Effects": [
             "Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.",
-            "Search your discard pile for 3 Pok\u00e9mon, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward. (If you don't have 3 Pok\u00e9mon in your discard pile, this attack does nothing. )"
+            "Search your discard pile for 3 Pok\u00e9mon, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward. (If you don't have 3 Pok\u00e9mon in your discard pile, this attack does nothing.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
@@ -836,6 +836,20 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84701%2Fpokemon-diamond-and-pearl-promos-darkrai-dp24",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Darkrai-Lv50-V1-DPPR24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DPP-025",
+        "Name": "Tropical Wind",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP25_hires.png",
+        "Pack": null,
+        "Description": "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep.",
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90055%2Fpokemon-diamond-and-pearl-promos-tropical-wind-dp25-worlds-08",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Tropical-Wind-V2-DPPRDP25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DPP-026",
@@ -872,20 +886,6 @@
         "Illustrator": "Kazuyuki Kano",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84801%2Fpokemon-diamond-and-pearl-promos-dialga-dp26",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Dialga-Lv68-V1-DPPR26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DPP-025",
-        "Name": "Tropical Wind",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/dpp/DP25_hires.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep.",
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90055%2Fpokemon-diamond-and-pearl-promos-tropical-wind-dp25-worlds-08",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Tropical-Wind-V2-DPPRDP25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DPP-027",
@@ -1045,7 +1045,7 @@
             "Heat Wave"
         ],
         "Ability-Effect": [
-            "Your opponent can't remove the Special Condition Burned by evolving or devolving his or her Burned Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto the Burned Pok\u00e9mon. ) Whenever your opponent flips a coin for the Special Condition Burned between turns, treat it as tails.",
+            "Your opponent can't remove the Special Condition Burned by evolving or devolving his or her Burned Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto the Burned Pok\u00e9mon.) Whenever your opponent flips a coin for the Special Condition Burned between turns, treat it as tails.",
             "Once at the end of your turn, if Heatran is on your Bench, you may use this power. If you discarded basic Energy cards attached to your [R] or [M] Active Pok\u00e9mon by using that Pok\u00e9mon's attack this turn, attach up to 2 of those Energy cards to that Pok\u00e9mon."
         ],
         "Moves": [],
@@ -1158,7 +1158,7 @@
         ],
         "Effects": [
             "Search your discard pile for up to 5 in any combination of Pok\u00e9mon and Supporter cards. Show them to your opponent and shuffle them into your deck.",
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -1197,7 +1197,7 @@
             "40+"
         ],
         "Effects": [
-            "Search your deck for a Pok\u00e9mon LV. X that levels up from 1 of your Pok\u00e9mon, and put it onto that Pok\u00e9mon. (This counts as leveling up that Pok\u00e9mon. ) Shuffle your deck afterward.",
+            "Search your deck for a Pok\u00e9mon LV. X that levels up from 1 of your Pok\u00e9mon, and put it onto that Pok\u00e9mon. (This counts as leveling up that Pok\u00e9mon.) Shuffle your deck afterward.",
             "Does 40 damage plus 20 more damage for each Technical Machine card attached to Porygon-Z."
         ],
         "Weakness": "Fighting",
@@ -1222,7 +1222,7 @@
             "Bind Eye"
         ],
         "Ability-Effect": [
-            "As long as Gliscor is your Active Pok\u00e9mon, your opponent can't remove any Special Conditions by evolving or devolving his or her Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto that Pok\u00e9mon. )"
+            "As long as Gliscor is your Active Pok\u00e9mon, your opponent can't remove any Special Conditions by evolving or devolving his or her Pok\u00e9mon. (This also includes putting a Pok\u00e9mon Level-Up card onto that Pok\u00e9mon.)"
         ],
         "Moves": [
             "Cutting Turn",
@@ -1298,7 +1298,7 @@
             "Invisible Tentacles"
         ],
         "Ability-Effect": [
-            "Whenever your opponent's Pok\u00e9mon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pok\u00e9mon can't attack. ) You can't use more than 1 Invisible Tentacles Pok\u00e9-Body each turn."
+            "Whenever your opponent's Pok\u00e9mon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pok\u00e9mon can't attack.) You can't use more than 1 Invisible Tentacles Pok\u00e9-Body each turn."
         ],
         "Moves": [
             "Darkness Lost"
@@ -1310,7 +1310,7 @@
             null
         ],
         "Effects": [
-            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) If any of your opponent's Pok\u00e9mon would be Knocked Out by damage from this attack, put that Pok\u00e9mon and all cards attached to it in the Lost Zone instead of discarding it."
+            "This attack does 30 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) If any of your opponent's Pok\u00e9mon would be Knocked Out by damage from this attack, put that Pok\u00e9mon and all cards attached to it in the Lost Zone instead of discarding it."
         ],
         "Weakness": "Darkness",
         "Resistance": "Colorless",
@@ -1356,6 +1356,42 @@
         "Illustrator": "Shizurow",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89116%2Fpokemon-diamond-and-pearl-promos-shaymin-lvx-dp39",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Shaymin-LVX-DPPRDP39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DPP-040",
+        "Name": "Regigigas",
+        "Rarity": null,
+        "Image": "https://images.pokemontcg.io/dpp/DP40_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Drag Off",
+            "Giga Hammer"
+        ],
+        "Move-Energy": [
+            "CCC",
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "30",
+            "80"
+        ],
+        "Effects": [
+            "Before doing damage, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch it with the Defending Pok\u00e9mon.",
+            "Regigigas can't use Giga Hammer during your next turn."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88665%2Fpokemon-diamond-and-pearl-promos-regigigas-dp40",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Regigigas-Lv46-V1-DPPRDP40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DPP-041",
@@ -1417,7 +1453,7 @@
             "20+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each Energy attached to Carnivine G to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each Energy attached to Carnivine G to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Does 20 damage plus 10 more damage for each [C] Energy in the Defending Pok\u00e9mon's Retreat Cost (after applying effects to the Retreat Cost)."
         ],
         "Weakness": "Fire",
@@ -1453,7 +1489,7 @@
             "70"
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Pok\u00e9mon that has any Pok\u00e9-Bodies. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to each of your opponent's Pok\u00e9mon that has any Pok\u00e9-Bodies. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Probopass G's Retreat Cost is 0 until the end of your next turn."
         ],
         "Weakness": "Water",
@@ -1562,7 +1598,7 @@
             null
         ],
         "Effects": [
-            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Garchomp C can't use Dragon Rush during your next turn."
+            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Garchomp C can't use Dragon Rush during your next turn."
         ],
         "Weakness": "Colorless",
         "Resistance": null,
@@ -1647,7 +1683,7 @@
             "100"
         ],
         "Effects": [
-            "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon. ) Shuffle your deck afterward.",
+            "Search your deck for a card that evolves from 1 of your Pok\u00e9mon and put it onto that Pok\u00e9mon. (This counts as evolving that Pok\u00e9mon.) Shuffle your deck afterward.",
             "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100."
         ],
         "Weakness": "Fire",
@@ -1682,7 +1718,7 @@
             "80"
         ],
         "Effects": [
-            "Discard all Energy cards attached to Arceus and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Discard all Energy cards attached to Arceus and this attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -1780,7 +1816,7 @@
         ],
         "Ability-Effect": [
             "Arceus LV. X's type is the same type as its previous Level.",
-            "Arceus can use the attacks of all Arceus you have in play as its own. (You still need the necessary Energy to use each attack. )"
+            "Arceus can use the attacks of all Arceus you have in play as its own. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [],
         "Move-Energy": [],
@@ -1854,41 +1890,5 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83606%2Fpokemon-diamond-and-pearl-promos-arceus-lvx-dp56",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Arceus-LVX-DPPRDP56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DPP-040",
-        "Name": "Regigigas",
-        "Rarity": null,
-        "Image": "https://images.pokemontcg.io/dpp/DP40_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Drag Off",
-            "Giga Hammer"
-        ],
-        "Move-Energy": [
-            "CCC",
-            "CCCC"
-        ],
-        "Move-Damage": [
-            "30",
-            "80"
-        ],
-        "Effects": [
-            "Before doing damage, you may choose 1 of your opponent's Benched Pok\u00e9mon and switch it with the Defending Pok\u00e9mon.",
-            "Regigigas can't use Giga Hammer during your next turn."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88665%2Fpokemon-diamond-and-pearl-promos-regigigas-dp40",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/DP-Black-Star-Promos/Regigigas-Lv46-V1-DPPRDP40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

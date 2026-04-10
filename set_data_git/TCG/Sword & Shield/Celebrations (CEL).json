@@ -1,41 +1,5 @@
 [
     {
-        "ID": "CEL-002",
-        "Name": "Reshiram",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_002_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Scorching Wind",
-            "Black Flame"
-        ],
-        "Move-Energy": [
-            "CC",
-            "RRC"
-        ],
-        "Move-Damage": [
-            null,
-            "80+"
-        ],
-        "Effects": [
-            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "If Zekrom is on your Bench, this attack does 80 more damage."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250301%2Fcelebrations-reshiram",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Reshiram-V1-CEL002?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEL-001",
         "Name": "Ho-Oh",
         "Rarity": "Rare",
@@ -59,7 +23,7 @@
             "120"
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Discard an Energy from this Pok\u00e9mon."
         ],
         "Weakness": "Lightning",
@@ -70,6 +34,42 @@
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250300%2Fcelebrations-ho-oh",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Ho-Oh?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-002",
+        "Name": "Reshiram",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_002_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scorching Wind",
+            "Black Flame"
+        ],
+        "Move-Energy": [
+            "CC",
+            "RRC"
+        ],
+        "Move-Damage": [
+            null,
+            "80+"
+        ],
+        "Effects": [
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If Zekrom is on your Bench, this attack does 80 more damage."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250301%2Fcelebrations-reshiram",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Reshiram-V1-CEL002?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-003",
@@ -95,7 +95,7 @@
             "120"
         ],
         "Effects": [
-            "Discard the top 5 cards of your deck, and then choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 50 damage for each Energy card you discarded in this way to each of those Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Discard the top 5 cards of your deck, and then choose 2 of your opponent's Benched Pok\u00e9mon. This attack does 50 damage for each Energy card you discarded in this way to each of those Pok\u00e9mon.\u00a0(Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Lightning",
@@ -180,38 +180,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Pikachu-V1-CEL005?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEL-007",
-        "Name": "Flying Pikachu VMAX",
-        "Rarity": "Triple Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_007_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "VMAX",
-        "Type": "Lightning",
-        "HP": "310",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Max Balloon"
-        ],
-        "Move-Energy": [
-            "LCC"
-        ],
-        "Move-Damage": [
-            "160"
-        ],
-        "Effects": [
-            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "0",
-        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "aky CG Works",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250305%2Fcelebrations-flying-pikachu-vmax",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Flying-Pikachu-VMAX?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEL-006",
         "Name": "Flying Pikachu V",
         "Rarity": "Double Rare",
@@ -246,6 +214,38 @@
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250304%2Fcelebrations-flying-pikachu-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Flying-Pikachu-V?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-007",
+        "Name": "Flying Pikachu VMAX",
+        "Rarity": "Triple Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "VMAX",
+        "Type": "Lightning",
+        "HP": "310",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Max Balloon"
+        ],
+        "Move-Energy": [
+            "LCC"
+        ],
+        "Move-Damage": [
+            "160"
+        ],
+        "Effects": [
+            "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks from Basic Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "0",
+        "Ex-Rule": "When your Pok\u00e9mon VMAX is Knocked out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250305%2Fcelebrations-flying-pikachu-vmax",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Flying-Pikachu-VMAX?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-008",
@@ -300,7 +300,7 @@
             "160"
         ],
         "Effects": [
-            "This attack also does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack also does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": null,
@@ -310,42 +310,6 @@
         "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250307%2Fcelebrations-surfing-pikachu-vmax",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Surfing-Pikachu-VMAX?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEL-011",
-        "Name": "Mew",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_011_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": [
-            "Mysterious Tail"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck."
-        ],
-        "Moves": [
-            "Psyshot"
-        ],
-        "Move-Energy": [
-            "PC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Yuu Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250309%2Fcelebrations-mew",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Mew-V1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-010",
@@ -382,6 +346,42 @@
         "Illustrator": "Aya Kusube",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250308%2Fcelebrations-zekrom",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Zekrom-V1-CEL010?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-011",
+        "Name": "Mew",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": [
+            "Mysterious Tail"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Item card you find there, and put it into your hand. Shuffle the other cards back into your deck."
+        ],
+        "Moves": [
+            "Psyshot"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Yuu Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250309%2Fcelebrations-mew",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Mew-V1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-012",
@@ -452,42 +452,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Cosmog?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEL-015",
-        "Name": "Lunala",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_015_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Psychic",
-        "HP": "160",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Lunar Pain",
-            "Psychic Shot"
-        ],
-        "Move-Energy": [
-            "CC",
-            "PCC"
-        ],
-        "Move-Damage": [
-            null,
-            "130"
-        ],
-        "Effects": [
-            "Double the number of damage counters on each of your opponent's Pok\u00e9mon.",
-            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Darkness",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kirisAki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250312%2Fcelebrations-lunala",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Lunala?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEL-014",
         "Name": "Cosmoem",
         "Rarity": "Rare",
@@ -518,6 +482,42 @@
         "Illustrator": "kirisAki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250297%2Fcelebrations-cosmoem",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Cosmoem?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-015",
+        "Name": "Lunala",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_015_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunar Pain",
+            "Psychic Shot"
+        ],
+        "Move-Energy": [
+            "CC",
+            "PCC"
+        ],
+        "Move-Damage": [
+            null,
+            "130"
+        ],
+        "Effects": [
+            "Double the number of damage counters on each of your opponent's Pok\u00e9mon.",
+            "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Darkness",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kirisAki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250312%2Fcelebrations-lunala",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Lunala?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-016",
@@ -848,7 +848,7 @@
             "Rain Dance"
         ],
         "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn't use up your 1 Energy card attachment for the turn. ) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
         ],
         "Moves": [
             "Hydro Pump"
@@ -908,20 +908,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Charizard-V1-CELBS-4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEL-CC-004",
-        "Name": "Imposter Professor Oak",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC4_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250322%2Fcelebrations-classic-collection-imposter-professor-oak",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Imposter-Professor-Oak?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "CEL-CC-003",
         "Name": "Venusaur",
         "Rarity": null,
@@ -956,6 +942,20 @@
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250321%2Fcelebrations-classic-collection-venusaur",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Venusaur?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-004",
+        "Name": "Imposter Professor Oak",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC4_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250322%2Fcelebrations-classic-collection-imposter-professor-oak",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Imposter-Professor-Oak?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-CC-005",
@@ -1002,42 +1002,10 @@
         "Rarity": null,
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC6_R_EN_LG.png",
         "Pack": null,
-        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game. )",
+        "Description": "Each player turns all of his or her Prize cards face up. (Those Prize cards remain face up for the rest of the game.)",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250323%2Fcelebrations-classic-collection-here-comes-team-rocket",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Here-Comes-Team-Rocket?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEL-CC-008",
-        "Name": "_____'s Pikachu",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC8_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Birthday Surprise"
-        ],
-        "Move-Energy": [
-            "LL"
-        ],
-        "Move-Damage": [
-            "30+"
-        ],
-        "Effects": [
-            "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250325%2Fcelebrations-classic-collection-______s-pikachu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/s-Pikachu?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-CC-007",
@@ -1074,6 +1042,38 @@
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250324%2Fcelebrations-classic-collection-rockets-zapdos",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Rockets-Zapdos?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-008",
+        "Name": "_____'s Pikachu",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC8_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Birthday Surprise"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250325%2Fcelebrations-classic-collection-______s-pikachu",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/s-Pikachu?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-CC-009",
@@ -1175,7 +1175,7 @@
             "50+"
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
         ],
         "Weakness": "Grass",
@@ -1186,6 +1186,20 @@
         "Illustrator": "Kazuo Yazawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250328%2Fcelebrations-classic-collection-team-magmas-groudon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Team-Magmas-Groudon?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-012",
+        "Name": "Rocket's Admin.",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC12_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250329%2Fcelebrations-classic-collection-rockets-admin",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Rockets-Admin?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-CC-013",
@@ -1200,7 +1214,7 @@
             "Versatile"
         ],
         "Ability-Effect": [
-            "Mew ex can use the attacks of all Pok\u00e9mon in play as its own. (You still need the necessary Energy to use each attack. )"
+            "Mew ex can use the attacks of all Pok\u00e9mon in play as its own. (You still need the necessary Energy to use each attack.)"
         ],
         "Moves": [
             "Power Move"
@@ -1222,56 +1236,6 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250330%2Fcelebrations-classic-collection-mew-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Mew-ex?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEL-CC-012",
-        "Name": "Rocket's Admin.",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC12_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first. )",
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250329%2Fcelebrations-classic-collection-rockets-admin",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Rockets-Admin?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "CEL-CC-015",
-        "Name": "Umbreon Star",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "70",
-        "Ability": [
-            "Dark Ray"
-        ],
-        "Ability-Effect": [
-            "Once during your turn, when you put Umbreon Star from your hand onto your Bench, your may choose 1 card from your opponent's hand without looking and discard it."
-        ],
-        "Moves": [
-            "Feint Attack"
-        ],
-        "Move-Energy": [
-            "DD"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "1",
-        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250332%2Fcelebrations-classic-collection-umbreon-star",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Umbreon-CELPOP5-17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-CC-014",
@@ -1308,6 +1272,42 @@
         "Illustrator": "Masahiko Ishii",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250331%2Fcelebrations-classic-collection-gardevoir-ex-delta-species",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Gardevoir-ex-Delta-Species?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-015",
+        "Name": "Umbreon Star",
+        "Rarity": null,
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": [
+            "Dark Ray"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you put Umbreon Star from your hand onto your Bench, your may choose 1 card from your opponent's hand without looking and discard it."
+        ],
+        "Moves": [
+            "Feint Attack"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "1",
+        "Ex-Rule": "You can't have more than 1 Pok\u00e9mon Star in your deck.",
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250332%2Fcelebrations-classic-collection-umbreon-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Umbreon-CELPOP5-17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-CC-016",
@@ -1406,7 +1406,7 @@
             null
         ],
         "Effects": [
-            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) Garchomp C can't use Dragon Rush during your next turn."
+            "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Garchomp C can't use Dragon Rush during your next turn."
         ],
         "Weakness": "Colorless",
         "Resistance": null,
@@ -1445,7 +1445,7 @@
             "90"
         ],
         "Effects": [
-            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Water",
@@ -1589,7 +1589,7 @@
             "140"
         ],
         "Effects": [
-            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "This Pok\u00e9mon can't use X Blast during your next turn."
         ],
         "Weakness": "Metal",
@@ -1666,7 +1666,7 @@
         ],
         "Effects": [
             "This attack does 20 damage times the amount of Energy attached to both Active Pok\u00e9mon. This damage isn't affected by Weakness or Resistance.",
-            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Heal all damage from 2 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": null,
         "Resistance": null,

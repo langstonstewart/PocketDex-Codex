@@ -144,6 +144,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Flygon-DR4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DR-005",
+        "Name": "Golem",
+        "Rarity": "Holo Rare",
+        "Image": "https://images.pokemontcg.io/ex3/5_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Vengeance",
+            "Rock Slide"
+        ],
+        "Move-Energy": [
+            "FCC",
+            "FFCCC"
+        ],
+        "Move-Damage": [
+            "20+",
+            "60"
+        ],
+        "Effects": [
+            "Does 20 damage plus 10 more damage for each damage counter on all of your Active Pok\u00e9mon.",
+            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "4",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85826%2Fpokemon-dragon-golem",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Golem-DR5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DR-006",
         "Name": "Grumpig",
         "Rarity": "Holo Rare",
@@ -180,42 +216,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Grumpig-DR6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-005",
-        "Name": "Golem",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/ex3/5_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting",
-        "HP": "120",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rock Vengeance",
-            "Rock Slide"
-        ],
-        "Move-Energy": [
-            "FCC",
-            "FFCCC"
-        ],
-        "Move-Damage": [
-            "20+",
-            "60"
-        ],
-        "Effects": [
-            "Does 20 damage plus 10 more damage for each damage counter on all of your Active Pok\u00e9mon.",
-            "Does 20 damage to 2 of your opponent's Benched Pok\u00e9mon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "4",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85826%2Fpokemon-dragon-golem",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Golem-DR5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DR-007",
         "Name": "Minun",
         "Rarity": "Holo Rare",
@@ -244,7 +244,7 @@
         ],
         "Effects": [
             "Remove 1 damage counter from each of your Pok\u00e9mon (including Minun).",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. If you choose Pok\u00e9mon that has a Pok\u00e9-Power or Pok\u00e9-Body, this attack does 40 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. If you choose Pok\u00e9mon that has a Pok\u00e9-Power or Pok\u00e9-Body, this attack does 40 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -284,7 +284,7 @@
         ],
         "Effects": [
             "Remove 1 damage counter from each of your Pok\u00e9mon (including Plusle).",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. If you choose Pok\u00e9mon-ex, this attack does 40 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. If you choose Pok\u00e9mon-ex, this attack does 40 damage instead. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -580,7 +580,7 @@
         ],
         "Effects": [
             "If Girafarig and the Defending Pok\u00e9mon have the same amount of Energy attached to them, pick any 1 card from your deck and put it into your hand. Shuffle your deck afterward.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each [C] Energy in that Pok\u00e9mon's Retreat Cost to that Pok\u00e9mon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage for each [C] Energy in that Pok\u00e9mon's Retreat Cost to that Pok\u00e9mon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -700,6 +700,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Salamence-V1-DR19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DR-020",
+        "Name": "Shelgon",
+        "Rarity": "Rare",
+        "Image": "https://images.pokemontcg.io/ex3/20_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scrunch",
+            "Rolling Attack"
+        ],
+        "Move-Energy": [
+            "C",
+            "RWC"
+        ],
+        "Move-Damage": [
+            null,
+            "50"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn. (Any other effects of attacks still happen.)",
+            ""
+        ],
+        "Weakness": "Colorless",
+        "Resistance": "Fighting/Fire",
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89122%2Fpokemon-dragon-shelgon-20-97",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Shelgon-DR20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DR-021",
         "Name": "Skarmory",
         "Rarity": "Rare",
@@ -736,10 +772,10 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Skarmory-DR21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-020",
-        "Name": "Shelgon",
+        "ID": "DR-022",
+        "Name": "Vibrava",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex3/20_hires.png",
+        "Image": "https://images.pokemontcg.io/ex3/22_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Colorless",
@@ -747,29 +783,29 @@
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Scrunch",
-            "Rolling Attack"
+            "Quick Charge",
+            "Dragon Spark"
         ],
         "Move-Energy": [
             "C",
-            "RWC"
+            "GL"
         ],
         "Move-Damage": [
             null,
-            "50"
+            null
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn. (Any other effects of attacks still happen. )",
-            ""
+            "Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+            "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Colorless",
-        "Resistance": "Fighting/Fire",
-        "Retreat-Cost": "2",
+        "Resistance": "Fire/Lightning",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89122%2Fpokemon-dragon-shelgon-20-97",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Shelgon-DR20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90332%2Fpokemon-dragon-vibrava-22-97",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Vibrava-DR22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-023",
@@ -808,40 +844,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Bagon-DR23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-022",
-        "Name": "Vibrava",
-        "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/ex3/22_hires.png",
+        "ID": "DR-024",
+        "Name": "Camerupt",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex3/24_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
-        "Type": "Colorless",
+        "Type": "Fire",
         "HP": "80",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Quick Charge",
-            "Dragon Spark"
+            "Super Singe",
+            "Ram"
         ],
         "Move-Energy": [
-            "C",
-            "GL"
+            "RC",
+            "RCC"
         ],
         "Move-Damage": [
-            null,
-            null
+            "20",
+            "50"
         ],
         "Effects": [
-            "Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-            "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Burned.",
+            ""
         ],
-        "Weakness": "Colorless",
-        "Resistance": "Fire/Lightning",
-        "Retreat-Cost": "1",
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90332%2Fpokemon-dragon-vibrava-22-97",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Vibrava-DR22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Naoyo Kimura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84088%2Fpokemon-dragon-camerupt",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Camerupt-DR24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-025",
@@ -878,42 +914,6 @@
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84402%2Fpokemon-dragon-combusken",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Combusken-DR25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DR-024",
-        "Name": "Camerupt",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex3/24_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Super Singe",
-            "Ram"
-        ],
-        "Move-Energy": [
-            "RC",
-            "RCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "50"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Burned.",
-            ""
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84088%2Fpokemon-dragon-camerupt",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Camerupt-DR24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-026",
@@ -988,42 +988,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Flaaffy-DR27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-029",
-        "Name": "Graveler",
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex3/29_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Grind",
-            "Big Explosion"
-        ],
-        "Move-Energy": [
-            "C",
-            "FFCC"
-        ],
-        "Move-Damage": [
-            "10\u00d7",
-            null
-        ],
-        "Effects": [
-            "Does 10 damage times the amount of Energy attached to Graveler.",
-            "Does 80 damage to each Active Pok\u00e9mon (both yours and your opponent's)."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hisao Nakamura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85889%2Fpokemon-dragon-graveler-29-97",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Graveler-DR29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DR-028",
         "Name": "Forretress",
         "Rarity": "Uncommon",
@@ -1060,6 +1024,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Forretress-DR28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DR-029",
+        "Name": "Graveler",
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex3/29_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Grind",
+            "Big Explosion"
+        ],
+        "Move-Energy": [
+            "C",
+            "FFCC"
+        ],
+        "Move-Damage": [
+            "10\u00d7",
+            null
+        ],
+        "Effects": [
+            "Does 10 damage times the amount of Energy attached to Graveler.",
+            "Does 80 damage to each Active Pok\u00e9mon (both yours and your opponent's)."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hisao Nakamura",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85889%2Fpokemon-dragon-graveler-29-97",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Graveler-DR29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DR-030",
         "Name": "Graveler",
         "Rarity": "Uncommon",
@@ -1083,7 +1083,7 @@
             "40"
         ],
         "Effects": [
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             ""
         ],
         "Weakness": "Water",
@@ -1292,7 +1292,7 @@
             "20"
         ],
         "Effects": [
-            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1400,7 +1400,7 @@
         ],
         "Effects": [
             "Does 20 damage plus 10 more damage for each Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1724,7 +1724,7 @@
         ],
         "Effects": [
             "",
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -1976,7 +1976,7 @@
         ],
         "Effects": [
             "",
-            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Benched Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,
@@ -2220,7 +2220,7 @@
             null
         ],
         "Effects": [
-            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "Choose 1 of your opponent's Pok\u00e9mon. This attack does 10 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
@@ -2230,38 +2230,6 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87073%2Fpokemon-dragon-magnemite-62-97",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Magnemite-DR62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DR-064",
-        "Name": "Mareep",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex3/64_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Jolt"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87197%2Fpokemon-dragon-mareep",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Mareep-DR64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-063",
@@ -2294,6 +2262,38 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87074%2Fpokemon-dragon-magnemite-63-97",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Magnemite-DR63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DR-064",
+        "Name": "Mareep",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex3/64_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jolt"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87197%2Fpokemon-dragon-mareep",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Mareep-DR64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-065",
@@ -2500,6 +2500,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Numel-DR70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "DR-071",
+        "Name": "Pineco",
+        "Rarity": "Common",
+        "Image": "https://images.pokemontcg.io/ex3/71_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Ability": [
+            "Exoskeleton"
+        ],
+        "Ability-Effect": [
+            "Any damage done to Pineco by attacks is reduced by 10 (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hajime Kusajima",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88126%2Fpokemon-dragon-pineco",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Pineco-DR71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "DR-072",
         "Name": "Slugma",
         "Rarity": "Common",
@@ -2536,40 +2572,36 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Slugma-DR72?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-071",
-        "Name": "Pineco",
+        "ID": "DR-073",
+        "Name": "Spoink",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex3/71_hires.png",
+        "Image": "https://images.pokemontcg.io/ex3/73_hires.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "40",
-        "Ability": [
-            "Exoskeleton"
-        ],
-        "Ability-Effect": [
-            "Any damage done to Pineco by attacks is reduced by 10 (after applying Weakness and Resistance)."
-        ],
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
         "Moves": [
-            "Tackle"
+            "Bounce"
         ],
         "Move-Energy": [
-            "GC"
+            "C"
         ],
         "Move-Damage": [
-            "20"
+            "10"
         ],
         "Effects": [
-            ""
+            "After your attack, you may switch Spoink with 1 of your Benched Pok\u00e9mon."
         ],
-        "Weakness": "Fire",
+        "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Hajime Kusajima",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88126%2Fpokemon-dragon-pineco",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Pineco-DR71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89470%2Fpokemon-dragon-spoink-73-97",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Spoink-DR73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-074",
@@ -2674,38 +2706,6 @@
         "Illustrator": "Kyoko Umemoto",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89731%2Fpokemon-dragon-taillow",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Taillow-DR76?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "DR-073",
-        "Name": "Spoink",
-        "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/ex3/73_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bounce"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "After your attack, you may switch Spoink with 1 of your Benched Pok\u00e9mon."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89470%2Fpokemon-dragon-spoink-73-97",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Spoink-DR73?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-077",
@@ -2840,20 +2840,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Treecko-DR80?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-082",
-        "Name": "Balloon Berry",
-        "Card-Type": "Tool",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/ex3/82_hires.png",
-        "Pack": null,
-        "Description": "When the Pok\u00e9mon Balloon Berry is attached to retreats, discard Balloon Berry instead of discarding Energy cards.",
-        "Illustrator": "Keiji Kinebuchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83708%2Fpokemon-dragon-balloon-berry",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Balloon-Berry-DR82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DR-081",
         "Name": "Wurmple",
         "Rarity": "Common",
@@ -2888,6 +2874,20 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90648%2Fpokemon-dragon-wurmple",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Wurmple-DR81?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DR-082",
+        "Name": "Balloon Berry",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://images.pokemontcg.io/ex3/82_hires.png",
+        "Pack": null,
+        "Description": "When the Pok\u00e9mon Balloon Berry is attached to retreats, discard Balloon Berry instead of discarding Energy cards.",
+        "Illustrator": "Keiji Kinebuchi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83708%2Fpokemon-dragon-balloon-berry",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Balloon-Berry-DR82?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-083",
@@ -3050,42 +3050,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Dragonite-ex-DR90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-092",
-        "Name": "Kingdra ex",
-        "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex3/92_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "150",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Genetic Memory",
-            "Hydrocannon"
-        ],
-        "Move-Energy": [
-            "W",
-            "CCC"
-        ],
-        "Move-Damage": [
-            null,
-            "50+"
-        ],
-        "Effects": [
-            "Use any attack from Kingdra ex's Basic Pok\u00e9mon card or Stage 1 Evolution card. (Kingdra ex doesn't have to pay for that attack's Energy cost. )",
-            "Does 50 damage plus 20 more damage for each [W] Energy attached to Kingdra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
-        ],
-        "Weakness": "Grass/lightning",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "Hikaru Koike",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86451%2Fpokemon-dragon-kingdra-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Kingdra-ex-DR92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DR-091",
         "Name": "Golem ex",
         "Rarity": "Ultra Rare",
@@ -3109,7 +3073,7 @@
             "120"
         ],
         "Effects": [
-            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "Does 10 damage to each Benched Pok\u00e9mon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "Golem ex does 50 damage to itself."
         ],
         "Weakness": "Grass/water",
@@ -3122,40 +3086,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Golem-ex-DR91?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-094",
-        "Name": "Latios ex",
+        "ID": "DR-092",
+        "Name": "Kingdra ex",
         "Rarity": "Ultra Rare",
-        "Image": "https://images.pokemontcg.io/ex3/94_hires.png",
+        "Image": "https://images.pokemontcg.io/ex3/92_hires.png",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "100",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "150",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Energy Stream",
-            "Luster Purge"
+            "Genetic Memory",
+            "Hydrocannon"
         ],
         "Move-Energy": [
-            "C",
-            "GLC"
+            "W",
+            "CCC"
         ],
         "Move-Damage": [
-            "10",
-            "100"
+            null,
+            "50+"
         ],
         "Effects": [
-            "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex.",
-            "Discard 3 Energy attached to Latios ex."
+            "Use any attack from Kingdra ex's Basic Pok\u00e9mon card or Stage 1 Evolution card. (Kingdra ex doesn't have to pay for that attack's Energy cost.)",
+            "Does 50 damage plus 20 more damage for each [W] Energy attached to Kingdra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
         ],
-        "Weakness": "Colorless",
-        "Resistance": "Grass/Fighting",
-        "Retreat-Cost": "2",
+        "Weakness": "Grass/lightning",
+        "Resistance": null,
+        "Retreat-Cost": "3",
         "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86673%2Fpokemon-dragon-latios-ex",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Latios-ex-DR94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "Hikaru Koike",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86451%2Fpokemon-dragon-kingdra-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Kingdra-ex-DR92?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-093",
@@ -3192,6 +3156,42 @@
         "Illustrator": "Ryo Ueda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86659%2Fpokemon-dragon-latias-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Latias-ex-DR93?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DR-094",
+        "Name": "Latios ex",
+        "Rarity": "Ultra Rare",
+        "Image": "https://images.pokemontcg.io/ex3/94_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Stream",
+            "Luster Purge"
+        ],
+        "Move-Energy": [
+            "C",
+            "GLC"
+        ],
+        "Move-Damage": [
+            "10",
+            "100"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex.",
+            "Discard 3 Energy attached to Latios ex."
+        ],
+        "Weakness": "Colorless",
+        "Resistance": "Grass/Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86673%2Fpokemon-dragon-latios-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Latios-ex-DR94?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-095",
@@ -3270,42 +3270,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Muk-ex-DR96?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "DR-098",
-        "Name": "Charmander",
-        "Rarity": "Secret Rare",
-        "Image": "https://images.pokemontcg.io/ex3/98_hires.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Flare",
-            "Rage"
-        ],
-        "Move-Energy": [
-            "R",
-            "CC"
-        ],
-        "Move-Damage": [
-            "10",
-            "10+"
-        ],
-        "Effects": [
-            "",
-            "Does 10 damage plus 10 more damage for each damage counter on Charmander."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84208%2Fpokemon-dragon-charmander",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Charmander-V1-DR98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "DR-097",
         "Name": "Rayquaza ex",
         "Rarity": "Ultra Rare",
@@ -3340,6 +3304,42 @@
         "Illustrator": "Hikaru Koike",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88642%2Fpokemon-dragon-rayquaza-ex",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Rayquaza-ex-DR97?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "DR-098",
+        "Name": "Charmander",
+        "Rarity": "Secret Rare",
+        "Image": "https://images.pokemontcg.io/ex3/98_hires.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flare",
+            "Rage"
+        ],
+        "Move-Energy": [
+            "R",
+            "CC"
+        ],
+        "Move-Damage": [
+            "10",
+            "10+"
+        ],
+        "Effects": [
+            "",
+            "Does 10 damage plus 10 more damage for each damage counter on Charmander."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84208%2Fpokemon-dragon-charmander",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/EX-Dragon/Charmander-V1-DR98?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "DR-099",
@@ -3402,7 +3402,7 @@
         ],
         "Effects": [
             "Flip a coin. If heads, search your discard pile for 2 [R] Energy cards and attach them to Charizard (1 if there is only 1).",
-            "You may discard a [R] Energy card attached to Charizard. If you do, choose 1 of your opponent's Benched Pok\u00e9mon and do 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "You may discard a [R] Energy card attached to Charizard. If you do, choose 1 of your opponent's Benched Pok\u00e9mon and do 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Water",
         "Resistance": null,

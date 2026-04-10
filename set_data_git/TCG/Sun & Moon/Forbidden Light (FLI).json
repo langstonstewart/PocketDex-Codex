@@ -128,42 +128,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Snover-FLI003?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-005",
-        "Name": "Scatterbug",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_005_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "30",
-        "Ability": [
-            "Abnormal Outbreak"
-        ],
-        "Ability-Effect": [
-            "You can use this Ability only if you go second. Once during your first turn (before your attack), you may search your deck for a Spewpa and a Vivillon, reveal them, and put them into your hand. Then, shuffle your deck."
-        ],
-        "Moves": [
-            "Tackle"
-        ],
-        "Move-Energy": [
-            "CC"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kirisAki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165652%2Fsm-forbidden-light-scatterbug-5",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Scatterbug-FLI5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-004",
         "Name": "Abomasnow",
         "Rarity": "Rare",
@@ -200,36 +164,40 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Abomasnow-FLI4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-007",
-        "Name": "Spewpa",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_007_R_EN_LG.png",
+        "ID": "FLI-005",
+        "Name": "Scatterbug",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_005_R_EN_LG.png",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
+        "Stage": "Basic",
         "Type": "Grass",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
+        "HP": "30",
+        "Ability": [
+            "Abnormal Outbreak"
+        ],
+        "Ability-Effect": [
+            "You can use this Ability only if you go second. Once during your first turn (before your attack), you may search your deck for a Spewpa and a Vivillon, reveal them, and put them into your hand. Then, shuffle your deck."
+        ],
         "Moves": [
-            "String Shot"
+            "Tackle"
         ],
         "Move-Energy": [
-            "G"
+            "CC"
         ],
         "Move-Damage": [
-            "20"
+            "10"
         ],
         "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+            ""
         ],
         "Weakness": "Fire",
         "Resistance": null,
-        "Retreat-Cost": "2",
+        "Retreat-Cost": "1",
         "Ex-Rule": null,
         "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165654%2Fsm-forbidden-light-spewpa",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Spewpa-FLI007?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "kirisAki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165652%2Fsm-forbidden-light-scatterbug-5",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Scatterbug-FLI5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-006",
@@ -262,6 +230,38 @@
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165653%2Fsm-forbidden-light-scatterbug-6",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Scatterbug-FLI006?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-007",
+        "Name": "Spewpa",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_007_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "String Shot"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165654%2Fsm-forbidden-light-spewpa",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Spewpa-FLI007?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-008",
@@ -332,42 +332,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Skiddo-FLI009?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-011",
-        "Name": "Pheromosa",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_011_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "110",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "High Jump Kick",
-            "White Ray"
-        ],
-        "Move-Energy": [
-            "C",
-            "GGC"
-        ],
-        "Move-Damage": [
-            "20",
-            "90+"
-        ],
-        "Effects": [
-            "",
-            "If you have only 1 Prize card remaining, this attack does 90 more damage."
-        ],
-        "Weakness": "Fire",
-        "Resistance": null,
-        "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Hitoshi Ariga",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165658%2Fsm-forbidden-light-pheromosa",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Pheromosa-FLI11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-010",
         "Name": "Gogoat",
         "Rarity": "Uncommon",
@@ -402,6 +366,42 @@
         "Illustrator": "Anesaki Dynamic",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165657%2Fsm-forbidden-light-gogoat",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Gogoat-FLI010?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-011",
+        "Name": "Pheromosa",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_011_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "High Jump Kick",
+            "White Ray"
+        ],
+        "Move-Energy": [
+            "C",
+            "GGC"
+        ],
+        "Move-Damage": [
+            "20",
+            "90+"
+        ],
+        "Effects": [
+            "",
+            "If you have only 1 Prize card remaining, this attack does 90 more damage."
+        ],
+        "Weakness": "Fire",
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Hitoshi Ariga",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165658%2Fsm-forbidden-light-pheromosa",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Pheromosa-FLI11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-012",
@@ -544,42 +544,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Fennekin-FLI015?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-017",
-        "Name": "Delphox",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_017_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fire",
-        "HP": "150",
-        "Ability": [
-            "Mystical Torch"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may leave your opponent's Active Pok\u00e9mon Burned."
-        ],
-        "Moves": [
-            "Fire Spin"
-        ],
-        "Move-Energy": [
-            "RRCC"
-        ],
-        "Move-Damage": [
-            "150"
-        ],
-        "Effects": [
-            "Discard 2 Energy from this Pok\u00e9mon."
-        ],
-        "Weakness": "Water",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "kawayoo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165664%2Fsm-forbidden-light-delphox",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Delphox-FLI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-016",
         "Name": "Braixen",
         "Rarity": "Uncommon",
@@ -614,6 +578,42 @@
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165663%2Fsm-forbidden-light-braixen",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Braixen-FLI016?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-017",
+        "Name": "Delphox",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_017_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "150",
+        "Ability": [
+            "Mystical Torch"
+        ],
+        "Ability-Effect": [
+            "Once during your turn (before your attack), you may leave your opponent's Active Pok\u00e9mon Burned."
+        ],
+        "Moves": [
+            "Fire Spin"
+        ],
+        "Move-Energy": [
+            "RRCC"
+        ],
+        "Move-Damage": [
+            "150"
+        ],
+        "Effects": [
+            "Discard 2 Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "kawayoo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165664%2Fsm-forbidden-light-delphox",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Delphox-FLI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-018",
@@ -712,7 +712,7 @@
         "Effects": [
             "Move any number of Energy from your Benched Pok\u00e9mon to this Pok\u00e9mon.",
             "This attack does 20 more damage times the amount of [W] Energy attached to this Pok\u00e9mon.",
-            "Shuffle all Energy from each of your opponent's Pok\u00e9mon into their deck. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle all Energy from each of your opponent's Pok\u00e9mon into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -860,7 +860,7 @@
         ],
         "Effects": [
             "You may shuffle this Pok\u00e9mon and all cards attached to it into your deck.",
-            "This attack does 130 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 130 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -870,42 +870,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165673%2Fsm-forbidden-light-greninja-gx",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Greninja-GX-V1-FLI24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FLI-026",
-        "Name": "Clawitzer",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_026_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Standing By",
-            "Sharpshooting"
-        ],
-        "Move-Energy": [
-            "W",
-            "W"
-        ],
-        "Move-Damage": [
-            null,
-            null
-        ],
-        "Effects": [
-            "During your next turn, this Pok\u00e9mon's Sharpshooting attack does 120 damage instead of 40.",
-            "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "otumami",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165677%2Fsm-forbidden-light-clawitzer",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Clawitzer-FLI026?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-025",
@@ -938,6 +902,42 @@
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165676%2Fsm-forbidden-light-clauncher",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Clauncher-FLI025?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-026",
+        "Name": "Clawitzer",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_026_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Standing By",
+            "Sharpshooting"
+        ],
+        "Move-Energy": [
+            "W",
+            "W"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon's Sharpshooting attack does 120 damage instead of 40.",
+            "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "otumami",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165677%2Fsm-forbidden-light-clawitzer",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Clawitzer-FLI026?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-027",
@@ -1012,6 +1012,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Aurorus-FLI028?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FLI-029",
+        "Name": "Bergmite",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_029_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Break Open"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "If your opponent has a Stadium card in play, discard it. If you do, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Metal",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Miki Tanaka",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165680%2Fsm-forbidden-light-bergmite",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Bergmite-FLI029?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FLI-030",
         "Name": "Avalugg",
         "Rarity": "Rare",
@@ -1048,38 +1080,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Avalugg-FLI030?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-029",
-        "Name": "Bergmite",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_029_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Break Open"
-        ],
-        "Move-Energy": [
-            "W"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            "If your opponent has a Stadium card in play, discard it. If you do, your opponent's Active Pok\u00e9mon is now Paralyzed."
-        ],
-        "Weakness": "Metal",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165680%2Fsm-forbidden-light-bergmite",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Bergmite-FLI029?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-031",
         "Name": "Volcanion \u2662",
         "Rarity": "Holo Rare",
@@ -1104,7 +1104,7 @@
             "100"
         ],
         "Effects": [
-            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Lightning",
         "Resistance": null,
@@ -1508,38 +1508,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Mesprit-FLI42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-044",
-        "Name": "Espurr",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_044_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Energy Teaser"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            null
-        ],
-        "Effects": [
-            "Move an Energy from 1 of your opponent's Benched Pok\u00e9mon to another of their Pok\u00e9mon."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "0313",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165695%2Fsm-forbidden-light-espurr",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Espurr-FLI044?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-043",
         "Name": "Azelf",
         "Rarity": "Uncommon",
@@ -1574,6 +1542,38 @@
         "Illustrator": "sui",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165694%2Fsm-forbidden-light-azelf",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Azelf-FLI043?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-044",
+        "Name": "Espurr",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_044_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Teaser"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Move an Energy from 1 of your opponent's Benched Pok\u00e9mon to another of their Pok\u00e9mon."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "0313",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165695%2Fsm-forbidden-light-espurr",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Espurr-FLI044?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-045",
@@ -1816,6 +1816,38 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Malamar-V1-FLI51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FLI-052",
+        "Name": "Skrelp",
+        "Rarity": "Common",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_052_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hook"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mina Nakai",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165702%2Fsm-forbidden-light-skrelp",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Skrelp-FLI052?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FLI-053",
         "Name": "Dragalge",
         "Rarity": "Rare",
@@ -1850,74 +1882,6 @@
         "Illustrator": "SATOSHI NAKAI",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165703%2Fsm-forbidden-light-dragalge",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Dragalge-FLI53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FLI-052",
-        "Name": "Skrelp",
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_052_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Hook"
-        ],
-        "Move-Energy": [
-            "P"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mina Nakai",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165702%2Fsm-forbidden-light-skrelp",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Skrelp-FLI052?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FLI-055",
-        "Name": "Poipole",
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_055_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spit Poison",
-            "Knockout Reviver"
-        ],
-        "Move-Energy": [
-            "C",
-            "PC"
-        ],
-        "Move-Damage": [
-            null,
-            null
-        ],
-        "Effects": [
-            "Your opponent's Active Pok\u00e9mon is now Poisoned.",
-            "During your opponent's next turn, if this Pok\u00e9mon is Knocked Out, your opponent can't take any Prize cards for it."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Megumi Mizutani",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165705%2Fsm-forbidden-light-poipole",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Poipole-V1-FLI55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-054",
@@ -1956,6 +1920,82 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Hoopa-FLI054?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FLI-055",
+        "Name": "Poipole",
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_055_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spit Poison",
+            "Knockout Reviver"
+        ],
+        "Move-Energy": [
+            "C",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned.",
+            "During your opponent's next turn, if this Pok\u00e9mon is Knocked Out, your opponent can't take any Prize cards for it."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Megumi Mizutani",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165705%2Fsm-forbidden-light-poipole",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Poipole-V1-FLI55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-056",
+        "Name": "Naganadel-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_056_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beast Raid",
+            "Jet Needle",
+            "Stinger-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "PCC",
+            "CCC"
+        ],
+        "Move-Damage": [
+            "20\u00d7",
+            "110",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage for each of your Ultra Beasts in play.",
+            "This attack's damage isn't affected by Weakness or Resistance.",
+            "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165706%2Fsm-forbidden-light-naganadel-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Naganadel-GX-V1-FLI56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FLI-057",
         "Name": "Cubone",
         "Rarity": "Common",
@@ -1988,46 +2028,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Cubone-FLI057?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-056",
-        "Name": "Naganadel-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_056_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Psychic",
-        "HP": "210",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Beast Raid",
-            "Jet Needle",
-            "Stinger-GX"
-        ],
-        "Move-Energy": [
-            "C",
-            "PCC",
-            "CCC"
-        ],
-        "Move-Damage": [
-            "20\u00d7",
-            "110",
-            null
-        ],
-        "Effects": [
-            "This attack does 20 damage for each of your Ultra Beasts in play.",
-            "This attack's damage isn't affected by Weakness or Resistance.",
-            "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165706%2Fsm-forbidden-light-naganadel-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Naganadel-GX-V1-FLI56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-058",
         "Name": "Torterra",
         "Rarity": "Rare",
@@ -2052,7 +2052,7 @@
         ],
         "Effects": [
             "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
-            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )"
+            "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2191,7 +2191,7 @@
             "100+"
         ],
         "Effects": [
-            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "If you played Cynthia from your hand during this turn, this attack does 100 more damage."
         ],
         "Weakness": "Grass",
@@ -2372,42 +2372,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Barbaracle-FLI067?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-069",
-        "Name": "Tyrantrum",
-        "Rarity": "Holo Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_069_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fighting",
-        "HP": "160",
-        "Ability": [
-            "Tyrannical Heart"
-        ],
-        "Ability-Effect": [
-            "As long as you don't have more Pok\u00e9mon in play than your opponent, this Pok\u00e9mon's attacks do 60 more damage (before applying Weakness and Resistance), and it takes 30 less damage from attacks (after applying Weakness and Resistance)."
-        ],
-        "Moves": [
-            "Crunch"
-        ],
-        "Move-Energy": [
-            "FFC"
-        ],
-        "Move-Damage": [
-            "100"
-        ],
-        "Effects": [
-            "Discard an Energy from your opponent's Active Pok\u00e9mon."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "hatachu",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165721%2Fsm-forbidden-light-tyrantrum",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Tyrantrum-FLI69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-068",
         "Name": "Tyrunt",
         "Rarity": "Uncommon",
@@ -2442,6 +2406,42 @@
         "Illustrator": "SATOSHI NAKAI",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165720%2Fsm-forbidden-light-tyrunt",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Tyrunt-FLI068?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-069",
+        "Name": "Tyrantrum",
+        "Rarity": "Holo Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_069_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "160",
+        "Ability": [
+            "Tyrannical Heart"
+        ],
+        "Ability-Effect": [
+            "As long as you don't have more Pok\u00e9mon in play than your opponent, this Pok\u00e9mon's attacks do 60 more damage (before applying Weakness and Resistance), and it takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        ],
+        "Moves": [
+            "Crunch"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard an Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "hatachu",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165721%2Fsm-forbidden-light-tyrantrum",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Tyrantrum-FLI69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-070",
@@ -2516,6 +2516,42 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Zygarde-FLI71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
+        "ID": "FLI-072",
+        "Name": "Zygarde",
+        "Rarity": "Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_072_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Glare",
+            "Calm Strike"
+        ],
+        "Move-Energy": [
+            "CC",
+            "FCC"
+        ],
+        "Move-Damage": [
+            "20",
+            "60+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
+            "If you have used your GX attack, this attack does 60 more damage."
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": null,
+        "Flavor-Text": null,
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165724%2Fsm-forbidden-light-zygarde-72",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Zygarde-FLI072?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "FLI-073",
         "Name": "Zygarde-GX",
         "Rarity": "Double Rare",
@@ -2544,7 +2580,7 @@
         "Effects": [
             "Attach 2 [F] Energy cards from your discard pile to this Pok\u00e9mon.",
             "",
-            "Prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
+            "Prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -2590,42 +2626,6 @@
         "Illustrator": "kawayoo",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165728%2Fsm-forbidden-light-diancie-prism-star",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Diancie-FLI74?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FLI-072",
-        "Name": "Zygarde",
-        "Rarity": "Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_072_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting",
-        "HP": "130",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Glare",
-            "Calm Strike"
-        ],
-        "Move-Energy": [
-            "CC",
-            "FCC"
-        ],
-        "Move-Damage": [
-            "20",
-            "60+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed.",
-            "If you have used your GX attack, this attack does 60 more damage."
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Mitsuhiro Arita",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165724%2Fsm-forbidden-light-zygarde-72",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Zygarde-FLI072?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-075",
@@ -2732,46 +2732,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Buzzwole-V1-FLI77?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-079",
-        "Name": "Yveltal-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_079_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "180",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Absorb Vitality",
-            "Sonic Evil",
-            "Doom Count-GX"
-        ],
-        "Move-Energy": [
-            "D",
-            "CCC",
-            "D"
-        ],
-        "Move-Damage": [
-            "20",
-            "100",
-            null
-        ],
-        "Effects": [
-            "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
-            "This attack's damage isn't affected by Weakness or Resistance.",
-            "If your opponent's Active Pok\u00e9mon has exactly 4 damage counters on it, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165733%2Fsm-forbidden-light-yveltal-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Yveltal-GX-V1-FLI79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-078",
         "Name": "Pangoro",
         "Rarity": "Rare",
@@ -2806,6 +2766,46 @@
         "Illustrator": "SATOSHI NAKAI",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165732%2Fsm-forbidden-light-pangoro",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Pangoro-FLI078?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-079",
+        "Name": "Yveltal-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_079_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Absorb Vitality",
+            "Sonic Evil",
+            "Doom Count-GX"
+        ],
+        "Move-Energy": [
+            "D",
+            "CCC",
+            "D"
+        ],
+        "Move-Damage": [
+            "20",
+            "100",
+            null
+        ],
+        "Effects": [
+            "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
+            "This attack's damage isn't affected by Weakness or Resistance.",
+            "If your opponent's Active Pok\u00e9mon has exactly 4 damage counters on it, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165733%2Fsm-forbidden-light-yveltal-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Yveltal-GX-V1-FLI79?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-080",
@@ -2904,7 +2904,7 @@
         "Effects": [
             "Draw cards until you have 6 cards in your hand.",
             "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "Take another turn after this one. (Skip the between-turns step. ) (You can't use more than 1 GX attack in a game. )"
+            "Take another turn after this one. (Skip the between-turns step.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Resistance": "Psychic",
@@ -3124,46 +3124,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Dedenne-FLI088?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-090",
-        "Name": "Xerneas-GX",
-        "Rarity": "Double Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_090_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fairy",
-        "HP": "180",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Overrun",
-            "Aurora Horns",
-            "Sanctuary-GX"
-        ],
-        "Move-Energy": [
-            "C",
-            "YYC",
-            "YYC"
-        ],
-        "Move-Damage": [
-            "20",
-            "120",
-            null
-        ],
-        "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
-            "",
-            "Move all damage counters from each of your Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Metal",
-        "Resistance": "Darkness",
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165748%2Fsm-forbidden-light-xerneas-gx",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Xerneas-GX-V1-FLI90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-089",
         "Name": "Klefki",
         "Rarity": "Uncommon",
@@ -3198,6 +3158,46 @@
         "Illustrator": "otumami",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165747%2Fsm-forbidden-light-klefki",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Klefki-FLI089?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-090",
+        "Name": "Xerneas-GX",
+        "Rarity": "Double Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_090_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fairy",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Overrun",
+            "Aurora Horns",
+            "Sanctuary-GX"
+        ],
+        "Move-Energy": [
+            "C",
+            "YYC",
+            "YYC"
+        ],
+        "Move-Damage": [
+            "20",
+            "120",
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "",
+            "Move all damage counters from each of your Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Metal",
+        "Resistance": "Darkness",
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165748%2Fsm-forbidden-light-xerneas-gx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Xerneas-GX-V1-FLI90?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-091",
@@ -3368,7 +3368,7 @@
         ],
         "Effects": [
             "Discard all basic [P] Energy from this Pok\u00e9mon. This attack does 80 more damage for each card you discarded in this way.",
-            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -3760,20 +3760,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Metal-Frying-Pan-V1-FLI112?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-113",
-        "Name": "Mysterious Treasure",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_113_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Discard a card from your hand. If you do, search your deck for a [P] or [N] Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
-        "Illustrator": "Eske Yoshinob",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165789%2Fsm-forbidden-light-mysterious-treasure",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Mysterious-Treasure-V1-FLI113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-112a",
         "Name": "Metal Frying Pan",
         "Card-Type": "Tool",
@@ -3788,18 +3774,18 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Metal-Frying-Pan-V3-FLI112a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-114",
-        "Name": "Ultra Recon Squad",
-        "Card-Type": "Supporter",
+        "ID": "FLI-113",
+        "Name": "Mysterious Treasure",
+        "Card-Type": "Item",
         "Ability": null,
         "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_114_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_113_R_EN_LG.png",
         "Pack": null,
-        "Description": "Discard up to 2 Ultra Beast cards from your hand. Draw 3 cards for each card you discarded in this way.",
-        "Illustrator": "Megumi Mizutani",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165775%2Fsm-forbidden-light-ultra-recon-squad",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Recon-Squad-V1-FLI114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Discard a card from your hand. If you do, search your deck for a [P] or [N] Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "Illustrator": "Eske Yoshinob",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165789%2Fsm-forbidden-light-mysterious-treasure",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Mysterious-Treasure-V1-FLI113?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-113a",
@@ -3814,6 +3800,20 @@
         "Illustrator": "Eske Yoshinob",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F198227%2Fleague-and-championship-cards-mysterious-treasure-113a-131-league-promo",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Mysterious-Treasure-V4-FLI113a?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-114",
+        "Name": "Ultra Recon Squad",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Uncommon",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_114_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard up to 2 Ultra Beast cards from your hand. Draw 3 cards for each card you discarded in this way.",
+        "Illustrator": "Megumi Mizutani",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165775%2Fsm-forbidden-light-ultra-recon-squad",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Recon-Squad-V1-FLI114?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-115",
@@ -3873,46 +3873,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Unit-Energy-V1-FLI118?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-120",
-        "Name": "Greninja-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_120_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "230",
-        "Ability": [
-            "Shuriken Flurry"
-        ],
-        "Ability-Effect": [
-            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may put 3 damage counters on 1 of your opponent's Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Haze Slash",
-            "Shadowy Hunter-GX"
-        ],
-        "Move-Energy": [
-            "WCC",
-            "WCC"
-        ],
-        "Move-Damage": [
-            "110",
-            null
-        ],
-        "Effects": [
-            "You may shuffle this Pok\u00e9mon and all cards attached to it into your deck.",
-            "This attack does 130 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Grass",
-        "Resistance": null,
-        "Retreat-Cost": "2",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165674%2Fsm-forbidden-light-greninja-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Greninja-GX-V2-FLI120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-119",
         "Name": "Palkia-GX",
         "Rarity": "Ultra Rare",
@@ -3941,7 +3901,7 @@
         "Effects": [
             "Move any number of Energy from your Benched Pok\u00e9mon to this Pok\u00e9mon.",
             "This attack does 20 more damage times the amount of [W] Energy attached to this Pok\u00e9mon.",
-            "Shuffle all Energy from each of your opponent's Pok\u00e9mon into their deck. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle all Energy from each of your opponent's Pok\u00e9mon into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -3951,6 +3911,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165668%2Fsm-forbidden-light-palkia-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Palkia-GX-V2-FLI119?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-120",
+        "Name": "Greninja-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_120_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "230",
+        "Ability": [
+            "Shuriken Flurry"
+        ],
+        "Ability-Effect": [
+            "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may put 3 damage counters on 1 of your opponent's Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Haze Slash",
+            "Shadowy Hunter-GX"
+        ],
+        "Move-Energy": [
+            "WCC",
+            "WCC"
+        ],
+        "Move-Damage": [
+            "110",
+            null
+        ],
+        "Effects": [
+            "You may shuffle this Pok\u00e9mon and all cards attached to it into your deck.",
+            "This attack does 130 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Grass",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165674%2Fsm-forbidden-light-greninja-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Greninja-GX-V2-FLI120?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-121",
@@ -3981,7 +3981,7 @@
         "Effects": [
             "This attack does 20 damage for each of your Ultra Beasts in play.",
             "This attack's damage isn't affected by Weakness or Resistance.",
-            "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game. )"
+            "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4021,7 +4021,7 @@
         "Effects": [
             "If this Pok\u00e9mon evolved from Riolu during this turn, this attack does 90 more damage.",
             "",
-            "This attack does 30 damage for each damage counter on this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 30 damage for each damage counter on this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4061,7 +4061,7 @@
         "Effects": [
             "Attach 2 [F] Energy cards from your discard pile to this Pok\u00e9mon.",
             "",
-            "Prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
+            "Prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -4071,46 +4071,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165726%2Fsm-forbidden-light-zygarde-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Zygarde-GX-V2-FLI123?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FLI-125",
-        "Name": "Dialga-GX",
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_125_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "180",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Overclock",
-            "Shred",
-            "Timeless-GX"
-        ],
-        "Move-Energy": [
-            "M",
-            "MCC",
-            "MMMCC"
-        ],
-        "Move-Damage": [
-            null,
-            "80",
-            "150"
-        ],
-        "Effects": [
-            "Draw cards until you have 6 cards in your hand.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "Take another turn after this one. (Skip the between-turns step. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165739%2Fsm-forbidden-light-dialga-gx-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Dialga-GX-V2-FLI125?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-124",
@@ -4141,7 +4101,7 @@
         "Effects": [
             "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
             "This attack's damage isn't affected by Weakness or Resistance.",
-            "If your opponent's Active Pok\u00e9mon has exactly 4 damage counters on it, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Active Pok\u00e9mon has exactly 4 damage counters on it, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -4151,6 +4111,46 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165734%2Fsm-forbidden-light-yveltal-gx-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Yveltal-GX-V2-FLI124?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-125",
+        "Name": "Dialga-GX",
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_125_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Overclock",
+            "Shred",
+            "Timeless-GX"
+        ],
+        "Move-Energy": [
+            "M",
+            "MCC",
+            "MMMCC"
+        ],
+        "Move-Damage": [
+            null,
+            "80",
+            "150"
+        ],
+        "Effects": [
+            "Draw cards until you have 6 cards in your hand.",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "Take another turn after this one. (Skip the between-turns step.) (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165739%2Fsm-forbidden-light-dialga-gx-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Dialga-GX-V2-FLI125?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-126",
@@ -4179,9 +4179,9 @@
             null
         ],
         "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "",
-            "Move all damage counters from each of your Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Move all damage counters from each of your Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -4217,7 +4217,7 @@
         ],
         "Effects": [
             "Discard all basic [P] Energy from this Pok\u00e9mon. This attack does 80 more damage for each card you discarded in this way.",
-            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Resistance": null,
@@ -4257,20 +4257,6 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Crasher-Wake-V2-FLI129?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-131",
-        "Name": "Ultra Recon Squad",
-        "Card-Type": "Supporter",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": "Ultra Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_131_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Discard up to 2 Ultra Beast cards from your hand. Draw 3 cards for each card you discarded in this way.",
-        "Illustrator": "Megumi Mizutani",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165776%2Fsm-forbidden-light-ultra-recon-squad-full-art",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Recon-Squad-V2-FLI131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
         "ID": "FLI-130",
         "Name": "Diantha",
         "Card-Type": "Supporter",
@@ -4283,6 +4269,20 @@
         "Illustrator": "nagimiso",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165769%2Fsm-forbidden-light-diantha-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Diantha-V2-FLI130?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-131",
+        "Name": "Ultra Recon Squad",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "Ultra Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_131_R_EN_LG.png",
+        "Pack": null,
+        "Description": "Discard up to 2 Ultra Beast cards from your hand. Draw 3 cards for each card you discarded in this way.",
+        "Illustrator": "Megumi Mizutani",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165776%2Fsm-forbidden-light-ultra-recon-squad-full-art",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Recon-Squad-V2-FLI131?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-132",
@@ -4313,7 +4313,7 @@
         "Effects": [
             "Move any number of Energy from your Benched Pok\u00e9mon to this Pok\u00e9mon.",
             "This attack does 20 more damage times the amount of [W] Energy attached to this Pok\u00e9mon.",
-            "Shuffle all Energy from each of your opponent's Pok\u00e9mon into their deck. (You can't use more than 1 GX attack in a game. )"
+            "Shuffle all Energy from each of your opponent's Pok\u00e9mon into their deck. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -4353,7 +4353,7 @@
         ],
         "Effects": [
             "You may shuffle this Pok\u00e9mon and all cards attached to it into your deck.",
-            "This attack does 130 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. ) (You can't use more than 1 GX attack in a game. )"
+            "This attack does 130 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -4393,7 +4393,7 @@
         "Effects": [
             "This attack does 20 damage for each of your Ultra Beasts in play.",
             "This attack's damage isn't affected by Weakness or Resistance.",
-            "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game. )"
+            "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4433,7 +4433,7 @@
         "Effects": [
             "If this Pok\u00e9mon evolved from Riolu during this turn, this attack does 90 more damage.",
             "",
-            "This attack does 30 damage for each damage counter on this Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "This attack does 30 damage for each damage counter on this Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Resistance": null,
@@ -4473,7 +4473,7 @@
         "Effects": [
             "Attach 2 [F] Energy cards from your discard pile to this Pok\u00e9mon.",
             "",
-            "Prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game. )"
+            "Prevent all damage done to this Pok\u00e9mon by attacks from Pok\u00e9mon-GX and Pok\u00e9mon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Resistance": null,
@@ -4483,46 +4483,6 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165727%2Fsm-forbidden-light-zygarde-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Zygarde-GX-V3-FLI136?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "FLI-138",
-        "Name": "Dialga-GX",
-        "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_138_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "180",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Overclock",
-            "Shred",
-            "Timeless-GX"
-        ],
-        "Move-Energy": [
-            "M",
-            "MCC",
-            "MMMCC"
-        ],
-        "Move-Damage": [
-            null,
-            "80",
-            "150"
-        ],
-        "Effects": [
-            "Draw cards until you have 6 cards in your hand.",
-            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
-            "Take another turn after this one. (Skip the between-turns step. ) (You can't use more than 1 GX attack in a game. )"
-        ],
-        "Weakness": "Fire",
-        "Resistance": "Psychic",
-        "Retreat-Cost": "3",
-        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
-        "Flavor-Text": null,
-        "Illustrator": "5ban Graphics",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165740%2Fsm-forbidden-light-dialga-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Dialga-GX-V3-FLI138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-137",
@@ -4553,7 +4513,7 @@
         "Effects": [
             "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon.",
             "This attack's damage isn't affected by Weakness or Resistance.",
-            "If your opponent's Active Pok\u00e9mon has exactly 4 damage counters on it, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game. )"
+            "If your opponent's Active Pok\u00e9mon has exactly 4 damage counters on it, that Pok\u00e9mon is Knocked Out. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Lightning",
         "Resistance": "Fighting",
@@ -4565,40 +4525,44 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Yveltal-GX-V3-FLI137?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "FLI-140",
-        "Name": "Ultra Necrozma-GX",
+        "ID": "FLI-138",
+        "Name": "Dialga-GX",
         "Rarity": "Rainbow Rare",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_140_R_EN_LG.png",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_138_R_EN_LG.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Dragon",
-        "HP": "190",
+        "Type": "Metal",
+        "HP": "180",
         "Ability": null,
         "Ability-Effect": null,
         "Moves": [
-            "Photon Geyser",
-            "Sky-Scorching Light-GX"
+            "Overclock",
+            "Shred",
+            "Timeless-GX"
         ],
         "Move-Energy": [
-            "PM",
-            "PM"
+            "M",
+            "MCC",
+            "MMMCC"
         ],
         "Move-Damage": [
-            "20+",
-            null
+            null,
+            "80",
+            "150"
         ],
         "Effects": [
-            "Discard all basic [P] Energy from this Pok\u00e9mon. This attack does 80 more damage for each card you discarded in this way.",
-            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Draw cards until you have 6 cards in your hand.",
+            "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon.",
+            "Take another turn after this one. (Skip the between-turns step.) (You can't use more than 1 GX attack in a game.)"
         ],
-        "Weakness": "Fairy",
-        "Resistance": null,
-        "Retreat-Cost": "2",
+        "Weakness": "Fire",
+        "Resistance": "Psychic",
+        "Retreat-Cost": "3",
         "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "PLANETA Igarashi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165757%2Fsm-forbidden-light-ultra-necrozma-gx-secret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Necrozma-GX-V3-FLI140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165740%2Fsm-forbidden-light-dialga-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Dialga-GX-V3-FLI138?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-139",
@@ -4627,9 +4591,9 @@
             null
         ],
         "Effects": [
-            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon. )",
+            "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
             "",
-            "Move all damage counters from each of your Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game. )"
+            "Move all damage counters from each of your Pok\u00e9mon to your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Metal",
         "Resistance": "Darkness",
@@ -4639,6 +4603,42 @@
         "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165750%2Fsm-forbidden-light-xerneas-gx-secret",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Xerneas-GX-V3-FLI139?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "FLI-140",
+        "Name": "Ultra Necrozma-GX",
+        "Rarity": "Rainbow Rare",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/FLI/FLI_140_R_EN_LG.png",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "190",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Photon Geyser",
+            "Sky-Scorching Light-GX"
+        ],
+        "Move-Energy": [
+            "PM",
+            "PM"
+        ],
+        "Move-Damage": [
+            "20+",
+            null
+        ],
+        "Effects": [
+            "Discard all basic [P] Energy from this Pok\u00e9mon. This attack does 80 more damage for each card you discarded in this way.",
+            "You can use this attack only if the total of both players' remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
+        ],
+        "Weakness": "Fairy",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Ex-Rule": "When your Pok\u00e9mon GX is Knocked out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Igarashi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F165757%2Fsm-forbidden-light-ultra-necrozma-gx-secret",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Forbidden-Light/Ultra-Necrozma-GX-V3-FLI140?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "FLI-141",
