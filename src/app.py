@@ -15,7 +15,7 @@ class CacheWorker(QObject):
     progress = pyqtSignal(str)
     
 
-    def __init__(self, queue_label: QLabel, n_m, category_list, set_dir, local_doc, max_concurrent=2):
+    def __init__(self, queue_label: QLabel, n_m, category_list, set_dir, local_doc, max_concurrent=1):
         super().__init__()
         self.category_list = category_list
         self.project_dir = set_dir
@@ -94,6 +94,8 @@ class Application(QMainWindow):
     def __init__(self) -> None:
         self.app = QApplication([])
         super().__init__()
+
+        self.app_init = False
         
         self.card_img_dict = {}
 
@@ -293,7 +295,11 @@ class Application(QMainWindow):
 
     def cache_finished(self, cache_dict):
         self.cache_dict = cache_dict
-        self.stacked_layout.setCurrentWidget(self.main_menu_widget)
+        if not self.app_init:
+            self.stacked_layout.setCurrentWidget(self.main_menu_widget)
+            self.app_init = True
+        else:
+            pass
         self.show()
 
 
@@ -688,11 +694,11 @@ class Application(QMainWindow):
 
     def create_inverse_button(self):
         self.inverse_button = QPushButton(f"Sort by Newest.." if self.set_inverse else "Sort by Oldest..")
-        self.ui_button_list.append((self.inverse_button, self.IM.heart_button_icon, None, None))
+        self.ui_button_list.append((self.inverse_button, self.IM.sort_icon, None, None))
         self.inverse_button.setFont(self.main_font)
         self.inverse_button.setProperty("class", "Setting_Button")
         
-        self.inverse_button.setIcon(QIcon(self.IM.heart_button_icon[self.mode]))
+        self.inverse_button.setIcon(QIcon(self.IM.sort_icon[self.mode]))
         self.inverse_button.setIconSize(QSize(36, 36))
 
         self.inverse_button.enterEvent = partial(self.on_button_enter, self.inverse_button)
@@ -1255,7 +1261,7 @@ This project is not affiliated with or associated with these entities.''')
         self.seperator(self.set_info_layout, 1100)
 
         if "Info" in set_data.keys():
-            info_label = QLabel(f"{set_data["Info"]}")
+            info_label = QLabel(set_data["Info"])
             info_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
             info_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
             info_label.setProperty("class", "header2")

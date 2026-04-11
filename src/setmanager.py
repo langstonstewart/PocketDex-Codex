@@ -1,6 +1,7 @@
 import json, requests, bs4 , pandas, os
 from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from src.resource_path import resource_path
 
 
 class SetManager:
@@ -44,7 +45,7 @@ class SetManager:
 
         if not copy:
   
-            with open(f"{dir}\\{set_name}.json", "w+") as set_file:
+            with open(resource_path(f"{dir}\\\\{set_name}.json"), "w+") as set_file:
                 json.dump(set_data_git, set_file, indent=4)
             
         else:
@@ -63,7 +64,7 @@ class SetManager:
                 new_set[i]["Quantity"] = curr_set[i]["Quantity"] # type: ignore
                 new_set[i]["Favorite"] = curr_set[i]["Favorite"] # type: ignore
 
-            with open(f"{dir}\\{set_name}\\{set_name}.json", "w+") as set_file:
+            with open(resource_path(f"{dir}\\\\{set_name}.json"), "w+") as set_file:
             
                 json.dump(new_set, set_file, indent=4)
                 return True
@@ -77,14 +78,14 @@ class SetManager:
         df = {"Quantity": [dic["Quantity"] for dic in set_data],
               "Favorite": [dic["Favorite"] for dic in set_data]}
         
-        pandas.DataFrame(df).to_excel(f"{fp}\\{set_name}\\{set_name}.xlsx", index=False)
+        pandas.DataFrame(df).to_excel(resource_path(f"{fp}\\{set_name}\\{set_name}.xlsx"), index=False)
 
-        os.startfile(f"{fp}\\{set_name}")
+        os.startfile(resource_path(f"{fp}\\{set_name}"))
 
     def import_excel(self, fp, excel_fp, set_name, set_data: dict):
         set_sheet = pandas.read_excel(excel_fp, keep_default_na=False)
 
-        with open(f"{fp}\\{set_name}\\{set_name}.json", "r+") as set_file:
+        with open(resource_path(f"{fp}\\{set_name}\\{set_name}.json"), "r+") as set_file:
             set_data = json.load(set_file)
 
         for i in range(len(set_data)):
@@ -93,7 +94,7 @@ class SetManager:
 
         if len(set_data) == len(set_sheet["Quantity"]):
             
-            with open(f"{fp}\\{set_name}\\{set_name}.json", "w+") as set_file:
+            with open(resource_path(f"{fp}\\{set_name}\\{set_name}.json"), "w+") as set_file:
                 json.dump(set_data, set_file, indent=4)
             return True
         return False

@@ -54,6 +54,8 @@ class ImageManager:
       
         self.dice_icon = (QPixmap(self.img("src/images/ui/dice_black.png")), QPixmap(self.img("src/images/ui/dice_white.png")))
 
+        self.sort_icon = (QPixmap(self.img("src/images/ui/sort_black.png")), QPixmap(self.img("src/images/ui/sort_white.png")))
+
         self.trait_dict = {
             "\u03b1": QPixmap(self.img("src/images/card_data/traits/alpha_icon.png")),
             "\u03a9": QPixmap(self.img("src/images/card_data/traits/omega_icon.png")),
@@ -228,7 +230,7 @@ class ImageLabel(QLabel):
             
 
     def image_loaded(self):
-        reply = self.sender()
+        reply = self._reply
         if reply is None or sip.isdeleted(reply):
             self._reply = None
             self.download_finished.emit()
