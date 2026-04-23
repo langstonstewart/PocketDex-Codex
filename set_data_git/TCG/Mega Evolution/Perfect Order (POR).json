@@ -355,9 +355,6 @@
         "Ability-Effect": [
             "If your opponent has exactly 4 cards in their hand, ignore all [C] Energy in the costs of attacks used by this Pok\u00e9mon."
         ],
-        "Moves": [
-            "Crushing Arrow"
-        ],
         "Move-Energy": [
             "GCCC"
         ],
@@ -589,9 +586,6 @@
         "Ability-Effect": [
             "As often as you like during your turn, you may use this Ability. Move a [W] Energy from 1 of your Benched Pok\u00e9mon to your Active Pok\u00e9mon."
         ],
-        "Moves": [
-            "Wave Splash"
-        ],
         "Move-Energy": [
             "WW"
         ],
@@ -751,10 +745,7 @@
             "Tundra Wall"
         ],
         "Ability-Effect": [
-            "All of your Pok\u00e9mon that have any [W] Energy attached take 50 less damage from attacks from your opponent's Pok\u00e9mon (after applying Weakness and Resistance). The effect of Tundra Wall doesn't stack."
-        ],
-        "Moves": [
-            "Freezing Chill"
+            "All of your Pok\u00e9mon that have any [W] Energy attached take 50 less damage from attacks from your opponent\u2019s Pok\u00e9mon (after applying Weakness and Resistance). The effect of Tundra Wall doesn\u2019t stack."
         ],
         "Move-Energy": [
             "WWC"
@@ -1151,9 +1142,6 @@
         "Ability-Effect": [
             "Once during your turn, you may use this Ability. Search your deck for up to 2 Basic [P] Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
         ],
-        "Moves": [
-            "Draining Kiss"
-        ],
         "Move-Energy": [
             "PC"
         ],
@@ -1382,9 +1370,6 @@
         ],
         "Ability-Effect": [
             "Once during your turn, you may use this Ability. Attach a Basic [F] Energy card from your hand to 1 of your [F] Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Hammer In"
         ],
         "Move-Energy": [
             "FFC"
@@ -2177,13 +2162,12 @@
         "Ability-Effect": [
             "As long as this Pok\u00e9mon is in the Active Spot, attacks used by your opponent\u2019s Active Pok\u00e9mon do 30 less damage (before applying Weakness and Resistance)."
         ],
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/POR/POR_068_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Play this card as if it were a 60-HP Basic [C] Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat. At any time during your turn, you may discard this card from play.",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F684353%2Fpokemon-me03-perfect-order-antique-jaw-fossil",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Antique-Jaw-Fossil-POR068?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Play this card as if it were a 60-HP Basic [C] Pok\u00e9mon. This card can\u2019t be affected by any Special Conditions and can\u2019t retreat.At any time during your turn, you may discard this card from play.",
+        "Item-Rule": "You may play any number of Item cards during your turn.",
+        "Flavor-Text": null,
+        "Illustrator": "AYUMI ODASHIMA",
+        "tcg_player_link": "https://www.tcgplayer.com/search/all/product?q=antique+jaw+fossil+perfect+order+(por)&view=grid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Antique+Jaw+Fossil+%28POR+068%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+97489+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "POR-069",
@@ -2198,13 +2182,12 @@
         "Ability-Effect": [
             "Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pok\u00e9mon."
         ],
-        "Rarity": "Common",
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/POR/POR_069_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Play this card as if it were a 60-HP Basic [C] Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat. At any time during your turn, you may discard this card from play.",
-        "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F684354%2Fpokemon-me03-perfect-order-antique-sail-fossil",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Antique-Sail-Fossil-POR069?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Description": "Play this card as if it were a 60-HP Basic [C] Pok\u00e9mon. This card can\u2019t be affected by any Special Conditions and can\u2019t retreat.At any time during your turn, you may discard this card from play.",
+        "Item-Rule": "You may play any number of Item cards during your turn.",
+        "Flavor-Text": null,
+        "Illustrator": "AYUMI ODASHIMA",
+        "tcg_player_link": "https://www.tcgplayer.com/search/all/product?q=antique+sail+fossil+perfect+order+(por)&view=grid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Antique+Sail+Fossil+%28POR+069%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+97492+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "POR-070",
@@ -2444,10 +2427,7 @@
     },
     {
         "ID": "POR-086",
-        "Name": "Growing Grass Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Name": "Growing [G] Energy",
         "Rarity": "Rare",
         "Image": "https://pkmncards.com/wp-content/uploads/me3_en_086_std.png",
         "Card-Type": "Special Energy",
@@ -2455,15 +2435,12 @@
         "Description": "As long as this card is attached to a Pok\u00e9mon, it provides [G] Energy.\nThe [G] Pok\u00e9mon this card is attached to gets +20 HP.",
         "Flavor-Text": null,
         "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F684375%2Fpokemon-me03-perfect-order-growing-grass-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Grow-G-Energy-POR086?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://www.tcgplayer.com/search/all/product?q=growing+[g]+energy+perfect+order+(por)&view=grid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Growing+%7BG%7D+Energy+%28POR+086%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+97543+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "POR-087",
-        "Name": "Rocky Fighting Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Name": "Rocky [F] Energy",
         "Rarity": "Rare",
         "Image": "https://pkmncards.com/wp-content/uploads/me3_en_087_std.png",
         "Card-Type": "Special Energy",
@@ -2471,15 +2448,12 @@
         "Description": "As long as this card is attached to a Pok\u00e9mon, it provides [F] Energy.\nPrevent all effects of attacks used by your opponent\u2019s Pok\u00e9mon done to the [F] Pok\u00e9mon this card is attached to. (Existing effects are not removed. Damage is not an effect.)",
         "Flavor-Text": null,
         "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F684350%2Fpokemon-me03-perfect-order-rocky-fighting-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Rock-F-Energy-POR087?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://www.tcgplayer.com/search/all/product?q=rocky+[f]+energy+perfect+order+(por)&view=grid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Rocky+%7BF%7D+Energy+%28POR+087%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+97546+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "POR-088",
-        "Name": "Telepathic Psychic Energy",
-        "Card-Type": "Special Energy",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Name": "Telepathic [P] Energy",
         "Rarity": "Rare",
         "Image": "https://pkmncards.com/wp-content/uploads/me3_en_088_std.png",
         "Card-Type": "Special Energy",
@@ -2487,8 +2461,8 @@
         "Description": "As long as this card is attached to a Pok\u00e9mon, it provides [P] Energy.\nWhen you attach this card from your hand to a [P] Pok\u00e9mon, search your deck for up to 2 Basic [P] Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck.",
         "Flavor-Text": null,
         "Illustrator": null,
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F684396%2Fpokemon-me03-perfect-order-telepathic-psychic-energy",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Perfect-Order/Telepath-P-Energy-POR088?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://www.tcgplayer.com/search/all/product?q=telepathic+[p]+energy+perfect+order+(por)&view=grid",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Telepathic+%7BP%7D+Energy+%28POR+088%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+97549+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "POR-089",
@@ -2600,10 +2574,7 @@
             "Tundra Wall"
         ],
         "Ability-Effect": [
-            "All of your Pok\u00e9mon that have any [W] Energy attached take 50 less damage from attacks from your opponent's Pok\u00e9mon (after applying Weakness and Resistance). The effect of Tundra Wall doesn't stack."
-        ],
-        "Moves": [
-            "Freezing Chill"
+            "All of your Pok\u00e9mon that have any [W] Energy attached take 50 less damage from attacks from your opponent\u2019s Pok\u00e9mon (after applying Weakness and Resistance). The effect of Tundra Wall doesn\u2019t stack."
         ],
         "Move-Energy": [
             "WWC"
@@ -2866,9 +2837,6 @@
         ],
         "Ability-Effect": [
             "If your opponent has exactly 4 cards in their hand, ignore all [C] Energy in the costs of attacks used by this Pok\u00e9mon."
-        ],
-        "Moves": [
-            "Crushing Arrow"
         ],
         "Move-Energy": [
             "GCCC"
