@@ -2,7 +2,7 @@ import os, json, datetime, copy
 from src import setmanager, themes, image_manager
 from src.resource_path import resource_path
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QToolButton, QVBoxLayout, QHBoxLayout, QGridLayout, QStackedLayout, QMainWindow, QSizePolicy, QScrollArea, QGraphicsOpacityEffect, QGraphicsColorizeEffect, QFileDialog, QMessageBox
-from PyQt6.QtCore import Qt, QSize, QUrl, QTimer, QObject, pyqtSignal, QThread
+from PyQt6.QtCore import Qt, QSize, QUrl, QTimer, QObject, pyqtSignal
 from PyQt6.QtGui import QFont, QCursor, QIcon, QDesktopServices, QPixmap, QColor, QKeySequence, QShortcut
 from math import ceil
 from functools import partial
@@ -10,90 +10,14 @@ from PyQt6.QtNetwork import QNetworkAccessManager
 import random
 
 
-class CacheWorker(QObject):
-    finished = pyqtSignal(dict)      
-    progress = pyqtSignal(str)
-    
 
-    def __init__(self, queue_label: QLabel, n_m, category_list, set_dir, local_doc, max_concurrent=1):
-        super().__init__()
-        self.category_list = category_list
-        self.project_dir = set_dir
-        self.local_doc = local_doc
-        self.queue_label = queue_label
-        self.n_m = n_m
-        self.max_concurrent = max_concurrent
-
-
-        self.queue = []
-        self.queue_status = 0
-        self.queue_count = 0
-        self.cache_dict = {}
-        self.active = 0
-        
-
-    def run(self):
-            
-
-        for category in self.category_list:
-
-            with open(f'{self.project_dir}\\{category[1]}', 'r+', encoding="UTF-8") as set_file:
-                    self.set_dict = json.load(set_file) # type: dict
-
-            for key in self.set_dict.keys():
-
-                for set in self.set_dict[key]:
-        
-                    with open(f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}\\{set["Name"]}.json", "r") as set_file:
-                        self.set_list = json.load(set_file)
-
-                    cards_folder = f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}\\cards"
-
-                    if len(os.listdir(cards_folder)) != len(self.set_list):
-                            
-                        for card in self.set_list:
-                         
-                            self.queue.append((card, cards_folder))
-                            self.queue_count += 1
-
-        self.start_downloads()
-
-    def start_downloads(self):
-        
-        while self.active < self.max_concurrent and self.queue:
-            self.start_one()
-
-        if not self.queue and self.active == 0:
-            self.finished.emit(self.cache_dict)
-
-    def start_one(self):
-        try:
-            card, cards_folder = self.queue.pop(0)
-            card_label = image_manager.ImageLabel(card["Image"], card["ID"], cards_folder, True, network_manager=self.n_m)
-            self.cache_dict[card["ID"]] = card_label
-            self.active += 1
-            card_label.download_finished.connect(self.on_download_finished)
-
-        except RuntimeError as e:
-            if "wrapped C/C++ object of type QNetworkReply has been deleted" in str(e):
-                self.queue.insert(0, (card, cards_folder))
-                QTimer.singleShot(0, self.start_one)
-            else:
-                raise
-
-    
-
-    def on_download_finished(self):
-        self.active -= 1
-        self.queue_status += 1
-        self.queue_label.setText(f"({self.queue_status}\\{self.queue_count})")
-       
-        self.start_downloads()
 
 class Application(QMainWindow):
     def __init__(self) -> None:
         self.app = QApplication([])
         super().__init__()
+
+        self.img_cache_dict = {}
 
         self.app_init = False
         
@@ -225,7 +149,6 @@ class Application(QMainWindow):
                     os.makedirs(set_dir, exist_ok=True)
 
                     if not os.listdir(set_dir):
-                        os.makedirs(f"{self.local_doc}\\{category[0]}\\{key}\\{set["Name"]}\\cards", exist_ok=True)
                         
                         self.set_manager.create_set(set["Name"], category[0], key, set_dir)
 
@@ -252,24 +175,7 @@ class Application(QMainWindow):
         self.show()
 
         self.app.processEvents()
-
-        self.cache_thread = QThread()
-        
         self.network_manager = QNetworkAccessManager()
-        self.network_manager.moveToThread(self.cache_thread)
-
-        self.cache_worker = CacheWorker(self.queue_label, self.network_manager, self.category_list, self.project_dir, self.local_doc)
-        self.cache_worker.moveToThread(self.cache_thread)
-        
-        self.cache_thread.started.connect(self.cache_worker.run)
-        self.cache_worker.finished.connect(self.cache_finished)
-        self.cache_worker.finished.connect(self.cache_thread.quit)
-        self.cache_worker.finished.connect(self.cache_worker.deleteLater)
-        
-        self.cache_thread.finished.connect(self.cache_thread.deleteLater)
-
-        self.cache_thread.start()
-
 
         for set_list in self.category_list:
 
@@ -293,13 +199,13 @@ class Application(QMainWindow):
 
                             self.IM.logo_dict[set['SetID']] = set_pixmap
 
+        self.cache_finished({})
+
     def cache_finished(self, cache_dict):
         self.cache_dict = cache_dict
         if not self.app_init:
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
             self.app_init = True
-        else:
-            pass
         self.show()
 
 
@@ -333,7 +239,7 @@ class Application(QMainWindow):
 
         
         loading_icon_label = QLabel("")
-        loading_txt_label = QLabel("Downloading application data..")
+        loading_txt_label = QLabel("Preparing application data..")
 
         self.queue_label = QLabel("( )")
         self.queue_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -994,10 +900,6 @@ This project is not affiliated with or associated with these entities.''')
         
     def await_cache(self): 
                 
-        if len(os.listdir(f"{self.local_doc}\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards")) != len(self.set_list):
-            QTimer.singleShot(100, self.await_cache)
-            return
-            
         self.display_cards()
 
         self.seperator(self.set_main_layout, self.set_sep_lens[self.col_count])
@@ -1008,9 +910,8 @@ This project is not affiliated with or associated with these entities.''')
 
         self.change_col_button(self.set_main_layout)
 
-        self.stacked_layout.addWidget(self.set_widget)
-
-        self.stacked_layout.setCurrentWidget(self.set_widget)
+        
+        
 
 
     def set_action_buttons(self):
@@ -1414,9 +1315,11 @@ This project is not affiliated with or associated with these entities.''')
                 
                 tera_layout.addWidget(move_effect_label)
 
+           
 
-            if self.set_list[card_index]["Ability"]:
+            if "Ability" in self.set_list[card_index].keys():
 
+        
                 for i in range (len(self.set_list[card_index]["Ability"])):
 
                     ability_text = f"{self.set_list[card_index]["Ability"][i]}"
@@ -1546,7 +1449,7 @@ This project is not affiliated with or associated with these entities.''')
             w_r_layout = QHBoxLayout()
             w_r_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
-            if self.set_list[card_index]["Ability"]:
+            if "Ability" in self.set_list[card_index].keys():
                 pass
                 #self.cd_layout.addStretch() # type: ignore
             
@@ -1556,31 +1459,35 @@ This project is not affiliated with or associated with these entities.''')
 
             if weakness_data:
 
-                w_layout = QHBoxLayout()
-                w_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                w_r_layout.addLayout(w_layout) # type: ignore
+                for weakness in weakness_data.split('/'):
 
-                weakness_txt = QLabel("Weakness")
-                weakness_txt.setFont(self.main_font)
-                weakness_txt.setProperty("class", "header2")
-                weakness_txt.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-                w_layout.addWidget(weakness_txt)
+                    w_layout = QHBoxLayout()
+                    w_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                    w_r_layout.addLayout(w_layout) # type: ignore
 
-                weakness_energy = QLabel("")
-                weakness_energy.setPixmap(self.IM.type_dict[weakness_data].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
-                weakness_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-                w_layout.addWidget(weakness_energy)
+                    weakness_txt = QLabel("Weakness")
+                    weakness_txt.setFont(self.main_font)
+                    weakness_txt.setProperty("class", "header2")
+                    weakness_txt.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                    w_layout.addWidget(weakness_txt)
 
-                weakness_dmg = QLabel("+20" if self.category_dir == "TCG Pocket" else f"\u00782")
-                weakness_dmg.setFont(self.main_font)
-                weakness_dmg.setProperty("class", "header2")
-                weakness_dmg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-                w_layout.addWidget(weakness_dmg)
+                    weakness_energy = QLabel("")
+                    weakness_energy.setPixmap(self.IM.type_dict[weakness].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+                    weakness_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                    w_layout.addWidget(weakness_energy)
+
+                    weakness_dmg = QLabel("+20" if self.category_dir == "TCG Pocket" else f"\u00782")
+                    weakness_dmg.setFont(self.main_font)
+                    weakness_dmg.setProperty("class", "header2")
+                    weakness_dmg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                    w_layout.addWidget(weakness_dmg)
                 
 
             resist_data = self.set_list[card_index]["Resistance"] if "Resistance" in self.set_list[card_index].keys() else None
 
             if resist_data:
+
+                
 
                 r_layout = QHBoxLayout()
                 r_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1592,11 +1499,11 @@ This project is not affiliated with or associated with these entities.''')
                 resist_txt.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                 r_layout.addWidget(resist_txt)
 
-    
-                resist_energy = QLabel("")
-                resist_energy.setPixmap(self.IM.type_dict[resist_data].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
-                resist_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-                r_layout.addWidget(resist_energy)
+                for resistance in resist_data.split('/'):
+                    resist_energy = QLabel("")
+                    resist_energy.setPixmap(self.IM.type_dict[resistance].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+                    resist_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                    r_layout.addWidget(resist_energy)
 
                 resist_dmg = QLabel("-20")
                 resist_dmg.setFont(self.main_font)
@@ -1631,7 +1538,14 @@ This project is not affiliated with or associated with these entities.''')
 
             flavor_text = self.set_list[card_index]["Flavor-Text"]
 
-            ex_rule = self.set_list[card_index]["Ex-Rule"]
+            card_rule_list = []
+
+            for rule in self.IM.rule_list:
+                if rule in self.set_list[card_index].keys():
+                    card_rule_list.append(rule)
+
+
+            
 
             if flavor_text:
 
@@ -1651,22 +1565,22 @@ This project is not affiliated with or associated with these entities.''')
                     
                 ft_layout.addWidget(ft_label)
 
-            elif ex_rule:
+            elif card_rule_list:
+                for card_rule in card_rule_list:
+                    ex_layout = QVBoxLayout()
+                    ex_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                    self.cd_layout.addLayout(ex_layout) # type: ignore
 
-                ex_layout = QVBoxLayout()
-                ex_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                self.cd_layout.addLayout(ex_layout) # type: ignore
-
-                ex_label = QLabel(f"{ex_rule}")
-                ex_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                ex_label.setFont(self.main_font)
-                ex_label.setProperty("class", "header2")
-                ex_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-                ex_label.setWordWrap(True)
-                ex_label.setMinimumHeight(ex_label.sizeHint().height() * 3)
-                ex_label.setMaximumHeight(ex_label.sizeHint().height() * 3)
-                    
-                ex_layout.addWidget(ex_label)
+                    ex_label = QLabel(f"{self.set_list[card_index][card_rule]}")
+                    ex_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                    ex_label.setFont(self.main_font)
+                    ex_label.setProperty("class", "header2")
+                    ex_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
+                    ex_label.setWordWrap(True)
+                    ex_label.setMinimumHeight(ex_label.sizeHint().height() * 3)
+                    ex_label.setMaximumHeight(ex_label.sizeHint().height() * 3)
+                        
+                    ex_layout.addWidget(ex_label)
 
         else:
             self.seperator(self.cd_layout, 1100)
@@ -1960,6 +1874,7 @@ This project is not affiliated with or associated with these entities.''')
         self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
     def create_card(self, card_index, layout, clickable=True, row=0, col=0, favorites_menu=False, f_index=0):
+        print(self.card_cache_count)
         card_widget = QWidget()
 
         card_layout = QVBoxLayout(card_widget)
@@ -2004,9 +1919,31 @@ This project is not affiliated with or associated with these entities.''')
 
                 self.display_card_data_page(card_index, favorites_menu)
 
-        img_path = f"{self.local_doc}\\{self.category_dir}\\{self.series}\\{self.set_name}\\cards"
+        def cache_img(widget):
+            pix = widget.pixmap()
+            if pix and not pix.isNull():
+                self.img_cache_dict[self.set_id][self.set_list[card_index]["ID"]] = pix
 
-        card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], self.set_list[card_index]["ID"], img_path, False)
+                self.card_cache_count += 1
+
+                print(self.card_cache_count)
+
+                if self.card_cache_count == len(self.set_list) and not favorites_menu:
+                    self.stacked_layout.addWidget(self.set_widget)
+                    self.stacked_layout.setCurrentWidget(self.set_widget)
+
+        if self.set_id in self.img_cache_dict.keys():
+            if self.set_list[card_index]["ID"] in self.img_cache_dict[self.set_id].keys():
+                card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager, is_pixmap=self.img_cache_dict[self.set_id][self.set_list[card_index]["ID"]])
+            else:
+                card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager)
+                card_img.download_finished.connect(partial(cache_img, card_img))
+        else:
+            self.img_cache_dict[self.set_id] = {}
+            card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager)
+            card_img.download_finished.connect(partial(cache_img, card_img))
+
+
         card_img.setProperty("index", card_index)
         card_img.setProperty("series", self.series)
         
@@ -2113,7 +2050,11 @@ This project is not affiliated with or associated with these entities.''')
         card_layout.addStretch(1) 
 
         card_rarity = QLabel("")
-        card_rarity.setPixmap(self.rarity_dict[self.set_list[card_index]["Rarity"]] if self.set_list[card_index]["Rarity"] != "N/A" else self.rarity_dict["N/A"][self.mode].scaled(50, 50, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+        try:
+            card_rarity.setPixmap(self.rarity_dict[self.set_list[card_index]["Rarity"]] if self.set_list[card_index]["Rarity"] != "N/A" else self.rarity_dict["N/A"][self.mode].scaled(50, 50, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+        except KeyError:
+            card_rarity.setPixmap(self.rarity_dict["N/A"][self.mode].scaled(50, 50, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+            
         card_rarity.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         card_rarity.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         card_layout.addWidget(card_rarity)
@@ -2232,6 +2173,13 @@ This project is not affiliated with or associated with these entities.''')
         if not self.rarity_dict:
             self.init_rarities()
 
+        if self.set_id in self.img_cache_dict.keys():
+            print('set cached')
+            self.stacked_layout.addWidget(self.set_widget)
+            self.stacked_layout.setCurrentWidget(self.set_widget)
+        else:
+            self.card_cache_count = 0
+
         while True:
             if all_rows:
                 break
@@ -2241,7 +2189,7 @@ This project is not affiliated with or associated with these entities.''')
                 for c in range(col_length):
                     
                     self.create_card(current_card, self.card_grid, True, r, c)
-
+                    print(self.img_cache_dict)
                     current_card += 1
                     if current_card == len(self.set_list):
                         all_rows = True
@@ -2421,7 +2369,7 @@ This project is not affiliated with or associated with these entities.''')
         
         if len(self.favorite_list):
 
-            
+            self.card_cache_count = 0
 
             self.previous_widget = self.fav_main_layout
            
@@ -2502,6 +2450,7 @@ This project is not affiliated with or associated with these entities.''')
 
                         
                         self.create_card(self.favorite_list[current_card]["Index"], self.fav_grid, True, r, c, True, current_card)
+                        print(self.img_cache_dict)
                         current_card += 1
                         if current_card == len(self.favorite_list):
                             all_rows = True
@@ -2823,11 +2772,10 @@ This project is not affiliated with or associated with these entities.''')
     def run(self):
       
         self.init_set_dir()
-        
-
-        self.init_cache()
 
         self.init_main_menu()
+        
+        self.init_cache()
 
         self.title()
         

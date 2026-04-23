@@ -2,21 +2,19 @@
     {
         "ID": "N2-001",
         "Name": "Espeon",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/1_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/espeon-neo-discovery-1.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Psychic",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bite",
-            "Psychic"
-        ],
         "Move-Energy": [
             "CC",
             "PPC"
+        ],
+        "Moves": [
+            "Bite",
+            "Psychic"
         ],
         "Move-Damage": [
             "20",
@@ -29,32 +27,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It uses the fine hair that covers its body to sense air currents and predict its enemy\u2019s actions.",
         "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85316%2Fpokemon-neo-discovery-espeon-1",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Espeon-NDI1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85316&partnerpropertyid=5285443&subId1=single&subId2=9570&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Espeon+%28NDI+1%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9570+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-002",
         "Name": "Forretress",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/2_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/forretress-neo-discovery-2.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Metal",
         "HP": "80",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Spikes"
         ],
-        "Ability-Effect": [
-            "During your opponent's turn, whenever 1 of your opponent's Benched Pok\u00e9mon becomes his or her Active Pok\u00e9mon, Forretress does 10 damage to it. (Don't apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Rapid Spin"
+        "Pok\u00e9mon-Power-Effect": [
+            "During your opponent\u2019s turn, whenever 1 of your opponent\u2019s Benched Pok\u00e9mon becomes his or her Active Pok\u00e9mon, Forretress does 10 damage to it. (Don\u2019t apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
         ],
         "Move-Energy": [
             "MCC"
+        ],
+        "Moves": [
+            "Rapid Spin"
         ],
         "Move-Damage": [
             "30"
@@ -65,66 +62,60 @@
         "Weakness": "Fire",
         "Resistance": "Grass",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85542%2Fpokemon-neo-discovery-forretress-2",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Forretress-NDI2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85542&partnerpropertyid=5285443&subId1=single&subId2=9578&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Forretress+%28NDI+2%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9578+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-003",
         "Name": "Hitmontop",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/3_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/hitmontop-neo-discovery-3.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Detect",
-            "Triple Kick"
-        ],
         "Move-Energy": [
             "F",
             "FFF"
         ],
+        "Moves": [
+            "Detect",
+            "Triple Kick"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
+            "Flip a coin. If heads, during your opponent\u2019s next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
             "Flip 3 coins. This attack does 30 damage times the number of heads."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.",
         "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86110%2Fpokemon-neo-discovery-hitmontop-3",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Hitmontop-NDI3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86110&partnerpropertyid=5285443&subId1=single&subId2=9603&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hitmontop+%28NDI+3%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9603+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-004",
         "Name": "Houndoom",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/4_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/houndoom-neo-discovery-4.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Darkness",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Crunch",
-            "Flamethrower"
-        ],
         "Move-Energy": [
             "DCC",
             "RRC"
+        ],
+        "Moves": [
+            "Crunch",
+            "Flamethrower"
         ],
         "Move-Damage": [
             "30",
@@ -137,30 +128,27 @@
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Upon hearing its eerie howls, other Pok\u00e9mon get the shivers and head straight back to their nests.",
         "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86197%2Fpokemon-neo-discovery-houndoom-4",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Houndoom-NDI4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86197&partnerpropertyid=5285443&subId1=single&subId2=9617&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Houndoom+%28NDI+4%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9617+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-005",
         "Name": "Houndour",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/5_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/houndour-neo-discovery-5.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fire",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Smog",
-            "Collect Fire"
-        ],
         "Move-Energy": [
             "R",
             "RR"
+        ],
+        "Moves": [
+            "Smog",
+            "Collect Fire"
         ],
         "Move-Damage": [
             "10",
@@ -173,30 +161,27 @@
         "Weakness": "Water",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "To corner prey, they check each other\u2019s location using barks that only they can understand.",
         "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86216%2Fpokemon-neo-discovery-houndour-5",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Houndour-NDI5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86216&partnerpropertyid=5285443&subId1=single&subId2=9622&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Houndour+%28NDI+5%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9622+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-006",
         "Name": "Kabutops",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/6_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/kabutops-neo-discovery-6.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Water",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Slash",
-            "Hydrocutter"
-        ],
         "Move-Energy": [
             "C",
             "F"
+        ],
+        "Moves": [
+            "Slash",
+            "Hydrocutter"
         ],
         "Move-Damage": [
             "20",
@@ -204,73 +189,69 @@
         ],
         "Effects": [
             "",
-            "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way."
+            "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can\u2019t flip more than 3 coins in this way."
         ],
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",
         "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86389%2Fpokemon-neo-discovery-kabutops-6",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Kabutops-NDI6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86389&partnerpropertyid=5285443&subId1=single&subId2=9628&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Kabutops+%28NDI+6%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9628+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-007",
         "Name": "Magnemite",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/7_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/magnemite-neo-discovery-7.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Metal",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Lock-on",
-            "Electric Bolt"
-        ],
         "Move-Energy": [
             "C",
             "LC"
         ],
+        "Moves": [
+            "Lock-on",
+            "Electric Bolt"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "50"
         ],
         "Effects": [
-            "During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack as if they were heads. (Benching or evolving either Pok\u00e9mon ends this effect.)",
+            "During your next turn, treat any tails flipped when using Magnemite\u2019s Electric Bolt attack as if they were heads. (Benching or evolving either Pok\u00e9mon ends this effect.)",
             "Flip 2 coins. If both are heads, the Defending Pok\u00e9mon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage)."
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "K. Hoshiba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87064%2Fpokemon-neo-discovery-magnemite-7",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Magnemite-NDI7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Flavor-Text": "These Pok\u00e9mon are attracted to electrical emissions and will often follow people using Pok\u00e9Gear.",
+        "Illustrator": "K. Hoshiba and CR CG gangs",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87064&partnerpropertyid=5285443&subId1=single&subId2=9632&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Magnemite+%28NDI+7%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9632+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-008",
         "Name": "Politoed",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/8_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/politoed-neo-discovery-8.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Water",
         "HP": "100",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Frog Song"
         ],
-        "Ability-Effect": [
-            "Whenever Politoed's attack damages the Defending Pok\u00e9mon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and"
-        ],
-        "Moves": [
-            "Doubleslap"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever Politoed\u2019s attack damages the Defending Pok\u00e9mon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent\u2019s), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
         ],
         "Move-Energy": [
             "WWCC"
+        ],
+        "Moves": [
+            "Doubleslap"
         ],
         "Move-Damage": [
             "40\u00d7"
@@ -281,30 +262,27 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
         "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88246%2Fpokemon-neo-discovery-politoed-8",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Politoed-NDI8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88246&partnerpropertyid=5285443&subId1=single&subId2=9640&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Politoed+%28NDI+8%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9640+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-009",
         "Name": "Poliwrath",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/9_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/poliwrath-neo-discovery-9.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Fighting",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Corkscrew Punch",
-            "Submission"
-        ],
         "Move-Energy": [
             "FC",
             "FFCC"
+        ],
+        "Moves": [
+            "Corkscrew Punch",
+            "Submission"
         ],
         "Move-Damage": [
             "30",
@@ -317,67 +295,61 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
         "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88269%2Fpokemon-neo-discovery-poliwrath-9",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Poliwrath-NDI9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88269&partnerpropertyid=5285443&subId1=single&subId2=9644&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Poliwrath+%28NDI+9%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9644+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-010",
         "Name": "Scizor",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/10_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/scizor-neo-discovery-10.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Metal",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "False Swipe",
-            "Double Claw"
-        ],
         "Move-Energy": [
             "M",
             "CCC"
         ],
+        "Moves": [
+            "False Swipe",
+            "Double Claw"
+        ],
         "Move-Damage": [
-            null,
+            "?",
             "20+"
         ],
         "Effects": [
-            "Does damage equal to half the Defending Pok\u00e9mon's remaining HP (rounded down to the nearest 10).",
+            "Does damage equal to half the Defending Pok\u00e9mon\u2019s remaining HP (rounded down to the nearest 10).",
             "Flip 2 coins. This attack does 20 damage times the number of heads."
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
         "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88956%2Fpokemon-neo-discovery-scizor-10",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Scizor-NDI10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88956&partnerpropertyid=5285443&subId1=single&subId2=9648&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scizor+%28NDI+10%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9648+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-011",
         "Name": "Smeargle",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/11_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/smeargle-neo-discovery-11.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sketch"
-        ],
         "Move-Energy": [
             "CC"
         ],
+        "Moves": [
+            "Sketch"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
             "If the Defending Pok\u00e9mon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack."
@@ -385,30 +357,27 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89350%2Fpokemon-neo-discovery-smeargle-11",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Smeargle-NDI11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89350&partnerpropertyid=5285443&subId1=single&subId2=9652&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Smeargle+%28NDI+11%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9652+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-012",
         "Name": "Tyranitar",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/12_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/tyranitar-neo-discovery-12.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Darkness",
         "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Slam",
-            "Trample"
-        ],
         "Move-Energy": [
             "CCC",
             "DDCC"
+        ],
+        "Moves": [
+            "Slam",
+            "Trample"
         ],
         "Move-Damage": [
             "30\u00d7",
@@ -416,73 +385,75 @@
         ],
         "Effects": [
             "Flip 2 coins. This attack does 30 damage times the number of heads.",
-            "For each Benched Pok\u00e9mon in play (yours and your opponent's), flip a coin. If heads, this attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "For each Benched Pok\u00e9mon in play (yours and your opponent\u2019s), flip a coin. If heads, this attack does 30 damage to that Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its body can\u2019t be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90113%2Fpokemon-neo-discovery-tyranitar-12",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Tyranitar-NDI12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90113&partnerpropertyid=5285443&subId1=single&subId2=9656&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Tyranitar+%28NDI+12%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9656+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-013",
         "Name": "Umbreon",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/13_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/umbreon-neo-discovery-13.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Darkness",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bite",
-            "Feint Attack"
+        "Pok\u00e9mon-Power": [
+            "{D}{D}{C} \u2192 Feint Attack"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Move-Energy": [
             "CC",
             "DDC"
         ],
+        "Moves": [
+            "Bite",
+            "Feint Attack"
+        ],
         "Move-Damage": [
             "20",
-            null
+            ""
         ],
         "Effects": [
             "",
-            ""
+            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.",
         "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90137%2Fpokemon-neo-discovery-umbreon-13",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Umbreon-NDI13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90137&partnerpropertyid=5285443&subId1=single&subId2=9659&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Umbreon+%28NDI+13%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9659+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-014",
-        "Name": "Unown [A]",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/14_hires.png",
+        "Name": "Unown A",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-a-neo-discovery-14.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Anger]"
         ],
-        "Ability-Effect": [
-            "Whenever 1 of your Pok\u00e9mon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown [A]. If you have more than 1 Unown [A] in play, use only 1 [Anger] for each attack."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever 1 of your Pok\u00e9mon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 [Anger] for each attack."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -493,30 +464,27 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90196%2Fpokemon-neo-discovery-unown-a-14",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-A-NDI14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90196&partnerpropertyid=5285443&subId1=single&subId2=9661&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+A+%28NDI+14%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9661+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-015",
         "Name": "Ursaring",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/15_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/ursaring-neo-discovery-15.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Colorless",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Headpress",
-            "Double Lariat"
-        ],
         "Move-Energy": [
             "CC",
             "CCCC"
+        ],
+        "Moves": [
+            "Headpress",
+            "Double Lariat"
         ],
         "Move-Damage": [
             "20",
@@ -529,138 +497,132 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
         "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90249%2Fpokemon-neo-discovery-ursaring-15",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Ursaring-NDI15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90249&partnerpropertyid=5285443&subId1=single&subId2=9671&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ursaring+%28NDI+15%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9671+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-016",
         "Name": "Wobbuffet",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/16_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/wobbuffet-neo-discovery-16.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Counter"
-        ],
         "Move-Energy": [
             "P"
         ],
+        "Moves": [
+            "Counter"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
-            "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pok\u00e9mon for an equal amount of damage."
+            "If an attack damages Wobbuffet during your opponent\u2019s next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pok\u00e9mon for an equal amount of damage."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90612%2Fpokemon-neo-discovery-wobbuffet-16",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Wobbuffet-NDI16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90612&partnerpropertyid=5285443&subId1=single&subId2=9674&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Wobbuffet+%28NDI+16%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9674+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-017",
         "Name": "Yanma",
-        "Rarity": "Holo Rare",
-        "Image": "https://images.pokemontcg.io/neo2/17_hires.png",
+        "Rarity": "Rare Holo",
+        "Image": "https://pkmncards.com/wp-content/uploads/yanma-neo-discovery-17.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shockwave",
-            "Swift"
+        "Pok\u00e9mon-Power": [
+            "{G}{G}{G} \u2192 Swift : 30"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Move-Energy": [
             "G",
             "GGG"
         ],
+        "Moves": [
+            "Shockwave",
+            "Swift"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon.",
-            "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent\u2019s Pok\u00e9mon. Don\u2019t apply Weakness and Resistance. Then, if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon.",
+            "This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": "Fire",
         "Resistance": "Fighting",
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
         "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90680%2Fpokemon-neo-discovery-yanma-17",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Yanma-NDI17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90680&partnerpropertyid=5285443&subId1=single&subId2=9678&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Yanma+%28NDI+17%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9678+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-018",
         "Name": "Beedrill",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/18_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/beedrill-neo-discovery-18.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Grass",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Triple Poison",
-            "Pin Missile"
-        ],
         "Move-Energy": [
             "G",
             "GGC"
+        ],
+        "Moves": [
+            "Triple Poison",
+            "Pin Missile"
         ],
         "Move-Damage": [
             "10",
             "20\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player's turn (even if it was already Poisoned).",
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player\u2019s turn (even if it was already Poisoned).",
             "Flip 4 coins. This attack does 20 damage times the number of heads."
         ],
         "Weakness": "Fire",
         "Resistance": "Fighting",
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.",
         "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83767%2Fpokemon-neo-discovery-beedrill",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Beedrill-NDI18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83767&partnerpropertyid=5285443&subId1=single&subId2=9529&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Beedrill+%28NDI+18%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9529+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-019",
         "Name": "Butterfree",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/19_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/butterfree-neo-discovery-19.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Grass",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Magic Dust",
-            "Hyper Reverse"
-        ],
         "Move-Energy": [
             "GC",
             "GGC"
         ],
+        "Moves": [
+            "Magic Dust",
+            "Hyper Reverse"
+        ],
         "Move-Damage": [
             "20",
-            null
+            ""
         ],
         "Effects": [
             "Flip a coin. If heads, the Defending Pok\u00e9mon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice).",
@@ -669,30 +631,27 @@
         "Weakness": "Fire",
         "Resistance": "Fighting",
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
         "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84061%2Fpokemon-neo-discovery-butterfree",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Butterfree-NDI19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84061&partnerpropertyid=5285443&subId1=single&subId2=9537&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Butterfree+%28NDI+19%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9537+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-020",
         "Name": "Espeon",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/20_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/espeon-neo-discovery-20.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Psychic",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Quick Attack",
-            "Psybeam"
-        ],
         "Move-Energy": [
             "CC",
             "PPC"
+        ],
+        "Moves": [
+            "Quick Attack",
+            "Psybeam"
         ],
         "Move-Damage": [
             "10+",
@@ -705,32 +664,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "By reading air currents, it can predict things such as the weather or its foe\u2019s next move.",
         "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85320%2Fpokemon-neo-discovery-espeon-20",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Espeon-NDI20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85320&partnerpropertyid=5285443&subId1=single&subId2=9574&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Espeon+%28NDI+20%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9574+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-021",
         "Name": "Forretress",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/21_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/forretress-neo-discovery-21.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Metal",
         "HP": "80",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Spikes"
         ],
-        "Ability-Effect": [
-            "During your opponent's turn, whenever 1 of your opponent's Benched Pok\u00e9mon becomes his or her Active Pok\u00e9mon, Forretress does 10 damage to it. (Don't apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Rapid Spin"
+        "Pok\u00e9mon-Power-Effect": [
+            "During your opponent\u2019s turn, whenever 1 of your opponent\u2019s Benched Pok\u00e9mon becomes his or her Active Pok\u00e9mon, Forretress does 10 damage to it. (Don\u2019t apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
         ],
         "Move-Energy": [
             "MCC"
+        ],
+        "Moves": [
+            "Rapid Spin"
         ],
         "Move-Damage": [
             "30"
@@ -741,66 +699,60 @@
         "Weakness": "Fire",
         "Resistance": "Grass",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85545%2Fpokemon-neo-discovery-forretress-21",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Forretress-NDI21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85545&partnerpropertyid=5285443&subId1=single&subId2=9581&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Forretress+%28NDI+21%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9581+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-022",
         "Name": "Hitmontop",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/22_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/hitmontop-neo-discovery-22.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Detect",
-            "Triple Kick"
-        ],
         "Move-Energy": [
             "F",
             "FFF"
         ],
+        "Moves": [
+            "Detect",
+            "Triple Kick"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30\u00d7"
         ],
         "Effects": [
-            "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
+            "Flip a coin. If heads, during your opponent\u2019s next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
             "Flip 3 coins. This attack does 30 damage times the number of heads."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.",
         "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86111%2Fpokemon-neo-discovery-hitmontop-22",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Hitmontop-NDI22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86111&partnerpropertyid=5285443&subId1=single&subId2=9608&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hitmontop+%28NDI+22%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9608+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-023",
         "Name": "Houndoom",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/23_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/houndoom-neo-discovery-23.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Darkness",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Crunch",
-            "Flamethrower"
-        ],
         "Move-Energy": [
             "DCC",
             "RRC"
+        ],
+        "Moves": [
+            "Crunch",
+            "Flamethrower"
         ],
         "Move-Damage": [
             "30",
@@ -813,30 +765,27 @@
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Upon hearing its eerie howls, other Pok\u00e9mon get the shivers and head straight back to their nests.",
         "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86204%2Fpokemon-neo-discovery-houndoom-23",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Houndoom-NDI23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86204&partnerpropertyid=5285443&subId1=single&subId2=9621&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Houndoom+%28NDI+23%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9621+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-024",
         "Name": "Houndour",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/24_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/houndour-neo-discovery-24.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fire",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Smog",
-            "Collect Fire"
-        ],
         "Move-Energy": [
             "R",
             "RR"
+        ],
+        "Moves": [
+            "Smog",
+            "Collect Fire"
         ],
         "Move-Damage": [
             "10",
@@ -849,30 +798,27 @@
         "Weakness": "Water",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "To corner prey, they check each other\u2019s location using barks that only they can understand.",
         "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86217%2Fpokemon-neo-discovery-houndour-24",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Houndour-NDI24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86217&partnerpropertyid=5285443&subId1=single&subId2=9623&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Houndour+%28NDI+24%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9623+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-025",
         "Name": "Kabutops",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/25_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/kabutops-neo-discovery-25.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Water",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Slash",
-            "Hydrocutter"
-        ],
         "Move-Energy": [
             "C",
             "F"
+        ],
+        "Moves": [
+            "Slash",
+            "Hydrocutter"
         ],
         "Move-Damage": [
             "20",
@@ -880,73 +826,69 @@
         ],
         "Effects": [
             "",
-            "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way."
+            "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can\u2019t flip more than 3 coins in this way."
         ],
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",
         "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86394%2Fpokemon-neo-discovery-kabutops-25",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Kabutops-NDI25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86394&partnerpropertyid=5285443&subId1=single&subId2=9629&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Kabutops+%28NDI+25%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9629+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-026",
         "Name": "Magnemite",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/26_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/magnemite-neo-discovery-26.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Metal",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Lock-on",
-            "Electric Bolt"
-        ],
         "Move-Energy": [
             "C",
             "LC"
         ],
+        "Moves": [
+            "Lock-on",
+            "Electric Bolt"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "50"
         ],
         "Effects": [
-            "During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack as if they were heads. (Benching or evolving either Pok\u00e9mon ends this effect.)",
+            "During your next turn, treat any tails flipped when using Magnemite\u2019s Electric Bolt attack as if they were heads. (Benching or evolving either Pok\u00e9mon ends this effect.)",
             "Flip 2 coins. If both are heads, the Defending Pok\u00e9mon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage)."
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "K. Hoshiba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87065%2Fpokemon-neo-discovery-magnemite-26",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Magnemite-NDI26?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Flavor-Text": "These Pok\u00e9mon are attracted to electrical emissions and will often follow people using Pok\u00e9Gear.",
+        "Illustrator": "K. Hoshiba and CR CG gangs",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87065&partnerpropertyid=5285443&subId1=single&subId2=9633&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Magnemite+%28NDI+26%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9633+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-027",
         "Name": "Politoed",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/27_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/politoed-neo-discovery-27.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Water",
         "HP": "100",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Frog Song"
         ],
-        "Ability-Effect": [
-            "Whenever Politoed's attack damages the Defending Pok\u00e9mon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and"
-        ],
-        "Moves": [
-            "Doubleslap"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever Politoed\u2019s attack damages the Defending Pok\u00e9mon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent\u2019s), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
         ],
         "Move-Energy": [
             "WWCC"
+        ],
+        "Moves": [
+            "Doubleslap"
         ],
         "Move-Damage": [
             "40\u00d7"
@@ -957,30 +899,27 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
         "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88249%2Fpokemon-neo-discovery-politoed-27",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Politoed-NDI27?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88249&partnerpropertyid=5285443&subId1=single&subId2=9641&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Politoed+%28NDI+27%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9641+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-028",
         "Name": "Poliwrath",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/28_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/poliwrath-neo-discovery-28.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Fighting",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Corkscrew Punch",
-            "Submission"
-        ],
         "Move-Energy": [
             "FC",
             "FFCC"
+        ],
+        "Moves": [
+            "Corkscrew Punch",
+            "Submission"
         ],
         "Move-Damage": [
             "30",
@@ -993,67 +932,61 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
         "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88274%2Fpokemon-neo-discovery-poliwrath-28",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Poliwrath-NDI28?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88274&partnerpropertyid=5285443&subId1=single&subId2=9645&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Poliwrath+%28NDI+28%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9645+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-029",
         "Name": "Scizor",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/29_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/scizor-neo-discovery-29.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Metal",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "False Swipe",
-            "Double Claw"
-        ],
         "Move-Energy": [
             "M",
             "CCC"
         ],
+        "Moves": [
+            "False Swipe",
+            "Double Claw"
+        ],
         "Move-Damage": [
-            null,
+            "?",
             "20+"
         ],
         "Effects": [
-            "Does damage equal to half the Defending Pok\u00e9mon's remaining HP (rounded down to the nearest 10).",
+            "Does damage equal to half the Defending Pok\u00e9mon\u2019s remaining HP (rounded down to the nearest 10).",
             "Flip 2 coins. This attack does 20 damage times the number of heads."
         ],
         "Weakness": "Fire",
         "Resistance": "Grass",
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
         "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88958%2Fpokemon-neo-discovery-scizor-29",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Scizor-NDI29?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88958&partnerpropertyid=5285443&subId1=single&subId2=9649&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scizor+%28NDI+29%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9649+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-030",
         "Name": "Smeargle",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/30_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/smeargle-neo-discovery-30.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sketch"
-        ],
         "Move-Energy": [
             "CC"
         ],
+        "Moves": [
+            "Sketch"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
             "If the Defending Pok\u00e9mon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack."
@@ -1061,30 +994,27 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89351%2Fpokemon-neo-discovery-smeargle-30",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Smeargle-NDI30?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89351&partnerpropertyid=5285443&subId1=single&subId2=9653&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Smeargle+%28NDI+30%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9653+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-031",
         "Name": "Tyranitar",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/31_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/tyranitar-neo-discovery-31.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Darkness",
         "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Slam",
-            "Trample"
-        ],
         "Move-Energy": [
             "CCC",
             "DDCC"
+        ],
+        "Moves": [
+            "Slam",
+            "Trample"
         ],
         "Move-Damage": [
             "30\u00d7",
@@ -1092,35 +1022,32 @@
         ],
         "Effects": [
             "Flip 2 coins. This attack does 30 damage times the number of heads.",
-            "For each Benched Pok\u00e9mon in play (yours and your opponent's), flip a coin. If heads, this attack does 30 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "For each Benched Pok\u00e9mon in play (yours and your opponent\u2019s), flip a coin. If heads, this attack does 30 damage to that Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its body can\u2019t be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90116%2Fpokemon-neo-discovery-tyranitar-31",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Tyranitar-NDI31?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90116&partnerpropertyid=5285443&subId1=single&subId2=9657&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Tyranitar+%28NDI+31%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9657+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-032",
         "Name": "Umbreon",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/32_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/umbreon-neo-discovery-32.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Darkness",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Quick Attack",
-            "Pursuit"
-        ],
         "Move-Energy": [
             "CC",
             "DCC"
+        ],
+        "Moves": [
+            "Quick Attack",
+            "Pursuit"
         ],
         "Move-Damage": [
             "10+",
@@ -1128,37 +1055,36 @@
         ],
         "Effects": [
             "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-            "During your opponent's next turn, if the Defending Pok\u00e9mon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)"
+            "During your opponent\u2019s next turn, if the Defending Pok\u00e9mon tries to retreat, do 10 damage to it. (Don\u2019t apply Weakness and Resistance.)"
         ],
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "When agitated, this Pok\u00e9mon protects itself by spraying poisonous sweat from its pores.",
         "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90142%2Fpokemon-neo-discovery-umbreon-32",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Umbreon-NDI32?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90142&partnerpropertyid=5285443&subId1=single&subId2=9660&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Umbreon+%28NDI+32%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9660+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-033",
-        "Name": "Unown [A]",
+        "Name": "Unown A",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/33_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-a-neo-discovery-33.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Anger]"
         ],
-        "Ability-Effect": [
-            "Whenever 1 of your Pok\u00e9mon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown [A]. If you have more than 1 Unown [A] in play, use only 1 [Anger] for each attack."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever 1 of your Pok\u00e9mon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 [Anger] for each attack."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -1169,30 +1095,27 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90197%2Fpokemon-neo-discovery-unown-a-33",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-A-NDI33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90197&partnerpropertyid=5285443&subId1=single&subId2=9662&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+A+%28NDI+33%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9662+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-034",
         "Name": "Ursaring",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/34_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/ursaring-neo-discovery-34.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Colorless",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Headpress",
-            "Double Lariat"
-        ],
         "Move-Energy": [
             "CC",
             "CCCC"
+        ],
+        "Moves": [
+            "Headpress",
+            "Double Lariat"
         ],
         "Move-Damage": [
             "20",
@@ -1205,101 +1128,98 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
         "Illustrator": "Naoyo Kimura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90250%2Fpokemon-neo-discovery-ursaring-34",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Ursaring-NDI34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90250&partnerpropertyid=5285443&subId1=single&subId2=9672&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ursaring+%28NDI+34%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9672+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-035",
         "Name": "Wobbuffet",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/35_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/wobbuffet-neo-discovery-35.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Counter"
-        ],
         "Move-Energy": [
             "P"
         ],
+        "Moves": [
+            "Counter"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
-            "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pok\u00e9mon for an equal amount of damage."
+            "If an attack damages Wobbuffet during your opponent\u2019s next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pok\u00e9mon for an equal amount of damage."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90614%2Fpokemon-neo-discovery-wobbuffet-35",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Wobbuffet-NDI35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90614&partnerpropertyid=5285443&subId1=single&subId2=9675&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Wobbuffet+%28NDI+35%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9675+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-036",
         "Name": "Yanma",
         "Rarity": "Rare",
-        "Image": "https://images.pokemontcg.io/neo2/36_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/yanma-neo-discovery-36.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Shockwave",
-            "Swift"
+        "Pok\u00e9mon-Power": [
+            "{G}{G}{G} \u2192 Swift : 30"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Move-Energy": [
             "G",
             "GGG"
         ],
+        "Moves": [
+            "Shockwave",
+            "Swift"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pok\u00e9mon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon.",
-            "This attack's damage isn't affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
+            "Flip a coin. If heads, this attack does 10 damage to each of your opponent\u2019s Pok\u00e9mon. Don\u2019t apply Weakness and Resistance. Then, if your opponent has any Benched Pok\u00e9mon, he or she chooses 1 of them and switches it with the Defending Pok\u00e9mon.",
+            "This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
         ],
         "Weakness": "Fire",
         "Resistance": "Fighting",
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
         "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90681%2Fpokemon-neo-discovery-yanma-36",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Yanma-NDI36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90681&partnerpropertyid=5285443&subId1=single&subId2=9679&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Yanma+%28NDI+36%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9679+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-037",
         "Name": "Corsola",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/37_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/corsola-neo-discovery-37.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Recover",
-            "Spike Cannon"
-        ],
         "Move-Energy": [
             "W",
             "FF"
         ],
+        "Moves": [
+            "Recover",
+            "Spike Cannon"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30\u00d7"
         ],
         "Effects": [
@@ -1309,32 +1229,31 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
         "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84437%2Fpokemon-neo-discovery-corsola",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Corsola-NDI37?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84437&partnerpropertyid=5285443&subId1=single&subId2=9554&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Corsola+%28NDI+37%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9554+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-038",
         "Name": "Eevee",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/38_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/eevee-neo-discovery-38.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "50",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Energy Evolution"
         ],
-        "Ability-Effect": [
-            "Whenever you attach an Energy card to Eevee, flip a coin. If heads, search your deck for a card that evolves from Eevee that is the same type as the Energy card you attached to Eevee. Attach that card to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed."
-        ],
-        "Moves": [
-            "Smash Kick"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever you attach an Energy card to Eevee, flip a coin. If heads, search your deck for a card that evolves from Eevee that is the same type as the Energy card you attached to Eevee. Attach that card to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can\u2019t be used if Eevee is Asleep, Confused, or Paralyzed."
         ],
         "Move-Energy": [
             "C"
+        ],
+        "Moves": [
+            "Smash Kick"
         ],
         "Move-Damage": [
             "10"
@@ -1345,30 +1264,27 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes.",
         "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85075%2Fpokemon-neo-discovery-eevee",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Eevee-NDI38?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85075&partnerpropertyid=5285443&subId1=single&subId2=9563&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Eevee+%28NDI+38%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9563+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-039",
         "Name": "Houndour",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/39_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/houndour-neo-discovery-39.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Darkness",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bite",
-            "Plunder"
-        ],
         "Move-Energy": [
             "C",
             "DC"
+        ],
+        "Moves": [
+            "Bite",
+            "Plunder"
         ],
         "Move-Damage": [
             "10",
@@ -1381,128 +1297,112 @@
         "Weakness": null,
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
         "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86218%2Fpokemon-neo-discovery-houndour-39",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Houndour-NDI39?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86218&partnerpropertyid=5285443&subId1=single&subId2=9624&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Houndour+%28NDI+39%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9624+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-040",
         "Name": "Igglybuff",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/40_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/igglybuff-neo-discovery-40.jpg",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
+        "Stage": "Baby",
         "Type": "Colorless",
         "HP": "30",
-        "Ability": [
-            "Baby Rule",
+        "Pok\u00e9mon-Power": [
             "Gaze"
         ],
-        "Ability-Effect": [
-            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends.",
-            "Once during your turn (before your attack), choose 1 of your opponent's Benched Pok\u00e9mon that has a Pok\u00e9mon Power. That power stops working until the end of this turn. This effect ends if that Pok\u00e9mon leaves the Bench."
+        "Pok\u00e9mon-Power-Effect": [
+            "Once during your turn (before your attack), choose 1 of your opponent\u2019s Benched Pok\u00e9mon that has a Pok\u00e9mon Power. That power stops working until the end of this turn. This effect ends if that Pok\u00e9mon leaves the Bench."
         ],
-        "Moves": [],
-        "Move-Energy": [],
-        "Move-Damage": [],
-        "Effects": [],
         "Weakness": null,
         "Resistance": null,
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
         "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86257%2Fpokemon-neo-discovery-igglybuff",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Igglybuff-NDI40?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86257&partnerpropertyid=5285443&subId1=single&subId2=9626&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Igglybuff+%28NDI+40%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9626+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-041",
         "Name": "Kakuna",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/41_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/kakuna-neo-discovery-41.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Grass",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Secrete Poison"
-        ],
         "Move-Energy": [
             "GG"
         ],
+        "Moves": [
+            "Secrete Poison"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
-            "During your opponent's next turn, whenever your opponent's attack damages Kakuna (even if Kakuna is Knocked Out), your opponent's Active Pok\u00e9mon is now Poisoned and Kakuna does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "During your opponent\u2019s next turn, whenever your opponent\u2019s attack damages Kakuna (even if Kakuna is Knocked Out), your opponent\u2019s Active Pok\u00e9mon is now Poisoned and Kakuna does 10 damage to each of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
         "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
         "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86408%2Fpokemon-neo-discovery-kakuna",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Kakuna-NDI41?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86408&partnerpropertyid=5285443&subId1=single&subId2=9630&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Kakuna+%28NDI+41%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9630+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-042",
         "Name": "Metapod",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/42_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/metapod-neo-discovery-42.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Grass",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Harden",
-            "Hatch"
-        ],
         "Move-Energy": [
             "CC",
             "GG"
         ],
+        "Moves": [
+            "Harden",
+            "Hatch"
+        ],
         "Move-Damage": [
-            null,
-            null
+            "",
+            ""
         ],
         "Effects": [
-            "During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen).",
+            "During your opponent\u2019s next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen).",
             "Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward."
         ],
         "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
         "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87385%2Fpokemon-neo-discovery-metapod",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Metapod-NDI42?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87385&partnerpropertyid=5285443&subId1=single&subId2=9635&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Metapod+%28NDI+42%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9635+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-043",
         "Name": "Omastar",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/43_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/omastar-neo-discovery-43.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Fighting",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Squeeze",
-            "Spike Barrage"
-        ],
         "Move-Energy": [
             "W",
             "WWW"
+        ],
+        "Moves": [
+            "Squeeze",
+            "Spike Barrage"
         ],
         "Move-Damage": [
             "10+",
@@ -1515,100 +1415,91 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Apparently, it cracked Shellder\u2019s shell with its sharp fangs and sucked out the insides.",
         "Illustrator": "Shin-ichi Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87866%2Fpokemon-neo-discovery-omastar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Omastar-NDI43?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87866&partnerpropertyid=5285443&subId1=single&subId2=9638&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Omastar+%28NDI+43%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9638+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-044",
         "Name": "Poliwhirl",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/44_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/poliwhirl-neo-discovery-44.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Water",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Belly Drum",
-            "Water Gun"
-        ],
         "Move-Energy": [
             "C",
             "WWC"
         ],
+        "Moves": [
+            "Belly Drum",
+            "Water Gun"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30+"
         ],
         "Effects": [
-            "Put 3 damage counters on Poliwhirl. If this doesn't Knock Out Poliwhirl, search your deck for 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward.",
-            "Does 30 damage plus 10 more damage for each [W] Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+            "Put 3 damage counters on Poliwhirl. If this doesn\u2019t Knock Out Poliwhirl, search your deck for 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward.",
+            "Does 30 damage plus 10 more damage for each [W] Energy attached to Poliwhirl but not used to pay for this attack\u2019s Energy cost. You can\u2019t add more than 20 damage in this way."
         ],
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "The swirl on its belly undulates. Staring at it may gradually cause drowsiness.",
         "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88262%2Fpokemon-neo-discovery-poliwhirl",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Poliwhirl-NDI44?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88262&partnerpropertyid=5285443&subId1=single&subId2=9643&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Poliwhirl+%28NDI+44%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9643+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-045",
         "Name": "Pupitar",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/45_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/pupitar-neo-discovery-45.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Fighting",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Skull Bash",
-            "Dust Devil"
-        ],
         "Move-Energy": [
             "CC",
             "FF"
         ],
+        "Moves": [
+            "Skull Bash",
+            "Dust Devil"
+        ],
         "Move-Damage": [
             "20",
-            null
+            ""
         ],
         "Effects": [
             "",
-            "Does 10 damage to each non-[F] Pok\u00e9mon in play. Don't apply Weakness and Resistance."
+            "Does 10 damage to each non-[F] Pok\u00e9mon in play. Don\u2019t apply Weakness and Resistance."
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88445%2Fpokemon-neo-discovery-pupitar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Pupitar-NDI45?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88445&partnerpropertyid=5285443&subId1=single&subId2=9646&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pupitar+%28NDI+45%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9646+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-046",
         "Name": "Scyther",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/46_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/scyther-neo-discovery-46.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Fury Cutter"
-        ],
         "Move-Energy": [
             "GG"
+        ],
+        "Moves": [
+            "Fury Cutter"
         ],
         "Move-Damage": [
             "10+"
@@ -1619,32 +1510,31 @@
         "Weakness": "Fire",
         "Resistance": "Fighting",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
         "Illustrator": "Kimiya Masago",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88994%2Fpokemon-neo-discovery-scyther",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Scyther-NDI46?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88994&partnerpropertyid=5285443&subId1=single&subId2=9650&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Scyther+%28NDI+46%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9650+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-047",
-        "Name": "Unown [D]",
+        "Name": "Unown D",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/47_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-d-neo-discovery-47.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Darkness]"
         ],
-        "Ability-Effect": [
-            "Whenever a [D] Pok\u00e9mon damages 1 of your Pok\u00e9mon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown [D] in play. (This power works even if Unown [D] is Asleep, Confused, or Paralyzed.)"
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever a [D] Pok\u00e9mon damages 1 of your Pok\u00e9mon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown D in play. (This power works even if Unown D is Asleep, Confused, or Paralyzed.)"
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -1655,32 +1545,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90203%2Fpokemon-neo-discovery-unown-d",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-D-NDI47?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90203&partnerpropertyid=5285443&subId1=single&subId2=9663&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+D+%28NDI+47%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9663+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-048",
-        "Name": "Unown [F]",
+        "Name": "Unown F",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/48_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-f-neo-discovery-48.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Find]"
         ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if you have Unown [F], Unown [I], Unown [N], and Unown [D] on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Once during your turn (before your attack), if you have Unown F, Unown I, Unown N, and Unown D on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -1691,32 +1580,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90207%2Fpokemon-neo-discovery-unown-f",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-F-NDI48?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90207&partnerpropertyid=5285443&subId1=single&subId2=9665&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+F+%28NDI+48%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9665+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-049",
-        "Name": "Unown [M]",
+        "Name": "Unown M",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/49_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-m-neo-discovery-49.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Metal]"
         ],
-        "Ability-Effect": [
-            "Whenever a [M] Pok\u00e9mon damages 1 of your Pok\u00e9mon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown [M] in play. (This power works even if Unown [M] is Asleep, Confused, or Paralyzed.)"
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever a [M] Pok\u00e9mon damages 1 of your Pok\u00e9mon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown M in play. (This power works even if Unown M is Asleep, Confused, or Paralyzed.)"
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -1727,32 +1615,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90221%2Fpokemon-neo-discovery-unown-m",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-M-NDI49?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90221&partnerpropertyid=5285443&subId1=single&subId2=9667&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+M+%28NDI+49%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9667+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-050",
-        "Name": "Unown [N]",
+        "Name": "Unown N",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/50_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-n-neo-discovery-50.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Normal]"
         ],
-        "Ability-Effect": [
-            "Whenever a [C] Pok\u00e9mon damages 1 of your Pok\u00e9mon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown [N] in play. (This power works even if Unown [N] is Asleep, Confused, or Paralyzed.)"
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Whenever a [C] Pok\u00e9mon damages 1 of your Pok\u00e9mon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown N in play. (This power works even if Unown N is Asleep, Confused, or Paralyzed.)"
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -1763,32 +1650,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90223%2Fpokemon-neo-discovery-unown-n",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-N-NDI50?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90223&partnerpropertyid=5285443&subId1=single&subId2=9668&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+N+%28NDI+50%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9668+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-051",
-        "Name": "Unown [U]",
+        "Name": "Unown U",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/51_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-u-neo-discovery-51.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Undo]"
         ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), if you have Unown [U], Unown [N], Unown [D], and Unown [O] on your Bench, you may return your Active Pok\u00e9mon and all cards attached to it to your hand."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Once during your turn (before your attack), if you have Unown U, Unown N, Unown D, and Unown O on your Bench, you may return your Active Pok\u00e9mon and all cards attached to it to your hand."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -1799,64 +1685,58 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90236%2Fpokemon-neo-discovery-unown-u",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-U-NDI51?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90236&partnerpropertyid=5285443&subId1=single&subId2=9670&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+U+%28NDI+51%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9670+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-052",
         "Name": "Xatu",
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/52_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/xatu-neo-discovery-52.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Psychic",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Energy Cycle",
-            "Super Psy"
-        ],
         "Move-Energy": [
             "P",
             "PPC"
         ],
+        "Moves": [
+            "Energy Cycle",
+            "Super Psy"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pok\u00e9mon and 1 of your opponent's Benched Pok\u00e9mon. Attach that Energy card to that Pok\u00e9mon.",
+            "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pok\u00e9mon and 1 of your opponent\u2019s Benched Pok\u00e9mon. Attach that Energy card to that Pok\u00e9mon.",
             ""
         ],
         "Weakness": "Psychic",
         "Resistance": "Fighting",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "In South America, it is said that its right eye sees the future and its left eye views the past.",
         "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90660%2Fpokemon-neo-discovery-xatu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Xatu-NDI52?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90660&partnerpropertyid=5285443&subId1=single&subId2=9677&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Xatu+%28NDI+52%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9677+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-053",
         "Name": "Caterpie",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/53_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/caterpie-neo-discovery-53.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spin Tackle"
-        ],
         "Move-Energy": [
             "C"
+        ],
+        "Moves": [
+            "Spin Tackle"
         ],
         "Move-Damage": [
             "20"
@@ -1867,28 +1747,25 @@
         "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
         "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84133%2Fpokemon-neo-discovery-caterpie",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Caterpie-NDI53?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84133&partnerpropertyid=5285443&subId1=single&subId2=9551&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Caterpie+%28NDI+53%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9551+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-054",
         "Name": "Dunsparce",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/54_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/dunsparce-neo-discovery-54.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Glare"
-        ],
         "Move-Energy": [
             "C"
+        ],
+        "Moves": [
+            "Glare"
         ],
         "Move-Damage": [
             "10"
@@ -1899,28 +1776,25 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "When spotted, this Pok\u00e9mon escapes backward by furiously boring into the ground with its tail.",
         "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85007%2Fpokemon-neo-discovery-dunsparce",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Dunsparce-NDI54?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85007&partnerpropertyid=5285443&subId1=single&subId2=9558&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Dunsparce+%28NDI+54%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9558+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-055",
         "Name": "Hoppip",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/55_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/hoppip-neo-discovery-55.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "30",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rolling Tackle"
-        ],
         "Move-Energy": [
             "G"
+        ],
+        "Moves": [
+            "Rolling Tackle"
         ],
         "Move-Damage": [
             "20"
@@ -1931,32 +1805,31 @@
         "Weakness": "Fire",
         "Resistance": "Fighting",
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
         "Illustrator": "Kagemaru Himeno",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86176%2Fpokemon-neo-discovery-hoppip",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Hoppip-NDI55?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86176&partnerpropertyid=5285443&subId1=single&subId2=9613&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hoppip+%28NDI+55%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9613+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-056",
         "Name": "Kabuto",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/56_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/kabuto-neo-discovery-56.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Water",
         "HP": "50",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Revive Friends"
         ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pok\u00e9mon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full)."
-        ],
-        "Moves": [
-            "Work Together"
+        "Pok\u00e9mon-Power-Effect": [
+            "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pok\u00e9mon. This power can\u2019t be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full)."
         ],
         "Move-Energy": [
             "FC"
+        ],
+        "Moves": [
+            "Work Together"
         ],
         "Move-Damage": [
             "10+"
@@ -1967,28 +1840,25 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.",
         "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86383%2Fpokemon-neo-discovery-kabuto",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Kabuto-NDI56?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86383&partnerpropertyid=5285443&subId1=single&subId2=9627&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Kabuto+%28NDI+56%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9627+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-057",
         "Name": "Larvitar",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/57_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/larvitar-neo-discovery-57.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Bite"
-        ],
         "Move-Energy": [
             "C"
+        ],
+        "Moves": [
+            "Bite"
         ],
         "Move-Damage": [
             "10"
@@ -1999,28 +1869,25 @@
         "Weakness": "Grass",
         "Resistance": "Lightning",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
         "Illustrator": "Hironobu Yoshida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86632%2Fpokemon-neo-discovery-larvitar",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Larvitar-NDI57?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86632&partnerpropertyid=5285443&subId1=single&subId2=9631&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Larvitar+%28NDI+57%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9631+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-058",
         "Name": "Mareep",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/58_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/mareep-neo-discovery-58.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Lightning",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Thunder Jolt"
-        ],
         "Move-Energy": [
             "LC"
+        ],
+        "Moves": [
+            "Thunder Jolt"
         ],
         "Move-Damage": [
             "30"
@@ -2031,28 +1898,25 @@
         "Weakness": "Fighting",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
         "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87192%2Fpokemon-neo-discovery-mareep",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Mareep-NDI58?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87192&partnerpropertyid=5285443&subId1=single&subId2=9634&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mareep+%28NDI+58%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9634+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-059",
         "Name": "Natu",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/59_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/natu-neo-discovery-59.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Confuse Ray"
-        ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Confuse Ray"
         ],
         "Move-Damage": [
             "10"
@@ -2063,32 +1927,31 @@
         "Weakness": "Psychic",
         "Resistance": "Fighting",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
         "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87680%2Fpokemon-neo-discovery-natu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Natu-NDI59?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87680&partnerpropertyid=5285443&subId1=single&subId2=9636&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Natu+%28NDI+59%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9636+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-060",
         "Name": "Omanyte",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/60_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/omanyte-neo-discovery-60.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Fighting",
         "HP": "50",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "Revive Fossil"
         ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench. Shuffle your deck afterward. Treat that card as a Basic Pok\u00e9mon. This power can't be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full)."
-        ],
-        "Moves": [
-            "Bind"
+        "Pok\u00e9mon-Power-Effect": [
+            "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench. Shuffle your deck afterward. Treat that card as a Basic Pok\u00e9mon. This power can\u2019t be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full)."
         ],
         "Move-Energy": [
             "W"
+        ],
+        "Moves": [
+            "Bind"
         ],
         "Move-Damage": [
             "10"
@@ -2099,66 +1962,60 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Revived from an ancient fossil, this Pok\u00e9mon uses air stored in its shell to sink and rise in water.",
         "Illustrator": "Yuka Morii",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87856%2Fpokemon-neo-discovery-omanyte",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Omanyte-NDI60?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87856&partnerpropertyid=5285443&subId1=single&subId2=9637&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Omanyte+%28NDI+60%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9637+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-061",
         "Name": "Pineco",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/61_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/pineco-neo-discovery-61.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Burst"
-        ],
         "Move-Energy": [
             "G"
+        ],
+        "Moves": [
+            "Burst"
         ],
         "Move-Damage": [
             "40"
         ],
         "Effects": [
-            "Flip a coin. If heads, Pineco does 40 damage to itself and 10 damage to each Pok\u00e9mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) Flip a coin. If tails, this attack does nothing (not even damage)."
+            "Flip a coin. If heads, Pineco does 40 damage to itself and 10 damage to each Pok\u00e9mon on each player\u2019s Bench. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) Flip a coin. If tails, this attack does nothing (not even damage)."
         ],
         "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn\u2019t bother it.",
         "Illustrator": "Tomokazu Komiya",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88122%2Fpokemon-neo-discovery-pineco",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Pineco-NDI61?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88122&partnerpropertyid=5285443&subId1=single&subId2=9639&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pineco+%28NDI+61%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9639+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-062",
         "Name": "Poliwag",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/62_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/poliwag-neo-discovery-62.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Rollout",
-            "Hypnosis"
-        ],
         "Move-Energy": [
             "C",
             "W"
         ],
+        "Moves": [
+            "Rollout",
+            "Hypnosis"
+        ],
         "Move-Damage": [
             "10",
-            null
+            ""
         ],
         "Effects": [
             "",
@@ -2167,64 +2024,58 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Because it is inept at walking on its newly grown legs, it always swims around in water.",
         "Illustrator": "Aya Kusube",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88254%2Fpokemon-neo-discovery-poliwag",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Poliwag-NDI62?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88254&partnerpropertyid=5285443&subId1=single&subId2=9642&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Poliwag+%28NDI+62%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9642+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-063",
         "Name": "Sentret",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/63_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/sentret-neo-discovery-63.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Scout",
-            "Tackle"
-        ],
         "Move-Energy": [
             "C",
             "CC"
         ],
+        "Moves": [
+            "Scout",
+            "Tackle"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "20"
         ],
         "Effects": [
-            "Look at your opponent's hand.",
+            "Look at your opponent\u2019s hand.",
             ""
         ],
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
         "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89061%2Fpokemon-neo-discovery-sentret",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Sentret-NDI63?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89061&partnerpropertyid=5285443&subId1=single&subId2=9651&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Sentret+%28NDI+63%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9651+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-064",
         "Name": "Spinarak",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/64_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/spinarak-neo-discovery-64.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Poison Sting"
-        ],
         "Move-Energy": [
             "GC"
+        ],
+        "Moves": [
+            "Poison Sting"
         ],
         "Move-Damage": [
             "20"
@@ -2235,34 +2086,31 @@
         "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It spins a web using fine\u2014but durable\u2014thread. It then waits patiently for prey to be trapped.",
         "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89452%2Fpokemon-neo-discovery-spinarak",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Spinarak-NDI64?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89452&partnerpropertyid=5285443&subId1=single&subId2=9654&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Spinarak+%28NDI+64%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9654+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-065",
         "Name": "Teddiursa",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/65_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/teddiursa-neo-discovery-65.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Scratch",
-            "Nap Time"
-        ],
         "Move-Energy": [
             "C",
             "CC"
         ],
+        "Moves": [
+            "Scratch",
+            "Nap Time"
+        ],
         "Move-Damage": [
             "10",
-            null
+            ""
         ],
         "Effects": [
             "",
@@ -2271,32 +2119,25 @@
         "Weakness": "Fighting",
         "Resistance": "Psychic",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
         "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89855%2Fpokemon-neo-discovery-teddiursa",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Teddiursa-NDI65?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89855&partnerpropertyid=5285443&subId1=single&subId2=9655&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Teddiursa+%28NDI+65%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9655+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-066",
         "Name": "Tyrogue",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/66_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/tyrogue-neo-discovery-66.jpg",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
+        "Stage": "Baby",
         "Type": "Fighting",
         "HP": "30",
-        "Ability": [
-            "Baby Rule"
-        ],
-        "Ability-Effect": [
-            "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        "Move-Energy": [
+            "C"
         ],
         "Moves": [
             "Smash Punch"
-        ],
-        "Move-Energy": [
-            "C"
         ],
         "Move-Damage": [
             "30"
@@ -2307,32 +2148,31 @@
         "Weakness": null,
         "Resistance": null,
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
         "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90128%2Fpokemon-neo-discovery-tyrogue",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Tyrogue-NDI66?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90128&partnerpropertyid=5285443&subId1=single&subId2=9658&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Tyrogue+%28NDI+66%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9658+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-067",
-        "Name": "Unown [E]",
+        "Name": "Unown E",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/67_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-e-neo-discovery-67.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Engage]"
         ],
-        "Ability-Effect": [
-            "When you play Unown [E] from your hand, your opponent may shuffle his or her hand into his or her deck and then draw 4 cards. Either way, you may shuffle your hand into your deck and draw 4 cards."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "When you play Unown E from your hand, your opponent may shuffle his or her hand into his or her deck and then draw 4 cards. Either way, you may shuffle your hand into your deck and draw 4 cards."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -2343,32 +2183,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90205%2Fpokemon-neo-discovery-unown-e",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-E-NDI67?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90205&partnerpropertyid=5285443&subId1=single&subId2=9664&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+E+%28NDI+67%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9664+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-068",
-        "Name": "Unown [I]",
+        "Name": "Unown I",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/68_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-i-neo-discovery-68.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Increase]"
         ],
-        "Ability-Effect": [
-            "When you play Unown [I] from your hand, you may search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. You can't use this power if your Bench is full."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "When you play Unown I from your hand, you may search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. You can\u2019t use this power if your Bench is full."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -2379,32 +2218,31 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90213%2Fpokemon-neo-discovery-unown-i",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-I-NDI68?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90213&partnerpropertyid=5285443&subId1=single&subId2=9666&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+I+%28NDI+68%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9666+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-069",
-        "Name": "Unown [O]",
+        "Name": "Unown O",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/69_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/unown-o-neo-discovery-69.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "40",
-        "Ability": [
+        "Pok\u00e9mon-Power": [
             "[Observe]"
         ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may look at 5 cards from the top of your opponent's deck and put them back in the same order."
-        ],
-        "Moves": [
-            "Hidden Power"
+        "Pok\u00e9mon-Power-Effect": [
+            "Once during your turn (before your attack), you may look at 5 cards from the top of your opponent\u2019s deck and put them back in the same order."
         ],
         "Move-Energy": [
             "P"
+        ],
+        "Moves": [
+            "Hidden Power"
         ],
         "Move-Damage": [
             "10"
@@ -2415,28 +2253,25 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         "Illustrator": "CR CG gangs",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90225%2Fpokemon-neo-discovery-unown-o",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Unown-O-NDI69?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90225&partnerpropertyid=5285443&subId1=single&subId2=9669&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Unown+O+%28NDI+69%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9669+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-070",
         "Name": "Weedle",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/70_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/weedle-neo-discovery-70.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Grass",
         "HP": "40",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Spike Stab"
-        ],
         "Move-Energy": [
             "G"
+        ],
+        "Moves": [
+            "Spike Stab"
         ],
         "Move-Damage": [
             "20"
@@ -2447,102 +2282,94 @@
         "Weakness": "Fire",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
         "Illustrator": "Miki Tanaka",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90538%2Fpokemon-neo-discovery-weedle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Weedle-NDI70?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90538&partnerpropertyid=5285443&subId1=single&subId2=9673&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Weedle+%28NDI+70%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9673+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-071",
         "Name": "Wooper",
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/71_hires.png",
+        "Image": "https://pkmncards.com/wp-content/uploads/wooper-neo-discovery-71.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Slime",
-            "Tail Slap"
-        ],
         "Move-Energy": [
             "W",
             "CC"
         ],
+        "Moves": [
+            "Slime",
+            "Tail Slap"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "20"
         ],
         "Effects": [
-            "If an attack would do damage to Wooper during your opponent's next turn, your opponent flips a coin. If tails, prevent all damage to Wooper from that attack. (Any other effects of that attack happen.)",
+            "If an attack would do damage to Wooper during your opponent\u2019s next turn, your opponent flips a coin. If tails, prevent all damage to Wooper from that attack. (Any other effects of that attack happen.)",
             ""
         ],
         "Weakness": "Grass",
         "Resistance": "Lightning",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
         "Illustrator": "Yukiko Baba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90631%2Fpokemon-neo-discovery-wooper",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Wooper-NDI71?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90631&partnerpropertyid=5285443&subId1=single&subId2=9676&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Wooper+%28NDI+71%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9676+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-072",
         "Name": "Fossil Egg",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/72_hires.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pok\u00e9mon. If you searched your deck, shuffle it. (You can't play this card if your Bench is full.)",
-        "Illustrator": "K. Hoshiba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85555%2Fpokemon-neo-discovery-fossil-egg",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Fossil-Egg-N272?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Image": "https://pkmncards.com/wp-content/uploads/fossil-egg-neo-discovery-72.jpg",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pok\u00e9mon. If you searched your deck, shuffle it. (You can\u2019t play this card if your Bench is full.)",
+        "Flavor-Text": null,
+        "Illustrator": "K. Hoshiba + CR CG gangs",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85555&partnerpropertyid=5285443&subId1=single&subId2=9598&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Fossil+Egg+%28NDI+72%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9598+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-073",
         "Name": "Hyper Devolution Spray",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/73_hires.png",
-        "Pack": null,
-        "Description": "Choose 1 of your evolved Pok\u00e9mon. Take the highest Stage Evolution card from that Pok\u00e9mon and put it into your hand. (You can't evolve a Pok\u00e9mon the turn you devolve it.)",
-        "Illustrator": "K. Hoshiba",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86245%2Fpokemon-neo-discovery-hyper-devolution-spray",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Hyper-Devolution-Spray-N273?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Image": "https://pkmncards.com/wp-content/uploads/hyper-devolution-spray-neo-discovery-73.jpg",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Choose 1 of your evolved Pok\u00e9mon. Take the highest Stage Evolution card from that Pok\u00e9mon and put it into your hand. (You can\u2019t evolve a Pok\u00e9mon the turn you devolve it.)",
+        "Flavor-Text": null,
+        "Illustrator": "K. Hoshiba + CR CG gangs",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86245&partnerpropertyid=5285443&subId1=single&subId2=9625&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hyper+Devolution+Spray+%28NDI+73%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9625+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-074",
         "Name": "Ruin Wall",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
         "Rarity": "Uncommon",
-        "Image": "https://images.pokemontcg.io/neo2/74_hires.png",
-        "Pack": null,
-        "Description": "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)",
-        "Illustrator": "\"Big Mama\" Tagawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88845%2Fpokemon-neo-discovery-ruin-wall",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Ruin-Wall-N274?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Image": "https://pkmncards.com/wp-content/uploads/ruin-wall-neo-discovery-74.jpg",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can\u2019t play this card if your Bench is full.)",
+        "Flavor-Text": null,
+        "Illustrator": "\u201cBig Mama\u201d Tagawa + CR CG gangs",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88845&partnerpropertyid=5285443&subId1=single&subId2=9647&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ruin+Wall+%28NDI+74%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9647+&utm_campaign=affiliate&mode=gallery"
     },
     {
         "ID": "N2-075",
         "Name": "Energy Ark",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
         "Rarity": "Common",
-        "Image": "https://images.pokemontcg.io/neo2/75_hires.png",
-        "Pack": null,
+        "Image": "https://pkmncards.com/wp-content/uploads/energy-ark-neo-discovery-75.jpg",
+        "Card-Type": "Item",
+        "HP": null,
         "Description": "Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
-        "Illustrator": "\"Big Mama\" Tagawa",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85209%2Fpokemon-neo-discovery-energy-ark",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Neo-Discovery/Energy-Ark-N275?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "Flavor-Text": null,
+        "Illustrator": "\u201cBig Mama\u201d Tagawa + Benimaru Itoh",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85209&partnerpropertyid=5285443&subId1=single&subId2=9567&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Energy+Ark+%28NDI+75%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+9567+&utm_campaign=affiliate&mode=gallery"
     }
 ]

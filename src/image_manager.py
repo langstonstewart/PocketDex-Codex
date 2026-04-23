@@ -1,3 +1,4 @@
+import os
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QLabel
 from PyQt6.QtGui import QPixmap
@@ -63,23 +64,50 @@ class ImageManager:
             "\u03b8": QPixmap(self.img("src/images/card_data/traits/theta_icon.png")),
         }
 
-        self.rarity_dict = {"TCG": ["Common",
-                                    "Uncommon",
-                                    "Double Rare",
-                                    "Rare",
-                                    "Art Rare",
-                                    "Ultra Rare",
-                                    "Special Art Rare",
-                                    "Secret Rare",
-                                    "Shiny Rare",
-                                    "Shiny Ultra Rare",
-                                    "Triple Rare",
-                                    "Holo Rare",
-                                    "Radiant Rare",
-                                    "Character Holo Rare",
-                                    "Character Super Rare",
-                                    "Rainbow Rare",
-                                    "Amazing Rare"],
+        self.rarity_dict = {"TCG": [
+                                            "Double Rare",
+                                            "Common",
+                                            "Rare",
+                                            "Uncommon",
+                                            "ACE SPEC Rare",
+                                            "Illustration Rare",
+                                            "Ultra Rare",
+                                            "Special Illustration Rare",
+                                            "Hyper Rare",
+                                            "Shiny Rare",
+                                            "Shiny Ultra Rare",
+                                            "No Rarity",
+                                            "Promo",
+                                            "Holo Rare V",
+                                            "Holo Rare VSTAR",
+                                            "Rare Holo",
+                                            "Radiant Rare",
+                                            "Holo Rare VMAX",
+                                            "Rare Secret",
+                                            "Trainer Gallery Holo Rare",
+                                            "Trainer Gallery Holo Rare V",
+                                            "Trainer Gallery Ultra Rare",
+                                            "Trainer Gallery Secret Rare",
+                                            "Rainbow Rare",
+                                            "Trainer Gallery Holo Rare V or VMAX",
+                                            "Special Full Art",
+                                            "Amazing Rare",
+                                            "Shiny Rare V or VMAX",
+                                            "Rare Holo GX",
+                                            "Rare Prism Star",
+                                            "Rare Shiny GX",
+                                            "Rare Shining",
+                                            "Rare Holo EX",
+                                            "Rare BREAK",
+                                            "Rare Prime",
+                                            "LEGEND",
+                                            "Mega Hyper Rare",
+                                            "Mega Attack Rare",
+                                            "Black White Rare",
+                                            "Rare Holo LV.X",
+                                            "Rare Holo ex",
+                                            "Rare Holo Star"
+                                        ],
 
                             "TCG Pocket": ["1 Diamond",
                                             "2 Diamond",
@@ -91,6 +119,24 @@ class ImageManager:
                                             "1 Shiny",
                                             "2 Shiny",
                                             "Crown"]}
+        
+        self.rule_list = [  'Mega-ex-Rule', 
+                            'Mega-Evolution-Rule',
+                            'ex-Rule',
+                            'Tera-Rule',
+                            'BREAK-Rule',
+                            'V-Rule', 
+                            'VSTAR-Rule',
+                            'VMAX-Rule',
+                            'V-UNION-Rule', 
+                            'TAG-TEAM-Rule',
+                            'GX-Rule', 
+                            'Prism-Star-Rule', 
+                            'Primal-Reversion-Rule', 
+                            'LEGEND-Rule', 
+                            'Level-Up-Rule', 
+                            'Star-Rule', 
+                            'Dual-Type-Rule']
         
 
         self.tag_dict  = {
@@ -186,6 +232,9 @@ class ImageManager:
 
     def img(self, path: str):
         return resource_path(path)
+    
+
+
 
 
 
@@ -194,32 +243,44 @@ R_manager = QNetworkRequest
 class ImageLabel(QLabel):
     download_finished = pyqtSignal()
     
-    def __init__(self, url, card_id, fp, cache=False, size=QSize(241, 337), network_manager: QNetworkAccessManager | None = None):
+    def __init__(self, source, card_id=None, fp=None, cache=False, size=QSize(241, 337), network_manager: QNetworkAccessManager | None = None, is_pixmap=False):
         super().__init__()
-        self.card_id = card_id
-        self.filepath = fp
-        self.cache = cache
-        
+        self.source = source
         self.target_size = size
         self.setFixedSize(size)
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._reply: QNetworkReply | None = None
+        self._network_manager = network_manager
 
-        self.fp = f"{self.filepath}\\{self.card_id}.png"
+        if not is_pixmap:
 
-        if cache:
-            if network_manager is None:
-                raise ValueError("network_manager is required when cache=True")
+            if self.is_remote_source():
+                self.fetch_remote()
+            else:
+                self.grab_local()
 
-            request = R_manager(QUrl(url))
-            self._reply = network_manager.get(request)
-           
-
-            self._reply.errorOccurred.connect(partial(self.handle_error, url)) # type: ignore
-
-            self._reply.finished.connect(self.image_loaded) # type: ignore
         else:
-            self.grab_local()
+            pixmap = QPixmap(is_pixmap) 
+            scaled = pixmap.scaled(
+            self.target_size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+            )
+            self.setPixmap(scaled)
+
+
+    def is_remote_source(self):
+        return isinstance(self.source, str) and QUrl(self.source).scheme() in {"http", "https"}
+
+    def fetch_remote(self):
+        if self._network_manager is None:
+            self._network_manager = QNetworkAccessManager(self)
+
+        request = R_manager(QUrl(self.source))
+        self._reply = self._network_manager.get(request)
+
+        self._reply.errorOccurred.connect(partial(self.handle_error, self.source)) # type: ignore
+        self._reply.finished.connect(self.image_loaded) # type: ignore
 
     def handle_error(self, url, error):
         print(f"Network error: {error} | at {url}")
@@ -249,8 +310,6 @@ class ImageLabel(QLabel):
             Qt.TransformationMode.SmoothTransformation
         )
         self.setPixmap(scaled)
-        
-        scaled.save(self.fp, "PNG")
 
         if not sip.isdeleted(reply):
             reply.deleteLater() # type: ignore
@@ -259,8 +318,16 @@ class ImageLabel(QLabel):
         self.download_finished.emit()
 
     def grab_local(self):
+        local_path = self.source if isinstance(self.source, str) and os.path.exists(self.source) else ""
+        pixmap = QPixmap(local_path)
+        scaled = pixmap.scaled(
+            self.target_size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+        )
+        self.setPixmap(scaled)
 
-        pixmap = QPixmap(self.fp)
+    def set_pixmap(self, pixmap):
         scaled = pixmap.scaled(
             self.target_size,
             Qt.AspectRatioMode.KeepAspectRatio,

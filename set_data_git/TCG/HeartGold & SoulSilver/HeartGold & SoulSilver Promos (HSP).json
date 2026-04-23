@@ -1,58 +1,191 @@
 [
     {
-        "ID": "HSP-001",
+        "ID": "HSP-HGSS03",
+        "Name": "Pikachu",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS03-pikachu.jpg",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Move-Energy": [
+            "C",
+            "LLCC"
+        ],
+        "Moves": [
+            "Recharge",
+            "Thunderbolt"
+        ],
+        "Move-Damage": [
+            "",
+            "100"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, search your deck for a [L] Energy card and attach it to Pikachu. Shuffle your deck afterward.",
+            "Discard all Energy attached to Pikachu."
+        ],
+        "Weakness": "Fighting",
+        "Resistance": "Metal",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+        "Illustrator": "Kanako Eo",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88098&partnerpropertyid=5285443&subId1=single&subId2=1541&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Pikachu+HGSS03%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1541+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "HSP-HGSS04",
+        "Name": "Wobbuffet",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS04-wobbuffet.jpg",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Pok\u00e9-BODY": [
+            "Tenacious Bind"
+        ],
+        "Pok\u00e9-BODY-Effect": [
+            "As long as Wobbuffet is your Active Pok\u00e9mon, your opponent\u2019s Active Pok\u00e9mon\u2019s Retreat Cost is [C][C] more."
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Moves": [
+            "Trip Over"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 20 damage plus 30 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Flavor-Text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+        "Illustrator": "match",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90622&partnerpropertyid=5285443&subId1=single&subId2=1542&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Wobbuffet+HGSS04%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1542+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "HSP-HGSS05",
+        "Name": "Hoothoot",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS05-hoothoot.jpg",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Pok\u00e9-BODY": [
+            "Insomnia"
+        ],
+        "Pok\u00e9-BODY-Effect": [
+            "Hoothoot can\u2019t be Asleep."
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Moves": [
+            "Peck"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86174&partnerpropertyid=5285443&subId1=single&subId2=1543&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hoothoot+HGSS05%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1543+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "HSP-HGSS06",
+        "Name": "Noctowl",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS06-noctowl.jpg",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Pok\u00e9-POWER": [
+            "Night Scope"
+        ],
+        "Pok\u00e9-POWER-Effect": [
+            "Once during your turn (before your attack), you may look at your opponent\u2019s hand. This power can\u2019t be used if Noctowl is affected by a Special Condition."
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Moves": [
+            "Hypnoblast"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Lightning",
+        "Resistance": "Fighting",
+        "Retreat-Cost": "1",
+        "Flavor-Text": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87795&partnerpropertyid=5285443&subId1=single&subId2=1544&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Noctowl+HGSS06%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1544+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "HSP-HGSS01",
         "Name": "Ho-Oh",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_001_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS01-ho_oh.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fire",
         "HP": "100",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Combustion",
-            "Sacred Fire"
-        ],
         "Move-Energy": [
             "R",
             "RRCC"
         ],
+        "Moves": [
+            "Combustion",
+            "Sacred Fire"
+        ],
         "Move-Damage": [
             "20",
-            null
+            ""
         ],
         "Effects": [
             "",
-            "Flip a coin. If heads, choose 1 of your opponent's Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. This attack's damage isn't affected by Weakness or Resistance."
+            "Flip a coin. If heads, choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 80 damage to that Pok\u00e9mon. This attack\u2019s damage isn\u2019t affected by Weakness or Resistance."
         ],
         "Weakness": "Water",
         "Resistance": "Fighting",
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "A legend says that its body glows in seven colors. A rainbow is said to form behind when it flies.",
         "Illustrator": "Takashi Yamaguchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86125%2Fhgss-promos-ho-oh",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Ho-Oh-HGSS-Knock-Out-Collection-HGSSHGSS01?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86125&partnerpropertyid=5285443&subId1=single&subId2=1513&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ho-Oh+HGSS01%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1513+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-002",
+        "ID": "HSP-HGSS02",
         "Name": "Lugia",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_002_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS02-lugia.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Wave Splash",
-            "Aeroblast"
-        ],
         "Move-Energy": [
             "W",
             "WWCC"
+        ],
+        "Moves": [
+            "Wave Splash",
+            "Aeroblast"
         ],
         "Move-Damage": [
             "20",
@@ -65,176 +198,31 @@
         "Weakness": "Lightning",
         "Resistance": "Fighting",
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
         "Illustrator": "Takashi Yamaguchi",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86909%2Fhgss-promos-lugia",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Lugia-HGSS-Knock-Out-Collection-HGSSHGSS02?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86909&partnerpropertyid=5285443&subId1=single&subId2=1539&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Lugia+HGSS02%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1539+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-003",
-        "Name": "Pikachu",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_003_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Recharge",
-            "Thunderbolt"
-        ],
-        "Move-Energy": [
-            "C",
-            "LLCC"
-        ],
-        "Move-Damage": [
-            null,
-            "100"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, search your deck for a [L] Energy card and attach it to Pikachu. Shuffle your deck afterward.",
-            "Discard all Energy attached to Pikachu."
-        ],
-        "Weakness": "Fighting",
-        "Resistance": "Metal",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Kanako Eo",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88098%2Fhgss-promos-pikachu",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Pikachu-HGSS-Knock-Out-Collection-HGSSHGSS03?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HSP-004",
-        "Name": "Wobbuffet",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_004_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "90",
-        "Ability": [
-            "Tenacious Bind"
-        ],
-        "Ability-Effect": [
-            "As long as Wobbuffet is your Active Pok\u00e9mon, your opponent's Active Pok\u00e9mon's Retreat Cost is [C][C] more."
-        ],
-        "Moves": [
-            "Trip Over"
-        ],
-        "Move-Energy": [
-            "PC"
-        ],
-        "Move-Damage": [
-            "20+"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, this attack does 20 damage plus 30 more damage."
-        ],
-        "Weakness": "Psychic",
-        "Resistance": null,
-        "Retreat-Cost": "3",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "match",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90622%2Fhgss-promos-wobbuffet",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Wobbuffet-HGSS-Blisters-HGSSHGSS04?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HSP-005",
-        "Name": "Hoothoot",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_005_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Colorless",
-        "HP": "50",
-        "Ability": [
-            "Insomnia"
-        ],
-        "Ability-Effect": [
-            "Hoothoot can't be Asleep."
-        ],
-        "Moves": [
-            "Peck"
-        ],
-        "Move-Energy": [
-            "C"
-        ],
-        "Move-Damage": [
-            "10"
-        ],
-        "Effects": [
-            ""
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86174%2Fhgss-promos-hoothoot",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Hoothoot-HGSS-Blisters-HGSSHGSS05?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HSP-006",
-        "Name": "Noctowl",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_006_R_EN_LG.png",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Colorless",
-        "HP": "90",
-        "Ability": [
-            "Night Scope"
-        ],
-        "Ability-Effect": [
-            "Once during your turn (before you attack), you may look at your opponent's hand. This Power can't be used if Noctowl is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Hypnoblast"
-        ],
-        "Move-Energy": [
-            "CCC"
-        ],
-        "Move-Damage": [
-            "30"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Lightning",
-        "Resistance": "Fighting",
-        "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87795%2Fhgss-promos-noctowl",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Noctowl-HGSS-Blisters-HGSSHGSS06?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HSP-007",
+        "ID": "HSP-HGSS07",
         "Name": "Feraligatr",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_007_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS07-feraligatr.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Water",
         "HP": "140",
-        "Ability": [
+        "Pok\u00e9-POWER": [
             "Rain Dance"
         ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may attach a [W] Energy card from your hand to 1 of your [W] Pok\u00e9mon. This power can't be used if Feraligatr is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Hydro Crunch"
+        "Pok\u00e9-POWER-Effect": [
+            "As often as you like during your turn (before your attack), you may attach a [W] Energy card from your hand to 1 of your [W] Pok\u00e9mon. This power can\u2019t be used if Feraligatr is affected by a Special Condition."
         ],
         "Move-Energy": [
             "WWWW"
+        ],
+        "Moves": [
+            "Hydro Crunch"
         ],
         "Move-Damage": [
             "60+"
@@ -245,32 +233,31 @@
         "Weakness": "Grass",
         "Resistance": null,
         "Retreat-Cost": "3",
-        "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Kent Kanetsuna",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85421%2Fhgss-promos-feraligatr-prime",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Feraligatr-Collectors-Tins-HGSSHGSS07?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85421&partnerpropertyid=5285443&subId1=single&subId2=1545&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Feraligatr+HGSS07%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1545+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-008",
+        "ID": "HSP-HGSS08",
         "Name": "Meganium",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_008_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS08-meganium.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Grass",
         "HP": "150",
-        "Ability": [
+        "Pok\u00e9-POWER": [
             "Leaf Trans"
         ],
-        "Ability-Effect": [
-            "As often as you like during your turn (before your attack), you may move a [G] Energy attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can't be used if Meganium is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Solarbeam"
+        "Pok\u00e9-POWER-Effect": [
+            "As often as you like during your turn (before your attack), you may move a [G] Energy attached to 1 of your Pok\u00e9mon to another of your Pok\u00e9mon. This power can\u2019t be used if Meganium is affected by a Special Condition."
         ],
         "Move-Energy": [
             "GGCC"
+        ],
+        "Moves": [
+            "Solarbeam"
         ],
         "Move-Damage": [
             "80"
@@ -281,32 +268,31 @@
         "Weakness": "Fire",
         "Resistance": "Water",
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Noriko Hotta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87295%2Fhgss-promos-meganium-prime",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Meganium-Collectors-Tins-HGSSHGSS08?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87295&partnerpropertyid=5285443&subId1=single&subId2=1546&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Meganium+HGSS08%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1546+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-009",
+        "ID": "HSP-HGSS09",
         "Name": "Typhlosion",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_009_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS09-typhlosion.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 2",
         "Type": "Fire",
         "HP": "140",
-        "Ability": [
+        "Pok\u00e9-POWER": [
             "Afterburner"
         ],
-        "Ability-Effect": [
-            "Once during your turn (before your attack), you may search your discard pile for a [R] Energy card and attach it to 1 of your Pok\u00e9mon. If you do, put 1 damage counter on that Pok\u00e9mon. This power can't be used if Typhlosion is affected by a Special Condition."
-        ],
-        "Moves": [
-            "Flare Destroy"
+        "Pok\u00e9-POWER-Effect": [
+            "Once during your turn (before your attack), you may search your discard pile for a [R] Energy card and attach it to 1 of your Pok\u00e9mon. If you do, put 1 damage counter on that Pok\u00e9mon. This power can\u2019t be used if Typhlosion is affected by a Special Condition."
         ],
         "Move-Energy": [
             "RRC"
+        ],
+        "Moves": [
+            "Flare Destroy"
         ],
         "Move-Damage": [
             "70"
@@ -317,30 +303,27 @@
         "Weakness": "Water",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
         "Flavor-Text": null,
         "Illustrator": "Wataru Kawahara",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90108%2Fhgss-promos-typhlosion-prime",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Typhlosion-Collectors-Tins-HGSSHGSS09?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90108&partnerpropertyid=5285443&subId1=single&subId2=1547&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Typhlosion+HGSS09%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1547+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-010",
+        "ID": "HSP-HGSS10",
         "Name": "Latias",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_010_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS10-latias.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Energy Assist",
-            "Infinite Wind"
-        ],
         "Move-Energy": [
             "C",
             "CCC"
+        ],
+        "Moves": [
+            "Energy Assist",
+            "Infinite Wind"
         ],
         "Move-Damage": [
             "10",
@@ -353,32 +336,31 @@
         "Weakness": "Colorless",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
         "Illustrator": "Wataru Kawahara",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97705%2Fhgss-promos-latias-cracked-ice-holo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Latias-Unleashed-Blisters-HGSSHGSS10?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86653&partnerpropertyid=5285443&subId1=single&subId2=1548&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Latias+HGSS10%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1548+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-011",
+        "ID": "HSP-HGSS11",
         "Name": "Latios",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_011_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS11-latios.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "90",
-        "Ability": [
+        "Pok\u00e9-BODY": [
             "Luster Float"
         ],
-        "Ability-Effect": [
+        "Pok\u00e9-BODY-Effect": [
             "If you have Latias in play, the Retreat Cost for Latios is 0."
-        ],
-        "Moves": [
-            "Infinite Wing"
         ],
         "Move-Energy": [
             "CCCC"
+        ],
+        "Moves": [
+            "Infinite Wing"
         ],
         "Move-Damage": [
             "80"
@@ -389,35 +371,34 @@
         "Weakness": "Colorless",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It understands human speech and is highly intelligent. It is a tender Pok\u00e9mon that dislikes fighting.",
         "Illustrator": "Wataru Kawahara",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F97706%2Fhgss-promos-latios-cracked-ice-holo",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Latios-Unleashed-Blisters-HGSSHGSS11?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86667&partnerpropertyid=5285443&subId1=single&subId2=1549&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Latios+HGSS11%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1549+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-012",
+        "ID": "HSP-HGSS12",
         "Name": "Cleffa",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_012_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS12-cleffa.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "30",
-        "Ability": [
+        "Pok\u00e9-BODY": [
             "Sweet Sleeping Face"
         ],
-        "Ability-Effect": [
+        "Pok\u00e9-BODY-Effect": [
             "As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks."
-        ],
-        "Moves": [
-            "Eeeeeeek"
         ],
         "Move-Energy": [
             "0"
         ],
+        "Moves": [
+            "Eeeeeeek"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
             "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep."
@@ -425,69 +406,78 @@
         "Weakness": null,
         "Resistance": null,
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
         "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84368%2Fhgss-promos-cleffa",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Cleffa-Unleashed-Blisters-HGSSHGSS12?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84368&partnerpropertyid=5285443&subId1=single&subId2=1540&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Cleffa+HGSS12%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1540+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-013",
+        "ID": "HSP-HGSS13",
         "Name": "Smoochum",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_013_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/smoochum-heartgold-soulsilver-promos-hgss13-2.png",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Psychic",
         "HP": "30",
-        "Ability": [
+        "Pok\u00e9-BODY": [
             "Sweet Sleeping Face"
         ],
-        "Ability-Effect": [
-            "As long as Smoochum is Asleep, prevent all damage done to Smoochum from attacks."
-        ],
-        "Moves": [
-            "Energy Antics"
+        "Pok\u00e9-BODY-Effect": [
+            "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks."
         ],
         "Move-Energy": [
             "0"
         ],
+        "Moves": [
+            "Energy Antics"
+        ],
         "Move-Damage": [
-            null
+            ""
         ],
         "Effects": [
-            "Move an Energy card attached to 1 of your opponent's Pok\u00e9mon to another of your opponent's Pok\u00e9mon. Smoochum is now Asleep."
+            "Move an Energy card attached to 1 of your opponent\u2019s Pok\u00e9mon to another of your opponent\u2019s Pok\u00e9mon. Smoochum is now Asleep."
         ],
         "Weakness": null,
         "Resistance": null,
         "Retreat-Cost": "0",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its lips are the most sensitive part of its body. It always uses its lips first to examine things.",
         "Illustrator": "Midori Harada",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89364%2Fhgss-promos-smoochum",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Smoochum-HGSSHGSS13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89364&partnerpropertyid=5285443&subId1=single&subId2=1550&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Smoochum+HGSS13%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1550+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-014",
+        "ID": "HSP-HGSS18",
+        "Name": "Tropical Tidal Wave",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/tropical-tidal-wave-heartgold-soulsilver-promos-hgss18-1.png",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Flip a coin. If heads, discard all Trainer and Stadium cards your opponent has in play. If tails, discard all Trainer and Stadium cards you have in play.",
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90052&partnerpropertyid=5285443&subId1=single&subId2=1555&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Tropical+Tidal+Wave+HGSS18%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1555+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "HSP-HGSS14",
         "Name": "Lapras",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_014_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS14-lapras.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
         "HP": "90",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Ferry",
-            "Surf"
-        ],
         "Move-Energy": [
             "W",
             "WWC"
         ],
+        "Moves": [
+            "Ferry",
+            "Surf"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "40"
         ],
         "Effects": [
@@ -497,69 +487,65 @@
         "Weakness": "Metal",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
         "Illustrator": "Masakazu Fukuda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86621%2Fhgss-promos-lapras",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Lapras-HGSSHGSS14?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86621&partnerpropertyid=5285443&subId1=single&subId2=1551&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Lapras+HGSS14%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1551+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-015",
+        "ID": "HSP-HGSS15",
         "Name": "Shuckle",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_015_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS15-shuckle.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "60",
-        "Ability": [
+        "Pok\u00e9-BODY": [
             "Fermenting Liquid"
         ],
-        "Ability-Effect": [
+        "Pok\u00e9-BODY-Effect": [
             "Whenever you attach an Energy card from your hand to Shuckle, draw a card."
-        ],
-        "Moves": [
-            "Shell Stunner"
         ],
         "Move-Energy": [
             "GC"
+        ],
+        "Moves": [
+            "Shell Stunner"
         ],
         "Move-Damage": [
             "20"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all damage done to Shuckle by attacks during your opponent's next turn."
+            "Flip a coin. If heads, prevent all damage done to Shuckle by attacks during your opponent\u2019s next turn."
         ],
         "Weakness": "Water",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
         "Illustrator": "match",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89193%2Fhgss-promos-shuckle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Shuckle-HGSSHGSS15?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89193&partnerpropertyid=5285443&subId1=single&subId2=1552&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shuckle+HGSS15%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1552+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-016",
+        "ID": "HSP-HGSS16",
         "Name": "Plusle",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_016_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS16-plusle.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Lightning",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Collect",
-            "Thunder Jolt"
-        ],
         "Move-Energy": [
             "C",
             "L"
         ],
+        "Moves": [
+            "Collect",
+            "Thunder Jolt"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "20"
         ],
         "Effects": [
@@ -569,33 +555,30 @@
         "Weakness": "Fighting",
         "Resistance": "Metal",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
         "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88172%2Fhgss-promos-plusle",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Plusle-HGSSHGSS16?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88172&partnerpropertyid=5285443&subId1=single&subId2=1553&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Plusle+HGSS16%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1553+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-017",
+        "ID": "HSP-HGSS17",
         "Name": "Minun",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_017_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS17-minun.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Lightning",
         "HP": "60",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Call for Family",
-            "Tag Team Boost"
-        ],
         "Move-Energy": [
             "C",
             "L"
         ],
+        "Moves": [
+            "Call for Family",
+            "Tag Team Boost"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "10+"
         ],
         "Effects": [
@@ -605,74 +588,54 @@
         "Weakness": "Fighting",
         "Resistance": "Metal",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
         "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87492%2Fhgss-promos-minun",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Minun-HGSSHGSS17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87492&partnerpropertyid=5285443&subId1=single&subId2=1554&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Minun+HGSS17%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1554+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-018",
-        "Name": "Tropical Tidal Wave",
-        "Card-Type": "Item",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_018_R_EN_LG.png",
-        "Pack": null,
-        "Description": "Flip a coin. If heads, discard all Trainer and Stadium cards your opponent has in play. If tails, discard all Trainer and Stadium cards you have in play.",
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90052%2Fhgss-promos-tropical-tidal-wave-hgss18-worlds-2010-participation",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Tropical-Tidal-Wave-HGSSHGSS18?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "HSP-019",
+        "ID": "HSP-HGSS19",
         "Name": "Raikou",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_019_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS19-raikou.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Lightning",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Zap Cannon"
-        ],
         "Move-Energy": [
             "LLC"
+        ],
+        "Moves": [
+            "Zap Cannon"
         ],
         "Move-Damage": [
             "70"
         ],
         "Effects": [
-            "During your next turn, Raikou can't use Zap Cannon."
+            "During your next turn, Raikou can\u2019t use Zap Cannon."
         ],
         "Weakness": "Fighting",
         "Resistance": "Metal",
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
         "Illustrator": "Noriko Hotta",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88535%2Fhgss-promos-raikou",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Raikou-HGSSHGSS19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88535&partnerpropertyid=5285443&subId1=single&subId2=1556&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Raikou+HGSS19%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1556+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-020",
+        "ID": "HSP-HGSS20",
         "Name": "Entei",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_020_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS20-entei.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fire",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Flare Blitz"
-        ],
         "Move-Energy": [
             "RRC"
+        ],
+        "Moves": [
+            "Flare Blitz"
         ],
         "Move-Damage": [
             "80"
@@ -683,100 +646,93 @@
         "Weakness": "Water",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land.",
         "Illustrator": "Yuri Umemura",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85273%2Fhgss-promos-entei",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Entei-HGSSHGSS20?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85273&partnerpropertyid=5285443&subId1=single&subId2=1557&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Entei+HGSS20%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1557+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-021",
+        "ID": "HSP-HGSS21",
         "Name": "Suicune",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_021_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS21-suicune.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Water",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Sheer Cold"
-        ],
         "Move-Energy": [
             "WWC"
+        ],
+        "Moves": [
+            "Sheer Cold"
         ],
         "Move-Damage": [
             "50"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn."
+            "Flip a coin. If heads, the Defending Pok\u00e9mon can\u2019t attack during your opponent\u2019s next turn."
         ],
         "Weakness": "Lightning",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
         "Illustrator": "Hideaki Hakozaki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89605%2Fhgss-promos-suicune",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Suicune-HGSSHGSS21?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89605&partnerpropertyid=5285443&subId1=single&subId2=1558&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Suicune+HGSS21%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1558+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-022",
+        "ID": "HSP-HGSS22",
         "Name": "Porygon",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_022_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS22-porygon.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Colorless",
         "HP": "50",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Stiffen",
-            "Version Update"
-        ],
         "Move-Energy": [
             "C",
             "CC"
         ],
+        "Moves": [
+            "Stiffen",
+            "Version Update"
+        ],
         "Move-Damage": [
-            null,
-            null
+            "",
+            ""
         ],
         "Effects": [
-            "During your opponent's next turn, any damage done to Porygon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+            "During your opponent\u2019s next turn, any damage done to Porygon by attacks is reduced by 20 (after applying Weakness and Resistance).",
             "Search your deck for Porygon2, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
         ],
         "Weakness": "Fighting",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "It is a manmade Pok\u00e9mon. Since it doesn\u2019t breathe, people are eager to try it in any environment..",
         "Illustrator": "TOKIYA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88313%2Fhgss-promos-porygon",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Porygon-HGSSHGSS22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88313&partnerpropertyid=5285443&subId1=single&subId2=1559&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Porygon+HGSS22%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1559+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-023",
+        "ID": "HSP-HGSS23",
         "Name": "Porygon2",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_023_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS23-porygon2.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Stage 1",
         "Type": "Colorless",
         "HP": "80",
-        "Ability": [
+        "Pok\u00e9-BODY": [
             "Shortcut"
         ],
-        "Ability-Effect": [
+        "Pok\u00e9-BODY-Effect": [
             "The Retreat Cost for each Porygon, Porygon2, and Porygon-Z you have in play is [C] less."
-        ],
-        "Moves": [
-            "Reckless Charge"
         ],
         "Move-Energy": [
             "CCC"
+        ],
+        "Moves": [
+            "Reckless Charge"
         ],
         "Move-Damage": [
             "50"
@@ -787,66 +743,60 @@
         "Weakness": "Fighting",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "This upgraded version of Porygon is designed for space exploration. It can\u2019t fly, though.",
         "Illustrator": "TOKIYA",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88328%2Fhgss-promos-porygon2",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Porygon2-HGSSHGSS23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88328&partnerpropertyid=5285443&subId1=single&subId2=1560&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Porygon2+HGSS23%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1560+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-024",
+        "ID": "HSP-HGSS24",
         "Name": "Hitmonchan",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_024_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS24-hitmonchan.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "70",
-        "Ability": null,
-        "Ability-Effect": null,
-        "Moves": [
-            "Detect",
-            "Sky Uppercut"
-        ],
         "Move-Energy": [
             "C",
             "FC"
         ],
+        "Moves": [
+            "Detect",
+            "Sky Uppercut"
+        ],
         "Move-Damage": [
-            null,
+            "",
             "30"
         ],
         "Effects": [
-            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn.",
-            "This attack's damage isn't affected by Resistance."
+            "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent\u2019s next turn.",
+            "This attack\u2019s damage isn\u2019t affected by Resistance."
         ],
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "1",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
         "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86097%2Fhgss-promos-hitmonchan",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Hitmonchan-Call-of-Legends-Blisters-HGSSHGSS24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86097&partnerpropertyid=5285443&subId1=single&subId2=1561&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hitmonchan+HGSS24%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1561+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "HSP-025",
+        "ID": "HSP-HGSS25",
         "Name": "Hitmonlee",
-        "Rarity": null,
-        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/HSP/HSP_025_R_EN_LG.png",
+        "Rarity": "Promo",
+        "Image": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS25-hitmonlee.jpg",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
         "Type": "Fighting",
         "HP": "80",
-        "Ability": null,
-        "Ability-Effect": null,
+        "Move-Energy": [
+            "F",
+            "FCC"
+        ],
         "Moves": [
             "Kick",
             "High Jump Kick"
-        ],
-        "Move-Energy": [
-            "F",
-            "FFC"
         ],
         "Move-Damage": [
             "20",
@@ -859,10 +809,9 @@
         "Weakness": "Psychic",
         "Resistance": null,
         "Retreat-Cost": "2",
-        "Ex-Rule": null,
-        "Flavor-Text": null,
+        "Flavor-Text": "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
         "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86109%2Fhgss-promos-hitmonlee",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/HGSS-Black-Star-Promos/Hitmonlee-Call-of-Legends-Blisters-HGSSHGSS25?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86109&partnerpropertyid=5285443&subId1=single&subId2=1562&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Hitmonlee+HGSS25%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+1562+&utm_campaign=affiliate&mode=gallery"
     }
 ]
