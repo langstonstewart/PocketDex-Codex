@@ -241,10 +241,7 @@ class Application(QMainWindow):
         loading_icon_label = QLabel("")
         loading_txt_label = QLabel("Preparing application data..")
 
-        self.queue_label = QLabel("( )")
-        self.queue_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        self.queue_label.setProperty("class", "header2")
-        self.queue_label.setFont(self.main_font)
+    
         
         loading_icon_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         loading_icon_label.setProperty("class", "header2")
@@ -257,10 +254,10 @@ class Application(QMainWindow):
         loading_txt_label.setFont(self.main_font)
 
         self.li_txt_layout.addWidget(loading_txt_label, alignment=Qt.AlignmentFlag.AlignHCenter)
-        self.li_txt_layout.addWidget(self.queue_label, alignment=Qt.AlignmentFlag.AlignHCenter)
+    
         self.stacked_layout.addWidget(self.li_widget)
 
-        loading_txt_hint = QLabel("This should take roughly 1 - 2 minutes.")
+        loading_txt_hint = QLabel(f"Please wait...")
         loading_txt_hint.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         loading_txt_hint.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         loading_txt_hint.setProperty("class", "header2")
@@ -1242,11 +1239,22 @@ This project is not affiliated with or associated with these entities.''')
 
         if self.set_list[card_index]["Card-Type"] == "Pokemon":
             card_header_hp_layout = QHBoxLayout()
-      
-            
             card_header_layout.addLayout(card_header_hp_layout)
 
-            hp_small = QLabel("HP")
+            hp_label = QLabel()
+
+            hp_label.setText(
+                '<span style="font-size:16px;">HP</span>'
+                f'<span style="font-size:24px;">{self.set_list[card_index]["HP"]}</span>'
+                f'')
+            hp_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+            hp_label.setAlignment(Qt.AlignmentFlag.AlignRight)
+            hp_label.setFont(self.main_font_bold)
+            
+
+            card_header_hp_layout.addWidget(hp_label)
+
+            '''hp_small = QLabel("HP")
             hp_small.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
             hp_small.setAlignment(Qt.AlignmentFlag.AlignRight)
             hp_small.setFont(self.main_font_bold)
@@ -1275,7 +1283,7 @@ This project is not affiliated with or associated with these entities.''')
                     energy_map.setPixmap(self.IM.type_dict[type].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
                     energy_map.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
                     energy_map.setAlignment(Qt.AlignmentFlag.AlignRight)
-                    card_header_hp_layout.addWidget(energy_map)
+                    card_header_hp_layout.addWidget(energy_map)'''
 
             self.seperator(self.cd_layout, 1100)
 
@@ -1472,7 +1480,7 @@ This project is not affiliated with or associated with these entities.''')
                     w_layout.addWidget(weakness_txt)
 
                     weakness_energy = QLabel("")
-                    weakness_energy.setPixmap(self.IM.type_dict[weakness].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+                    weakness_energy.setPixmap(QPixmap(self.IM.type_dict[weakness]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
                     weakness_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                     w_layout.addWidget(weakness_energy)
 
@@ -1501,7 +1509,7 @@ This project is not affiliated with or associated with these entities.''')
 
                 for resistance in resist_data.split('/'):
                     resist_energy = QLabel("")
-                    resist_energy.setPixmap(self.IM.type_dict[resistance].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
+                    resist_energy.setPixmap(QPixmap(self.IM.type_dict[resistance]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
                     resist_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                     r_layout.addWidget(resist_energy)
 
@@ -1789,7 +1797,7 @@ This project is not affiliated with or associated with these entities.''')
             prices_layout.addWidget(cm_text)
 
         button_layout = QHBoxLayout()
-        button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
 
         random_button = QPushButton("Random..")
         random_button.setProperty("class", "Setting_Button")
@@ -1874,7 +1882,7 @@ This project is not affiliated with or associated with these entities.''')
         self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
     def create_card(self, card_index, layout, clickable=True, row=0, col=0, favorites_menu=False, f_index=0):
-        print(self.card_cache_count)
+        
         card_widget = QWidget()
 
         card_layout = QVBoxLayout(card_widget)
@@ -1926,8 +1934,14 @@ This project is not affiliated with or associated with these entities.''')
 
                 self.card_cache_count += 1
 
-                print(self.card_cache_count)
+                if self.card_cache_count == len(self.set_list) and not favorites_menu:
+                    self.stacked_layout.addWidget(self.set_widget)
+                    self.stacked_layout.setCurrentWidget(self.set_widget)
 
+        def load_from_cache():
+            if self.card_cache_count != len(self.set_list):
+                self.card_cache_count += 1
+    
                 if self.card_cache_count == len(self.set_list) and not favorites_menu:
                     self.stacked_layout.addWidget(self.set_widget)
                     self.stacked_layout.setCurrentWidget(self.set_widget)
@@ -1935,6 +1949,8 @@ This project is not affiliated with or associated with these entities.''')
         if self.set_id in self.img_cache_dict.keys():
             if self.set_list[card_index]["ID"] in self.img_cache_dict[self.set_id].keys():
                 card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager, is_pixmap=self.img_cache_dict[self.set_id][self.set_list[card_index]["ID"]])
+                card_img.cache_pixmap_set.connect(partial(load_from_cache))
+                card_img.load_from_cache()
             else:
                 card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager)
                 card_img.download_finished.connect(partial(cache_img, card_img))
@@ -2173,12 +2189,8 @@ This project is not affiliated with or associated with these entities.''')
         if not self.rarity_dict:
             self.init_rarities()
 
-        if self.set_id in self.img_cache_dict.keys():
-            print('set cached')
-            self.stacked_layout.addWidget(self.set_widget)
-            self.stacked_layout.setCurrentWidget(self.set_widget)
-        else:
-            self.card_cache_count = 0
+        
+        self.card_cache_count = 0
 
         while True:
             if all_rows:
@@ -2189,12 +2201,14 @@ This project is not affiliated with or associated with these entities.''')
                 for c in range(col_length):
                     
                     self.create_card(current_card, self.card_grid, True, r, c)
-                    print(self.img_cache_dict)
+                    
                     current_card += 1
+                    
                     if current_card == len(self.set_list):
                         all_rows = True
                         break
-
+        
+        
         
 
     def favorite_card(self, layout):
@@ -2450,7 +2464,7 @@ This project is not affiliated with or associated with these entities.''')
 
                         
                         self.create_card(self.favorite_list[current_card]["Index"], self.fav_grid, True, r, c, True, current_card)
-                        print(self.img_cache_dict)
+                        
                         current_card += 1
                         if current_card == len(self.favorite_list):
                             all_rows = True

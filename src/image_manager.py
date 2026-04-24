@@ -138,6 +138,7 @@ class ImageManager:
                             'Star-Rule', 
                             'Dual-Type-Rule']
         
+        
 
         self.tag_dict  = {
             "-EX": self.img("src/images/name_icons/ex_legacy.png"),
@@ -190,17 +191,17 @@ class ImageManager:
         }
 
         self.type_dict = {
-            "Colorless": QPixmap(self.img("src/images/card_data/energy/energy_colorless.png")),
-            "Grass": QPixmap(self.img("src/images/card_data/energy/energy_grass.png")),
-            "Fire": QPixmap(self.img("src/images/card_data/energy/energy_fire.png")),
-            "Water": QPixmap(self.img("src/images/card_data/energy/energy_water.png")),
-            "Lightning": QPixmap(self.img("src/images/card_data/energy/energy_lightning.png")),
-            "Psychic": QPixmap(self.img("src/images/card_data/energy/energy_psychic.png")),
-            "Fighting": QPixmap(self.img("src/images/card_data/energy/energy_fighting.png")),
-            "Darkness": QPixmap(self.img("src/images/card_data/energy/energy_darkness.png")),
-            "Metal": QPixmap(self.img("src/images/card_data/energy/energy_metal.png")),
-            "Dragon": QPixmap(self.img("src/images/card_data/energy/energy_dragon.png")),
-            "Fairy": QPixmap(self.img("src/images/card_data/energy/energy_fairy.png")),
+            "Colorless": self.img("src/images/card_data/energy/energy_colorless.png"),
+            "Grass": self.img("src/images/card_data/energy/energy_grass.png"),
+            "Fire": self.img("src/images/card_data/energy/energy_fire.png"),
+            "Water": self.img("src/images/card_data/energy/energy_water.png"),
+            "Lightning": self.img("src/images/card_data/energy/energy_lightning.png"),
+            "Psychic": self.img("src/images/card_data/energy/energy_psychic.png"),
+            "Fighting": self.img("src/images/card_data/energy/energy_fighting.png"),
+            "Darkness": self.img("src/images/card_data/energy/energy_darkness.png"),
+            "Metal": self.img("src/images/card_data/energy/energy_metal.png"),
+            "Dragon": self.img("src/images/card_data/energy/energy_dragon.png"),
+            "Fairy": self.img("src/images/card_data/energy/energy_fairy.png"),
         }
 
 
@@ -242,6 +243,7 @@ R_manager = QNetworkRequest
 
 class ImageLabel(QLabel):
     download_finished = pyqtSignal()
+    cache_pixmap_set = pyqtSignal()
     
     def __init__(self, source, card_id=None, fp=None, cache=False, size=QSize(241, 337), network_manager: QNetworkAccessManager | None = None, is_pixmap=False):
         super().__init__()
@@ -258,15 +260,20 @@ class ImageLabel(QLabel):
                 self.fetch_remote()
             else:
                 self.grab_local()
-
         else:
-            pixmap = QPixmap(is_pixmap) 
-            scaled = pixmap.scaled(
-            self.target_size,
-            Qt.AspectRatioMode.KeepAspectRatio,
-            Qt.TransformationMode.SmoothTransformation
-            )
-            self.setPixmap(scaled)
+            self.is_pixmap = is_pixmap
+
+    def load_from_cache(self):
+        
+        pixmap = QPixmap(self.is_pixmap) 
+        scaled = pixmap.scaled(
+        self.target_size,
+        Qt.AspectRatioMode.KeepAspectRatio,
+        Qt.TransformationMode.SmoothTransformation
+        )
+        self.setPixmap(scaled)
+        self.cache_pixmap_set.emit()
+        
 
 
     def is_remote_source(self):
