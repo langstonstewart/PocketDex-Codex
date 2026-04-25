@@ -65,48 +65,48 @@ class ImageManager:
         }
 
         self.rarity_dict = {"TCG": [
-                                            "Double Rare",
-                                            "Common",
-                                            "Rare",
-                                            "Uncommon",
-                                            "ACE SPEC Rare",
-                                            "Illustration Rare",
-                                            "Ultra Rare",
-                                            "Special Illustration Rare",
-                                            "Hyper Rare",
-                                            "Shiny Rare",
-                                            "Shiny Ultra Rare",
-                                            "No Rarity",
-                                            "Promo",
-                                            "Holo Rare V",
-                                            "Holo Rare VSTAR",
-                                            "Rare Holo",
-                                            "Radiant Rare",
-                                            "Holo Rare VMAX",
-                                            "Rare Secret",
-                                            "Trainer Gallery Holo Rare",
-                                            "Trainer Gallery Holo Rare V",
-                                            "Trainer Gallery Ultra Rare",
-                                            "Trainer Gallery Secret Rare",
-                                            "Rainbow Rare",
-                                            "Trainer Gallery Holo Rare V or VMAX",
-                                            "Special Full Art",
-                                            "Amazing Rare",
-                                            "Shiny Rare V or VMAX",
-                                            "Rare Holo GX",
-                                            "Rare Prism Star",
-                                            "Rare Shiny GX",
-                                            "Rare Shining",
-                                            "Rare Holo EX",
-                                            "Rare BREAK",
-                                            "Rare Prime",
-                                            "LEGEND",
-                                            "Mega Hyper Rare",
-                                            "Mega Attack Rare",
-                                            "Black White Rare",
-                                            "Rare Holo LV.X",
-                                            "Rare Holo ex",
-                                            "Rare Holo Star"
+                                            "Double Rare", # done
+                                            "Common", # done
+                                            "Rare", # done
+                                            "Uncommon", # done
+                                            "ACE SPEC Rare", # done
+                                            "Illustration Rare", # done
+                                            "Ultra Rare", # done
+                                            "Special Illustration Rare", # done
+                                            "Hyper Rare", # done
+                                            "Shiny Rare", # done
+                                            "Shiny Ultra Rare", # done
+                                            "No Rarity", # done
+                                            "Promo", # done
+                                            "Holo Rare V", # done
+                                            "Holo Rare VSTAR", # done
+                                            "Rare Holo", # done
+                                            "Radiant Rare", # done
+                                            "Holo Rare VMAX", # done
+                                            "Rare Secret", # done
+                                            "Trainer Gallery Holo Rare", # done
+                                            "Trainer Gallery Holo Rare V", # done
+                                            "Trainer Gallery Ultra Rare", # done
+                                            "Trainer Gallery Secret Rare", # done
+                                            "Rainbow Rare", # done
+                                            "Trainer Gallery Holo Rare V or VMAX", # done
+                                            "Special Full Art", # done
+                                            "Amazing Rare", # done
+                                            "Shiny Rare V or VMAX", # done
+                                            "Rare Holo GX", # done
+                                            "Rare Prism Star", # done
+                                            "Rare Shiny GX", # done
+                                            "Rare Shining", # done
+                                            "Rare Holo EX", # done
+                                            "Rare BREAK", # done
+                                            "Rare Prime", # done
+                                            "LEGEND", # done
+                                            "Mega Hyper Rare", # done
+                                            "Mega Attack Rare", # done
+                                            "Black White Rare", #done
+                                            "Rare Holo LV.X", #
+                                            "Rare Holo ex", # done
+                                            "Rare Holo Star" # done
                                         ],
 
                             "TCG Pocket": ["1 Diamond",
@@ -171,6 +171,7 @@ class ImageManager:
         self.logo_dict = {}
 
         self.card_type_dict = {
+            "Restored": QPixmap(self.img("src/images/card_data/stages/restored_logo.png")),
             "Basic": QPixmap(self.img("src/images/card_data/stages/basic_logo.png")),
             "Stage 1": QPixmap(self.img("src/images/card_data/stages/stage1_logo.png")),
             "Stage 2": QPixmap(self.img("src/images/card_data/stages/stage2_logo.png")),
@@ -183,9 +184,9 @@ class ImageManager:
             "V-UNION": QPixmap(self.img("src/images/card_data/stages/v-union_logo.png")),
             "Basic Energy": QPixmap(self.img("src/images/card_data/stages/energy_logo.png")),
             "Special Energy": QPixmap(self.img("src/images/card_data/stages/special_energy_logo.png")),
-            "BREAK Evolution": QPixmap(self.img("src/images/card_data/stages/break_logo.png")),
-            "Mega Evolution": QPixmap(self.img("src/images/card_data/stages/mega_logo.png")),
-            "Level Up": QPixmap(self.img("src/images/card_data/stages/level_up_logo.png")),
+            "BREAK": QPixmap(self.img("src/images/card_data/stages/break_logo.png")),
+            "Mega": QPixmap(self.img("src/images/card_data/stages/mega_logo.png")),
+            "Level-Up": QPixmap(self.img("src/images/card_data/stages/level_up_logo.png")),
             "Item/Technical Machine": QPixmap(self.img("src/images/card_data/stages/tm_logo.png")),
             "LEGEND": QPixmap(self.img("src/images/card_data/stages/legend_logo.png"))
         }
@@ -222,13 +223,7 @@ class ImageManager:
             "+": (self.img("src/images/card_data/energy/plus_icon_black.png"), self.img("src/images/card_data/energy/plus_icon_white.png"))
         }
 
-        self.card_desc_dict = {
-            "Item": "You may play any number of item cards during your turn.",
-            "Supporter": "You may play only 1 Supporter card during your turn.",
-            "Tool": "You use Pok\u00e9mon Tools by attaching them to your Pok\u00e9mon. You may only attach 1 Pok\u00e9mon Tool to each Pok\u00e9mon, and it stays attached.",
-            "Stadium": "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played."
-
-        }
+  
 
 
     def img(self, path: str):

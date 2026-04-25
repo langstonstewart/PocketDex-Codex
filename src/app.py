@@ -1243,47 +1243,20 @@ This project is not affiliated with or associated with these entities.''')
 
             hp_label = QLabel()
 
-            hp_label.setText(
-                '<span style="font-size:16px;">HP</span>'
-                f'<span style="font-size:24px;">{self.set_list[card_index]["HP"]}</span>'
-                f'')
+            hp_txt = f'<span style="font-size:16px;">HP</span><span style="font-size:24px;">{self.set_list[card_index]["HP"]}</span>'
+
+            energy_map = ''
+
+            for type in self.set_list[card_index]["Type"].split("/"):
+                energy_map += f'<img src="{self.IM.type_dict[type]}" width="20" height="20" style="vertical-align: middle;">'
+                
+            hp_label.setText(f'{hp_txt}&nbsp;&nbsp;{energy_map}')
+                
             hp_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
             hp_label.setAlignment(Qt.AlignmentFlag.AlignRight)
             hp_label.setFont(self.main_font_bold)
-            
 
             card_header_hp_layout.addWidget(hp_label)
-
-            '''hp_small = QLabel("HP")
-            hp_small.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-            hp_small.setAlignment(Qt.AlignmentFlag.AlignRight)
-            hp_small.setFont(self.main_font_bold)
-            hp_small.setProperty("class", "small_header")
-           
-            card_header_hp_layout.addWidget(hp_small)
-
-            hp_main = QLabel(f"{self.set_list[card_index]["HP"]}")
-            hp_main.setAlignment(Qt.AlignmentFlag.AlignRight)
-            hp_main.setFont(self.main_font_bold)
-            hp_main.setProperty("class", "header2")
-            hp_main.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-         
-            card_header_hp_layout.addWidget(hp_main)
-
-            if "/" not in self.set_list[card_index]["Type"]:
-
-                energy_map = QLabel(f"")
-                energy_map.setPixmap(self.IM.type_dict[self.set_list[card_index]["Type"]].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
-                energy_map.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-                energy_map.setAlignment(Qt.AlignmentFlag.AlignRight)
-                card_header_hp_layout.addWidget(energy_map)
-            else:
-                for type in self.set_list[card_index]["Type"].split("/"):
-                    energy_map = QLabel(f"")
-                    energy_map.setPixmap(self.IM.type_dict[type].scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
-                    energy_map.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-                    energy_map.setAlignment(Qt.AlignmentFlag.AlignRight)
-                    card_header_hp_layout.addWidget(energy_map)'''
 
             self.seperator(self.cd_layout, 1100)
 
@@ -1694,21 +1667,7 @@ This project is not affiliated with or associated with these entities.''')
         rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.cd_layout.addLayout(rule_layout) # type: ignore
 
-        if self.set_list[card_index]["Card-Type"] in self.IM.card_desc_dict.keys():
-
-            card_rule_label = QLabel(f"{self.IM.card_desc_dict[self.set_list[card_index]["Card-Type"]]}")
-            card_rule_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            card_rule_label.setFont(self.main_font)
-            card_rule_label.setTextFormat(Qt.TextFormat.RichText)
-            card_rule_label.setProperty("class", "header2")
-            card_rule_label.setMinimumWidth(1000)
-            card_rule_label.setMaximumWidth(1000)
-            card_rule_label.setWordWrap(True)
-            card_rule_label.setMinimumHeight(card_rule_label.sizeHint().height() * 5)
-            card_rule_label.setMaximumHeight(card_rule_label.sizeHint().height() * 5)
-            card_rule_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-            
-            rule_layout.addWidget(card_rule_label, alignment=Qt.AlignmentFlag.AlignHCenter)
+        
 
         misc_extra_layout = QHBoxLayout()
         misc_extra_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
