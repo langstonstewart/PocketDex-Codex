@@ -24,8 +24,16 @@ class Themes:
                 font-size: 16px; margin: 3px; color: #1E1E1E;
             }
 
-            QLabel[class="ability_header"] {
+            QLabel[class="red_ability_header"] {
                 font-size: 24px; margin: 3px; color: #e31a21;
+            }
+
+            QLabel[class="purple_ability_header"] {
+                font-size: 24px; margin: 3px; color: #444db2;
+            }
+
+            QLabel[class="green_ability_header"] {
+                font-size: 24px; margin: 3px; color: #00863f;
             }
 
             QLabel[class="theta_header"] {
@@ -190,8 +198,16 @@ class Themes:
                 font-size: 16px; margin: 3px; color: white;
             }
 
-            QLabel[class="ability_header"] {
+            QLabel[class="red_ability_header"] {
                 font-size: 24px; margin: 3px; color: #e31a21;
+            }
+            
+            QLabel[class="purple_ability_header"] {
+                font-size: 24px; margin: 3px; color: #444db2;
+            }
+
+            QLabel[class="green_ability_header"] {
+                font-size: 24px; margin: 3px; color: #00863f;
             }
 
             QLabel[class="theta_header"] {

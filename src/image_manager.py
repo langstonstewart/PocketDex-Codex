@@ -39,7 +39,6 @@ class ImageManager:
         self.favorite_icon = (QPixmap(self.img("src/images/ui/heart_black.png")), QPixmap(self.img("src/images/ui/heart_white.png")), QPixmap(self.img("src/images/ui/heart_active.png")))
         self.heart_button_icon = (QPixmap(self.img("src/images/ui/heart_button_black.png")), QPixmap(self.img("src/images/ui/heart_button_white.png")))
         self.f_tag = (QPixmap(self.img("src/images/tags/favorites_black.png")), QPixmap(self.img("src/images/tags/favorites_black.png")))
-        self.ability_icon = QPixmap(self.img("src/images/card_data/ability_logo.png"))
         self.paint_icon = (QPixmap(self.img("src/images/card_data/paint_black.png")), QPixmap(self.img("src/images/card_data/paint_white.png")))
         self.exit_icon = (QPixmap(self.img("src/images/ui/exit_black.png")), QPixmap(self.img("src/images/ui/exit_white.png")))
         self.pokeball_icon = (QPixmap(self.img("src/images/rarities/TCG/none_black.png")), QPixmap(self.img("src/images/rarities/TCG/none_white.png")))
@@ -76,7 +75,6 @@ class ImageManager:
                                             "Hyper Rare", # done
                                             "Shiny Rare", # done
                                             "Shiny Ultra Rare", # done
-                                            "No Rarity", # done
                                             "Promo", # done
                                             "Holo Rare V", # done
                                             "Holo Rare VSTAR", # done
@@ -150,7 +148,10 @@ class ImageManager:
             "LV.X": self.img("src/images/name_icons/lv_x_logo.png"),
             "LEGEND": self.img("src/images/name_icons/legend.png"),
             "\u2662": self.img("src/images/name_icons/prism_star.png"),
-            "-GX": self.img("src/images/name_icons/gx_icon.png")
+            "GX": self.img("src/images/name_icons/gx_icon.png"),
+            "GX-TAG-TEAM": self.img("src/images/name_icons/gx_icon.png"),
+            "GX-UB": self.img("src/images/name_icons/gx_icon.png"),
+            "GX-UB-TAG-TEAM": self.img("src/images/name_icons/gx_icon.png")
         }
 
 
@@ -189,6 +190,14 @@ class ImageManager:
             "Level-Up": QPixmap(self.img("src/images/card_data/stages/level_up_logo.png")),
             "Item/Technical Machine": QPixmap(self.img("src/images/card_data/stages/tm_logo.png")),
             "LEGEND": QPixmap(self.img("src/images/card_data/stages/legend_logo.png"))
+        }
+
+        self.ability_img_dict = {
+            "Ability":  QPixmap(self.img("src/images/card_data/abilities/ability_banner.png")),
+            "Poké-POWER":  QPixmap(self.img("src/images/card_data/abilities/pp_banner.png")),
+            "Poké-BODY":  QPixmap(self.img("src/images/card_data/abilities/pb_banner.png"))
+           
+
         }
 
         self.type_dict = {
