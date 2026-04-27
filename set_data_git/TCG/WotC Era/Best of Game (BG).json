@@ -28,45 +28,11 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": "Normally found near power plants, it can wander away and cause major blackouts in cities.",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85106%2Fpokemon-best-of-promos-electabuzz-1",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Electabuzz-V1-BEST1?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BG-005",
-        "Image": "https://images.pokemontcg.io/bp/5_hires.png",
-        "Name": "Rocket\u2019s Sneasel",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "60",
-        "Move-Energy": [
-            "D",
-            "CC"
-        ],
-        "Moves": [
-            "Entrap",
-            "Continuous Scratch"
-        ],
-        "Move-Damage": [
-            "",
-            "10\u00d7"
-        ],
-        "Effects": [
-            "The Defending Pok\u00e9mon can\u2019t retreat during your opponent\u2019s next turn.",
-            "Flip 4 coins. This attack does 10 damage times the number of heads."
-        ],
-        "Weakness": "Fighting",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": "Psychic",
-        "Resistance-Modifier": "-30",
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Katsura Tabata",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88793%2Fpokemon-best-of-promos-rockets-sneasel-5",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Rockets-Sneasel-V1-BEST5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BG-002",
@@ -97,10 +63,25 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86098%2Fpokemon-best-of-promos-hitmonchan-2",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Hitmonchan-V1-BEST2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BG-003",
+        "Image": "https://images.pokemontcg.io/bp/3_hires.png",
+        "Name": "Professor Elm",
+        "Rarity": "Promo",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Shuffle your hand into your deck. Then, draw 7 cards. You can\u2019t play any more Trainer cards this turn.",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88387%2Fpokemon-best-of-promos-professor-elm-3",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Professor-Elm-BEST3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BG-004",
@@ -132,10 +113,51 @@
         "Resistance": "Grass",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "Rocket\u2019s"
+        ],
         "Flavor-Text": null,
         "Illustrator": "K. Hoshiba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88786%2Fpokemon-best-of-promos-rockets-scizor-4",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Rockets-Scizor-V1-BEST4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "BG-005",
+        "Image": "https://images.pokemontcg.io/bp/5_hires.png",
+        "Name": "Rocket\u2019s Sneasel",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Move-Energy": [
+            "D",
+            "CC"
+        ],
+        "Moves": [
+            "Entrap",
+            "Continuous Scratch"
+        ],
+        "Move-Damage": [
+            "",
+            "10\u00d7"
+        ],
+        "Effects": [
+            "The Defending Pok\u00e9mon can\u2019t retreat during your opponent\u2019s next turn.",
+            "Flip 4 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Psychic",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "1",
+        "Card-Categories": [
+            "Rocket\u2019s"
+        ],
+        "Flavor-Text": null,
+        "Illustrator": "Katsura Tabata",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88793%2Fpokemon-best-of-promos-rockets-sneasel-5",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Rockets-Sneasel-V1-BEST5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "BG-006",
@@ -168,6 +190,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "Dark"
+        ],
         "Flavor-Text": null,
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84616%2Fpokemon-best-of-promos-dark-ivysaur-6",
@@ -198,6 +223,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "Dark"
+        ],
         "Flavor-Text": null,
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84666%2Fpokemon-best-of-promos-dark-venusaur-7",
@@ -236,6 +264,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "Rocket\u2019s"
+        ],
         "Flavor-Text": null,
         "Illustrator": "Shin-ichi Yoshida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F167080%2Fpokemon-best-of-promos-rockets-mewtwo-8-winner",
@@ -270,22 +301,12 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": [
+            "Rocket\u2019s"
+        ],
         "Flavor-Text": null,
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F167079%2Fpokemon-best-of-promos-rockets-hitmonchan-9-winner",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Rockets-Hitmonchan-V1-BEST9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "BG-003",
-        "Image": "https://images.pokemontcg.io/bp/3_hires.png",
-        "Name": "Professor Elm",
-        "Rarity": "Promo",
-        "Card-Type": "Item",
-        "HP": null,
-        "Description": "Shuffle your hand into your deck. Then, draw 7 cards. You can\u2019t play any more Trainer cards this turn.",
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88387%2Fpokemon-best-of-promos-professor-elm-3",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Best-of-Game-Cards-Promos/Professor-Elm-BEST3?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     }
 ]

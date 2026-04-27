@@ -24,6 +24,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "3",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Hiromichi Sugiyama",
@@ -55,79 +58,14 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "3",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Kazuo Yazawa",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85928%2Fpokemon-nintendo-promos-groudon-ex-002-nintendo-power-magazine",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Groudon-ex-NP2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-008",
-        "Image": "https://images.pokemontcg.io/np/8_hires.png",
-        "Name": "Torchic",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "40",
-        "Move-Energy": [
-            "C",
-            "RC"
-        ],
-        "Moves": [
-            "Peck",
-            "Fireworks"
-        ],
-        "Move-Damage": [
-            "10",
-            "30"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If tails, discard a [R] Energy card attached to Torchic."
-        ],
-        "Weakness": "Water",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89948%2Fpokemon-nintendo-promos-torchic-008-e-league",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Torchic-V2-NP8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-009",
-        "Image": "https://images.pokemontcg.io/np/9_hires.png",
-        "Name": "Combusken",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fire",
-        "HP": "70",
-        "Move-Energy": [
-            "R",
-            "CCC"
-        ],
-        "Moves": [
-            "Flare",
-            "Double Kick"
-        ],
-        "Move-Damage": [
-            "20",
-            "40\u00d7"
-        ],
-        "Effects": [
-            "",
-            "Flip 2 coins. This attack does 40 damage times the number of heads."
-        ],
-        "Weakness": "Water",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Kouki Saitou",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84399%2Fpokemon-nintendo-promos-combusken-009-e-league-winner",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Combusken-NP9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-003",
@@ -159,6 +97,7 @@
         "Resistance": "Water",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90031%2Fpokemon-nintendo-promos-treecko-003-e-league",
@@ -194,10 +133,187 @@
         "Resistance": "Water",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Midori Harada",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85934%2Fpokemon-nintendo-promos-grovyle-004-e-league-winner",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Grovyle-NP4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-005",
+        "Image": "https://images.pokemontcg.io/np/5_hires.png",
+        "Name": "Mudkip",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "50",
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Moves": [
+            "Pound",
+            "Fury Swipes"
+        ],
+        "Move-Damage": [
+            "10",
+            "10\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 3 coins. This attack does 10 damage times the number of heads."
+        ],
+        "Weakness": "Lightning",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87608%2Fpokemon-nintendo-promos-mudkip-005-pop-tournament",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Mudkip-V2-NP5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-006",
+        "Image": "https://images.pokemontcg.io/np/6_hires.png",
+        "Name": "Torchic",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "40",
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Moves": [
+            "Peck",
+            "Fireworks"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, discard a [R] Energy card attached to Torchic."
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89952%2Fpokemon-nintendo-promos-torchic-006-pop-tournament",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Torchic-V1-NP6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-007",
+        "Image": "https://images.pokemontcg.io/np/7_hires.png",
+        "Name": "Treecko",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "40",
+        "Move-Energy": [
+            "C",
+            "GC"
+        ],
+        "Moves": [
+            "Tail Slap",
+            "Razor Leaf"
+        ],
+        "Move-Damage": [
+            "10",
+            "20"
+        ],
+        "Effects": [
+            "",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Water",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90036%2Fpokemon-nintendo-promos-treecko-007-pop-tournament",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Treecko-V2-NP7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-008",
+        "Image": "https://images.pokemontcg.io/np/8_hires.png",
+        "Name": "Torchic",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "40",
+        "Move-Energy": [
+            "C",
+            "RC"
+        ],
+        "Moves": [
+            "Peck",
+            "Fireworks"
+        ],
+        "Move-Damage": [
+            "10",
+            "30"
+        ],
+        "Effects": [
+            "",
+            "Flip a coin. If tails, discard a [R] Energy card attached to Torchic."
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89948%2Fpokemon-nintendo-promos-torchic-008-e-league",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Torchic-V2-NP8?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-009",
+        "Image": "https://images.pokemontcg.io/np/9_hires.png",
+        "Name": "Combusken",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Move-Energy": [
+            "R",
+            "CCC"
+        ],
+        "Moves": [
+            "Flare",
+            "Double Kick"
+        ],
+        "Move-Damage": [
+            "20",
+            "40\u00d7"
+        ],
+        "Effects": [
+            "",
+            "Flip 2 coins. This attack does 40 damage times the number of heads."
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Kouki Saitou",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84399%2Fpokemon-nintendo-promos-combusken-009-e-league-winner",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Combusken-NP9?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-010",
@@ -228,6 +344,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87604%2Fpokemon-nintendo-promos-mudkip-010-e-league",
@@ -262,6 +379,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87231%2Fpokemon-nintendo-promos-marshtomp-011-e-league-winner",
@@ -296,6 +414,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88067%2Fpokemon-nintendo-promos-pikachu-012-ex-series-collectors-tin",
@@ -330,44 +449,11 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87310%2Fpokemon-nintendo-promos-meowth-013-ex-series-collectors-tin",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Meowth-NP13?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-005",
-        "Image": "https://images.pokemontcg.io/np/5_hires.png",
-        "Name": "Mudkip",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Water",
-        "HP": "50",
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Moves": [
-            "Pound",
-            "Fury Swipes"
-        ],
-        "Move-Damage": [
-            "10",
-            "10\u00d7"
-        ],
-        "Effects": [
-            "",
-            "Flip 3 coins. This attack does 10 damage times the number of heads."
-        ],
-        "Weakness": "Lightning",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87608%2Fpokemon-nintendo-promos-mudkip-005-pop-tournament",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Mudkip-V2-NP5?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-014",
@@ -398,6 +484,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86649%2Fpokemon-nintendo-promos-latias-014-pokemon-heroes-latios-and-latias-dvd-release",
@@ -432,6 +519,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "3",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86663%2Fpokemon-nintendo-promos-latios-015-pokemon-heroes-latios-and-latias-dvd-release",
@@ -467,6 +555,7 @@
         "Resistance": "Water",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90035%2Fpokemon-nintendo-promos-treecko-016-ex-deck-tin",
@@ -497,6 +586,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89953%2Fpokemon-nintendo-promos-torchic-017-ex-deck-tin",
@@ -531,6 +621,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87609%2Fpokemon-nintendo-promos-mudkip-018-ex-deck-tin",
@@ -565,44 +656,11 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kagemaru Himeno",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90579%2Fpokemon-nintendo-promos-whismur-019-ex-deck-tin",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Whismur-NP19?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-006",
-        "Image": "https://images.pokemontcg.io/np/6_hires.png",
-        "Name": "Torchic",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fire",
-        "HP": "40",
-        "Move-Energy": [
-            "C",
-            "RC"
-        ],
-        "Moves": [
-            "Peck",
-            "Fireworks"
-        ],
-        "Move-Damage": [
-            "10",
-            "30"
-        ],
-        "Effects": [
-            "",
-            "Flip a coin. If tails, discard a [R] Energy card attached to Torchic."
-        ],
-        "Weakness": "Water",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89952%2Fpokemon-nintendo-promos-torchic-006-pop-tournament",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Torchic-V1-NP6?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-020",
@@ -635,6 +693,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86896%2Fpokemon-nintendo-promos-ludicolo-020-ex-series-value-pack",
@@ -669,6 +728,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F86326%2Fpokemon-nintendo-promos-jirachi-021-jirachi-wish-maker-dvd-release",
@@ -706,79 +766,11 @@
         "Resistance": "Grass",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F83784%2Fpokemon-nintendo-promos-beldum-022-e-league",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Beldum-NP22?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-007",
-        "Image": "https://images.pokemontcg.io/np/7_hires.png",
-        "Name": "Treecko",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Grass",
-        "HP": "40",
-        "Move-Energy": [
-            "C",
-            "GC"
-        ],
-        "Moves": [
-            "Tail Slap",
-            "Razor Leaf"
-        ],
-        "Move-Damage": [
-            "10",
-            "20"
-        ],
-        "Effects": [
-            "",
-            ""
-        ],
-        "Weakness": "Fire",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": "Water",
-        "Resistance-Modifier": "-30",
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Ken Sugimori",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90036%2Fpokemon-nintendo-promos-treecko-007-pop-tournament",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Treecko-V2-NP7?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-024",
-        "Image": "https://images.pokemontcg.io/np/24_hires.png",
-        "Name": "Chimecho",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Psychic",
-        "HP": "70",
-        "Move-Energy": [
-            "C",
-            "CC"
-        ],
-        "Moves": [
-            "Resonate",
-            "Healing Sound"
-        ],
-        "Move-Damage": [
-            "",
-            ""
-        ],
-        "Effects": [
-            "Your opponent switches each Defending Pok\u00e9mon with his or her Benched Pok\u00e9mon. If your opponent has only 1 Benched Pok\u00e9mon, you choose the Defending Pok\u00e9mon to switch.",
-            "Remove 3 damage counters from each of your Active Pok\u00e9mon. Each Defending Pok\u00e9mon is now Asleep."
-        ],
-        "Weakness": "Psychic",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Atsuko Nishida",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84293%2Fpokemon-nintendo-promos-chimecho-024-e-league",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Chimecho-V1-NP24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-023",
@@ -810,10 +802,46 @@
         "Resistance": "Grass",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Mitsuhiro Arita",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87374%2Fpokemon-nintendo-promos-metang-023-stadium-challenge-2004",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Metang-NP23?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-024",
+        "Image": "https://images.pokemontcg.io/np/24_hires.png",
+        "Name": "Chimecho",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Move-Energy": [
+            "C",
+            "CC"
+        ],
+        "Moves": [
+            "Resonate",
+            "Healing Sound"
+        ],
+        "Move-Damage": [
+            "",
+            ""
+        ],
+        "Effects": [
+            "Your opponent switches each Defending Pok\u00e9mon with his or her Benched Pok\u00e9mon. If your opponent has only 1 Benched Pok\u00e9mon, you choose the Defending Pok\u00e9mon to switch.",
+            "Remove 3 damage counters from each of your Active Pok\u00e9mon. Each Defending Pok\u00e9mon is now Asleep."
+        ],
+        "Weakness": "Psychic",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Atsuko Nishida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84293%2Fpokemon-nintendo-promos-chimecho-024-e-league",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Chimecho-V1-NP24?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-025",
@@ -845,6 +873,7 @@
         "Resistance": "Lightning/Fighting",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "2",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Kouki Saitou",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F85523%2Fpokemon-nintendo-promos-flygon-025-e-league",
@@ -858,6 +887,7 @@
         "Card-Type": "Item",
         "HP": null,
         "Description": "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep.",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90053%2Fpokemon-nintendo-promos-tropical-wind-026-2004-world-championships-participation",
@@ -871,6 +901,7 @@
         "Card-Type": "Item",
         "HP": null,
         "Description": "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer (excluding Supporter cards) you have in play.",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Sumiyoshi Kizuki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90050%2Fpokemon-nintendo-promos-tropical-tidal-wave-027-2005-world-championships-participation",
@@ -884,6 +915,7 @@
         "Card-Type": "Stadium",
         "HP": null,
         "Description": "At the end of each player\u2019s turn, if that player has 8 or more cards in his or her hand, that player discards a number of cards until that player has 7 cards left in his or her hand.",
+        "Card-Categories": null,
         "Stadium-Rule": "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can\u2019t play this card.",
         "Flavor-Text": null,
         "Illustrator": "Ryo Ueda",
@@ -915,6 +947,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F84145%2Fpokemon-nintendo-promos-celebi-029-ex-collectors-carry-tin",
@@ -951,6 +984,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Atsuko Nishida",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F89603%2Fpokemon-nintendo-promos-suicune-030-ex-collectors-carry-tin",
@@ -991,6 +1025,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Ken Ikuji",
@@ -1032,6 +1069,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Nakaoka",
@@ -1073,58 +1113,14 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "K. Hoshiba",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90724%2Fpokemon-nintendo-promos-zapdos-ex-033-ex-collectors-window-tins",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Zapdos-ex-NP33?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-035",
-        "Image": "https://images.pokemontcg.io/np/35_hires.png",
-        "Name": "Pikachu",
-        "Rarity": "Promo",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Metal",
-        "HP": "40",
-        "Move-Energy": [
-            "C",
-            "MC"
-        ],
-        "Moves": [
-            "Thunder Wave",
-            "Iron Tail"
-        ],
-        "Move-Damage": [
-            "",
-            "20\u00d7"
-        ],
-        "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
-            "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
-        ],
-        "Weakness": "Fighting",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
-        "Flavor-Text": null,
-        "Illustrator": "Ryo Ueda",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88109%2Fpokemon-nintendo-promos-pikachu-delta-species-035-value-pack",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Pikachu-Delta-Species-NP35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
-    },
-    {
-        "ID": "NP-036",
-        "Image": "https://images.pokemontcg.io/np/36_hires.png",
-        "Name": "Tropical Tidal Wave",
-        "Rarity": "Promo",
-        "Card-Type": "Item",
-        "HP": null,
-        "Description": "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer cards (excluding Supporter cards) you have in play.",
-        "Flavor-Text": null,
-        "Illustrator": "Sumiyoshi Kizuki",
-        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90051%2Fpokemon-nintendo-promos-tropical-tidal-wave-036-2006-world-championships-participation",
-        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Tropical-Tidal-Wave-V2-NP36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-034",
@@ -1161,10 +1157,62 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Hajime Kusajima",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90104%2Fpokemon-nintendo-promos-typhlosion-034-epic-collection-value-boxes",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Typhlosion-NP34?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-035",
+        "Image": "https://images.pokemontcg.io/np/35_hires.png",
+        "Name": "Pikachu",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "40",
+        "Move-Energy": [
+            "C",
+            "MC"
+        ],
+        "Moves": [
+            "Thunder Wave",
+            "Iron Tail"
+        ],
+        "Move-Damage": [
+            "",
+            "20\u00d7"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed.",
+            "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": [
+            "Delta Species"
+        ],
+        "Flavor-Text": null,
+        "Illustrator": "Ryo Ueda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F88109%2Fpokemon-nintendo-promos-pikachu-delta-species-035-value-pack",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Pikachu-Delta-Species-NP35?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "NP-036",
+        "Image": "https://images.pokemontcg.io/np/36_hires.png",
+        "Name": "Tropical Tidal Wave",
+        "Rarity": "Promo",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer cards (excluding Supporter cards) you have in play.",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Sumiyoshi Kizuki",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F90051%2Fpokemon-nintendo-promos-tropical-tidal-wave-036-2006-world-championships-participation",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Nintendo-Black-Star-Promos/Tropical-Tidal-Wave-V2-NP36?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "NP-037",
@@ -1201,6 +1249,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Ryo Ueda",
@@ -1242,6 +1293,9 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Ryo Ueda",
@@ -1284,6 +1338,9 @@
         "Resistance": "Water/Fighting",
         "Resistance-Modifier": "-30",
         "Retreat-Cost": "1",
+        "Card-Categories": [
+            "ex"
+        ],
         "ex-Rule": "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
         "Flavor-Text": null,
         "Illustrator": "Ryo Ueda",
@@ -1319,6 +1376,7 @@
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "1",
+        "Card-Categories": null,
         "Flavor-Text": null,
         "Illustrator": "Masakazu Fukuda",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F87402%2Fpokemon-nintendo-promos-mew-040-trainers-challenge-set",

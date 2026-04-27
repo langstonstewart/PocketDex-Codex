@@ -3,7 +3,7 @@ from src import setmanager, themes, image_manager
 from src.resource_path import resource_path
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QToolButton, QVBoxLayout, QHBoxLayout, QGridLayout, QStackedLayout, QMainWindow, QSizePolicy, QScrollArea, QGraphicsOpacityEffect, QGraphicsColorizeEffect, QFileDialog, QMessageBox
 from PyQt6.QtCore import Qt, QSize, QUrl, QTimer, QObject, pyqtSignal
-from PyQt6.QtGui import QFont, QCursor, QIcon, QDesktopServices, QPixmap, QColor, QKeySequence, QShortcut
+from PyQt6.QtGui import QFont, QCursor, QIcon, QDesktopServices, QPixmap, QColor, QKeySequence, QShortcut, QTextDocument
 from math import ceil
 from functools import partial
 from PyQt6.QtNetwork import QNetworkAccessManager
@@ -1285,10 +1285,26 @@ This project is not affiliated with or associated with these entities.''')
             if card_desc:
                 if '[' in card_desc:
                     for symbol, img_path in self.IM.energy_dict.items():
-                        html_img = f'<img src="{img_path}" width="20" height="20">'
+                        if not isinstance(img_path, tuple):
+                            html_img = f'<img src="{img_path}" width="20" height="20">'
+                        else:
+                            html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
+
                         card_desc = card_desc.replace(f"[{symbol}]", f" {html_img} ")
 
-                card_desc_label = QLabel(card_desc)
+                if any(key in card_desc for key in self.IM.txt_tag_dict):
+
+                    for tag, img_path in self.IM.txt_tag_dict.items():
+                        
+                        html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                        card_desc = card_desc.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
+                        
+                            
+
+                    
+                            
+                            
+                '''card_desc_label = QLabel(card_desc)
                 card_desc_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                 card_desc_label.setFont(self.main_font)
                 card_desc_label.setTextFormat(Qt.TextFormat.RichText)
@@ -1300,7 +1316,35 @@ This project is not affiliated with or associated with these entities.''')
                 card_desc_label.setMaximumHeight(card_desc_label.sizeHint().height() * 5)
                 card_desc_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
                 
-                desc_layout.addWidget(card_desc_label, alignment=Qt.AlignmentFlag.AlignHCenter)
+                desc_layout.addWidget(card_desc_label, alignment=Qt.AlignmentFlag.AlignHCenter)'''
+
+                width = 1000
+
+                card_desc_label = QLabel()
+                card_desc_label.setTextFormat(Qt.TextFormat.RichText)
+                card_desc_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                card_desc_label.setFont(self.main_font)
+                card_desc_label.setProperty("class", "header2")
+                card_desc_label.setFixedWidth(width)
+                card_desc_label.setWordWrap(True)
+                card_desc_label.setContentsMargins(0, 0, 0, 0)
+
+                doc = QTextDocument()
+                doc.setDefaultFont(self.main_font)
+                doc.setHtml(card_desc)
+                doc.setTextWidth(width)
+
+           
+
+                height = int(doc.size().height()) + 100
+                
+                card_desc_label.setFixedHeight(height)
+                card_desc_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+                card_desc_label.setText(card_desc)
+
+                desc_layout.addWidget(card_desc_label)
+
                 
 
         self.ability_types = [('Ability', 'Ability-Effect', 'red_ability_header'),
@@ -1330,8 +1374,16 @@ This project is not affiliated with or associated with these entities.''')
 
                     move_layout.addWidget(m_energy)
 
-                
-                move_name = QLabel(f"{self.set_list[card_index]["Moves"][i]}")
+                move_name_data = f"{self.set_list[card_index]["Moves"][i]}"
+
+                if any(key in move_name_data for key in self.IM.txt_tag_dict):
+
+                    for tag, img_path in self.IM.txt_tag_dict.items():
+                        
+                        html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                        move_name_data = move_name_data.replace(tag, f" {html_img} ")
+            
+                move_name = QLabel(move_name_data)
                 move_name.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
                 move_name.setFont(self.main_font_bold)
                 move_name.setProperty("class", "header2")
@@ -1356,8 +1408,19 @@ This project is not affiliated with or associated with these entities.''')
 
                     if '[' in move_effect:
                         for symbol, img_path in self.IM.energy_dict.items():
-                            html_img = f'<img src="{img_path}" width="20" height="20">'
+                            if not isinstance(img_path, tuple):
+                                html_img = f'<img src="{img_path}" width="20" height="20">'
+                            else:
+                                html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
+                            
                             move_effect = move_effect.replace(f"[{symbol}]", f" {html_img} ")
+                    
+                    if any(key in move_effect for key in self.IM.txt_tag_dict):
+
+                        for tag, img_path in self.IM.txt_tag_dict.items():
+                            
+                            html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                            move_effect = move_effect.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
 
                     move_effect_label = QLabel(move_effect)
                     move_effect_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1459,62 +1522,97 @@ This project is not affiliated with or associated with these entities.''')
                     rt_layout.addWidget(rc_icon, alignment=Qt.AlignmentFlag.AlignHCenter)
             
 
-            self.seperator(self.cd_layout, 1100)
+        self.seperator(self.cd_layout, 1100)
 
-            flavor_text = self.set_list[card_index]["Flavor-Text"]
+        flavor_text = self.set_list[card_index]["Flavor-Text"]
 
-            card_rule_list = []
+        card_rule_list = []
 
-            for rule in self.IM.rule_list:
-                if rule in self.set_list[card_index].keys():
-                    card_rule_list.append(rule)
+        for rule in (self.IM.pokemon_rule_list if self.set_list[card_index]["Card-Type"] == 'Pokemon' else self.IM.trainer_rule_list):
+            if rule in self.set_list[card_index].keys():
+                card_rule_list.append(rule)
 
 
-            if flavor_text:
+        if flavor_text:
 
-                ft_layout = QVBoxLayout()
-                ft_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                self.cd_layout.addLayout(ft_layout) # type: ignore
+            ft_layout = QVBoxLayout()
+            ft_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            self.cd_layout.addLayout(ft_layout) # type: ignore
 
-                
+            width = 800
 
-                ft_label = QLabel(f"{flavor_text}")
-                ft_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                ft_label.setFont(self.main_font)
-                ft_label.setProperty("class", "header2")
-                ft_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-                ft_label.setWordWrap(True)
+            ft_label = QLabel()
+            ft_label.setTextFormat(Qt.TextFormat.RichText)
+            ft_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            ft_label.setFont(self.main_font)
+            ft_label.setProperty("class", "header2")
+            ft_label.setFixedWidth(width)
+            ft_label.setWordWrap(True)
+            ft_label.setContentsMargins(0, 0, 0, 0)
 
-                ft_label.setMinimumHeight(ft_label.sizeHint().height() * 3)
-                ft_label.setMaximumHeight(ft_label.sizeHint().height() * 3)
-                    
-                ft_layout.addWidget(ft_label)
+            doc = QTextDocument()
+            doc.setDefaultFont(self.main_font)
+            doc.setHtml(flavor_text)
+            doc.setTextWidth(width)
 
-            elif card_rule_list:
-                for card_rule in card_rule_list:
+            height = int(doc.size().height()) + 100
+            ft_label.setFixedHeight(height)
+            ft_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
 
-                    rule_desc = f"{self.set_list[card_index][card_rule]}"
+            ft_label.setText(flavor_text)
 
-                    if '[' in rule_desc:
-                        for symbol, img_path in self.IM.energy_dict.items():
+            ft_layout.addWidget(ft_label)
+
+        elif card_rule_list:
+            for card_rule in card_rule_list:
+
+                rule_desc = f"{self.set_list[card_index][card_rule]}"
+
+                if '[' in rule_desc:
+                    for symbol, img_path in self.IM.energy_dict.items():
+                        if not isinstance(img_path, tuple):
                             html_img = f'<img src="{img_path}" width="20" height="20">'
-                            rule_desc = rule_desc.replace(f"[{symbol}]", f" {html_img} ")
+                        else:
+                            html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
 
+                        rule_desc = rule_desc.replace(f"[{symbol}]", f" {html_img} ")
 
-                    card_rule_layout = QVBoxLayout()
-                    card_rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                    self.cd_layout.addLayout(card_rule_layout) # type: ignore
+                if any(key in rule_desc for key in self.IM.txt_tag_dict):
 
-                    card_rule_label = QLabel(rule_desc)
-                    card_rule_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                    card_rule_label.setFont(self.main_font)
-                    card_rule_label.setProperty("class", "header2")
-                    card_rule_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-                    card_rule_label.setWordWrap(True)
-                    card_rule_label.setMinimumHeight(card_rule_label.sizeHint().height() * 3)
-                    card_rule_label.setMaximumHeight(card_rule_label.sizeHint().height() * 3)
+                    for tag, img_path in self.IM.txt_tag_dict.items():
                         
-                    card_rule_layout.addWidget(card_rule_label)
+                        html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                        rule_desc = rule_desc.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
+
+
+                card_rule_layout = QVBoxLayout()
+                card_rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                self.cd_layout.addLayout(card_rule_layout) # type: ignore
+
+
+                width = 800
+
+                card_rule_label = QLabel()
+                card_rule_label.setTextFormat(Qt.TextFormat.RichText)
+                card_rule_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                card_rule_label.setFont(self.main_font)
+                card_rule_label.setProperty("class", "header2")
+                card_rule_label.setFixedWidth(width)
+                card_rule_label.setWordWrap(True)
+                card_rule_label.setContentsMargins(0, 0, 0, 0)
+
+                doc = QTextDocument()
+                doc.setDefaultFont(self.main_font)
+                doc.setHtml(rule_desc)
+                doc.setTextWidth(width)
+
+                height = int(doc.size().height()) + 100
+                card_rule_label.setFixedHeight(height)
+                card_rule_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+                card_rule_label.setText(rule_desc)
+
+                card_rule_layout.addWidget(card_rule_label)
 
 
 
@@ -1715,7 +1813,16 @@ This project is not affiliated with or associated with these entities.''')
                     ability_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                     layout.addLayout(ability_layout) # type: ignore
 
-                    ability_banner = QLabel("Pokémon-Power:" if ability_type[0] == 'Pokémon-Power' else '')
+                    if ability_type[0] == "Pokémon-Power":
+                        label_txt = "Pokémon-Power:"
+
+                    elif ability_type[0] == 'Held-Item':
+                        label_txt = "Held Item:"
+                    else:
+                        label_txt = ""
+
+
+                    ability_banner = QLabel(label_txt)
                     ability_banner.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                     ability_banner.setFont(self.main_font_bold)
                     ability_banner.setProperty("class", ability_property)
@@ -1741,25 +1848,42 @@ This project is not affiliated with or associated with these entities.''')
                     ability_effect_data = self.set_list[card_index][ability_type[1]][i] # type: str
  
                     for symbol, img_path in self.IM.energy_dict.items():
-                        if isinstance(img_path, tuple):
-                            html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
-                            ability_effect_data = ability_effect_data.replace(f"[{symbol}]", f" {html_img} ")
-                        else:
+                        if not isinstance(img_path, tuple):
                             html_img = f'<img src="{img_path}" width="20" height="20">'
-                            ability_effect_data = ability_effect_data.replace(f"[{symbol}]", f" {html_img} ")
+                        else:
+                            html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
 
-                    ability_effect_text = QLabel(ability_effect_data)
+                        ability_effect_data = ability_effect_data.replace(f"[{symbol}]", f" {html_img} ")
+
+                    if any(key in ability_effect_data for key in self.IM.txt_tag_dict):
+
+                        for tag, img_path in self.IM.txt_tag_dict.items():
+                            
+                            html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                            ability_effect_data = ability_effect_data.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
+
+                    width = 1000
+
+                    ability_effect_text = QLabel()
                     ability_effect_text.setTextFormat(Qt.TextFormat.RichText)
                     ability_effect_text.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                     ability_effect_text.setFont(self.main_font)
                     ability_effect_text.setProperty("class", "header2")
-                    ability_effect_text.setMinimumWidth(1000)
-                    ability_effect_text.setMaximumWidth(1000)
+                    ability_effect_text.setFixedWidth(width)
                     ability_effect_text.setWordWrap(True)
-                    ability_effect_text.setMinimumHeight(ability_effect_text.sizeHint().height() * 5)
-                    ability_effect_text.setMaximumHeight(ability_effect_text.sizeHint().height() * 5)
-                    ability_effect_text.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
-        
+                    ability_effect_text.setContentsMargins(0, 0, 0, 0)
+
+                    doc = QTextDocument()
+                    doc.setDefaultFont(self.main_font)
+                    doc.setHtml(ability_effect_data)
+                    doc.setTextWidth(width)
+
+                    height = int(doc.size().height()) + 100
+                    ability_effect_text.setFixedHeight(height)
+                    ability_effect_text.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+                    ability_effect_text.setText(ability_effect_data)
+
                     layout.addWidget(ability_effect_text)
 
         
@@ -1879,7 +2003,7 @@ This project is not affiliated with or associated with these entities.''')
                      ("VMAX", "vertical-align: bottom;"), 
                      ("VSTAR", "vertical-align: bottom;"), 
                      ("V-UNION", "vertical-align: bottom;"), 
-                     ("LEGEND", "vertical-align: middle;"), 
+                     ("LEGEND", "vertical-align: top;"), 
                      ("\u2662", "vertical-align: middle;"), 
                      ("LV.X", "vertical-align: top;")]
 
@@ -1906,7 +2030,7 @@ This project is not affiliated with or associated with these entities.''')
             card_text = card_text.replace(card_text[-2:], f' {html_img}').strip()
             
         elif '-GX' in card_text:
-            
+
             if 'Ultra Beast' in self.set_list[card_index]["Card-Categories"]:
                 if 'TAG TEAM' in self.set_list[card_index]["Card-Categories"]:
 
@@ -1920,7 +2044,9 @@ This project is not affiliated with or associated with these entities.''')
                 else:
                     img_path = self.IM.tag_dict["GX"]
 
-        
+            html_img = f'<img src="{img_path}" style="vertical-align: top;">'
+            card_text = card_text.replace('-GX', f' {html_img}').strip()
+
 
         elif card_text[-5:] == " Star":
 

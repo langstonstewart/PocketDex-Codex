@@ -118,25 +118,33 @@ class ImageManager:
                                             "2 Shiny",
                                             "Crown"]}
         
-        self.rule_list = [  'Mega-ex-Rule', 
-                            'Mega-Evolution-Rule',
-                            'ex-Rule',
-                            'Tera-Rule',
-                            'BREAK-Rule',
-                            'V-Rule', 
-                            'VSTAR-Rule',
-                            'VMAX-Rule',
-                            'V-UNION-Rule', 
-                            'TAG-TEAM-Rule',
-                            'GX-Rule', 
-                            'Prism-Star-Rule', 
-                            'Primal-Reversion-Rule', 
-                            'LEGEND-Rule', 
-                            'Level-Up-Rule', 
-                            'Star-Rule', 
-                            'Dual-Type-Rule']
+        self.pokemon_rule_list = ['Mega-ex-Rule', 
+                                'Mega-Evolution-Rule',
+                                'ex-Rule',
+                                'Tera-Rule',
+                                'BREAK-Rule',
+                                'V-Rule', 
+                                'VSTAR-Rule',
+                                'VMAX-Rule',
+                                'V-UNION-Rule', 
+                                'TAG-TEAM-Rule',
+                                'GX-Rule', 
+                                'Prism-Star-Rule', 
+                                'Baby-Rule',
+                                'Primal-Reversion-Rule',
+                                'Dual-LEGEND-Rule', 
+                                'LEGEND-Rule', 
+                                'Level-Up-Rule', 
+                                'Star-Rule', 
+                                'Dual-Type-Rule']
         
-        
+        self.trainer_rule_list = ['Item-Rule', 
+                                'Supporter-Rule',
+                                'Tool-Rule',
+                                'Tool-F-Rule',
+                                'Stadium-Rule']
+
+
 
         self.tag_dict  = {
             "-EX": self.img("src/images/name_icons/ex_legacy.png"),
@@ -149,9 +157,9 @@ class ImageManager:
             "LEGEND": self.img("src/images/name_icons/legend.png"),
             "\u2662": self.img("src/images/name_icons/prism_star.png"),
             "GX": self.img("src/images/name_icons/gx_icon.png"),
-            "GX-TAG-TEAM": self.img("src/images/name_icons/gx_icon.png"),
-            "GX-UB": self.img("src/images/name_icons/gx_icon.png"),
-            "GX-UB-TAG-TEAM": self.img("src/images/name_icons/gx_icon.png")
+            "GX-TAG-TEAM": self.img("src/images/name_icons/gx_tag_team_icon.png"),
+            "GX-UB": self.img("src/images/name_icons/gx_ub_icon.png"),
+            "GX-UB-TAG-TEAM": self.img("src/images/name_icons/gx_ub_tag_team_icon.png")
         }
 
 
@@ -195,7 +203,7 @@ class ImageManager:
         self.ability_img_dict = {
             "Ability":  QPixmap(self.img("src/images/card_data/abilities/ability_banner.png")),
             "Poké-POWER":  QPixmap(self.img("src/images/card_data/abilities/pp_banner.png")),
-            "Poké-BODY":  QPixmap(self.img("src/images/card_data/abilities/pb_banner.png"))
+            "Poké-BODY":  QPixmap(self.img("src/images/card_data/abilities/pb_banner.png")),
            
 
         }
@@ -230,6 +238,24 @@ class ImageManager:
             "Y": self.img("src/images/card_data/energy/energy_fairy.png"),
             "0": self.img("src/images/card_data/energy/no_energy.png"),
             "+": (self.img("src/images/card_data/energy/plus_icon_black.png"), self.img("src/images/card_data/energy/plus_icon_white.png"))
+        }
+
+        self.txt_tag_dict = {
+            "Pokémon-GX": (self.img("src/images/name_icons/txt_tags/gx_txt_black.png"), self.img("src/images/name_icons/txt_tags/gx_txt_white.png"), '46', '17'),
+            "-GX": (self.img("src/images/name_icons/txt_tags/gx_txt_black.png"), self.img("src/images/name_icons/txt_tags/gx_txt_white.png"), '46', '17'),
+            "GX": (self.img("src/images/name_icons/txt_tags/gx_txt_black.png"), self.img("src/images/name_icons/txt_tags/gx_txt_white.png"), '46', '17'),
+            "TAG TEAM": (self.img("src/images/name_icons/txt_tags/tag_team_black.png"), self.img("src/images/name_icons/txt_tags/tag_team_white.png"), '141', '17'),
+            "{*}": (self.img("src/images/name_icons/txt_tags/prism_star_black.png"), self.img("src/images/name_icons/txt_tags/prism_star_white.png"), '12', '17'), # Prism Star
+            "Pokémon-EX": (self.img("src/images/name_icons/txt_tags/ex_legacy_black.png"), self.img("src/images/name_icons/txt_tags/ex_legacy_white.png"), '45', '17'),
+            "Pokémon ex": (self.img("src/images/name_icons/txt_tags/ex_black.png"), self.img("src/images/name_icons/txt_tags/ex_white.png"), '37', '17'),
+            "Pokémon VMAX": (self.img("src/images/name_icons/txt_tags/vmax_black.png"), self.img("src/images/name_icons/txt_tags/vmax_white.png"), '63', '17'),
+            "Pokémon VSTAR": (self.img("src/images/name_icons/txt_tags/vstar_black.png"), self.img("src/images/name_icons/txt_tags/vstar_white.png"), '58', '17'),
+            "Pokémon V-UNION": (self.img("src/images/name_icons/txt_tags/v-union_black.png"), self.img("src/images/name_icons/txt_tags/v-union_white.png"), '88', '34'),
+            "Pokémon V": (self.img("src/images/name_icons/txt_tags/v_black.png"), self.img("src/images/name_icons/txt_tags/v_white.png"), '15', '17'),
+            "LV.X": (self.img("src/images/name_icons/txt_tags/lv.x_black.png"), self.img("src/images/name_icons/txt_tags/lv.x_white.png"), '60', '34'),
+            "Pokémon Star": (self.img("src/images/name_icons/txt_tags/star_black.png"), self.img("src/images/name_icons/txt_tags/star_white.png"), '26', '17'),
+            "LEGEND": (self.img("src/images/name_icons/txt_tags/legend_black.png"), self.img("src/images/name_icons/txt_tags/legend_white.png"), '103', '34'),
+            "BREAK": (self.img("src/images/name_icons/txt_tags/break_black.png"), self.img("src/images/name_icons/txt_tags/break_white.png"), '72', '17'),
         }
 
   
