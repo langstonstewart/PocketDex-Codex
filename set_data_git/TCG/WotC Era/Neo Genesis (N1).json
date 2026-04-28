@@ -396,12 +396,6 @@
         "Stage": "Baby",
         "Type": "Lightning",
         "HP": "30",
-        "Pok\u00e9mon-Power": [
-            "{C} \u2192 Zzzap"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "Does 20 damage to each Pok\u00e9mon in play that has a Pok\u00e9mon Power. Don\u2019t apply Weakness and Resistance."
-        ],
         "Move-Energy": [
             "C"
         ],
@@ -757,12 +751,6 @@
         "Stage": "Baby",
         "Type": "Fire",
         "HP": "30",
-        "Pok\u00e9mon-Power": [
-            "{C} \u2192 Sputter : 10"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "All Pok\u00e9mon Powers stop working until the end of your next turn."
-        ],
         "Move-Energy": [
             "C"
         ],
@@ -794,12 +782,6 @@
         "Stage": "Basic",
         "Type": "Darkness",
         "HP": "50",
-        "Pok\u00e9mon-Power": [
-            "{D}{C} \u2192 Feint Attack"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
-        ],
         "Move-Energy": [
             "D",
             "DC"
@@ -941,12 +923,6 @@
         "Stage": "Stage 1",
         "Type": "Grass",
         "HP": "70",
-        "Pok\u00e9mon-Power": [
-            "{G}{G}{C} \u2192 Pollen Shield : 30"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "During your opponent\u2019s next turn, Bayleef can\u2019t become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pok\u00e9mon Powers and Trainer cards still happen.)"
-        ],
         "Move-Energy": [
             "GC",
             "GGC"
@@ -1053,12 +1029,6 @@
         "Stage": "Stage 1",
         "Type": "Water",
         "HP": "70",
-        "Pok\u00e9mon-Power": [
-            "{W}{W}{C} \u2192 Jaw Clamp : 30"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "Until the end of your opponent\u2019s next turn, as long as Croconaw is your Active Pok\u00e9mon, the Defending Pok\u00e9mon can\u2019t retreat, and if the effect of an attack, Pok\u00e9mon Power, or Trainer card would change that player\u2019s Active Pok\u00e9mon, that part of the effect does nothing."
-        ],
         "Move-Energy": [
             "C",
             "WWC"
@@ -1129,12 +1099,6 @@
         "Stage": "Basic",
         "Type": "Lightning",
         "HP": "70",
-        "Pok\u00e9mon-Power": [
-            "{L}{L}{L} \u2192 Swift : 30"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
-        ],
         "Move-Energy": [
             "CC",
             "LLL"
@@ -1241,12 +1205,6 @@
         "Stage": "Stage 1",
         "Type": "Grass",
         "HP": "60",
-        "Pok\u00e9mon-Power": [
-            "{G}{G}{C} \u2192 Sticky Nectar : 20+"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "Flip a coin. If heads, this attack does 20 damage plus 10 more damage and, until the end of your opponent\u2019s next turn, as long as Gloom is your Active Pok\u00e9mon, the Defending Pok\u00e9mon can\u2019t retreat, and if the effect of an attack, Pok\u00e9mon Power, or Trainer card would change that player\u2019s Active Pok\u00e9mon, that part of the effect does nothing. If tails, this attack does 20 damage."
-        ],
         "Move-Energy": [
             "GC",
             "GGC"
@@ -1948,12 +1906,6 @@
         "Stage": "Basic",
         "Type": "Fire",
         "HP": "40",
-        "Pok\u00e9mon-Power": [
-            "{R}{C} \u2192 Swift : 20"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9mon Powers, or any other effects on the Defending Pok\u00e9mon."
-        ],
         "Move-Energy": [
             "C",
             "RC"
@@ -2905,12 +2857,6 @@
         "Rarity": "Rare",
         "Card-Type": "Stadium",
         "HP": null,
-        "Pok\u00e9mon-Power": [
-            "Whenever an attack, Pok\u00e9mon Power, or Trainer card discards another player\u2019s non-{C} Energy card from a Pok\u00e9mon, return that Energy card to its owner\u2019s hand. (Energy cards that are discarded when that Pok\u00e9mon is Knocked Out don\u2019t count.)"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "Whenever an attack, Pok\u00e9mon Power, or Trainer card discards another player\u2019s non-[C] Energy card from a Pok\u00e9mon, return that Energy card to its owner\u2019s hand. (Energy cards that are discarded when that Pok\u00e9mon is Knocked Out don\u2019t count.)"
-        ],
         "Description": "Whenever an attack, Pok\u00e9mon Power, or Trainer card discards another player\u2019s non-[C] Energy card from a Pok\u00e9mon, return that Energy card to its owner\u2019s hand. (Energy cards that are discarded when that Pok\u00e9mon is Knocked Out don\u2019t count.)",
         "Card-Categories": null,
         "Stadium-Rule": "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",

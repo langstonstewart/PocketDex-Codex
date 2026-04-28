@@ -1299,24 +1299,6 @@ This project is not affiliated with or associated with these entities.''')
                         html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
                         card_desc = card_desc.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
                         
-                            
-
-                    
-                            
-                            
-                '''card_desc_label = QLabel(card_desc)
-                card_desc_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                card_desc_label.setFont(self.main_font)
-                card_desc_label.setTextFormat(Qt.TextFormat.RichText)
-                card_desc_label.setProperty("class", "header2")
-                card_desc_label.setMinimumWidth(1000)
-                card_desc_label.setMaximumWidth(1000)
-                card_desc_label.setWordWrap(True)
-                card_desc_label.setMinimumHeight(card_desc_label.sizeHint().height() * 5)
-                card_desc_label.setMaximumHeight(card_desc_label.sizeHint().height() * 5)
-                card_desc_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.MinimumExpanding)
-                
-                desc_layout.addWidget(card_desc_label, alignment=Qt.AlignmentFlag.AlignHCenter)'''
 
                 width = 1000
 
@@ -1345,96 +1327,23 @@ This project is not affiliated with or associated with these entities.''')
 
                 desc_layout.addWidget(card_desc_label)
 
+
+        
+        if "Ancient-Trait" in self.set_list[card_index]:
+            self.display_ancient_trait(card_index, move_data_layout)
                 
 
         self.ability_types = [('Ability', 'Ability-Effect', 'red_ability_header'),
                                   ('Poké-POWER', 'Poké-POWER-Effect', 'red_ability_header'),
                                   ('Poké-BODY', 'Poké-BODY-Effect', 'green_ability_header'),
-                                  ('Pokémon-Power', 'Pokémon-Power-Effect', pmp_property)]
+                                  ('Pokémon-Power', 'Pokémon-Power-Effect', pmp_property),
+                                  ('Held-Item', 'Held-Item-Effect', 'lime_ability_header')]
             
         self.display_abilities(card_index, move_data_layout)
 
 
         if "Moves" in self.set_list[card_index].keys():
-            for i in range(len(self.set_list[card_index]["Moves"])):
-                move_layout = QHBoxLayout()
-                
-                move_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
-                move_data_layout.addLayout(move_layout) # type: ignore
-
-                for energy in self.set_list[card_index]["Move-Energy"][i]:
-
-                    m_energy = QLabel(f"")
-                    if isinstance(self.IM.energy_dict[energy], tuple):
-                        m_energy.setPixmap(QPixmap(self.IM.energy_dict[energy][self.mode]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
-                    else:
-                        m_energy.setPixmap(QPixmap(self.IM.energy_dict[energy]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
-                    m_energy.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-                    m_energy.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
-
-                    move_layout.addWidget(m_energy)
-
-                move_name_data = f"{self.set_list[card_index]["Moves"][i]}"
-
-                if any(key in move_name_data for key in self.IM.txt_tag_dict):
-
-                    for tag, img_path in self.IM.txt_tag_dict.items():
-                        
-                        html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
-                        move_name_data = move_name_data.replace(tag, f" {html_img} ")
-            
-                move_name = QLabel(move_name_data)
-                move_name.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
-                move_name.setFont(self.main_font_bold)
-                move_name.setProperty("class", "header2")
-                move_name.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-
-                move_layout.addWidget(move_name)
-
-                move_damage = self.set_list[card_index]["Move-Damage"][i]
-
-                if move_damage:
-                    move_damage_label = QLabel(move_damage)
-                    move_damage_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                    move_damage_label.setFont(self.main_font_bold)
-                    move_damage_label.setProperty("class", "header2")
-                    move_damage_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-                    move_layout.addWidget(move_damage_label)
-
-                move_effect = self.set_list[card_index]["Effects"][i] # type: str
-
-                if move_effect:
-
-                    if '[' in move_effect:
-                        for symbol, img_path in self.IM.energy_dict.items():
-                            if not isinstance(img_path, tuple):
-                                html_img = f'<img src="{img_path}" width="20" height="20">'
-                            else:
-                                html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
-                            
-                            move_effect = move_effect.replace(f"[{symbol}]", f" {html_img} ")
-                    
-                    if any(key in move_effect for key in self.IM.txt_tag_dict):
-
-                        for tag, img_path in self.IM.txt_tag_dict.items():
-                            
-                            html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
-                            move_effect = move_effect.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
-
-                    move_effect_label = QLabel(move_effect)
-                    move_effect_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                    move_effect_label.setFont(self.main_font)
-                    move_effect_label.setTextFormat(Qt.TextFormat.RichText)
-                    move_effect_label.setProperty("class", "header2")
-                    move_effect_label.setMinimumWidth(1000)
-                    move_effect_label.setMaximumWidth(1000)
-                    move_effect_label.setWordWrap(True)
-                    move_effect_label.setMinimumHeight(move_effect_label.sizeHint().height() * 5)
-                    move_effect_label.setMaximumHeight(move_effect_label.sizeHint().height() * 5)
-                    move_effect_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
-                    
-                    move_data_layout.addWidget(move_effect_label)
+            self.display_moves(card_index, move_data_layout)
         
 
 
@@ -1563,7 +1472,7 @@ This project is not affiliated with or associated with these entities.''')
 
             ft_layout.addWidget(ft_label)
 
-        elif card_rule_list:
+        if card_rule_list:
             for card_rule in card_rule_list:
 
                 rule_desc = f"{self.set_list[card_index][card_rule]}"
@@ -1795,6 +1704,184 @@ This project is not affiliated with or associated with these entities.''')
 
         self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
+    def display_moves(self, card_index, layout: QVBoxLayout):
+        for i in range(len(self.set_list[card_index]["Moves"])):
+            
+            move_name_data = f"{self.set_list[card_index]["Moves"][i]}"
+
+            if 'VSTAR Power:' in move_name_data:
+                vsb_layout = QVBoxLayout()
+                vsb_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+                layout.addLayout(vsb_layout)
+
+                move_name_data = move_name_data.replace('VSTAR Power: ', '')
+                vstar_banner = QLabel('')
+                vstar_banner.setPixmap(self.IM.vstar_banner.scaled(self.IM.vstar_banner.width() // 2, self.IM.vstar_banner.height() // 2, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+                vstar_banner.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+                vstar_banner.setProperty("class", "header2")
+                vstar_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+                vsb_layout.addWidget(vstar_banner)
+
+            move_layout = QHBoxLayout()
+            move_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+            layout.addLayout(move_layout)
+
+            for energy in self.set_list[card_index]["Move-Energy"][i]:
+
+                m_energy = QLabel(f"")
+                if isinstance(self.IM.energy_dict[energy], tuple):
+                    m_energy.setPixmap(QPixmap(self.IM.energy_dict[energy][self.mode]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+                else:
+                    m_energy.setPixmap(QPixmap(self.IM.energy_dict[energy]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+                m_energy.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+                m_energy.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+
+                move_layout.addWidget(m_energy)
+
+            
+
+            if any(key in move_name_data for key in self.IM.txt_tag_dict):
+
+                for tag, img_path in self.IM.txt_tag_dict.items():
+                    
+                    html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                    move_name_data = move_name_data.replace(tag, f" {html_img} ")
+
+            
+        
+            move_name = QLabel(move_name_data)
+            move_name.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+            move_name.setFont(self.main_font_bold)
+            move_name.setProperty("class", "header2")
+            move_name.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+            move_layout.addWidget(move_name)
+
+            move_damage = self.set_list[card_index]["Move-Damage"][i]
+
+            if move_damage:
+                move_damage_label = QLabel(move_damage)
+                move_damage_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                move_damage_label.setFont(self.main_font_bold)
+                move_damage_label.setProperty("class", "header2")
+                move_damage_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+                move_layout.addWidget(move_damage_label)
+
+            move_effect = self.set_list[card_index]["Effects"][i] # type: str
+
+            if move_effect:
+
+                if '[' in move_effect:
+                    for symbol, img_path in self.IM.energy_dict.items():
+                        if not isinstance(img_path, tuple):
+                            html_img = f'<img src="{img_path}" width="20" height="20">'
+                        else:
+                            html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
+                        
+                        move_effect = move_effect.replace(f"[{symbol}]", f" {html_img} ")
+                
+                if any(key in move_effect for key in self.IM.txt_tag_dict):
+
+                    for tag, img_path in self.IM.txt_tag_dict.items():
+                        
+                        html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
+                        move_effect = move_effect.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
+
+                move_effect_label = QLabel(move_effect)
+                move_effect_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                move_effect_label.setFont(self.main_font)
+                move_effect_label.setTextFormat(Qt.TextFormat.RichText)
+                move_effect_label.setProperty("class", "header2")
+                move_effect_label.setMinimumWidth(1000)
+                move_effect_label.setMaximumWidth(1000)
+                move_effect_label.setWordWrap(True)
+                move_effect_label.setMinimumHeight(move_effect_label.sizeHint().height() * 5)
+                move_effect_label.setMaximumHeight(move_effect_label.sizeHint().height() * 5)
+                move_effect_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
+                
+                layout.addWidget(move_effect_label)
+
+    def display_ancient_trait(self, card_index, layout: QVBoxLayout):
+
+       
+        at_data = self.set_list[card_index]["Ancient-Trait"].split(" ")
+
+        at_name = at_data[-1] # type: str
+
+        at_effect = self.set_list[card_index]["Ancient-Trait-Effect"] # type: str
+
+        for symbol, img_path in self.IM.energy_dict.items():
+            if not isinstance(img_path, tuple):
+                html_img = f'<img src="{img_path}" width="20" height="20">'
+            else:
+                html_img = f'<img src="{img_path[self.mode]}" width="20" height="20">'
+
+            at_effect = at_effect.replace(f"[{symbol}]", f" {html_img} ")
+
+        
+        at_layout = QHBoxLayout()
+        at_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        layout.addLayout(at_layout) # type: ignore
+
+
+        at_icon = QLabel()
+        
+        at_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        at_icon.setFont(self.main_font_bold)
+        at_icon.setProperty("class", "header2")
+
+        at_icon.setPixmap(self.IM.trait_dict[at_data[0]].scaled(self.IM.trait_dict[at_data[0]].width() // 2, self.IM.trait_dict[at_data[0]].height() // 2, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+
+        at_icon.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        at_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+        at_layout.addWidget(at_icon)
+            
+
+        at_txt = QLabel(at_name)
+        
+        at_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        at_txt.setFont(self.main_font_bold)
+        at_txt.setProperty("class", "header2")
+
+        at_txt.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        at_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+        at_layout.addWidget(at_txt)
+
+        ate_layout = QHBoxLayout()
+        ate_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        layout.addLayout(ate_layout) # type: ignore
+
+        width = 1000
+
+        at_effect_label = QLabel(at_effect)
+        at_effect_label.setTextFormat(Qt.TextFormat.RichText)
+        at_effect_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        at_effect_label.setFont(self.main_font)
+        at_effect_label.setProperty("class", "header2")
+        at_effect_label.setFixedWidth(width)
+        at_effect_label.setWordWrap(True)
+        at_effect_label.setContentsMargins(0, 0, 0, 0)
+
+        doc = QTextDocument()
+        doc.setDefaultFont(self.main_font)
+        doc.setHtml(at_effect)
+        doc.setTextWidth(width)
+
+        height = int(doc.size().height()) + 100
+        at_effect_label.setFixedHeight(height)
+        at_effect_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+        at_effect_label.setText(at_effect)
+
+        ate_layout.addWidget(at_effect_label)
+
+
+
+
 
     def display_abilities(self, card_index, layout: QVBoxLayout):
 
@@ -1891,6 +1978,8 @@ This project is not affiliated with or associated with these entities.''')
     def create_card(self, card_index, layout, clickable=True, row=0, col=0, favorites_menu=False, f_index=0):
         
         card_widget = QWidget()
+        current_set_id = self.set_id
+        current_card_id = self.set_list[card_index]["ID"]
 
         card_layout = QVBoxLayout(card_widget)
         card_layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
@@ -1937,7 +2026,9 @@ This project is not affiliated with or associated with these entities.''')
         def cache_img(widget):
             pix = widget.pixmap()
             if pix and not pix.isNull():
-                self.img_cache_dict[self.set_id][self.set_list[card_index]["ID"]] = pix
+                if current_set_id not in self.img_cache_dict:
+                    self.img_cache_dict[current_set_id] = {}
+                self.img_cache_dict[current_set_id][current_card_id] = pix
 
                 self.card_cache_count += 1
 
@@ -2004,7 +2095,6 @@ This project is not affiliated with or associated with these entities.''')
                      ("VSTAR", "vertical-align: bottom;"), 
                      ("V-UNION", "vertical-align: bottom;"), 
                      ("LEGEND", "vertical-align: top;"), 
-                     ("\u2662", "vertical-align: middle;"), 
                      ("LV.X", "vertical-align: top;")]
 
         if self.category_dir == "TCG Pocket" and " ex" in card_text:
@@ -2047,6 +2137,12 @@ This project is not affiliated with or associated with these entities.''')
             html_img = f'<img src="{img_path}" style="vertical-align: top;">'
             card_text = card_text.replace('-GX', f' {html_img}').strip()
 
+        elif "Prism Star" in card_text:
+
+            img_path = self.IM.tag_dict["Prism Star"]
+
+            html_img = f'<img src="{img_path}" style="vertical-align: top;">'
+            card_text = card_text.replace("Prism Star", f' {html_img}').strip()
 
         elif card_text[-5:] == " Star":
 
@@ -2479,7 +2575,6 @@ This project is not affiliated with or associated with these entities.''')
                             self.set_list = json.load(set_file)
 
                         self.series = self.card_series
-
                         
                         self.create_card(self.favorite_list[current_card]["Index"], self.fav_grid, True, r, c, True, current_card)
                         

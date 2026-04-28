@@ -36,10 +36,13 @@ class Themes:
                 font-size: 24px; margin: 3px; color: #00863f;
             }
 
+            QLabel[class="lime_ability_header"] {
+                font-size: 24px; margin: 3px; color: #93c42d;
+            }
+
             QLabel[class="theta_header"] {
                 font-size: 24px; margin: 3px; color: white;
             }
-
 
             QLabel[class="Card_Label"] {
                 border-radius: 10px; 
@@ -208,6 +211,10 @@ class Themes:
 
             QLabel[class="green_ability_header"] {
                 font-size: 24px; margin: 3px; color: #00863f;
+            }
+
+            QLabel[class="lime_ability_header"] {
+                font-size: 24px; margin: 3px; color: #93c42d;
             }
 
             QLabel[class="theta_header"] {

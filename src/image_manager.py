@@ -49,7 +49,9 @@ class ImageManager:
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")
         self.gx_tag_team_icon = self.img("src/images/name_icons/gx_tag_team_icon.png")
         self.tera_icon = QPixmap(self.img("src/images/card_data/tera_icon.png"))
-       
+
+        self.vstar_banner = QPixmap(self.img("src/images/name_icons/txt_tags/vstar_banner.png"))
+
         self.star_icon = self.img("src/images/name_icons/star_logo.png")
       
         self.dice_icon = (QPixmap(self.img("src/images/ui/dice_black.png")), QPixmap(self.img("src/images/ui/dice_white.png")))
@@ -60,6 +62,7 @@ class ImageManager:
             "\u03b1": QPixmap(self.img("src/images/card_data/traits/alpha_icon.png")),
             "\u03a9": QPixmap(self.img("src/images/card_data/traits/omega_icon.png")),
             "\u0394": QPixmap(self.img("src/images/card_data/traits/delta_icon.png")),
+            "Delta": QPixmap(self.img("src/images/card_data/traits/delta_icon.png")),
             "\u03b8": QPixmap(self.img("src/images/card_data/traits/theta_icon.png")),
         }
 
@@ -155,7 +158,7 @@ class ImageManager:
             "V-UNION": self.img("src/images/name_icons/v-union_icon.png"),
             "LV.X": self.img("src/images/name_icons/lv_x_logo.png"),
             "LEGEND": self.img("src/images/name_icons/legend.png"),
-            "\u2662": self.img("src/images/name_icons/prism_star.png"),
+            "Prism Star": self.img("src/images/name_icons/prism_star.png"),
             "GX": self.img("src/images/name_icons/gx_icon.png"),
             "GX-TAG-TEAM": self.img("src/images/name_icons/gx_tag_team_icon.png"),
             "GX-UB": self.img("src/images/name_icons/gx_ub_icon.png"),
@@ -180,13 +183,17 @@ class ImageManager:
         self.logo_dict = {}
 
         self.card_type_dict = {
+            "Goldenrod Game Corner": QPixmap(self.img("src/images/card_data/stages/ggc_logo.png")),
+            "Rocket's Secret Machine": QPixmap(self.img("src/images/card_data/stages/rsm_logo.png")),
             "Restored": QPixmap(self.img("src/images/card_data/stages/restored_logo.png")),
             "Basic": QPixmap(self.img("src/images/card_data/stages/basic_logo.png")),
+            "Baby": QPixmap(self.img("src/images/card_data/stages/baby_logo.png")),
             "Stage 1": QPixmap(self.img("src/images/card_data/stages/stage1_logo.png")),
             "Stage 2": QPixmap(self.img("src/images/card_data/stages/stage2_logo.png")),
             "Supporter": QPixmap(self.img("src/images/card_data/stages/supporter_logo.png")),
             "Item": QPixmap(self.img("src/images/card_data/stages/item_logo.png")),
             "Tool": QPixmap(self.img("src/images/card_data/stages/tool_logo.png")),
+            "Tool F": QPixmap(self.img("src/images/card_data/stages/tool_f_logo.png")),
             "Stadium": QPixmap(self.img("src/images/card_data/stages/stadium_logo.png")),
             "VMAX": QPixmap(self.img("src/images/card_data/stages/vmax_logo.png")),
             "VSTAR": QPixmap(self.img("src/images/card_data/stages/vstar_logo.png")),
@@ -245,7 +252,7 @@ class ImageManager:
             "-GX": (self.img("src/images/name_icons/txt_tags/gx_txt_black.png"), self.img("src/images/name_icons/txt_tags/gx_txt_white.png"), '46', '17'),
             "GX": (self.img("src/images/name_icons/txt_tags/gx_txt_black.png"), self.img("src/images/name_icons/txt_tags/gx_txt_white.png"), '46', '17'),
             "TAG TEAM": (self.img("src/images/name_icons/txt_tags/tag_team_black.png"), self.img("src/images/name_icons/txt_tags/tag_team_white.png"), '141', '17'),
-            "{*}": (self.img("src/images/name_icons/txt_tags/prism_star_black.png"), self.img("src/images/name_icons/txt_tags/prism_star_white.png"), '12', '17'), # Prism Star
+            "[*]": (self.img("src/images/name_icons/txt_tags/prism_star_black.png"), self.img("src/images/name_icons/txt_tags/prism_star_white.png"), '12', '17'), # Prism Star
             "Pokémon-EX": (self.img("src/images/name_icons/txt_tags/ex_legacy_black.png"), self.img("src/images/name_icons/txt_tags/ex_legacy_white.png"), '45', '17'),
             "Pokémon ex": (self.img("src/images/name_icons/txt_tags/ex_black.png"), self.img("src/images/name_icons/txt_tags/ex_white.png"), '37', '17'),
             "Pokémon VMAX": (self.img("src/images/name_icons/txt_tags/vmax_black.png"), self.img("src/images/name_icons/txt_tags/vmax_white.png"), '63', '17'),
