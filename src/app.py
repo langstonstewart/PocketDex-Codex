@@ -2098,7 +2098,7 @@ This project is not affiliated with or associated with these entities.''')
                     ability_banner.setFont(self.main_font_bold)
                     ability_banner.setProperty("class", ability_property)
 
-                    if ability_type[0] != 'Pokémon-Power':
+                    if ability_type[0] not in ['Pokémon-Power', 'Held-Item']:
                         ability_img = self.IM.ability_img_dict[ability_type[0]]
                         ability_banner.setPixmap(ability_img)
 

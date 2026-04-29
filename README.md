@@ -5,37 +5,26 @@
   </h1>
 </div>
 
-![Version](https://img.shields.io/badge/Version-4.1.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
+![Version](https://img.shields.io/badge/Version-5.0.0-lightgrey)  ![Python](https://img.shields.io/badge/Python-3.10%2B-lightgrey) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Status](https://img.shields.io/badge/Status-Active-lightgrey)
 
-A Python-based interactive application for Pokémon Trading Card Game/Pokémon Trading Card Game Pocket.
+A Python-based interactive application for Pokémon Trading Card Game/Pokémon Trading Card Game Pocket. (Built with [Pyqt6 by Phil Thompson](https://pypi.org/project/PyQt6))
 
 - Manage your collection
 - Save and load your collection in JSON format
-- Track your completion across over 160+ different sets, and much more!
+- Track your completion across over 170+ different sets, and much more!
 
 *This tool is currently only available for Windows.*
 
 ## How To Use (Installation):
 
-#### 1. Download Pokémon Trading Card Game Pocket:
+#### 1. Download Pokémon Trading Card Game Pocket (Optional):
 [![Download on the App Store](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Download_on_the_App_Store_RGB_blk.svg/330px-Download_on_the_App_Store_RGB_blk.svg.png)](https://apps.apple.com/app/id6479970832) [![Get it on Google Play](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/330px-Google_Play_Store_badge_EN.svg.png)](https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp)
 
-#### 2. Install Python:
- In your preferred terminal, paste in the following code:
 
-````
-winget install Python
-````
-or install the latest version here:
-https://www.python.org/downloads/
-
-#### 3. Install the project folder:
-Download the project folder via current release:
+#### 2. Install the project folder:
+Download the project folder via current release and launch the executable:
 https://github.com/langstonstewart/PocketDex-Codex/releases
 
-The following dependency is automatically installed on execution:
-
-- [Pyqt6 by Phil Thompson](https://pypi.org/project/PyQt6)
 
 ## Contact:
 
