@@ -19,7 +19,7 @@ A Python-based interactive application for Pokémon Trading Card Game/Pokémon T
 ## How To Use (Installation):
 
 #### 1. Install the project folder:
-Installing Python is not needed, simply download the latest ZIP folder via current release and launch the executable within:
+Installing Python is not needed; simply download the latest ZIP folder via current release and launch the executable within:
 https://github.com/langstonstewart/PocketDex-Codex/releases
 
 #### 2. (Optional) Download Pokémon Trading Card Game Pocket:
