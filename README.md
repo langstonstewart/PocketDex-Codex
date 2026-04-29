@@ -1,4 +1,6 @@
-![PocketDex Codex Grid](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/src/images/ui/codex.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/src/images/ui/codex.png" alt="description" width="650"/>
+</p>
 
 # PocketDex Codex
 
