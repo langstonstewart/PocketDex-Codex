@@ -15,7 +15,7 @@ A Python-based interactive application for Pokémon Trading Card Game/Pokémon T
 
 *This tool is currently only available for Windows. An internet connection is required to fetch card images.*
 
-[![PocketDex Codex Grid](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Download_on_the_App_Store_RGB_blk.svg/330px-Download_on_the_App_Store_RGB_blk.svg.png)](https://apps.apple.com/app/id6479970832)
+[![PocketDex Codex Grid](https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/src/images/ui/codex_grid.png)]
 
 ## How To Use (Installation):
 
