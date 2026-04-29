@@ -73,6 +73,10 @@ class Application(QMainWindow):
 
         self.main_layout = None
 
+        self.category_title_layout = None
+
+        self.set_header = None
+
         self.set_main_layout = None
         
         self.cd_layout = None
@@ -342,8 +346,16 @@ class Application(QMainWindow):
            
 
         self.set_header = QHBoxLayout()
-        self.set_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.set_main_layout.addLayout(self.set_header) # type: ignore
+
+        self.init_back_button(self.set_header, "Top")
+
+        self.title_header = QHBoxLayout()
+        self.title_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+        self.set_header.addStretch(1)
+        self.set_header.addLayout(self.title_header) # type: ignore
+        self.set_header.addStretch(1)
 
         self.data_header = QHBoxLayout()
         self.data_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -365,13 +377,13 @@ class Application(QMainWindow):
         set_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         set_title.setProperty("class", "header1")
         set_title.setFont(self.main_font)
-        self.set_header.addWidget(set_title)
+        self.title_header.addWidget(set_title)
 
         set_tag = QLabel(f"{set_data["SetID"]}")
         set_tag.setProperty("class", "Set_Tag")
         set_tag.setFont(self.main_font)
         set_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        self.set_header.addWidget(set_tag)
+        self.title_header.addWidget(set_tag)
 
         set_date.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         set_date.setProperty("class", "header2")
@@ -473,18 +485,35 @@ class Application(QMainWindow):
 
         self.set_button_dict = {}
 
-        category_title_layout = QHBoxLayout()
-        category_title_layout.setSpacing(50)
-        category_title_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.main_layout.addLayout(category_title_layout) # type: ignore
+        
+
+        self.category_title_layout = QHBoxLayout()
+       
+        
+        self.main_layout.addLayout(self.category_title_layout) # type: ignore
+
+        self.init_back_button(self.category_title_layout, "Top")
+        
+        
+        
+        self.cat_con_layout = QHBoxLayout()
+        self.cat_con_layout.setSpacing(50)
+        self.cat_con_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.cat_con_layout.setContentsMargins(0, 0, 80, 0)
+        
+        self.category_title_layout.addStretch(1)
+        self.category_title_layout.addLayout(self.cat_con_layout) # type: ignore
+        self.category_title_layout.addStretch(1)
+        
 
         img_layout = QVBoxLayout()
         img_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        category_title_layout.addLayout(img_layout)
+        
+        self.cat_con_layout.addLayout(img_layout)
 
         text_layout = QVBoxLayout()
         text_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        category_title_layout.addLayout(text_layout)
+        self.cat_con_layout.addLayout(text_layout)
 
 
         self.title_icon = QLabel("")
@@ -510,6 +539,8 @@ class Application(QMainWindow):
         date_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
         text_layout.addWidget(date_label)
+
+        
 
         for key in (reversed(self.set_dict.keys()) if self.set_inverse else self.set_dict.keys()):
 
@@ -640,6 +671,7 @@ class Application(QMainWindow):
 
         self.info_header = QVBoxLayout()
         
+        
         self.info_layout.addLayout(self.info_header)
         
         info_title = QLabel("")
@@ -656,6 +688,7 @@ This application is a fan-made project intended for personal and educational pur
 All rights, trademarks, and intellectual property related to Pokémon, including names, images,
 and game mechanics, belong to The Pokémon Company, Nintendo, Game Freak, and Creatures Inc.
 This project is not affiliated with or associated with these entities.''')
+        
         dis_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         dis_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         dis_label.setProperty("class", "header2")
@@ -750,13 +783,48 @@ This project is not affiliated with or associated with these entities.''')
 
         self.pz_layout.addWidget(pz_date_label)
 
+
+        self.pc_layout = QHBoxLayout()
+        self.pc_layout.setSpacing(0)  
+        self.pc_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
+
+        self.info_header.addLayout(self.pc_layout)
+        
+        cd_label = QLabel(f"Card data sourced from ")
+        cd_label.setProperty("class", "header2")
+        cd_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        cd_label.setFont(self.main_font)
+
+        self.pc_layout.addWidget(cd_label)
+
+        self.pc_icon = QLabel(f"")
+        self.ui_button_list.append((self.pc_icon, self.IM.pc_icon, 24, 24))
+        self.pc_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.pc_icon.setPixmap(self.IM.pc_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+
+        self.pc_layout.addWidget(self.pc_icon)
+
+        pc_label = QLabel(f"PkmnCards")
+        pc_label.setProperty("class", "Link_Label")
+        pc_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pc_label.setFont(self.main_font)
+
+        self.pc_layout.addWidget(pc_label)
+
+        pc_date_label = QLabel(f"© 2011 - 2026")
+        pc_date_label.setProperty("class", "header2")
+        pc_date_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pc_date_label.setFont(self.main_font)
+
+        self.pc_layout.addWidget(pc_date_label)
+
         self.serebii_layout = QHBoxLayout()
         self.serebii_layout.setSpacing(0)  
         self.serebii_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
 
         self.info_header.addLayout(self.serebii_layout)
         
-        c_label = QLabel(f"Data sourced from ")
+        c_label = QLabel(f"Extra data sourced from ")
         c_label.setProperty("class", "header2")
         c_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         c_label.setFont(self.main_font)
@@ -818,6 +886,54 @@ This project is not affiliated with or associated with these entities.''')
 
         self.ltcg_layout.addWidget(ltcg_date_label)
 
+        self.pa_layout = QHBoxLayout()
+        self.pa_layout.setSpacing(0)  
+        self.pa_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
+
+        self.info_header.addLayout(self.pa_layout)
+        
+        et_label = QLabel(f"EssentiarumTCG")
+        et_label.setProperty("class", "Link_Label")
+        et_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        et_label.setFont(self.main_font)
+
+        self.pa_layout.addWidget(et_label)
+
+        by_label = QLabel(f"by")
+        by_label.setProperty("class", "header2")
+        by_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        by_label.setFont(self.main_font)
+
+        self.pa_layout.addWidget(by_label)
+
+        nick_label = QLabel(f"Nick15")
+        nick_label.setProperty("class", "Link_Label")
+        nick_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        nick_label.setFont(self.main_font)
+
+        self.pa_layout.addWidget(nick_label)
+
+        at_label = QLabel(f"at")
+        at_label.setProperty("class", "header2")
+        at_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        at_label.setFont(self.main_font)
+
+        self.pa_layout.addWidget(at_label)
+
+        pal_label = QLabel(f"Pokémon Aaah!")
+        pal_label.setProperty("class", "Link_Label")
+        pal_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pal_label.setFont(self.main_font)
+
+        self.pa_layout.addWidget(pal_label)
+
+        pa_date_label = QLabel(f"© 1999 - 2026")
+        pa_date_label.setProperty("class", "header2")
+        pa_date_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pa_date_label.setFont(self.main_font)
+
+        self.pa_layout.addWidget(pa_date_label)
+
         def on_enter(label: QLabel, event):
             label.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
             
@@ -837,6 +953,11 @@ This project is not affiliated with or associated with these entities.''')
         pz_label.leaveEvent = partial(on_leave, pz_label) # type: ignore
         pz_label.mousePressEvent = partial(on_click, "https://www.pokemon-zone.com") # type: ignore
 
+        pc_label.enterEvent = partial(on_enter, pc_label)
+        pc_label.leaveEvent = partial(on_leave, pc_label) # type: ignore
+        pc_label.mousePressEvent = partial(on_click, "https://pkmncards.com") # type: ignore
+
+
         serebii_label.enterEvent = partial(on_enter, serebii_label)
         serebii_label.leaveEvent = partial(on_leave, serebii_label) # type: ignore
         serebii_label.mousePressEvent = partial(on_click, "https://www.serebii.net") # type: ignore
@@ -844,6 +965,19 @@ This project is not affiliated with or associated with these entities.''')
         ltcg_label.enterEvent = partial(on_enter, ltcg_label)
         ltcg_label.leaveEvent = partial(on_leave, ltcg_label) # type: ignore
         ltcg_label.mousePressEvent = partial(on_click, "https://pocket.limitlesstcg.com") # type: ignore
+
+        et_label.enterEvent = partial(on_enter, et_label)
+        et_label.leaveEvent = partial(on_leave, et_label) # type: ignore
+        et_label.mousePressEvent = partial(on_click, "https://www.pokemonaaah.net/art/fonts/#EssenTCG") # type: ignore
+
+        nick_label.enterEvent = partial(on_enter, nick_label)
+        nick_label.leaveEvent = partial(on_leave, nick_label) # type: ignore
+        nick_label.mousePressEvent = partial(on_click, "https://www.pokemonaaah.net/news/author/nick15/") # type: ignore
+
+        pal_label.enterEvent = partial(on_enter, pal_label)
+        pal_label.leaveEvent = partial(on_leave, pal_label) # type: ignore
+        pal_label.mousePressEvent = partial(on_click, "https://www.pokemonaaah.net") # type: ignore
+
 
         self.seperator(self.info_header, 1100)
 
@@ -880,6 +1014,8 @@ This project is not affiliated with or associated with these entities.''')
         self.set_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
         self.set_widget.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
+        
+
         self.print_set_title(self.set_name)
 
         self.seperator(self.set_main_layout, self.set_sep_lens[self.col_count])
@@ -896,6 +1032,8 @@ This project is not affiliated with or associated with these entities.''')
         
         
     def await_cache(self): 
+
+        
                 
         self.display_cards()
 
@@ -1234,8 +1372,9 @@ This project is not affiliated with or associated with these entities.''')
         card_header_layout.addWidget(card_type_banner)
 
         self.create_card(card_index, card_layout, False)
-
-        self.seperator(self.cd_layout, 1100)
+        
+        if ('Description' in self.set_list[card_index] and self.set_list[card_index]['Description']) or ('Moves' in self.set_list[card_index] and self.set_list[card_index]['Moves']):
+            self.seperator(self.cd_layout, 1100)
 
         move_data_layout = QVBoxLayout()
         move_data_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1316,7 +1455,6 @@ This project is not affiliated with or associated with these entities.''')
                 doc.setHtml(card_desc)
                 doc.setTextWidth(width)
 
-           
 
                 height = int(doc.size().height()) + 100
                 
@@ -1338,12 +1476,29 @@ This project is not affiliated with or associated with these entities.''')
                                   ('Poké-BODY', 'Poké-BODY-Effect', 'green_ability_header'),
                                   ('Pokémon-Power', 'Pokémon-Power-Effect', pmp_property),
                                   ('Held-Item', 'Held-Item-Effect', 'lime_ability_header')]
+        
             
-        self.display_abilities(card_index, move_data_layout)
+        if "Ability" in self.set_list[card_index] and self.set_list[card_index]['Ability'] is not None:
+            if any('VSTAR Power:' in a for a in self.set_list[card_index]["Ability"]):
+            
+                if "Moves" in self.set_list[card_index].keys():
+                    self.display_moves(card_index, move_data_layout)
 
+                self.display_abilities(card_index, move_data_layout)
 
-        if "Moves" in self.set_list[card_index].keys():
-            self.display_moves(card_index, move_data_layout)
+            else:
+                self.display_abilities(card_index, move_data_layout)
+
+                if "Moves" in self.set_list[card_index].keys():
+                    self.display_moves(card_index, move_data_layout)
+                
+        else:
+
+            self.display_abilities(card_index, move_data_layout)
+
+            if "Moves" in self.set_list[card_index].keys():
+                self.display_moves(card_index, move_data_layout)
+
         
 
 
@@ -1430,16 +1585,25 @@ This project is not affiliated with or associated with these entities.''')
                     rc_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                     rt_layout.addWidget(rc_icon, alignment=Qt.AlignmentFlag.AlignHCenter)
             
-
+        
         self.seperator(self.cd_layout, 1100)
 
-        flavor_text = self.set_list[card_index]["Flavor-Text"]
+        if 'Flavor-Text' in self.set_list[card_index]:
+            flavor_text = self.set_list[card_index]["Flavor-Text"]
+        else:
+            flavor_text = None
 
         card_rule_list = []
 
+        pocket_rule_list = []
+
+        
         for rule in (self.IM.pokemon_rule_list if self.set_list[card_index]["Card-Type"] == 'Pokemon' else self.IM.trainer_rule_list):
-            if rule in self.set_list[card_index].keys():
+            if rule in self.set_list[card_index].keys() and self.set_list[card_index][rule] is not None:
                 card_rule_list.append(rule)
+        
+        if self.category_dir == "TCG Pocket" and self.set_list[card_index]["Card-Type"] != 'Pokemon':
+            pocket_rule_list.append(self.IM.pocket_card_desc_dict[self.set_list[card_index]["Card-Type"]])
 
 
         if flavor_text:
@@ -1472,10 +1636,12 @@ This project is not affiliated with or associated with these entities.''')
 
             ft_layout.addWidget(ft_label)
 
-        if card_rule_list:
-            for card_rule in card_rule_list:
+        rule_list = card_rule_list if card_rule_list else pocket_rule_list
 
-                rule_desc = f"{self.set_list[card_index][card_rule]}"
+        if rule_list:
+            for card_rule in rule_list:
+
+                rule_desc = card_rule if pocket_rule_list else f"{self.set_list[card_index][card_rule]}"
 
                 if '[' in rule_desc:
                     for symbol, img_path in self.IM.energy_dict.items():
@@ -1622,6 +1788,8 @@ This project is not affiliated with or associated with these entities.''')
         button_layout = QHBoxLayout()
         button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
 
+        button_layout.addStretch()
+
         random_button = QPushButton("Random..")
         random_button.setProperty("class", "Setting_Button")
         random_button.setFont(self.main_font)
@@ -1686,6 +1854,9 @@ This project is not affiliated with or associated with these entities.''')
                 self.r_button_shortcut.activated.connect(self.next_card_button.click)
 
                 button_layout.addWidget(self.next_card_button)
+
+        button_layout.addStretch()
+        button_layout.setContentsMargins(75, 0, 0, 0)
 
         self.cd_layout.addStretch() # type: ignore
 
@@ -1887,18 +2058,13 @@ This project is not affiliated with or associated with these entities.''')
 
         for ability_type in self.ability_types:
 
-            if ability_type[0] in self.set_list[card_index].keys():
+            if ability_type[0] in self.set_list[card_index].keys() and self.set_list[card_index][ability_type[0]] is not None:
 
                 for i in range (len(self.set_list[card_index][ability_type[0]])):
 
                     ability_text = f"{self.set_list[card_index][ability_type[0]][i]}"
 
                     ability_property = ability_type[2]
-                    
-                    ability_layout = QHBoxLayout()
-                    
-                    ability_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                    layout.addLayout(ability_layout) # type: ignore
 
                     if ability_type[0] == "Pokémon-Power":
                         label_txt = "Pokémon-Power:"
@@ -1908,6 +2074,24 @@ This project is not affiliated with or associated with these entities.''')
                     else:
                         label_txt = ""
 
+                    if 'VSTAR Power:' in ability_text:
+                        vsb_layout = QVBoxLayout()
+                        vsb_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+                        layout.addLayout(vsb_layout)
+
+                        ability_text = ability_text.replace('VSTAR Power: ', '')
+                        vstar_banner = QLabel('')
+                        vstar_banner.setPixmap(self.IM.vstar_banner.scaled(self.IM.vstar_banner.width() // 2, self.IM.vstar_banner.height() // 2, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+                        vstar_banner.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+                        vstar_banner.setProperty("class", "header2")
+                        vstar_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+                        vsb_layout.addWidget(vstar_banner)
+
+                    ability_layout = QHBoxLayout()
+                    
+                    ability_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                    layout.addLayout(ability_layout) # type: ignore
 
                     ability_banner = QLabel(label_txt)
                     ability_banner.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -2159,6 +2343,15 @@ This project is not affiliated with or associated with these entities.''')
 
                     html_img = f'<img src="{img_path}" style="{tag[1]}">'
                     card_text = card_text.replace(tag[0], f' {html_img}').strip()
+
+        if any(tag in card_text for tag in self.IM.txt_tag_energy_dict):
+            for tag in self.IM.txt_tag_energy_dict:
+                if tag in card_text:
+                   
+                    img_path = self.IM.txt_tag_energy_dict[tag][self.mode]
+
+                    html_img = f'<img src="{img_path}" style="vertical-align: top;">'
+                    card_text = card_text.replace(tag, f' {html_img} ').strip()
 
         card_text = card_text.replace("&", "&amp;")
 
@@ -2661,7 +2854,7 @@ This project is not affiliated with or associated with these entities.''')
 
         self.settings_layout.addWidget(self.info_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
 
-        #self.settings_layout.addStretch()
+        
 
 
     def toggle_theme(self):
@@ -2692,11 +2885,14 @@ This project is not affiliated with or associated with these entities.''')
     def init_back_button(self, layout, key):
 
         self.bb_layout = QHBoxLayout()
+        self.bb_layout.setAlignment(Qt.AlignmentFlag.AlignLeft)
 
         layout.addLayout(self.bb_layout)
+        
 
         back_button = QPushButton("")
         back_button.setProperty("class", "Setting_Button")
+        back_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
 
         back_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
         back_button.setIconSize(QSize(36, 36))
@@ -2710,7 +2906,7 @@ This project is not affiliated with or associated with these entities.''')
 
         self.ui_button_list.append((back_button, self.IM.arrow_icon, None, None))
 
-        self.bb_layout.addWidget(back_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
+        self.bb_layout.addWidget(back_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop if key == 'Top' else Qt.AlignmentFlag.AlignBottom)
 
         
 
@@ -2718,7 +2914,7 @@ This project is not affiliated with or associated with these entities.''')
 
     def go_back(self, layout):    
 
-        if layout == self.main_layout or layout == self.info_header:
+        if layout == self.main_layout or layout == self.info_header or layout == self.category_title_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
             if self.main_layout is not None:
@@ -2730,7 +2926,7 @@ This project is not affiliated with or associated with these entities.''')
             self.clear_layout(self.fav_main_layout) # type: ignore
             return
 
-        elif layout == self.set_main_layout:
+        elif layout == self.set_main_layout or self.set_header:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
             self.clear_layout(self.set_main_layout) # type: ignore
@@ -2749,28 +2945,7 @@ This project is not affiliated with or associated with these entities.''')
                     self.display_favorites()
 
             return
-            
 
-        
-
-        '''if layout != self.info_header:
-            self.stacked_layout.setCurrentWidget(self.main_widget)
-        else:
-            self.stacked_layout.setCurrentWidget(self.main_menu_widget)
-        if layout != self.info_header:
-            
-            self.clear_layout(layout)
-            self.card_img_dict = {}
-        if layout == self.cd_layout:
-         
-            if self.previous_widget == self.cd_layout:
-                self.clicked_set(True)
-
-            elif self.previous_widget == self.fav_main_layout:
-
-                if len(self.favorite_list):
-                    self.display_favorites()'''
-            
 
     def clear_layout(self, layout: QVBoxLayout):
         

@@ -31,6 +31,7 @@ class ImageManager:
         self.ltcg_icon = (QPixmap(self.img("src/images/links/ltcg_icon_dark.png")), QPixmap(self.img("src/images/links/ltcg_icon_light.png")))
         self.pz_icon = (QPixmap(self.img("src/images/links/pz_icon_dark.png")), QPixmap(self.img("src/images/links/pz_icon_light.png")))
         self.serebii_icon = (QPixmap(self.img("src/images/links/serebii_icon_dark.png")), QPixmap(self.img("src/images/links/serebii_icon_light.png")))
+        self.pc_icon = (QPixmap(self.img("src/images/links/pkmn_cards_icon_dark.png")), QPixmap(self.img("src/images/links/pkmn_cards_icon_light.png")))
         self.export_icon = (QPixmap(self.img("src/images/ui/export_black.png")), QPixmap(self.img("src/images/ui/export_white.png")))
         self.import_icon = (QPixmap(self.img("src/images/ui/import_black.png")), QPixmap(self.img("src/images/ui/import_white.png")))
         self.shadow_add_icon = (QPixmap(self.img("src/images/ui/shadow_add_black.png")), QPixmap(self.img("src/images/ui/shadow_add_white.png")))
@@ -124,6 +125,7 @@ class ImageManager:
         self.pokemon_rule_list = ['Mega-ex-Rule', 
                                 'Mega-Evolution-Rule',
                                 'ex-Rule',
+                                'Ex-Rule',
                                 'Tera-Rule',
                                 'BREAK-Rule',
                                 'V-Rule', 
@@ -146,8 +148,6 @@ class ImageManager:
                                 'Tool-Rule',
                                 'Tool-F-Rule',
                                 'Stadium-Rule']
-
-
 
         self.tag_dict  = {
             "-EX": self.img("src/images/name_icons/ex_legacy.png"),
@@ -203,7 +203,7 @@ class ImageManager:
             "BREAK": QPixmap(self.img("src/images/card_data/stages/break_logo.png")),
             "Mega": QPixmap(self.img("src/images/card_data/stages/mega_logo.png")),
             "Level-Up": QPixmap(self.img("src/images/card_data/stages/level_up_logo.png")),
-            "Item/Technical Machine": QPixmap(self.img("src/images/card_data/stages/tm_logo.png")),
+            "Technical Machine": QPixmap(self.img("src/images/card_data/stages/tm_logo.png")),
             "LEGEND": QPixmap(self.img("src/images/card_data/stages/legend_logo.png"))
         }
 
@@ -263,6 +263,29 @@ class ImageManager:
             "Pokémon Star": (self.img("src/images/name_icons/txt_tags/star_black.png"), self.img("src/images/name_icons/txt_tags/star_white.png"), '26', '17'),
             "LEGEND": (self.img("src/images/name_icons/txt_tags/legend_black.png"), self.img("src/images/name_icons/txt_tags/legend_white.png"), '103', '34'),
             "BREAK": (self.img("src/images/name_icons/txt_tags/break_black.png"), self.img("src/images/name_icons/txt_tags/break_white.png"), '72', '17'),
+        }
+
+        self.txt_tag_energy_dict = {
+            "[C]": (self.img("src/images/name_icons/txt_tags/energy/colorless_black.png"), self.img("src/images/name_icons/txt_tags/energy/colorless_white.png")),
+            "[G]": (self.img("src/images/name_icons/txt_tags/energy/grass_black.png"), self.img("src/images/name_icons/txt_tags/energy/grass_white.png")),
+            "[R]": (self.img("src/images/name_icons/txt_tags/energy/fire_black.png"), self.img("src/images/name_icons/txt_tags/energy/fire_white.png")),
+            "[W]": (self.img("src/images/name_icons/txt_tags/energy/water_black.png"), self.img("src/images/name_icons/txt_tags/energy/water_white.png")),
+            "[L]": (self.img("src/images/name_icons/txt_tags/energy/lightning_black.png"), self.img("src/images/name_icons/txt_tags/energy/lightning_white.png")),
+            "[P]": (self.img("src/images/name_icons/txt_tags/energy/psychic_black.png"), self.img("src/images/name_icons/txt_tags/energy/psychic_white.png")),
+            "[F]": (self.img("src/images/name_icons/txt_tags/energy/fighting_black.png"), self.img("src/images/name_icons/txt_tags/energy/fighting_white.png")),
+            "[D]": (self.img("src/images/name_icons/txt_tags/energy/darkness_black.png"), self.img("src/images/name_icons/txt_tags/energy/darkness_white.png")),
+            "[M]": (self.img("src/images/name_icons/txt_tags/energy/metal_black.png"), self.img("src/images/name_icons/txt_tags/energy/metal_white.png")),
+            "[DR]": (self.img("src/images/name_icons/txt_tags/energy/dragon_black.png"), self.img("src/images/name_icons/txt_tags/energy/dragon_white.png")),
+            "[N]": (self.img("src/images/name_icons/txt_tags/energy/dragon_black.png"), self.img("src/images/name_icons/txt_tags/energy/dragon_white.png")),
+            "[Y]": (self.img("src/images/name_icons/txt_tags/energy/fairy_black.png"), self.img("src/images/name_icons/txt_tags/energy/fairy_white.png")),
+        }
+
+        self.pocket_card_desc_dict = {
+            "Item": "You may play any number of item cards during your turn.",
+            "Supporter": "You may play only 1 Supporter card during your turn.",
+            "Tool": "You use Pok\u00e9mon Tools by attaching them to your Pok\u00e9mon. You may only attach 1 Pok\u00e9mon Tool to each Pok\u00e9mon, and it stays attached.",
+            "Stadium": "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played."
+
         }
 
   
