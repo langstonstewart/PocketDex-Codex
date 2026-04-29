@@ -11,7 +11,7 @@ A Python-based interactive application for Pokémon Trading Card Game/Pokémon T
 
 - Manage your collection
 - Save and load your collection in JSON format, stored locally on your device
-- Track your completion across over 170 different sets, and much more!
+- Track your completion across 170+ different sets, and much more!
 
 *This tool is currently only available for Windows. An internet connection is required to fetch card images.*
 
