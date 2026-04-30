@@ -45,7 +45,7 @@ class SetManager:
 
         if not copy:
   
-            with open(resource_path(f"{dir}\\\\{set_name}.json"), "w+") as set_file:
+            with open(resource_path(f"{dir}\\{category}\\{series}\\{set_name}\\{set_name}.json"), "w+") as set_file:
                 json.dump(set_data_git, set_file, indent=4)
             
         else:
@@ -64,9 +64,10 @@ class SetManager:
                 new_set[i]["Quantity"] = curr_set[i]["Quantity"] # type: ignore
                 new_set[i]["Favorite"] = curr_set[i]["Favorite"] # type: ignore
 
-            with open(resource_path(f"{dir}\\\\{set_name}.json"), "w+") as set_file:
+            with open(resource_path(f"{dir}\\{category}\\{series}\\{set_name}\\{set_name}.json"), "w+") as set_file:
             
                 json.dump(new_set, set_file, indent=4)
+                
                 return True
 
         else:
@@ -88,12 +89,14 @@ class SetManager:
         with open(resource_path(f"{fp}\\{set_name}\\{set_name}.json"), "r+") as set_file:
             set_data = json.load(set_file)
 
-        for i in range(len(set_data)):
-            set_data[i]['Quantity'] = int(set_sheet["Quantity"][i])
-            set_data[i]['Favorite'] = int(set_sheet["Favorite"][i])
-
         if len(set_data) == len(set_sheet["Quantity"]):
+
+            for i in range(len(set_data)):
+                set_data[i]['Quantity'] = int(set_sheet["Quantity"].iloc[i])
+                set_data[i]['Favorite'] = int(set_sheet["Favorite"].iloc[i])
+
             
+                
             with open(resource_path(f"{fp}\\{set_name}\\{set_name}.json"), "w+") as set_file:
                 json.dump(set_data, set_file, indent=4)
             return True
