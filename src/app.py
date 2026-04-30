@@ -1265,7 +1265,7 @@ This project is not affiliated with or associated with these entities.''')
         del formatted_name[-1]
         formatted_name = " ".join(formatted_name)
 
-        set_title = QLabel(f"{formatted_name} (Loading..)")
+        set_title = QLabel(f"{formatted_name}")
         set_tag = QLabel("")
         set_date = QLabel(f"{set_data["Release Date"]}")
         card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
@@ -1472,10 +1472,10 @@ This project is not affiliated with or associated with these entities.''')
                 
 
         self.ability_types = [('Ability', 'Ability-Effect', 'red_ability_header'),
-                                  ('Poké-POWER', 'Poké-POWER-Effect', 'red_ability_header'),
-                                  ('Poké-BODY', 'Poké-BODY-Effect', 'green_ability_header'),
-                                  ('Pokémon-Power', 'Pokémon-Power-Effect', pmp_property),
-                                  ('Held-Item', 'Held-Item-Effect', 'lime_ability_header')]
+                                ('Poké-BODY', 'Poké-BODY-Effect', 'green_ability_header'),
+                                ('Poké-POWER', 'Poké-POWER-Effect', 'red_ability_header'),
+                                ('Pokémon-Power', 'Pokémon-Power-Effect', pmp_property),
+                                ('Held-Item', 'Held-Item-Effect', 'lime_ability_header')]
         
             
         if "Ability" in self.set_list[card_index] and self.set_list[card_index]['Ability'] is not None:
