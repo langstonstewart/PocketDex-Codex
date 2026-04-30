@@ -10,19 +10,23 @@
         "HP": "270",
         "Move-Energy": [
             "GCC",
-            "GGCC"
+            "GGCC",
+            "GGCC+"
         ],
         "Moves": [
             "Pollen Hazard",
-            "Solar Beam"
+            "Solar Beam",
+            "Evergreen-GX"
         ],
         "Move-Damage": [
             "50",
-            "150"
+            "150",
+            "180"
         ],
         "Effects": [
             "Your opponent\u2019s Active Pok\u00e9mon is now Burned, Confused, and Poisoned.",
-            ""
+            "",
+            "Heal all damage from this Pok\u00e9mon. If this Pok\u00e9mon has at least 1 extra [G] Energy attached to it (in addition to this attack\u2019s cost), shuffle all cards from your discard pile into your deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -1112,16 +1116,20 @@
         "Type": "Lightning",
         "HP": "240",
         "Move-Energy": [
-            "LLL"
+            "LLL",
+            "LLL+"
         ],
         "Moves": [
-            "Full Blitz"
+            "Full Blitz",
+            "Tag Bolt-GX"
         ],
         "Move-Damage": [
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
-            "Search your deck for up to 3 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck."
+            "Search your deck for up to 3 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck.",
+            "If this Pok\u00e9mon has at least 3 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 170 damage to 1 of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -1838,16 +1846,20 @@
         "Type": "Psychic",
         "HP": "240",
         "Move-Energy": [
-            "PP"
+            "PP",
+            "P+"
         ],
         "Moves": [
-            "Poltergeist"
+            "Poltergeist",
+            "Horror House-GX"
         ],
         "Move-Damage": [
-            "50\u00d7"
+            "50\u00d7",
+            ""
         ],
         "Effects": [
-            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there."
+            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
+            "Your opponent can\u2019t play any cards from their hand during their next turn. If this Pok\u00e9mon has at least 1 extra [P] Energy attached to it (in addition to this attack\u2019s cost), each player draws cards until they have 7 cards in their hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Darkness",
         "Weakness-Modifier": "\u00d72",
@@ -4031,16 +4043,20 @@
         "Type": "Dragon",
         "HP": "250",
         "Move-Energy": [
-            "WPPC"
+            "WPPC",
+            "P+"
         ],
         "Moves": [
-            "Buster Purge"
+            "Buster Purge",
+            "Aero Unit-GX"
         ],
         "Move-Damage": [
-            "240"
+            "240",
+            ""
         ],
         "Effects": [
-            "Discard 3 Energy from this Pok\u00e9mon."
+            "Discard 3 Energy from this Pok\u00e9mon.",
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), prevent all effects of attacks, including damage, done to it during your opponent\u2019s next turn. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",
@@ -4273,19 +4289,23 @@
         "HP": "270",
         "Move-Energy": [
             "C",
-            "CCCC"
+            "CCCC",
+            "CCCC+"
         ],
         "Moves": [
             "Cheer Up",
-            "Dump Truck Press"
+            "Dump Truck Press",
+            "Megaton Friends-GX"
         ],
         "Move-Damage": [
             "",
-            "120+"
+            "120+",
+            "210"
         ],
         "Effects": [
             "Attach an Energy card from your hand to 1 of your Pok\u00e9mon.",
-            "If your opponent\u2019s Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 120 more damage."
+            "If your opponent\u2019s Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 120 more damage.",
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), draw cards until you have 10 cards in your hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -5159,19 +5179,23 @@
         "HP": "270",
         "Move-Energy": [
             "GCC",
-            "GGCC"
+            "GGCC",
+            "GGCC+"
         ],
         "Moves": [
             "Pollen Hazard",
-            "Solar Beam"
+            "Solar Beam",
+            "Evergreen-GX"
         ],
         "Move-Damage": [
             "50",
-            "150"
+            "150",
+            "180"
         ],
         "Effects": [
             "Your opponent\u2019s Active Pok\u00e9mon is now Burned, Confused, and Poisoned.",
-            ""
+            "",
+            "Heal all damage from this Pok\u00e9mon. If this Pok\u00e9mon has at least 1 extra [G] Energy attached to it (in addition to this attack\u2019s cost), shuffle all cards from your discard pile into your deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -5197,16 +5221,20 @@
         "Type": "Water",
         "HP": "300",
         "Move-Energy": [
-            "WWWWW"
+            "WWWWW",
+            "W+"
         ],
         "Moves": [
-            "Super Splash"
+            "Super Splash",
+            "Towering Splash-GX"
         ],
         "Move-Damage": [
-            "180"
+            "180",
+            "10"
         ],
         "Effects": [
-            ""
+            "",
+            "If this Pok\u00e9mon has at least 7 extra [W] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 damage to each of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -5232,16 +5260,20 @@
         "Type": "Water",
         "HP": "300",
         "Move-Energy": [
-            "WWWWW"
+            "WWWWW",
+            "W+"
         ],
         "Moves": [
-            "Super Splash"
+            "Super Splash",
+            "Towering Splash-GX"
         ],
         "Move-Damage": [
-            "180"
+            "180",
+            "10"
         ],
         "Effects": [
-            ""
+            "",
+            "If this Pok\u00e9mon has at least 7 extra [W] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 damage to each of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -5267,16 +5299,20 @@
         "Type": "Lightning",
         "HP": "240",
         "Move-Energy": [
-            "LLL"
+            "LLL",
+            "LLL+"
         ],
         "Moves": [
-            "Full Blitz"
+            "Full Blitz",
+            "Tag Bolt-GX"
         ],
         "Move-Damage": [
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
-            "Search your deck for up to 3 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck."
+            "Search your deck for up to 3 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck.",
+            "If this Pok\u00e9mon has at least 3 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 170 damage to 1 of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -5346,16 +5382,20 @@
         "Type": "Psychic",
         "HP": "240",
         "Move-Energy": [
-            "PP"
+            "PP",
+            "P+"
         ],
         "Moves": [
-            "Poltergeist"
+            "Poltergeist",
+            "Horror House-GX"
         ],
         "Move-Damage": [
-            "50\u00d7"
+            "50\u00d7",
+            ""
         ],
         "Effects": [
-            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there."
+            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
+            "Your opponent can\u2019t play any cards from their hand during their next turn. If this Pok\u00e9mon has at least 1 extra [P] Energy attached to it (in addition to this attack\u2019s cost), each player draws cards until they have 7 cards in their hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Darkness",
         "Weakness-Modifier": "\u00d72",
@@ -5382,16 +5422,20 @@
         "Type": "Psychic",
         "HP": "240",
         "Move-Energy": [
-            "PP"
+            "PP",
+            "P+"
         ],
         "Moves": [
-            "Poltergeist"
+            "Poltergeist",
+            "Horror House-GX"
         ],
         "Move-Damage": [
-            "50\u00d7"
+            "50\u00d7",
+            ""
         ],
         "Effects": [
-            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there."
+            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
+            "Your opponent can\u2019t play any cards from their hand during their next turn. If this Pok\u00e9mon has at least 1 extra [P] Energy attached to it (in addition to this attack\u2019s cost), each player draws cards until they have 7 cards in their hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Darkness",
         "Weakness-Modifier": "\u00d72",
@@ -5551,16 +5595,20 @@
         "Type": "Dragon",
         "HP": "250",
         "Move-Energy": [
-            "WPPC"
+            "WPPC",
+            "P+"
         ],
         "Moves": [
-            "Buster Purge"
+            "Buster Purge",
+            "Aero Unit-GX"
         ],
         "Move-Damage": [
-            "240"
+            "240",
+            ""
         ],
         "Effects": [
-            "Discard 3 Energy from this Pok\u00e9mon."
+            "Discard 3 Energy from this Pok\u00e9mon.",
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), prevent all effects of attacks, including damage, done to it during your opponent\u2019s next turn. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",
@@ -5586,16 +5634,20 @@
         "Type": "Dragon",
         "HP": "250",
         "Move-Energy": [
-            "WPPC"
+            "WPPC",
+            "P+"
         ],
         "Moves": [
-            "Buster Purge"
+            "Buster Purge",
+            "Aero Unit-GX"
         ],
         "Move-Damage": [
-            "240"
+            "240",
+            ""
         ],
         "Effects": [
-            "Discard 3 Energy from this Pok\u00e9mon."
+            "Discard 3 Energy from this Pok\u00e9mon.",
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), prevent all effects of attacks, including damage, done to it during your opponent\u2019s next turn. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",
@@ -5622,19 +5674,23 @@
         "HP": "270",
         "Move-Energy": [
             "C",
-            "CCCC"
+            "CCCC",
+            "CCCC+"
         ],
         "Moves": [
             "Cheer Up",
-            "Dump Truck Press"
+            "Dump Truck Press",
+            "Megaton Friends-GX"
         ],
         "Move-Damage": [
             "",
-            "120+"
+            "120+",
+            "210"
         ],
         "Effects": [
             "Attach an Energy card from your hand to 1 of your Pok\u00e9mon.",
-            "If your opponent\u2019s Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 120 more damage."
+            "If your opponent\u2019s Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 120 more damage.",
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), draw cards until you have 10 cards in your hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -5811,19 +5867,23 @@
         "HP": "270",
         "Move-Energy": [
             "GCC",
-            "GGCC"
+            "GGCC",
+            "GGCC+"
         ],
         "Moves": [
             "Pollen Hazard",
-            "Solar Beam"
+            "Solar Beam",
+            "Evergreen-GX"
         ],
         "Move-Damage": [
             "50",
-            "150"
+            "150",
+            "180"
         ],
         "Effects": [
             "Your opponent\u2019s Active Pok\u00e9mon is now Burned, Confused, and Poisoned.",
-            ""
+            "",
+            "Heal all damage from this Pok\u00e9mon. If this Pok\u00e9mon has at least 1 extra [G] Energy attached to it (in addition to this attack\u2019s cost), shuffle all cards from your discard pile into your deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -5849,16 +5909,20 @@
         "Type": "Water",
         "HP": "300",
         "Move-Energy": [
-            "WWWWW"
+            "WWWWW",
+            "W+"
         ],
         "Moves": [
-            "Super Splash"
+            "Super Splash",
+            "Towering Splash-GX"
         ],
         "Move-Damage": [
-            "180"
+            "180",
+            "10"
         ],
         "Effects": [
-            ""
+            "",
+            "If this Pok\u00e9mon has at least 7 extra [W] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 damage to each of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -5884,16 +5948,20 @@
         "Type": "Lightning",
         "HP": "240",
         "Move-Energy": [
-            "LLL"
+            "LLL",
+            "LLL+"
         ],
         "Moves": [
-            "Full Blitz"
+            "Full Blitz",
+            "Tag Bolt-GX"
         ],
         "Move-Damage": [
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
-            "Search your deck for up to 3 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck."
+            "Search your deck for up to 3 [L] Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck.",
+            "If this Pok\u00e9mon has at least 3 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 170 damage to 1 of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -5963,16 +6031,20 @@
         "Type": "Psychic",
         "HP": "240",
         "Move-Energy": [
-            "PP"
+            "PP",
+            "P+"
         ],
         "Moves": [
-            "Poltergeist"
+            "Poltergeist",
+            "Horror House-GX"
         ],
         "Move-Damage": [
-            "50\u00d7"
+            "50\u00d7",
+            ""
         ],
         "Effects": [
-            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there."
+            "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
+            "Your opponent can\u2019t play any cards from their hand during their next turn. If this Pok\u00e9mon has at least 1 extra [P] Energy attached to it (in addition to this attack\u2019s cost), each player draws cards until they have 7 cards in their hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Darkness",
         "Weakness-Modifier": "\u00d72",
@@ -6132,16 +6204,20 @@
         "Type": "Dragon",
         "HP": "250",
         "Move-Energy": [
-            "WPPC"
+            "WPPC",
+            "P+"
         ],
         "Moves": [
-            "Buster Purge"
+            "Buster Purge",
+            "Aero Unit-GX"
         ],
         "Move-Damage": [
-            "240"
+            "240",
+            ""
         ],
         "Effects": [
-            "Discard 3 Energy from this Pok\u00e9mon."
+            "Discard 3 Energy from this Pok\u00e9mon.",
+            "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), prevent all effects of attacks, including damage, done to it during your opponent\u2019s next turn. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",
@@ -6168,19 +6244,23 @@
         "HP": "270",
         "Move-Energy": [
             "C",
-            "CCCC"
+            "CCCC",
+            "CCCC+"
         ],
         "Moves": [
             "Cheer Up",
-            "Dump Truck Press"
+            "Dump Truck Press",
+            "Megaton Friends-GX"
         ],
         "Move-Damage": [
             "",
-            "120+"
+            "120+",
+            "210"
         ],
         "Effects": [
             "Attach an Energy card from your hand to 1 of your Pok\u00e9mon.",
-            "If your opponent\u2019s Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 120 more damage."
+            "If your opponent\u2019s Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 120 more damage.",
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), draw cards until you have 10 cards in your hand. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",

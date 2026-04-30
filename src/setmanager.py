@@ -45,7 +45,7 @@ class SetManager:
 
         if not copy:
   
-            with open(resource_path(f"{dir}\\{category}\\{series}\\{set_name}\\{set_name}.json"), "w+") as set_file:
+            with open(resource_path(f"{dir}\\{set_name}.json"), "w+") as set_file:
                 json.dump(set_data_git, set_file, indent=4)
             
         else:

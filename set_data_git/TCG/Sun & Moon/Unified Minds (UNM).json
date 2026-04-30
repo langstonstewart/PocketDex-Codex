@@ -10,19 +10,23 @@
         "HP": "270",
         "Move-Energy": [
             "0",
-            "GGC"
+            "GGC",
+            "GGG+"
         ],
         "Moves": [
             "Super Growth",
-            "Calming Hurricane"
+            "Calming Hurricane",
+            "Tropical Hour-GX"
         ],
         "Move-Damage": [
             "",
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
             "Search your deck for a card that evolves from 1 of your [G] Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. If that Pok\u00e9mon is now a Stage 1 Pok\u00e9mon, search your deck for a Stage 2 Pok\u00e9mon that evolves from that Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck.",
-            "Heal 30 damage from this Pok\u00e9mon."
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "If this Pok\u00e9mon has at least 3 extra Energy attached to it (in addition to this attack\u2019s cost), your opponent shuffles all Energy from all of their Pok\u00e9mon into their deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -1176,16 +1180,20 @@
         "Type": "Water",
         "HP": "250",
         "Move-Energy": [
-            "WW"
+            "WW",
+            "WW+"
         ],
         "Moves": [
-            "Ditch and Splash"
+            "Ditch and Splash",
+            "Thrilling Times-GX"
         ],
         "Move-Damage": [
-            "40\u00d7"
+            "40\u00d7",
+            "10+"
         ],
         "Effects": [
-            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way."
+            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way.",
+            "Flip a coin. If heads, this attack does 100 more damage. If this Pok\u00e9mon has at least 6 extra [W] Energy attached to it (in addition to this attack\u2019s cost), flip 10 coins instead, and this attack does 100 more damage for each heads. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -1832,16 +1840,20 @@
         "Type": "Lightning",
         "HP": "260",
         "Move-Energy": [
-            "LLC"
+            "LLC",
+            "LLC+"
         ],
         "Moves": [
-            "Tandem Shock"
+            "Tandem Shock",
+            "Lightning Ride-GX"
         ],
         "Move-Damage": [
-            "80+"
+            "80+",
+            "150+"
         ],
         "Effects": [
-            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed."
+            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed.",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 more damage. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -2429,10 +2441,18 @@
         "Ability-Effect": [
             "This Pok\u00e9mon can use the attacks of any Pok\u00e9mon-GX or Pok\u00e9mon-EX on your Bench or in your discard pile. (You still need the necessary Energy to use each attack.)"
         ],
-        "Move-Energy": [],
-        "Moves": [],
-        "Move-Damage": [],
-        "Effects": [],
+        "Move-Energy": [
+            "PPC+"
+        ],
+        "Moves": [
+            "Miraculous Duo-GX"
+        ],
+        "Move-Damage": [
+            "200"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), heal all damage from all of your Pok\u00e9mon. (You can\u2019t use more than 1 GX attack in a game.)"
+        ],
         "Weakness": "Psychic",
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
@@ -2457,16 +2477,20 @@
         "Type": "Psychic",
         "HP": "260",
         "Move-Energy": [
-            "PCC"
+            "PCC",
+            "PCC+"
         ],
         "Moves": [
-            "Psychic Club"
+            "Psychic Club",
+            "Cross Division-GX"
         ],
         "Move-Damage": [
-            "10+"
+            "10+",
+            ""
         ],
         "Effects": [
-            "This attack does 30 more damage for each of your Benched [P] Pok\u00e9mon."
+            "This attack does 30 more damage for each of your Benched [P] Pok\u00e9mon.",
+            "Put 10 damage counters on your opponent\u2019s Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 3 extra Energy attached to it (in addition to this attack\u2019s cost), put 20 damage counters on them instead. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Psychic",
         "Weakness-Modifier": "\u00d72",
@@ -4338,16 +4362,20 @@
         "Type": "Darkness",
         "HP": "270",
         "Move-Energy": [
-            "DDC"
+            "DDC",
+            "C+"
         ],
         "Moves": [
-            "Black Lance"
+            "Black Lance",
+            "Dark Moon-GX"
         ],
         "Move-Damage": [
-            "150"
+            "150",
+            ""
         ],
         "Effects": [
-            "This attack does 60 damage to 1 of your opponent\u2019s Benched Pok\u00e9mon-GX or Benched Pok\u00e9mon-EX. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            "This attack does 60 damage to 1 of your opponent\u2019s Benched Pok\u00e9mon-GX or Benched Pok\u00e9mon-EX. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "Your opponent can\u2019t play any Trainer cards from their hand during their next turn. If this Pok\u00e9mon has at least 5 extra [D] Energy attached to it (in addition to this attack\u2019s cost), your opponent\u2019s Active Pok\u00e9mon is Knocked Out. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -4374,16 +4402,20 @@
         "Type": "Darkness",
         "HP": "280",
         "Move-Energy": [
-            "DDDDC"
+            "DDDDC",
+            "DDDDC+"
         ],
         "Moves": [
-            "Greedy Crush"
+            "Greedy Crush",
+            "Gigafall-GX"
         ],
         "Move-Damage": [
-            "210"
+            "210",
+            "250"
         ],
         "Effects": [
-            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card."
+            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card.",
+            "If this Pok\u00e9mon has at least 5 extra Energy attached to it (in addition to this attack\u2019s cost), discard the top 15 cards of your opponent\u2019s deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -5087,19 +5119,23 @@
         "HP": "270",
         "Move-Energy": [
             "C",
-            "PFC"
+            "PFC",
+            "PPF+"
         ],
         "Moves": [
             "Linear Attack",
-            "Calamitous Slash"
+            "Calamitous Slash",
+            "GG End-GX"
         ],
         "Move-Damage": [
             "",
-            "160+"
+            "160+",
+            ""
         ],
         "Effects": [
             "This attack does 40 damage to 1 of your opponent\u2019s Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
-            "If your opponent\u2019s Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage."
+            "If your opponent\u2019s Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage.",
+            "Discard 1 of your opponent\u2019s Pok\u00e9mon and all cards attached to it. If this Pok\u00e9mon has at least 3 extra [F] Energy attached to it (in addition to this attack\u2019s cost), discard 2 of your opponent\u2019s Pok\u00e9mon instead. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",
@@ -6974,19 +7010,23 @@
         "HP": "270",
         "Move-Energy": [
             "0",
-            "GGC"
+            "GGC",
+            "GGG+"
         ],
         "Moves": [
             "Super Growth",
-            "Calming Hurricane"
+            "Calming Hurricane",
+            "Tropical Hour-GX"
         ],
         "Move-Damage": [
             "",
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
             "Search your deck for a card that evolves from 1 of your [G] Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. If that Pok\u00e9mon is now a Stage 1 Pok\u00e9mon, search your deck for a Stage 2 Pok\u00e9mon that evolves from that Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck.",
-            "Heal 30 damage from this Pok\u00e9mon."
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "If this Pok\u00e9mon has at least 3 extra Energy attached to it (in addition to this attack\u2019s cost), your opponent shuffles all Energy from all of their Pok\u00e9mon into their deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -7013,19 +7053,23 @@
         "HP": "270",
         "Move-Energy": [
             "0",
-            "GGC"
+            "GGC",
+            "GGG+"
         ],
         "Moves": [
             "Super Growth",
-            "Calming Hurricane"
+            "Calming Hurricane",
+            "Tropical Hour-GX"
         ],
         "Move-Damage": [
             "",
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
             "Search your deck for a card that evolves from 1 of your [G] Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. If that Pok\u00e9mon is now a Stage 1 Pok\u00e9mon, search your deck for a Stage 2 Pok\u00e9mon that evolves from that Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck.",
-            "Heal 30 damage from this Pok\u00e9mon."
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "If this Pok\u00e9mon has at least 3 extra Energy attached to it (in addition to this attack\u2019s cost), your opponent shuffles all Energy from all of their Pok\u00e9mon into their deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -7095,16 +7139,20 @@
         "Type": "Water",
         "HP": "250",
         "Move-Energy": [
-            "WW"
+            "WW",
+            "WW+"
         ],
         "Moves": [
-            "Ditch and Splash"
+            "Ditch and Splash",
+            "Thrilling Times-GX"
         ],
         "Move-Damage": [
-            "40\u00d7"
+            "40\u00d7",
+            "10+"
         ],
         "Effects": [
-            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way."
+            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way.",
+            "Flip a coin. If heads, this attack does 100 more damage. If this Pok\u00e9mon has at least 6 extra [W] Energy attached to it (in addition to this attack\u2019s cost), flip 10 coins instead, and this attack does 100 more damage for each heads. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -7130,16 +7178,20 @@
         "Type": "Water",
         "HP": "250",
         "Move-Energy": [
-            "WW"
+            "WW",
+            "WW+"
         ],
         "Moves": [
-            "Ditch and Splash"
+            "Ditch and Splash",
+            "Thrilling Times-GX"
         ],
         "Move-Damage": [
-            "40\u00d7"
+            "40\u00d7",
+            "10+"
         ],
         "Effects": [
-            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way."
+            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way.",
+            "Flip a coin. If heads, this attack does 100 more damage. If this Pok\u00e9mon has at least 6 extra [W] Energy attached to it (in addition to this attack\u2019s cost), flip 10 coins instead, and this attack does 100 more damage for each heads. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -7209,16 +7261,20 @@
         "Type": "Lightning",
         "HP": "260",
         "Move-Energy": [
-            "LLC"
+            "LLC",
+            "LLC+"
         ],
         "Moves": [
-            "Tandem Shock"
+            "Tandem Shock",
+            "Lightning Ride-GX"
         ],
         "Move-Damage": [
-            "80+"
+            "80+",
+            "150+"
         ],
         "Effects": [
-            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed."
+            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed.",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 more damage. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -7245,16 +7301,20 @@
         "Type": "Lightning",
         "HP": "260",
         "Move-Energy": [
-            "LLC"
+            "LLC",
+            "LLC+"
         ],
         "Moves": [
-            "Tandem Shock"
+            "Tandem Shock",
+            "Lightning Ride-GX"
         ],
         "Move-Damage": [
-            "80+"
+            "80+",
+            "150+"
         ],
         "Effects": [
-            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed."
+            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed.",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 more damage. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -7286,10 +7346,18 @@
         "Ability-Effect": [
             "This Pok\u00e9mon can use the attacks of any Pok\u00e9mon-GX or Pok\u00e9mon-EX on your Bench or in your discard pile. (You still need the necessary Energy to use each attack.)"
         ],
-        "Move-Energy": [],
-        "Moves": [],
-        "Move-Damage": [],
-        "Effects": [],
+        "Move-Energy": [
+            "PPC+"
+        ],
+        "Moves": [
+            "Miraculous Duo-GX"
+        ],
+        "Move-Damage": [
+            "200"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), heal all damage from all of your Pok\u00e9mon. (You can\u2019t use more than 1 GX attack in a game.)"
+        ],
         "Weakness": "Psychic",
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
@@ -7402,16 +7470,20 @@
         "Type": "Darkness",
         "HP": "280",
         "Move-Energy": [
-            "DDDDC"
+            "DDDDC",
+            "DDDDC+"
         ],
         "Moves": [
-            "Greedy Crush"
+            "Greedy Crush",
+            "Gigafall-GX"
         ],
         "Move-Damage": [
-            "210"
+            "210",
+            "250"
         ],
         "Effects": [
-            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card."
+            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card.",
+            "If this Pok\u00e9mon has at least 5 extra Energy attached to it (in addition to this attack\u2019s cost), discard the top 15 cards of your opponent\u2019s deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -7438,16 +7510,20 @@
         "Type": "Darkness",
         "HP": "280",
         "Move-Energy": [
-            "DDDDC"
+            "DDDDC",
+            "DDDDC+"
         ],
         "Moves": [
-            "Greedy Crush"
+            "Greedy Crush",
+            "Gigafall-GX"
         ],
         "Move-Damage": [
-            "210"
+            "210",
+            "250"
         ],
         "Effects": [
-            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card."
+            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card.",
+            "If this Pok\u00e9mon has at least 5 extra Energy attached to it (in addition to this attack\u2019s cost), discard the top 15 cards of your opponent\u2019s deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -7520,19 +7596,23 @@
         "HP": "270",
         "Move-Energy": [
             "C",
-            "PFC"
+            "PFC",
+            "PPF+"
         ],
         "Moves": [
             "Linear Attack",
-            "Calamitous Slash"
+            "Calamitous Slash",
+            "GG End-GX"
         ],
         "Move-Damage": [
             "",
-            "160+"
+            "160+",
+            ""
         ],
         "Effects": [
             "This attack does 40 damage to 1 of your opponent\u2019s Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
-            "If your opponent\u2019s Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage."
+            "If your opponent\u2019s Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage.",
+            "Discard 1 of your opponent\u2019s Pok\u00e9mon and all cards attached to it. If this Pok\u00e9mon has at least 3 extra [F] Energy attached to it (in addition to this attack\u2019s cost), discard 2 of your opponent\u2019s Pok\u00e9mon instead. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",
@@ -7736,19 +7816,23 @@
         "HP": "270",
         "Move-Energy": [
             "0",
-            "GGC"
+            "GGC",
+            "GGG+"
         ],
         "Moves": [
             "Super Growth",
-            "Calming Hurricane"
+            "Calming Hurricane",
+            "Tropical Hour-GX"
         ],
         "Move-Damage": [
             "",
-            "150"
+            "150",
+            "200"
         ],
         "Effects": [
             "Search your deck for a card that evolves from 1 of your [G] Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. If that Pok\u00e9mon is now a Stage 1 Pok\u00e9mon, search your deck for a Stage 2 Pok\u00e9mon that evolves from that Pok\u00e9mon and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck.",
-            "Heal 30 damage from this Pok\u00e9mon."
+            "Heal 30 damage from this Pok\u00e9mon.",
+            "If this Pok\u00e9mon has at least 3 extra Energy attached to it (in addition to this attack\u2019s cost), your opponent shuffles all Energy from all of their Pok\u00e9mon into their deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fire",
         "Weakness-Modifier": "\u00d72",
@@ -7818,16 +7902,20 @@
         "Type": "Water",
         "HP": "250",
         "Move-Energy": [
-            "WW"
+            "WW",
+            "WW+"
         ],
         "Moves": [
-            "Ditch and Splash"
+            "Ditch and Splash",
+            "Thrilling Times-GX"
         ],
         "Move-Damage": [
-            "40\u00d7"
+            "40\u00d7",
+            "10+"
         ],
         "Effects": [
-            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way."
+            "Discard any number of Supporter cards from your hand. This attack does 40 damage for each card you discarded in this way.",
+            "Flip a coin. If heads, this attack does 100 more damage. If this Pok\u00e9mon has at least 6 extra [W] Energy attached to it (in addition to this attack\u2019s cost), flip 10 coins instead, and this attack does 100 more damage for each heads. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
@@ -7897,16 +7985,20 @@
         "Type": "Lightning",
         "HP": "260",
         "Move-Energy": [
-            "LLC"
+            "LLC",
+            "LLC+"
         ],
         "Moves": [
-            "Tandem Shock"
+            "Tandem Shock",
+            "Lightning Ride-GX"
         ],
         "Move-Damage": [
-            "80+"
+            "80+",
+            "150+"
         ],
         "Effects": [
-            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed."
+            "If this Pok\u00e9mon was on the Bench and became your Active Pok\u00e9mon this turn, this attack does 80 more damage, and your opponent\u2019s Active Pok\u00e9mon is now Paralyzed.",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra [L] Energy attached to it (in addition to this attack\u2019s cost), this attack does 100 more damage. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -7938,10 +8030,18 @@
         "Ability-Effect": [
             "This Pok\u00e9mon can use the attacks of any Pok\u00e9mon-GX or Pok\u00e9mon-EX on your Bench or in your discard pile. (You still need the necessary Energy to use each attack.)"
         ],
-        "Move-Energy": [],
-        "Moves": [],
-        "Move-Damage": [],
-        "Effects": [],
+        "Move-Energy": [
+            "PPC+"
+        ],
+        "Moves": [
+            "Miraculous Duo-GX"
+        ],
+        "Move-Damage": [
+            "200"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack\u2019s cost), heal all damage from all of your Pok\u00e9mon. (You can\u2019t use more than 1 GX attack in a game.)"
+        ],
         "Weakness": "Psychic",
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
@@ -8054,16 +8154,20 @@
         "Type": "Darkness",
         "HP": "280",
         "Move-Energy": [
-            "DDDDC"
+            "DDDDC",
+            "DDDDC+"
         ],
         "Moves": [
-            "Greedy Crush"
+            "Greedy Crush",
+            "Gigafall-GX"
         ],
         "Move-Damage": [
-            "210"
+            "210",
+            "250"
         ],
         "Effects": [
-            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card."
+            "If your opponent\u2019s Pok\u00e9mon-GX or Pok\u00e9mon-EX is Knocked Out by damage from this attack, take 1 more Prize card.",
+            "If this Pok\u00e9mon has at least 5 extra Energy attached to it (in addition to this attack\u2019s cost), discard the top 15 cards of your opponent\u2019s deck. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
@@ -8136,19 +8240,23 @@
         "HP": "270",
         "Move-Energy": [
             "C",
-            "PFC"
+            "PFC",
+            "PPF+"
         ],
         "Moves": [
             "Linear Attack",
-            "Calamitous Slash"
+            "Calamitous Slash",
+            "GG End-GX"
         ],
         "Move-Damage": [
             "",
-            "160+"
+            "160+",
+            ""
         ],
         "Effects": [
             "This attack does 40 damage to 1 of your opponent\u2019s Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
-            "If your opponent\u2019s Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage."
+            "If your opponent\u2019s Active Pok\u00e9mon already has any damage counters on it, this attack does 80 more damage.",
+            "Discard 1 of your opponent\u2019s Pok\u00e9mon and all cards attached to it. If this Pok\u00e9mon has at least 3 extra [F] Energy attached to it (in addition to this attack\u2019s cost), discard 2 of your opponent\u2019s Pok\u00e9mon instead. (You can\u2019t use more than 1 GX attack in a game.)"
         ],
         "Weakness": "Fairy",
         "Weakness-Modifier": "\u00d72",

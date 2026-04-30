@@ -1373,7 +1373,8 @@ This project is not affiliated with or associated with these entities.''')
 
         self.create_card(card_index, card_layout, False)
         
-        if ('Description' in self.set_list[card_index] and self.set_list[card_index]['Description']) or ('Moves' in self.set_list[card_index] and self.set_list[card_index]['Moves']):
+        if self.set_list[card_index]["Card-Type"] != 'Basic Energy':
+            
             self.seperator(self.cd_layout, 1100)
 
         move_data_layout = QVBoxLayout()
