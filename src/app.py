@@ -707,7 +707,7 @@ This project is not affiliated with or associated with these entities.''')
         self.info_header.addLayout(self.v_layout)
         
 
-        v_label = QLabel(f"Version {self.settings['UserData']['version']}.  Work-in-Progress.")
+        v_label = QLabel(f"Version {self.settings['UserData']['version']}.")
         v_label.setProperty("class", "header2")
         v_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         v_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
