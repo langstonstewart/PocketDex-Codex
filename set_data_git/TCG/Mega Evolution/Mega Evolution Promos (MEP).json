@@ -2015,42 +2015,291 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/MEP-Black-Star-Promos/Tyrunt-V1-MEP070?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-                "ID": "MEP-071",
-                "Image": "https://assets.pokemon.com/static-assets/content-assets/cms2/img/cards/web/MEP/MEP_EN_71.png",
-                "Name": "Mega Zygarde ex",
-                "Rarity": "Promo",
-                "Card-Type": "Pokemon",
-                "Stage": "Basic",
-                "Type": "Fighting",
-                "HP": "310",
-                "Move-Energy": [
-                    "FFF",
-                    "FFFFF"
-                ],
-                "Moves": [
-                    "Gaia Wave",
-                    "Nullifying Zero"
-                ],
-                "Move-Damage": [
-                    "200",
-                    ""
-                ],
-                "Effects": [
-                    "During your opponent\u2019s next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-                    "For each of your opponent\u2019s Pok\u00e9mon, flip a coin. If heads, this attack does 150 damage to that Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
-                ],
-                "Weakness": "Grass",
-                "Weakness-Modifier": "\u00d72",
-                "Resistance": null,
-                "Retreat-Cost": "2",
-                "Card-Categories": [
-                    "ex",
-                    "Mega Evolution ex"
-                ],
-                "Mega-ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent takes 3 Prize cards.",
-                "Flavor-Text": null,
-                "Illustrator": "takuyoa",
-                "tcg_player_link": null,
-                "cardmarket_link": null
-            }
+        "ID": "MEP-071",
+        "Image": "https://assets.pokemon.com/static-assets/content-assets/cms2/img/cards/web/MEP/MEP_EN_71.png",
+        "Name": "Mega Zygarde ex",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "310",
+        "Move-Energy": [
+            "FFF",
+            "FFFFF"
+        ],
+        "Moves": [
+            "Gaia Wave",
+            "Nullifying Zero"
+        ],
+        "Move-Damage": [
+            "200",
+            ""
+        ],
+        "Effects": [
+            "During your opponent\u2019s next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+            "For each of your opponent\u2019s Pok\u00e9mon, flip a coin. If heads, this attack does 150 damage to that Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        ],
+        "Weakness": "Grass",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex",
+            "Mega Evolution ex"
+        ],
+        "Mega-ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "takuyoa",
+        "tcg_player_link": null,
+        "cardmarket_link": null
+    },
+    {
+        "ID": "MEP-074",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_074_std.png",
+        "Name": "Delphox",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "160",
+        "Ability": [
+            "Flaring Magic"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may discard a Basic [R] Energy card from your hand in order to use this Ability. Draw cards until you have 7 cards in your hand."
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Moves": [
+            "Energized Storm"
+        ],
+        "Move-Damage": [
+            "30\u00d7"
+        ],
+        "Effects": [
+            "This attack does 30 damage for each Energy attached to all Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+        "Flavor-Text": "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+        "Illustrator": "Souichirou Gunjima",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694679&partnerpropertyid=5285443&subId1=single&subId2=98094&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Delphox+%28MEP+074%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98094+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "MEP-075",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_075_std.png",
+        "Name": "Ampharos",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "160",
+        "Ability": [
+            "Synchro Pulse"
+        ],
+        "Ability-Effect": [
+            "If you have the same number of cards in your hand as your opponent, attacks used by this Pok\u00e9mon do 80 more damage to your opponent\u2019s Active Pok\u00e9mon (before applying Weakness and Resistance)."
+        ],
+        "Move-Energy": [
+            "LC"
+        ],
+        "Moves": [
+            "Flashing Bolt"
+        ],
+        "Move-Damage": [
+            "140"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can\u2019t use Flashing Bolt."
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+        "Flavor-Text": "The tail\u2019s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+        "Illustrator": "Taiga Kasai",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694681&partnerpropertyid=5285443&subId1=single&subId2=98097&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Ampharos+%28MEP+075%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98097+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "MEP-076",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_076_std.png",
+        "Name": "Crobat",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "130",
+        "Ability": [
+            "Nighttime Maneuvers"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may use this Ability. Search your deck for a card. Shuffle your deck, then put that card on top of it."
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Moves": [
+            "Poison Sound Wave"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Your opponent\u2019s Active Pok\u00e9mon is now Confused and Poisoned."
+        ],
+        "Weakness": "Lightning",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Fighting",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target\u2019s neck.",
+        "Illustrator": "Apios",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694686&partnerpropertyid=5285443&subId1=single&subId2=98100&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Crobat+%28MEP+076%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98100+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "MEP-077",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_077_std.png",
+        "Name": "Goodra",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "160",
+        "Ability": [
+            "Slimy Sliding"
+        ],
+        "Ability-Effect": [
+            "When your opponent\u2019s Active Pok\u00e9mon retreats, your opponent flips a coin. If tails, Energy for its Retreat Cost is not discarded, and they don\u2019t switch Pok\u00e9mon. The effect of Slimy Sliding doesn\u2019t stack."
+        ],
+        "Move-Energy": [
+            "WP"
+        ],
+        "Moves": [
+            "Dragon Pulse"
+        ],
+        "Move-Damage": [
+            "160"
+        ],
+        "Effects": [
+            "Discard the top card of your deck."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Card-Categories": null,
+        "Flavor-Text": "This very friendly dragon Pok\u00e9mon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+        "Illustrator": "okayamatakatoshi",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694688&partnerpropertyid=5285443&subId1=single&subId2=98103&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Goodra+%28MEP+077%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98103+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "MEP-078",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_078_std.png",
+        "Name": "Toxel",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Move-Energy": [
+            "D",
+            "DC"
+        ],
+        "Moves": [
+            "Call for Family",
+            "Playful Kick"
+        ],
+        "Move-Damage": [
+            "",
+            "20"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": "It has no problem drinking dirty water. An organ inside Toxel\u2019s body filters such water into a poisonous liquid that is harmless to Toxel.",
+        "Illustrator": "Mina Nakai",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694692&partnerpropertyid=5285443&subId1=single&subId2=98106&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Toxel+%28MEP+078%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98106+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "MEP-079",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_079_std.png",
+        "Name": "Charmeleon",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "110",
+        "Move-Energy": [
+            "R"
+        ],
+        "Moves": [
+            "Steady Firebreathing"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+        "Flavor-Text": "When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.",
+        "Illustrator": "Teeziro",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694693&partnerpropertyid=5285443&subId1=single&subId2=98109&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Charmeleon+%28MEP+079%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98109+&utm_campaign=affiliate&mode=gallery"
+    },
+    {
+        "ID": "MEP-080",
+        "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_080_std.png",
+        "Name": "Fennekin",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Move-Energy": [
+            "C",
+            "R"
+        ],
+        "Moves": [
+            "Call for Family",
+            "Steady Firebreathing"
+        ],
+        "Move-Damage": [
+            "",
+            "10"
+        ],
+        "Effects": [
+            "Search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck.",
+            ""
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+        "Illustrator": "satoma",
+        "tcg_player_link": "https://partner.tcgplayer.com/c/4950772/1830156/21018?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F694694&partnerpropertyid=5285443&subId1=single&subId2=98112&subId3=shop",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Fennekin+%28MEP+080%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+98112+&utm_campaign=affiliate&mode=gallery"
+    }
 ]
