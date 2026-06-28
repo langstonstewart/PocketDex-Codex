@@ -153,8 +153,8 @@ class Application(QMainWindow):
                     os.makedirs(set_dir, exist_ok=True)
 
                     if not os.listdir(set_dir):
-                        
-                        self.set_manager.create_set(set["Name"], category[0], key, set_dir)
+                        if "Locked" not in set:
+                            self.set_manager.create_set(set["Name"], category[0], key, set_dir)
 
             self.create_favorites_folder(f"{self.local_doc}\\{category[0]}")
 
