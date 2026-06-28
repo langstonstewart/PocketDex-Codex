@@ -588,15 +588,18 @@ class Application(QMainWindow):
 
                         button.setProperty("class", "Main_Button")
                         button.setFont(self.main_font)
-                        
                         button.setProperty("Name", self.set_dict[key][current_set]['Name'])
                         button.setProperty("ID", self.set_dict[key][current_set]['SetID'])
                         button.setProperty("Series", f"{key}")
 
-                        button.enterEvent = partial(self.on_button_enter, button) # type: ignore
-                        button.leaveEvent = partial(self.on_button_leave, button) # type: ignore
-                        
-                        button.clicked.connect(self.clicked_set)
+                        if "Locked" not in self.set_dict[key][current_set]:
+
+                            button.enterEvent = partial(self.on_button_enter, button) # type: ignore
+                            button.leaveEvent = partial(self.on_button_leave, button) # type: ignore
+                            button.clicked.connect(self.clicked_set)
+                        else:
+                            button.setEnabled(False)
+                            pass
 
                         button_layout.addWidget(button)
 
@@ -2383,84 +2386,86 @@ This project is not affiliated with or associated with these entities.''')
         card_layout.addWidget(card_rarity)
 
         if not favorites_menu:
-
-            data_layout = QHBoxLayout()
-            data_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-
-            card_layout.addLayout(data_layout)
-
-            minus_button = QPushButton("")
-            minus_button.setProperty("index", card_index)
-            minus_button.setProperty("id", self.set_list[card_index]["ID"])
-            plus_button = QPushButton("")
-            plus_button.setProperty("index", card_index)
-            plus_button.setProperty("id", self.set_list[card_index]["ID"])
-
-            minus_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            minus_button.setProperty("class", "Main_Button")
-            minus_button.setIcon(QIcon(self.IM.minus_icon[self.mode]))
-            minus_button.setIconSize(QSize(36, 36))
-            minus_button.setMinimumHeight(70)
-            minus_button.setMinimumWidth(70)
-
-            minus_button.enterEvent = partial(self.on_button_enter, minus_button)
-            minus_button.leaveEvent = partial(self.on_button_leave, minus_button) # type: ignore
-
-            minus_button.clicked.connect(partial(self.decrement_quantity, layout, self.set_name))
-
-            self.minus_button_list.append(minus_button)
-
-            quantity_label = QLabel(f"{self.set_list[card_index]["Quantity"]}")
-            quantity_label.setFixedWidth(35)
-            quantity_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            quantity_label.setFont(self.main_font_bold)
-
-            quantity_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            quantity_label.setProperty("class", "header3")
-
-            self.card_quantity_dict[card_index] = quantity_label
-
-            plus_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            plus_button.setProperty("class", "Main_Button")
-            plus_button.setIcon(QIcon(self.IM.plus_icon[self.mode]))
-            plus_button.setIconSize(QSize(36, 36))
-            plus_button.setMinimumHeight(70)
-            plus_button.setMinimumWidth(70)
             
-            plus_button.enterEvent = partial(self.on_button_enter, plus_button)
-            plus_button.leaveEvent = partial(self.on_button_leave, plus_button) # type: ignore
+            if clickable:
+                data_layout = QHBoxLayout()
+                data_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
-            plus_button.clicked.connect(partial(self.increment_quantity, layout, self.set_name))
+                card_layout.addLayout(data_layout)
 
-            self.plus_button_list.append(plus_button)
+                minus_button = QPushButton("")
+                minus_button.setProperty("index", card_index)
+                minus_button.setProperty("id", self.set_list[card_index]["ID"])
+                plus_button = QPushButton("")
+                plus_button.setProperty("index", card_index)
+                plus_button.setProperty("id", self.set_list[card_index]["ID"])
 
-            data_layout.addWidget(minus_button)
-            data_layout.addWidget(quantity_label)
-            data_layout.addWidget(plus_button)
+                minus_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                minus_button.setProperty("class", "Main_Button")
+                minus_button.setIcon(QIcon(self.IM.minus_icon[self.mode]))
+                minus_button.setIconSize(QSize(36, 36))
+                minus_button.setMinimumHeight(70)
+                minus_button.setMinimumWidth(70)
 
-        f_layout = QHBoxLayout()
-        f_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        
-        card_layout.addLayout(f_layout)
+                minus_button.enterEvent = partial(self.on_button_enter, minus_button)
+                minus_button.leaveEvent = partial(self.on_button_leave, minus_button) # type: ignore
 
-        favorite_button = QPushButton("")
-        favorite_button.setProperty("index", card_index)
-        favorite_button.setProperty("id", self.set_list[card_index]["ID"])
-        favorite_button.setProperty("series", self.series)
-        favorite_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        favorite_button.setProperty("class", "Main_Button")
-        favorite_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if not self.set_list[card_index]["Favorite"] else 2]))
-        favorite_button.setIconSize(QSize(24, 24))
-        favorite_button.setFixedWidth(205)
+                minus_button.clicked.connect(partial(self.decrement_quantity, layout, self.set_name))
 
-        favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
-        favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button) # type: ignore
+                self.minus_button_list.append(minus_button)
 
-        favorite_button.clicked.connect(partial(self.favorite_card, layout) if not favorites_menu else partial(self.remove_from_favorites, self.set_name, f_index))
+                quantity_label = QLabel(f"{self.set_list[card_index]["Quantity"]}")
+                quantity_label.setFixedWidth(35)
+                quantity_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                quantity_label.setFont(self.main_font_bold)
 
-        self.fb_list.append(favorite_button)
+                quantity_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                quantity_label.setProperty("class", "header3")
 
-        f_layout.addWidget(favorite_button)
+                self.card_quantity_dict[card_index] = quantity_label
+
+                plus_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                plus_button.setProperty("class", "Main_Button")
+                plus_button.setIcon(QIcon(self.IM.plus_icon[self.mode]))
+                plus_button.setIconSize(QSize(36, 36))
+                plus_button.setMinimumHeight(70)
+                plus_button.setMinimumWidth(70)
+                
+                plus_button.enterEvent = partial(self.on_button_enter, plus_button)
+                plus_button.leaveEvent = partial(self.on_button_leave, plus_button) # type: ignore
+
+                plus_button.clicked.connect(partial(self.increment_quantity, layout, self.set_name))
+
+                self.plus_button_list.append(plus_button)
+
+                data_layout.addWidget(minus_button)
+                data_layout.addWidget(quantity_label)
+                data_layout.addWidget(plus_button)
+
+        if clickable:
+            f_layout = QHBoxLayout()
+            f_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            
+            card_layout.addLayout(f_layout)
+
+            favorite_button = QPushButton("")
+            favorite_button.setProperty("index", card_index)
+            favorite_button.setProperty("id", self.set_list[card_index]["ID"])
+            favorite_button.setProperty("series", self.series)
+            favorite_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+            favorite_button.setProperty("class", "Main_Button")
+            favorite_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if not self.set_list[card_index]["Favorite"] else 2]))
+            favorite_button.setIconSize(QSize(24, 24))
+            favorite_button.setFixedWidth(205)
+
+            favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
+            favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button) # type: ignore
+
+            favorite_button.clicked.connect(partial(self.favorite_card, layout) if not favorites_menu else partial(self.remove_from_favorites, self.set_name, f_index))
+
+            self.fb_list.append(favorite_button)
+
+            f_layout.addWidget(favorite_button)
         
         if type(layout) == QGridLayout:
             layout.addWidget(card_widget, row, col, alignment=Qt.AlignmentFlag.AlignHCenter)
@@ -2506,8 +2511,13 @@ This project is not affiliated with or associated with these entities.''')
                 if all_rows:
                     break
                 for c in range(col_length):
+
+                    if 'skeleton' in self.set_list[current_card]:
+                        card_clickable = False
+                    else:
+                        card_clickable = True
                     
-                    self.create_card(current_card, self.card_grid, True, r, c)
+                    self.create_card(current_card, self.card_grid, card_clickable, r, c)
                     
                     current_card += 1
                     
@@ -2769,8 +2779,13 @@ This project is not affiliated with or associated with these entities.''')
                             self.set_list = json.load(set_file)
 
                         self.series = self.card_series
+
+                        if 'skeleton' in self.favorite_list[current_card]:
+                            card_clickable = False
+                        else:
+                            card_clickable = True
                         
-                        self.create_card(self.favorite_list[current_card]["Index"], self.fav_grid, True, r, c, True, current_card)
+                        self.create_card(self.favorite_list[current_card]["Index"], self.fav_grid, card_clickable, r, c, True, current_card)
                         
                         current_card += 1
                         if current_card == len(self.favorite_list):

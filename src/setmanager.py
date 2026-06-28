@@ -59,6 +59,8 @@ class SetManager:
         curr_set_sum = [card["Image"] for card in curr_set]
         new_set_sum = [card["Image"] for card in new_set] # type: ignore
 
+        print(new_set_sum)
+
         if curr_set_sum != new_set_sum: # type: ignore
             for i in range(len(curr_set)):
                 new_set[i]["Quantity"] = curr_set[i]["Quantity"] # type: ignore
