@@ -493,17 +493,22 @@ class Application(QMainWindow):
         self.main_layout.addLayout(self.category_title_layout) # type: ignore
 
         self.init_back_button(self.category_title_layout, "Top")
-        
-        
+
+        self.create_favorite_cards_button()
+
+        self.create_inverse_button()
+
+
+        self.category_tst_layout = QVBoxLayout()
+
+        self.main_layout.addLayout(self.category_tst_layout) # type: ignore
         
         self.cat_con_layout = QHBoxLayout()
         self.cat_con_layout.setSpacing(50)
         self.cat_con_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        self.cat_con_layout.setContentsMargins(0, 0, 80, 0)
         
-        self.category_title_layout.addStretch(1)
-        self.category_title_layout.addLayout(self.cat_con_layout) # type: ignore
-        self.category_title_layout.addStretch(1)
+        self.category_tst_layout.addLayout(self.cat_con_layout) # type: ignore
+        
         
 
         img_layout = QVBoxLayout()
@@ -622,9 +627,7 @@ class Application(QMainWindow):
 
         self.init_back_button(self.main_layout, "Set_Page")
 
-        self.create_favorite_cards_button()
-
-        self.create_inverse_button()
+        
 
         self.stacked_layout.setCurrentWidget(self.main_widget)
 
@@ -643,7 +646,7 @@ class Application(QMainWindow):
         
         self.inverse_button.clicked.connect(self.switch_set_inverse)
 
-        self.bb_layout.addWidget(self.inverse_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
+        self.bb_layout.addWidget(self.inverse_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
         self.bb_layout.addStretch()
 
@@ -2679,7 +2682,7 @@ This project is not affiliated with or associated with these entities.''')
         
         self.f_button.clicked.connect(self.display_favorites)
 
-        self.bb_layout.addWidget(self.f_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
+        self.bb_layout.addWidget(self.f_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
 
     def init_rarities(self):
