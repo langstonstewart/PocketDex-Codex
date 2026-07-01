@@ -1450,5 +1450,925 @@
         "Ex-Rule": null,
         "Flavor-Text": "The rich, fluffy fur that covers its body feels so good that anyone who feels it can\u2019t stop touching it.",
         "Illustrator": "Mizue"
+    },
+    {
+        "ID": "P-B-049",
+        "Name": "Victini",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_049_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": [
+            "Victory Star"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, after you flip any coins for an attack of 1 of your [R] Pok\u00e9mon, you may ignore all results of those coin flips and begin flipping those coins again. You can't use more than 1 Victory Star Ability each turn."
+        ],
+        "Moves": [
+            "V-Flame"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "When it shares the infinite energy it creates, that being\u2019s entire body will be overflowing with power.",
+        "Illustrator": "Orca"
+    },
+    {
+        "ID": "P-B-050",
+        "Name": "Meloetta",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_050_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": [
+            "Strange Singing"
+        ],
+        "Ability-Effect": [
+            "At the beginning of your turn, if this Pok\u00e9mon is in the Active Spot, put a random [P] Pok\u00e9mon from your deck into your hand."
+        ],
+        "Moves": [
+            "Psyshot"
+        ],
+        "Move-Energy": [
+            "PP"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+        "Illustrator": "Mizue"
+    },
+    {
+        "ID": "P-B-051",
+        "Name": "Zygarde",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_051_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Born when around 10% of Zygarde\u2019s cells have been gathered from all over, this form is skilled in close-range combat.",
+        "Illustrator": "Akira Komayama"
+    },
+    {
+        "ID": "P-B-052",
+        "Name": "Zygarde",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_052_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cell Storm"
+        ],
+        "Move-Energy": [
+            "FFC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Some say it can change to an even more powerful form when battling those who threaten the ecosystem.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "P-B-053",
+        "Name": "Zygarde ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_053_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Land Laser"
+        ],
+        "Move-Energy": [
+            "FFF"
+        ],
+        "Move-Damage": [
+            "100x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 100 damage for each heads."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "4",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-054",
+        "Name": "Eevee",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_054_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": [
+            "Boosted Evolution"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+        ],
+        "Moves": [
+            "Stampede"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
+        "Illustrator": "Lee HyunJung"
+    },
+    {
+        "ID": "P-B-055",
+        "Name": "Zygarde ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_055_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Land Laser"
+        ],
+        "Move-Energy": [
+            "FFF"
+        ],
+        "Move-Damage": [
+            "100x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 100 damage for each heads."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "4",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-056",
+        "Name": "Mega Heracross ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_056_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dynamic Horn"
+        ],
+        "Move-Energy": [
+            "GGGC"
+        ],
+        "Move-Damage": [
+            "170"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this Pok\u00e9mon also does 60 damage to itself."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": null,
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "P-B-057",
+        "Name": "Castform Sunny Form",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_057_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sunny Scorching"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "If a Stadium is in play, your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Castform changes to this form when it basks in bright sunlight. When you touch its glowing skin, it feels all dried out!",
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "P-B-058",
+        "Name": "Tepig",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_058_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Firebreathing"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, this attack does 30 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon is a ravenous glutton. It uses its excellent sense of smell to find food, then cooks it to a crisp before eating.",
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "P-B-059",
+        "Name": "Dwebble",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_059_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": [
+            "Shell Armor"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon takes \u221210 damage from attacks."
+        ],
+        "Moves": [
+            "Stampede"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
+        "Illustrator": "Akira Komayama"
+    },
+    {
+        "ID": "P-B-060",
+        "Name": "Zarude",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_060_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dark Vengeance"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "If any of your [D] Pok\u00e9mon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 80 more damage."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Once the vines on Zarude\u2019s body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "P-B-061",
+        "Name": "Treecko",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_061_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Treecko can quickly scale even vertical surfaces. It senses humidity with its tail to predict the next day\u2019s weather.",
+        "Illustrator": "Sekio"
+    },
+    {
+        "ID": "P-B-062",
+        "Name": "Gallade",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_062_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Earthen Sword"
+        ],
+        "Move-Energy": [
+            "FCC"
+        ],
+        "Move-Damage": [
+            "70+"
+        ],
+        "Effects": [
+            "If a Stadium is in play, this attack does 70 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "P-B-063",
+        "Name": "Meowscarada ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_063_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flower Trick",
+            "Solar Beam"
+        ],
+        "Move-Energy": [
+            "G",
+            "GG"
+        ],
+        "Move-Damage": [
+            null,
+            "80"
+        ],
+        "Effects": [
+            "Choose a spot from among your opponent's Active Spot and Bench. At the end of your opponent's next turn, do 70 damage to the Pok\u00e9mon in the spot you chose.",
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "P-B-064",
+        "Name": "Charcadet",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_064_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Protect"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
+        "Illustrator": "takuyoa"
+    },
+    {
+        "ID": "P-B-065",
+        "Name": "Vaporeon",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_065_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Impound"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Its cell composition is similar to water molecules. As a result, it can\u2019t be seen when it melts away into water.",
+        "Illustrator": "kodama"
+    },
+    {
+        "ID": "P-B-066",
+        "Name": "Ceruledge ex",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_066_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shimmering Slash"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Discard a random Energy from among the Energy attached to all Pok\u00e9mon (both yours and your opponent's)."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Yamashita"
+    },
+    {
+        "ID": "P-B-067",
+        "Name": "Pawniard",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_067_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Call for Family"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put 1 random Basic Pok\u00e9mon from your deck onto your Bench."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Any chips in its blades would prove fatal for it. After each battle, it diligently maintains its blades using its favorite sharpening stone.",
+        "Illustrator": "Tomokazu Komiya"
+    },
+    {
+        "ID": "P-B-068",
+        "Name": "Dudunsparce",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_068_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Sudden Drilling"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon evolved from Dunsparce during this turn, discard 2 random Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "3",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast.",
+        "Illustrator": "Mina Nakai"
+    },
+    {
+        "ID": "P-B-069",
+        "Name": "Floragato",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_069_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leaf Step"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "The hardness of Floragato\u2019s fur depends on the Pok\u00e9mon\u2019s mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",
+        "Illustrator": "nagimiso"
+    },
+    {
+        "ID": "P-B-070",
+        "Name": "Sableye",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_070_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Jeweled Gift"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Take a random Energy from among [G], [R], [W], [L], [P], [F], [D], and [M] Energy from your Energy Zone and attach it to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Materials from gems it has eaten float to the surface of its body and can form an infinite number of patterns among individuals.",
+        "Illustrator": "Nagomi Nijo"
+    },
+    {
+        "ID": "P-B-071",
+        "Name": "Psyduck",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_071_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Confusion Wave"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Both Active Pok\u00e9mon are now Confused."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode.",
+        "Illustrator": "Natsumi Yoshida"
+    },
+    {
+        "ID": "P-B-072",
+        "Name": "Feebas",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_072_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hide"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It is the shabbiest Pok\u00e9mon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
+        "Illustrator": "Tetsu Kayama"
+    },
+    {
+        "ID": "P-B-073",
+        "Name": "Froslass",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_073_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Soul Shot"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "Discard a card from your hand. If you can't, this attack does nothing."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It freezes prey by blowing its \u221258 degree Fahrenheit breath. It is said to then secretly display its prey.",
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "P-B-074",
+        "Name": "Raichu",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_074_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mach Bolt"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+        "Illustrator": "Midori Harada"
+    },
+    {
+        "ID": "P-B-075",
+        "Name": "Quagsire",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_075_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energy Press"
+        ],
+        "Move-Energy": [
+            "FCC"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each Energy attached to your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Due to its relaxed and carefree attitude, it often bumps its head on riverbed boulders and boat hulls as it swims.",
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "P-B-076",
+        "Name": "Hisuian Zorua",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_076_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Run Around"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+        "Illustrator": "Teeziro"
+    },
+    {
+        "ID": "P-B-077",
+        "Name": "Growlithe",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_077_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Puppy Pile"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "20x"
+        ],
+        "Effects": [
+            "Reveal all of your Pok\u00e9mon in play and in your hand that have the Puppy Pile attack, and this attack does 20 damage for each Pok\u00e9mon you revealed in this way."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "3",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+        "Illustrator": "sowsow"
+    },
+    {
+        "ID": "P-B-078",
+        "Name": "Emolga",
+        "Rarity": "N/A",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_078_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Windup Thunder"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "30x"
+        ],
+        "Effects": [
+            "This attack does 30 damage for each Pok\u00e9mon Tool attached to all of your Pok\u00e9mon."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can\u2019t fly properly.",
+        "Illustrator": "Akira Komayama"
     }
 ]
