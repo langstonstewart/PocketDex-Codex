@@ -155,6 +155,35 @@
             border-top: 1px solid #333333;
         }
 
+        .ticker-wrapper {
+            width: 100%;
+            overflow: hidden;
+            margin: 30px 0;
+            padding: 15px 0;
+            background: #1a1a1a;
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+        }
+
+        .ticker {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 15s linear infinite;
+            font-size: 1.2em;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #ffffff;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 30px 20px;
@@ -212,6 +241,10 @@
             </div>
 
             <a href="https://github.com/langstonstewart/PocketDex-Codex/releases" target="_blank" class="cta-button">View Latest Release....</a>
+        </div>
+
+        <div class="ticker-wrapper">
+            <div class="ticker">OVER 170 SETS AND COUNTING ● OVER 170 SETS AND COUNTING ● OVER 170 SETS AND COUNTING ●</div>
         </div>
 
         <div class="footer">
