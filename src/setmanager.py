@@ -34,6 +34,16 @@ class SetManager:
             print(f"An error occurred: {e}")
         
         return json.loads(res.text)
+    
+    def dex_data_init(self, dir):
+
+        dex_data_git = self.create_parser(f"https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/set_data_git/dex_data.json")
+
+        for key in dex_data_git.keys():
+            dex_data_git[key]["Registered"] = False
+
+        with open(f"{dir}\\dex_data.json", "w+") as dex_file:
+            json.dump(dex_data_git, dex_file, indent=4)
 
     def create_set(self, set_name: str, category, series, dir, copy=False):
         

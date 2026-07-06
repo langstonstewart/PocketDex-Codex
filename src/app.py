@@ -124,7 +124,7 @@ class Application(QMainWindow):
     def init_app_data(self):
         with open(resource_path(f"src\\app_data\\app_settings.json"), "r+") as settings_file:
             return json.load(settings_file)
-
+        
     def init_set_dir(self):
         self.project_dir = resource_path(f"src\\app_data")
         self.local_doc = os.path.join(os.path.expanduser("~"), "Documents", "PocketDex Codex")
@@ -134,6 +134,9 @@ class Application(QMainWindow):
         self.category_list = [("TCG", "set_list_tcg.json"), ("TCG Pocket", "set_list_pocket.json")]
 
         category_dirs = []
+
+        if 'dex_data.json' not in os.listdir(self.local_doc):
+            self.set_manager.dex_data_init(self.local_doc)
 
         for category in self.category_list:
             
@@ -2643,10 +2646,6 @@ This project is not affiliated with or associated with these entities.''')
 
     def toggle_theme_button(self):
 
-        self.settings_layout = QHBoxLayout()
-        self.settings_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-
-        self.header_layout.addLayout(self.settings_layout)
         
 
         self.theme_button = QPushButton("Toggle Theme..")
@@ -3088,6 +3087,30 @@ This project is not affiliated with or associated with these entities.''')
 
         self.settings_layout.addWidget(self.e_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
 
+    def create_dex_button(self):
+
+        self.settings_layout = QHBoxLayout()
+        self.settings_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+        self.header_layout.addLayout(self.settings_layout)
+
+        self.dex_button = QPushButton("")
+        self.ui_button_list.append((self.dex_button, self.IM.dex_icon, None, None))
+        self.dex_button.setFont(self.main_font)
+        self.dex_button.setProperty("class", "Setting_Button")
+        self.dex_button.setText("View Pokédex..")
+        
+
+        self.dex_button.setIcon(QIcon(self.IM.dex_icon[self.mode]))
+        self.dex_button.setIconSize(QSize(36, 36))
+
+        self.dex_button.enterEvent = partial(self.on_button_enter, self.dex_button)
+        self.dex_button.leaveEvent = partial(self.on_button_leave, self.dex_button) # type: ignore
+        
+        # self.dex_button.clicked.connect()
+
+        self.settings_layout.addWidget(self.dex_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
+
     
 
     def run(self):
@@ -3101,6 +3124,8 @@ This project is not affiliated with or associated with these entities.''')
         self.title()
         
         self.display_categories()
+
+        self.create_dex_button()
 
         self.toggle_theme_button()
 

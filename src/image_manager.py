@@ -46,6 +46,8 @@ class ImageManager:
         self.ex_icon = self.img("src/images/name_icons/ex_icon.png")
         self.tcgplayer_icon = (QPixmap(self.img("src/images/links/tcgplayer_icon_dark.png")), QPixmap(self.img("src/images/links/tcgplayer_icon_light.png")))
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
+
+        self.dex_icon = (QPixmap(self.img("src/images/ui/pokedex_dark.png")), QPixmap(self.img("src/images/ui/pokedex_light.png")))
         
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")
         self.gx_tag_team_icon = self.img("src/images/name_icons/gx_tag_team_icon.png")
