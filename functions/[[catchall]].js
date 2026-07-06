@@ -17,7 +17,7 @@ export async function onRequest(context) {
   
   const headers = new Headers();
   object.writeHttpMetadata(headers);
-  headers.set('Cache-Control', 'public, max-age=31536000, immutable'); // Cache for 1 month
+  headers.set('Cache-Control', 'public, max-age=31536000, immutable'); // Cache for 1 year
 
   return new Response(object.body, { headers });
 }
