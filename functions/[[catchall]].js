@@ -10,7 +10,7 @@ export async function onRequest(context) {
   const object = await context.env.POKEMON_BUCKET.get(key);
   
   if (object === null) {
-    return new Response("File Not Found in Bucket", { status: 404 });
+    return new Response("The file listed could not be found. Please try to access a different file. (Format: {dex_number}_{name}.png)", { status: 404 });
   }
 
   
