@@ -39,8 +39,8 @@ class SetManager:
 
         dex_data_git = self.create_parser(f"https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/set_data_git/dex_data.json")
 
-        for key in dex_data_git.keys():
-            dex_data_git[key]["Registered"] = False
+        for key in dex_data_git["Pokedex"].keys():
+            dex_data_git["Pokedex"][key]["Registered"] = False
 
         with open(f"{dir}\\dex_data.json", "w+") as dex_file:
             json.dump(dex_data_git, dex_file, indent=4)
