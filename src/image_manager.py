@@ -1,5 +1,5 @@
 import os
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QObject
 from PyQt6.QtWidgets import QLabel
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import QUrl, QSize, pyqtSignal
@@ -42,7 +42,7 @@ class ImageManager:
         self.f_tag = (QPixmap(self.img("src/images/tags/favorites_black.png")), QPixmap(self.img("src/images/tags/favorites_black.png")))
         self.paint_icon = (QPixmap(self.img("src/images/card_data/paint_black.png")), QPixmap(self.img("src/images/card_data/paint_white.png")))
         self.exit_icon = (QPixmap(self.img("src/images/ui/exit_black.png")), QPixmap(self.img("src/images/ui/exit_white.png")))
-        self.pokeball_icon = (QPixmap(self.img("src/images/rarities/TCG/none_black.png")), QPixmap(self.img("src/images/rarities/TCG/none_white.png")))
+        self.pokeball_icon = (QPixmap(self.img("src/images/rarities/TCG/no_rarity_black.png")), QPixmap(self.img("src/images/rarities/TCG/no_rarity_white.png")))
         self.ex_icon = self.img("src/images/name_icons/ex_icon.png")
         self.tcgplayer_icon = (QPixmap(self.img("src/images/links/tcgplayer_icon_dark.png")), QPixmap(self.img("src/images/links/tcgplayer_icon_light.png")))
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
@@ -150,6 +150,16 @@ class ImageManager:
                                 'Tool-Rule',
                                 'Tool-F-Rule',
                                 'Stadium-Rule']
+        
+        self.region_dict = {'Kanto': (0, 151),
+                            'Johto': (151, 251),
+                            'Hoenn': (251, 386),
+                            'Sinnoh': (386, 493),
+                            'Unova': (493, 649),
+                            'Kalos': (649, 721),
+                            'Alola': (721, 809),
+                            'Galar': (809, 906),
+                            'Paldea': (905, 1025)}
 
         self.tag_dict  = {
             "-EX": self.img("src/images/name_icons/ex_legacy.png"),
@@ -229,6 +239,28 @@ class ImageManager:
             "Metal": self.img("src/images/card_data/energy/energy_metal.png"),
             "Dragon": self.img("src/images/card_data/energy/energy_dragon.png"),
             "Fairy": self.img("src/images/card_data/energy/energy_fairy.png"),
+        }
+
+        self.dex_type_dict = {
+            "Bug": self.img("src/images/dex_type_icons/bug_icon_sv.png"),
+            "Dark": self.img("src/images/dex_type_icons/dark_icon_sv.png"),
+            "Dragon": self.img("src/images/dex_type_icons/dragon_icon_sv.png"),
+            "Electric": self.img("src/images/dex_type_icons/electric_icon_sv.png"),
+            "Fairy": self.img("src/images/dex_type_icons/fairy_icon_sv.png"),
+            "Fighting": self.img("src/images/dex_type_icons/fighting_icon_sv.png"),
+            "Fire": self.img("src/images/dex_type_icons/fire_icon_sv.png"),
+            "Flying": self.img("src/images/dex_type_icons/flying_icon_sv.png"),
+            "Ghost": self.img("src/images/dex_type_icons/ghost_icon_sv.png"),
+            "Grass": self.img("src/images/dex_type_icons/grass_icon_sv.png"),
+            "Ground": self.img("src/images/dex_type_icons/ground_icon_sv.png"),
+            "Ice": self.img("src/images/dex_type_icons/ice_icon_sv.png"),
+            "Normal": self.img("src/images/dex_type_icons/normal_icon_sv.png"),
+            "Poison": self.img("src/images/dex_type_icons/poison_icon_sv.png"),
+            "Psychic": self.img("src/images/dex_type_icons/psychic_icon_sv.png"),
+            "Rock": self.img("src/images/dex_type_icons/rock_icon_sv.png"),
+            "Steel": self.img("src/images/dex_type_icons/steel_icon_sv.png"),
+            "Water": self.img("src/images/dex_type_icons/water_icon_sv.png")
+
         }
 
 
@@ -403,5 +435,130 @@ class ImageLabel(QLabel):
             Qt.TransformationMode.SmoothTransformation
         )
         self.setPixmap(scaled)
+
+
+
+class DexImage(QObject):
     
     
+    image_fetched = pyqtSignal(str, QPixmap) 
+    
+    def __init__(self, image_link: str, cache_dict: dict, network_manager: QNetworkAccessManager | None = None):
+    
+        super().__init__()
+        self.image_link = image_link
+        self.cache_dict = cache_dict
+        self._network_manager = network_manager
+        self._reply: QNetworkReply | None = None
+        
+        
+  
+        if self.image_link not in self.cache_dict:
+            self._start_fetch()
+    
+    def get_pixmap(self) -> QPixmap | None:
+      
+        if self.image_link in self.cache_dict:
+            return self.cache_dict[self.image_link]
+        return None
+    
+    def _start_fetch(self):
+       
+        if self._is_remote_url():
+            self._fetch_remote_async()
+        else:
+            self._fetch_local_async()
+    
+    def _is_remote_url(self) -> bool:
+   
+        return isinstance(self.image_link, str) and QUrl(self.image_link).scheme() in {"http", "https"}
+    
+    def _fetch_remote_async(self):
+
+        if self._network_manager is None:
+            self._network_manager = QNetworkAccessManager(self)
+        
+        try:
+            request = QNetworkRequest(QUrl(self.image_link))
+            self._reply = self._network_manager.get(request)
+            
+            if self._reply is None:
+                print(f"Failed to create network request for {self.image_link}")
+                return
+            
+            self._reply.finished.connect(self._on_remote_fetch_finished)  # type: ignore
+            self._reply.errorOccurred.connect(self._on_fetch_error)  # type: ignore
+        except Exception as e:
+            print(f"Error starting remote fetch: {e}")
+    
+    def _fetch_local_async(self):
+    
+        try:
+            if os.path.exists(self.image_link):
+                pixmap = QPixmap(self.image_link)
+                if not pixmap.isNull():
+                    scaled = self._scale_pixmap(pixmap)
+                    self.cache_dict[self.image_link] = scaled
+                    self.image_fetched.emit(self.image_link, scaled)
+                else:
+                    print(f"Failed to load local image: {self.image_link}")
+            else:
+                print(f"Local image file not found: {self.image_link}")
+        except Exception as e:
+            print(f"Error loading local image: {e}")
+    
+    def _on_remote_fetch_finished(self):
+
+        reply = self._reply
+        if reply is None or sip.isdeleted(reply):
+            self._reply = None
+            return
+        
+        try:
+            if reply.error() == QNetworkReply.NetworkError.NoError:
+                pixmap = QPixmap()
+                pixmap.loadFromData(reply.readAll())  # type: ignore
+                
+                if not pixmap.isNull():
+                    scaled = self._scale_pixmap(pixmap)
+                    self.cache_dict[self.image_link] = scaled
+                    self.image_fetched.emit(self.image_link, scaled)
+                else:
+                    print(f"Failed to load pixmap from {self.image_link}")
+            else:
+                error_msg = reply.errorString() if hasattr(reply, 'errorString') else str(reply.error())  # type: ignore
+                print(f"Network error fetching {self.image_link}: {error_msg}")
+        except Exception as e:
+            print(f"Error processing fetched image: {e}")
+        finally:
+            if reply and not sip.isdeleted(reply):
+                reply.deleteLater()  # type: ignore
+            self._reply = None
+    
+    def _on_fetch_error(self):
+        
+        reply = self._reply
+        if reply is None or sip.isdeleted(reply):
+            self._reply = None
+            return
+        
+        try:
+            error_msg = reply.errorString() if hasattr(reply, 'errorString') else str(reply.error())  # type: ignore
+            print(f"Network error fetching {self.image_link}: {error_msg}")
+        except Exception as e:
+            print(f"Error handling fetch error: {e}")
+        finally:
+            if reply and not sip.isdeleted(reply):
+                reply.deleteLater()  # type: ignore
+            self._reply = None
+    
+    def _scale_pixmap(self, pixmap: QPixmap) -> QPixmap:
+       
+        new_size = QSize(pixmap.width() // 2, pixmap.height() // 2)
+        scaled = pixmap.scaled(
+            new_size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+        )
+        return scaled
+

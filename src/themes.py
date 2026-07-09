@@ -13,6 +13,10 @@ class Themes:
                 font-size: 40px; margin: 3px; color: #1E1E1E;
             }
 
+            QLabel[class="dex_header_title"] {
+                font-size: 60px; margin: 3px; color: #1E1E1E;
+            }
+
             QLabel[class="header2"] {
                 font-size: 24px; margin: 3px; color: #1E1E1E;
             }
@@ -61,7 +65,7 @@ class Themes:
 
             QLabel[class="header4"] {
                 font-size: 20px;
-                color: #ebebeb; 
+                color: #1E1E1E; 
                 margin: 3px; 
                 background-color: #ebebeb; 
                 border: 3px solid #1E1E1E; 
@@ -70,6 +74,8 @@ class Themes:
                 padding-left: 25px; 
                 padding-right: 25px;
             }
+
+            
 
             QLabel[class="Set_Tag"] {
                 font-size: 35px;
@@ -116,6 +122,24 @@ class Themes:
                 background-color: #f5f5f5
             }
             QToolButton[class="Main_Button"]:pressed {
+                background-color: #ebebeb
+            }
+
+            QToolButton[class="Dex_Button"] {
+                font-size: 20px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border: 3px #ebebeb; 
+                border-radius: 15px; 
+                padding: 5px;
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            QToolButton[class="Dex_Button"]:hover {
+                background-color: #f5f5f5
+            }
+            QToolButton[class="Dex_Button"]:pressed {
                 background-color: #ebebeb
             }
 
@@ -173,6 +197,25 @@ class Themes:
                 background-color: #bcbcbc;
                 border: none;
             }
+
+            QLineEdit {
+                background-color: #ffffff;
+                color: #1f2937;
+                border: 2px solid #575757;
+                border-radius: 6px;
+                padding: 6px 12px;
+                font-size: 18px;
+                selection-background-color: #a5b4fc;
+            }
+
+            QLineEdit:focus {
+                border: 2px solid #575757;
+                background-color: #f9fafb;
+            }
+           
+            QLineEdit[text=""] {
+                color: #9ca3af;
+            }
             
         """
 
@@ -188,6 +231,10 @@ class Themes:
 
             QLabel[class="header_title"] {
                 font-size: 40px; margin: 3px; color: white;
+            }
+
+            QLabel[class="dex_header_title"] {
+                font-size: 60px; margin: 3px; color: white;
             }
 
             QLabel[class="header2"] {
@@ -248,6 +295,54 @@ class Themes:
                 padding-right: 25px;
             }
 
+            QLabel[class="type_header"] {
+                font-size: 20px;
+                color: white; 
+                margin: 3px; 
+                background-color: #575757; 
+                border-radius: 20px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            QLabel[class="type_header"][poke_type="bug"] { background-color: #92a212; }
+
+            QLabel[class="type_header"][poke_type="dark"] { background-color: #4f3f3d; }
+
+            QLabel[class="type_header"][poke_type="dragon"] { background-color: #4f60e2; }
+
+            QLabel[class="type_header"][poke_type="electric"] { background-color: #fac100; }
+            
+            QLabel[class="type_header"][poke_type="fairy"] { background-color: #ef70ef; }
+
+            QLabel[class="type_header"][poke_type="fighting"] { background-color: #ff8100; }
+
+            QLabel[class="type_header"][poke_type="fire"] { background-color: #e72324; }
+
+            QLabel[class="type_header"][poke_type="flying"] { background-color: #82baef; }
+
+            QLabel[class="type_header"][poke_type="ghost"] { background-color: #703f70; }
+
+            QLabel[class="type_header"][poke_type="grass"] { background-color: #3da224; }
+
+            QLabel[class="type_header"][poke_type="ground"] { background-color: #92501b; }
+
+            QLabel[class="type_header"][poke_type="ice"] { background-color: #3dd9ff; }
+
+            QLabel[class="type_header"][poke_type="normal"] { background-color: #a0a2a0; }
+
+            QLabel[class="type_header"][poke_type="poison"] { background-color: #923fcc; }
+
+            QLabel[class="type_header"][poke_type="psychic"] { background-color: #ef3f7a; }
+
+            QLabel[class="type_header"][poke_type="rock"] { background-color: #b0aa82; }
+
+            QLabel[class="type_header"][poke_type="steel"] { background-color: #60a2b9; }
+
+            QLabel[class="type_header"][poke_type="water"] { background-color: #2481ef; }
+
+    
             QLabel[class="Set_Tag"] {
                 font-size: 35px;
                 color: white; 
@@ -344,4 +439,24 @@ class Themes:
                 background-color: #363636;
                 border: none;
             }
+
+            QLineEdit {
+                background-color: #2c2c2c;
+                color: #575757;
+                border: 2px solid #2c2c2c;
+                border-radius: 6px;
+                padding: 6px 12px;
+                font-size: 18px;
+                selection-background-color: #a5b4fc;
+            }
+
+            QLineEdit:focus {
+                border: 2px solid #474747;
+                background-color: #474747;
+            }
+           
+            QLineEdit[text=""] {
+                color: #b0b0b0;
+            }
+
                     """
