@@ -21,6 +21,10 @@ class Themes:
                 font-size: 24px; margin: 3px; color: #1E1E1E;
             }
 
+            QLabel[class="dex_num_header"] {
+                font-size: 24px; margin: 3px; color: #9ca3af;
+            }
+
             QLabel[class="header3"] {
                 font-size: 30px; margin: 3px; color: #1E1E1E;
             }
@@ -74,6 +78,53 @@ class Themes:
                 padding-left: 25px; 
                 padding-right: 25px;
             }
+
+            QLabel[class="type_header"] {
+                font-size: 20px;
+                color: white; 
+                margin: 3px; 
+                background-color: #575757; 
+                border-radius: 20px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            QLabel[class="type_header"][poke_type="bug"] { background-color: #92a212; }
+
+            QLabel[class="type_header"][poke_type="dark"] { background-color: #4f3f3d; }
+
+            QLabel[class="type_header"][poke_type="dragon"] { background-color: #4f60e2; }
+
+            QLabel[class="type_header"][poke_type="electric"] { background-color: #fac100; }
+            
+            QLabel[class="type_header"][poke_type="fairy"] { background-color: #ef70ef; }
+
+            QLabel[class="type_header"][poke_type="fighting"] { background-color: #ff8100; }
+
+            QLabel[class="type_header"][poke_type="fire"] { background-color: #e72324; }
+
+            QLabel[class="type_header"][poke_type="flying"] { background-color: #82baef; }
+
+            QLabel[class="type_header"][poke_type="ghost"] { background-color: #703f70; }
+
+            QLabel[class="type_header"][poke_type="grass"] { background-color: #3da224; }
+
+            QLabel[class="type_header"][poke_type="ground"] { background-color: #92501b; }
+
+            QLabel[class="type_header"][poke_type="ice"] { background-color: #3dd9ff; }
+
+            QLabel[class="type_header"][poke_type="normal"] { background-color: #a0a2a0; }
+
+            QLabel[class="type_header"][poke_type="poison"] { background-color: #923fcc; }
+
+            QLabel[class="type_header"][poke_type="psychic"] { background-color: #ef3f7a; }
+
+            QLabel[class="type_header"][poke_type="rock"] { background-color: #b0aa82; }
+
+            QLabel[class="type_header"][poke_type="steel"] { background-color: #60a2b9; }
+
+            QLabel[class="type_header"][poke_type="water"] { background-color: #2481ef; }
 
             
 
@@ -239,6 +290,10 @@ class Themes:
 
             QLabel[class="header2"] {
                 font-size: 24px; margin: 3px; color: white;
+            }
+
+            QLabel[class="dex_num_header"] {
+                font-size: 24px; margin: 3px; color: #3d3d3d;
             }
             
             QLabel[class="header3"] {

@@ -51,6 +51,7 @@ from PyQt6.QtGui import (
     QTextDocument)
 
 from PyQt6.QtNetwork import QNetworkAccessManager
+from PyQt6 import sip
 
 
 class Application(QMainWindow):
@@ -63,6 +64,7 @@ class Application(QMainWindow):
         self.app_init = False
         
         self.card_img_dict = {}
+        self._dex_image_loaders = []  # keeps DexImage/QNetworkReply objects alive until each fetch completes
 
         self.widget_list = []
 
@@ -128,6 +130,8 @@ class Application(QMainWindow):
         self.cd_layout = None
 
         self.card_grid = None
+
+        self.main_dex_layout = None
 
         self.fav_widget = QWidget()
             
@@ -3248,7 +3252,7 @@ This project is not affiliated with or associated with these entities.''')
         self.header_filler_layout.addLayout(self.dex_title_layout)
 
 
-        dex_title = QLabel(f"Pokédex")
+        dex_title = QLabel(f"Pokédex - {self.selected_region}")
         dex_title.setAlignment(Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignLeft)
         dex_title.setProperty("class", "dex_header_title")
         dex_title.setFont(self.main_font)
@@ -3334,12 +3338,34 @@ This project is not affiliated with or associated with these entities.''')
                .replace(":", "")
                .lower())
 
+    def _on_dex_image_fetched(self, button: QToolButton, image_link: str, pixmap: QPixmap):
+       
+        if sip.isdeleted(button):
+            return
+        button.setIcon(QIcon(pixmap))
+
     def create_poke_button(self, layout: QGridLayout, poke_name, r, c):
+
+        self.dex_num = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Number"]
+
         button_layout = QVBoxLayout()
         button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         button_layout.setContentsMargins(15, 15, 15, 50)
 
         layout.addLayout(button_layout, r, c)
+
+        title_layout = QHBoxLayout()
+        title_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+
+        button_layout.addLayout(title_layout)
+
+        num_title = QLabel(self.dex_num.replace("#0", "#"))
+        num_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        num_title.setProperty("class", "dex_num_header")
+        num_title.setFont(self.main_font)
+        num_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+        title_layout.addWidget(num_title)
 
         poke_title = QLabel(poke_name)
         poke_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -3347,20 +3373,35 @@ This project is not affiliated with or associated with these entities.''')
         poke_title.setFont(self.main_font)
         poke_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
         
-        button_layout.addWidget(poke_title)
+        title_layout.addWidget(poke_title)
 
-        dex_num = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Number"].replace("#", "") # type: str
+        f_dex_num = self.dex_num.replace("#", "") # type: str
 
-        cleaned_name = self.scrub_name(poke_name)
+        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Name"])
 
         button = QToolButton()
+
+        img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+
+        dex_img = image_manager.DexImage(img_url, self.card_img_dict)
+
+        self._dex_image_loaders.append(dex_img)
+
+        cached_pixmap = dex_img.get_pixmap()
+        if cached_pixmap is not None:
+            button.setIcon(QIcon(cached_pixmap))
+        else:
+            dex_img.image_fetched.connect(
+                partial(self._on_dex_image_fetched, button)
+            )
+
+        button.setIconSize(QSize(192, 192))
+
+        button.setMinimumHeight(256)
+        button.setMinimumWidth(256)
         
-    
-        button.setIcon(QIcon(self.IM.loading_icon[self.mode]))
-        button.setIconSize(QSize(256, 256))
-        
-        button.setMaximumHeight(125)
         button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
         button.setProperty("class", "Main_Button")
         button.setFont(self.main_font)
 
@@ -3368,11 +3409,6 @@ This project is not affiliated with or associated with these entities.''')
         button.leaveEvent = partial(self.on_button_leave, button) # type: ignore
 
         button_layout.addWidget(button)
-
-   
-        image_url = f"https://pocketdex-codex.pages.dev/artwork/{dex_num}_{cleaned_name}.png"
-        dex_img = image_manager.DexImage(image_url, self.dex_img_cache)
-        dex_img.image_fetched.connect(partial(self._update_poke_button_icon, button))
 
         typing_layout = QHBoxLayout()
         typing_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -3383,11 +3419,6 @@ This project is not affiliated with or associated with these entities.''')
 
         for poke_type in type_data:
             self.create_type_banner(poke_type, typing_layout)
-
-    def _update_poke_button_icon(self, button: QToolButton, image_link: str, pixmap: QPixmap):
-        """Update button icon when async image fetch completes."""
-        if pixmap and not pixmap.isNull():
-            button.setIcon(QIcon(pixmap))
 
 
     def create_type_banner(self, poke_type, layout: QHBoxLayout):
@@ -3403,12 +3434,6 @@ This project is not affiliated with or associated with these entities.''')
         type_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
         
         layout.addWidget(type_title)
-
-        
-
-        
-        
-
 
 
     def display_dex_page(self):
@@ -3446,4 +3471,3 @@ This project is not affiliated with or associated with these entities.''')
         self.init_card_data_page()
 
         self.app.exec()
-        

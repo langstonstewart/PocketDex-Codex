@@ -158,7 +158,7 @@ class ImageManager:
                             'Unova': (493, 649),
                             'Kalos': (649, 721),
                             'Alola': (721, 809),
-                            'Galar': (809, 906),
+                            'Galar': (809, 905),
                             'Paldea': (905, 1025)}
 
         self.tag_dict  = {
@@ -439,126 +439,181 @@ class ImageLabel(QLabel):
 
 
 class DexImage(QObject):
-    
-    
-    image_fetched = pyqtSignal(str, QPixmap) 
-    
-    def __init__(self, image_link: str, cache_dict: dict, network_manager: QNetworkAccessManager | None = None):
-    
+
+    image_fetched = pyqtSignal(str, QPixmap)
+
+    _shared_network_manager = None
+
+    def __init__(
+        self,
+        image_link: str,
+        cache_dict: dict,
+        network_manager: QNetworkAccessManager | None = None
+    ):
+
         super().__init__()
+
         self.image_link = image_link
         self.cache_dict = cache_dict
-        self._network_manager = network_manager
+
+        if network_manager is not None:
+            self._network_manager = network_manager
+        else:
+            if DexImage._shared_network_manager is None:
+                DexImage._shared_network_manager = QNetworkAccessManager()
+
+            self._network_manager = DexImage._shared_network_manager
+
         self._reply: QNetworkReply | None = None
-        
-        
-  
+
         if self.image_link not in self.cache_dict:
             self._start_fetch()
-    
+
     def get_pixmap(self) -> QPixmap | None:
-      
+
         if self.image_link in self.cache_dict:
             return self.cache_dict[self.image_link]
+
         return None
-    
+
     def _start_fetch(self):
-       
+
         if self._is_remote_url():
             self._fetch_remote_async()
         else:
             self._fetch_local_async()
-    
+
     def _is_remote_url(self) -> bool:
-   
-        return isinstance(self.image_link, str) and QUrl(self.image_link).scheme() in {"http", "https"}
-    
+
+        return (
+            isinstance(self.image_link, str)
+            and QUrl(self.image_link).scheme() in {"http", "https"}
+        )
+
     def _fetch_remote_async(self):
 
-        if self._network_manager is None:
-            self._network_manager = QNetworkAccessManager(self)
-        
         try:
             request = QNetworkRequest(QUrl(self.image_link))
+
+            request.setRawHeader(
+                b"User-Agent",
+                b"Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                b"AppleWebKit/537.36 (KHTML, like Gecko) "
+                b"Chrome/120.0 Safari/537.36"
+            )
+
+            request.setRawHeader(
+                b"Accept",
+                b"image/avif,image/webp,image/apng,image/*,*/*;q=0.8"
+            )
+
+            request.setRawHeader(
+                b"Referer",
+                b"https://pokemondb.net/"
+            )
+
             self._reply = self._network_manager.get(request)
-            
+
             if self._reply is None:
                 print(f"Failed to create network request for {self.image_link}")
                 return
-            
+
             self._reply.finished.connect(self._on_remote_fetch_finished)  # type: ignore
             self._reply.errorOccurred.connect(self._on_fetch_error)  # type: ignore
+
         except Exception as e:
             print(f"Error starting remote fetch: {e}")
-    
+
     def _fetch_local_async(self):
-    
+
         try:
             if os.path.exists(self.image_link):
                 pixmap = QPixmap(self.image_link)
+
                 if not pixmap.isNull():
                     scaled = self._scale_pixmap(pixmap)
                     self.cache_dict[self.image_link] = scaled
                     self.image_fetched.emit(self.image_link, scaled)
+
                 else:
                     print(f"Failed to load local image: {self.image_link}")
+
             else:
                 print(f"Local image file not found: {self.image_link}")
+
         except Exception as e:
             print(f"Error loading local image: {e}")
-    
+
     def _on_remote_fetch_finished(self):
 
         reply = self._reply
+
         if reply is None or sip.isdeleted(reply):
             self._reply = None
             return
-        
+
         try:
             if reply.error() == QNetworkReply.NetworkError.NoError:
+
                 pixmap = QPixmap()
                 pixmap.loadFromData(reply.readAll())  # type: ignore
-                
+
                 if not pixmap.isNull():
                     scaled = self._scale_pixmap(pixmap)
                     self.cache_dict[self.image_link] = scaled
                     self.image_fetched.emit(self.image_link, scaled)
+
                 else:
                     print(f"Failed to load pixmap from {self.image_link}")
+
             else:
-                error_msg = reply.errorString() if hasattr(reply, 'errorString') else str(reply.error())  # type: ignore
-                print(f"Network error fetching {self.image_link}: {error_msg}")
+                print(
+                    f"Network error fetching {self.image_link}: "
+                    f"{reply.errorString()}"
+                )
+
         except Exception as e:
             print(f"Error processing fetched image: {e}")
+
         finally:
             if reply and not sip.isdeleted(reply):
                 reply.deleteLater()  # type: ignore
+
             self._reply = None
-    
+
     def _on_fetch_error(self):
-        
+
         reply = self._reply
+
         if reply is None or sip.isdeleted(reply):
             self._reply = None
             return
-        
+
         try:
-            error_msg = reply.errorString() if hasattr(reply, 'errorString') else str(reply.error())  # type: ignore
-            print(f"Network error fetching {self.image_link}: {error_msg}")
+            print(
+                f"Network error fetching {self.image_link}: "
+                f"{reply.errorString()}"
+            )
+
         except Exception as e:
             print(f"Error handling fetch error: {e}")
+
         finally:
             if reply and not sip.isdeleted(reply):
                 reply.deleteLater()  # type: ignore
+
             self._reply = None
-    
+
     def _scale_pixmap(self, pixmap: QPixmap) -> QPixmap:
-       
-        new_size = QSize(pixmap.width() // 2, pixmap.height() // 2)
-        scaled = pixmap.scaled(
+        """Scale pixmap down by half."""
+
+        new_size = QSize(
+            pixmap.width() // 2,
+            pixmap.height() // 2
+        )
+
+        return pixmap.scaled(
             new_size,
             Qt.AspectRatioMode.KeepAspectRatio,
             Qt.TransformationMode.SmoothTransformation
         )
-        return scaled
-
