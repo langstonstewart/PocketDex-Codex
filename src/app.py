@@ -85,6 +85,8 @@ class Application(QMainWindow):
 
         self.set_inverse = self.settings['UserData']['set_inverse']
 
+        self.dex_inverse = self.settings['UserData']['dex_inverse']
+
         self.bb_dict = {}
 
         self.rarity_dict = {}
@@ -124,6 +126,8 @@ class Application(QMainWindow):
         self.category_title_layout = None
 
         self.set_header = None
+
+        self.search_query = None
 
         self.set_main_layout = None
         
@@ -707,13 +711,17 @@ class Application(QMainWindow):
 
         self.stacked_layout.setCurrentWidget(self.main_widget)
 
+    def save_settings(self):
+        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
+                json.dump(self.settings, config_file, indent=4)
+
 
     def create_inverse_button(self, key=""):
 
         if key != "dex":
             self.inverse_button = QPushButton(f"Sort by Newest.." if self.set_inverse else "Sort by Oldest..")
         else:
-            self.inverse_button = QPushButton(f"Sort by Number.." if self.set_inverse else "Sort by Name..")
+            self.inverse_button = QPushButton(f"Sort by Dex Number.." if self.dex_inverse else "Sort by Name..")
 
         self.ui_button_list.append((self.inverse_button, self.IM.sort_icon, None, None))
         self.inverse_button.setFont(self.main_font)
@@ -727,6 +735,8 @@ class Application(QMainWindow):
         
         if key != "dex":
             self.inverse_button.clicked.connect(self.switch_set_inverse)
+        else:
+            self.inverse_button.clicked.connect(self.switch_dex_inverse)
 
         self.bb_layout.addWidget(self.inverse_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
@@ -741,12 +751,27 @@ class Application(QMainWindow):
             self.set_inverse = 1
             self.settings['UserData']['set_inverse'] = 1
             
-        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
-                json.dump(self.settings, config_file, indent=4)
+        self.save_settings()
 
         self.go_back(self.main_layout)
 
         self.display_sets(self.category_file_name)
+
+    def switch_dex_inverse(self):
+        if self.dex_inverse == 1:
+            self.dex_inverse = 0
+            self.settings['UserData']['dex_inverse'] = 0
+            
+        elif self.dex_inverse == 0:
+            self.dex_inverse = 1
+            self.settings['UserData']['dex_inverse'] = 1
+            
+        self.save_settings()
+
+        self.go_back(self.main_dex_layout)
+
+        self.display_dex_page()
+
 
     def create_info_page(self):
         self.info_widget = QWidget()
@@ -1240,9 +1265,7 @@ This project is not affiliated with or associated with these entities.''')
             self.col_count = 4
             self.settings["UserData"]["col_count"] = 4
         
-        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
-                json.dump(self.settings, config_file, indent=4)
-
+        self.save_settings()
         
         if layout != self.fav_main_layout:
             self.clicked_set(True) # HERE
@@ -2763,24 +2786,6 @@ This project is not affiliated with or associated with these entities.''')
 
         self.bb_layout.addWidget(self.f_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
-    def create_region_button(self, region, layout):
-        self.r_button = QPushButton("")
-        self.ui_button_list.append((self.r_button, self.IM.pokeball_icon, None, None))
-        self.r_button.setFont(self.main_font)
-        self.r_button.setProperty("class", "Setting_Button")
-        self.r_button.setText(region)
-        
-        self.r_button.setIcon(QIcon(self.IM.pokeball_icon[self.mode]))
-        self.r_button.setIconSize(QSize(36, 36))
-
-        self.r_button.enterEvent = partial(self.on_button_enter, self.r_button)
-        self.r_button.leaveEvent = partial(self.on_button_leave, self.r_button) # type: ignore
-
-        layout.addWidget(self.r_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
-
-    
-
-
     def init_rarities(self):
         scale_int = 1 if self.category_dir == "TCG Pocket" else 3
 
@@ -2991,8 +2996,7 @@ This project is not affiliated with or associated with these entities.''')
 
             self.switch_scrollbar()
 
-        with open(resource_path(f"src/app_data/app_settings.json"), "w+") as config_file:
-                json.dump(self.settings, config_file, indent=4)
+        self.settings()
 
         self.reload_images()
 
@@ -3290,8 +3294,40 @@ This project is not affiliated with or associated with these entities.''')
 
         self.stacked_layout.addWidget(self.main_dex_widget)
 
-        self.seperator(self.main_dex_layout, 0)
 
+    def create_region_button(self, region, layout: QHBoxLayout):
+
+        self.r_button = QPushButton("")
+        self.ui_button_list.append((self.r_button, self.IM.pokeball_icon, None, None))
+        self.r_button.setFont(self.main_font)
+        self.r_button.setProperty("class", "Setting_Button")
+        self.r_button.setText(region)
+        
+        self.r_button.setIcon(QIcon(self.IM.pokeball_icon[self.mode]))
+        self.r_button.setIconSize(QSize(36, 36))
+
+        self.r_button.enterEvent = partial(self.on_button_enter, self.r_button)
+        self.r_button.leaveEvent = partial(self.on_button_leave, self.r_button) # type: ignore
+        self.r_button.clicked.connect(partial(self.refresh_dex, region))
+
+        layout.addWidget(self.r_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+
+    
+    def refresh_dex(self, region, search=False):
+        self.selected_region = region
+
+        if search:
+            self.search_query = self.dex_search_bar.text()
+        else:
+            self.search_query = None
+
+        self.settings['UserData']['selected_region'] = self.selected_region
+
+        self.save_settings()
+
+        self.go_back(self.main_dex_layout)
+        
+        self.display_dex_page()
 
 
     def create_search_bar(self, layout: QHBoxLayout):
@@ -3299,6 +3335,8 @@ This project is not affiliated with or associated with these entities.''')
         self.dex_search_bar = QLineEdit()
         self.dex_search_bar.setPlaceholderText("Search for a Pokémon...")
         self.dex_search_bar.setClearButtonEnabled(True)
+        
+        self.dex_search_bar.returnPressed.connect(partial(self.refresh_dex, self.selected_region, True))
 
         layout.addWidget(self.dex_search_bar)
 
@@ -3308,8 +3346,16 @@ This project is not affiliated with or associated with these entities.''')
         row_length = ceil(len(self.dex_name_list) / col_length)
         current_poke_index = 0
         all_rows = False
+        
+        self.filtered_list = self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]] if not self.dex_inverse else sorted(self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]])
 
-        self.filtered_list = self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]]
+        if self.search_query:
+            self.search_results = [name for name in self.filtered_list if self.search_query.lower() in name.lower()]
+            if self.search_results:
+                self.filtered_list = self.search_results
+                self.dex_search_bar.setPlaceholderText("Search for a Pokémon...")
+            else:
+                self.dex_search_bar.setPlaceholderText("There were no results for your search.")
 
         while True:
             if all_rows:
@@ -3336,6 +3382,7 @@ This project is not affiliated with or associated with these entities.''')
                .replace(".", "")
                .replace("é", "e")
                .replace(":", "")
+               .replace("%", "_percent")
                .lower())
 
     def _on_dex_image_fetched(self, button: QToolButton, image_link: str, pixmap: QPixmap):
@@ -3344,7 +3391,7 @@ This project is not affiliated with or associated with these entities.''')
             return
         button.setIcon(QIcon(pixmap))
 
-    def create_poke_button(self, layout: QGridLayout, poke_name, r, c):
+    def create_poke_button(self, layout: QGridLayout, poke_name, r, c, form=1):
 
         self.dex_num = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Number"]
 
@@ -3376,18 +3423,42 @@ This project is not affiliated with or associated with these entities.''')
         title_layout.addWidget(poke_title)
 
         f_dex_num = self.dex_num.replace("#", "") # type: str
+        
+        form_list = [key for key in self.dex_data["Pokedex"][poke_name].keys() if "Form_" in key]
 
-        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Name"])
+        for form_i in form_list:
+        
+            cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][form_i]["Dex_Name"])
+
+            button = QToolButton()
+
+            img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+
+            dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
+
+            self._dex_image_loaders.append(dex_img)
+
+            cached_pixmap = dex_img.get_pixmap()
+            
+            if cached_pixmap is not None:
+                pass
+            else:
+                dex_img.image_fetched.connect(
+                    partial(self._on_dex_image_fetched, button)
+                )
+
+        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][f"Form_{form}"]["Dex_Name"])
 
         button = QToolButton()
 
         img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
 
-        dex_img = image_manager.DexImage(img_url, self.card_img_dict)
+        dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
 
         self._dex_image_loaders.append(dex_img)
 
         cached_pixmap = dex_img.get_pixmap()
+        
         if cached_pixmap is not None:
             button.setIcon(QIcon(cached_pixmap))
         else:
