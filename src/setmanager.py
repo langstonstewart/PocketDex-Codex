@@ -42,6 +42,8 @@ class SetManager:
         for key in dex_data_git["Pokedex"].keys():
             dex_data_git["Pokedex"][key]["Registered"] = False
 
+        dex_data_git["Favorites"] = []
+
         with open(f"{dir}\\dex_data.json", "w+", encoding="UTF-8") as dex_file:
             json.dump(dex_data_git, dex_file, indent=4)
 

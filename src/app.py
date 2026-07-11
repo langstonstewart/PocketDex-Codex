@@ -98,8 +98,6 @@ class Application(QMainWindow):
         self.dex_img_cache = {}
         
         self.selected_region = self.settings['UserData']['selected_region']
-
-        self.dex_col_count = self.settings['UserData']['dex_col_count']
                              
         self.scroll_area = QScrollArea()
         self.scroll_area.setWidgetResizable(True)
@@ -184,10 +182,9 @@ class Application(QMainWindow):
             return json.load(dex_file)
         
         
-        
 
     def save_dex_data(self):
-        with open(resource_path(f"{self.local_doc}\\dex_data.json"), "r+") as dex_file:
+        with open(resource_path(f"{self.local_doc}\\dex_data.json"), "w+") as dex_file:
             json.dump(self.dex_data, dex_file, indent=4)
         
     def init_set_dir(self):
@@ -512,7 +509,7 @@ class Application(QMainWindow):
             cat_button.setIcon(QIcon(cat_list[i]))
             cat_button.setIconSize(QSize(500, 250))
 
-            cat_button.clicked.connect(partial(self.display_sets, self.category_list[i][1])) # change 0 to i later
+            cat_button.clicked.connect(partial(self.display_sets, self.category_list[i][1])) 
 
             self.cat_layout.addWidget(cat_button)
         
@@ -740,7 +737,8 @@ class Application(QMainWindow):
 
         self.bb_layout.addWidget(self.inverse_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
-        self.bb_layout.addStretch()
+        if key != "dex":
+            self.bb_layout.addStretch()
 
     def switch_set_inverse(self):
         if self.set_inverse == 1:
@@ -1266,9 +1264,12 @@ This project is not affiliated with or associated with these entities.''')
             self.settings["UserData"]["col_count"] = 4
         
         self.save_settings()
+        if layout == self.main_dex_layout:
+            self.refresh_dex(self.selected_region)
+
+        elif layout != self.fav_main_layout:
+            self.clicked_set(True)
         
-        if layout != self.fav_main_layout:
-            self.clicked_set(True) # HERE
         else:
             self.clear_layout(self.fav_main_layout) # type: ignore
             self.display_favorites()
@@ -2783,6 +2784,8 @@ This project is not affiliated with or associated with these entities.''')
         
         if key != "dex":
             self.f_button.clicked.connect(self.display_favorites)
+        else:
+            self.f_button.clicked.connect(partial(self.refresh_dex, self.selected_region, False, True))
 
         self.bb_layout.addWidget(self.f_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
@@ -2996,7 +2999,7 @@ This project is not affiliated with or associated with these entities.''')
 
             self.switch_scrollbar()
 
-        self.settings()
+        self.save_settings()
 
         self.reload_images()
 
@@ -3217,7 +3220,7 @@ This project is not affiliated with or associated with these entities.''')
 
         self.settings_layout.addWidget(self.dex_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
 
-    def dex_page_init(self):
+    def dex_page_init(self, favorites=False):
 
         self.main_dex_widget = QWidget()
         
@@ -3230,6 +3233,8 @@ This project is not affiliated with or associated with these entities.''')
         self.create_favorite_cards_button("dex")
 
         self.create_inverse_button("dex")
+
+        self.change_col_button(self.main_dex_layout)
 
         self.dex_header_layout = QHBoxLayout()
 
@@ -3287,7 +3292,7 @@ This project is not affiliated with or associated with these entities.''')
         
         self.main_dex_layout.addLayout(self.dex_grid_layout)
 
-        self.display_dex_entries(self.selected_region, self.dex_grid_layout)
+        self.display_dex_entries(self.selected_region, self.dex_grid_layout, favorites)
 
         self.dex_header_layout.addStretch(1)
         self.main_dex_layout.addStretch(1)
@@ -3313,7 +3318,7 @@ This project is not affiliated with or associated with these entities.''')
         layout.addWidget(self.r_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
 
     
-    def refresh_dex(self, region, search=False):
+    def refresh_dex(self, region, search=False, favorites=False):
         self.selected_region = region
 
         if search:
@@ -3327,7 +3332,7 @@ This project is not affiliated with or associated with these entities.''')
 
         self.go_back(self.main_dex_layout)
         
-        self.display_dex_page()
+        self.display_dex_page(favorites)
 
 
     def create_search_bar(self, layout: QHBoxLayout):
@@ -3340,14 +3345,27 @@ This project is not affiliated with or associated with these entities.''')
 
         layout.addWidget(self.dex_search_bar)
 
-    def display_dex_entries(self, region, layout: QGridLayout):
+    def display_dex_entries(self, region, layout: QGridLayout, favorites=False):
+
+        self.dex_favorite_list = self.dex_data["Favorites"]
+
+        self.dex_fb_dict = {}
         
-        col_length = self.dex_col_count
+        col_length = self.col_count
         row_length = ceil(len(self.dex_name_list) / col_length)
         current_poke_index = 0
         all_rows = False
+
         
-        self.filtered_list = self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]] if not self.dex_inverse else sorted(self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]])
+        if favorites:
+            if self.dex_favorite_list:
+                self.filtered_list = self.dex_data["Favorites"]
+            else:
+                self.f_button.setText("Your Favorites collection is empty!")
+                self.filtered_list = self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]] if not self.dex_inverse else sorted(self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]])
+        else:
+            self.filtered_list = self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]] if not self.dex_inverse else sorted(self.dex_name_list[self.IM.region_dict[region][0]:self.IM.region_dict[region][1]])
+    
 
         if self.search_query:
             self.search_results = [name for name in self.filtered_list if self.search_query.lower() in name.lower()]
@@ -3491,6 +3509,48 @@ This project is not affiliated with or associated with these entities.''')
         for poke_type in type_data:
             self.create_type_banner(poke_type, typing_layout)
 
+        
+        fav_button_layout = QHBoxLayout()
+        button_layout.addLayout(fav_button_layout)
+
+        favorite_button = QPushButton("")
+      
+        favorite_button.setProperty("name", poke_name)
+      
+        favorite_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        favorite_button.setProperty("class", "Main_Button")
+        favorite_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2]))
+        favorite_button.setIconSize(QSize(24, 24))
+
+        favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
+        favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button) # type: ignore
+
+        favorite_button.clicked.connect(partial(self.favorite_poke, poke_name))
+
+        fav_button_layout.addWidget(favorite_button)
+
+        self.dex_fb_dict[poke_name] = favorite_button
+        
+    def favorite_poke(self, poke_name):
+        refresh_page = False
+
+        if poke_name not in self.dex_favorite_list:
+            self.dex_favorite_list.append(poke_name)
+        else:
+            self.dex_favorite_list.remove(poke_name)
+            refresh_page = True
+
+        self.dex_fb_dict[poke_name].setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2])) 
+
+        self.dex_data["Favorites"] = self.dex_favorite_list
+
+        self.save_dex_data()
+
+        if refresh_page:
+            self.refresh_dex(self.selected_region, False, True)
+
+        
+
 
     def create_type_banner(self, poke_type, layout: QHBoxLayout):
 
@@ -3507,9 +3567,9 @@ This project is not affiliated with or associated with these entities.''')
         layout.addWidget(type_title)
 
 
-    def display_dex_page(self):
+    def display_dex_page(self, favorites=False):
 
-        self.dex_page_init()
+        self.dex_page_init(favorites)
 
         self.main_dex_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
 
