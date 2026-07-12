@@ -51,6 +51,8 @@ class ImageManager:
         self.weight_icon = (self.img("src/images/dex_type_icons/weight_icon_dark.png"), self.img("src/images/dex_type_icons/weight_icon_light.png"))
         self.entry_icon = (self.img("src/images/dex_type_icons/entry_icon_dark.png"), self.img("src/images/dex_type_icons/entry_icon_light.png"))
 
+        self.sound_icon = (self.img("src/images/ui/sound_icon_dark.png"), self.img("src/images/ui/sound_icon_light.png"))
+
         self.arrow_up_icon = (QPixmap(self.img("src/images/ui/arrow_up_dark.png")), QPixmap(self.img("src/images/ui/arrow_up_light.png")))
 
         self.arrow_down_icon = (QPixmap(self.img("src/images/ui/arrow_down_dark.png")), QPixmap(self.img("src/images/ui/arrow_down_light.png")))

@@ -5,7 +5,8 @@ from math import ceil
 from src import (
     setmanager, 
     themes, 
-    image_manager
+    image_manager,
+    media_manager
     )
 
 from src.resource_path import resource_path
@@ -51,16 +52,24 @@ from PyQt6.QtGui import (
     QKeySequence, 
     QShortcut, 
     QTextDocument,
-    QPainter)
+    QPainter
+    )
 
 from PyQt6.QtNetwork import QNetworkAccessManager
+
 from PyQt6 import sip
+
+from PyQt6.QtMultimedia import (
+    QMediaPlayer, 
+    QAudioOutput
+    )
 
 
 class Application(QMainWindow):
     def __init__(self) -> None:
         self.app = QApplication([])
         super().__init__()
+        os.environ['QT_MULTIMEDIA_PREFERRED_PLUGINS'] = 'windowsmediafoundation'
 
         self.img_cache_dict = {}
 
@@ -127,6 +136,8 @@ class Application(QMainWindow):
 
         self.search_query = None   
 
+        self.pend_reset = None
+
         self.fav_widget = QWidget()
             
         self.fav_main_layout = QVBoxLayout()
@@ -173,8 +184,7 @@ class Application(QMainWindow):
         with open(resource_path(f"{self.local_doc}\\dex_data.json"), "r+") as dex_file:
             return json.load(dex_file)
         
-        
-
+    
     def save_dex_data(self):
         with open(resource_path(f"{self.local_doc}\\dex_data.json"), "w+") as dex_file:
             json.dump(self.dex_data, dex_file, indent=4)
@@ -3069,6 +3079,14 @@ This project is not affiliated with or associated with these entities.''')
             self.stacked_layout.setCurrentWidget(self.main_dex_widget)
 
             self.clear_layout(self.dex_data_layout) # type: ignore
+            
+
+            if self.pend_reset:
+        
+                self.refresh_dex(self.selected_region, False, False)
+
+                self.pend_reset = False
+                
 
         
         elif (hasattr(self, 'set_main_layout') and layout == self.set_main_layout) or self.set_header:
@@ -3418,7 +3436,7 @@ This project is not affiliated with or associated with these entities.''')
                     break
                 for c in range(col_length):
 
-                    self.create_poke_button(layout, self.filtered_list[current_poke_index], r, c)
+                    self.create_poke_button(layout, self.filtered_list[current_poke_index], r, c, favorites)
 
                     current_poke_index += 1
                     if current_poke_index == len(self.filtered_list):
@@ -3504,7 +3522,7 @@ This project is not affiliated with or associated with these entities.''')
             Qt.TransformationMode.SmoothTransformation
         )
 
-    def create_poke_button(self, layout: QGridLayout, poke_name, r, c, form=1):
+    def create_poke_button(self, layout: QGridLayout, poke_name, r, c, favorites, form=1):
 
         self.dex_num = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Number"]
 
@@ -3594,7 +3612,7 @@ This project is not affiliated with or associated with these entities.''')
 
         button.enterEvent = partial(self.on_button_enter, button)  # type: ignore
         button.leaveEvent = partial(self.on_button_leave, button)  # type: ignore
-        button.clicked.connect(partial(self.init_dex_data_page, poke_name))
+        button.clicked.connect(partial(self.init_dex_data_page, poke_name, "Form_1"))
 
         button_layout.addWidget(button)
 
@@ -3623,29 +3641,45 @@ This project is not affiliated with or associated with these entities.''')
         favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
         favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button)  # type: ignore
 
-        favorite_button.clicked.connect(partial(self.favorite_poke, poke_name))
+        favorite_button.clicked.connect(partial(self.favorite_poke, poke_name, favorites))
 
         fav_button_layout.addWidget(favorite_button)
 
         self.dex_fb_dict[poke_name] = favorite_button
 
-    def favorite_poke(self, poke_name):
+    def favorite_poke(self, poke_name, favorites):
         refresh_page = False
+        self.pend_reset = False
 
         if poke_name not in self.dex_favorite_list:
             self.dex_favorite_list.append(poke_name)
+
+            if poke_name in self.dex_fb_dict.keys():
+                self.dex_fb_dict[poke_name].setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2])) 
+                self.pend_reset = False
         else:
             self.dex_favorite_list.remove(poke_name)
-            refresh_page = True
 
-        self.dex_fb_dict[poke_name].setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2])) 
+            if poke_name in self.dex_fb_dict.keys():
+                self.dex_fb_dict[poke_name].setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2])) 
+                self.pend_reset = True
+
+            if favorites:
+                refresh_page = True
+
+        
+        sending_button = self.sender()
+        sending_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2]))  # type: ignore
+    
 
         self.dex_data["Favorites"] = self.dex_favorite_list
 
         self.save_dex_data()
 
+        
         if refresh_page:
-            self.refresh_dex(self.selected_region, False, True)
+            self.refresh_dex(self.selected_region, False, favorites)
+        
 
     def create_bullet(self, layout):
 
@@ -3745,7 +3779,21 @@ This project is not affiliated with or associated with these entities.''')
 
         self.stacked_layout.setCurrentWidget(self.main_dex_widget)
 
-    def init_dex_data_page(self, poke_name):
+    def init_dex_data_page(self, poke_name, form):
+
+        
+
+        if hasattr(self, 'u_button_shortcut'):
+            self.u_button_shortcut.setEnabled(False) # type: ignore
+            self.u_button_shortcut.deleteLater() # type: ignore
+            del self.u_button_shortcut
+
+
+        if hasattr(self, 'd_button_shortcut'):
+            self.d_button_shortcut.setEnabled(False) # type: ignore
+            self.d_button_shortcut.deleteLater() # type: ignore
+            del self.d_button_shortcut
+
         self.dex_data_widget = QWidget()
         
         self.dex_data_layout = QVBoxLayout()
@@ -3787,7 +3835,7 @@ This project is not affiliated with or associated with these entities.''')
         self.data_layout = QHBoxLayout()
         self.nd_layout.addLayout(self.data_layout)
 
-        dex_num = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Number"] # type: str
+        dex_num = self.dex_data["Pokedex"][poke_name][form]["Dex_Number"] # type: str
 
         f_dex_num = dex_num.replace("#", "")
 
@@ -3801,14 +3849,14 @@ This project is not affiliated with or associated with these entities.''')
 
         self.create_bullet(self.data_layout)
 
-        type_data = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Type"].split("/")  # type: list
+        type_data = self.dex_data["Pokedex"][poke_name][form]["Dex_Type"].split("/")  # type: list
 
         for poke_type in type_data:
             self.create_type_banner(poke_type, self.data_layout)
 
         self.create_bullet(self.data_layout)
 
-        raw_g_data = self.dex_data["Pokedex"][poke_name]["Form_1"]["Gender"]
+        raw_g_data = self.dex_data["Pokedex"][poke_name][form]["Gender"]
 
         cleaned_g_data = raw_g_data if raw_g_data == "Genderless" else raw_g_data.split("-")
 
@@ -3828,9 +3876,9 @@ This project is not affiliated with or associated with these entities.''')
 
         h_w_data = {}
 
-        h_w_data["Height"] = self.dex_data["Pokedex"][poke_name]["Form_1"]["Height"]
+        h_w_data["Height"] = self.dex_data["Pokedex"][poke_name][form]["Height"]
 
-        h_w_data["Weight"] = self.dex_data["Pokedex"][poke_name]["Form_1"]["Weight"]
+        h_w_data["Weight"] = self.dex_data["Pokedex"][poke_name][form]["Weight"]
 
         self.create_height_weight_banners(h_w_data, self.data_layout)
 
@@ -3856,6 +3904,26 @@ This project is not affiliated with or associated with these entities.''')
         
         self.basic_txt_layout.addWidget(basic_txt)
 
+        self.forms_layout = QHBoxLayout()
+        self.basic_txt_layout.addLayout(self.forms_layout)
+
+        form_list = [form for form in self.dex_data["Pokedex"][poke_name].keys() if "Form_" in form]
+
+        if len(form_list) > 1:
+            for form_i in form_list:
+                form_button = QPushButton(self.dex_data["Pokedex"][poke_name][form_i]["Dex_Name"])
+                form_button.setFont(self.main_font)
+                form_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                form_button.setProperty("class", "Main_Button")
+
+                form_button.enterEvent = partial(self.on_button_enter, form_button)
+                form_button.leaveEvent = partial(self.on_button_leave, form_button)  # type: ignore
+
+                form_button.clicked.connect(partial(self.refresh_dex_data_page, poke_name, form_i))
+
+                self.forms_layout.addWidget(form_button)
+    
+
         main_poke_bg = QToolButton()
 
         main_poke_bg.setMinimumHeight(512)
@@ -3871,7 +3939,7 @@ This project is not affiliated with or associated with these entities.''')
 
         self.basic_txt_layout.addWidget(main_poke_bg)
 
-        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][f"Form_1"]["Dex_Name"])
+        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][form]["Dex_Name"])
 
         img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
 
@@ -3917,9 +3985,10 @@ This project is not affiliated with or associated with these entities.''')
         up_button.enterEvent = partial(self.on_button_enter, up_button)
         up_button.leaveEvent = partial(self.on_button_leave, up_button)  # type: ignore
 
-        
-
         up_button.clicked.connect(partial(self.change_flavor_text, "+"))
+
+        self.u_button_shortcut = QShortcut(QKeySequence("Up"), self)
+        self.u_button_shortcut.activated.connect(up_button.click)
 
         self.entry_counter_layout.addWidget(up_button)
 
@@ -3934,6 +4003,9 @@ This project is not affiliated with or associated with these entities.''')
 
         down_button.clicked.connect(partial(self.change_flavor_text, "-"))
 
+        self.d_button_shortcut = QShortcut(QKeySequence("Down"), self)
+        self.d_button_shortcut.activated.connect(down_button.click)
+
         self.entry_counter_layout.addWidget(down_button)
 
         
@@ -3946,13 +4018,50 @@ This project is not affiliated with or associated with these entities.''')
         
         self.fl_layout.addWidget(self.flavor_txt)
 
-    
+        self.extra_op_layout = QHBoxLayout()
+
+        self.fl_layout.addLayout(self.extra_op_layout)
+
+        favorite_button = QPushButton("")
+
+        favorite_button.setProperty("name", poke_name)
+
+        favorite_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        favorite_button.setProperty("class", "Main_Button")
+        favorite_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2]))
+        favorite_button.setIconSize(QSize(24, 24))
+
+        favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
+        favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button)  # type: ignore
+
+        favorite_button.clicked.connect(partial(self.favorite_poke, poke_name, False))
+
+        self.extra_op_layout.addWidget(favorite_button)
+
+        cry_button = QPushButton("Hear Cry..")
+        cry_button.setFont(self.main_font)
+        cry_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        cry_button.setProperty("class", "Main_Button")
+
+        cry_button.setIcon(QIcon(self.IM.sound_icon[self.mode]))
+        cry_button.setIconSize(QSize(24, 24))
+
+        cry_button.enterEvent = partial(self.on_button_enter, cry_button)
+        cry_button.leaveEvent = partial(self.on_button_leave, cry_button)  # type: ignore
+
+        cry_button.clicked.connect(partial(self.media_manager.play_cry, f_dex_num, 0.7))
+
+        self.extra_op_layout.addWidget(cry_button)
+
         self.dex_data_layout.addStretch(1)
 
         self.display_dex_data_page()
 
-    def change_flavor_text(self, value):
+    def media_player_init(self):
+        self.media_manager = media_manager.MediaManager()
 
+
+    def change_flavor_text(self, value):
         
         if value == "+":
             if self.fl_index < len(self.poke_flavor_text) - 1:
@@ -3996,7 +4105,7 @@ This project is not affiliated with or associated with these entities.''')
             self.prev_poke_button.enterEvent = partial(self.on_button_enter, self.prev_poke_button)
             self.prev_poke_button.leaveEvent = partial(self.on_button_leave, self.prev_poke_button) # type: ignore
             
-            self.prev_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int - 1]))
+            self.prev_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int - 1], "Form_1"))
 
             self.l_button_shortcut = QShortcut(QKeySequence("Left"), self)
             self.l_button_shortcut.activated.connect(self.prev_poke_button.click)
@@ -4016,7 +4125,7 @@ This project is not affiliated with or associated with these entities.''')
             self.next_poke_button.enterEvent = partial(self.on_button_enter, self.next_poke_button)
             self.next_poke_button.leaveEvent = partial(self.on_button_leave, self.next_poke_button) # type: ignore
 
-            self.next_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int + 1]))
+            self.next_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int + 1], "Form_1"))
 
             self.r_button_shortcut = QShortcut(QKeySequence("Right"), self)
             self.r_button_shortcut.activated.connect(self.next_poke_button.click)
@@ -4034,13 +4143,13 @@ This project is not affiliated with or associated with these entities.''')
         random_button.enterEvent = partial(self.on_button_enter, random_button)
         random_button.leaveEvent = partial(self.on_button_leave, random_button) # type: ignore
         
-        random_button.clicked.connect(partial(self.refresh_dex_data_page, random.choice(self.dex_name_list)))
+        random_button.clicked.connect(partial(self.refresh_dex_data_page, random.choice(self.dex_name_list), "Form_1"))
 
         layout.addWidget(random_button)
 
-    def refresh_dex_data_page(self, poke_name):
+    def refresh_dex_data_page(self, poke_name, form):
         self.go_back(self.dex_data_layout)
-        self.init_dex_data_page(poke_name)
+        self.init_dex_data_page(poke_name, form)
 
 
     def display_dex_data_page(self):
@@ -4070,6 +4179,8 @@ This project is not affiliated with or associated with these entities.''')
         self.title()
         
         self.display_categories()
+
+        self.media_player_init()
 
         self.create_dex_button()
 
