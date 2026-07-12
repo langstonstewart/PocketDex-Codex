@@ -47,6 +47,14 @@ class ImageManager:
         self.tcgplayer_icon = (QPixmap(self.img("src/images/links/tcgplayer_icon_dark.png")), QPixmap(self.img("src/images/links/tcgplayer_icon_light.png")))
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
 
+        self.height_icon = (self.img("src/images/dex_type_icons/height_icon_dark.png"), self.img("src/images/dex_type_icons/height_icon_light.png"))
+        self.weight_icon = (self.img("src/images/dex_type_icons/weight_icon_dark.png"), self.img("src/images/dex_type_icons/weight_icon_light.png"))
+        self.entry_icon = (self.img("src/images/dex_type_icons/entry_icon_dark.png"), self.img("src/images/dex_type_icons/entry_icon_light.png"))
+
+        self.arrow_up_icon = (QPixmap(self.img("src/images/ui/arrow_up_dark.png")), QPixmap(self.img("src/images/ui/arrow_up_light.png")))
+
+        self.arrow_down_icon = (QPixmap(self.img("src/images/ui/arrow_down_dark.png")), QPixmap(self.img("src/images/ui/arrow_down_light.png")))
+
         self.dex_icon = (QPixmap(self.img("src/images/ui/pokedex_dark.png")), QPixmap(self.img("src/images/ui/pokedex_light.png")))
         
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")
@@ -261,6 +269,11 @@ class ImageManager:
             "Steel": self.img("src/images/dex_type_icons/steel_icon_sv.png"),
             "Water": self.img("src/images/dex_type_icons/water_icon_sv.png")
 
+        }
+
+        self.gender_dict = {
+            "Male": self.img("src/images/dex_type_icons/gender_male.png"),
+            "Female": self.img("src/images/dex_type_icons/gender_female.png"),
         }
 
 
@@ -531,7 +544,7 @@ class DexImage(QObject):
                 pixmap = QPixmap(self.image_link)
 
                 if not pixmap.isNull():
-                    scaled = self._scale_pixmap(pixmap)
+                    scaled = pixmap
                     self.cache_dict[self.image_link] = scaled
                     self.image_fetched.emit(self.image_link, scaled)
 
@@ -559,7 +572,7 @@ class DexImage(QObject):
                 pixmap.loadFromData(reply.readAll())  # type: ignore
 
                 if not pixmap.isNull():
-                    scaled = self._scale_pixmap(pixmap)
+                    scaled = pixmap
                     self.cache_dict[self.image_link] = scaled
                     self.image_fetched.emit(self.image_link, scaled)
 
@@ -604,16 +617,4 @@ class DexImage(QObject):
 
             self._reply = None
 
-    def _scale_pixmap(self, pixmap: QPixmap) -> QPixmap:
-        """Scale pixmap down by half."""
-
-        new_size = QSize(
-            pixmap.width() // 2,
-            pixmap.height() // 2
-        )
-
-        return pixmap.scaled(
-            new_size,
-            Qt.AspectRatioMode.KeepAspectRatio,
-            Qt.TransformationMode.SmoothTransformation
-        )
+    

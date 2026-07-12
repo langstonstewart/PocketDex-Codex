@@ -36,7 +36,9 @@ from PyQt6.QtCore import (
     QUrl, 
     QTimer, 
     QObject, 
-    pyqtSignal
+    pyqtSignal,
+    QVariantAnimation,
+    QEasingCurve
     )
 
 from PyQt6.QtGui import (
@@ -48,7 +50,8 @@ from PyQt6.QtGui import (
     QColor, 
     QKeySequence, 
     QShortcut, 
-    QTextDocument)
+    QTextDocument,
+    QPainter)
 
 from PyQt6.QtNetwork import QNetworkAccessManager
 from PyQt6 import sip
@@ -64,7 +67,8 @@ class Application(QMainWindow):
         self.app_init = False
         
         self.card_img_dict = {}
-        self._dex_image_loaders = []  # keeps DexImage/QNetworkReply objects alive until each fetch completes
+        self._dex_image_loaders = []  
+        self._fade_animations = []  
 
         self.widget_list = []
 
@@ -96,13 +100,15 @@ class Application(QMainWindow):
                              8: 2250}
         
         self.dex_img_cache = {}
+
+        self.poke_to_dex_num_dict = {}
+
+        self.dex_num_to_poke_dict = {}
         
         self.selected_region = self.settings['UserData']['selected_region']
                              
         self.scroll_area = QScrollArea()
         self.scroll_area.setWidgetResizable(True)
-
-        
 
         self.main_font = QFont("Gill Sans MT", 10, QFont.Weight.Normal, italic=False)
         self.main_font_bold = QFont("Gill Sans MT", 10, QFont.Weight.Bold, italic=False)
@@ -119,21 +125,7 @@ class Application(QMainWindow):
 
         self.widget_list.append(self.cd_widget)
 
-        self.main_layout = None
-
-        self.category_title_layout = None
-
-        self.set_header = None
-
-        self.search_query = None
-
-        self.set_main_layout = None
-        
-        self.cd_layout = None
-
-        self.card_grid = None
-
-        self.main_dex_layout = None
+        self.search_query = None   
 
         self.fav_widget = QWidget()
             
@@ -205,6 +197,13 @@ class Application(QMainWindow):
 
         self.dex_name_list = [name for name in self.dex_data["Pokedex"].keys()]
 
+        if not self.poke_to_dex_num_dict:
+            for i in range(len(self.dex_name_list)):
+
+                self.poke_to_dex_num_dict[self.dex_name_list[i]] = (i + 1)
+
+                self.dex_num_to_poke_dict[(i + 1)] = (self.dex_name_list[i])
+
 
         for category in self.category_list:
             
@@ -245,7 +244,6 @@ class Application(QMainWindow):
             self.favorite_list = json.load(f_file)
 
     
-
 
     def init_cache(self):
         self.init_loading_images_page()
@@ -427,12 +425,14 @@ class Application(QMainWindow):
 
         self.init_back_button(self.set_header, "Top")
 
+        self.change_col_button(self.set_header, "Top")
+
         self.title_header = QHBoxLayout()
         self.title_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
-        self.set_header.addStretch(1)
-        self.set_header.addLayout(self.title_header) # type: ignore
-        self.set_header.addStretch(1)
+        #self.set_header.addStretch(1)
+        self.set_main_layout.addLayout(self.title_header) # type: ignore
+        #self.set_header.addStretch(1)
 
         self.data_header = QHBoxLayout()
         self.data_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1230,7 +1230,7 @@ This project is not affiliated with or associated with these entities.''')
         self.ex_layout.addWidget(self.import_button)
         self.ex_layout.addWidget(self.refresh_button)
 
-    def change_col_button(self, layout):
+    def change_col_button(self, layout, key=""):
       
         change_col_button = QPushButton("Change Column Count...")
         change_col_button.setProperty("class", "Setting_Button")
@@ -1245,9 +1245,10 @@ This project is not affiliated with or associated with these entities.''')
         
         change_col_button.clicked.connect(partial(self.change_col_amount, layout))
 
-        self.bb_layout.addWidget(change_col_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
+        self.bb_layout.addWidget(change_col_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom if not key else Qt.AlignmentFlag.AlignTop)
 
-        self.bb_layout.addStretch()
+        if not key:
+            self.bb_layout.addStretch()
 
 
     def change_col_amount(self, layout):
@@ -1264,10 +1265,11 @@ This project is not affiliated with or associated with these entities.''')
             self.settings["UserData"]["col_count"] = 4
         
         self.save_settings()
-        if layout == self.main_dex_layout:
+
+        if hasattr(self, 'main_dex_layout') and layout == self.main_dex_layout:
             self.refresh_dex(self.selected_region)
 
-        elif layout != self.fav_main_layout:
+        elif hasattr(self, 'fav_main_layout') and layout != self.fav_main_layout:
             self.clicked_set(True)
         
         else:
@@ -2652,8 +2654,10 @@ This project is not affiliated with or associated with these entities.''')
             
 
             self.favorite_list.append(card_data) # type: ignore
-            if layout == self.card_grid:
+            
+            if hasattr(self, 'card_grid') and layout == self.card_grid:
                 self.fb_list[fb.property("index")].setIcon(QIcon(self.IM.favorite_icon[2])) # type: ignore
+
             else:
                 self.fb_list[0].setIcon(QIcon(self.IM.favorite_icon[2])) # type: ignore
             
@@ -2663,7 +2667,8 @@ This project is not affiliated with or associated with these entities.''')
             for index, f in enumerate(self.favorite_list):
                 if f["ID"] == self.set_list[fb.property("index")]["ID"]: # type: ignore
                     self.favorite_list.pop(index)
-            if layout == self.card_grid:
+
+            if hasattr(self, 'card_grid') and layout == self.card_grid:
                 self.fb_list[fb.property("index")].setIcon(QIcon(self.IM.favorite_icon[self.mode])) # type: ignore
             else:
                 self.fb_list[0].setIcon(QIcon(self.IM.favorite_icon[self.mode])) # type: ignore
@@ -2703,7 +2708,7 @@ This project is not affiliated with or associated with these entities.''')
         else:
             return
         
-        if layout == self.card_grid:
+        if hasattr(self, 'card_grid') and layout == self.card_grid:
             self.card_count.setText(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
         
         self.update_card_opacity(self.card_img_dict[button.property("id")], self.set_list[button.property("index")]["Quantity"]) # type: ignore
@@ -2734,7 +2739,7 @@ This project is not affiliated with or associated with these entities.''')
         else:
             return
         
-        if layout == self.card_grid:
+        if hasattr(self, 'card_grid') and layout == self.card_grid:
             self.card_count.setText(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
         
         self.update_card_opacity(self.card_img_dict[button.property("id")], self.set_list[button.property("index")]["Quantity"]) # type: ignore
@@ -3035,32 +3040,44 @@ This project is not affiliated with or associated with these entities.''')
 
     def go_back(self, layout):    
 
-        if layout == self.main_layout or layout == self.info_header or layout == self.category_title_layout:
+        if hasattr(self, 'main_layout') and layout == self.main_layout or hasattr(self, 'info_header') and layout == self.info_header or hasattr(self, 'category_title_layout') and layout == self.category_title_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
             if self.main_layout is not None:
                 self.clear_layout(self.main_layout) # type: ignore
             return
-        if layout == self.fav_main_layout:
+        if hasattr(self, 'fav_main_layout') and layout == self.fav_main_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
             self.clear_layout(self.fav_main_layout) # type: ignore
             return
 
-        elif layout == self.main_dex_layout:
+        elif hasattr(self, 'main_dex_layout') and layout == self.main_dex_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
             if self.main_dex_layout is not None:
                 self.clear_layout(self.main_dex_layout) # type: ignore
             return
         
-        elif layout == self.set_main_layout or self.set_header:
+        elif hasattr(self, 'dex_data_layout') and layout == self.dex_data_layout:
+            self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+
+            self.main_dex_widget.setSizePolicy(
+                    QSizePolicy.Policy.Expanding, 
+                    QSizePolicy.Policy.Expanding
+                )
+            self.stacked_layout.setCurrentWidget(self.main_dex_widget)
+
+            self.clear_layout(self.dex_data_layout) # type: ignore
+
+        
+        elif (hasattr(self, 'set_main_layout') and layout == self.set_main_layout) or self.set_header:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
             self.clear_layout(self.set_main_layout) # type: ignore
             return
 
-        elif layout == self.cd_layout:
+        elif hasattr(self, 'cd_layout') and layout == self.cd_layout:
             if self.previous_widget == self.cd_layout:
                 self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
                 self.clicked_set(True)
@@ -3222,6 +3239,9 @@ This project is not affiliated with or associated with these entities.''')
 
     def dex_page_init(self, favorites=False):
 
+        
+
+
         self.main_dex_widget = QWidget()
         
         self.main_dex_layout = QVBoxLayout()
@@ -3340,10 +3360,25 @@ This project is not affiliated with or associated with these entities.''')
         self.dex_search_bar = QLineEdit()
         self.dex_search_bar.setPlaceholderText("Search for a Pokémon...")
         self.dex_search_bar.setClearButtonEnabled(True)
+
+
+        self.dex_search_button = QPushButton("Reset Search..")
+
+        self.dex_search_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.dex_search_button.setProperty("class", "Setting_Button")
+        self.dex_search_button.setFont(self.main_font)
+        self.dex_search_button.setIcon(QIcon(self.IM.refresh_icon[self.mode]))
+        self.dex_search_button.setIconSize(QSize(36, 36))
+
+        self.dex_search_button.enterEvent = partial(self.on_button_enter, self.dex_search_button)
+        self.dex_search_button.leaveEvent = partial(self.on_button_leave, self.dex_search_button)  # type: ignore
+
+        self.dex_search_button.clicked.connect(partial(self.refresh_dex, self.selected_region))
         
         self.dex_search_bar.returnPressed.connect(partial(self.refresh_dex, self.selected_region, True))
 
         layout.addWidget(self.dex_search_bar)
+        layout.addWidget(self.dex_search_button)
 
     def display_dex_entries(self, region, layout: QGridLayout, favorites=False):
 
@@ -3403,11 +3438,71 @@ This project is not affiliated with or associated with these entities.''')
                .replace("%", "_percent")
                .lower())
 
+    def _faded_pixmap(self, pixmap: QPixmap, opacity: float) -> QPixmap:
+     
+        if pixmap is None or pixmap.isNull():
+            return pixmap
+        if opacity >= 1.0:
+            return pixmap
+
+        faded = QPixmap(pixmap.size())
+        faded.setDevicePixelRatio(pixmap.devicePixelRatio())
+        faded.fill(Qt.GlobalColor.transparent)
+
+        painter = QPainter(faded)
+        painter.setOpacity(max(0.0, opacity))
+        painter.drawPixmap(0, 0, pixmap)
+        painter.end()
+
+        return faded
+
+    def _fade_in_icon(self, button: QToolButton, pixmap: QPixmap):
+   
+        if sip.isdeleted(button) or pixmap is None or pixmap.isNull():
+            return
+
+        anim = QVariantAnimation(button)
+        anim.setDuration(300)
+        anim.setStartValue(0.0)
+        anim.setEndValue(1.0)
+        anim.setEasingCurve(QEasingCurve.Type.InOutQuad)
+
+        def _apply(value, button=button, pixmap=pixmap):
+            if sip.isdeleted(button):
+                return
+            button.setIcon(QIcon(self._faded_pixmap(pixmap, value)))
+
+        anim.valueChanged.connect(_apply)
+
+        self._fade_animations.append(anim)
+
+        def _cleanup(anim=anim):
+            if anim in self._fade_animations:
+                self._fade_animations.remove(anim)
+
+        anim.finished.connect(_cleanup)
+
+        anim.start()
+
     def _on_dex_image_fetched(self, button: QToolButton, image_link: str, pixmap: QPixmap):
        
         if sip.isdeleted(button):
             return
-        button.setIcon(QIcon(pixmap))
+        self._fade_in_icon(button, pixmap)
+
+    def _scale_pixmap(self, pixmap: QPixmap) -> QPixmap:
+        """Scale pixmap down by half."""
+
+        new_size = QSize(
+            pixmap.width() // 2,
+            pixmap.height() // 2
+        )
+
+        return pixmap.scaled(
+            new_size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation
+        )
 
     def create_poke_button(self, layout: QGridLayout, poke_name, r, c, form=1):
 
@@ -3437,15 +3532,15 @@ This project is not affiliated with or associated with these entities.''')
         poke_title.setProperty("class", "header2")
         poke_title.setFont(self.main_font)
         poke_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-        
+
         title_layout.addWidget(poke_title)
 
-        f_dex_num = self.dex_num.replace("#", "") # type: str
-        
+        f_dex_num = self.dex_num.replace("#", "")  # type: str
+
         form_list = [key for key in self.dex_data["Pokedex"][poke_name].keys() if "Form_" in key]
 
         for form_i in form_list:
-        
+
             cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][form_i]["Dex_Name"])
 
             button = QToolButton()
@@ -3457,7 +3552,7 @@ This project is not affiliated with or associated with these entities.''')
             self._dex_image_loaders.append(dex_img)
 
             cached_pixmap = dex_img.get_pixmap()
-            
+
             if cached_pixmap is not None:
                 pass
             else:
@@ -3476,9 +3571,12 @@ This project is not affiliated with or associated with these entities.''')
         self._dex_image_loaders.append(dex_img)
 
         cached_pixmap = dex_img.get_pixmap()
+
         
+
         if cached_pixmap is not None:
-            button.setIcon(QIcon(cached_pixmap))
+            cached_pixmap = self._scale_pixmap(cached_pixmap)
+            self._fade_in_icon(button, cached_pixmap)
         else:
             dex_img.image_fetched.connect(
                 partial(self._on_dex_image_fetched, button)
@@ -3488,14 +3586,15 @@ This project is not affiliated with or associated with these entities.''')
 
         button.setMinimumHeight(256)
         button.setMinimumWidth(256)
-        
+
         button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
         button.setProperty("class", "Main_Button")
         button.setFont(self.main_font)
 
-        button.enterEvent = partial(self.on_button_enter, button) # type: ignore
-        button.leaveEvent = partial(self.on_button_leave, button) # type: ignore
+        button.enterEvent = partial(self.on_button_enter, button)  # type: ignore
+        button.leaveEvent = partial(self.on_button_leave, button)  # type: ignore
+        button.clicked.connect(partial(self.init_dex_data_page, poke_name))
 
         button_layout.addWidget(button)
 
@@ -3504,33 +3603,32 @@ This project is not affiliated with or associated with these entities.''')
 
         button_layout.addLayout(typing_layout)
 
-        type_data = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Type"].split("/") # type: list
+        type_data = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Type"].split("/")  # type: list
 
         for poke_type in type_data:
             self.create_type_banner(poke_type, typing_layout)
 
-        
         fav_button_layout = QHBoxLayout()
         button_layout.addLayout(fav_button_layout)
 
         favorite_button = QPushButton("")
-      
+
         favorite_button.setProperty("name", poke_name)
-      
+
         favorite_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         favorite_button.setProperty("class", "Main_Button")
         favorite_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2]))
         favorite_button.setIconSize(QSize(24, 24))
 
         favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
-        favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button) # type: ignore
+        favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button)  # type: ignore
 
         favorite_button.clicked.connect(partial(self.favorite_poke, poke_name))
 
         fav_button_layout.addWidget(favorite_button)
 
         self.dex_fb_dict[poke_name] = favorite_button
-        
+
     def favorite_poke(self, poke_name):
         refresh_page = False
 
@@ -3549,6 +3647,17 @@ This project is not affiliated with or associated with these entities.''')
         if refresh_page:
             self.refresh_dex(self.selected_region, False, True)
 
+    def create_bullet(self, layout):
+
+        bullet = QLabel()
+        bullet.setText(f'⦿')
+        bullet.setProperty("class", "header2")
+
+        bullet.setFont(self.main_font_bold)
+        bullet.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        
+        layout.addWidget(bullet)
+
         
 
 
@@ -3562,9 +3671,67 @@ This project is not affiliated with or associated with these entities.''')
         type_title.setProperty("poke_type", poke_type.lower())
 
         type_title.setFont(self.main_font)
-        type_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        type_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         
         layout.addWidget(type_title)
+
+    def create_gender_banners(self, gender_data, layout: QHBoxLayout):
+        
+        if isinstance(gender_data, dict): # valid M-F data
+            if gender_data["Male"] != "0":
+
+                gender_banner = QLabel()
+                gender_banner.setText(f'<img src="{self.IM.gender_dict["Male"]}" width="32" height="32" style="vertical-align: bottom;" />{gender_data["Male"]}%')
+                gender_banner.setProperty("class", "type_header")
+                gender_banner.setProperty("gender", "male")
+
+                gender_banner.setFont(self.main_font)
+                gender_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                
+                layout.addWidget(gender_banner)
+
+            if gender_data["Female"] != "0":
+
+                gender_banner = QLabel()
+                gender_banner.setText(f'<img src="{self.IM.gender_dict["Female"]}" width="32" height="32" style="vertical-align: bottom;" />{gender_data["Female"]}%')
+                gender_banner.setProperty("class", "type_header")
+                gender_banner.setProperty("gender", "female")
+
+                gender_banner.setFont(self.main_font)
+                gender_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                
+                layout.addWidget(gender_banner)
+        else:
+            gender_banner = QLabel()
+            gender_banner.setText('Genderless')
+            gender_banner.setProperty("class", "dex_text")
+          
+            gender_banner.setFont(self.main_font)
+            gender_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+            gender_banner.setMaximumHeight(50)
+            
+            layout.addWidget(gender_banner)
+
+    def create_height_weight_banners(self, h_w_data, layout: QHBoxLayout):
+        h_banner = QLabel()
+        h_banner.setText(f'<img src="{self.IM.height_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> {h_w_data["Height"]}')
+        h_banner.setProperty("class", "dex_text_icon")
+
+        h_banner.setFont(self.main_font)
+        h_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        
+        layout.addWidget(h_banner)
+
+        w_banner = QLabel()
+        w_banner.setText(f'<img src="{self.IM.weight_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> {h_w_data["Weight"]}')
+        w_banner.setProperty("class", "dex_text_icon")
+    
+        w_banner.setFont(self.main_font)
+        w_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        
+        layout.addWidget(w_banner)
+                
+            
 
 
     def display_dex_page(self, favorites=False):
@@ -3573,7 +3740,322 @@ This project is not affiliated with or associated with these entities.''')
 
         self.main_dex_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
 
+        if hasattr(self, 'scroll_area'):
+            self.saved_scroll_position = self.scroll_area.verticalScrollBar().value() # type: ignore
+
         self.stacked_layout.setCurrentWidget(self.main_dex_widget)
+
+    def init_dex_data_page(self, poke_name):
+        self.dex_data_widget = QWidget()
+        
+        self.dex_data_layout = QVBoxLayout()
+        
+        self.dex_data_widget.setLayout(self.dex_data_layout)
+
+        self.init_back_button(self.dex_data_layout, "Top")
+
+
+        self.main_title_layout = QHBoxLayout()
+        self.main_title_layout.setAlignment(Qt.AlignmentFlag.AlignLeft)
+
+        self.dex_data_layout.addLayout(self.main_title_layout)
+
+        self.codex_layout = QVBoxLayout()
+        self.main_title_layout.addLayout(self.codex_layout)
+
+        codex_icon = QLabel("")
+
+        codex_icon.setPixmap(self.IM.codex_icon_mini[self.mode].scaled(175, 175, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+        codex_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        codex_icon.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignLeft)
+        self.codex_layout.addWidget(codex_icon)
+
+        self.nd_layout = QVBoxLayout()
+        self.main_title_layout.addLayout(self.nd_layout)
+
+        self.name_layout = QHBoxLayout()
+        self.nd_layout.addLayout(self.name_layout)
+
+        dex_title = QLabel(poke_name)
+       
+        dex_title.setProperty("class", "dex_header_title")
+        dex_title.setFont(self.main_font)
+        dex_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+        self.name_layout.addWidget(dex_title)
+
+        self.data_layout = QHBoxLayout()
+        self.nd_layout.addLayout(self.data_layout)
+
+        dex_num = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Number"] # type: str
+
+        f_dex_num = dex_num.replace("#", "")
+
+        num_title = QLabel(dex_num.replace("#0", "#"))
+        num_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        num_title.setProperty("class", "dex_num_header")
+        num_title.setFont(self.main_font)
+        num_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+        self.data_layout.addWidget(num_title)
+
+        self.create_bullet(self.data_layout)
+
+        type_data = self.dex_data["Pokedex"][poke_name]["Form_1"]["Dex_Type"].split("/")  # type: list
+
+        for poke_type in type_data:
+            self.create_type_banner(poke_type, self.data_layout)
+
+        self.create_bullet(self.data_layout)
+
+        raw_g_data = self.dex_data["Pokedex"][poke_name]["Form_1"]["Gender"]
+
+        cleaned_g_data = raw_g_data if raw_g_data == "Genderless" else raw_g_data.split("-")
+
+        if cleaned_g_data != "Genderless":
+            gender_data = {}
+            gender_data["Male"] = cleaned_g_data[0]
+            gender_data["Female"] = cleaned_g_data[1]
+        else:
+            gender_data = cleaned_g_data
+
+    
+        self.create_gender_banners(gender_data, self.data_layout)
+
+        self.create_bullet(self.data_layout)
+
+        self.seperator(self.dex_data_layout, 0)
+
+        h_w_data = {}
+
+        h_w_data["Height"] = self.dex_data["Pokedex"][poke_name]["Form_1"]["Height"]
+
+        h_w_data["Weight"] = self.dex_data["Pokedex"][poke_name]["Form_1"]["Weight"]
+
+        self.create_height_weight_banners(h_w_data, self.data_layout)
+
+        self.create_arrow_dex_buttons(poke_name, self.bb_layout)
+
+        self.dex_data_container = QHBoxLayout()
+
+
+        self.dex_data_layout.addLayout(self.dex_data_container)
+
+    
+        self.basic_txt_layout = QVBoxLayout()
+        self.dex_data_container.addStretch(1)
+        self.dex_data_container.addLayout(self.basic_txt_layout)
+        self.dex_data_container.addStretch(1)
+
+        basic_txt = QLabel(self.dex_data["Pokedex"][poke_name]["Description"])
+        basic_txt.setProperty("class", "dex_text")
+
+        basic_txt.setFont(self.main_font)
+        basic_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        basic_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        
+        self.basic_txt_layout.addWidget(basic_txt)
+
+        main_poke_bg = QToolButton()
+
+        main_poke_bg.setMinimumHeight(512)
+        main_poke_bg.setMinimumWidth(512)
+
+        main_poke_bg.setIconSize(QSize(512, 512))
+
+        main_poke_bg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+        main_poke_bg.setProperty("class", "Dex_Button_D")
+
+        main_poke_bg.setFont(self.main_font)
+
+        self.basic_txt_layout.addWidget(main_poke_bg)
+
+        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][f"Form_1"]["Dex_Name"])
+
+        img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+
+        dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
+
+        self._dex_image_loaders.append(dex_img)
+
+        cached_pixmap = dex_img.get_pixmap()
+
+        if cached_pixmap is not None:
+            self._fade_in_icon(main_poke_bg, cached_pixmap)
+        else:
+            dex_img.image_fetched.connect(
+                partial(self._on_dex_image_fetched, main_poke_bg)
+            )
+
+
+        self.poke_flavor_text = self.dex_data["Pokedex"][poke_name]["Flavor_Text"]
+
+        self.fl_layout = QVBoxLayout()
+        self.entry_counter_layout = QHBoxLayout()
+
+        self.basic_txt_layout.addLayout(self.entry_counter_layout)
+        self.basic_txt_layout.addLayout(self.fl_layout)
+
+        self.fl_index = 0
+       
+        self.curr_txt = QLabel(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Entry {self.fl_index + 1}/{len(self.poke_flavor_text)}:')
+        self.curr_txt.setProperty("class", "dex_text")
+        self.curr_txt.setWordWrap(True)
+        self.curr_txt.setFont(self.main_font)
+        self.curr_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.curr_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        
+        self.entry_counter_layout.addWidget(self.curr_txt)
+
+        up_button = QPushButton("")
+        up_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        up_button.setProperty("class", "Main_Button")
+        up_button.setIcon(QIcon(self.IM.arrow_up_icon[self.mode]))
+        up_button.setIconSize(QSize(32, 32))
+
+        up_button.enterEvent = partial(self.on_button_enter, up_button)
+        up_button.leaveEvent = partial(self.on_button_leave, up_button)  # type: ignore
+
+        
+
+        up_button.clicked.connect(partial(self.change_flavor_text, "+"))
+
+        self.entry_counter_layout.addWidget(up_button)
+
+        down_button = QPushButton("")
+        down_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        down_button.setProperty("class", "Main_Button")
+        down_button.setIcon(QIcon(self.IM.arrow_down_icon[self.mode]))
+        down_button.setIconSize(QSize(32, 32))
+
+        down_button.enterEvent = partial(self.on_button_enter, down_button)
+        down_button.leaveEvent = partial(self.on_button_leave, down_button)  # type: ignore
+
+        down_button.clicked.connect(partial(self.change_flavor_text, "-"))
+
+        self.entry_counter_layout.addWidget(down_button)
+
+        
+        self.flavor_txt = QLabel(self.poke_flavor_text[self.fl_index])
+        self.flavor_txt.setProperty("class", "dex_text")
+        self.flavor_txt.setWordWrap(True)
+        self.flavor_txt.setFont(self.main_font)
+        self.flavor_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.flavor_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        
+        self.fl_layout.addWidget(self.flavor_txt)
+
+    
+        self.dex_data_layout.addStretch(1)
+
+        self.display_dex_data_page()
+
+    def change_flavor_text(self, value):
+
+        
+        if value == "+":
+            if self.fl_index < len(self.poke_flavor_text) - 1:
+                self.fl_index += 1
+
+                self.curr_txt.setText(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Entry {self.fl_index + 1}/{len(self.poke_flavor_text)}:')
+                self.flavor_txt.setText(self.poke_flavor_text[self.fl_index])
+        else:
+            if self.fl_index:
+                self.fl_index -= 1
+
+                self.curr_txt.setText(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Entry {self.fl_index + 1}/{len(self.poke_flavor_text)}:')
+                self.flavor_txt.setText(self.poke_flavor_text[self.fl_index])
+
+
+    def create_arrow_dex_buttons(self, poke_name, layout):
+
+        dex_num_int = self.poke_to_dex_num_dict[poke_name]
+
+        if hasattr(self, 'l_button_shortcut'):
+            self.l_button_shortcut.setEnabled(False) # type: ignore
+            self.l_button_shortcut.deleteLater() # type: ignore
+            del self.l_button_shortcut
+
+
+        if hasattr(self, 'r_button_shortcut'):
+            self.r_button_shortcut.setEnabled(False) # type: ignore
+            self.r_button_shortcut.deleteLater() # type: ignore
+            del self.r_button_shortcut
+
+
+        if dex_num_int - 1 > 0:
+
+            self.prev_poke_button = QPushButton(f'View Previous Pokémon.. ({self.dex_num_to_poke_dict[dex_num_int - 1].replace("&", "&&")})')
+            self.prev_poke_button.setProperty("class", "Setting_Button")
+            self.prev_poke_button.setFont(self.main_font)
+
+            self.prev_poke_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
+            self.prev_poke_button.setIconSize(QSize(36, 36))
+
+            self.prev_poke_button.enterEvent = partial(self.on_button_enter, self.prev_poke_button)
+            self.prev_poke_button.leaveEvent = partial(self.on_button_leave, self.prev_poke_button) # type: ignore
+            
+            self.prev_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int - 1]))
+
+            self.l_button_shortcut = QShortcut(QKeySequence("Left"), self)
+            self.l_button_shortcut.activated.connect(self.prev_poke_button.click)
+
+            layout.addWidget(self.prev_poke_button)
+
+        if dex_num_int != len(self.dex_name_list):
+
+            self.next_poke_button = QPushButton(f'View Next Pokémon.. ({self.dex_num_to_poke_dict[dex_num_int + 1].replace("&", "&&")})')
+            self.next_poke_button.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
+            self.next_poke_button.setProperty("class", "Setting_Button")
+            self.next_poke_button.setFont(self.main_font)
+
+            self.next_poke_button.setIcon(QIcon(self.IM.forward_icon[self.mode]))
+            self.next_poke_button.setIconSize(QSize(36, 36))
+
+            self.next_poke_button.enterEvent = partial(self.on_button_enter, self.next_poke_button)
+            self.next_poke_button.leaveEvent = partial(self.on_button_leave, self.next_poke_button) # type: ignore
+
+            self.next_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int + 1]))
+
+            self.r_button_shortcut = QShortcut(QKeySequence("Right"), self)
+            self.r_button_shortcut.activated.connect(self.next_poke_button.click)
+
+            layout.addWidget(self.next_poke_button)
+
+
+        random_button = QPushButton("Random..")
+        random_button.setProperty("class", "Setting_Button")
+        random_button.setFont(self.main_font)
+
+        random_button.setIcon(QIcon(self.IM.dice_icon[self.mode]))
+        random_button.setIconSize(QSize(36, 36))
+
+        random_button.enterEvent = partial(self.on_button_enter, random_button)
+        random_button.leaveEvent = partial(self.on_button_leave, random_button) # type: ignore
+        
+        random_button.clicked.connect(partial(self.refresh_dex_data_page, random.choice(self.dex_name_list)))
+
+        layout.addWidget(random_button)
+
+    def refresh_dex_data_page(self, poke_name):
+        self.go_back(self.dex_data_layout)
+        self.init_dex_data_page(poke_name)
+
+
+    def display_dex_data_page(self):
+        
+        self.dex_data_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
+
+        self.stacked_layout.addWidget(self.dex_data_widget)
+
+        self.stacked_layout.setCurrentWidget(self.dex_data_widget)
+
+        if self.dex_data_widget:
+            self.main_dex_widget.setSizePolicy(
+                QSizePolicy.Policy.Ignored, 
+                QSizePolicy.Policy.Ignored
+            )
 
     
 

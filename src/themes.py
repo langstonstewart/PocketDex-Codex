@@ -14,7 +14,7 @@ class Themes:
             }
 
             QLabel[class="dex_header_title"] {
-                font-size: 60px; margin: 3px; color: #1E1E1E;
+                font-size: 64px; margin: 3px; color: #1E1E1E;
             }
 
             QLabel[class="header2"] {
@@ -126,7 +126,20 @@ class Themes:
 
             QLabel[class="type_header"][poke_type="water"] { background-color: #2481ef; }
 
-            
+            QLabel[class="type_header"][gender="male"] { background-color: #2481ef; }
+
+            QLabel[class="type_header"][gender="female"] { background-color: #ef3f7a; }
+
+            QLabel[class="dex_text"] {
+                font-size: 20px;
+                color: white; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border-radius: 20px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
 
             QLabel[class="Set_Tag"] {
                 font-size: 35px;
@@ -176,6 +189,27 @@ class Themes:
                 background-color: #ebebeb
             }
 
+            QToolButton[class="Dex_Button_D"] {
+                font-size: 20px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border: 3px #ebebeb; 
+                border-radius: 15px; 
+                padding: 5px;
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            QToolButton[class="Dex_Button_D"]:hover {
+                background-color: #ebebeb
+            }
+            QToolButton[class="Dex_Button_D"]:pressed {
+                background-color: #ebebeb
+            }
+            
+
+            
+
             QToolButton[class="Dex_Button"] {
                 font-size: 20px;
                 color: #1E1E1E; 
@@ -211,6 +245,28 @@ class Themes:
             }
             QPushButton[class="Card_Button"]:pressed {
                 background-color: #ebebeb
+            }
+
+            QLabel[class="dex_text_icon"] {
+                font-size: 20px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border-radius: 20px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            QLabel[class="dex_text"] {
+                font-size: 20px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border-radius: 15px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
             }
 
             QPushButton[class="Setting_Button"] {
@@ -285,7 +341,7 @@ class Themes:
             }
 
             QLabel[class="dex_header_title"] {
-                font-size: 60px; margin: 3px; color: white;
+                font-size: 64px; margin: 3px; color: white;
             }
 
             QLabel[class="header2"] {
@@ -396,8 +452,33 @@ class Themes:
             QLabel[class="type_header"][poke_type="steel"] { background-color: #60a2b9; }
 
             QLabel[class="type_header"][poke_type="water"] { background-color: #2481ef; }
+            
+            QLabel[class="type_header"][gender="male"] { background-color: #2481ef; }
 
-    
+            QLabel[class="type_header"][gender="female"] { background-color: #ef3f7a; }
+
+            QLabel[class="dex_text"] {
+                font-size: 20px;
+                color: white; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border-radius: 15px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            QLabel[class="dex_text_icon"] {
+                font-size: 20px;
+                color: white; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border-radius: 20px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
             QLabel[class="Set_Tag"] {
                 font-size: 35px;
                 color: white; 
@@ -441,6 +522,24 @@ class Themes:
                 background-color: #747474
             }
             QToolButton[class="Main_Button"]:pressed {
+                background-color: #3d3d3d
+            }
+
+            QToolButton[class="Dex_Button_D"] {
+                font-size: 20px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border: 3px #3d3d3d; 
+                border-radius: 15px; 
+                padding: 5px;
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            QToolButton[class="Dex_Button_D"]:hover {
+                background-color: #3d3d3d
+            }
+            QToolButton[class="Dex_Button_D"]:pressed {
                 background-color: #3d3d3d
             }
 
