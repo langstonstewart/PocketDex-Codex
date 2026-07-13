@@ -47,6 +47,10 @@ class ImageManager:
         self.tcgplayer_icon = (QPixmap(self.img("src/images/links/tcgplayer_icon_dark.png")), QPixmap(self.img("src/images/links/tcgplayer_icon_light.png")))
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
 
+        self.pkdb_icon = (QPixmap(self.img("src/images/links/pkdb_icon_dark.png")), QPixmap(self.img("src/images/links/pkdb_icon_light.png")))
+
+        self.d_art_icon = (QPixmap(self.img("src/images/links/d_art_icon_dark.png")), QPixmap(self.img("src/images/links/d_art_icon_light.png")))
+
         self.height_icon = (self.img("src/images/dex_type_icons/height_icon_dark.png"), self.img("src/images/dex_type_icons/height_icon_light.png"))
         self.weight_icon = (self.img("src/images/dex_type_icons/weight_icon_dark.png"), self.img("src/images/dex_type_icons/weight_icon_light.png"))
         self.entry_icon = (self.img("src/images/dex_type_icons/entry_icon_dark.png"), self.img("src/images/dex_type_icons/entry_icon_light.png"))
@@ -170,6 +174,63 @@ class ImageManager:
                             'Alola': (721, 809),
                             'Galar': (809, 905),
                             'Paldea': (905, 1025)}
+        
+        self.scrub_list = [
+                            "Mega ",
+                           "Origin Forme ",
+                           "Paldean ",
+                           "Hisuian ",
+                           "Galarian ",
+                           "Alolan ",
+                           "Dusk Mane ",
+                           "Dawn Wings ",
+                           "White ",
+                           "Black ",
+                           "Fan ",
+                           "Wash ",
+                           "Mow ",
+                           "Heat ",
+                           "Frost ",
+                           "Erika’s ",
+                           "Blaine’s ",
+                           "Brock’s ",
+                           "Lt. Surge’s ",
+                           "Misty’s ",
+                           "Sabrina’s ",
+                           "N’s ",
+                           "Lillie’s ",
+                           "Iono’s ",
+                           "Larry’s ",
+                           "Marnie’s ",
+                           "Cynthia’s ",
+                           "Team Rocket’s ",
+                           "Steven’s ",
+                           "Hop’s ",
+                           "Ethan’s ",
+                           "Arven’s ",
+                           "Ash’s ",
+                           "Imakuni?’s ",
+                           "Team Magma’s ",
+                           "Team Aqua’s ",
+                           "Holon’s ",
+                           "Rocket’s ",
+                           "Koga’s ",
+                           "Giovanni’s ",
+                           "Dark ",
+                           "Flying ",
+                           "Surfing",
+                           "Shining ",
+                           " E4",
+                           " GL",
+                           " Normal Forme",
+                           " Attack Forme",
+                           " Defense Forme",
+                           " Speed Forme",
+                           " Rain Form",
+                           " Snow-Cloud Form",
+                           "Sunny Form",
+                           " ex"
+                           ]
 
         self.tag_dict  = {
             "-EX": self.img("src/images/name_icons/ex_legacy.png"),

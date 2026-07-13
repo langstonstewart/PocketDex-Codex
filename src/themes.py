@@ -130,11 +130,13 @@ class Themes:
 
             QLabel[class="type_header"][gender="female"] { background-color: #ef3f7a; }
 
+            QLabel[class="type_header"][gender="genderless"] { color: #1E1E1E; background-color: #ebebeb; }
+
             QLabel[class="dex_text"] {
                 font-size: 20px;
                 color: white; 
                 margin: 3px; 
-                background-color: #3d3d3d; 
+                background-color: #ebebeb; 
                 border-radius: 20px; 
                 padding: 5px; 
                 padding-left: 15px; 

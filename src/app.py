@@ -1,4 +1,4 @@
-import os, json, datetime, copy, random
+import os, json, datetime, copy, random, string, re
 from functools import partial
 from math import ceil
 
@@ -797,7 +797,7 @@ class Application(QMainWindow):
         
         info_title = QLabel("")
 
-        info_title.setPixmap(self.IM.codex_icon[self.mode].scaled(650, 350, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+        info_title.setPixmap(self.IM.codex_icon[self.mode].scaled(325, 175, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         info_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         info_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.info_header.addWidget(info_title)
@@ -939,6 +939,147 @@ This project is not affiliated with or associated with these entities.''')
 
         self.pc_layout.addWidget(pc_date_label)
 
+      
+
+        self.pkdb_layout = QHBoxLayout()
+        self.pkdb_layout.setSpacing(0)  
+        self.pkdb_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
+
+        self.info_header.addLayout(self.pkdb_layout)
+        
+        pd_label = QLabel(f"Pokédex data sourced from ")
+        pd_label.setProperty("class", "header2")
+        pd_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pd_label.setFont(self.main_font)
+
+        self.pkdb_layout.addWidget(pd_label)
+
+        self.pkdb_icon = QLabel(f"")
+        self.ui_button_list.append((self.pkdb_icon, self.IM.pkdb_icon, 24, 24))
+        self.pkdb_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.pkdb_icon.setPixmap(self.IM.pkdb_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+
+        self.pkdb_layout.addWidget(self.pkdb_icon)
+
+        pkdb_label = QLabel(f"Pokémon Database")
+        pkdb_label.setProperty("class", "Link_Label")
+        pkdb_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pkdb_label.setFont(self.main_font)
+
+        self.pkdb_layout.addWidget(pkdb_label)
+
+        pkdb_date_label = QLabel(f"© 2008 - 2026")
+        pkdb_date_label.setProperty("class", "header2")
+        pkdb_date_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        pkdb_date_label.setFont(self.main_font)
+
+        self.pkdb_layout.addWidget(pkdb_date_label)
+
+        
+        self.d_art_layout = QHBoxLayout()
+        self.d_art_layout.setSpacing(0)  
+        self.d_art_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
+
+        self.info_header.addLayout(self.d_art_layout)
+        
+        mf_art_label = QLabel(f"Maushold (Family of  Three) Render")
+        mf_art_label.setProperty("class", "Link_Label")
+        mf_art_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        mf_art_label.setFont(self.main_font)
+
+        self.d_art_layout.addWidget(mf_art_label)
+
+        m_f_label = QLabel(f"by")
+        m_f_label.setProperty("class", "header2")
+        m_f_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        m_f_label.setFont(self.main_font)
+
+        self.d_art_layout.addWidget(m_f_label)
+
+        self.d_art_icon = QLabel(f"")
+        self.ui_button_list.append((self.d_art_icon, self.IM.d_art_icon, 24, 24))
+        self.d_art_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.d_art_icon.setPixmap(self.IM.d_art_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+
+        self.d_art_layout.addWidget(self.d_art_icon)
+
+        bz_art_label = QLabel(f"Big-Z-2015")
+        bz_art_label.setProperty("class", "Link_Label")
+        bz_art_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        bz_art_label.setFont(self.main_font)
+
+        self.d_art_layout.addWidget(bz_art_label)
+
+      
+        self.d_art_layout = QHBoxLayout()
+        self.d_art_layout.setSpacing(0)  
+        self.d_art_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
+
+        self.info_header.addLayout(self.d_art_layout)
+        
+        svr_art_label = QLabel(f"Squawkabilly  Variant Renders")
+        svr_art_label.setProperty("class", "Link_Label")
+        svr_art_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        svr_art_label.setFont(self.main_font)
+
+        self.d_art_layout.addWidget(svr_art_label)
+
+        svr_by_label = QLabel(f"by")
+        svr_by_label.setProperty("class", "header2")
+        svr_by_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        svr_by_label.setFont(self.main_font)
+
+        self.d_art_layout.addWidget(svr_by_label)
+
+        self.d_art_icon = QLabel(f"")
+        self.ui_button_list.append((self.d_art_icon, self.IM.d_art_icon, 24, 24))
+        self.d_art_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.d_art_icon.setPixmap(self.IM.d_art_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+
+        self.d_art_layout.addWidget(self.d_art_icon)
+
+        bl_art_label = QLabel(f"Bloxables")
+        bl_art_label.setProperty("class", "Link_Label")
+        bl_art_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        bl_art_label.setFont(self.main_font)
+
+        self.d_art_layout.addWidget(bl_art_label)
+      
+
+        self.dts_art_layout = QHBoxLayout()
+        self.dts_art_layout.setSpacing(0)  
+        self.dts_art_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
+
+        self.info_header.addLayout(self.dts_art_layout)
+        
+        dts_art_label = QLabel(f"Dudunsparce Three Segment Render")
+        dts_art_label.setProperty("class", "Link_Label")
+        dts_art_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        dts_art_label.setFont(self.main_font)
+
+        self.dts_art_layout.addWidget(dts_art_label)
+
+        dts_by_label = QLabel(f"by")
+        dts_by_label.setProperty("class", "header2")
+        dts_by_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        dts_by_label.setFont(self.main_font)
+
+        self.dts_art_layout.addWidget(dts_by_label)
+
+        self.d_art_icon = QLabel(f"")
+        self.ui_button_list.append((self.d_art_icon, self.IM.d_art_icon, 24, 24))
+        self.d_art_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.d_art_icon.setPixmap(self.IM.d_art_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+
+        self.dts_art_layout.addWidget(self.d_art_icon)
+
+        jm_art_label = QLabel(f"JorMxDos")
+        jm_art_label.setProperty("class", "Link_Label")
+        jm_art_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        jm_art_label.setFont(self.main_font)
+
+        self.dts_art_layout.addWidget(jm_art_label)
+     
         self.serebii_layout = QHBoxLayout()
         self.serebii_layout.setSpacing(0)  
         self.serebii_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter) 
@@ -1066,38 +1207,29 @@ This project is not affiliated with or associated with these entities.''')
         def on_click(url, event):
             QDesktopServices.openUrl(QUrl(url))
             
-        git_label.enterEvent = partial(on_enter, git_label)
-        git_label.leaveEvent = partial(on_leave, git_label) # type: ignore
-        git_label.mousePressEvent = partial(on_click, "https://github.com/langstonstewart") # type: ignore
+      
+        label_links = {
+            git_label: "https://github.com/langstonstewart",
+            pz_label: "https://www.pokemon-zone.com",
+            pc_label: "https://pkmncards.com",
+            serebii_label: "https://www.serebii.net",
+            ltcg_label: "https://pocket.limitlesstcg.com",
+            et_label: "https://www.pokemonaaah.net/art/fonts/#EssenTCG",
+            nick_label: "https://www.pokemonaaah.net/news/author/nick15/",
+            pal_label: "https://www.pokemonaaah.net",
+            pkdb_label: "https://pokemondb.net",
+            mf_art_label: "https://www.deviantart.com/big-z-2015/art/Maushold-Family-of-Three-Render-951711618",
+            bz_art_label: "https://www.deviantart.com/big-z-2015/gallery",
+            svr_art_label: "https://www.deviantart.com/bloxables/art/0931-Squawkabilly-Blue-Plumage-1228686230",
+            bl_art_label: "https://www.deviantart.com/bloxables/gallery",
+            dts_art_label: "https://www.deviantart.com/jormxdos/art/0982-Dudunsparce-Three-Segment-Form-Edit-953450838",
+            jm_art_label: "https://www.deviantart.com/jormxdos/gallery",
+        }
 
-        pz_label.enterEvent = partial(on_enter, pz_label)
-        pz_label.leaveEvent = partial(on_leave, pz_label) # type: ignore
-        pz_label.mousePressEvent = partial(on_click, "https://www.pokemon-zone.com") # type: ignore
-
-        pc_label.enterEvent = partial(on_enter, pc_label)
-        pc_label.leaveEvent = partial(on_leave, pc_label) # type: ignore
-        pc_label.mousePressEvent = partial(on_click, "https://pkmncards.com") # type: ignore
-
-
-        serebii_label.enterEvent = partial(on_enter, serebii_label)
-        serebii_label.leaveEvent = partial(on_leave, serebii_label) # type: ignore
-        serebii_label.mousePressEvent = partial(on_click, "https://www.serebii.net") # type: ignore
-
-        ltcg_label.enterEvent = partial(on_enter, ltcg_label)
-        ltcg_label.leaveEvent = partial(on_leave, ltcg_label) # type: ignore
-        ltcg_label.mousePressEvent = partial(on_click, "https://pocket.limitlesstcg.com") # type: ignore
-
-        et_label.enterEvent = partial(on_enter, et_label)
-        et_label.leaveEvent = partial(on_leave, et_label) # type: ignore
-        et_label.mousePressEvent = partial(on_click, "https://www.pokemonaaah.net/art/fonts/#EssenTCG") # type: ignore
-
-        nick_label.enterEvent = partial(on_enter, nick_label)
-        nick_label.leaveEvent = partial(on_leave, nick_label) # type: ignore
-        nick_label.mousePressEvent = partial(on_click, "https://www.pokemonaaah.net/news/author/nick15/") # type: ignore
-
-        pal_label.enterEvent = partial(on_enter, pal_label)
-        pal_label.leaveEvent = partial(on_leave, pal_label) # type: ignore
-        pal_label.mousePressEvent = partial(on_click, "https://www.pokemonaaah.net") # type: ignore
+        for label, link in label_links.items():
+            label.enterEvent = partial(on_enter, label)
+            label.leaveEvent = partial(on_leave, label) # type: ignore
+            label.mousePressEvent = partial(on_click, link) # type: ignore
 
 
         self.seperator(self.info_header, 1100)
@@ -1328,10 +1460,11 @@ This project is not affiliated with or associated with these entities.''')
         for button in self.plus_button_list:
             self.increment_quantity(self.data_header, self.set_name, True, button)
         self.app.processEvents()
-
        
         with open(self.set_fp, "w") as set_file:
             json.dump(self.set_list, set_file, indent=4)
+
+        self.save_dex_data()
 
     def remove_one_all(self):
         for button in self.plus_button_list:
@@ -1340,6 +1473,8 @@ This project is not affiliated with or associated with these entities.''')
 
         with open(self.set_fp, "w") as set_file:
             json.dump(self.set_list, set_file, indent=4)
+
+        self.save_dex_data()
     
     def display_loading_page(self):
         self.loading_widget = QWidget()
@@ -1529,7 +1664,6 @@ This project is not affiliated with or associated with these entities.''')
             card_header_hp_layout.addWidget(hp_label)
 
 
-            # ability-name key, ability-effect key, ability-property (color)
             if self.set_list[card_index]["Type"] in ['Fire', 'Psychic']:
                 pmp_property = 'purple_ability_header'
             else:
@@ -2547,6 +2681,8 @@ This project is not affiliated with or associated with these entities.''')
 
             plus_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
             plus_button.setProperty("class", "Main_Button")
+            plus_button.setProperty("name", card_text)
+            plus_button.setProperty("card_type", self.set_list[card_index]["Card-Type"])
             plus_button.setIcon(QIcon(self.IM.plus_icon[self.mode]))
             plus_button.setIconSize(QSize(36, 36))
             plus_button.setMinimumHeight(70)
@@ -2555,7 +2691,7 @@ This project is not affiliated with or associated with these entities.''')
             plus_button.enterEvent = partial(self.on_button_enter, plus_button)
             plus_button.leaveEvent = partial(self.on_button_leave, plus_button) # type: ignore
 
-            plus_button.clicked.connect(partial(self.increment_quantity, layout, self.set_name))
+            plus_button.clicked.connect(partial(self.increment_quantity, layout, self.set_name, False, QPushButton))
 
             self.plus_button_list.append(plus_button)
 
@@ -2744,6 +2880,11 @@ This project is not affiliated with or associated with these entities.''')
         else:
             button = self.sender()
 
+        poke_name = button.property("name") # type: ignore
+
+        if button.property("card_type") == "Pokemon": # type: ignore
+            self.add_to_dex(poke_name)
+        
         if self.set_list[button.property("index")]["Quantity"] < 99: # type: ignore
             self.set_list[button.property("index")]["Quantity"] += 1 # type: ignore
         else:
@@ -2758,10 +2899,45 @@ This project is not affiliated with or associated with these entities.''')
             with open(self.set_fp, "w") as set_file:
                 json.dump(self.set_list, set_file, indent=4)
 
+            self.save_dex_data()
+
         self.card_quantity_dict[button.property("index")].setText(f"{self.set_list[button.property("index")]["Quantity"]}") # type: ignore
+
+    def scrub_card_name(self, poke_name):
+
+   
+        poke_name = re.sub(r'<[^>]+>', '', poke_name).strip()
+
+        for suffix in self.IM.scrub_list:
+            poke_name = poke_name.replace(suffix, "")
+
+        for alpha in string.ascii_uppercase + string.punctuation:
+            if poke_name.endswith(alpha):
+                poke_name = poke_name.rstrip(alpha)
+        
+        return poke_name.replace(" Male", "-M").replace(" Female", "-F").replace("'", "’").strip()
+
+    def add_to_dex(self, poke_name):
+        poke_name = self.scrub_card_name(poke_name)
+
+        if poke_name in self.dex_data["Pokedex"].keys():
+
+            if not self.dex_data["Pokedex"][poke_name]["Registered"]:
+                self.dex_data["Pokedex"][poke_name]["Registered"] = True
+
+                dex_num = self.poke_to_dex_num_dict[poke_name]
+
+                for region, index_tuple in self.IM.region_dict.items():
+                    
+                    if (index_tuple[0] + 1) <= dex_num <= index_tuple[1]:
+                        self.dex_data[f"{region.lower()}_obtained"] += 1
+                    
+
+                        
+
             
 
-
+            
     def toggle_theme_button(self):
 
         
@@ -2922,7 +3098,7 @@ This project is not affiliated with or associated with these entities.''')
             self.stacked_layout.addWidget(self.fav_widget)
             self.stacked_layout.setCurrentWidget(self.fav_widget)
 
-            if self.main_layout is not None:
+            if hasattr(self, 'main_layout') and self.main_layout is not None:
                 self.clear_layout(self.main_layout) # type: ignore
                 
         
@@ -3050,12 +3226,16 @@ This project is not affiliated with or associated with these entities.''')
 
     def go_back(self, layout):    
 
+        
+
         if hasattr(self, 'main_layout') and layout == self.main_layout or hasattr(self, 'info_header') and layout == self.info_header or hasattr(self, 'category_title_layout') and layout == self.category_title_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
-            if self.main_layout is not None:
+
+            if hasattr(self, 'main_layout') and self.main_layout is not None:
                 self.clear_layout(self.main_layout) # type: ignore
             return
+        
         if hasattr(self, 'fav_main_layout') and layout == self.fav_main_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
@@ -3065,7 +3245,8 @@ This project is not affiliated with or associated with these entities.''')
         elif hasattr(self, 'main_dex_layout') and layout == self.main_dex_layout:
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
-            if self.main_dex_layout is not None:
+
+            if hasattr(self, 'main_dex_layout') and self.main_dex_layout is not None:
                 self.clear_layout(self.main_dex_layout) # type: ignore
             return
         
@@ -3255,9 +3436,14 @@ This project is not affiliated with or associated with these entities.''')
 
         self.settings_layout.addWidget(self.dex_button, alignment=Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
 
-    def dex_page_init(self, favorites=False):
+    def return_national_count(self):
+        national_count = 0
+        for region in self.IM.region_dict.keys():
+            national_count += self.dex_data[f"{region.lower()}_obtained"]
 
-        
+        return national_count
+
+    def dex_page_init(self, favorites=False):
 
 
         self.main_dex_widget = QWidget()
@@ -3272,20 +3458,33 @@ This project is not affiliated with or associated with these entities.''')
 
         self.create_inverse_button("dex")
 
-        self.change_col_button(self.main_dex_layout)
+        self.change_col_button(self.main_dex_layout, "Top")
+
+        self.bb_layout.addStretch(1)
 
         self.collection_layout = QVBoxLayout()
 
         self.bb_layout.addLayout(self.collection_layout)
 
-        '''regional_txt = QLabel(self.dex_data["Pokedex"][poke_name]["Description"])
+        regional_txt = QLabel(f"Regional: {self.dex_data[f"{self.selected_region.lower()}_obtained"]} / {self.IM.region_dict[self.selected_region][1] - self.IM.region_dict[self.selected_region][0]}")
         regional_txt.setProperty("class", "dex_text")
 
         regional_txt.setFont(self.main_font)
         regional_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         regional_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
         
-        self.basic_txt_layout.addWidget(regional_txt)'''
+        self.collection_layout.addWidget(regional_txt)
+
+        
+
+        national_txt = QLabel(f"National: {self.return_national_count()} / {len(self.poke_to_dex_num_dict.keys())}")
+        national_txt.setProperty("class", "dex_text")
+
+        national_txt.setFont(self.main_font)
+        national_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        national_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        
+        self.collection_layout.addWidget(national_txt)
 
 
 
@@ -3570,6 +3769,17 @@ This project is not affiliated with or associated with these entities.''')
 
         title_layout.addWidget(poke_title)
 
+        if self.dex_data["Pokedex"][poke_name]["Registered"]:
+
+            pb_icon = QLabel()
+            pb_icon.setPixmap(self.IM.pokeball_icon[self.mode].scaled(24, 24, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+            pb_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            pb_icon.setProperty("class", "header2")
+            pb_icon.setFont(self.main_font)
+            pb_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+            title_layout.addWidget(pb_icon)
+
         f_dex_num = self.dex_num.replace("#", "")  # type: str
 
         form_list = [key for key in self.dex_data["Pokedex"][poke_name].keys() if "Form_" in key]
@@ -3607,7 +3817,6 @@ This project is not affiliated with or associated with these entities.''')
 
         cached_pixmap = dex_img.get_pixmap()
 
-        
 
         if cached_pixmap is not None:
             cached_pixmap = self._scale_pixmap(cached_pixmap)
@@ -3679,7 +3888,8 @@ This project is not affiliated with or associated with these entities.''')
 
             if poke_name in self.dex_fb_dict.keys():
                 self.dex_fb_dict[poke_name].setIcon(QIcon(self.IM.favorite_icon[self.mode if poke_name not in self.dex_favorite_list else 2])) 
-                self.pend_reset = True
+                if favorites:
+                    self.pend_reset = True
 
             if favorites:
                 refresh_page = True
@@ -3844,6 +4054,8 @@ This project is not affiliated with or associated with these entities.''')
         self.nd_layout = QVBoxLayout()
         self.main_title_layout.addLayout(self.nd_layout)
 
+        self.nd_layout.addStretch()
+
         self.name_layout = QHBoxLayout()
         self.nd_layout.addLayout(self.name_layout)
 
@@ -3854,6 +4066,21 @@ This project is not affiliated with or associated with these entities.''')
         dex_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
 
         self.name_layout.addWidget(dex_title)
+
+        if self.dex_data["Pokedex"][poke_name]["Registered"]:
+
+            pb_icon = QLabel()
+            pb_icon.setPixmap(self.IM.pokeball_icon[self.mode].scaled(64, 64, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+          
+            pb_icon.setProperty("class", "header2")
+            pb_icon.setFont(self.main_font)
+            pb_icon.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+
+            self.name_layout.addWidget(pb_icon)
+
+            self.name_layout.addStretch()
+
+        self.main_title_layout.addStretch()
 
         self.data_layout = QHBoxLayout()
         self.nd_layout.addLayout(self.data_layout)
@@ -3906,6 +4133,8 @@ This project is not affiliated with or associated with these entities.''')
         self.create_height_weight_banners(h_w_data, self.data_layout)
 
         self.create_arrow_dex_buttons(poke_name, self.bb_layout)
+
+        self.data_layout.addStretch()
 
         self.dex_data_container = QHBoxLayout()
 
