@@ -2868,7 +2868,6 @@ class Application(QMainWindow):
 
         self.bb_layout.addWidget(back_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop if key == 'Top' else Qt.AlignmentFlag.AlignBottom)
 
-    
 
 
     def go_back(self, layout):    

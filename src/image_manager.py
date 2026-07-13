@@ -39,6 +39,8 @@ class ImageManager:
         self.refresh_icon = (QPixmap(self.img("src/images/ui/refresh_black.png")), QPixmap(self.img("src/images/ui/refresh_white.png")))
         self.favorite_icon = (QPixmap(self.img("src/images/ui/heart_black.png")), QPixmap(self.img("src/images/ui/heart_white.png")), QPixmap(self.img("src/images/ui/heart_active.png")))
         self.heart_button_icon = (QPixmap(self.img("src/images/ui/heart_button_black.png")), QPixmap(self.img("src/images/ui/heart_button_white.png")))
+        self.star_outline_icon = (self.img("src/images/ui/star_outline_dark.png"), self.img("src/images/ui/star_outline_light.png"))
+        self.star_full_icon = (self.img("src/images/ui/star_full_dark.png"), self.img("src/images/ui/star_full_light.png"))
         self.f_tag = (QPixmap(self.img("src/images/tags/favorites_black.png")), QPixmap(self.img("src/images/tags/favorites_black.png")))
         self.paint_icon = (QPixmap(self.img("src/images/card_data/paint_black.png")), QPixmap(self.img("src/images/card_data/paint_white.png")))
         self.exit_icon = (QPixmap(self.img("src/images/ui/exit_black.png")), QPixmap(self.img("src/images/ui/exit_white.png")))
@@ -398,15 +400,9 @@ class ImageManager:
 
         }
 
-  
-
 
     def img(self, path: str):
         return resource_path(path)
-    
-
-
-
 
 
 R_manager = QNetworkRequest

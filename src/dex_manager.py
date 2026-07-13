@@ -156,7 +156,19 @@ class DexManager:
 
         self.main_app.bb_layout.addLayout(self.collection_layout)
 
-        regional_txt = QLabel(f"Regional: {self.dex_data[f"{self.main_app.selected_region.lower()}_obtained"]} / {self.IM.region_dict[self.main_app.selected_region][1] - self.IM.region_dict[self.main_app.selected_region][0]}")
+        region_obtained_count = self.dex_data[f"{self.main_app.selected_region.lower()}_obtained"]
+
+        region_obtained_max = self.IM.region_dict[self.main_app.selected_region][1] - self.IM.region_dict[self.main_app.selected_region][0]
+
+
+        if region_obtained_count != region_obtained_max:
+            obt_path = self.IM.star_outline_icon[self.main_app.mode]
+        else:
+            obt_path = self.IM.star_full_icon[self.main_app.mode]
+
+
+        regional_txt = QLabel()
+        regional_txt.setText(f'Regional: {region_obtained_count} / {region_obtained_max}  <img src="{obt_path}" width="24" height="24" style="vertical-align: bottom;" />')
         regional_txt.setProperty("class", "dex_text")
 
         regional_txt.setFont(self.main_app.main_font)
@@ -165,7 +177,19 @@ class DexManager:
         
         self.collection_layout.addWidget(regional_txt)
 
-        national_txt = QLabel(f"National: {self.return_national_count()} / {len(self.poke_to_dex_num_dict.keys())}")
+        national_obtained_count = self.return_national_count()
+
+        national_obtained_max = len(self.poke_to_dex_num_dict.keys())
+
+
+        if national_obtained_count != national_obtained_max:
+            obt_path = self.IM.star_outline_icon[self.main_app.mode]
+        else:
+            obt_path = self.IM.star_full_icon[self.main_app.mode]
+
+    
+        national_txt = QLabel()
+        national_txt.setText(f'National: {national_obtained_count} / {national_obtained_max} <img src="{obt_path}" width="24" height="24" style="vertical-align: bottom;" />')
         national_txt.setProperty("class", "dex_text")
 
         national_txt.setFont(self.main_app.main_font)
