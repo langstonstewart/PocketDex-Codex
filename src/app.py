@@ -3670,6 +3670,7 @@ This project is not affiliated with or associated with these entities.''')
                .replace("é", "e")
                .replace(":", "")
                .replace("%", "_percent")
+               .replace("’", "")
                .lower())
 
     def _faded_pixmap(self, pixmap: QPixmap, opacity: float) -> QPixmap:
