@@ -3274,6 +3274,23 @@ This project is not affiliated with or associated with these entities.''')
 
         self.change_col_button(self.main_dex_layout)
 
+        self.collection_layout = QVBoxLayout()
+
+        self.bb_layout.addLayout(self.collection_layout)
+
+        '''regional_txt = QLabel(self.dex_data["Pokedex"][poke_name]["Description"])
+        regional_txt.setProperty("class", "dex_text")
+
+        regional_txt.setFont(self.main_font)
+        regional_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        regional_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        
+        self.basic_txt_layout.addWidget(regional_txt)'''
+
+
+
+
+
         self.dex_header_layout = QHBoxLayout()
 
         self.icon_layout = QVBoxLayout()
@@ -3738,11 +3755,12 @@ This project is not affiliated with or associated with these entities.''')
         else:
             gender_banner = QLabel()
             gender_banner.setText('Genderless')
-            gender_banner.setProperty("class", "dex_text")
+            gender_banner.setProperty("class", "type_header")
+            gender_banner.setProperty("gender", "genderless")
           
             gender_banner.setFont(self.main_font)
             gender_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-            gender_banner.setMaximumHeight(50)
+           
             
             layout.addWidget(gender_banner)
 
@@ -3793,6 +3811,11 @@ This project is not affiliated with or associated with these entities.''')
             self.d_button_shortcut.setEnabled(False) # type: ignore
             self.d_button_shortcut.deleteLater() # type: ignore
             del self.d_button_shortcut
+
+        if hasattr(self, 'cry_button_shortcut'):
+            self.cry_button_shortcut.setEnabled(False) # type: ignore
+            self.cry_button_shortcut.deleteLater() # type: ignore
+            del self.cry_button_shortcut
 
         self.dex_data_widget = QWidget()
         
@@ -4038,7 +4061,7 @@ This project is not affiliated with or associated with these entities.''')
 
         self.extra_op_layout.addWidget(favorite_button)
 
-        cry_button = QPushButton("Hear Cry..")
+        cry_button = QPushButton("Hear Cry.. (R)")
         cry_button.setFont(self.main_font)
         cry_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         cry_button.setProperty("class", "Main_Button")
@@ -4048,6 +4071,9 @@ This project is not affiliated with or associated with these entities.''')
 
         cry_button.enterEvent = partial(self.on_button_enter, cry_button)
         cry_button.leaveEvent = partial(self.on_button_leave, cry_button)  # type: ignore
+
+        self.cry_button_shortcut = QShortcut(QKeySequence("R"), self)
+        self.cry_button_shortcut.activated.connect(cry_button.click)
 
         cry_button.clicked.connect(partial(self.media_manager.play_cry, f_dex_num, 0.7))
 

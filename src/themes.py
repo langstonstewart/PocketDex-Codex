@@ -457,6 +457,8 @@ class Themes:
 
             QLabel[class="type_header"][gender="female"] { background-color: #ef3f7a; }
 
+            QLabel[class="type_header"][gender="genderless"] { background-color: #3d3d3d; }
+
             QLabel[class="dex_text"] {
                 font-size: 20px;
                 color: white; 
