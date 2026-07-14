@@ -75,7 +75,7 @@ class DexManager:
 
         self.local_doc = os.path.join(os.path.expanduser("~"), "Documents", "PocketDex Codex")
 
-        self.dex_data = self.dex_data_init() # type: dict
+        
 
         self.poke_to_dex_num_dict = {}
 
@@ -118,8 +118,8 @@ class DexManager:
 
 
     def dex_data_init(self):
-        with open(resource_path(f"{self.local_doc}\\dex_data.json"), "r+") as dex_file:
-            return json.load(dex_file)
+        with open(resource_path(f"{self.local_doc}\\dex_data.json"), "r+") as dex_file:    
+            self.dex_data = json.load(dex_file)
         
         
     def save_dex_data(self):

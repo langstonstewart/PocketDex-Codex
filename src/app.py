@@ -189,6 +189,9 @@ class Application(QMainWindow):
         if 'dex_data.json' not in os.listdir(self.local_doc):
             self.set_manager.dex_data_init(self.local_doc)
 
+        
+        self.dex_manager.dex_data_init()
+
 
         self.dex_name_list = [name for name in self.dex_manager.dex_data["Pokedex"].keys()]
 
