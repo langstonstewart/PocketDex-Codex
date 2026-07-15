@@ -91,9 +91,26 @@ class Application(QMainWindow):
         self.IM = image_manager.ImageManager()
         
         self.settings = self.init_app_data()
-        self.resize(1400, 1150)
+        
         self.setWindowIcon(QIcon(resource_path(f"src/images/ui/logo_icon.png")))
         self.setWindowTitle(f"PocketDex Codex v{self.settings['UserData']['version']}")
+
+    
+        screen = QApplication.primaryScreen()
+        screen_geometry = screen.geometry() # type: ignore
+        
+        screen_width = screen_geometry.width()
+        screen_height = screen_geometry.height()
+        
+        window_width = int(screen_width * 0.7)
+        window_height = int(screen_height * 0.8)
+        
+        self.resize(window_width, window_height)
+        
+      
+        x = int((screen_width - window_width) / 2)
+        y = int((screen_height - window_height) / 2)
+        self.move(x, y)
 
         self.set_col_count = 6
 
@@ -517,6 +534,28 @@ class Application(QMainWindow):
 
 
     def display_sets(self, category):
+
+        if hasattr(self, 'l_button_shortcut'):
+            self.l_button_shortcut.setEnabled(False) # type: ignore
+            self.l_button_shortcut.deleteLater() # type: ignore
+            del self.l_button_shortcut
+
+        if hasattr(self, 'r_button_shortcut'):
+            self.r_button_shortcut.setEnabled(False) # type: ignore
+            self.r_button_shortcut.deleteLater() # type: ignore
+            del self.r_button_shortcut
+
+        if hasattr(self.dex_manager, 'l_button_shortcut'):
+            self.dex_manager.l_button_shortcut.setEnabled(False) # type: ignore
+            self.dex_manager.l_button_shortcut.deleteLater() # type: ignore
+            del self.dex_manager.l_button_shortcut
+
+
+        if hasattr(self.dex_manager, 'r_button_shortcut'):
+            self.dex_manager.r_button_shortcut.setEnabled(False) # type: ignore
+            self.dex_manager.r_button_shortcut.deleteLater() # type: ignore
+            del self.dex_manager.r_button_shortcut
+
 
         self.category_file_name = category
 
