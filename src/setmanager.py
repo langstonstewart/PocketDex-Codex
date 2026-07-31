@@ -25,15 +25,14 @@ class SetManager:
                             "/tcgpocket/image/crown.png": "Crown"
         }
 
-    def create_parser(self, link):
+    def create_parser(self, url):
+        res = requests.get(url)
+        res.raise_for_status()
 
-        res = self.http.get(link, timeout=8)
-        try:
-            res.raise_for_status()
-        except Exception as e:
-            print(f"An error occurred: {e}")
-        
-        return json.loads(res.text)
+        # Remove UTF-8 BOM if present
+        text = res.text.lstrip("\ufeff")
+
+        return json.loads(text)
     
     def dex_data_init(self, dir):
 
@@ -44,7 +43,7 @@ class SetManager:
 
         dex_data_git["Favorites"] = []
 
-        with open(f"{dir}\\dex_data.json", "w+", encoding="utf-8-sig") as dex_file:
+        with open(f"{dir}\\dex_data.json", "w+", encoding="UTF-8") as dex_file:
             json.dump(dex_data_git, dex_file, indent=4)
 
     def create_set(self, set_name: str, category, series, dir, copy=False):
