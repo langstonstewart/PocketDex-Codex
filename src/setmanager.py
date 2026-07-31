@@ -44,7 +44,7 @@ class SetManager:
 
         dex_data_git["Favorites"] = []
 
-        with open(f"{dir}\\dex_data.json", "w+", encoding="UTF-8") as dex_file:
+        with open(f"{dir}\\dex_data.json", "w+", encoding="utf-8-sig") as dex_file:
             json.dump(dex_data_git, dex_file, indent=4)
 
     def create_set(self, set_name: str, category, series, dir, copy=False):
