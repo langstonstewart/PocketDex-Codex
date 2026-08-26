@@ -40,7 +40,11 @@ from PyQt6.QtCore import (
     QObject, 
     pyqtSignal,
     QVariantAnimation,
-    QEasingCurve
+    QEasingCurve,
+    QDate,
+    QDateTime,
+    QTime,
+    QTimeZone
     )
 
 from PyQt6.QtGui import (
@@ -127,8 +131,8 @@ class Application(QMainWindow):
         self.set_sep_lens = {4: 1200, 
                              6: 1700,
                              8: 2250}
-        
 
+        self.upcoming_sets = []
         
         self.selected_region = self.settings['UserData']['selected_region']
                              
@@ -219,7 +223,9 @@ class Application(QMainWindow):
 
                 self.dex_manager.dex_num_to_poke_dict[(i + 1)] = (self.dex_name_list[i])
 
+        self.dex_manager.dex_img_count = self.dex_manager.return_dex_img_count()
 
+        
         for category in self.category_list:
             
             os.makedirs(f"{self.local_doc}\\{category[0]}", exist_ok=True)
@@ -240,6 +246,8 @@ class Application(QMainWindow):
                     if not os.listdir(set_dir):
                         if "Locked" not in set:
                             self.set_manager.create_set(set["Name"], category[0], key, set_dir)
+                        else:
+                            self.upcoming_sets.append(set)
 
             self.create_favorites_folder(f"{self.local_doc}\\{category[0]}")
 
@@ -289,13 +297,18 @@ class Application(QMainWindow):
 
                             self.IM.logo_dict[set['SetID']] = set_pixmap
 
-        self.cache_finished({})
+
+        for name in self.dex_manager.poke_to_dex_num_dict.keys():
+            self.dex_manager.cache_dex_img(self.dex_manager.poke_to_dex_num_dict[name], name)
+
+        # cache..
 
     def cache_finished(self, cache_dict):
         self.cache_dict = cache_dict
         if not self.app_init:
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
             self.app_init = True
+
         self.show()
 
 
@@ -329,7 +342,7 @@ class Application(QMainWindow):
 
         
         loading_icon_label = QLabel("")
-        loading_txt_label = QLabel("Preparing application data..")
+        self.loading_txt_label = QLabel(f"Preparing application data.. ({self.dex_manager.cache_dex_imgs_finished}/{self.dex_manager.dex_img_count})")
 
     
         
@@ -339,23 +352,27 @@ class Application(QMainWindow):
     
         self.li_txt_layout.addWidget(loading_icon_label, alignment=Qt.AlignmentFlag.AlignHCenter)
 
-        loading_txt_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        loading_txt_label.setProperty("class", "header2")
-        loading_txt_label.setFont(self.main_font)
+        self.loading_txt_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.loading_txt_label.setProperty("class", "header2")
+        self.loading_txt_label.setFont(self.main_font)
 
-        self.li_txt_layout.addWidget(loading_txt_label, alignment=Qt.AlignmentFlag.AlignHCenter)
+        self.li_txt_layout.addWidget(self.loading_txt_label, alignment=Qt.AlignmentFlag.AlignHCenter)
     
         self.stacked_layout.addWidget(self.li_widget)
 
-        loading_txt_hint = QLabel(f"Please wait...")
-        loading_txt_hint.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        loading_txt_hint.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        loading_txt_hint.setProperty("class", "header2")
-        loading_txt_hint.setFont(self.main_font)
-        self.li_layout.addWidget(loading_txt_hint)
-
         self.seperator(self.li_layout, 700)
 
+        self.skip_cache_button = QPushButton("Skip..")
+    
+        self.skip_cache_button.setFont(self.main_font)
+      
+        self.skip_cache_button.setProperty("class", "Main_Button")
+
+        self.skip_cache_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+        self.skip_cache_button.clicked.connect(partial(self.cache_finished, {}))
+
+        self.li_txt_layout.addWidget(self.skip_cache_button, alignment=Qt.AlignmentFlag.AlignHCenter)
         
        
         self.stacked_layout.setCurrentWidget(self.li_widget)
@@ -371,8 +388,6 @@ class Application(QMainWindow):
         self.h2_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.header_layout.addLayout(self.h2_layout)
 
-        
-    
         self.h2 = QLabel("- An application for Pokémon Trading Card Game ™ -")
 
         self.title_icon = QLabel("")
@@ -401,6 +416,67 @@ class Application(QMainWindow):
         self.h3.setProperty("class", "header2")
         self.h3.setFont(self.main_font)
         self.h3_layout.addWidget(self.h3)
+
+    def display_upcoming_sets(self):
+        self.up_layout = QVBoxLayout()
+        self.up_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+     
+        self.header_layout.addLayout(self.up_layout)
+
+        self.upc_sets_txt = QLabel("")
+        self.upc_sets_txt.setText(f'<img src="{self.IM.clock_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Upcoming Sets:')
+        self.upc_sets_txt.setProperty("class", "header2")
+        self.upc_sets_txt.setWordWrap(True)
+        self.upc_sets_txt.setFont(self.main_font)
+        self.upc_sets_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.upc_sets_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+    
+        self.up_layout.addWidget(self.upc_sets_txt)
+    
+        for up_set in self.upcoming_sets:
+            self.create_countdown(up_set["Name"], up_set["Release Date"], up_set["Release Time"])
+
+    def create_countdown(self, name_str, date_str, time_str):
+        countdown_label = QLabel("")
+        countdown_label.setProperty("class", "dex_text")
+        countdown_label.setWordWrap(True)
+        countdown_label.setFont(self.main_font)
+        countdown_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        countdown_label.setSizePolicy(QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.Fixed)
+        countdown_label.setMaximumWidth(500)
+
+        self.up_layout.addWidget(countdown_label)
+
+        cleaned_date = re.sub(r"(\d+)(st|nd|rd|th)", r"\1", date_str)
+
+        full_datetime_str = f"{cleaned_date} {time_str}"
+
+        target_datetime = QDateTime.fromString(full_datetime_str, "MMMM d, yyyy h:mm AP t")
+        target_datetime = target_datetime.toUTC()
+
+        timer = QTimer(self)
+        timer.timeout.connect(partial(self.update_countdown, name_str, countdown_label, target_datetime, timer))
+        timer.start(1000)
+
+        self.update_countdown(name_str, countdown_label, target_datetime, timer)
+
+
+    def update_countdown(self, name_str, countdown_label, target_datetime, timer):
+        now = QDateTime.currentDateTimeUtc()
+        seconds_remaining = now.secsTo(target_datetime)
+
+        if seconds_remaining <= 0:
+            countdown_label.setText("Set Released!")
+            timer.stop()
+            return
+
+        days = seconds_remaining // 86400
+        hours = (seconds_remaining % 86400) // 3600
+        minutes = (seconds_remaining % 3600) // 60
+        seconds = seconds_remaining % 60
+
+        countdown_label.setText(f"{name_str}:\n{days:01d}d {hours:02d}h {minutes:02d}m {seconds:02d}s")
+        
 
     def seperator(self, layout, width):
         
@@ -740,7 +816,8 @@ class Application(QMainWindow):
             
         self.seperator(self.main_layout, 1200)
 
-        self.init_back_button(self.main_layout, "Set_Page")
+        if self.category_dir != "TCG Pocket":
+            self.init_back_button(self.main_layout, "Set_Page")
 
         self.stacked_layout.setCurrentWidget(self.main_widget)
 
@@ -758,7 +835,7 @@ class Application(QMainWindow):
 
         self.ui_button_list.append((self.inverse_button, self.IM.sort_icon, None, None))
         self.inverse_button.setFont(self.main_font)
-        self.inverse_button.setProperty("class", "Setting_Button")
+        self.inverse_button.setProperty("class", "Main_Button")
         
         self.inverse_button.setIcon(QIcon(self.IM.sort_icon[self.mode]))
         self.inverse_button.setIconSize(QSize(36, 36))
@@ -1017,8 +1094,6 @@ class Application(QMainWindow):
         
     def await_cache(self): 
 
-        
-                
         self.display_cards()
 
         self.seperator(self.set_main_layout, self.set_sep_lens[self.col_count])
@@ -1029,10 +1104,7 @@ class Application(QMainWindow):
 
         self.change_col_button(self.set_main_layout)
 
-        
-        
-
-
+    
     def set_action_buttons(self):
         self.ex_layout = QHBoxLayout()
         self.ex_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1040,7 +1112,7 @@ class Application(QMainWindow):
         self.set_main_layout.addLayout(self.ex_layout) # type: ignore
 
         self.shadow_add_button = QPushButton("Add 1 to All..")
-        self.shadow_add_button.setProperty("class", "Setting_Button")
+        self.shadow_add_button.setProperty("class", "Main_Button")
         self.shadow_add_button.setFont(self.main_font)
 
         self.shadow_add_button.setIcon(QIcon(self.IM.shadow_add_icon[self.mode]))
@@ -1051,7 +1123,7 @@ class Application(QMainWindow):
         self.shadow_add_button.clicked.connect(self.add_one_all)
 
         self.shadow_minus_button = QPushButton("Remove 1 from All..")
-        self.shadow_minus_button.setProperty("class", "Setting_Button")
+        self.shadow_minus_button.setProperty("class", "Main_Button")
         self.shadow_minus_button.setFont(self.main_font)
 
         self.shadow_minus_button.setIcon(QIcon(self.IM.shadow_minus_icon[self.mode]))
@@ -1062,7 +1134,7 @@ class Application(QMainWindow):
         self.shadow_minus_button.clicked.connect(self.remove_one_all)
 
         self.export_button = QPushButton("Export as Excel Spreadsheet..")
-        self.export_button.setProperty("class", "Setting_Button")
+        self.export_button.setProperty("class", "Main_Button")
         self.export_button.setFont(self.main_font)
 
         self.export_button.setIcon(QIcon(self.IM.export_icon[self.mode]))
@@ -1074,7 +1146,7 @@ class Application(QMainWindow):
         self.export_button.clicked.connect(partial(self.set_manager.export_excel, f"{self.local_doc}\\{self.category_dir}\\{self.series}", self.set_name, self.set_list))
 
         self.import_button = QPushButton("Import as Excel Spreadsheet..")
-        self.import_button.setProperty("class", "Setting_Button")
+        self.import_button.setProperty("class", "Main_Button")
         self.import_button.setFont(self.main_font)
 
         self.import_button.setIcon(QIcon(self.IM.import_icon[self.mode]))
@@ -1086,7 +1158,7 @@ class Application(QMainWindow):
         self.import_button.clicked.connect(self.import_excel_main)
 
         self.refresh_button = QPushButton("Update Set Data..")
-        self.refresh_button.setProperty("class", "Setting_Button")
+        self.refresh_button.setProperty("class", "Main_Button")
         self.refresh_button.setFont(self.main_font)
 
         self.refresh_button.setIcon(QIcon(self.IM.refresh_icon[self.mode]))
@@ -1106,7 +1178,7 @@ class Application(QMainWindow):
     def change_col_button(self, layout, key=""):
       
         change_col_button = QPushButton("Change Column Count...")
-        change_col_button.setProperty("class", "Setting_Button")
+        change_col_button.setProperty("class", "Main_Button")
         change_col_button.setFont(self.main_font)
         
 
@@ -1777,7 +1849,7 @@ class Application(QMainWindow):
         button_layout.addStretch()
 
         random_button = QPushButton("Random..")
-        random_button.setProperty("class", "Setting_Button")
+        random_button.setProperty("class", "Main_Button")
         random_button.setFont(self.main_font)
 
         random_button.setIcon(QIcon(self.IM.dice_icon[self.mode]))
@@ -1805,7 +1877,7 @@ class Application(QMainWindow):
         if card_index - 1 >= 0:
 
             self.prev_card_button = QPushButton(f'View Previous Card.. ({self.set_list[card_index - 1]["Name"].replace("&", "&&")})')
-            self.prev_card_button.setProperty("class", "Setting_Button")
+            self.prev_card_button.setProperty("class", "Main_Button")
             self.prev_card_button.setFont(self.main_font)
 
             self.prev_card_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
@@ -1825,7 +1897,7 @@ class Application(QMainWindow):
 
                 self.next_card_button = QPushButton(f'View Next Card.. ({self.set_list[card_index + 1]["Name"].replace("&", "&&")})')
                 self.next_card_button.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
-                self.next_card_button.setProperty("class", "Setting_Button")
+                self.next_card_button.setProperty("class", "Main_Button")
                 self.next_card_button.setFont(self.main_font)
 
                 self.next_card_button.setIcon(QIcon(self.IM.forward_icon[self.mode]))
@@ -2637,7 +2709,7 @@ class Application(QMainWindow):
         self.ui_button_list.append((self.theme_button, self.IM.theme_icon, None, None))
 
         self.theme_button.setFont(self.main_font)
-        self.theme_button.setProperty("class", "Setting_Button")
+        self.theme_button.setProperty("class", "Main_Button")
 
         self.theme_button.setIcon(QIcon(self.IM.theme_icon[self.mode]))
         self.theme_button.setIconSize(QSize(36, 36))
@@ -2654,7 +2726,7 @@ class Application(QMainWindow):
         self.f_button = QPushButton("")
         self.ui_button_list.append((self.f_button, self.IM.heart_button_icon, None, None))
         self.f_button.setFont(self.main_font)
-        self.f_button.setProperty("class", "Setting_Button")
+        self.f_button.setProperty("class", "Main_Button")
         self.f_button.setText("View Favorites..")
         
 
@@ -2845,7 +2917,7 @@ class Application(QMainWindow):
 
         self.info_button = QPushButton("About..")
         self.ui_button_list.append((self.info_button, self.IM.info_icon, None, None))
-        self.info_button.setProperty("class", "Setting_Button")
+        self.info_button.setProperty("class", "Main_Button")
         self.info_button.setFont(self.main_font)
         
 
@@ -2867,9 +2939,7 @@ class Application(QMainWindow):
             
             for widget in self.widget_list: 
                 widget.setStyleSheet(self.themes.light_theme)
-                
-            self.switch_scrollbar()
-            
+     
         elif self.mode == 0:
             self.mode = 1
             self.settings['UserData']['theme'] = 1
@@ -2877,7 +2947,9 @@ class Application(QMainWindow):
             for widget in self.widget_list: 
                 widget.setStyleSheet(self.themes.dark_theme)
 
-            self.switch_scrollbar()
+        self.switch_scrollbar()
+
+        self.upc_sets_txt.setText(f'<img src="{self.IM.clock_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Upcoming Sets:')
 
         self.save_settings()
 
@@ -2893,7 +2965,7 @@ class Application(QMainWindow):
         
 
         back_button = QPushButton("")
-        back_button.setProperty("class", "Setting_Button")
+        back_button.setProperty("class", "Main_Button")
         back_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
 
         back_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
@@ -2940,7 +3012,7 @@ class Application(QMainWindow):
             return
         
         elif hasattr(self.dex_manager, 'dex_data_layout') and layout == self.dex_manager.dex_data_layout:
-            self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+            #self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
             self.dex_manager.main_dex_widget.setSizePolicy(
                     QSizePolicy.Policy.Expanding, 
@@ -3088,7 +3160,7 @@ class Application(QMainWindow):
         self.e_button = QPushButton("")
         self.ui_button_list.append((self.e_button, self.IM.exit_icon, None, None))
         self.e_button.setFont(self.main_font)
-        self.e_button.setProperty("class", "Setting_Button")
+        self.e_button.setProperty("class", "Main_Button")
         self.e_button.setText("Exit..")
         
 
@@ -3115,6 +3187,9 @@ class Application(QMainWindow):
         self.title()
         
         self.display_categories()
+        
+        if self.upcoming_sets:
+            self.display_upcoming_sets()
 
         self.dex_manager.media_player_init()
 

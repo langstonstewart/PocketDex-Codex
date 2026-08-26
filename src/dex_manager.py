@@ -91,6 +91,12 @@ class DexManager:
 
         self.search_query = None   
 
+        self.dex_img_count = 0
+
+        self.cache_dex_imgs_finished = 0
+
+    
+
         
 
 
@@ -103,7 +109,7 @@ class DexManager:
         self.dex_button = QPushButton("")
         self.main_app.ui_button_list.append((self.dex_button, self.main_app.IM.dex_icon, None, None))
         self.dex_button.setFont(self.main_app.main_font)
-        self.dex_button.setProperty("class", "Setting_Button")
+        self.dex_button.setProperty("class", "Main_Button")
         self.dex_button.setText("View Pokédex..")
         
         self.dex_button.setIcon(QIcon(self.main_app.IM.dex_icon[self.main_app.mode]))
@@ -266,7 +272,7 @@ class DexManager:
         self.r_button = QPushButton("")
         self.main_app.ui_button_list.append((self.r_button, self.IM.pokeball_icon, None, None))
         self.r_button.setFont(self.main_app.main_font)
-        self.r_button.setProperty("class", "Setting_Button")
+        self.r_button.setProperty("class", "Main_Button")
         self.r_button.setText(region)
         
         self.r_button.setIcon(QIcon(self.IM.pokeball_icon[self.main_app.mode]))
@@ -288,7 +294,7 @@ class DexManager:
         self.dex_search_button = QPushButton("Reset Search..")
 
         self.dex_search_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        self.dex_search_button.setProperty("class", "Setting_Button")
+        self.dex_search_button.setProperty("class", "Main_Button")
         self.dex_search_button.setFont(self.main_app.main_font)
         self.dex_search_button.setIcon(QIcon(self.IM.refresh_icon[self.main_app.mode]))
         self.dex_search_button.setIconSize(QSize(36, 36))
@@ -579,6 +585,46 @@ class DexManager:
         fav_button_layout.addWidget(favorite_button)
 
         self.dex_fb_dict[poke_name] = favorite_button
+
+    def return_dex_img_count(self):
+            count = 0
+            for name in self.poke_to_dex_num_dict.keys():
+                  
+                form_list = [key for key in self.dex_data["Pokedex"][name].keys() if "Form_" in key]
+        
+                for form_i in form_list:
+                    count += 1
+
+            return count
+
+
+    def cache_dex_img(self, dex_num: int, poke_name):
+            f_dex_num = str(dex_num).zfill(4)  # type: str
+            
+            form_list = [key for key in self.dex_data["Pokedex"][poke_name].keys() if "Form_" in key]
+    
+            for form_i in form_list:
+                cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][form_i]["Dex_Name"])
+    
+                img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+    
+                dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
+    
+                self._dex_image_loaders.append(dex_img)
+
+                dex_img.image_fetched.connect(self.inc_dex_cache)
+
+    def inc_dex_cache(self):
+        self.cache_dex_imgs_finished += 1
+
+        if self.cache_dex_imgs_finished == self.dex_img_count:
+            self.main_app.cache_finished({})
+        else:
+            self.main_app.loading_txt_label.setText(f"Preparing application data.. ({self.cache_dex_imgs_finished}/{self.dex_img_count})")
+
+               
+
+                
 
     def favorite_poke(self, poke_name, favorites):
         refresh_page = False
@@ -1058,7 +1104,7 @@ class DexManager:
         if dex_num_int - 1 > 0:
 
             self.prev_poke_button = QPushButton(f'View Previous Pokémon.. ({self.dex_num_to_poke_dict[dex_num_int - 1].replace("&", "&&")})')
-            self.prev_poke_button.setProperty("class", "Setting_Button")
+            self.prev_poke_button.setProperty("class", "Main_Button")
             self.prev_poke_button.setFont(self.main_app.main_font)
 
             self.prev_poke_button.setIcon(QIcon(self.IM.arrow_icon[self.main_app.mode]))
@@ -1078,7 +1124,7 @@ class DexManager:
 
             self.next_poke_button = QPushButton(f'View Next Pokémon.. ({self.dex_num_to_poke_dict[dex_num_int + 1].replace("&", "&&")})')
             self.next_poke_button.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
-            self.next_poke_button.setProperty("class", "Setting_Button")
+            self.next_poke_button.setProperty("class", "Main_Button")
             self.next_poke_button.setFont(self.main_app.main_font)
 
             self.next_poke_button.setIcon(QIcon(self.IM.forward_icon[self.main_app.mode]))
@@ -1096,7 +1142,7 @@ class DexManager:
 
 
         random_button = QPushButton("Random..")
-        random_button.setProperty("class", "Setting_Button")
+        random_button.setProperty("class", "Main_Button")
         random_button.setFont(self.main_app.main_font)
 
         random_button.setIcon(QIcon(self.IM.dice_icon[self.main_app.mode]))

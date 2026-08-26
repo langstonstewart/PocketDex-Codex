@@ -50,19 +50,16 @@ class ImageManager:
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
 
         self.pkdb_icon = (QPixmap(self.img("src/images/links/pkdb_icon_dark.png")), QPixmap(self.img("src/images/links/pkdb_icon_light.png")))
-
         self.d_art_icon = (QPixmap(self.img("src/images/links/d_art_icon_dark.png")), QPixmap(self.img("src/images/links/d_art_icon_light.png")))
 
         self.height_icon = (self.img("src/images/dex_type_icons/height_icon_dark.png"), self.img("src/images/dex_type_icons/height_icon_light.png"))
         self.weight_icon = (self.img("src/images/dex_type_icons/weight_icon_dark.png"), self.img("src/images/dex_type_icons/weight_icon_light.png"))
         self.entry_icon = (self.img("src/images/dex_type_icons/entry_icon_dark.png"), self.img("src/images/dex_type_icons/entry_icon_light.png"))
+        self.clock_icon = (self.img("src/images/dex_type_icons/clock_dark.png"), self.img("src/images/dex_type_icons/clock_light.png"))
 
         self.sound_icon = (self.img("src/images/ui/sound_icon_dark.png"), self.img("src/images/ui/sound_icon_light.png"))
-
         self.arrow_up_icon = (QPixmap(self.img("src/images/ui/arrow_up_dark.png")), QPixmap(self.img("src/images/ui/arrow_up_light.png")))
-
         self.arrow_down_icon = (QPixmap(self.img("src/images/ui/arrow_down_dark.png")), QPixmap(self.img("src/images/ui/arrow_down_light.png")))
-
         self.dex_icon = (QPixmap(self.img("src/images/ui/pokedex_dark.png")), QPixmap(self.img("src/images/ui/pokedex_light.png")))
         
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")

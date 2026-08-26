@@ -501,7 +501,7 @@ class Themes:
                 margin: 3px; 
                 background-color: #3d3d3d; 
                 border-radius: 15px; 
-                padding: 5px;
+                padding: 6px;
                 padding-left: 15px; 
                 padding-right: 15px;
             }
@@ -518,7 +518,7 @@ class Themes:
                 margin: 3px; 
                 background-color: #3d3d3d; 
                 border-radius: 15px; 
-                padding: 5px;
+                padding: 6px;
                 padding-left: 15px; 
                 padding-right: 15px;
             }
