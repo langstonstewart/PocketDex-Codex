@@ -9,7 +9,6 @@ export async function onRequest(context) {
   const cache = caches.default;
   
   let response = await cache.match(context.request);
-  
   if (response) {
     return response;
   }
