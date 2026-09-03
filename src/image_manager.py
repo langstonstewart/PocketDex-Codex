@@ -1,8 +1,8 @@
 import os
 from PyQt6.QtCore import Qt, QObject
 from PyQt6.QtWidgets import QLabel
-from PyQt6.QtGui import QPixmap
-from PyQt6.QtCore import QUrl, QSize, pyqtSignal
+from PyQt6.QtGui import QPixmap, QPainter
+from PyQt6.QtCore import QUrl, QSize, pyqtSignal, QVariantAnimation, QEasingCurve
 from PyQt6.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 from PyQt6 import sip
 from functools import partial
@@ -175,7 +175,18 @@ class ImageManager:
                             'Paldea': (905, 1025)}
         
         self.scrub_list = [
-                            "Mega ",
+                           " ex",
+                           "Mega ",
+                           "M ",
+                           "-GX",
+                           "-EX",
+                           " BREAK",
+                           " VMAX",
+                           " VSTAR",
+                           " V-UNION",
+                           " LV.X",
+                           "LEGEND",
+                           "Prism Star",
                            "Origin Forme ",
                            "Paldean ",
                            "Hisuian ",
@@ -208,6 +219,7 @@ class ImageManager:
                            "Ethan’s ",
                            "Arven’s ",
                            "Ash’s ",
+                           "Ash-",
                            "Imakuni?’s ",
                            "Team Magma’s ",
                            "Team Aqua’s ",
@@ -227,8 +239,7 @@ class ImageManager:
                            " Speed Forme",
                            " Rain Form",
                            " Snow-Cloud Form",
-                           "Sunny Form",
-                           " ex"
+                           "Sunny Form"
                            ]
 
         self.tag_dict  = {
@@ -405,7 +416,7 @@ class ImageManager:
 R_manager = QNetworkRequest
 
 class ImageLabel(QLabel):
-    download_finished = pyqtSignal()
+    download_finished = pyqtSignal(QPixmap)
     cache_pixmap_set = pyqtSignal()
     
     def __init__(self, source, card_id=None, fp=None, cache=False, size=QSize(241, 337), network_manager: QNetworkAccessManager | None = None, is_pixmap=False):
@@ -416,6 +427,7 @@ class ImageLabel(QLabel):
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._reply: QNetworkReply | None = None
         self._network_manager = network_manager
+        self._fade_animations = []
 
         if not is_pixmap:
 
@@ -434,9 +446,54 @@ class ImageLabel(QLabel):
         Qt.AspectRatioMode.KeepAspectRatio,
         Qt.TransformationMode.SmoothTransformation
         )
-        self.setPixmap(scaled)
+        self._fade_in_pixmap(scaled)
         self.cache_pixmap_set.emit()
-        
+
+    def _faded_pixmap(self, pixmap: QPixmap, opacity: float) -> QPixmap:
+
+        if pixmap is None or pixmap.isNull():
+            return pixmap
+        if opacity >= 1.0:
+            return pixmap
+
+        faded = QPixmap(pixmap.size())
+        faded.setDevicePixelRatio(pixmap.devicePixelRatio())
+        faded.fill(Qt.GlobalColor.transparent)
+
+        painter = QPainter(faded)
+        painter.setOpacity(max(0.0, opacity))
+        painter.drawPixmap(0, 0, pixmap)
+        painter.end()
+
+        return faded
+
+    def _fade_in_pixmap(self, pixmap: QPixmap):
+
+        if sip.isdeleted(self) or pixmap is None or pixmap.isNull():
+            return
+
+        anim = QVariantAnimation(self)
+        anim.setDuration(300)
+        anim.setStartValue(0.0)
+        anim.setEndValue(1.0)
+        anim.setEasingCurve(QEasingCurve.Type.InOutQuad)
+
+        def _apply(value, pixmap=pixmap):
+            if sip.isdeleted(self):
+                return
+            self.setPixmap(self._faded_pixmap(pixmap, value))
+
+        anim.valueChanged.connect(_apply)
+
+        self._fade_animations.append(anim)
+
+        def _cleanup(anim=anim):
+            if anim in self._fade_animations:
+                self._fade_animations.remove(anim)
+
+        anim.finished.connect(_cleanup)
+
+        anim.start()
 
 
     def is_remote_source(self):
@@ -457,14 +514,14 @@ class ImageLabel(QLabel):
         if self._reply and not sip.isdeleted(self._reply):
             self._reply.deleteLater()
         self._reply = None
-        self.download_finished.emit()
+        self.download_finished.emit(QPixmap())
             
 
     def image_loaded(self):
         reply = self._reply
         if reply is None or sip.isdeleted(reply):
             self._reply = None
-            self.download_finished.emit()
+            self.download_finished.emit(QPixmap())
             return
         
         pixmap = QPixmap()
@@ -472,20 +529,21 @@ class ImageLabel(QLabel):
             pixmap.loadFromData(reply.readAll()) # type: ignore
         except RuntimeError:
             self._reply = None
-            self.download_finished.emit()
+            self.download_finished.emit(QPixmap())
             return
         scaled = pixmap.scaled(
             self.target_size,
             Qt.AspectRatioMode.KeepAspectRatio,
             Qt.TransformationMode.SmoothTransformation
         )
-        self.setPixmap(scaled)
+        
+        self._fade_in_pixmap(scaled)
 
         if not sip.isdeleted(reply):
             reply.deleteLater() # type: ignore
         self._reply = None
 
-        self.download_finished.emit()
+        self.download_finished.emit(scaled)
 
     def grab_local(self):
         local_path = self.source if isinstance(self.source, str) and os.path.exists(self.source) else ""
@@ -495,7 +553,7 @@ class ImageLabel(QLabel):
             Qt.AspectRatioMode.KeepAspectRatio,
             Qt.TransformationMode.SmoothTransformation
         )
-        self.setPixmap(scaled)
+        self._fade_in_pixmap(scaled)
 
     def set_pixmap(self, pixmap):
         scaled = pixmap.scaled(
@@ -503,7 +561,7 @@ class ImageLabel(QLabel):
             Qt.AspectRatioMode.KeepAspectRatio,
             Qt.TransformationMode.SmoothTransformation
         )
-        self.setPixmap(scaled)
+        self._fade_in_pixmap(scaled)
 
 
 

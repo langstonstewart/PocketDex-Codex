@@ -755,14 +755,15 @@ class DexManager:
 
         self.main_dex_widget.setStyleSheet(self.main_app.themes.dark_theme if self.main_app.mode == 1 else self.main_app.themes.light_theme)
 
-        if hasattr(self, 'scroll_area'):
-            self.saved_scroll_position = self.scroll_area.verticalScrollBar().value() # type: ignore
+        
 
         self.main_app.stacked_layout.setCurrentWidget(self.main_dex_widget)
 
-    def init_dex_data_page(self, poke_name, form):
+    def init_dex_data_page(self, poke_name, form, from_cd_page=False):
 
         self.search_query = None
+
+        self.main_app.refresh_cd_arrow_controls()
 
         if hasattr(self, 'u_button_shortcut'):
             self.u_button_shortcut.setEnabled(False) # type: ignore
@@ -786,7 +787,10 @@ class DexManager:
         
         self.dex_data_widget.setLayout(self.dex_data_layout)
 
-        self.main_app.init_back_button(self.dex_data_layout, "Top")
+        self.main_app.init_back_button(self.dex_data_layout, "Top", "Return to Pokédex..")
+
+        if from_cd_page:
+            self.init_return_to_cd_button(self.dex_data_layout)
 
 
         self.main_title_layout = QHBoxLayout()
@@ -924,7 +928,7 @@ class DexManager:
                 form_button.enterEvent = partial(self.main_app.on_button_enter, form_button)
                 form_button.leaveEvent = partial(self.main_app.on_button_leave, form_button)  # type: ignore
 
-                form_button.clicked.connect(partial(self.refresh_dex_data_page, poke_name, form_i))
+                form_button.clicked.connect(partial(self.refresh_dex_data_page, poke_name, form_i, from_cd_page))
 
                 self.forms_layout.addWidget(form_button)
     
@@ -1084,6 +1088,18 @@ class DexManager:
                 self.curr_txt.setText(f'<img src="{self.IM.entry_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Entry {self.fl_index + 1}/{len(self.poke_flavor_text)}:')
                 self.flavor_txt.setText(self.poke_flavor_text[self.fl_index])
 
+    def refresh_dex_arrow_controls(self):
+
+        if hasattr(self, 'l_button_shortcut'):
+            self.l_button_shortcut.setEnabled(False) # type: ignore
+            self.l_button_shortcut.deleteLater() # type: ignore
+            del self.l_button_shortcut
+        
+        if hasattr(self, 'r_button_shortcut'):
+            self.r_button_shortcut.setEnabled(False) # type: ignore
+            self.r_button_shortcut.deleteLater() # type: ignore
+            del self.r_button_shortcut
+
 
     def create_arrow_dex_buttons(self, poke_name, layout):
 
@@ -1155,9 +1171,34 @@ class DexManager:
 
         layout.addWidget(random_button)
 
-    def refresh_dex_data_page(self, poke_name, form):
+    def init_return_to_cd_button(self, layout):
+        return_button = QPushButton("Return to Card Data..")
+        return_button.setProperty("class", "Main_Button")
+        return_button.setFont(self.main_app.main_font)
+
+        return_button.setIcon(QIcon(self.IM.arrow_icon[self.main_app.mode]))
+        return_button.setIconSize(QSize(36, 36))
+
+        return_button.enterEvent = partial(self.main_app.on_button_enter, return_button)
+        return_button.leaveEvent = partial(self.main_app.on_button_leave, return_button) # type: ignore
+        
+        return_button.clicked.connect(self.main_app.return_to_card_data_page)
+
+        self.main_app.bb_layout.addWidget(return_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
+
+    def refresh_dex_data_page(self, poke_name, form, from_cd_page=False):
+
         self.main_app.go_back(self.dex_data_layout)
-        self.init_dex_data_page(poke_name, form)
+        self.init_dex_data_page(poke_name, form, from_cd_page)
+
+
+    def view_card_poke_page(self, poke_name, form):
+
+        self.dex_page_init(False)
+
+        self.main_dex_widget.setStyleSheet(self.main_app.themes.dark_theme if self.main_app.mode == 1 else self.main_app.themes.light_theme)
+
+        self.init_dex_data_page(poke_name, form, True)
 
 
     def display_dex_data_page(self):
@@ -1166,13 +1207,15 @@ class DexManager:
 
         self.main_app.stacked_layout.addWidget(self.dex_data_widget)
 
+        if hasattr(self.main_app, 'scroll_area'):      
+            self.main_app.saved_scroll_position = self.main_app.scroll_area.verticalScrollBar().value() # type: ignore
+        
         self.main_app.stacked_layout.setCurrentWidget(self.dex_data_widget)
 
-        if self.dex_data_widget:
-            self.main_dex_widget.setSizePolicy(
-                QSizePolicy.Policy.Ignored, 
-                QSizePolicy.Policy.Ignored
-            )
+        self.main_app.stacked_layout.invalidate()
+        self.main_app.container.adjustSize()    
+
+        self.main_app.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
 
     def scrub_card_name(self, poke_name):
@@ -1181,7 +1224,8 @@ class DexManager:
         poke_name = re.sub(r'<[^>]+>', '', poke_name).strip()
 
         for suffix in self.IM.scrub_list:
-            poke_name = poke_name.replace(suffix, "")
+            if suffix in poke_name:
+                poke_name = poke_name.replace(suffix, "")
 
         for alpha in string.ascii_uppercase + string.punctuation:
             if poke_name.endswith(alpha):

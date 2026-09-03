@@ -132,16 +132,7 @@ class Themes:
 
             QLabel[class="type_header"][gender="genderless"] { color: #1E1E1E; background-color: #ebebeb; }
 
-            QLabel[class="dex_text"] {
-                font-size: 20px;
-                color: white; 
-                margin: 3px; 
-                background-color: #ebebeb; 
-                border-radius: 20px; 
-                padding: 5px; 
-                padding-left: 15px; 
-                padding-right: 15px;
-            }
+       
 
             QLabel[class="Set_Tag"] {
                 font-size: 35px;
@@ -266,6 +257,28 @@ class Themes:
                 margin: 3px; 
                 background-color: #ebebeb; 
                 border-radius: 15px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            QLabel[class="dex_text_med"] {
+                font-size: 25px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border-radius: 15px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            QLabel[class="dex_text_big"] {
+                font-size: 45px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border-radius: 25px; 
                 padding: 5px; 
                 padding-left: 15px; 
                 padding-right: 15px;
@@ -472,6 +485,30 @@ class Themes:
                 padding-right: 15px;
             }
 
+            QLabel[class="dex_text_med"] {
+                            font-size: 25px;
+                            color: white; 
+                            margin: 3px; 
+                            background-color: #3d3d3d; 
+                            border-radius: 15px; 
+                            padding: 5px; 
+                            padding-left: 15px; 
+                            padding-right: 15px;
+                        }
+            
+
+            QLabel[class="dex_text_big"] {
+                font-size: 40px;
+                color: white; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border-radius: 25px; 
+                padding: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+
+            
             QLabel[class="dex_text_icon"] {
                 font-size: 20px;
                 color: white; 

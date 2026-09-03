@@ -70,6 +70,25 @@ from PyQt6.QtMultimedia import (
     )
 
 
+class CurrentOnlyStackedLayout(QStackedLayout):
+
+    def sizeHint(self):
+        widget = self.currentWidget()
+        return widget.sizeHint() if widget else super().sizeHint()
+
+    def minimumSize(self):
+        widget = self.currentWidget()
+        return widget.minimumSizeHint() if widget else super().minimumSize()
+
+    def hasHeightForWidth(self):
+        widget = self.currentWidget()
+        return widget.hasHeightForWidth() if widget else super().hasHeightForWidth()
+
+    def heightForWidth(self, width):
+        widget = self.currentWidget()
+        return widget.heightForWidth(width) if widget else super().heightForWidth(width)
+
+
 class Application(QMainWindow):
     def __init__(self) -> None:
         self.app = QApplication([])
@@ -148,7 +167,7 @@ class Application(QMainWindow):
 
         self.previous_widget = None
 
-        self.stacked_layout = QStackedLayout(self.container)
+        self.stacked_layout = CurrentOnlyStackedLayout(self.container)
 
         self.cd_widget = QWidget() 
 
@@ -436,6 +455,8 @@ class Application(QMainWindow):
         for up_set in self.upcoming_sets:
             self.create_countdown(up_set["Name"], up_set["Release Date"], up_set["Release Time"])
 
+        self.up_layout.addStretch()
+
     def create_countdown(self, name_str, date_str, time_str):
         countdown_label = QLabel("")
         countdown_label.setProperty("class", "dex_text")
@@ -466,7 +487,7 @@ class Application(QMainWindow):
         seconds_remaining = now.secsTo(target_datetime)
 
         if seconds_remaining <= 0:
-            countdown_label.setText("Set Released!")
+            countdown_label.setText(f"{name_str}:\nSet Released! Awaiting set data on Github..")
             timer.stop()
             return
 
@@ -475,7 +496,7 @@ class Application(QMainWindow):
         minutes = (seconds_remaining % 3600) // 60
         seconds = seconds_remaining % 60
 
-        countdown_label.setText(f"{name_str}:\n{days:01d}d {hours:02d}h {minutes:02d}m {seconds:02d}s")
+        countdown_label.setText(f"{name_str}:\n{f"{days:01d}d" if days else ""} {"" if not days and not hours else f"{hours:02d}h"} {"" if not days and not hours and not minutes else f"{minutes:02d}h"} {seconds:02d}s")
         
 
     def seperator(self, layout, width):
@@ -611,27 +632,9 @@ class Application(QMainWindow):
 
     def display_sets(self, category):
 
-        if hasattr(self, 'l_button_shortcut'):
-            self.l_button_shortcut.setEnabled(False) # type: ignore
-            self.l_button_shortcut.deleteLater() # type: ignore
-            del self.l_button_shortcut
+        self.refresh_cd_arrow_controls()
 
-        if hasattr(self, 'r_button_shortcut'):
-            self.r_button_shortcut.setEnabled(False) # type: ignore
-            self.r_button_shortcut.deleteLater() # type: ignore
-            del self.r_button_shortcut
-
-        if hasattr(self.dex_manager, 'l_button_shortcut'):
-            self.dex_manager.l_button_shortcut.setEnabled(False) # type: ignore
-            self.dex_manager.l_button_shortcut.deleteLater() # type: ignore
-            del self.dex_manager.l_button_shortcut
-
-
-        if hasattr(self.dex_manager, 'r_button_shortcut'):
-            self.dex_manager.r_button_shortcut.setEnabled(False) # type: ignore
-            self.dex_manager.r_button_shortcut.deleteLater() # type: ignore
-            del self.dex_manager.r_button_shortcut
-
+        self.dex_manager.refresh_dex_arrow_controls()
 
         self.category_file_name = category
 
@@ -717,12 +720,13 @@ class Application(QMainWindow):
         self.title_icon.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.title_icon.setPixmap(title_dict[category][1].scaled(650, 350, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         self.title_icon.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.title_icon.setProperty("class", "header2")
 
         img_layout.addWidget(self.title_icon)
 
         category_label = QLabel(f"{title_dict[category][0]}")
         category_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        category_label.setProperty("class", "header_title")
+        category_label.setProperty("class", "header3")
         category_label.setFont(self.main_font)
         category_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
@@ -932,6 +936,7 @@ class Application(QMainWindow):
     All rights, trademarks, and intellectual property related to Pokémon, including names, images,
     and game mechanics, belong to The Pokémon Company, Nintendo, Game Freak, and Creatures Inc.
     This project is not affiliated with or associated with these entities.''')
+        
         dis_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         dis_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         dis_label.setProperty("class", "header2")
@@ -1396,6 +1401,10 @@ class Application(QMainWindow):
         
     def display_card_data_page(self, card_index, favorites_menu):
 
+        self.previous = False
+
+        self.next = False
+
         if favorites_menu:
             self.clear_layout(self.fav_main_layout) # type: ignore
         else:
@@ -1848,30 +1857,8 @@ class Application(QMainWindow):
 
         button_layout.addStretch()
 
-        random_button = QPushButton("Random..")
-        random_button.setProperty("class", "Main_Button")
-        random_button.setFont(self.main_font)
 
-        random_button.setIcon(QIcon(self.IM.dice_icon[self.mode]))
-        random_button.setIconSize(QSize(36, 36))
-
-        random_button.enterEvent = partial(self.on_button_enter, random_button)
-        random_button.leaveEvent = partial(self.on_button_leave, random_button) # type: ignore
-        random_button.clicked.connect(partial(self.display_card_data_page, random.randint(0, len(self.set_list) - 1), True if favorites_menu else False))
-
-        button_layout.addWidget(random_button)
-
-
-        if hasattr(self, 'l_button_shortcut'):
-            self.l_button_shortcut.setEnabled(False) # type: ignore
-            self.l_button_shortcut.deleteLater() # type: ignore
-            del self.l_button_shortcut
-
-
-        if hasattr(self, 'r_button_shortcut'):
-            self.r_button_shortcut.setEnabled(False) # type: ignore
-            self.r_button_shortcut.deleteLater() # type: ignore
-            del self.r_button_shortcut
+        self.refresh_cd_arrow_controls()
                 
 
         if card_index - 1 >= 0:
@@ -1888,8 +1875,7 @@ class Application(QMainWindow):
             
             self.prev_card_button.clicked.connect(partial(self.display_card_data_page, card_index - 1, True if favorites_menu else False))
 
-            self.l_button_shortcut = QShortcut(QKeySequence("Left"), self)
-            self.l_button_shortcut.activated.connect(self.prev_card_button.click)
+            self.previous = True
 
             button_layout.addWidget(self.prev_card_button)
 
@@ -1908,10 +1894,51 @@ class Application(QMainWindow):
 
                 self.next_card_button.clicked.connect(partial(self.display_card_data_page, card_index + 1, True if favorites_menu else False))
 
-                self.r_button_shortcut = QShortcut(QKeySequence("Right"), self)
-                self.r_button_shortcut.activated.connect(self.next_card_button.click)
+                self.next = True
 
                 button_layout.addWidget(self.next_card_button)
+
+        self.restore_cd_arrow_controls()
+
+  
+        if self.set_list[card_index]["Card-Type"] == "Pokemon":
+
+            scrubbed_card_name = self.dex_manager.scrub_card_name(self.set_list[card_index]["Name"])
+
+            if scrubbed_card_name in self.dex_manager.poke_to_dex_num_dict.keys():
+
+                self.view_dex_page_button = QPushButton(f'View Pokédex Page..')
+                self.view_dex_page_button.setProperty("class", "Main_Button")
+                self.view_dex_page_button.setFont(self.main_font)
+
+                self.view_dex_page_button.setIcon(QIcon(self.IM.dex_icon[self.mode]))
+                self.view_dex_page_button.setIconSize(QSize(36, 36))
+
+                self.view_dex_page_button.enterEvent = partial(self.on_button_enter, self.view_dex_page_button)
+                self.view_dex_page_button.leaveEvent = partial(self.on_button_leave, self.view_dex_page_button) # type: ignore
+
+                self.view_dex_page_button.clicked.connect(partial(self.dex_manager.view_card_poke_page, scrubbed_card_name, "Form_1"))
+
+                button_layout.addWidget(self.view_dex_page_button)
+            else:
+                print(f"cardname_to_dex failed: {scrubbed_card_name}")
+            
+           
+
+        random_button = QPushButton("Random..")
+        random_button.setProperty("class", "Main_Button")
+        random_button.setFont(self.main_font)
+
+        random_button.setIcon(QIcon(self.IM.dice_icon[self.mode]))
+        random_button.setIconSize(QSize(36, 36))
+
+        random_button.enterEvent = partial(self.on_button_enter, random_button)
+        random_button.leaveEvent = partial(self.on_button_leave, random_button) # type: ignore
+        random_button.clicked.connect(partial(self.display_card_data_page, random.randint(0, len(self.set_list) - 1), True if favorites_menu else False))
+
+        button_layout.addWidget(random_button)
+
+
 
         button_layout.addStretch()
         button_layout.setContentsMargins(75, 0, 0, 0)
@@ -2263,8 +2290,8 @@ class Application(QMainWindow):
 
                 self.display_card_data_page(card_index, favorites_menu)
 
-        def cache_img(widget):
-            pix = widget.pixmap()
+        def cache_img(widget, pixmap):
+            pix = pixmap
             if pix and not pix.isNull():
                 if current_set_id not in self.img_cache_dict:
                     self.img_cache_dict[current_set_id] = {}
@@ -2762,6 +2789,10 @@ class Application(QMainWindow):
         
         if len(self.favorite_list):
 
+
+            self.init_back_button(self.fav_main_layout, "Favorites")
+            self.change_col_button(self.fav_main_layout)
+
             self.card_cache_count = 0
 
             self.previous_widget = self.fav_main_layout
@@ -2854,12 +2885,11 @@ class Application(QMainWindow):
                             break
             
             self.seperator(self.fav_main_layout, self.set_sep_lens[self.col_count])
-            self.fav_main_layout.addStretch(100)
-            self.init_back_button(self.fav_main_layout, "Favorites")
-            self.change_col_button(self.fav_main_layout)
-
+        
             self.stacked_layout.addWidget(self.fav_widget)
             self.stacked_layout.setCurrentWidget(self.fav_widget)
+
+            self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
             if hasattr(self, 'main_layout') and self.main_layout is not None:
                 self.clear_layout(self.main_layout) # type: ignore
@@ -2956,7 +2986,7 @@ class Application(QMainWindow):
         self.reload_images()
 
 
-    def init_back_button(self, layout, key):
+    def init_back_button(self, layout, key, text=""):
 
         self.bb_layout = QHBoxLayout()
         self.bb_layout.setAlignment(Qt.AlignmentFlag.AlignLeft)
@@ -2964,8 +2994,9 @@ class Application(QMainWindow):
         layout.addLayout(self.bb_layout)
         
 
-        back_button = QPushButton("")
+        back_button = QPushButton(f"{text if text else ""}")
         back_button.setProperty("class", "Main_Button")
+        back_button.setFont(self.main_font)
         back_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
 
         back_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
@@ -3012,16 +3043,24 @@ class Application(QMainWindow):
             return
         
         elif hasattr(self.dex_manager, 'dex_data_layout') and layout == self.dex_manager.dex_data_layout:
-            #self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+    
 
             self.dex_manager.main_dex_widget.setSizePolicy(
                     QSizePolicy.Policy.Expanding, 
                     QSizePolicy.Policy.Expanding
                 )
+            
+            
             self.stacked_layout.setCurrentWidget(self.dex_manager.main_dex_widget)
 
+            self.stacked_layout.invalidate()
+            self.container.adjustSize()
+
             self.clear_layout(self.dex_manager.dex_data_layout) # type: ignore
-            
+
+            if not self.pend_reset and hasattr(self, 'saved_scroll_position') and hasattr(self, 'scroll_area'):
+                
+                QTimer.singleShot(0, lambda: self.scroll_area.verticalScrollBar().setValue(self.saved_scroll_position)) # type: ignore
 
             if self.pend_reset:
         
@@ -3031,7 +3070,7 @@ class Application(QMainWindow):
                 
 
         
-        elif (hasattr(self, 'set_main_layout') and layout == self.set_main_layout) or self.set_header:
+        elif (hasattr(self, 'set_main_layout') and layout == self.set_main_layout) or (hasattr(self, 'set_header') and layout == self.set_header):
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
             self.clear_layout(self.set_main_layout) # type: ignore
@@ -3050,6 +3089,42 @@ class Application(QMainWindow):
                     self.display_favorites()
 
             return
+
+    def return_to_card_data_page(self):
+
+        self.dex_manager.refresh_dex_arrow_controls()
+
+        self.clear_layout(self.dex_manager.dex_data_layout) # type: ignore
+
+        self.refresh_cd_arrow_controls()
+
+        self.restore_cd_arrow_controls()
+
+        self.stacked_layout.setCurrentWidget(self.cd_widget)
+
+        self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+
+    def refresh_cd_arrow_controls(self):
+        
+        if hasattr(self, 'l_button_shortcut'):
+            self.l_button_shortcut.setEnabled(False) # type: ignore
+            self.l_button_shortcut.deleteLater() # type: ignore
+            del self.l_button_shortcut
+        
+        if hasattr(self, 'r_button_shortcut'):
+            self.r_button_shortcut.setEnabled(False) # type: ignore
+            self.r_button_shortcut.deleteLater() # type: ignore
+            del self.r_button_shortcut
+
+    def restore_cd_arrow_controls(self):
+        if self.previous:
+            self.l_button_shortcut = QShortcut(QKeySequence("Left"), self)
+            self.l_button_shortcut.activated.connect(self.prev_card_button.click)
+
+        if self.next:
+            self.r_button_shortcut = QShortcut(QKeySequence("Right"), self)
+            self.r_button_shortcut.activated.connect(self.next_card_button.click)
+
 
 
     def clear_layout(self, layout: QVBoxLayout):
