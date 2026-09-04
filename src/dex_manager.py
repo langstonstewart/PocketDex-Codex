@@ -787,7 +787,7 @@ class DexManager:
         
         self.dex_data_widget.setLayout(self.dex_data_layout)
 
-        self.main_app.init_back_button(self.dex_data_layout, "Top", "Return to Pokédex..")
+        self.main_app.init_back_button(self.dex_data_layout, "dex_return, Top", "Return to Pokédex..")
 
         if from_cd_page:
             self.init_return_to_cd_button(self.dex_data_layout)
@@ -1176,7 +1176,7 @@ class DexManager:
         return_button.setProperty("class", "Main_Button")
         return_button.setFont(self.main_app.main_font)
 
-        return_button.setIcon(QIcon(self.IM.arrow_icon[self.main_app.mode]))
+        return_button.setIcon(QIcon(self.IM.cd_back_icon[self.main_app.mode]))
         return_button.setIconSize(QSize(36, 36))
 
         return_button.enterEvent = partial(self.main_app.on_button_enter, return_button)
@@ -1227,7 +1227,7 @@ class DexManager:
             if suffix in poke_name:
                 poke_name = poke_name.replace(suffix, "")
 
-        for alpha in string.ascii_uppercase + string.punctuation:
+        for alpha in string.ascii_uppercase + string.punctuation.replace(".", ""):
             if poke_name.endswith(alpha):
                 poke_name = poke_name.rstrip(alpha)
         

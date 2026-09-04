@@ -67,7 +67,7 @@ class Themes:
                 color: #828181;
             }
 
-            QLabel[class="header4"] {
+            QLabel[class="seperator"] {
                 font-size: 20px;
                 color: #1E1E1E; 
                 margin: 3px; 
@@ -263,7 +263,7 @@ class Themes:
             }
 
             QLabel[class="dex_text_med"] {
-                font-size: 25px;
+                font-size: 24px;
                 color: #1E1E1E; 
                 margin: 3px; 
                 background-color: #ebebeb; 
@@ -409,11 +409,11 @@ class Themes:
                 color: white;
             }
 
-            QLabel[class="header4"] {
+            QLabel[class="seperator"] {
                 font-size: 20px;
                 color: white; 
                 margin: 3px; 
-                background-color: #575757; 
+                background-color: #3d3d3d; 
                 border: 3px solid white; 
                 border-radius: 20px; 
                 padding: 5px; 
@@ -486,7 +486,7 @@ class Themes:
             }
 
             QLabel[class="dex_text_med"] {
-                            font-size: 25px;
+                            font-size: 24px;
                             color: white; 
                             margin: 3px; 
                             background-color: #3d3d3d; 

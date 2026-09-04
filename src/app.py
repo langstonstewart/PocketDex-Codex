@@ -511,7 +511,7 @@ class Application(QMainWindow):
         seperator = QLabel("")
         
         seperator.setSizePolicy(QSizePolicy.Policy.Preferred if width else QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
-        seperator.setProperty("class", "header4")
+        seperator.setProperty("class", "seperator")
         seperator.setMinimumWidth(width)
         seperator.setFixedHeight(25)
         if width:
@@ -762,6 +762,8 @@ class Application(QMainWindow):
 
             self.main_layout.addLayout(self.set_layout) # type: ignore
 
+    
+
             col_length = self.set_col_count
             row_length = ceil(len(self.set_dict[key]) / col_length)
             current_set = len(self.set_dict[key]) - 1 if self.set_inverse else 0
@@ -819,6 +821,8 @@ class Application(QMainWindow):
 
             
         self.seperator(self.main_layout, 1200)
+
+        self.main_layout.addStretch() # type: ignore
 
         if self.category_dir != "TCG Pocket":
             self.init_back_button(self.main_layout, "Set_Page")
@@ -1405,6 +1409,11 @@ class Application(QMainWindow):
 
         self.next = False
 
+        button_layout = QHBoxLayout()
+        button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
+
+        
+
         if favorites_menu:
             self.clear_layout(self.fav_main_layout) # type: ignore
         else:
@@ -1415,7 +1424,6 @@ class Application(QMainWindow):
 
         self.fb_list = []
 
-        self.seperator(self.cd_layout, 1100)
 
         self.main_card_data_layout = QVBoxLayout()
         self.main_card_data_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1439,6 +1447,9 @@ class Application(QMainWindow):
         card_type_banner.setPixmap(self.IM.card_type_dict[card_type].scaled(self.IM.card_type_dict[card_type].width() // 3, self.IM.card_type_dict[card_type].height() // 3, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         card_type_banner.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         card_type_banner.setAlignment(Qt.AlignmentFlag.AlignLeft if self.set_list[card_index]["Card-Type"] == "Pokemon" else Qt.AlignmentFlag.AlignHCenter)
+
+        if self.set_list[card_index]["Card-Type"] == "Pokemon":
+            card_header_layout.addStretch()
 
         card_header_layout.addWidget(card_type_banner)
 
@@ -1469,12 +1480,14 @@ class Application(QMainWindow):
                 
             hp_label.setText(f'{hp_txt}&nbsp;&nbsp;{energy_map}')
                 
-            hp_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+            hp_label.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
             hp_label.setAlignment(Qt.AlignmentFlag.AlignRight)
             hp_label.setFont(self.main_font_bold)
-
+            hp_label.setProperty("class", "dex_text")
+            
             card_header_hp_layout.addWidget(hp_label)
 
+            card_header_layout.addStretch()
 
             if self.set_list[card_index]["Type"] in ['Fire', 'Psychic']:
                 pmp_property = 'purple_ability_header'
@@ -1510,31 +1523,7 @@ class Application(QMainWindow):
                         card_desc = card_desc.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
                         
 
-                width = 1000
-
-                card_desc_label = QLabel()
-                card_desc_label.setTextFormat(Qt.TextFormat.RichText)
-                card_desc_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                card_desc_label.setFont(self.main_font)
-                card_desc_label.setProperty("class", "header2")
-                card_desc_label.setFixedWidth(width)
-                card_desc_label.setWordWrap(True)
-                card_desc_label.setContentsMargins(0, 0, 0, 0)
-
-                doc = QTextDocument()
-                doc.setDefaultFont(self.main_font)
-                doc.setHtml(card_desc)
-                doc.setTextWidth(width)
-
-
-                height = int(doc.size().height()) + 100
-                
-                card_desc_label.setFixedHeight(height)
-                card_desc_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-                card_desc_label.setText(card_desc)
-
-                desc_layout.addWidget(card_desc_label)
+                self.add_neat_label(card_desc, desc_layout)
 
 
         
@@ -1590,7 +1579,7 @@ class Application(QMainWindow):
 
                 weakness_txt = QLabel("Weakness")
                 weakness_txt.setFont(self.main_font)
-                weakness_txt.setProperty("class", "header2")
+                weakness_txt.setProperty("class", "dex_text")
                 weakness_txt.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                 w_layout.addWidget(weakness_txt)
 
@@ -1599,11 +1588,12 @@ class Application(QMainWindow):
                     weakness_energy = QLabel("")
                     weakness_energy.setPixmap(QPixmap(self.IM.type_dict[weakness]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
                     weakness_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                    
                     w_layout.addWidget(weakness_energy)
 
                 weakness_dmg = QLabel("+20" if self.category_dir == "TCG Pocket" else self.set_list[card_index]["Weakness-Modifier"])
                 weakness_dmg.setFont(self.main_font)
-                weakness_dmg.setProperty("class", "header2")
+                weakness_dmg.setProperty("class", "dex_text")
                 weakness_dmg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                 w_layout.addWidget(weakness_dmg)
                 
@@ -1618,7 +1608,7 @@ class Application(QMainWindow):
 
                 resist_txt = QLabel("Resistance")
                 resist_txt.setFont(self.main_font)
-                resist_txt.setProperty("class", "header2")
+                resist_txt.setProperty("class", "dex_text")
                 resist_txt.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                 r_layout.addWidget(resist_txt)
 
@@ -1626,11 +1616,12 @@ class Application(QMainWindow):
                     resist_energy = QLabel("")
                     resist_energy.setPixmap(QPixmap(self.IM.type_dict[resistance]).scaled(20, 20, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)) # type: ignore
                     resist_energy.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+             
                     r_layout.addWidget(resist_energy)
 
                 resist_dmg = QLabel("-20" if self.category_dir == "TCG Pocket" else self.set_list[card_index]["Resistance-Modifier"])
                 resist_dmg.setFont(self.main_font)
-                resist_dmg.setProperty("class", "header2")
+                resist_dmg.setProperty("class", "dex_text")
                 resist_dmg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                 r_layout.addWidget(resist_dmg)
 
@@ -1645,7 +1636,7 @@ class Application(QMainWindow):
 
                 retreat_txt = QLabel("Retreat")
                 retreat_txt.setFont(self.main_font)
-                retreat_txt.setProperty("class", "header2")
+                retreat_txt.setProperty("class", "dex_text")
                 retreat_txt.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
                 rt_layout.addWidget(retreat_txt)
 
@@ -1683,29 +1674,8 @@ class Application(QMainWindow):
             ft_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
             self.cd_layout.addLayout(ft_layout) # type: ignore
 
-            width = 800
+            self.add_neat_label(flavor_text, ft_layout)
 
-            ft_label = QLabel()
-            ft_label.setTextFormat(Qt.TextFormat.RichText)
-            ft_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            ft_label.setFont(self.main_font)
-            ft_label.setProperty("class", "header2")
-            ft_label.setFixedWidth(width)
-            ft_label.setWordWrap(True)
-            ft_label.setContentsMargins(0, 0, 0, 0)
-
-            doc = QTextDocument()
-            doc.setDefaultFont(self.main_font)
-            doc.setHtml(flavor_text)
-            doc.setTextWidth(width)
-
-            height = int(doc.size().height()) + 100
-            ft_label.setFixedHeight(height)
-            ft_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-            ft_label.setText(flavor_text)
-
-            ft_layout.addWidget(ft_label)
 
         rule_list = card_rule_list if card_rule_list else pocket_rule_list
 
@@ -1735,31 +1705,8 @@ class Application(QMainWindow):
                 card_rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                 self.cd_layout.addLayout(card_rule_layout) # type: ignore
 
-
-                width = 800
-
-                card_rule_label = QLabel()
-                card_rule_label.setTextFormat(Qt.TextFormat.RichText)
-                card_rule_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                card_rule_label.setFont(self.main_font)
-                card_rule_label.setProperty("class", "header2")
-                card_rule_label.setFixedWidth(width)
-                card_rule_label.setWordWrap(True)
-                card_rule_label.setContentsMargins(0, 0, 0, 0)
-
-                doc = QTextDocument()
-                doc.setDefaultFont(self.main_font)
-                doc.setHtml(rule_desc)
-                doc.setTextWidth(width)
-
-                height = int(doc.size().height()) + 100
-                card_rule_label.setFixedHeight(height)
-                card_rule_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-                card_rule_label.setText(rule_desc)
-
-                card_rule_layout.addWidget(card_rule_label)
-
+                self.add_neat_label(rule_desc, card_rule_layout)
+                
 
         rule_layout = QVBoxLayout()
         rule_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1780,7 +1727,7 @@ class Application(QMainWindow):
 
             i_label = QLabel(f"Illustrated by {self.set_list[card_index]["Illustrator"]}")
             i_label.setFont(self.main_font)
-            i_label.setProperty("class", "header2")
+            i_label.setProperty("class", "dex_text")
             i_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
             misc_extra_layout.addWidget(i_label)
 
@@ -1794,11 +1741,13 @@ class Application(QMainWindow):
 
         card_index_label = QLabel(f"{card_index + 1} of {len(self.set_list)}")
         card_index_label.setFont(self.main_font)
-        card_index_label.setProperty("class", "header2")
+        card_index_label.setProperty("class", "dex_text")
         card_index_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         misc_extra_layout.addWidget(card_index_label)
 
         self.seperator(rule_layout, 1100)
+
+        self.cd_layout.addStretch()
 
         prices_layout = QHBoxLayout()
         prices_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -1852,8 +1801,7 @@ class Application(QMainWindow):
             cm_text.mousePressEvent = partial(on_click, self.set_list[card_index]["cardmarket_link"]) # type: ignore
             prices_layout.addWidget(cm_text)
 
-        button_layout = QHBoxLayout()
-        button_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignBottom)
+        
 
         button_layout.addStretch()
 
@@ -1938,15 +1886,13 @@ class Application(QMainWindow):
 
         button_layout.addWidget(random_button)
 
-
-
         button_layout.addStretch()
         button_layout.setContentsMargins(75, 0, 0, 0)
 
         self.cd_layout.addStretch() # type: ignore
 
         self.init_back_button(self.cd_layout, "Card_Data")
-
+                
         self.bb_layout.addLayout(button_layout) # type: ignore
 
         set_logo = QLabel("")
@@ -2045,19 +1991,33 @@ class Application(QMainWindow):
                         html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
                         move_effect = move_effect.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
 
-                move_effect_label = QLabel(move_effect)
-                move_effect_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                move_effect_label.setFont(self.main_font)
-                move_effect_label.setTextFormat(Qt.TextFormat.RichText)
-                move_effect_label.setProperty("class", "header2")
-                move_effect_label.setMinimumWidth(1000)
-                move_effect_label.setMaximumWidth(1000)
-                move_effect_label.setWordWrap(True)
-                move_effect_label.setMinimumHeight(move_effect_label.sizeHint().height() * 5)
-                move_effect_label.setMaximumHeight(move_effect_label.sizeHint().height() * 5)
-                move_effect_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
+
+
+                self.add_neat_label(move_effect, layout)
                 
-                layout.addWidget(move_effect_label)
+                
+
+    def add_neat_label(self, text, layout):
+        width = 800
+        
+        neat_label = QLabel()
+        neat_label.setTextFormat(Qt.TextFormat.RichText)
+        neat_label.setProperty("class", "dex_text")
+        neat_label.setWordWrap(True)
+        neat_label.setFont(self.main_font)
+        neat_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        neat_label.setFixedWidth(width)
+        neat_label.setContentsMargins(0, 0, 0, 0)
+
+        neat_label.setText(text)
+        layout.addWidget(neat_label)
+        neat_label.ensurePolished()
+        
+        height = neat_label.heightForWidth(width)
+        neat_label.setFixedHeight(height)
+        neat_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+
+        
 
     def display_ancient_trait(self, card_index, layout: QVBoxLayout):
 
@@ -2111,29 +2071,9 @@ class Application(QMainWindow):
         ate_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         layout.addLayout(ate_layout) # type: ignore
 
-        width = 1000
+        self.add_neat_label(at_effect, ate_layout)
 
-        at_effect_label = QLabel(at_effect)
-        at_effect_label.setTextFormat(Qt.TextFormat.RichText)
-        at_effect_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-        at_effect_label.setFont(self.main_font)
-        at_effect_label.setProperty("class", "header2")
-        at_effect_label.setFixedWidth(width)
-        at_effect_label.setWordWrap(True)
-        at_effect_label.setContentsMargins(0, 0, 0, 0)
-
-        doc = QTextDocument()
-        doc.setDefaultFont(self.main_font)
-        doc.setHtml(at_effect)
-        doc.setTextWidth(width)
-
-        height = int(doc.size().height()) + 100
-        at_effect_label.setFixedHeight(height)
-        at_effect_label.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-        at_effect_label.setText(at_effect)
-
-        ate_layout.addWidget(at_effect_label)
+        
 
 
 
@@ -2216,29 +2156,7 @@ class Application(QMainWindow):
                             html_img = f'<img src="{img_path[self.mode]}" width="{img_path[2]}" height="{img_path[3]}">'
                             ability_effect_data = ability_effect_data.replace(tag, (f"Pokémon {html_img} ") if 'Pokémon' in tag else f" {html_img} ")
 
-                    width = 1000
-
-                    ability_effect_text = QLabel()
-                    ability_effect_text.setTextFormat(Qt.TextFormat.RichText)
-                    ability_effect_text.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-                    ability_effect_text.setFont(self.main_font)
-                    ability_effect_text.setProperty("class", "header2")
-                    ability_effect_text.setFixedWidth(width)
-                    ability_effect_text.setWordWrap(True)
-                    ability_effect_text.setContentsMargins(0, 0, 0, 0)
-
-                    doc = QTextDocument()
-                    doc.setDefaultFont(self.main_font)
-                    doc.setHtml(ability_effect_data)
-                    doc.setTextWidth(width)
-
-                    height = int(doc.size().height()) + 100
-                    ability_effect_text.setFixedHeight(height)
-                    ability_effect_text.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-                    ability_effect_text.setText(ability_effect_data)
-
-                    layout.addWidget(ability_effect_text)
+                    self.add_neat_label(ability_effect_data, layout)
 
         
 
@@ -2993,13 +2911,14 @@ class Application(QMainWindow):
 
         layout.addLayout(self.bb_layout)
         
-
         back_button = QPushButton(f"{text if text else ""}")
         back_button.setProperty("class", "Main_Button")
         back_button.setFont(self.main_font)
         back_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
-
-        back_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
+        if "dex_return" in key:
+            back_button.setIcon(QIcon(self.IM.dex_back_icon[self.mode]))
+        else:
+            back_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
         back_button.setIconSize(QSize(36, 36))
 
         back_button.enterEvent = partial(self.on_button_enter, back_button)
@@ -3011,7 +2930,7 @@ class Application(QMainWindow):
 
         self.ui_button_list.append((back_button, self.IM.arrow_icon, None, None))
 
-        self.bb_layout.addWidget(back_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop if key == 'Top' else Qt.AlignmentFlag.AlignBottom)
+        self.bb_layout.addWidget(back_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop if 'Top' in key else Qt.AlignmentFlag.AlignBottom)
 
 
 

@@ -61,6 +61,8 @@ class ImageManager:
         self.arrow_up_icon = (QPixmap(self.img("src/images/ui/arrow_up_dark.png")), QPixmap(self.img("src/images/ui/arrow_up_light.png")))
         self.arrow_down_icon = (QPixmap(self.img("src/images/ui/arrow_down_dark.png")), QPixmap(self.img("src/images/ui/arrow_down_light.png")))
         self.dex_icon = (QPixmap(self.img("src/images/ui/pokedex_dark.png")), QPixmap(self.img("src/images/ui/pokedex_light.png")))
+        self.dex_back_icon = (QPixmap(self.img("src/images/ui/pokedex_dark_back.png")), QPixmap(self.img("src/images/ui/pokedex_light_back.png")))
+        self.cd_back_icon = (QPixmap(self.img("src/images/ui/cd_dark_back.png")), QPixmap(self.img("src/images/ui/cd_light_back.png")))
         
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")
         self.gx_tag_team_icon = self.img("src/images/name_icons/gx_tag_team_icon.png")
@@ -179,6 +181,10 @@ class ImageManager:
                            "Mega ",
                            "M ",
                            "-GX",
+                           "Teal Mask",
+                           "Wellspring Mask",
+                           "Hearthflame Mask",
+                           "Cornerstone Mask",
                            "-EX",
                            " BREAK",
                            " VMAX",
@@ -186,6 +192,7 @@ class ImageManager:
                            " V-UNION",
                            " LV.X",
                            "LEGEND",
+                           "Primal ",
                            "Prism Star",
                            "Origin Forme ",
                            "Paldean ",
