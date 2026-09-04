@@ -2803,6 +2803,8 @@ class Application(QMainWindow):
                             break
             
             self.seperator(self.fav_main_layout, self.set_sep_lens[self.col_count])
+
+            self.fav_main_layout.addStretch()
         
             self.stacked_layout.addWidget(self.fav_widget)
             self.stacked_layout.setCurrentWidget(self.fav_widget)
