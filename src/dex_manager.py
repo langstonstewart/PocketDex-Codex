@@ -1221,7 +1221,7 @@ class DexManager:
     def scrub_card_name(self, poke_name):
 
    
-        poke_name = re.sub(r'<[^>]+>', '', poke_name).strip()
+        poke_name = re.sub(r'<[^>]+>', '', poke_name).strip().replace("'", "’").strip()
 
         for suffix in self.IM.scrub_list:
             if suffix in poke_name:
@@ -1231,7 +1231,7 @@ class DexManager:
             if poke_name.endswith(alpha):
                 poke_name = poke_name.rstrip(alpha)
         
-        return poke_name.replace(" Male", "-M").replace(" Female", "-F").replace("'", "’").strip()
+        return poke_name.replace(" Male", "-M").replace(" Female", "-F").strip()
 
     def add_to_dex(self, poke_name):
         poke_name = self.scrub_card_name(poke_name)
