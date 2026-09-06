@@ -1,4 +1,5 @@
 import os, json, datetime, copy, random, string, re
+from concurrent.futures import ThreadPoolExecutor
 from functools import partial
 from math import ceil
 
@@ -225,6 +226,7 @@ class Application(QMainWindow):
         self.category_list = [("TCG", "set_list_tcg.json"), ("TCG Pocket", "set_list_pocket.json")]
 
         category_dirs = []
+        pending_set_downloads = []
 
         if 'dex_data.json' not in os.listdir(self.local_doc):
             self.set_manager.dex_data_init(self.local_doc)
@@ -264,11 +266,20 @@ class Application(QMainWindow):
 
                     if not os.listdir(set_dir):
                         if "Locked" not in set:
-                            self.set_manager.create_set(set["Name"], category[0], key, set_dir)
+                            pending_set_downloads.append((set["Name"], category[0], key, set_dir))
                         else:
                             self.upcoming_sets.append(set)
 
             self.create_favorites_folder(f"{self.local_doc}\\{category[0]}")
+
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            downloads = [
+                executor.submit(self.set_manager.create_set, *set_details)
+                for set_details in pending_set_downloads
+            ]
+
+            for download in downloads:
+                download.result()
 
       
 
