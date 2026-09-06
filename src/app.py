@@ -2801,9 +2801,13 @@ class Application(QMainWindow):
                         if current_card == len(self.favorite_list):
                             all_rows = True
                             break
-            
+
+
             self.seperator(self.fav_main_layout, self.set_sep_lens[self.col_count])
 
+            if len(self.favorite_list) > 8:
+                self.init_back_button(self.fav_main_layout, "Favorites")
+            
             self.fav_main_layout.addStretch()
         
             self.stacked_layout.addWidget(self.fav_widget)
