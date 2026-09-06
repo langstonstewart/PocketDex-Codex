@@ -6,12 +6,14 @@ import os, json, datetime, copy, random, string, re
 from functools import partial
 from math import ceil
 
+
 from src import (
     setmanager, 
     themes, 
     image_manager,
     media_manager,
-    dex_manager
+    dex_manager,
+    name_filter
     )
 
 from src.resource_path import resource_path
@@ -1219,11 +1221,9 @@ class DexManager:
 
 
     def scrub_card_name(self, poke_name):
-
-   
         poke_name = re.sub(r'<[^>]+>', '', poke_name).strip().replace("'", "’").strip()
 
-        for suffix in self.IM.scrub_list:
+        for suffix in name_filter.scrub_list:
             if suffix in poke_name:
                 poke_name = poke_name.replace(suffix, "")
 

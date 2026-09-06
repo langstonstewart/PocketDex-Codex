@@ -2511,6 +2511,7 @@ class Application(QMainWindow):
         if not self.rarity_dict:
             self.init_rarities()
 
+        filter = "Fire"
         
         self.card_cache_count = 0
 
@@ -2526,6 +2527,7 @@ class Application(QMainWindow):
                         card_clickable = False
                     else:
                         card_clickable = True
+                    
                     
                     self.create_card(current_card, self.card_grid, card_clickable, r, c)
                     
