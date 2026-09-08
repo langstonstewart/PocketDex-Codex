@@ -49,6 +49,10 @@ class ImageManager:
         self.tcgplayer_icon = (QPixmap(self.img("src/images/links/tcgplayer_icon_dark.png")), QPixmap(self.img("src/images/links/tcgplayer_icon_light.png")))
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
 
+        self.filter_icon = (QPixmap(self.img("src/images/ui/filter_black.png")), QPixmap(self.img("src/images/ui/filter_white.png")))
+        self.filter_found = self.img("src/images/ui/filter_found_black.png"), self.img("src/images/ui/filter_found_white.png")
+        self.filter_off = self.img("src/images/ui/filter_off_black.png"), self.img("src/images/ui/filter_off_white.png")
+
         self.pkdb_icon = (QPixmap(self.img("src/images/links/pkdb_icon_dark.png")), QPixmap(self.img("src/images/links/pkdb_icon_light.png")))
         self.d_art_icon = (QPixmap(self.img("src/images/links/d_art_icon_dark.png")), QPixmap(self.img("src/images/links/d_art_icon_light.png")))
 

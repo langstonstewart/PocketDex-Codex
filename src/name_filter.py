@@ -71,3 +71,39 @@ scrub_list = [
                            " Snow-Cloud Form",
                            "Sunny Form"
                            ]
+
+card_filters_tcg_model = {"Card-Type": ["Pokemon", "Trainer", "Supporter", "Item", "Energy", 
+                              "Basic Energy", "Pokemon Tool", "Stadium", "Special Energy", "Technical Machine",
+                              "Rocket's Secret Machine", "Pokemon Tool F", "Goldenrod Game Corner"],
+
+                "Type": ["Grass", "Fire", "Water", "Lightning", "Psychic", 
+                         "Fighting", "Darkness", "Metal", "Fairy", "Dragon", 
+                         "Colorless"],
+
+                "Stage": ["Basic", "Stage 1", "Stage 2", "VMAX", "VSTAR", 
+                          "Mega", "Level-Up", "BREAK", "V-UNION", "Baby", 
+                          "LEGEND", "Restored"],
+
+                "Rarity": ["Common", "Uncommon", "Rare", "Rare Holo", "Promo",
+                            "Ultra Rare", "Illustration Rare", "Double Rare", "Rare Secret", "Rainbow Rare",
+                            "Shiny Rare", "Holo Rare V", "Special Illustration Rare", "Rare Holo EX", "Rare Holo GX",
+                            "Rare Holo ex", "Holo Rare VMAX", "Trainer Gallery Holo Rare", "Hyper Rare", "Rare Holo LV.X",
+                            "Trainer Gallery Holo Rare V", "ACE SPEC Rare", "Rare Shiny GX", "Holo Rare VSTAR", "Trainer Gallery Ultra Rare",
+                            "Rare BREAK", "Rare Prism Star", "Rare Prime", "Rare Holo Star", "LEGEND",
+                            "Shiny Rare V or VMAX", "Rare Shining", "Radiant Rare", "Special Full Art", "Shiny Ultra Rare",
+                            "Trainer Gallery Secret Rare", "Trainer Gallery Holo Rare V or VMAX", "Amazing Rare", "Mega Hyper Rare", "Mega Attack Rare",
+                            "Black White Rare"]
+                }
+
+card_filters_pocket_model = {
+            "Card-Type": ["Pokemon", "Supporter", "Item", "Pokemon Tool", "Stadium"],
+
+            "Type": ["Grass", "Fire", "Water", "Lightning", "Psychic", 
+                    "Fighting", "Darkness", "Metal", "Dragon", 
+                    "Colorless"],
+
+            "Stage": ["Basic", "Stage 1", "Stage 2"],
+            
+            "Rarity": ["1 Diamond", "2 Diamond", "4 Diamond", "3 Diamond", "1 Star",
+                        "2 Star", "3 Star", "1 Shiny", "2 Shiny", "Crown"]
+        }

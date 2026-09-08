@@ -132,8 +132,6 @@ class Themes:
 
             QLabel[class="type_header"][gender="genderless"] { color: #1E1E1E; background-color: #ebebeb; }
 
-       
-
             QLabel[class="Set_Tag"] {
                 font-size: 35px;
                 color: #1E1E1E; 
@@ -200,7 +198,41 @@ class Themes:
                 background-color: #ebebeb
             }
             
+            QCheckBox[class="dex_checkbox"] {
+                font-size: 24px;
+                color: #1E1E1E;
+                spacing: 10px;               
+                padding: 6px 12px;
+                background-color: transparent;
+            }
 
+            QCheckBox[class="dex_checkboxt"]:hover {
+                color: #4a4a4a;
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator {
+                width: 20px;
+                height: 20px;
+                border-radius: 6px;           
+                border: 2px solid gray;     
+                background-color: #ebebeb;     
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator:hover {
+                background-color: #e0e0e0;
+                border-color: #1E1E1E;
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator:checked {
+                border-color: #1E1E1E;
+                background-color: #d8d8d8;     
+                image: url(src/images/ui/checkmark_black.svg);
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator:checked:hover {
+                background-color: #cccccc;
+                border-color: #1E1E1E;
+            }
             
 
             QToolButton[class="Dex_Button"] {
@@ -494,8 +526,38 @@ class Themes:
                             padding: 5px; 
                             padding-left: 15px; 
                             padding-right: 15px;
-                        }
-            
+            }
+                 
+            QCheckBox[class="dex_checkbox"] {
+                font-size: 24px;
+                color: white;
+                spacing: 10px;              
+                padding: 6px 12px;
+                background-color: transparent;
+            }
+
+            QCheckBox[class="dex_checkbox"]:hover {
+                color: #e0e0e0;
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator {
+                width: 20px;
+                height: 20px;
+                border-radius: 6px;           
+                border: 2px solid #5a5a5a;    
+                background-color: #2b2b2b;    
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator:checked {
+                border-color: #ffffff;
+                background-color: #3d3d3d;    
+                image: url(src/images/ui/checkmark_white.svg);
+            }
+
+            QCheckBox[class="dex_checkbox"]::indicator:checked:hover {
+                background-color: #4a4a4a;
+                border-color: #ffffff;
+                }
 
             QLabel[class="dex_text_big"] {
                 font-size: 40px;
