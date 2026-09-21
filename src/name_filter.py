@@ -72,9 +72,11 @@ scrub_list = [
                            "Sunny Form"
                            ]
 
-card_filters_tcg_model = {"Card-Type": ["Pokemon", "Trainer", "Supporter", "Item", "Energy", 
-                              "Basic Energy", "Pokemon Tool", "Stadium", "Special Energy", "Technical Machine",
-                              "Rocket's Secret Machine", "Pokemon Tool F", "Goldenrod Game Corner"],
+card_filters_tcg_model = {
+                          
+                "Card-Type": ["Pokemon", "Trainer", "Supporter", "Item", "Energy", 
+                              "Basic Energy", "Tool", "Stadium", "Special Energy", "Technical Machine",
+                              "Rocket's Secret Machine", "Tool F", "Goldenrod Game Corner"],
 
                 "Type": ["Grass", "Fire", "Water", "Lightning", "Psychic", 
                          "Fighting", "Darkness", "Metal", "Fairy", "Dragon", 
@@ -84,19 +86,21 @@ card_filters_tcg_model = {"Card-Type": ["Pokemon", "Trainer", "Supporter", "Item
                           "Mega", "Level-Up", "BREAK", "V-UNION", "Baby", 
                           "LEGEND", "Restored"],
 
-                "Rarity": ["Common", "Uncommon", "Rare", "Rare Holo", "Promo",
-                            "Ultra Rare", "Illustration Rare", "Double Rare", "Rare Secret", "Rainbow Rare",
-                            "Shiny Rare", "Holo Rare V", "Special Illustration Rare", "Rare Holo EX", "Rare Holo GX",
-                            "Rare Holo ex", "Holo Rare VMAX", "Trainer Gallery Holo Rare", "Hyper Rare", "Rare Holo LV.X",
-                            "Trainer Gallery Holo Rare V", "ACE SPEC Rare", "Rare Shiny GX", "Holo Rare VSTAR", "Trainer Gallery Ultra Rare",
-                            "Rare BREAK", "Rare Prism Star", "Rare Prime", "Rare Holo Star", "LEGEND",
-                            "Shiny Rare V or VMAX", "Rare Shining", "Radiant Rare", "Special Full Art", "Shiny Ultra Rare",
-                            "Trainer Gallery Secret Rare", "Trainer Gallery Holo Rare V or VMAX", "Amazing Rare", "Mega Hyper Rare", "Mega Attack Rare",
-                            "Black White Rare"]
+                
+                "Rarity": ["ACE SPEC Rare", "Amazing Rare", "Black White Rare", "Common", "Double Rare",
+                        "Holo Rare V", "Holo Rare VMAX", "Holo Rare VSTAR", "Hyper Rare", "Illustration Rare",
+                        "LEGEND", "Mega Attack Rare", "Mega Hyper Rare", "Promo", "Radiant Rare",
+                        "Rainbow Rare", "Rare", "Rare BREAK", "Rare Holo", "Rare Holo EX",
+                        "Rare Holo GX", "Rare Holo LV.X", "Rare Holo Star", "Rare Holo ex", "Rare Prime",
+                        "Rare Prism Star", "Rare Secret", "Rare Shining", "Rare Shiny GX", "Shiny Rare",
+                        "Shiny Rare V or VMAX", "Shiny Ultra Rare", "Special Full Art", "Special Illustration Rare", "Trainer Gallery Holo Rare",
+                        "Trainer Gallery Holo Rare V", "Trainer Gallery Holo Rare V or VMAX", "Trainer Gallery Secret Rare", "Trainer Gallery Ultra Rare", "Ultra Rare",
+                        "Uncommon"]
                 }
 
 card_filters_pocket_model = {
-            "Card-Type": ["Pokemon", "Supporter", "Item", "Pokemon Tool", "Stadium"],
+                             
+            "Card-Type": ["Pokemon", "Supporter", "Item", "Tool", "Stadium"],
 
             "Type": ["Grass", "Fire", "Water", "Lightning", "Psychic", 
                     "Fighting", "Darkness", "Metal", "Dragon", 

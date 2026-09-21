@@ -193,6 +193,10 @@ class Application(QMainWindow):
         self.mode = self.settings['UserData']['theme']
         self.switch_scrollbar()
 
+        self.global_search = False
+
+        self.global_page = False
+
 
 
         
@@ -540,12 +544,15 @@ class Application(QMainWindow):
         
         return sum(1 for card in self.set_list if card["Quantity"] > 0)
 
-    def print_set_title(self, set_name):
+    def print_set_title(self, set_name, global_set=False):
 
-        self.set_fp = f"{self.local_doc}\\{self.category_name}\\{self.series}\\{set_name}\\{set_name}.json"
+        if not global_set:
+            self.set_fp = f"{self.local_doc}\\{self.category_name}\\{self.series}\\{set_name}\\{set_name}.json"
 
-        with open(self.set_fp, "r+") as set_file:
-            self.set_list = json.load(set_file)
+            with open(self.set_fp, "r+") as set_file:
+                self.set_list = json.load(set_file)
+        else:
+            self.set_list = self.filtered_global_set # type: list
 
         self.set_header = QHBoxLayout()
         self.set_main_layout.addLayout(self.set_header) # type: ignore
@@ -564,10 +571,10 @@ class Application(QMainWindow):
         self.data_header = QHBoxLayout()
         self.data_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.set_main_layout.addLayout(self.data_header) # type: ignore
-
-        for s in self.set_dict[self.series]:
-            if s["Name"] == self.set_name:
-                set_data =  s
+        if not global_set:
+            for s in self.set_dict[self.series]:
+                if s["Name"] == self.set_name:
+                    set_data = s
 
         formatted_name = set_name.split()
         del formatted_name[-1]
@@ -575,7 +582,7 @@ class Application(QMainWindow):
 
         set_title = QLabel(f"{formatted_name}")
         
-        set_date = QLabel(f"{set_data["Release Date"]}")
+        set_date = QLabel(f"{set_data["Release Date"] if not global_set else "Custom"}")
         self.card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
 
         set_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -583,7 +590,7 @@ class Application(QMainWindow):
         set_title.setFont(self.main_font)
         self.title_header.addWidget(set_title)
 
-        set_tag = QLabel(f"{set_data["SetID"]}")
+        set_tag = QLabel(f"{set_data["SetID"] if not global_set else "★"}")
         set_tag.setProperty("class", "Set_Tag")
         set_tag.setFont(self.main_font)
         set_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -718,6 +725,8 @@ class Application(QMainWindow):
         self.create_favorite_cards_button()
 
         self.create_inverse_button()
+
+        self.search_all_button()
 
 
         self.category_tst_layout = QVBoxLayout()
@@ -884,8 +893,31 @@ class Application(QMainWindow):
 
         self.bb_layout.addWidget(self.inverse_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
-        if key != "dex":
-            self.bb_layout.addStretch()
+
+    def search_all_button(self):
+        self.s_all_button = QPushButton("")
+        self.ui_button_list.append((self.s_all_button, self.IM.search_all_icon, None, None))
+        self.s_all_button.setFont(self.main_font)
+        self.s_all_button.setProperty("class", "Main_Button")
+        self.s_all_button.setText("Search All Cards..")
+
+        self.s_all_button.setIcon(QIcon(self.IM.search_all_icon[self.mode]))
+        self.s_all_button.setIconSize(QSize(36, 36))
+
+        self.s_all_button.enterEvent = partial(self.on_button_enter, self.s_all_button)
+        self.s_all_button.leaveEvent = partial(self.on_button_leave, self.s_all_button) # type: ignore
+
+        self.s_all_button.clicked.connect(self.display_global_filter)
+
+        self.bb_layout.addWidget(self.s_all_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
+
+        self.bb_layout.addStretch()
+
+    def display_global_filter(self):
+        self.global_search = True
+
+        self.display_filter_menu()
+
 
     def switch_set_inverse(self):
         if self.set_inverse == 1:
@@ -1090,6 +1122,8 @@ class Application(QMainWindow):
 
 
     def clicked_set(self, refresh=False):
+
+        self.global_search = False
         
         if not refresh:
             self.filtered_indexes = None
@@ -1128,7 +1162,8 @@ class Application(QMainWindow):
         
         
     def await_cache(self): 
-
+        
+        
         self.display_cards()
 
         self.seperator(self.set_main_layout, self.set_sep_lens[self.col_count])
@@ -1209,7 +1244,7 @@ class Application(QMainWindow):
         self.export_button.enterEvent = partial(self.on_button_enter, self.export_button)
         self.export_button.leaveEvent = partial(self.on_button_leave, self.export_button) # type: ignore
         
-        self.export_button.clicked.connect(partial(self.set_manager.export_excel, f"{self.local_doc}\\{self.category_name}\\{self.series}", self.set_name, self.set_list))
+        self.export_button.clicked.connect(partial(self.set_manager.export_excel, f"{self.local_doc}\\{self.category_name}\\{self.series}", self.set_name, self.set_list)) # type: ignore
 
         self.import_button = QPushButton("Import as Excel Spreadsheet..")
         self.import_button.setProperty("class", "Main_Button")
@@ -1315,7 +1350,7 @@ class Application(QMainWindow):
     def import_excel_main(self):
         excel_fp = self.file_picker()
         if excel_fp:
-            if not self.set_manager.import_excel(f"{self.local_doc}\\{self.category_name}\\{self.series}", excel_fp, self.set_name, self.set_list):
+            if not self.set_manager.import_excel(f"{self.local_doc}\\{self.category_name}\\{self.series}", excel_fp, self.set_name, self.set_list): # type: ignore
                 self.display_message("Invalid Spreadsheet", "ERROR: This xlsx spreadsheet does not match the set data.\nPlease try a different file.\nIf you believe this is a mistake, contact the maintainer below:\nhttps://github.com/langstonstewart/PocketDex-Codex")
 
             with open(self.set_fp, "r+") as set_file:
@@ -1345,7 +1380,7 @@ class Application(QMainWindow):
 
         self.dex_manager.save_dex_data()
     
-    def display_loading_page(self):
+    def display_loading_page(self, global_set=False):
         self.loading_widget = QWidget()
           
         self.loading_layout = QVBoxLayout()
@@ -1354,46 +1389,53 @@ class Application(QMainWindow):
         self.loading_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
         self.loading_widget.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
-        self.print_loading_title(self.set_name)
+        self.print_loading_title(self.set_name, global_set)
 
-    def print_loading_title(self, set_name: str):
+    def print_loading_title(self, set_name: str, global_set=False):
         
-        self.set_fp = f"{self.local_doc}\\{self.category_name}\\{self.series}\\{set_name}\\{set_name}.json"
+        if not global_set:
+            self.set_fp = f"{self.local_doc}\\{self.category_name}\\{self.series}\\{set_name}\\{set_name}.json"
 
-        with open(self.set_fp, "r+") as set_file:
-            self.set_list = json.load(set_file)
+            with open(self.set_fp, "r+") as set_file:
+                self.set_list = json.load(set_file)
+        else:
+            self.set_list = self.filtered_global_set # type: list
 
-            for card in self.set_list:
-                if card["Rarity"] is None:
-                    card["Rarity"] = "N/A"
+        for card in self.set_list:
+            if card["Rarity"] is None:
+                card["Rarity"] = "N/A"
 
+        if not global_set:
             with open(self.set_fp, "w+") as set_file:
                 json.dump(self.set_list, set_file, indent=4)
 
-            self.loading_header = QHBoxLayout()
-            self.loading_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            self.loading_layout.addLayout(self.loading_header)
+        self.loading_header = QHBoxLayout()
+        self.loading_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.loading_layout.addLayout(self.loading_header)
 
-            self.ld_header = QHBoxLayout()
-            self.ld_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            self.loading_layout.addLayout(self.ld_header)
+        self.ld_header = QHBoxLayout()
+        self.ld_header.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.loading_layout.addLayout(self.ld_header)
 
-            self.set_info_layout = QVBoxLayout()
-            self.set_info_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            
-            self.loading_layout.addLayout(self.set_info_layout)
+        self.set_info_layout = QVBoxLayout()
+        self.set_info_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        
+        self.loading_layout.addLayout(self.set_info_layout)
 
-        for s in self.set_dict[self.series]:
-            if s["Name"] == self.set_name:
-                set_data = s
+        if not global_set:
+            for s in self.set_dict[self.series]:
+                if s["Name"] == self.set_name:
+                    set_data = s
 
-        formatted_name = set_name.split()
-        del formatted_name[-1]
-        formatted_name = " ".join(formatted_name)
+            formatted_name = set_name.split()
+            del formatted_name[-1]
+            formatted_name = " ".join(formatted_name)
+        else:
+            formatted_name = self.set_name
 
         set_title = QLabel(f"{formatted_name}")
         set_tag = QLabel("")
-        set_date = QLabel(f"{set_data["Release Date"]}")
+        set_date = QLabel(f"{set_data["Release Date"] if not global_set else "Custom"}")
         card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
         
         cache_label = QLabel(f"Please wait...")
@@ -1403,7 +1445,7 @@ class Application(QMainWindow):
         set_title.setFont(self.main_font)
         self.loading_header.addWidget(set_title)
 
-        set_tag = QLabel(f"{set_data["SetID"]}")
+        set_tag = QLabel(f"{set_data["SetID"] if not global_set else "Custom"}")
         set_tag.setProperty("class", "Set_Tag")
         set_tag.setFont(self.main_font)
         set_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -1422,14 +1464,15 @@ class Application(QMainWindow):
 
         self.seperator(self.set_info_layout, 1100)
 
-        if "Info" in set_data.keys():
-            info_label = QLabel(set_data["Info"])
-            info_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-            info_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            info_label.setProperty("class", "header2")
-            info_label.setWordWrap(True)
-            info_label.setFont(self.main_font)
-            self.set_info_layout.addWidget(info_label, alignment=Qt.AlignmentFlag.AlignHCenter)
+        if not global_set:
+            if "Blurb" in set_data.keys():
+                info_label = QLabel(set_data["Blurb"])
+                info_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+                info_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+                info_label.setProperty("class", "header2")
+                info_label.setWordWrap(True)
+                info_label.setFont(self.main_font)
+                self.set_info_layout.addWidget(info_label, alignment=Qt.AlignmentFlag.AlignHCenter)
 
         cache_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         cache_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
@@ -2297,14 +2340,18 @@ class Application(QMainWindow):
             card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager)
             card_img.download_finished.connect(partial(cache_img, card_img))
 
-
-        card_img.setProperty("index", card_index)
-        card_img.setProperty("series", self.series)
         
+        card_img.setProperty("index", card_index)
+
+        if not self.global_page:
+            print(self.global_page)
+            card_img.setProperty("series", self.series)
+            
         card_img.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         card_img.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Expanding)
 
-        card_img.setProperty("Set", self.set_name)
+        if not self.global_page:
+            card_img.setProperty("Set", self.set_name)
 
         if clickable:
             card_img.setProperty("class", "Card_Label")
@@ -2391,7 +2438,7 @@ class Application(QMainWindow):
             html_img = f'<img src="{img_path}" style="vertical-align: top;">'
             card_text = card_text.replace(card_text[-5:], f' {html_img}').strip()
 
-        elif self.series:
+        elif not self.global_page and self.series:
             for tag in name_tags:
                 if tag[0] in card_text:
                    
@@ -2530,8 +2577,6 @@ class Application(QMainWindow):
 
     def display_cards(self):
 
-        
-
         self.previous_widget = self.cd_layout
         
         self.card_quantity_dict = {}
@@ -2576,6 +2621,7 @@ class Application(QMainWindow):
                             card_clickable = True
                         
                         self.create_card(self.filtered_indexes[current_card], self.card_grid, card_clickable, r, c, False, current_card)
+                       
                         current_card += 1
                         
                         if current_card == len(self.filtered_indexes):
@@ -2760,6 +2806,7 @@ class Application(QMainWindow):
 
         self.f_button.enterEvent = partial(self.on_button_enter, self.f_button)
         self.f_button.leaveEvent = partial(self.on_button_leave, self.f_button) # type: ignore
+        
         
         if key != "dex":
             self.f_button.clicked.connect(self.display_favorites)
@@ -3169,14 +3216,26 @@ class Application(QMainWindow):
 
         
 
+    def create_name_search_bar(self, layout: QHBoxLayout):
+        
+        self.name_search_bar = QLineEdit()
+        self.name_search_bar.setPlaceholderText("Search for a Pokémon...")
+        self.name_search_bar.setClearButtonEnabled(True)
+        self.name_search_bar.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        self.name_search_bar.setMinimumWidth(1750)
+
+        self.name_search_bar.returnPressed.connect(partial(self.return_filtered_set))
+
+        layout.addWidget(self.name_search_bar)
+        
+
     def populate_checkboxes(self):
 
         filter_header_layout = QHBoxLayout()
         self.filter_type_layout.addLayout(filter_header_layout)
 
         filter_dict_model = name_filter.card_filters_tcg_model if self.category_name == "TCG" else name_filter.card_filters_pocket_model
-
-        filter_tag = QLabel(f"Please select one or more of the filters below. Note that depending on the card series, certain card types, stages, and rarities may no longer be printed.")
+        filter_tag = QLabel(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Search by name or select one or more of the filters below. Note that depending on the card series, certain card types, stages, and rarities may no longer be printed.')
         filter_tag.setProperty("class", "dex_text")
   
         filter_tag.setFont(self.main_font)
@@ -3198,11 +3257,23 @@ class Application(QMainWindow):
 
         filter_header_layout.addWidget(save_filters_button)
 
-        self.seperator(self.filter_type_layout, 1650) 
+        self.seperator(self.filter_type_layout, 1750) 
+
+        name_search_label = QLabel("Name")
+        name_search_label.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+        name_search_label.setProperty("class", "dex_text_med")
+        name_search_label.setFont(self.main_font)
+
+        self.filter_type_layout.addWidget(name_search_label)
+
+        search_bar_layout = QHBoxLayout()
+        search_bar_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.filter_type_layout.addLayout(search_bar_layout)
+        self.create_name_search_bar(search_bar_layout)
 
         for filter_key in filter_dict_model.keys():
 
-            key_label = QLabel(filter_key)
+            key_label = QLabel(filter_key.replace('Type', 'Color').replace("Card-Color", "Card-Type"))
             key_label.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
             key_label.setProperty("class", "dex_text_med")
             key_label.setFont(self.main_font)
@@ -3239,19 +3310,94 @@ class Application(QMainWindow):
                             break
                         
 
-            self.seperator(self.filter_type_layout, 1650)    
+            self.seperator(self.filter_type_layout, 1750)      
 
-        
+    def filter_set(self):
+        if self.name_search_bar.text().strip():
+            self.card_filters["Name"] = [self.name_search_bar.text()]
 
-    def return_filtered_set(self):
-        self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
-
+            self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()] 
+        else:
+            self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
+            
         print(self.filtered_indexes)
 
-        self.go_back(self.set_main_layout)
-        self.clicked_set(True)
+    def return_filtered_set(self):
+        if not self.global_search:
+            self.filter_set()
 
-    
+            self.go_back(self.set_main_layout)
+            self.clicked_set(True)
+        else:
+
+            self.global_set = []
+            self.set_fp = f"{self.project_dir}\\{self.category_file_name}"
+            
+            with open(self.set_fp, "r+") as set_file:
+                self.set_dict = json.load(set_file)
+
+                for series in self.set_dict:
+                        
+                    for set in self.set_dict[series]:
+
+                        if "Locked" not in set.keys():
+
+                            set_name = set["Name"]
+
+                            print(set_name)
+
+                            set_fp = f"{self.local_doc}\\{self.category_name}\\{series}\\{set_name}\\{set_name}.json"
+                            
+                            with open(set_fp, "r+") as set_file:
+                                self.set_list = json.load(set_file)
+
+                                self.global_set.extend(self.set_list)
+            self.filter_global_set()
+
+
+    def filter_global_set(self):
+        if self.name_search_bar.text().strip():
+            self.card_filters["Name"] = [self.name_search_bar.text()]
+
+            self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()] 
+        else:
+            self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
+            
+        print(self.filtered_global_set)
+
+        self.view_global_set()
+
+    def view_global_set(self):
+
+        self.filtered_indexes = None
+
+        self.global_page = True
+
+        self.set_widget = QWidget()
+                
+        self.set_main_layout = QVBoxLayout()
+        self.set_main_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.set_widget.setLayout(self.set_main_layout)
+        self.set_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
+        self.set_widget.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+        self.set_name = "Custom Search"
+
+        self.set_id = "★"
+
+        self.print_set_title(self.set_name, True)
+
+        self.seperator(self.set_main_layout, self.set_sep_lens[self.col_count])
+
+        self.card_grid = QGridLayout()
+        self.card_grid.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.card_grid.setVerticalSpacing(25)
+        self.card_grid.setHorizontalSpacing(25)
+        self.set_main_layout.addLayout(self.card_grid)
+        
+        self.display_loading_page(True)
+
+        QTimer.singleShot(100, partial(self.await_cache))
 
 
 

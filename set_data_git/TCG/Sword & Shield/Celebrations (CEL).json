@@ -38,37 +38,35 @@
     {
         "ID": "CEL-002",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_002_R_EN_LG.png",
-        "Name": "Blastoise",
-        "Rarity": "Ultra Rare",
+        "Name": "Reshiram",
+        "Rarity": "Rare",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Water",
-        "HP": "100",
-        "Pok\u00e9mon-Power": [
-            "Rain Dance"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn\u2019t use up your 1 Energy card attachment for the turn.) This power can\u2019t be used if Blastoise is Asleep, Confused, or Paralyzed."
-        ],
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
         "Move-Energy": [
-            "WWW"
+            "CC",
+            "RRC"
         ],
         "Moves": [
-            "Hydro Pump"
+            "Scorching Wind",
+            "Black Flame"
         ],
         "Move-Damage": [
-            "40+"
+            "",
+            "80+"
         ],
         "Effects": [
-            "Does 40 damage plus 10 more damage for each [W] Energy attached to Blastoise but not used to pay for this attack\u2019s Energy cost. Extra [W] Energy after the 2nd doesn\u2019t count."
+            "This attack does 20 damage to each of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If Zekrom is on your Bench, this attack does 80 more damage."
         ],
-        "Weakness": "Lightning",
+        "Weakness": "Water",
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
         "Retreat-Cost": "3",
         "Card-Categories": null,
-        "Flavor-Text": "A brutal Pok\u00e9mon with pressurized water jets on its shell. They are used for high-speed tackles.",
-        "Illustrator": "Ken Sugimori",
+        "Flavor-Text": "When Reshiram\u2019s tail flares, the heat energy moves the atmosphere and changes the world\u2019s weather.",
+        "Illustrator": "Aya Kusube",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250301%2Fcelebrations-reshiram",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Reshiram-V1-CEL002?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -110,38 +108,37 @@
     {
         "ID": "CEL-004",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_004_R_EN_LG.png",
-        "Name": "Charizard",
-        "Rarity": "Ultra Rare",
+        "Name": "Palkia",
+        "Rarity": "Rare",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 2",
-        "Type": "Fire",
-        "HP": "120",
-        "Pok\u00e9mon-Power": [
-            "Energy Burn"
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "130",
+        "Ability": [
+            "Absolute Space"
         ],
-        "Pok\u00e9mon-Power-Effect": [
-            "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into [R] Energy for the rest of the turn. This power can\u2019t be used if Charizard is Asleep, Confused, or Paralyzed."
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in the Active Spot, your opponent can\u2019t play any Stadium cards from their hand."
         ],
         "Move-Energy": [
-            "RRRR"
+            "WCC"
         ],
         "Moves": [
-            "Fire Spin"
+            "Overdrive Smash"
         ],
         "Move-Damage": [
-            "100"
+            "80+"
         ],
         "Effects": [
-            "Discard 2 Energy cards attached to Charizard in order to use this attack."
+            "During your next turn, this Pok\u00e9mon\u2019s Overdrive Smash attack does 80 more damage (before applying Weakness and Resistance)."
         ],
-        "Weakness": "Water",
+        "Weakness": "Lightning",
         "Weakness-Modifier": "\u00d72",
-        "Resistance": "Fighting",
-        "Resistance-Modifier": "-30",
-        "Retreat-Cost": "3",
+        "Resistance": null,
+        "Retreat-Cost": "2",
         "Card-Categories": null,
-        "Flavor-Text": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
-        "Illustrator": "Mitsuhiro Arita",
+        "Flavor-Text": "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+        "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250302%2Fcelebrations-palkia",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Palkia?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -258,85 +255,69 @@
     {
         "ID": "CEL-008",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_008_R_EN_LG.png",
-        "Name": "Dark Gyarados",
-        "Rarity": "Ultra Rare",
+        "Name": "Surfing Pikachu V",
+        "Rarity": "Holo Rare V",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Water",
-        "HP": "70",
-        "Pok\u00e9mon-Power": [
-            "Final Beam"
-        ],
-        "Pok\u00e9mon-Power-Effect": [
-            "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each [W] Energy attached to Dark Gyarados to the Pok\u00e9mon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn\u2019t work if Dark Gyarados is Asleep, Confused, or Paralyzed."
-        ],
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "200",
         "Move-Energy": [
             "WWW"
         ],
         "Moves": [
-            "Ice Beam"
+            "Surf"
         ],
         "Move-Damage": [
-            "30"
+            "150"
         ],
         "Effects": [
-            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+            ""
         ],
-        "Weakness": "Grass",
+        "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
-        "Resistance": "Fighting",
-        "Resistance-Modifier": "-30",
-        "Retreat-Cost": "2",
+        "Resistance": null,
+        "Retreat-Cost": "1",
         "Card-Categories": [
-            "Dark"
+            "V"
         ],
-        "Flavor-Text": "Normally found only in the deep ocean, it has recently been seen in shallow waters as well.",
-        "Illustrator": "Kagemaru Himeno",
+        "V-Rule": "When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250306%2Fcelebrations-surfing-pikachu-v",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Surfing-Pikachu-V?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "CEL-009",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_009_R_EN_LG.png",
-        "Name": "Team Magma\u2019s Groudon",
-        "Rarity": "Ultra Rare",
+        "Name": "Surfing Pikachu VMAX",
+        "Rarity": "Holo Rare VMAX",
         "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Fighting/Darkness",
-        "HP": "100",
-        "Pok\u00e9-BODY": [
-            "Power Saver"
-        ],
-        "Pok\u00e9-BODY-Effect": [
-            "As long as the number of Pok\u00e9mon in play (both yours and your opponent\u2019s) that has Team Magma in its name is 3 or less, Team Magma\u2019s Groudon can\u2019t attack."
-        ],
+        "Stage": "VMAX",
+        "Type": "Lightning",
+        "HP": "310",
         "Move-Energy": [
-            "FC",
-            "FFC"
+            "WWW"
         ],
         "Moves": [
-            "Linear Attack",
-            "Pulverize"
+            "Max Surfer"
         ],
         "Move-Damage": [
-            "",
-            "50+"
+            "160"
         ],
         "Effects": [
-            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
-            "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
+            "This attack also does 30 damage to each of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
-        "Weakness": "Grass",
+        "Weakness": "Fighting",
         "Weakness-Modifier": "\u00d72",
         "Resistance": null,
-        "Retreat-Cost": "3",
+        "Retreat-Cost": "1",
         "Card-Categories": [
-            "Dual Type",
-            "Team Magma\u2019s"
+            "V",
+            "Dynamax"
         ],
-        "Dual-Type-Rule": "This Pok\u00e9mon is both [F][D] type.",
+        "VMAX-Rule": "When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards.",
         "Flavor-Text": null,
-        "Illustrator": "Kazuo Yazawa",
+        "Illustrator": "aky CG Works",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250307%2Fcelebrations-surfing-pikachu-vmax",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Surfing-Pikachu-VMAX?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -515,37 +496,36 @@
     {
         "ID": "CEL-015",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_015_R_EN_LG.png",
-        "Name": "Claydol",
-        "Rarity": "Ultra Rare",
+        "Name": "Lunala",
+        "Rarity": "Rare Holo",
         "Card-Type": "Pokemon",
-        "Stage": "Stage 1",
-        "Type": "Fighting",
-        "HP": "80",
-        "Pok\u00e9-POWER": [
-            "Cosmic Power"
-        ],
-        "Pok\u00e9-POWER-Effect": [
-            "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can\u2019t be used if Claydol is affected by a Special Condition."
-        ],
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "160",
         "Move-Energy": [
-            "FC"
+            "CC",
+            "PCC"
         ],
         "Moves": [
-            "Spinning Attack"
+            "Lunar Pain",
+            "Psychic Shot"
         ],
         "Move-Damage": [
-            "40"
+            "",
+            "130"
         ],
         "Effects": [
-            ""
+            "Double the number of damage counters on each of your opponent\u2019s Pok\u00e9mon.",
+            "This attack also does 30 damage to 1 of your opponent\u2019s Benched Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)"
         ],
-        "Weakness": "Grass",
-        "Weakness-Modifier": "+20",
-        "Resistance": null,
+        "Weakness": "Darkness",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Fighting",
+        "Resistance-Modifier": "-30",
         "Retreat-Cost": "2",
         "Card-Categories": null,
-        "Flavor-Text": "An ancient clay figurine that came to life as a Pok\u00e9mon from exposure to a mysterious ray of light.",
-        "Illustrator": "Midori Harada",
+        "Flavor-Text": "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds.",
+        "Illustrator": "kirisAki",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250312%2Fcelebrations-lunala",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Lunala?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -592,41 +572,35 @@
     {
         "ID": "CEL-017",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_017_R_EN_LG.png",
-        "Name": "Umbreon Star",
-        "Rarity": "Ultra Rare",
+        "Name": "Groudon",
+        "Rarity": "Rare",
         "Card-Type": "Pokemon",
         "Stage": "Basic",
-        "Type": "Darkness",
-        "HP": "70",
-        "Pok\u00e9-POWER": [
-            "Dark Ray"
-        ],
-        "Pok\u00e9-POWER-Effect": [
-            "Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent\u2019s hand without looking and discard it."
-        ],
+        "Type": "Fighting",
+        "HP": "130",
         "Move-Energy": [
-            "DD"
+            "FFC",
+            "FFCC"
         ],
         "Moves": [
-            "Feint Attack"
+            "Magma Volcano",
+            "Massive Rend"
         ],
         "Move-Damage": [
-            ""
+            "80\u00d7",
+            "120"
         ],
         "Effects": [
-            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
+            "Discard the top 5 cards of your deck. This attack does 80 damage for each Energy card you discarded in this way.",
+            ""
         ],
-        "Weakness": "Fighting",
+        "Weakness": "Grass",
         "Weakness-Modifier": "\u00d72",
-        "Resistance": "Psychic",
-        "Resistance-Modifier": "-30",
-        "Retreat-Cost": "1",
-        "Card-Categories": [
-            "Star"
-        ],
-        "Star-Rule": "You can\u2019t have more than 1 Pok\u00e9mon Star in your deck.",
-        "Flavor-Text": null,
-        "Illustrator": "Masakazu Fukuda",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Card-Categories": null,
+        "Flavor-Text": "This legendary Pok\u00e9mon is said to represent the land. It went to sleep after dueling Kyogre.",
+        "Illustrator": "Ryuta Fuse",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250314%2Fcelebrations-groudon",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Groudon?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -709,31 +683,36 @@
     {
         "ID": "CEL-020",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_020_R_EN_LG.png",
-        "Name": "Cleffa",
-        "Rarity": "Ultra Rare",
+        "Name": "Dialga",
+        "Rarity": "Rare",
         "Card-Type": "Pokemon",
-        "Stage": "Baby",
-        "Type": "Colorless",
-        "HP": "30",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "130",
         "Move-Energy": [
-            "C"
+            "M",
+            "CCC"
         ],
         "Moves": [
-            "Eeeeeeek"
+            "Temporal Backflow",
+            "Metal Blast"
         ],
         "Move-Damage": [
-            ""
+            "",
+            "60+"
         ],
         "Effects": [
-            "Shuffle your hand into your deck, then draw 7 cards."
+            "Put a card from your discard pile into your hand.",
+            "This attack does 20 more damage for each [M] Energy attached to this Pok\u00e9mon."
         ],
-        "Weakness": null,
-        "Resistance": null,
-        "Retreat-Cost": "0",
+        "Weakness": "Fire",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Grass",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "2",
         "Card-Categories": null,
-        "Baby-Rule": "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent\u2019s turn ends without an attack.",
-        "Flavor-Text": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
-        "Illustrator": "Kagemaru Himeno",
+        "Flavor-Text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+        "Illustrator": "5ban Graphics",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250296%2Fcelebrations-dialga",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Dialga?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -829,31 +808,15 @@
     {
         "ID": "CEL-024",
         "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_024_R_EN_LG.png",
-        "Name": "_____\u2019s Pikachu",
+        "Name": "Professor\u2019s Research",
         "Rarity": "Ultra Rare",
-        "Card-Type": "Pokemon",
-        "Stage": "Basic",
-        "Type": "Lightning",
-        "HP": "50",
-        "Move-Energy": [
-            "LL"
-        ],
-        "Moves": [
-            "Birthday Surprise"
-        ],
-        "Move-Damage": [
-            "30+"
-        ],
-        "Effects": [
-            "If it\u2019s not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
-        ],
-        "Weakness": "Fighting",
-        "Weakness-Modifier": "\u00d72",
-        "Resistance": null,
-        "Retreat-Cost": "1",
+        "Card-Type": "Supporter",
+        "HP": null,
+        "Description": "Discard your hand and draw 7 cards.",
         "Card-Categories": null,
-        "Flavor-Text": "Your Birthdate: ______________________________",
-        "Illustrator": "Kagemaru Himeno",
+        "Supporter-Rule": "You may play only 1 Supporter card during your turn.",
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
         "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250293%2Fcelebrations-professors-research-full-art",
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Professors-Research-V2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
@@ -896,7 +859,119 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Mew-V2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
-        "ID": "CEL-073",
+        "ID": "CEL-CC-002",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC2_R_EN_LG.png",
+        "Name": "Blastoise",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "100",
+        "Pok\u00e9mon-Power": [
+            "Rain Dance"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "As often as you like during your turn (before your attack), you may attach 1 [W] Energy card to 1 of your [W] Pok\u00e9mon. (This doesn\u2019t use up your 1 Energy card attachment for the turn.) This power can\u2019t be used if Blastoise is Asleep, Confused, or Paralyzed."
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Moves": [
+            "Hydro Pump"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "Does 40 damage plus 10 more damage for each [W] Energy attached to Blastoise but not used to pay for this attack\u2019s Energy cost. Extra [W] Energy after the 2nd doesn\u2019t count."
+        ],
+        "Weakness": "Lightning",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Card-Categories": null,
+        "Flavor-Text": "A brutal Pok\u00e9mon with pressurized water jets on its shell. They are used for high-speed tackles.",
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250320%2Fcelebrations-classic-collection-charizard",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Charizard-V1-CELBS-4?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-004",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC4_R_EN_LG.png",
+        "Name": "Charizard",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "120",
+        "Pok\u00e9mon-Power": [
+            "Energy Burn"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into [R] Energy for the rest of the turn. This power can\u2019t be used if Charizard is Asleep, Confused, or Paralyzed."
+        ],
+        "Move-Energy": [
+            "RRRR"
+        ],
+        "Moves": [
+            "Fire Spin"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard 2 Energy cards attached to Charizard in order to use this attack."
+        ],
+        "Weakness": "Water",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Fighting",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "3",
+        "Card-Categories": null,
+        "Flavor-Text": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250322%2Fcelebrations-classic-collection-imposter-professor-oak",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Imposter-Professor-Oak?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-015",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
+        "Name": "Venusaur",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "100",
+        "Pok\u00e9mon-Power": [
+            "Energy Trans"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "As often as you like during your turn (before your attack), you may take 1 [G] Energy card attached to 1 of your Pok\u00e9mon and attach it to a different one. This power can\u2019t be used if Venusaur is Asleep, Confused, or Paralyzed."
+        ],
+        "Move-Energy": [
+            "GGGG"
+        ],
+        "Moves": [
+            "Solarbeam"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+        "Flavor-Text": "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "Illustrator": "Mitsuhiro Arita",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250332%2Fcelebrations-classic-collection-umbreon-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Umbreon-CELPOP5-17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-073",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-073-imposter_professor_oak.png",
         "Name": "Imposter Professor Oak",
         "Rarity": "Ultra Rare",
@@ -910,7 +985,160 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Imposter+Professor+Oak+%28CEL+73%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76599+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-066",
+        "ID": "CEL-CC-008",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC8_R_EN_LG.png",
+        "Name": "Dark Gyarados",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Pok\u00e9mon-Power": [
+            "Final Beam"
+        ],
+        "Pok\u00e9mon-Power-Effect": [
+            "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each [W] Energy attached to Dark Gyarados to the Pok\u00e9mon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn\u2019t work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Moves": [
+            "Ice Beam"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, the Defending Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Grass",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Fighting",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "2",
+        "Card-Categories": [
+            "Dark"
+        ],
+        "Flavor-Text": "Normally found only in the deep ocean, it has recently been seen in shallow waters as well.",
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250325%2Fcelebrations-classic-collection-______s-pikachu",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/s-Pikachu?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-015",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
+        "Name": "Here Comes Team Rocket!",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Item",
+        "HP": null,
+        "Description": "Each player plays with his or her Prize cards face up for the rest of the game.",
+        "Card-Categories": null,
+        "Flavor-Text": null,
+        "Illustrator": "Ken Sugimori",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250332%2Fcelebrations-classic-collection-umbreon-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Umbreon-CELPOP5-17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-015",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
+        "Name": "Rocket\u2019s Zapdos",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Move-Energy": [
+            "L",
+            "LLLC"
+        ],
+        "Moves": [
+            "Plasma",
+            "Electroburn"
+        ],
+        "Move-Damage": [
+            "20",
+            "70"
+        ],
+        "Effects": [
+            "If there are any [L] Energy cards in your discard pile, attach 1 of them to Rocket\u2019s Zapdos.",
+            "Rocket\u2019s Zapdos does damage to itself equal to 10 times the number of [L] Energy cards attached to it."
+        ],
+        "Weakness": null,
+        "Resistance": "Fighting",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "2",
+        "Card-Categories": [
+            "Rocket\u2019s"
+        ],
+        "Flavor-Text": null,
+        "Illustrator": "Shin-ichi Yoshida",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250332%2Fcelebrations-classic-collection-umbreon-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Umbreon-CELPOP5-17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-024",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC24_R_EN_LG.png",
+        "Name": "_____\u2019s Pikachu",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "50",
+        "Move-Energy": [
+            "LL"
+        ],
+        "Moves": [
+            "Birthday Surprise"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If it\u2019s not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": null,
+        "Flavor-Text": "Your Birthdate: ______________________________",
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250341%2Fcelebrations-classic-collection-m-rayquaza-ex",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/MRayquaza-EX?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-020",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC20_R_EN_LG.png",
+        "Name": "Cleffa",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Baby",
+        "Type": "Colorless",
+        "HP": "30",
+        "Move-Energy": [
+            "C"
+        ],
+        "Moves": [
+            "Eeeeeeek"
+        ],
+        "Move-Damage": [
+            ""
+        ],
+        "Effects": [
+            "Shuffle your hand into your deck, then draw 7 cards."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "0",
+        "Card-Categories": null,
+        "Baby-Rule": "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent\u2019s turn ends without an attack.",
+        "Flavor-Text": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+        "Illustrator": "Kagemaru Himeno",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250337%2Fcelebrations-classic-collection-reshiram",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Reshiram-V2?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-066",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-066-shining_magikarp.png",
         "Name": "Shining Magikarp",
         "Rarity": "Ultra Rare",
@@ -947,7 +1175,52 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Shining+Magikarp+%28CEL+66%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76605+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-086",
+        "ID": "CEL-CC-009",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC9_R_EN_LG.png",
+        "Name": "Team Magma\u2019s Groudon",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting/Darkness",
+        "HP": "100",
+        "Pok\u00e9-BODY": [
+            "Power Saver"
+        ],
+        "Pok\u00e9-BODY-Effect": [
+            "As long as the number of Pok\u00e9mon in play (both yours and your opponent\u2019s) that has Team Magma in its name is 3 or less, Team Magma\u2019s Groudon can\u2019t attack."
+        ],
+        "Move-Energy": [
+            "FC",
+            "FFC"
+        ],
+        "Moves": [
+            "Linear Attack",
+            "Pulverize"
+        ],
+        "Move-Damage": [
+            "",
+            "50+"
+        ],
+        "Effects": [
+            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 20 damage to that Pok\u00e9mon. (Don\u2019t apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+            "If the Defending Pok\u00e9mon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
+        ],
+        "Weakness": "Grass",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "3",
+        "Card-Categories": [
+            "Dual Type",
+            "Team Magma\u2019s"
+        ],
+        "Dual-Type-Rule": "This Pok\u00e9mon is both [F][D] type.",
+        "Flavor-Text": null,
+        "Illustrator": "Kazuo Yazawa",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250326%2Fcelebrations-classic-collection-cleffa",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Cleffa?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-086",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-086-rockets_admin.png",
         "Name": "Rocket\u2019s Admin.",
         "Rarity": "Ultra Rare",
@@ -962,7 +1235,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Rocket%27s+Admin.+%28CEL+86%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76607+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-088",
+        "ID": "CEL-CC-088",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-088-mew_ex.png",
         "Name": "Mew ex",
         "Rarity": "Ultra Rare",
@@ -1002,7 +1275,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mew+ex+%28CEL+88%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76609+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-093",
+        "ID": "CEL-CC-093",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-093-gardevoir_ex.png",
         "Name": "Gardevoir ex",
         "Rarity": "Ultra Rare",
@@ -1043,7 +1316,85 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Gardevoir+ex+%28CEL+93%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76610+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-109",
+        "ID": "CEL-CC-017",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC17_R_EN_LG.png",
+        "Name": "Umbreon Star",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Pok\u00e9-POWER": [
+            "Dark Ray"
+        ],
+        "Pok\u00e9-POWER-Effect": [
+            "Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent\u2019s hand without looking and discard it."
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Moves": [
+            "Feint Attack"
+        ],
+        "Move-Damage": [
+            ""
+        ],
+        "Effects": [
+            "Choose 1 of your opponent\u2019s Pok\u00e9mon. This attack does 30 damage to that Pok\u00e9mon. This attack\u2019s damage isn\u2019t affected by Weakness, Resistance, Pok\u00e9-Powers, Pok\u00e9-Bodies, or any other effects on that Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": "Psychic",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "1",
+        "Card-Categories": [
+            "Star"
+        ],
+        "Star-Rule": "You can\u2019t have more than 1 Pok\u00e9mon Star in your deck.",
+        "Flavor-Text": null,
+        "Illustrator": "Masakazu Fukuda",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250334%2Fcelebrations-classic-collection-luxray-gl-lvx",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Luxray-GL-LvX?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-015",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/CEL/CEL_CC15_R_EN_LG.png",
+        "Name": "Claydol",
+        "Rarity": "Ultra Rare",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "80",
+        "Pok\u00e9-POWER": [
+            "Cosmic Power"
+        ],
+        "Pok\u00e9-POWER-Effect": [
+            "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can\u2019t be used if Claydol is affected by a Special Condition."
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Moves": [
+            "Spinning Attack"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Weakness-Modifier": "+20",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+        "Flavor-Text": "An ancient clay figurine that came to life as a Pok\u00e9mon from exposure to a mysterious ray of light.",
+        "Illustrator": "Midori Harada",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F250332%2Fcelebrations-classic-collection-umbreon-star",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Celebrations/Umbreon-CELPOP5-17?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "CEL-CC-109",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-109-luxray_gl.png",
         "Name": "Luxray GL LV.X",
         "Rarity": "Ultra Rare",
@@ -1085,7 +1436,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Luxray+GL+LV.X+%28CEL+109%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76613+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-145",
+        "ID": "CEL-CC-145",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-145-garchomp_c.png",
         "Name": "Garchomp C LV.X",
         "Rarity": "Ultra Rare",
@@ -1126,7 +1477,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Garchomp+C+LV.X+%28CEL+145%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76614+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-107",
+        "ID": "CEL-CC-107",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-107-donphan.png",
         "Name": "Donphan",
         "Rarity": "Ultra Rare",
@@ -1170,7 +1521,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Donphan+%28CEL+107%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76615+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-113",
+        "ID": "CEL-CC-113",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-113-reshiram.png",
         "Name": "Reshiram",
         "Rarity": "Ultra Rare",
@@ -1205,7 +1556,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Reshiram+%28CEL+113%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76616+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-114",
+        "ID": "CEL-CC-114",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-114-zekrom.png",
         "Name": "Zekrom",
         "Rarity": "Ultra Rare",
@@ -1240,7 +1591,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Zekrom+%28CEL+114%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76617+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-054",
+        "ID": "CEL-CC-054",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-054-mewtwo_ex.png",
         "Name": "Mewtwo-EX",
         "Rarity": "Ultra Rare",
@@ -1278,7 +1629,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Mewtwo-EX+%28CEL+54%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76608+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-097",
+        "ID": "CEL-CC-097",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-097-xerneas_ex.png",
         "Name": "Xerneas-EX",
         "Rarity": "Ultra Rare",
@@ -1317,7 +1668,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=Xerneas-EX+%28CEL+97%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76618+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-076",
+        "ID": "CEL-CC-076",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-076-m_rayquaza_ex.png",
         "Name": "M Rayquaza-EX",
         "Rarity": "Ultra Rare",
@@ -1355,7 +1706,7 @@
         "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=M+Rayquaza-EX+%28CEL+76%29&referrer=pkmncards&utm_source=pkmncards&utm_medium=single+76619+&utm_campaign=affiliate&mode=gallery"
     },
     {
-        "ID": "CEL-060",
+        "ID": "CEL-CC-060",
         "Image": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-060-tapu_lele_gx.png",
         "Name": "Tapu Lele-GX",
         "Rarity": "Ultra Rare",

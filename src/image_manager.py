@@ -67,6 +67,8 @@ class ImageManager:
         self.dex_icon = (QPixmap(self.img("src/images/ui/pokedex_dark.png")), QPixmap(self.img("src/images/ui/pokedex_light.png")))
         self.dex_back_icon = (QPixmap(self.img("src/images/ui/pokedex_dark_back.png")), QPixmap(self.img("src/images/ui/pokedex_light_back.png")))
         self.cd_back_icon = (QPixmap(self.img("src/images/ui/cd_dark_back.png")), QPixmap(self.img("src/images/ui/cd_light_back.png")))
+
+        self.search_all_icon = (QPixmap(self.img("src/images/ui/search_all_dark.png")), QPixmap(self.img("src/images/ui/search_all_light.png")))
         
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")
         self.gx_tag_team_icon = self.img("src/images/name_icons/gx_tag_team_icon.png")
