@@ -67,9 +67,9 @@ class SetManager:
             return set_data_git
 
 
-    def update_set(self, curr_set, category, series, set_name: str, dir):
+    def update_set(self, curr_set, category, series, set_name: str, dir, set_id):
 
-        new_set = self.create_set(set_name, category, series, dir, True)
+        new_set = self.create_set(set_name, category, series, dir, True, set_id)
 
         curr_set_sum = [card["Image"] for card in curr_set]
         new_set_sum = [card["Image"] for card in new_set] # type: ignore

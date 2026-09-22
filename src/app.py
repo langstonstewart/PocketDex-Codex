@@ -1225,7 +1225,7 @@ class Application(QMainWindow):
             self.bb_layout.addWidget(filter_text)
 
             if self.filtered_indexes:
-                filter_text.setText(f'<img src="{self.IM.filter_found[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Found {len(self.filtered_indexes)} cards that match the selected filters.')
+                filter_text.setText(f'<img src="{self.IM.filter_found[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Found {len(self.filtered_indexes)} {"cards" if len(self.filtered_indexes) > 1 else "card"} that match the selected filters.')
                 
             elif self.filtered_indexes == []:
                 filter_text.setText(f'<img src="{self.IM.filter_off[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> No cards could be found with the selected filters.')
@@ -1358,7 +1358,7 @@ class Application(QMainWindow):
 
     def update_set_data(self):
 
-        if self.set_manager.update_set(self.set_list, self.category_name, self.series, self.set_name, self.local_doc):
+        if self.set_manager.update_set(self.set_list, self.category_name, self.series, self.set_name, self.local_doc, self.set_id):
             self.init_cache()
             self.go_back(self.set_main_layout)
             self.clicked_set(True)
@@ -3385,7 +3385,7 @@ class Application(QMainWindow):
         else:
             self.card_filters[filter_key].remove(filter_value)   
 
-        if any(self.card_filters.values()):
+        if any(v for k, v in self.card_filters.items() if k not in ("Name", "Illustrator")):
             self.lock_filter_button(0)
         else:
             self.lock_filter_button(1)
@@ -3407,11 +3407,23 @@ class Application(QMainWindow):
         self.name_search_bar.setPlaceholderText("Search for a Pokémon, Then Press Enter...")
         self.name_search_bar.setClearButtonEnabled(True)
         self.name_search_bar.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        self.name_search_bar.setMinimumWidth(1750)
+        self.name_search_bar.setMinimumWidth(875)
 
-        self.name_search_bar.returnPressed.connect(partial(self.return_filtered_set))
+        self.name_search_bar.returnPressed.connect(partial(self.return_filtered_set, "Name"))
 
         layout.addWidget(self.name_search_bar)
+
+    def create_illus_search_bar(self, layout: QHBoxLayout):
+            
+            self.illus_search_bar = QLineEdit()
+            self.illus_search_bar.setPlaceholderText("Search for an Illustrator, Then Press Enter...")
+            self.illus_search_bar.setClearButtonEnabled(True)
+            self.illus_search_bar.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+            self.illus_search_bar.setMinimumWidth(875)
+    
+            self.illus_search_bar.returnPressed.connect(partial(self.return_filtered_set, "Illustrator"))
+    
+            layout.addWidget(self.illus_search_bar)
         
 
     def populate_checkboxes(self):
@@ -3422,14 +3434,14 @@ class Application(QMainWindow):
         self.init_back_button(self.filter_header_layout, "filter")
 
         filter_dict_model = name_filter.card_filters_tcg_model if self.category_name == "TCG" else name_filter.card_filters_pocket_model
-        filter_tag = QLabel(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Search by name or select one or more of the filters below. Note that depending on the card series, certain card types, stages, and rarities may return no results.')
-        filter_tag.setProperty("class", "dex_text")
+        self.filter_tag = QLabel(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Search or select one or more of the filters below. Note that depending on the card series, certain card types, stages, and rarities may return no results.')
+        self.filter_tag.setProperty("class", "dex_text")
 
-        filter_tag.setMinimumWidth(1490)
+        self.filter_tag.setMinimumWidth(1490)
   
-        filter_tag.setFont(self.main_font)
-        filter_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-        self.filter_header_layout.addWidget(filter_tag)
+        self.filter_tag.setFont(self.main_font)
+        self.filter_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        self.filter_header_layout.addWidget(self.filter_tag)
 
         self.save_filters_button = QPushButton("Save Filters...")
         self.save_filters_button.setProperty("class", "Main_Button")
@@ -3450,17 +3462,28 @@ class Application(QMainWindow):
 
         self.seperator(self.filter_type_layout, 1750) 
 
+        self.search_header_layout = QHBoxLayout()
+        self.filter_type_layout.addLayout(self.search_header_layout)
+
         name_search_label = QLabel("Name")
         name_search_label.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
         name_search_label.setProperty("class", "dex_text_med")
         name_search_label.setFont(self.main_font)
 
-        self.filter_type_layout.addWidget(name_search_label)
+        self.search_header_layout.addWidget(name_search_label)
+
+        name_search_label = QLabel("Illustrator")
+        name_search_label.setAlignment(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignTop)
+        name_search_label.setProperty("class", "dex_text_med")
+        name_search_label.setFont(self.main_font)
+
+        self.search_header_layout.addWidget(name_search_label)
 
         search_bar_layout = QHBoxLayout()
         search_bar_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.filter_type_layout.addLayout(search_bar_layout)
         self.create_name_search_bar(search_bar_layout)
+        self.create_illus_search_bar(search_bar_layout)
 
         for filter_key in filter_dict_model.keys():
 
@@ -3506,15 +3529,31 @@ class Application(QMainWindow):
     def filter_set(self):
         self.current_page = 0
 
-        if self.name_search_bar.text().strip():
-            self.card_filters["Name"] = [self.name_search_bar.text()]
+        if self.name_search_bar.text().strip() or self.illus_search_bar.text().strip():
+            if self.name_search_bar.text().strip():
+                self.card_filters["Name"] = [self.name_search_bar.text()]
 
-            self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()] 
+                self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()] 
+
+            else:
+                self.card_filters["Illustrator"] = [self.illus_search_bar.text()]
+                
+                self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or (card.get("Illustrator") is not None and self.card_filters["Illustrator"][0].lower() in card.get("Illustrator").lower())] 
+
         else:
             self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
         
 
-    def return_filtered_set(self):
+    def return_filtered_set(self, sender=None):
+
+        if sender == "Name":
+            self.card_filters["Illustrator"] = []
+            self.illus_search_bar.clear()
+
+        elif sender == "Illustrator":
+            self.card_filters["Name"] = []
+            self.name_search_bar.clear()
+
         if not self.global_search:
             self.filter_set()
 
@@ -3551,10 +3590,18 @@ class Application(QMainWindow):
 
         self.img_cache_dict = {} 
 
-        if self.name_search_bar.text().strip():
-            self.card_filters["Name"] = [self.name_search_bar.text()]
+        if self.name_search_bar.text().strip() or self.illus_search_bar.text().strip():
+            if self.name_search_bar.text().strip():
+                self.card_filters["Name"] = [self.name_search_bar.text()]
 
-            self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()] 
+                self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()]
+
+            else:
+                self.card_filters["Illustrator"] = [self.illus_search_bar.text()]
+
+                self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or (card.get("Illustrator") is not None and self.card_filters["Illustrator"][0].lower() in card.get("Illustrator").lower())]
+
+             
         else:
             self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
             
@@ -3562,7 +3609,11 @@ class Application(QMainWindow):
 
         self.custom_search_set = self.filtered_global_set
 
-        self.view_global_set()
+        if self.custom_search_set:
+            self.view_global_set()
+        else:
+            self.filter_tag.setText(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> No cards could be found with the selected filters.')
+
 
     def view_global_set(self):
 

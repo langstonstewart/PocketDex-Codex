@@ -699,7 +699,7 @@ class Themes:
 
             QLineEdit {
                 background-color: #2c2c2c;
-                color: #575757;
+                color: #b0b0b0;
                 border: 2px solid #2c2c2c;
                 border-radius: 6px;
                 padding: 6px 12px;
