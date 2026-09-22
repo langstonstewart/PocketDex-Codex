@@ -68,6 +68,8 @@ class ImageManager:
         self.dex_back_icon = (QPixmap(self.img("src/images/ui/pokedex_dark_back.png")), QPixmap(self.img("src/images/ui/pokedex_light_back.png")))
         self.cd_back_icon = (QPixmap(self.img("src/images/ui/cd_dark_back.png")), QPixmap(self.img("src/images/ui/cd_light_back.png")))
 
+        self.lock_icon = (QPixmap(self.img("src/images/ui/lock_icon_dark.png")), QPixmap(self.img("src/images/ui/lock_icon_light.png")))
+
         self.search_all_icon = (QPixmap(self.img("src/images/ui/search_all_dark.png")), QPixmap(self.img("src/images/ui/search_all_light.png")))
         
         self.gx_icon = self.img("src/images/name_icons/gx_icon.png")
@@ -463,8 +465,7 @@ class ImageLabel(QLabel):
     def image_loaded(self):
         reply = self._reply
         if reply is None or sip.isdeleted(reply):
-            self._reply = None
-            self.download_finished.emit(QPixmap())
+            # handle_error() already cleared self._reply and emitted download_finished for this reply
             return
         
         pixmap = QPixmap()

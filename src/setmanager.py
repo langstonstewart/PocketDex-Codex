@@ -46,13 +46,17 @@ class SetManager:
         with open(f"{dir}\\dex_data.json", "w+", encoding="UTF-8") as dex_file:
             json.dump(dex_data_git, dex_file, indent=4)
 
-    def create_set(self, set_name: str, category, series, dir, copy=False):
+    def create_set(self, set_name: str, category, series, dir, copy=False, set_id=""):
         
         set_data_git = self.create_parser(f"https://raw.githubusercontent.com/langstonstewart/PocketDex-Codex/refs/heads/main/set_data_git/{quote(category)}/{quote(series)}/{quote(set_name)}.json")
 
-        for card in set_data_git:
+        for or_index, card in enumerate(set_data_git):
             card['Quantity'] = 0
             card['Favorite'] = 0
+            card['Series'] = series
+            card['Set-Name'] = set_name
+            card['SetID'] = set_id
+            card["or_index"] = or_index
 
         if not copy:
   
@@ -87,7 +91,7 @@ class SetManager:
             return False
 
 
-    def export_excel(self, fp, set_name, set_data: dict): # type: ignore
+    def export_excel(self, fp, set_name, set_data): # type: ignore
         print(set_data)
         df = {"Quantity": [dic["Quantity"] for dic in set_data],
               "Favorite": [dic["Favorite"] for dic in set_data]}

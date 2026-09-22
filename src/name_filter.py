@@ -61,6 +61,7 @@ scrub_list = [
                            "Flying ",
                            "Surfing",
                            "Shining ",
+                           "_____’s ",
                            " E4",
                            " GL",
                            " Normal Forme",
@@ -74,9 +75,9 @@ scrub_list = [
 
 card_filters_tcg_model = {
                           
-                "Card-Type": ["Pokemon", "Trainer", "Supporter", "Item", "Energy", 
-                              "Basic Energy", "Tool", "Stadium", "Special Energy", "Technical Machine",
-                              "Rocket's Secret Machine", "Tool F", "Goldenrod Game Corner"],
+                "Card-Type": ["Pokemon", "Trainer", "Supporter", "Item", "Basic Energy", 
+                              "Tool", "Stadium", "Special Energy", "Technical Machine", "Rocket's Secret Machine", 
+                              "Tool F", "Goldenrod Game Corner"],
 
                 "Type": ["Grass", "Fire", "Water", "Lightning", "Psychic", 
                          "Fighting", "Darkness", "Metal", "Fairy", "Dragon", 
@@ -87,7 +88,7 @@ card_filters_tcg_model = {
                           "LEGEND", "Restored"],
 
                 
-                "Rarity": ["ACE SPEC Rare", "Amazing Rare", "Black White Rare", "Common", "Double Rare", "Futuristic Rare"
+                "Rarity": ["ACE SPEC Rare", "Amazing Rare", "Black White Rare", "Common", "Double Rare", "Futuristic Rare",
                         "Holo Rare V", "Holo Rare VMAX", "Holo Rare VSTAR", "Hyper Rare", "Illustration Rare",
                         "LEGEND", "Mega Attack Rare", "Mega Hyper Rare", "Promo", "Radiant Rare",
                         "Rainbow Rare", "Rare", "Rare BREAK", "Rare Holo", "Rare Holo EX",

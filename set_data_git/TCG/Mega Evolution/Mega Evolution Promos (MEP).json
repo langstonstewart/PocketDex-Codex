@@ -2698,6 +2698,58 @@
         "cardmarket_link": null
     },
     {
+        "ID": "MEP-086",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/MEP/MEP_086_R_EN_LG.png",
+        "Name": "Slowpoke",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": ["Dopey Face"],
+        "Ability-Effect": ["This Pokémon can't be Confused."],
+        "Move-Energy": ["PPC"],
+        "Moves": ["Super Psy Bolt"],
+        "Move-Damage": ["50"],
+        "Effects": [""],
+        "Weakness": "Darkness",
+        "Weakness-Modifier": "×2",
+        "Resistance": "Fighting",
+        "Resistance-Modifier": "-30",
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+      
+        "Flavor-Text": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+        "Illustrator": "miki kudo",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F706130%2Fpokemon-me-mega-evolution-promo-slowpoke-086-cosmos-holo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/MEP-Black-Star-Promos/Slowpoke-MEP086?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+        
+    },
+    {
+        "ID": "MEP-087",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/MEP/MEP_087_R_EN_LG.png",
+        "Name": "Binacle",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Move-Energy": ["F", "FF"],
+        "Moves": ["Double Draw", "Scratch"],
+        "Move-Damage": ["", "30"],
+        "Effects": ["Draw 2 cards.", ""],
+        "Weakness": "Grass",
+        "Weakness-Modifier": "×2",
+        "Resistance": null,
+        "Resistance-Modifier": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": null,
+        "Flavor-Text": "Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",
+        "Illustrator": "Shimaris Yukichi",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F706131%2Fpokemon-me-mega-evolution-promo-binacle-087-cosmos-holo",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/MEP-Black-Star-Promos/Binacle-MEP087?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
         "ID": "MEP-088",
         "Image": "https://pkmncards.com/wp-content/uploads/mebsp_en_088_std.png",
         "Name": "Zarude",
@@ -2721,6 +2773,124 @@
         "Illustrator": "IKEDA Saki",
         "tcg_player_link": null,
         "cardmarket_link": null
+    },
+    {
+        "ID": "MEP-089",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/MEP/MEP_089_R_EN_LG.png",
+        "Name": "Mega Zeraora ex",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "270",
+        "Move-Energy": [
+            "L",
+            "LLL"
+        ],
+        "Moves": [
+            "Thunderous Fist",
+            "Zepto Turn"
+        ],
+        "Move-Damage": [
+            "60\u00d7",
+            "150"
+        ],
+        "Effects": [
+            "This attack does 60 damage for each [L] Energy attached to this Pok\u00e9mon.",
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "1",
+        "Card-Categories": [
+            "ex",
+            "Mega Evolution ex"
+        ],
+        "Mega-ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710754%2Fpokemon-me-mega-evolution-promo-mega-zeraora-ex-089",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MEP-090",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/MEP/MEP_090_R_EN_LG.png",
+        "Name": "Mega Darkrai ex",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "280",
+        "Move-Energy": [
+            "DD",
+            "DDD"
+        ],
+        "Moves": [
+            "Dusk Raid",
+            "Abyss Eye"
+        ],
+        "Move-Damage": [
+            "110+",
+            ""
+        ],
+        "Effects": [
+            "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 110 more damage.",
+            "If your opponent\u2019s Active Pok\u00e9mon is affected by a Special Condition, it is Knocked Out."
+        ],
+        "Weakness": "Grass",
+        "Weakness-Modifier": "\u00d72",
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex",
+            "Mega Evolution ex"
+        ],
+        "Mega-ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710756%2Fpokemon-me-mega-evolution-promo-mega-darkrai-ex-090",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Darkrai-ex-MEP090?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
+    },
+    {
+        "ID": "MEP-091",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/MEP/MEP_091_R_EN_LG.png",
+        "Name": "Mega Dragonite ex",
+        "Rarity": "Promo",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "370",
+        "Ability": [
+            "Sky Transport"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may use this Ability. Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Move-Energy": [
+            "WLL"
+        ],
+        "Moves": [
+            "Ryuno Glide"
+        ],
+        "Move-Damage": [
+            "330"
+        ],
+        "Effects": [
+            "Discard 2 Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Resistance": null,
+        "Retreat-Cost": "2",
+        "Card-Categories": [
+            "ex",
+            "Mega Evolution ex"
+        ],
+        "Mega-ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent takes 3 Prize cards.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics",
+        "tcg_player_link": "https://partner.tcgplayer.com/LIMITLESS?u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710757%2Fpokemon-me-mega-evolution-promo-mega-dragonite-ex-091",
+        "cardmarket_link": "https://www.cardmarket.com/en/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Dragonite-ex-MEP091?utm_source=limitlesstcg&utm_medium=text&utm_campaign=card_prices"
     },
     {
         "ID": "MEP-092",

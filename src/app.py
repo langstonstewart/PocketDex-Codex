@@ -150,6 +150,10 @@ class Application(QMainWindow):
 
         self.rarity_dict = {}
 
+        self.page_size = 100
+
+        self.current_page = 0
+
         self.set_sep_lens = {4: 1200, 
                              6: 1700,
                              8: 2250}
@@ -275,7 +279,7 @@ class Application(QMainWindow):
 
                     if not os.listdir(set_dir):
                         if "Locked" not in set:
-                            pending_set_downloads.append((set["Name"], category[0], key, set_dir))
+                            pending_set_downloads.append((set["Name"], category[0], key, set_dir, False, set["SetID"]))
                         else:
                             self.upcoming_sets.append(set)
 
@@ -580,10 +584,14 @@ class Application(QMainWindow):
         del formatted_name[-1]
         formatted_name = " ".join(formatted_name)
 
-        set_title = QLabel(f"{formatted_name}")
+        set_title = QLabel(f"{formatted_name if not global_set else "Global Search"}")
         
         set_date = QLabel(f"{set_data["Release Date"] if not global_set else "Custom"}")
-        self.card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+
+        if not self.global_search:
+            self.card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+        else:
+            self.card_count = QLabel(f"{len(self.custom_search_set)} Cards")
 
         set_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         set_title.setProperty("class", "header1")
@@ -599,7 +607,9 @@ class Application(QMainWindow):
         set_date.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         set_date.setProperty("class", "header2")
         set_date.setFont(self.main_font)
-        self.data_header.addWidget(set_date)
+
+        if not self.global_search:
+            self.data_header.addWidget(set_date)
 
         self.card_count.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         self.card_count.setProperty("class", "header2")
@@ -1127,15 +1137,23 @@ class Application(QMainWindow):
         
         if not refresh:
             self.filtered_indexes = None
+            self.current_page = 0
             button = self.sender()
             self.set_name = button.property('Name') # type: ignore
             self.set_id = button.property('ID') # type: ignore
             self.series = button.property('Series') # type: ignore
         else:
-            self.clear_layout(self.set_main_layout) # type: ignore
-            button = self.set_button_dict[self.set_name]
-        
-
+            if self.set_name != "Global Search":
+                
+                self.clear_layout(self.set_main_layout) # type: ignore
+                button = self.set_button_dict[self.set_name]
+            else:
+                self.global_search = True
+              
+                self.view_global_set()
+                return
+            
+    
         self.set_widget = QWidget()
         
         self.set_main_layout = QVBoxLayout()
@@ -1144,7 +1162,7 @@ class Application(QMainWindow):
         self.set_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
         self.set_widget.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
-        
+      
 
         self.print_set_title(self.set_name)
 
@@ -1154,7 +1172,6 @@ class Application(QMainWindow):
         self.card_grid.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.card_grid.setVerticalSpacing(25)
         self.card_grid.setHorizontalSpacing(25)
-        self.set_main_layout.addLayout(self.card_grid)
         
         self.display_loading_page()
 
@@ -1162,13 +1179,21 @@ class Application(QMainWindow):
         
         
     def await_cache(self): 
-        
-        
+
+        self.page_nav_widgets = []
+
+        self.page_nav_buttons(self.set_main_layout)
+
+        self.set_main_layout.addLayout(self.card_grid)
+
         self.display_cards()
+
+        self.page_nav_buttons(self.set_main_layout)
 
         self.seperator(self.set_main_layout, self.set_sep_lens[self.col_count])
 
-        self.set_action_buttons()
+        if not self.global_search:
+            self.set_action_buttons()
 
         self.set_main_layout.addStretch()
 
@@ -1244,7 +1269,7 @@ class Application(QMainWindow):
         self.export_button.enterEvent = partial(self.on_button_enter, self.export_button)
         self.export_button.leaveEvent = partial(self.on_button_leave, self.export_button) # type: ignore
         
-        self.export_button.clicked.connect(partial(self.set_manager.export_excel, f"{self.local_doc}\\{self.category_name}\\{self.series}", self.set_name, self.set_list)) # type: ignore
+        self.export_button.clicked.connect(self.prepare_export) # type: ignore
 
         self.import_button = QPushButton("Import as Excel Spreadsheet..")
         self.import_button.setProperty("class", "Main_Button")
@@ -1275,6 +1300,13 @@ class Application(QMainWindow):
         self.ex_layout.addWidget(self.export_button)
         self.ex_layout.addWidget(self.import_button)
         self.ex_layout.addWidget(self.refresh_button)
+
+    def prepare_export(self):
+
+        with open(self.set_fp, "w") as set_file:
+            json.dump(self.set_list, set_file, indent=4)
+
+        self.set_manager.export_excel(f"{self.local_doc}\\{self.category_name}\\{self.series}", self.set_name, self.set_list)
 
     def change_col_button(self, layout, key=""):
       
@@ -1361,8 +1393,8 @@ class Application(QMainWindow):
         
 
     def add_one_all(self):
-        for button in self.plus_button_list:
-            self.increment_quantity(self.data_header, self.set_name, True, button)
+        for tup in self.plus_button_list:
+            self.increment_quantity(self.data_header, self.set_name, self.series, True, tup[0], tup[1])
         self.app.processEvents()
        
         with open(self.set_fp, "w") as set_file:
@@ -1371,8 +1403,8 @@ class Application(QMainWindow):
         self.dex_manager.save_dex_data()
 
     def remove_one_all(self):
-        for button in self.plus_button_list:
-            self.decrement_quantity(self.data_header, self.set_name, True, button)
+        for tup in self.plus_button_list:
+            self.decrement_quantity(self.data_header, self.set_name, self.series, True, tup[0], tup[1])
         self.app.processEvents()
 
         with open(self.set_fp, "w") as set_file:
@@ -1436,7 +1468,12 @@ class Application(QMainWindow):
         set_title = QLabel(f"{formatted_name}")
         set_tag = QLabel("")
         set_date = QLabel(f"{set_data["Release Date"] if not global_set else "Custom"}")
-        card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+        
+        if not self.global_search:
+            card_count = QLabel(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+        else:
+            card_count = QLabel(f"{len(self.custom_search_set)} Cards")
+                
         
         cache_label = QLabel(f"Please wait...")
 
@@ -1445,7 +1482,7 @@ class Application(QMainWindow):
         set_title.setFont(self.main_font)
         self.loading_header.addWidget(set_title)
 
-        set_tag = QLabel(f"{set_data["SetID"] if not global_set else "Custom"}")
+        set_tag = QLabel(f"{set_data["SetID"] if not global_set else "★"}")
         set_tag.setProperty("class", "Set_Tag")
         set_tag.setFont(self.main_font)
         set_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -1501,7 +1538,7 @@ class Application(QMainWindow):
         self.cd_widget.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
         
-    def display_card_data_page(self, card_index, favorites_menu):
+    def display_card_data_page(self, card_index, favorites_menu, set_id):
 
         self.previous = False
 
@@ -1551,7 +1588,7 @@ class Application(QMainWindow):
 
         card_header_layout.addWidget(card_type_banner)
 
-        self.create_card(card_index, card_layout, False)
+        self.create_card(card_index, card_layout, favorites_menu)
         
         if self.set_list[card_index]["Card-Type"] != 'Basic Energy':
             
@@ -1919,7 +1956,7 @@ class Application(QMainWindow):
             self.prev_card_button.enterEvent = partial(self.on_button_enter, self.prev_card_button)
             self.prev_card_button.leaveEvent = partial(self.on_button_leave, self.prev_card_button) # type: ignore
             
-            self.prev_card_button.clicked.connect(partial(self.display_card_data_page, card_index - 1, True if favorites_menu else False))
+            self.prev_card_button.clicked.connect(partial(self.display_card_data_page, card_index - 1, True if favorites_menu else False, self.set_list[card_index - 1]["SetID"]))
 
             self.previous = True
 
@@ -1938,7 +1975,7 @@ class Application(QMainWindow):
                 self.next_card_button.enterEvent = partial(self.on_button_enter, self.next_card_button)
                 self.next_card_button.leaveEvent = partial(self.on_button_leave, self.next_card_button) # type: ignore
 
-                self.next_card_button.clicked.connect(partial(self.display_card_data_page, card_index + 1, True if favorites_menu else False))
+                self.next_card_button.clicked.connect(partial(self.display_card_data_page, card_index + 1, True if favorites_menu else False, self.set_list[card_index - 1]["SetID"]))
 
                 self.next = True
 
@@ -1994,7 +2031,8 @@ class Application(QMainWindow):
         self.bb_layout.addLayout(button_layout) # type: ignore
 
         set_logo = QLabel("")
-        set_logo.setPixmap(self.IM.logo_dict[self.set_id].scaled(156, 156, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
+     
+        set_logo.setPixmap(self.IM.logo_dict[self.set_list[card_index]["SetID"]].scaled(156, 156, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation))
         
         self.bb_layout.addWidget(set_logo, alignment=Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignBottom)
 
@@ -2264,6 +2302,8 @@ class Application(QMainWindow):
         current_set_id = self.set_id
         current_card_image = self.set_list[card_index]["Image"]
 
+        self.series = self.set_list[card_index]["Series"]
+
         card_layout = QVBoxLayout(card_widget)
         card_layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
         card_layout.setSpacing(10)
@@ -2280,6 +2320,7 @@ class Application(QMainWindow):
         def on_card_leave(event, img: QLabel):
             if favorites_menu:
                 self.set_name = img.property("Set")
+
 
                 self.set_fp = f"{self.local_doc}\\{self.category_name}\\{img.property("series")}\\{self.set_name}\\{self.set_name}.json"
 
@@ -2303,8 +2344,8 @@ class Application(QMainWindow):
 
                     with open(self.set_fp, "r+") as set_file:
                         self.set_list = json.load(set_file)
-
-                self.display_card_data_page(card_index, favorites_menu)
+             
+                self.display_card_data_page(card_index, favorites_menu, self.set_list[card_index]["SetID"])
 
         def cache_img(widget, pixmap):
             pix = pixmap
@@ -2313,17 +2354,18 @@ class Application(QMainWindow):
                     self.img_cache_dict[current_set_id] = {}
                 self.img_cache_dict[current_set_id][current_card_image] = pix
 
-                self.card_cache_count += 1
+           
+            self.card_cache_count += 1
 
-                if self.card_cache_count == len(self.set_list) and not favorites_menu:
-                    self.stacked_layout.addWidget(self.set_widget)
-                    self.stacked_layout.setCurrentWidget(self.set_widget)
+            if self.card_cache_count == self.expected_card_count and not favorites_menu:
+                self.stacked_layout.addWidget(self.set_widget)
+                self.stacked_layout.setCurrentWidget(self.set_widget)
 
         def load_from_cache():
-            if self.card_cache_count != len(self.set_list):
+            if self.card_cache_count != self.expected_card_count:
                 self.card_cache_count += 1
     
-                if self.card_cache_count == len(self.set_list) and not favorites_menu:
+                if self.card_cache_count == self.expected_card_count and not favorites_menu:
                     self.stacked_layout.addWidget(self.set_widget)
                     self.stacked_layout.setCurrentWidget(self.set_widget)
 
@@ -2343,15 +2385,13 @@ class Application(QMainWindow):
         
         card_img.setProperty("index", card_index)
 
-        if not self.global_page:
-            print(self.global_page)
-            card_img.setProperty("series", self.series)
+        card_img.setProperty("series", self.series)
             
         card_img.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         card_img.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Expanding)
 
-        if not self.global_page:
-            card_img.setProperty("Set", self.set_name)
+  
+        card_img.setProperty("Set", self.set_name)
 
         if clickable:
             card_img.setProperty("class", "Card_Label")
@@ -2493,10 +2533,10 @@ class Application(QMainWindow):
             card_layout.addLayout(data_layout)
 
             minus_button = QPushButton("")
-            minus_button.setProperty("index", card_index)
+            minus_button.setProperty("index", self.set_list[card_index]["or_index"])
             minus_button.setProperty("id", self.set_list[card_index]["ID"])
             plus_button = QPushButton("")
-            plus_button.setProperty("index", card_index)
+            plus_button.setProperty("index", self.set_list[card_index]["or_index"])
             plus_button.setProperty("id", self.set_list[card_index]["ID"])
 
             minus_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -2509,7 +2549,7 @@ class Application(QMainWindow):
             minus_button.enterEvent = partial(self.on_button_enter, minus_button)
             minus_button.leaveEvent = partial(self.on_button_leave, minus_button) # type: ignore
 
-            minus_button.clicked.connect(partial(self.decrement_quantity, layout, self.set_name))
+            minus_button.clicked.connect(partial(self.decrement_quantity, layout, self.set_list[card_index]["Set-Name"], self.set_list[card_index]["Series"], False, QPushButton, card_index))
 
             self.minus_button_list.append(minus_button)
 
@@ -2534,10 +2574,10 @@ class Application(QMainWindow):
             
             plus_button.enterEvent = partial(self.on_button_enter, plus_button)
             plus_button.leaveEvent = partial(self.on_button_leave, plus_button) # type: ignore
+            
+            plus_button.clicked.connect(partial(self.increment_quantity, layout, self.set_list[card_index]["Set-Name"], self.set_list[card_index]["Series"], False, QPushButton, card_index))
 
-            plus_button.clicked.connect(partial(self.increment_quantity, layout, self.set_name, False, QPushButton))
-
-            self.plus_button_list.append(plus_button)
+            self.plus_button_list.append((plus_button, card_index))
 
             data_layout.addWidget(minus_button)
             data_layout.addWidget(quantity_label)
@@ -2555,6 +2595,7 @@ class Application(QMainWindow):
         favorite_button.setProperty("series", self.series)
         favorite_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         favorite_button.setProperty("class", "Main_Button")
+
         favorite_button.setIcon(QIcon(self.IM.favorite_icon[self.mode if not self.set_list[card_index]["Favorite"] else 2]))
         favorite_button.setIconSize(QSize(24, 24))
         favorite_button.setFixedWidth(205)
@@ -2562,7 +2603,7 @@ class Application(QMainWindow):
         favorite_button.enterEvent = partial(self.on_button_enter, favorite_button)
         favorite_button.leaveEvent = partial(self.on_button_leave, favorite_button) # type: ignore
 
-        favorite_button.clicked.connect(partial(self.favorite_card, layout, card_index) if not favorites_menu else partial(self.remove_from_favorites, self.set_name, f_index, card_index))
+        favorite_button.clicked.connect(partial(self.favorite_card, layout, self.set_list[card_index]["or_index"], self.set_list[card_index]["Set-Name"]) if not favorites_menu else partial(self.remove_from_favorites, self.set_name, f_index, card_index))
 
         self.fb_list.append(favorite_button)
 
@@ -2583,13 +2624,6 @@ class Application(QMainWindow):
         self.minus_button_list = []
         self.plus_button_list = []
         self.fb_list = []
-        
-        col_length = self.col_count
-        row_length = ceil(len(self.set_list) / col_length)
-
-
-        current_card = 0
-        all_rows = False
 
         data_changed = False
         for card in self.set_list:
@@ -2603,8 +2637,21 @@ class Application(QMainWindow):
 
         if not self.rarity_dict:
             self.init_rarities()
-        
+
+        total_cards = len(self.filtered_indexes) if self.filtered_indexes else len(self.set_list)
+
+        page_start = self.current_page * self.page_size
+        page_end = min(page_start + self.page_size, total_cards)
+        page_card_count = max(page_end - page_start, 0)
+
+        col_length = self.col_count
+        row_length = ceil(page_card_count / col_length) if page_card_count else 0
+
+        current_card = 0
+        all_rows = not page_card_count
+
         self.card_cache_count = 0
+        self.expected_card_count = page_card_count
 
         if self.filtered_indexes:
             while True:
@@ -2615,16 +2662,19 @@ class Application(QMainWindow):
                         break
                     for c in range(col_length):
 
-                        if 'skeleton' in self.set_list[self.filtered_indexes[current_card]]:
+                        set_index = self.filtered_indexes[page_start + current_card]
+
+                        if 'skeleton' in self.set_list[set_index]:
                             card_clickable = False
                         else:
                             card_clickable = True
+
                         
-                        self.create_card(self.filtered_indexes[current_card], self.card_grid, card_clickable, r, c, False, current_card)
+                        self.create_card(set_index, self.card_grid, card_clickable, r, c, False, current_card)
                        
                         current_card += 1
                         
-                        if current_card == len(self.filtered_indexes):
+                        if current_card == page_card_count:
                             all_rows = True
                             break
             self.stacked_layout.addWidget(self.set_widget)            
@@ -2639,34 +2689,106 @@ class Application(QMainWindow):
                         break
                     for c in range(col_length):
 
-                        if 'skeleton' in self.set_list[current_card]:
+                        set_index = page_start + current_card
+
+                        if 'skeleton' in self.set_list[set_index]:
                             card_clickable = False
                         else:
                             card_clickable = True
+
+                        self.series = self.set_list[set_index]["Series"]
                         
-                        self.create_card(current_card, self.card_grid, card_clickable, r, c)
+                        self.create_card(set_index, self.card_grid, card_clickable, r, c, False, current_card)
                         
                         current_card += 1
                         
-                        if current_card == len(self.set_list):
+                        if current_card == page_card_count:
                             all_rows = True
                             break
 
-                
-           
-    def favorite_card(self, layout, card_index):
+    def page_nav_buttons(self, layout):
+
+        total_cards = len(self.filtered_indexes) if self.filtered_indexes else len(self.set_list)
+
+        self.total_pages = max(ceil(total_cards / self.page_size), 1)
+
+        if self.total_pages <= 1:
+            return
+
+        page_nav_layout = QHBoxLayout()
+        page_nav_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        layout.addLayout(page_nav_layout)
+
+        prev_page_button = QPushButton("Previous Page...")
+        prev_page_button.setProperty("class", "Main_Button")
+        prev_page_button.setFont(self.main_font)
+        prev_page_button.setIcon(QIcon(self.IM.arrow_icon[self.mode]))
+        prev_page_button.setIconSize(QSize(36, 36))
+        prev_page_button.enterEvent = partial(self.on_button_enter, prev_page_button)
+        prev_page_button.leaveEvent = partial(self.on_button_leave, prev_page_button) # type: ignore
+        prev_page_button.clicked.connect(partial(self.change_page, -1))
+        prev_page_button.setEnabled(self.current_page > 0)
+
+        page_label = QLabel(f"Page {self.current_page + 1} of {self.total_pages}")
+        page_label.setFont(self.main_font)
+        page_label.setProperty("class", "header2")
+        page_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        page_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        page_label.setContentsMargins(20, 0, 20, 0)
+
+        next_page_button = QPushButton("Next Page..")
+        next_page_button.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
+        next_page_button.setProperty("class", "Main_Button")
+        next_page_button.setFont(self.main_font)
+        next_page_button.setIcon(QIcon(self.IM.forward_icon[self.mode]))
+        next_page_button.setIconSize(QSize(36, 36))
+        next_page_button.enterEvent = partial(self.on_button_enter, next_page_button)
+        next_page_button.leaveEvent = partial(self.on_button_leave, next_page_button) # type: ignore
+        next_page_button.clicked.connect(partial(self.change_page, 1))
+        next_page_button.setEnabled(self.current_page < self.total_pages - 1)
+
+        page_nav_layout.addWidget(prev_page_button)
+        page_nav_layout.addWidget(page_label)
+        page_nav_layout.addWidget(next_page_button)
+
+        # tracked so every nav bar (top and bottom) stays synced when the page changes
+        self.page_nav_widgets.append((prev_page_button, page_label, next_page_button))
+
+    def change_page(self, delta):
+
+        self.current_page += delta
+
+        self.clear_layout(self.card_grid) # type: ignore
+
+        self.display_cards()
+
+        for prev_page_button, page_label, next_page_button in self.page_nav_widgets:
+            prev_page_button.setEnabled(self.current_page > 0)
+            next_page_button.setEnabled(self.current_page < self.total_pages - 1)
+            page_label.setText(f"Page {self.current_page + 1} of {self.total_pages}")
+
+        self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+
+    def favorite_card(self, layout, card_index, set_name):
+
+        if self.global_search:
+            self.custom_search_set = self.set_list
+      
         fb = self.sender()
+
+        self.set_fp = f"{self.local_doc}\\{self.category_name}\\{fb.property("series")}\\{set_name}\\{set_name}.json" # type: ignore
+        
+        with open(self.set_fp, "r+") as set_file:
+            self.set_list = json.load(set_file)
        
         if not self.set_list[card_index]["Favorite"]: # type: ignore
             self.set_list[card_index]["Favorite"] = 1 # type: ignore
-          
+
+            if self.global_search:
+                self.custom_search_set[fb.property("index")]["Favorite"] = 1 # type: ignore
         
             card_data = copy.deepcopy(self.set_list[card_index]) # type: ignore
-            card_data["Set"] = self.set_name
-            card_data["Index"] = card_index # type: ignore
-            card_data["Series"] = fb.property("series") # type: ignore
-            
-
+        
             self.favorite_list.append(card_data) # type: ignore
             
             if hasattr(self, 'card_grid') and layout == self.card_grid:
@@ -2677,6 +2799,9 @@ class Application(QMainWindow):
             
         else:
             self.set_list[card_index]["Favorite"] = 0 # type: ignore
+
+            if self.global_search:
+                self.custom_search_set[fb.property("index")]["Favorite"] = 0 # type: ignore
             
             for index, f in enumerate(self.favorite_list):
                 if f["ID"] == self.set_list[card_index]["ID"]: # type: ignore
@@ -2692,6 +2817,10 @@ class Application(QMainWindow):
 
         with open(self.set_fp, "w") as set_file:
             json.dump(self.set_list, set_file, indent=4)
+
+        if self.global_search:
+            self.set_list = self.custom_search_set
+          
         
     
     def update_card_opacity(self, card: QLabel, quan):
@@ -2701,11 +2830,16 @@ class Application(QMainWindow):
         card.setGraphicsEffect(card_op)
         
 
-    def decrement_quantity(self, layout=None, set_name=None, all=False, object=QPushButton):
+    def decrement_quantity(self, layout=None, set_name=None, series=None, all=False, object=QPushButton, base_index=None):
+
+        if self.global_search:
+            self.custom_search_set = self.set_list
 
         if set_name:
             if not all:
-                self.set_fp = f"{self.local_doc}\\{self.category_name}\\{self.series}\\{self.set_name}\\{self.set_name}.json"
+                self.set_fp = f"{self.local_doc}\\{self.category_name}\\{series}\\{set_name}\\{set_name}.json"
+
+                print(self.set_fp)
 
                 with open(self.set_fp, "r+") as set_file:
                     self.set_list = json.load(set_file)
@@ -2719,26 +2853,38 @@ class Application(QMainWindow):
         
         if self.set_list[button.property("index")]["Quantity"] > 0: # type: ignore
             self.set_list[button.property("index")]["Quantity"] -= 1 # type: ignore
+            if self.global_search:
+                self.custom_search_set[base_index]["Quantity"] -= 1 # type: ignore
         else:
             return
         
         if hasattr(self, 'card_grid') and layout == self.card_grid:
-            self.card_count.setText(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
-        
+            if not self.global_search:
+                self.card_count.setText(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+            else:
+                self.card_count.setText(f"{len(self.custom_search_set)} Cards")
+
         self.update_card_opacity(self.card_img_dict[button.property("id")], self.set_list[button.property("index")]["Quantity"]) # type: ignore
 
         if not all:
             with open(self.set_fp, "w") as set_file:
                 json.dump(self.set_list, set_file, indent=4)
         
-        self.card_quantity_dict[button.property("index")].setText(f"{self.set_list[button.property("index")]["Quantity"]}") # type: ignore
+        self.card_quantity_dict[base_index].setText(f"{self.set_list[button.property("index")]["Quantity"]}") # type: ignore
 
+        if self.global_search:
+            self.set_list = self.custom_search_set
     
-    def increment_quantity(self, layout=None, set_name=None, all=False, object=QPushButton):
+    def increment_quantity(self, layout=None, set_name=None, series=None, all=False, object=QPushButton, base_index=None):
+        
+        if self.global_search:
+            self.custom_search_set = self.set_list
 
         if set_name:
             if not all:
-                self.set_fp = f"{self.local_doc}\\{self.category_name}\\{self.series}\\{self.set_name}\\{self.set_name}.json"
+                self.set_fp = f"{self.local_doc}\\{self.category_name}\\{series}\\{set_name}\\{set_name}.json"
+
+                print(self.set_fp)
 
                 with open(self.set_fp, "r+") as set_file:
                     self.set_list = json.load(set_file)
@@ -2755,11 +2901,16 @@ class Application(QMainWindow):
         
         if self.set_list[button.property("index")]["Quantity"] < 99: # type: ignore
             self.set_list[button.property("index")]["Quantity"] += 1 # type: ignore
+            if self.global_search:
+                self.custom_search_set[base_index]["Quantity"] += 1 # type: ignore
         else:
             return
         
         if hasattr(self, 'card_grid') and layout == self.card_grid:
-            self.card_count.setText(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+            if not self.global_search:
+                self.card_count.setText(f"{self.calculate_total_quantity()}/{len(self.set_list)} Cards")
+            else:
+                self.card_count.setText(f"{len(self.custom_search_set)} Cards")
         
         self.update_card_opacity(self.card_img_dict[button.property("id")], self.set_list[button.property("index")]["Quantity"]) # type: ignore
 
@@ -2769,7 +2920,10 @@ class Application(QMainWindow):
 
             self.dex_manager.save_dex_data()
 
-        self.card_quantity_dict[button.property("index")].setText(f"{self.set_list[button.property("index")]["Quantity"]}") # type: ignore
+        self.card_quantity_dict[base_index].setText(f"{self.set_list[button.property("index")]["Quantity"]}") # type: ignore
+
+        if self.global_search:
+            self.set_list = self.custom_search_set
 
             
 
@@ -2903,7 +3057,7 @@ class Application(QMainWindow):
                         break
                     for c in range(col_length):
 
-                        self.set_name = self.favorite_list[current_card]["Set"]
+                        self.set_name = self.favorite_list[current_card]["Set-Name"]
 
                         self.card_series = self.favorite_list[current_card]["Series"]
 
@@ -2917,12 +3071,14 @@ class Application(QMainWindow):
 
                         self.series = self.card_series
 
+              
+
                         if 'skeleton' in self.favorite_list[current_card]:
                             card_clickable = False
                         else:
                             card_clickable = True
                         
-                        self.create_card(self.favorite_list[current_card]["Index"], self.fav_grid, card_clickable, r, c, True, current_card)
+                        self.create_card(self.favorite_list[current_card]["or_index"], self.fav_grid, card_clickable, r, c, True, current_card)
                         
                         current_card += 1
                         if current_card == len(self.favorite_list):
@@ -2949,12 +3105,12 @@ class Application(QMainWindow):
                 
         
         else:
+            
             self.f_button.setText("Your Favorites collection is empty!")
          
 
     def remove_from_favorites(self, set_name, f_index, card_index):
         fb = self.sender()
-        print(card_index)
         self.set_name = set_name
 
         self.series = fb.property("series") # type: ignore
@@ -2990,6 +3146,7 @@ class Application(QMainWindow):
         self.go_back(self.fav_main_layout)
         if len(self.favorite_list):
             self.display_favorites()
+       
 
         
 
@@ -3079,6 +3236,7 @@ class Application(QMainWindow):
             return
         
         if hasattr(self, 'fav_main_layout') and layout == self.fav_main_layout:
+        
             self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
             self.display_sets(self.category_file_name)
             self.clear_layout(self.fav_main_layout) # type: ignore
@@ -3140,7 +3298,20 @@ class Application(QMainWindow):
                 if len(self.favorite_list):
                     self.display_favorites()
 
+                else:
+                    self.display_sets(self.category_file_name)
+
             return
+
+        elif hasattr(self, 'filter_header_layout') and layout == self.filter_header_layout:
+            if not self.global_search:
+                self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+                self.clicked_set(True)
+            else:
+                self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+                self.display_sets(self.category_file_name)
+                
+
 
     def return_to_card_data_page(self):
 
@@ -3214,12 +3385,26 @@ class Application(QMainWindow):
         else:
             self.card_filters[filter_key].remove(filter_value)   
 
+        if any(self.card_filters.values()):
+            self.lock_filter_button(0)
+        else:
+            self.lock_filter_button(1)
+
+    def lock_filter_button(self, state: int):
+
+        if state and self.save_filters_button.isEnabled(): # lock
+            self.save_filters_button.setIcon(QIcon(self.IM.lock_icon[self.mode]))
+            self.save_filters_button.setDisabled(True)
+        elif not state and not self.save_filters_button.isEnabled(): # unlock
+            self.save_filters_button.setIcon(QIcon(self.IM.filter_icon[self.mode]))
+            self.save_filters_button.setDisabled(False)
+        
         
 
     def create_name_search_bar(self, layout: QHBoxLayout):
         
         self.name_search_bar = QLineEdit()
-        self.name_search_bar.setPlaceholderText("Search for a Pokémon...")
+        self.name_search_bar.setPlaceholderText("Search for a Pokémon, Then Press Enter...")
         self.name_search_bar.setClearButtonEnabled(True)
         self.name_search_bar.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         self.name_search_bar.setMinimumWidth(1750)
@@ -3231,31 +3416,37 @@ class Application(QMainWindow):
 
     def populate_checkboxes(self):
 
-        filter_header_layout = QHBoxLayout()
-        self.filter_type_layout.addLayout(filter_header_layout)
+        self.filter_header_layout = QHBoxLayout()
+        self.filter_type_layout.addLayout(self.filter_header_layout)
+
+        self.init_back_button(self.filter_header_layout, "filter")
 
         filter_dict_model = name_filter.card_filters_tcg_model if self.category_name == "TCG" else name_filter.card_filters_pocket_model
-        filter_tag = QLabel(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Search by name or select one or more of the filters below. Note that depending on the card series, certain card types, stages, and rarities may no longer be printed.')
+        filter_tag = QLabel(f'<img src="{self.IM.entry_icon[self.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Search by name or select one or more of the filters below. Note that depending on the card series, certain card types, stages, and rarities may return no results.')
         filter_tag.setProperty("class", "dex_text")
+
+        filter_tag.setMinimumWidth(1490)
   
         filter_tag.setFont(self.main_font)
         filter_tag.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-        filter_header_layout.addWidget(filter_tag)
+        self.filter_header_layout.addWidget(filter_tag)
 
-        save_filters_button = QPushButton("Save Filters...")
-        save_filters_button.setProperty("class", "Main_Button")
-        save_filters_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Preferred)
-        save_filters_button.setFont(self.main_font)
+        self.save_filters_button = QPushButton("Save Filters...")
+        self.save_filters_button.setProperty("class", "Main_Button")
+        self.save_filters_button.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Preferred)
+        self.save_filters_button.setFont(self.main_font)
 
-        save_filters_button.setIcon(QIcon(self.IM.filter_icon[self.mode]))
-        save_filters_button.setIconSize(QSize(36, 36))
+        self.save_filters_button.setDisabled(True)
 
-        save_filters_button.enterEvent = partial(self.on_button_enter, save_filters_button)
-        save_filters_button.leaveEvent = partial(self.on_button_leave, save_filters_button) # type: ignore
+        self.save_filters_button.setIcon(QIcon(self.IM.lock_icon[self.mode]))
+        self.save_filters_button.setIconSize(QSize(36, 36))
+
+        self.save_filters_button.enterEvent = partial(self.on_button_enter, self.save_filters_button)
+        self.save_filters_button.leaveEvent = partial(self.on_button_leave, self.save_filters_button) # type: ignore
         
-        save_filters_button.clicked.connect(self.return_filtered_set)
+        self.save_filters_button.clicked.connect(self.return_filtered_set)
 
-        filter_header_layout.addWidget(save_filters_button)
+        self.filter_header_layout.addWidget(self.save_filters_button)
 
         self.seperator(self.filter_type_layout, 1750) 
 
@@ -3313,14 +3504,15 @@ class Application(QMainWindow):
             self.seperator(self.filter_type_layout, 1750)      
 
     def filter_set(self):
+        self.current_page = 0
+
         if self.name_search_bar.text().strip():
             self.card_filters["Name"] = [self.name_search_bar.text()]
 
             self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items()) or self.card_filters["Name"][0].lower() in card.get("Name").lower()] 
         else:
             self.filtered_indexes = [index for index, card in enumerate(self.set_list) if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
-            
-        print(self.filtered_indexes)
+        
 
     def return_filtered_set(self):
         if not self.global_search:
@@ -3344,8 +3536,6 @@ class Application(QMainWindow):
 
                             set_name = set["Name"]
 
-                            print(set_name)
-
                             set_fp = f"{self.local_doc}\\{self.category_name}\\{series}\\{set_name}\\{set_name}.json"
                             
                             with open(set_fp, "r+") as set_file:
@@ -3356,6 +3546,11 @@ class Application(QMainWindow):
 
 
     def filter_global_set(self):
+
+        self.current_page = 0
+
+        self.img_cache_dict = {} 
+
         if self.name_search_bar.text().strip():
             self.card_filters["Name"] = [self.name_search_bar.text()]
 
@@ -3364,6 +3559,8 @@ class Application(QMainWindow):
             self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
             
         print(self.filtered_global_set)
+
+        self.custom_search_set = self.filtered_global_set
 
         self.view_global_set()
 
@@ -3381,7 +3578,7 @@ class Application(QMainWindow):
         self.set_widget.setStyleSheet(self.themes.dark_theme if self.mode == 1 else self.themes.light_theme)
         self.set_widget.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
-        self.set_name = "Custom Search"
+        self.set_name = "Global Search"
 
         self.set_id = "★"
 
@@ -3393,12 +3590,10 @@ class Application(QMainWindow):
         self.card_grid.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         self.card_grid.setVerticalSpacing(25)
         self.card_grid.setHorizontalSpacing(25)
-        self.set_main_layout.addLayout(self.card_grid)
         
         self.display_loading_page(True)
 
         QTimer.singleShot(100, partial(self.await_cache))
-
 
 
     def clear_layout(self, layout: QVBoxLayout):
