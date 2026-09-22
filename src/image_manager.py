@@ -131,7 +131,9 @@ class ImageManager:
                                             "Black White Rare", #done
                                             "Rare Holo LV.X", #
                                             "Rare Holo ex", # done
-                                            "Rare Holo Star" # done
+                                            "Rare Holo Star",
+                                            "Futuristic Rare",
+                                            "RGB Rare"
                                         ],
 
                             "TCG Pocket": ["1 Diamond",

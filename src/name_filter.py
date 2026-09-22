@@ -87,12 +87,12 @@ card_filters_tcg_model = {
                           "LEGEND", "Restored"],
 
                 
-                "Rarity": ["ACE SPEC Rare", "Amazing Rare", "Black White Rare", "Common", "Double Rare",
+                "Rarity": ["ACE SPEC Rare", "Amazing Rare", "Black White Rare", "Common", "Double Rare", "Futuristic Rare"
                         "Holo Rare V", "Holo Rare VMAX", "Holo Rare VSTAR", "Hyper Rare", "Illustration Rare",
                         "LEGEND", "Mega Attack Rare", "Mega Hyper Rare", "Promo", "Radiant Rare",
                         "Rainbow Rare", "Rare", "Rare BREAK", "Rare Holo", "Rare Holo EX",
                         "Rare Holo GX", "Rare Holo LV.X", "Rare Holo Star", "Rare Holo ex", "Rare Prime",
-                        "Rare Prism Star", "Rare Secret", "Rare Shining", "Rare Shiny GX", "Shiny Rare",
+                        "Rare Prism Star", "Rare Secret", "Rare Shining", "Rare Shiny GX", "RGB Rare", "Shiny Rare",
                         "Shiny Rare V or VMAX", "Shiny Ultra Rare", "Special Full Art", "Special Illustration Rare", "Trainer Gallery Holo Rare",
                         "Trainer Gallery Holo Rare V", "Trainer Gallery Holo Rare V or VMAX", "Trainer Gallery Secret Rare", "Trainer Gallery Ultra Rare", "Ultra Rare",
                         "Uncommon"]

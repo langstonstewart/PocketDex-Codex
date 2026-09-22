@@ -2262,7 +2262,7 @@ class Application(QMainWindow):
         
         card_widget = QWidget()
         current_set_id = self.set_id
-        current_card_id = self.set_list[card_index]["ID"]
+        current_card_image = self.set_list[card_index]["Image"]
 
         card_layout = QVBoxLayout(card_widget)
         card_layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
@@ -2311,7 +2311,7 @@ class Application(QMainWindow):
             if pix and not pix.isNull():
                 if current_set_id not in self.img_cache_dict:
                     self.img_cache_dict[current_set_id] = {}
-                self.img_cache_dict[current_set_id][current_card_id] = pix
+                self.img_cache_dict[current_set_id][current_card_image] = pix
 
                 self.card_cache_count += 1
 
@@ -2328,16 +2328,16 @@ class Application(QMainWindow):
                     self.stacked_layout.setCurrentWidget(self.set_widget)
 
         if self.set_id in self.img_cache_dict.keys():
-            if self.set_list[card_index]["ID"] in self.img_cache_dict[self.set_id].keys():
-                card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager, is_pixmap=self.img_cache_dict[self.set_id][self.set_list[card_index]["ID"]])
+            if current_card_image in self.img_cache_dict[self.set_id]:
+                card_img = image_manager.ImageLabel(current_card_image, network_manager=self.network_manager, is_pixmap=self.img_cache_dict[self.set_id][current_card_image])
                 card_img.cache_pixmap_set.connect(partial(load_from_cache))
                 card_img.load_from_cache()
             else:
-                card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager)
+                card_img = image_manager.ImageLabel(current_card_image, network_manager=self.network_manager)
                 card_img.download_finished.connect(partial(cache_img, card_img))
         else:
             self.img_cache_dict[self.set_id] = {}
-            card_img = image_manager.ImageLabel(self.set_list[card_index]["Image"], network_manager=self.network_manager)
+            card_img = image_manager.ImageLabel(current_card_image, network_manager=self.network_manager)
             card_img.download_finished.connect(partial(cache_img, card_img))
 
         
