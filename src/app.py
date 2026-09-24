@@ -201,6 +201,8 @@ class Application(QMainWindow):
 
         self.global_page = False
 
+        self.expected_card_count = 0
+
 
 
         
@@ -2357,7 +2359,7 @@ class Application(QMainWindow):
            
             self.card_cache_count += 1
 
-            if self.card_cache_count == self.expected_card_count and not favorites_menu:
+            if not favorites_menu and self.card_cache_count == self.expected_card_count:
                 self.stacked_layout.addWidget(self.set_widget)
                 self.stacked_layout.setCurrentWidget(self.set_widget)
 
@@ -3243,7 +3245,7 @@ class Application(QMainWindow):
             return
 
         elif hasattr(self.dex_manager, 'main_dex_layout') and layout == self.dex_manager.main_dex_layout:
-            self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+            
             self.stacked_layout.setCurrentWidget(self.main_menu_widget)
 
 
@@ -3272,12 +3274,21 @@ class Application(QMainWindow):
                 
                 QTimer.singleShot(0, lambda: self.scroll_area.verticalScrollBar().setValue(self.saved_scroll_position)) # type: ignore
 
+            
+            
+
             if self.pend_reset:
         
                 self.dex_manager.refresh_dex(self.selected_region, False, False)
 
                 self.pend_reset = False
+
+            if hasattr(self.dex_manager, 'return_to_favs') and self.dex_manager.return_to_favs and self.dex_manager.favorites_active:
+            
+                self.dex_manager.refresh_dex(self.selected_region, False, True)
                 
+                self.pend_reset = False
+    
 
         
         elif (hasattr(self, 'set_main_layout') and layout == self.set_main_layout) or (hasattr(self, 'set_header') and layout == self.set_header):

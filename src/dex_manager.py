@@ -97,6 +97,8 @@ class DexManager:
 
         self.cache_dex_imgs_finished = 0
 
+        self.favorites_active = False
+
     
 
         
@@ -358,6 +360,11 @@ class DexManager:
 
     def refresh_dex(self, region, search=False, favorites=False):
         self.main_app.selected_region = region
+
+        if favorites:
+            self.favorites_active = True
+        else:
+            self.favorites_active = False
 
         if search:
             self.search_query = self.dex_search_bar.text()
@@ -629,11 +636,14 @@ class DexManager:
                 
 
     def favorite_poke(self, poke_name, favorites):
+        self.return_to_favs = False
         refresh_page = False
         self.main_app.pend_reset = False
 
         if poke_name not in self.dex_favorite_list:
             self.dex_favorite_list.append(poke_name)
+
+            self.return_to_favs = True
 
             if poke_name in self.dex_fb_dict.keys():
                 self.dex_fb_dict[poke_name].setIcon(QIcon(self.IM.favorite_icon[self.main_app.mode if poke_name not in self.dex_favorite_list else 2])) 
