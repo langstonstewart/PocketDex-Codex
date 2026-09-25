@@ -1113,37 +1113,90 @@ class DexManager:
 
         self.evo_chart_data = self.dex_data["Pokedex"][poke_name]["Evo_Chart"]
 
+
+       
+        self.dex_evo_layout = QVBoxLayout()
+        self.dex_stat_container.addLayout(self.dex_evo_layout)
+
         if self.evo_chart_data:
 
-            for evo_chart in self.evo_chart_data:
+            self.create_evolution_tree()
 
-                self.dex_chart_layout = QHBoxLayout()
-
-                self.dex_stat_container.addLayout(self.dex_chart_layout)
-                
-                chart_branches = [evo_data["From"] for evo_data in [evo for evo in evo_chart]]
-
-                print(chart_branches)
-
-                self.create_poke_branch(evo_chart[0]["From"], self.dex_chart_layout)
-
-                self.dex_evo_layout = QVBoxLayout()
-                
-                self.dex_stat_container.addLayout(self.dex_evo_layout)
-
-                for branch_name in chart_branches:
-                    for evo in evo_chart:
-                        if branch_name == evo["From"]:
-
-                            self.dex_branch_layout = QHBoxLayout()
-                                            
-                            self.dex_evo_layout.addLayout(self.dex_branch_layout)
-
-                            self.create_evo_arrow(self.dex_branch_layout)
-                            self.create_poke_branch(evo["To"], self.dex_branch_layout)
-
-
+        
         self.display_dex_data_page()
+
+    def create_evolution_tree(self):
+        for evo_tree in self.evo_chart_data:
+            all_to = {evo["To"] for evo in evo_tree}
+
+            start_pokemon = next(evo["From"] for evo in evo_tree if evo["From"] not in all_to)
+
+            def build_paths(current, path=None):
+                if path is None:
+                    path = []
+
+                next_evos = [evo for evo in evo_tree if evo["From"] == current]
+
+                if not next_evos:
+                    return [path]
+
+                paths = []
+                grouped_evos = {}
+
+                for evo in next_evos:
+                    grouped_evos.setdefault(evo["To"], []).append(evo)
+
+                for to_name, evolutions in grouped_evos.items():
+                    if len(evolutions) > 1:
+                        for index, evo in enumerate(evolutions):
+                            if index == len(evolutions) - 1:
+                                paths.extend(build_paths(evo["To"], path + [evo]))
+                            else:
+                                paths.append(path + [evo])
+                    else:
+                        evo = evolutions[0]
+                        paths.extend(build_paths(evo["To"], path + [evo]))
+
+                return paths
+
+            paths = build_paths(start_pokemon)
+
+            common_length = 0
+
+            if len(paths) > 1:
+                while all(len(path) > common_length and path[common_length]["From"] == paths[0][common_length]["From"] and path[common_length]["To"] == paths[0][common_length]["To"] for path in paths):
+                    common_length += 1
+
+            tree_layout = QHBoxLayout()
+            self.dex_evo_layout.addLayout(tree_layout)
+
+            self.create_poke_branch(start_pokemon, tree_layout)
+
+            for evo in paths[0][:common_length]:
+                self.create_evo_arrow(evo["Condition"], tree_layout)
+                self.create_poke_branch(evo["To"], tree_layout)
+
+            remaining_paths = [path[common_length:] for path in paths]
+
+            if len(paths) == 1:
+                for evo in remaining_paths[0]:
+                    self.create_evo_arrow(evo["Condition"], tree_layout)
+                    self.create_poke_branch(evo["To"], tree_layout)
+
+            else:
+                branch_layout = QVBoxLayout()
+                tree_layout.addLayout(branch_layout)
+
+                for path in remaining_paths:
+                    if not path:
+                        continue
+
+                    path_layout = QHBoxLayout()
+                    branch_layout.addLayout(path_layout)
+
+                    for evo in path:
+                        self.create_evo_arrow(evo["Condition"], path_layout)
+                        self.create_poke_branch(evo["To"], path_layout)
 
 
     def create_poke_branch(self, name, layout):
@@ -1154,8 +1207,8 @@ class DexManager:
             poke_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
             layout.addWidget(poke_title)
 
-    def create_evo_arrow(self, layout):
-        arrow_label = QLabel("➜")
+    def create_evo_arrow(self, method, layout):
+        arrow_label = QLabel(f"➜\n{method}")
         arrow_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         arrow_label.setProperty("class", "header2")
         arrow_label.setFont(self.main_app.main_font)
