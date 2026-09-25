@@ -99,6 +99,10 @@ class DexManager:
 
         self.favorites_active = False
 
+        self.dex_name_lookup = {}
+
+        
+
     
 
         
@@ -130,6 +134,11 @@ class DexManager:
     def dex_data_init(self):
         with open(resource_path(f"{self.local_doc}\\dex_data.json"), "r+") as dex_file:    
             self.dex_data = json.load(dex_file)
+
+        for key_name, data in self.dex_data["Pokedex"].items():
+            for form, form_data in data.items():
+                if "Form_" in form:
+                    self.dex_name_lookup[form_data["Dex_Name"]] = (key_name, form)
         
         
     def save_dex_data(self):
@@ -815,6 +824,8 @@ class DexManager:
         self.dex_data_stat_container = QHBoxLayout()
         
         self.dex_data_layout = QVBoxLayout()
+
+        self.dex_data_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         
         self.dex_data_widget.setLayout(self.dex_data_layout)
 
@@ -935,7 +946,7 @@ class DexManager:
         self.basic_txt_layout = QVBoxLayout()
         self.dex_data_container.addStretch(1)
         self.dex_data_container.addLayout(self.basic_txt_layout)
-        self.dex_data_container.addStretch(1)
+        
 
         basic_txt = QLabel(self.dex_data["Pokedex"][poke_name]["Description"])
         basic_txt.setProperty("class", "dex_text")
@@ -1116,21 +1127,28 @@ class DexManager:
 
        
         self.dex_evo_layout = QVBoxLayout()
+        self.dex_stat_container.addStretch()
         self.dex_stat_container.addLayout(self.dex_evo_layout)
+        self.dex_stat_container.addStretch()
 
         if self.evo_chart_data:
 
             self.create_evolution_tree()
 
-        
+
+        self.dex_data_container.addStretch(1)
+        self.dex_stat_container.addStretch()
         self.display_dex_data_page()
 
     def create_evolution_tree(self):
+        print("reset")
+     
         for evo_tree in self.evo_chart_data:
             all_to = {evo["To"] for evo in evo_tree}
 
             start_pokemon = next(evo["From"] for evo in evo_tree if evo["From"] not in all_to)
 
+ 
             def build_paths(current, path=None):
                 if path is None:
                     path = []
@@ -1170,24 +1188,41 @@ class DexManager:
             tree_layout = QHBoxLayout()
             self.dex_evo_layout.addLayout(tree_layout)
 
-            
+            name_img_layout = QVBoxLayout()
+            tree_layout.addLayout(name_img_layout)
 
-            self.create_poke_branch(start_pokemon, tree_layout)
+            self.create_poke_branch(start_pokemon, name_img_layout)
+            name_img_layout.addStretch()
+            
 
             for evo in paths[0][:common_length]:
                 self.create_evo_arrow(evo["Condition"], tree_layout)
-                self.create_poke_branch(evo["To"], tree_layout)
+                self.dex_evo_layout.addStretch()
+                name_img_layout.addStretch()
+                name_img_layout = QVBoxLayout()
+                tree_layout.addLayout(name_img_layout)
+
+                self.create_poke_branch(evo["To"], name_img_layout)
+                name_img_layout.addStretch()
 
             remaining_paths = [path[common_length:] for path in paths]
 
             if len(paths) == 1:
                 for evo in remaining_paths[0]:
+                    
                     self.create_evo_arrow(evo["Condition"], tree_layout)
-                    self.create_poke_branch(evo["To"], tree_layout)
+                    self.dex_evo_layout.addStretch()
+                    
+
+                    name_img_layout = QVBoxLayout()
+                    tree_layout.addLayout(name_img_layout)
+
+                    self.create_poke_branch(evo["To"], name_img_layout)
+                    name_img_layout.addStretch()
 
             else:
                 branch_layout = QVBoxLayout()
-                tree_layout.addLayout(branch_layout)
+                tree_layout.addLayout(branch_layout, Qt.AlignmentFlag.AlignTop)
 
                 for path in remaining_paths:
                     if not path:
@@ -1198,89 +1233,100 @@ class DexManager:
 
                     for evo in path:
                         self.create_evo_arrow(evo["Condition"], path_layout)
-                        self.create_poke_branch(evo["To"], path_layout)
+                       
 
-           
+                        name_img_layout = QVBoxLayout()
+                        path_layout.addLayout(name_img_layout)
+
+                        self.create_poke_branch(evo["To"], name_img_layout)
+
+                        if evo == path[-1]:
+                            name_img_layout.addStretch()
+                            branch_layout.addStretch()
+                            self.dex_evo_layout.addStretch()
+
+     
+        
+        self.dex_evo_layout.addStretch()
+        self.dex_stat_container.addStretch()
 
 
     def create_poke_branch(self, name, layout):
-            main_poke_bg = QToolButton()
-            
-            main_poke_bg.setMinimumHeight(100)
-            main_poke_bg.setMinimumWidth(100)
-    
-            main_poke_bg.setIconSize(QSize(100, 100))
-    
-            main_poke_bg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-    
-            main_poke_bg.setProperty("class", "Dex_Button_D")
-    
-            main_poke_bg.setFont(self.main_app.main_font)
-    
-            layout.addWidget(main_poke_bg)
+        main_poke_bg = QToolButton()
 
-            found = False
+        main_poke_bg.setMinimumHeight(125)
+        main_poke_bg.setMinimumWidth(125)
 
-            for key_name in self.dex_data["Pokedex"]:
-                if found:
-                    break
-                for form in [key for key in self.dex_data["Pokedex"][key_name].keys() if "Form_" in key]:
-                    if self.dex_data["Pokedex"][key_name][form]["Dex_Name"] == name:
-                        main_name = key_name
-                        main_form = form
-                        found = True
-                        break
-                
+        main_poke_bg.setIconSize(QSize(125, 125))
 
-            # FIX LATER -----------------------
+        main_poke_bg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
-            dex_num = self.dex_data["Pokedex"][main_name][main_form]["Dex_Number"] # type: str
-            
-            f_dex_num = dex_num.replace("#", "")
-    
-            cleaned_name = self.scrub_name(self.dex_data["Pokedex"][main_name][main_form]["Dex_Name"]) 
+        main_poke_bg.setProperty("class", "Dex_Button_D")
 
-            print(cleaned_name)
+        main_poke_bg.setFont(self.main_app.main_font)
 
-            # ---------------------------------
-            if not self.main_app.disable_dex_images:
-    
-                img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
-    
-            else:
-                img_url = f"https://static.wikia.nocookie.net/pokemon/images/8/87/Poké_Ball.png"
-    
-            dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
-    
-            self._dex_image_loaders.append(dex_img)
-    
-            cached_pixmap = dex_img.get_pixmap()
-    
-            if cached_pixmap is not None:
-                self._fade_in_icon(main_poke_bg, cached_pixmap.scaled(100, 100))
-            else:
-                dex_img.image_fetched.connect(
-                    partial(self._on_dex_image_fetched, main_poke_bg)
+        found = False
+
+        main_name, main_form = self.dex_name_lookup[name]
+
+        dex_num = self.dex_data["Pokedex"][main_name][main_form]["Dex_Number"]
+
+        f_dex_num = dex_num.replace("#", "")
+
+        cleaned_name = self.scrub_name(self.dex_data["Pokedex"][main_name][main_form]["Dex_Name"])
+
+        print(cleaned_name)
+
+        if not self.main_app.disable_dex_images:
+            img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+        else:
+            img_url = "https://static.wikia.nocookie.net/pokemon/images/8/87/Poké_Ball.png"
+
+        dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
+
+        self._dex_image_loaders.append(dex_img)
+
+        cached_pixmap = dex_img.get_pixmap()
+
+        if cached_pixmap is not None:
+            self._fade_in_icon(
+                main_poke_bg,
+                cached_pixmap.scaled(
+                    125,
+                    125,
+                    Qt.AspectRatioMode.KeepAspectRatio,
+                    Qt.TransformationMode.SmoothTransformation
                 )
-            poke_title = QLabel(name)
-            poke_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            poke_title.setProperty("class", "header2")
-            poke_title.setFont(self.main_app.main_font)
-            poke_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-            layout.addWidget(poke_title)
+            )
+        else:
+            dex_img.image_fetched.connect(
+                partial(self._on_dex_image_fetched, main_poke_bg)
+            )
 
-            layout.addStretch(1)
-            
+        poke_title = QLabel(name)
+        poke_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        poke_title.setProperty("class", "header2")
+        poke_title.setFont(self.main_app.main_font)
+        poke_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+        layout.addWidget(poke_title)
+        layout.addWidget(main_poke_bg)
+
 
     def create_evo_arrow(self, method, layout):
-        arrow_label = QLabel(f"➜\n{method}")
+        layout.addStretch()
+
+        arrow_label = QLabel(f"\n\n➜\n{method}")
         arrow_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         arrow_label.setWordWrap(True)
-        arrow_label.setMaximumWidth(300)
+        arrow_label.setMaximumWidth(500)
         arrow_label.setProperty("class", "header2")
         arrow_label.setFont(self.main_app.main_font)
         arrow_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
         layout.addWidget(arrow_label)
+        layout.addStretch()
+       
 
 
     def media_player_init(self):
