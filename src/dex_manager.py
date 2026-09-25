@@ -1210,6 +1210,8 @@ class DexManager:
     def create_evo_arrow(self, method, layout):
         arrow_label = QLabel(f"➜\n{method}")
         arrow_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        arrow_label.setWordWrap(True)
+        arrow_label.setMaximumWidth(300)
         arrow_label.setProperty("class", "header2")
         arrow_label.setFont(self.main_app.main_font)
         arrow_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
