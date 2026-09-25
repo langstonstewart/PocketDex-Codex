@@ -1,6 +1,6 @@
 from src import app
 
-codex = app.Application()
+codex = app.Application(disable_dex_images=True)
 
 if __name__ == "__main__":
     codex.run() # type: ignore

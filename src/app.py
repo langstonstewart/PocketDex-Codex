@@ -93,10 +93,12 @@ class CurrentOnlyStackedLayout(QStackedLayout):
 
 
 class Application(QMainWindow):
-    def __init__(self) -> None:
+    def __init__(self, disable_dex_images=False) -> None:
         self.app = QApplication([])
         super().__init__()
         os.environ['QT_MULTIMEDIA_PREFERRED_PLUGINS'] = 'windowsmediafoundation'
+
+        self.disable_dex_images = disable_dex_images
 
         self.dex_manager = dex_manager.DexManager(self)
 

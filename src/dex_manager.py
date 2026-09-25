@@ -512,7 +512,12 @@ class DexManager:
 
             button = QToolButton()
 
-            img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+            if not self.main_app.disable_dex_images:
+            
+                img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+    
+            else:
+                img_url = f"https://static.wikia.nocookie.net/pokemon/images/8/87/Poké_Ball.png"
 
             dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
 
@@ -531,7 +536,12 @@ class DexManager:
 
         button = QToolButton()
 
-        img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+        if not self.main_app.disable_dex_images:
+        
+            img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+
+        else:
+            img_url = f"https://static.wikia.nocookie.net/pokemon/images/8/87/Poké_Ball.png"
 
         dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
 
@@ -615,7 +625,12 @@ class DexManager:
             for form_i in form_list:
                 cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][form_i]["Dex_Name"])
     
-                img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+                if not self.main_app.disable_dex_images:
+                
+                    img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+        
+                else:
+                    img_url = f"https://static.wikia.nocookie.net/pokemon/images/8/87/Poké_Ball.png"
     
                 dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
     
@@ -793,11 +808,16 @@ class DexManager:
             self.cry_button_shortcut.deleteLater() # type: ignore
             del self.cry_button_shortcut
 
+        
+
         self.dex_data_widget = QWidget()
+
+        self.dex_data_stat_container = QHBoxLayout()
         
         self.dex_data_layout = QVBoxLayout()
         
         self.dex_data_widget.setLayout(self.dex_data_layout)
+
 
         self.main_app.init_back_button(self.dex_data_layout, "dex_return, Top", "Return to Pokédex..")
 
@@ -907,6 +927,7 @@ class DexManager:
 
         self.dex_data_container = QHBoxLayout()
 
+        
 
         self.dex_data_layout.addLayout(self.dex_data_container)
 
@@ -962,7 +983,12 @@ class DexManager:
 
         cleaned_name = self.scrub_name(self.dex_data["Pokedex"][poke_name][form]["Dex_Name"])
 
-        img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+        if not self.main_app.disable_dex_images:
+
+            img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
+
+        else:
+            img_url = f"https://static.wikia.nocookie.net/pokemon/images/8/87/Poké_Ball.png"
 
         dex_img = image_manager.DexImage(img_url, self.dex_img_cache)
 
@@ -1079,7 +1105,63 @@ class DexManager:
 
         self.dex_data_layout.addStretch(1)
 
+        # stats ----------------------------------------------------------
+
+        self.dex_stat_container = QHBoxLayout()
+        
+        self.dex_data_container.addLayout(self.dex_stat_container)
+
+        self.evo_chart_data = self.dex_data["Pokedex"][poke_name]["Evo_Chart"]
+
+        if self.evo_chart_data:
+
+            for evo_chart in self.evo_chart_data:
+
+                self.dex_chart_layout = QHBoxLayout()
+
+                self.dex_stat_container.addLayout(self.dex_chart_layout)
+                
+                chart_branches = [evo_data["From"] for evo_data in [evo for evo in evo_chart]]
+
+                print(chart_branches)
+
+                self.create_poke_branch(evo_chart[0]["From"], self.dex_chart_layout)
+
+                self.dex_evo_layout = QVBoxLayout()
+                
+                self.dex_stat_container.addLayout(self.dex_evo_layout)
+
+                for branch_name in chart_branches:
+                    for evo in evo_chart:
+                        if branch_name == evo["From"]:
+
+                            self.dex_branch_layout = QHBoxLayout()
+                                            
+                            self.dex_evo_layout.addLayout(self.dex_branch_layout)
+
+                            self.create_evo_arrow(self.dex_branch_layout)
+                            self.create_poke_branch(evo["To"], self.dex_branch_layout)
+
+
         self.display_dex_data_page()
+
+
+    def create_poke_branch(self, name, layout):
+            poke_title = QLabel(name)
+            poke_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+            poke_title.setProperty("class", "header2")
+            poke_title.setFont(self.main_app.main_font)
+            poke_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+            layout.addWidget(poke_title)
+
+    def create_evo_arrow(self, layout):
+        arrow_label = QLabel("➜")
+        arrow_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        arrow_label.setProperty("class", "header2")
+        arrow_label.setFont(self.main_app.main_font)
+        arrow_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        layout.addWidget(arrow_label)
+
 
     def media_player_init(self):
         self.media_manager = media_manager.MediaManager()
