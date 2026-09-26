@@ -976,7 +976,7 @@ class DexManager:
                 form_button.enterEvent = partial(self.main_app.on_button_enter, form_button)
                 form_button.leaveEvent = partial(self.main_app.on_button_leave, form_button)  # type: ignore
 
-                form_button.clicked.connect(partial(self.refresh_dex_data_page, poke_name, form_i, from_cd_page))
+                form_button.clicked.connect(partial(self.refresh_dex_data_page, poke_name, form_i, from_cd_page, "0"))
 
                 self.forms_layout.addWidget(form_button)
     
@@ -1038,21 +1038,7 @@ class DexManager:
         
         self.entry_counter_layout.addWidget(self.curr_txt)
 
-        up_button = QPushButton("")
-        up_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        up_button.setProperty("class", "Main_Button")
-        up_button.setIcon(QIcon(self.IM.arrow_up_icon[self.main_app.mode]))
-        up_button.setIconSize(QSize(32, 32))
-
-        up_button.enterEvent = partial(self.main_app.on_button_enter, up_button)
-        up_button.leaveEvent = partial(self.main_app.on_button_leave, up_button)  # type: ignore
-
-        up_button.clicked.connect(partial(self.change_flavor_text, "+"))
-
-        self.u_button_shortcut = QShortcut(QKeySequence("Up"), self.main_app)
-        self.u_button_shortcut.activated.connect(up_button.click)
-
-        self.entry_counter_layout.addWidget(up_button)
+        
 
         down_button = QPushButton("")
         down_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
@@ -1069,6 +1055,22 @@ class DexManager:
         self.d_button_shortcut.activated.connect(down_button.click)
 
         self.entry_counter_layout.addWidget(down_button)
+
+        up_button = QPushButton("")
+        up_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        up_button.setProperty("class", "Main_Button")
+        up_button.setIcon(QIcon(self.IM.arrow_up_icon[self.main_app.mode]))
+        up_button.setIconSize(QSize(32, 32))
+
+        up_button.enterEvent = partial(self.main_app.on_button_enter, up_button)
+        up_button.leaveEvent = partial(self.main_app.on_button_leave, up_button)  # type: ignore
+
+        up_button.clicked.connect(partial(self.change_flavor_text, "+"))
+
+        self.u_button_shortcut = QShortcut(QKeySequence("Up"), self.main_app)
+        self.u_button_shortcut.activated.connect(up_button.click)
+
+        self.entry_counter_layout.addWidget(up_button)
 
         
         self.flavor_txt = QLabel(self.poke_flavor_text[self.fl_index])
@@ -1368,23 +1370,6 @@ class DexManager:
         
         self.evo_counter_layout.addWidget(self.evo_curr_txt)
 
-        evo_up_button = QPushButton("")
-        evo_up_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
-        evo_up_button.setProperty("class", "Main_Button")
-        evo_up_button.setIcon(QIcon(self.IM.arrow_up_icon[self.main_app.mode]))
-        evo_up_button.setIconSize(QSize(32, 32))
-
-        evo_up_button.enterEvent = partial(self.main_app.on_button_enter, evo_up_button)
-        evo_up_button.leaveEvent = partial(self.main_app.on_button_leave, evo_up_button)  # type: ignore
-
-        evo_up_button.clicked.connect(partial(self.refresh_dex_data_page, name, form, from_cd_page, "+"))
-
-        self.evo_counter_layout.addWidget(evo_up_button)
-
-        if (self.evo_chart_page_index + 1) == (len(self.evo_chart_data)):
-            evo_up_button.setDisabled(True)
-
-
         evo_down_button = QPushButton("")
         evo_down_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         evo_down_button.setProperty("class", "Main_Button")
@@ -1400,6 +1385,22 @@ class DexManager:
 
         if not self.evo_chart_page_index:
             evo_down_button.setDisabled(True)
+
+        evo_up_button = QPushButton("")
+        evo_up_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        evo_up_button.setProperty("class", "Main_Button")
+        evo_up_button.setIcon(QIcon(self.IM.arrow_up_icon[self.main_app.mode]))
+        evo_up_button.setIconSize(QSize(32, 32))
+
+        evo_up_button.enterEvent = partial(self.main_app.on_button_enter, evo_up_button)
+        evo_up_button.leaveEvent = partial(self.main_app.on_button_leave, evo_up_button)  # type: ignore
+
+        evo_up_button.clicked.connect(partial(self.refresh_dex_data_page, name, form, from_cd_page, "+"))
+
+        self.evo_counter_layout.addWidget(evo_up_button)
+
+        if (self.evo_chart_page_index + 1) == (len(self.evo_chart_data)):
+            evo_up_button.setDisabled(True)
 
 
     def media_player_init(self):
@@ -1524,6 +1525,8 @@ class DexManager:
             self.evo_chart_page_index += 1
         elif evo_page == "-":
             self.evo_chart_page_index -= 1
+        elif evo_page == "0":
+            pass # stay the same
         else:
             self.evo_chart_page_index = 0
 
