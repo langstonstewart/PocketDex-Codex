@@ -1315,6 +1315,14 @@ class DexManager:
                 partial(self._on_dex_image_fetched, main_poke_bg)
             )
 
+        num_title = QLabel(dex_num.replace("#0", "#"))
+        num_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        num_title.setProperty("class", "dex_num_header")
+        num_title.setFont(self.main_app.main_font)
+        num_title.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+
+        layout.addWidget(num_title)
+
         poke_title = QLabel(name)
         poke_title.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         poke_title.setWordWrap(True)
@@ -1331,7 +1339,7 @@ class DexManager:
     def create_evo_arrow(self, method, layout):
         layout.addStretch()
 
-        arrow_label = QLabel(f"\n{self.evo_arrow_icon}\n{method}")
+        arrow_label = QLabel(f"\n\n\n{self.evo_arrow_icon}\n{method}")
         arrow_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         arrow_label.setWordWrap(True)
         arrow_label.setMaximumWidth(400)
