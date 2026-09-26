@@ -101,6 +101,8 @@ class DexManager:
 
         self.dex_name_lookup = {}
 
+        self.evo_chart_page_index = 0
+
         
 
     
@@ -279,6 +281,8 @@ class DexManager:
         self.main_dex_layout.addStretch(1)
 
         self.main_app.stacked_layout.addWidget(self.main_dex_widget)
+
+        
 
     def create_region_button(self, region, layout: QHBoxLayout):
 
@@ -1133,6 +1137,13 @@ class DexManager:
 
         if self.evo_chart_data:
 
+            if self.evo_chart_page_index >= len(self.evo_chart_data):
+                self.evo_chart_page_index = 0
+            
+            self.main_evo_chart_data = self.evo_chart_data[self.evo_chart_page_index]
+
+            self.create_evo_header(self.dex_evo_layout, poke_name, form, from_cd_page)
+
             self.create_evolution_tree()
 
 
@@ -1141,109 +1152,110 @@ class DexManager:
         self.display_dex_data_page()
 
     def create_evolution_tree(self):
-        print("reset")
-     
-        for evo_tree in self.evo_chart_data:
-            all_to = {evo["To"] for evo in evo_tree}
 
-            start_pokemon = next(evo["From"] for evo in evo_tree if evo["From"] not in all_to)
+        self.evo_arrow_icon = "➜"
 
- 
-            def build_paths(current, path=None):
-                if path is None:
-                    path = []
+        all_to = {evo["To"] for evo in self.main_evo_chart_data}
 
-                next_evos = [evo for evo in evo_tree if evo["From"] == current]
+        start_pokemon = next(evo["From"] for evo in self.main_evo_chart_data if evo["From"] not in all_to)
 
-                if not next_evos:
-                    return [path]
 
-                paths = []
-                grouped_evos = {}
+        def build_paths(current, path=None):
+            if path is None:
+                path = []
 
-                for evo in next_evos:
-                    grouped_evos.setdefault(evo["To"], []).append(evo)
+            next_evos = [evo for evo in self.main_evo_chart_data if evo["From"] == current]
 
-                for to_name, evolutions in grouped_evos.items():
-                    if len(evolutions) > 1:
-                        for index, evo in enumerate(evolutions):
-                            if index == len(evolutions) - 1:
-                                paths.extend(build_paths(evo["To"], path + [evo]))
-                            else:
-                                paths.append(path + [evo])
-                    else:
-                        evo = evolutions[0]
-                        paths.extend(build_paths(evo["To"], path + [evo]))
+            if not next_evos:
+                return [path]
 
-                return paths
+            paths = []
+            grouped_evos = {}
 
-            paths = build_paths(start_pokemon)
+            for evo in next_evos:
+                grouped_evos.setdefault(evo["To"], []).append(evo)
 
-            common_length = 0
+            for to_name, evolutions in grouped_evos.items():
+                if len(evolutions) > 1:
+                    for index, evo in enumerate(evolutions):
+                        if index == len(evolutions) - 1:
+                            paths.extend(build_paths(evo["To"], path + [evo]))
+                        else:
+                            paths.append(path + [evo])
+                else:
+                    evo = evolutions[0]
+                    paths.extend(build_paths(evo["To"], path + [evo]))
 
-            if len(paths) > 1:
-                while all(len(path) > common_length and path[common_length]["From"] == paths[0][common_length]["From"] and path[common_length]["To"] == paths[0][common_length]["To"] for path in paths):
-                    common_length += 1
+            return paths
 
-            tree_layout = QHBoxLayout()
-            self.dex_evo_layout.addLayout(tree_layout)
+        paths = build_paths(start_pokemon)
 
+        common_length = 0
+
+        if len(paths) > 1:
+            while all(len(path) > common_length and path[common_length]["From"] == paths[0][common_length]["From"] and path[common_length]["To"] == paths[0][common_length]["To"] for path in paths):
+                common_length += 1
+
+        tree_layout = QHBoxLayout()
+        self.dex_evo_layout.addLayout(tree_layout)
+
+        name_img_layout = QVBoxLayout()
+        tree_layout.addLayout(name_img_layout)
+
+        self.create_poke_branch(start_pokemon, name_img_layout)
+        name_img_layout.addStretch()
+        
+
+        for evo in paths[0][:common_length]:
+            self.create_evo_arrow(evo["Condition"], tree_layout)
+            self.dex_evo_layout.addStretch()
+            name_img_layout.addStretch()
             name_img_layout = QVBoxLayout()
             tree_layout.addLayout(name_img_layout)
 
-            self.create_poke_branch(start_pokemon, name_img_layout)
+            self.create_poke_branch(evo["To"], name_img_layout)
             name_img_layout.addStretch()
-            
 
-            for evo in paths[0][:common_length]:
+        remaining_paths = [path[common_length:] for path in paths]
+
+        if len(paths) == 1:
+            for evo in remaining_paths[0]:
+                
                 self.create_evo_arrow(evo["Condition"], tree_layout)
                 self.dex_evo_layout.addStretch()
-                name_img_layout.addStretch()
+                
+
                 name_img_layout = QVBoxLayout()
                 tree_layout.addLayout(name_img_layout)
 
                 self.create_poke_branch(evo["To"], name_img_layout)
                 name_img_layout.addStretch()
 
-            remaining_paths = [path[common_length:] for path in paths]
+        else:
+            branch_layout = QVBoxLayout()
+            tree_layout.addLayout(branch_layout, Qt.AlignmentFlag.AlignTop)
 
-            if len(paths) == 1:
-                for evo in remaining_paths[0]:
+            for path in remaining_paths:
+
+                if not path:
+                    continue
+
+                path_layout = QHBoxLayout()
+                branch_layout.addLayout(path_layout)
+                
+                for evo in path:
                     
-                    self.create_evo_arrow(evo["Condition"], tree_layout)
-                    self.dex_evo_layout.addStretch()
-                    
+                    self.create_evo_arrow(evo["Condition"], path_layout)
 
                     name_img_layout = QVBoxLayout()
-                    tree_layout.addLayout(name_img_layout)
+                    path_layout.addLayout(name_img_layout)
 
                     self.create_poke_branch(evo["To"], name_img_layout)
-                    name_img_layout.addStretch()
 
-            else:
-                branch_layout = QVBoxLayout()
-                tree_layout.addLayout(branch_layout, Qt.AlignmentFlag.AlignTop)
-
-                for path in remaining_paths:
-                    if not path:
-                        continue
-
-                    path_layout = QHBoxLayout()
-                    branch_layout.addLayout(path_layout)
-
-                    for evo in path:
-                        self.create_evo_arrow(evo["Condition"], path_layout)
-                       
-
-                        name_img_layout = QVBoxLayout()
-                        path_layout.addLayout(name_img_layout)
-
-                        self.create_poke_branch(evo["To"], name_img_layout)
-
-                        if evo == path[-1]:
-                            name_img_layout.addStretch()
-                            branch_layout.addStretch()
-                            self.dex_evo_layout.addStretch()
+                    if evo == path[-1]:
+                        name_img_layout.addStretch()
+                        branch_layout.addStretch()
+                        self.dex_evo_layout.addStretch()
 
      
         
@@ -1254,10 +1266,10 @@ class DexManager:
     def create_poke_branch(self, name, layout):
         main_poke_bg = QToolButton()
 
-        main_poke_bg.setMinimumHeight(125)
-        main_poke_bg.setMinimumWidth(125)
+        main_poke_bg.setMinimumHeight(150)
+        main_poke_bg.setMinimumWidth(150)
 
-        main_poke_bg.setIconSize(QSize(125, 125))
+        main_poke_bg.setIconSize(QSize(150, 150))
 
         main_poke_bg.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
 
@@ -1275,7 +1287,7 @@ class DexManager:
 
         cleaned_name = self.scrub_name(self.dex_data["Pokedex"][main_name][main_form]["Dex_Name"])
 
-        print(cleaned_name)
+     
 
         if not self.main_app.disable_dex_images:
             img_url = f"https://pocketdex-codex.pages.dev/artwork/{f_dex_num}_{cleaned_name}.png"
@@ -1292,8 +1304,8 @@ class DexManager:
             self._fade_in_icon(
                 main_poke_bg,
                 cached_pixmap.scaled(
-                    125,
-                    125,
+                    150,
+                    150,
                     Qt.AspectRatioMode.KeepAspectRatio,
                     Qt.TransformationMode.SmoothTransformation
                 )
@@ -1319,17 +1331,67 @@ class DexManager:
     def create_evo_arrow(self, method, layout):
         layout.addStretch()
 
-        arrow_label = QLabel(f"\n➜\n{method}")
+        arrow_label = QLabel(f"\n{self.evo_arrow_icon}\n{method}")
         arrow_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         arrow_label.setWordWrap(True)
-        arrow_label.setMaximumWidth(300)
+        arrow_label.setMaximumWidth(400)
         arrow_label.setProperty("class", "header2")
         arrow_label.setFont(self.main_app.main_font)
         arrow_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
 
         layout.addWidget(arrow_label)
         layout.addStretch()
-       
+
+    def create_evo_header(self, layout, name, form="Form_1", from_cd_page=False):
+        self.evo_header_layout = QVBoxLayout()
+        self.evo_counter_layout = QHBoxLayout()
+
+        layout.addLayout(self.evo_counter_layout)
+        layout.addLayout(self.evo_header_layout)
+
+        
+        
+        self.evo_curr_txt = QLabel(f'<img src="{self.IM.entry_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Evolution Chart {self.evo_chart_page_index + 1}/{len(self.evo_chart_data)}:')
+        self.evo_curr_txt.setProperty("class", "dex_text")
+        self.evo_curr_txt.setWordWrap(True)
+        self.evo_curr_txt.setFont(self.main_app.main_font)
+        self.evo_curr_txt.setAlignment(Qt.AlignmentFlag.AlignHCenter)
+        self.evo_curr_txt.setSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        
+        self.evo_counter_layout.addWidget(self.evo_curr_txt)
+
+        evo_up_button = QPushButton("")
+        evo_up_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        evo_up_button.setProperty("class", "Main_Button")
+        evo_up_button.setIcon(QIcon(self.IM.arrow_up_icon[self.main_app.mode]))
+        evo_up_button.setIconSize(QSize(32, 32))
+
+        evo_up_button.enterEvent = partial(self.main_app.on_button_enter, evo_up_button)
+        evo_up_button.leaveEvent = partial(self.main_app.on_button_leave, evo_up_button)  # type: ignore
+
+        evo_up_button.clicked.connect(partial(self.refresh_dex_data_page, name, form, from_cd_page, "+"))
+
+        self.evo_counter_layout.addWidget(evo_up_button)
+
+        if (self.evo_chart_page_index + 1) == (len(self.evo_chart_data)):
+            evo_up_button.setDisabled(True)
+
+
+        evo_down_button = QPushButton("")
+        evo_down_button.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        evo_down_button.setProperty("class", "Main_Button")
+        evo_down_button.setIcon(QIcon(self.IM.arrow_down_icon[self.main_app.mode]))
+        evo_down_button.setIconSize(QSize(32, 32))
+
+        evo_down_button.enterEvent = partial(self.main_app.on_button_enter, evo_down_button)
+        evo_down_button.leaveEvent = partial(self.main_app.on_button_leave, evo_down_button)  # type: ignore
+
+        evo_down_button.clicked.connect(partial(self.refresh_dex_data_page, name, form, from_cd_page, "-"))
+
+        self.evo_counter_layout.addWidget(evo_down_button)
+
+        if not self.evo_chart_page_index:
+            evo_down_button.setDisabled(True)
 
 
     def media_player_init(self):
@@ -1366,7 +1428,7 @@ class DexManager:
 
     def create_arrow_dex_buttons(self, poke_name, layout):
 
-        dex_num_int = self.poke_to_dex_num_dict[poke_name]
+        self.dex_num_int = self.poke_to_dex_num_dict[poke_name]
 
         if hasattr(self, 'l_button_shortcut'):
             self.l_button_shortcut.setEnabled(False) # type: ignore
@@ -1380,9 +1442,9 @@ class DexManager:
             del self.r_button_shortcut
 
 
-        if dex_num_int - 1 > 0:
+        if self.dex_num_int - 1 > 0:
 
-            self.prev_poke_button = QPushButton(f'View Previous Pokémon.. ({self.dex_num_to_poke_dict[dex_num_int - 1].replace("&", "&&")})')
+            self.prev_poke_button = QPushButton(f'View Previous Pokémon.. ({self.dex_num_to_poke_dict[self.dex_num_int - 1].replace("&", "&&")})')
             self.prev_poke_button.setProperty("class", "Main_Button")
             self.prev_poke_button.setFont(self.main_app.main_font)
 
@@ -1392,16 +1454,16 @@ class DexManager:
             self.prev_poke_button.enterEvent = partial(self.main_app.on_button_enter, self.prev_poke_button)
             self.prev_poke_button.leaveEvent = partial(self.main_app.on_button_leave, self.prev_poke_button) # type: ignore
             
-            self.prev_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int - 1], "Form_1"))
+            self.prev_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[self.dex_num_int - 1], "Form_1"))
 
             self.l_button_shortcut = QShortcut(QKeySequence("Left"), self.main_app)
             self.l_button_shortcut.activated.connect(self.prev_poke_button.click)
 
             layout.addWidget(self.prev_poke_button)
 
-        if dex_num_int != len(self.main_app.dex_name_list):
+        if self.dex_num_int != len(self.main_app.dex_name_list):
 
-            self.next_poke_button = QPushButton(f'View Next Pokémon.. ({self.dex_num_to_poke_dict[dex_num_int + 1].replace("&", "&&")})')
+            self.next_poke_button = QPushButton(f'View Next Pokémon.. ({self.dex_num_to_poke_dict[self.dex_num_int + 1].replace("&", "&&")})')
             self.next_poke_button.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
             self.next_poke_button.setProperty("class", "Main_Button")
             self.next_poke_button.setFont(self.main_app.main_font)
@@ -1412,7 +1474,7 @@ class DexManager:
             self.next_poke_button.enterEvent = partial(self.main_app.on_button_enter, self.next_poke_button)
             self.next_poke_button.leaveEvent = partial(self.main_app.on_button_leave, self.next_poke_button) # type: ignore
 
-            self.next_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[dex_num_int + 1], "Form_1"))
+            self.next_poke_button.clicked.connect(partial(self.refresh_dex_data_page, self.dex_num_to_poke_dict[self.dex_num_int + 1], "Form_1"))
 
             self.r_button_shortcut = QShortcut(QKeySequence("Right"), self.main_app)
             self.r_button_shortcut.activated.connect(self.next_poke_button.click)
@@ -1430,7 +1492,7 @@ class DexManager:
         random_button.enterEvent = partial(self.main_app.on_button_enter, random_button)
         random_button.leaveEvent = partial(self.main_app.on_button_leave, random_button) # type: ignore
         
-        random_button.clicked.connect(partial(self.refresh_dex_data_page, random.choice(self.main_app.dex_name_list), "Form_1"))
+        random_button.clicked.connect(partial(self.refresh_dex_data_page, random.choice(self.main_app.dex_name_list), "Form_1", False, ""))
 
         layout.addWidget(random_button)
 
@@ -1449,7 +1511,13 @@ class DexManager:
 
         self.main_app.bb_layout.addWidget(return_button, alignment=Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
-    def refresh_dex_data_page(self, poke_name, form, from_cd_page=False):
+    def refresh_dex_data_page(self, poke_name, form, from_cd_page=False, evo_page=""):
+        if evo_page == "+":
+            self.evo_chart_page_index += 1
+        elif evo_page == "-":
+            self.evo_chart_page_index -= 1
+        else:
+            self.evo_chart_page_index = 0
 
         self.main_app.go_back(self.dex_data_layout)
         self.init_dex_data_page(poke_name, form, from_cd_page)

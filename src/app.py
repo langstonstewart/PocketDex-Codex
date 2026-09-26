@@ -3257,7 +3257,7 @@ class Application(QMainWindow):
             return
         
         elif hasattr(self.dex_manager, 'dex_data_layout') and layout == self.dex_manager.dex_data_layout:
-    
+            
 
             self.dex_manager.main_dex_widget.setSizePolicy(
                     QSizePolicy.Policy.Expanding, 
