@@ -294,6 +294,17 @@ class Themes:
                 padding-right: 15px;
             }
 
+            QLabel[class="stat_bar"] {
+                font-size: 14px;
+                color: #1E1E1E; 
+                margin: 3px; 
+                background-color: #ebebeb; 
+                border-radius: 8px; 
+                padding: 5px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
             QLabel[class="dex_text_med"] {
                 font-size: 24px;
                 color: #1E1E1E; 
@@ -570,6 +581,82 @@ class Themes:
                 padding-right: 15px;
             }
 
+            QLabel[class="stat_bar"] {
+                font-size: 14px;
+                color: white; 
+                margin: 3px; 
+                background-color: #3d3d3d; 
+                border-radius: 8px; 
+                padding: 3px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
+            QLabel[class="stat_bar_rank_1"] {
+                font-size: 14px;
+                color: white; 
+                margin: 3px; 
+                background-color: #f34444; 
+                border-radius: 8px; 
+                padding: 3px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
+            QLabel[class="stat_bar_rank_2"] {
+                font-size: 14px;
+                color: white; 
+                margin: 3px; 
+                background-color: #ff993f; 
+                border-radius: 8px; 
+                padding: 3px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
+            QLabel[class="stat_bar_rank_3"] {
+                font-size: 14px;
+                color: white; 
+                margin: 3px; 
+                background-color: #ffdd57; 
+                border-radius: 8px; 
+                padding: 3px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
+            QLabel[class="stat_bar_rank_4"] {
+                font-size: 14px;
+                color: white; 
+                margin: 3px; 
+                background-color: #bfff3f; 
+                border-radius: 8px; 
+                padding: 3px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
+            QLabel[class="stat_bar_rank_5"] {
+                font-size: 14px;
+                color: white; 
+                margin: 3px; 
+                background-color: #23cd5e; 
+                border-radius: 8px; 
+                padding: 3px; 
+                padding-left: 3px; 
+                padding-right: 3px;
+            }
+
+            QLabel[class="stat_bar_rank_6"] {
+                    font-size: 14px;
+                    color: white; 
+                    margin: 3px; 
+                    background-color: #00c2b8; 
+                    border-radius: 8px; 
+                    padding: 3px; 
+                    padding-left: 3px; 
+                    padding-right: 3px;
+                }
             
             QLabel[class="dex_text_icon"] {
                 font-size: 20px;
