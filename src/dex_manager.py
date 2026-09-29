@@ -633,8 +633,8 @@ class DexManager:
     def create_bullet(self, layout):
 
         bullet = QLabel()
-        bullet.setText(f'⦿')
-        bullet.setProperty("class", "header2")
+        bullet.setText(f'◉')
+        bullet.setProperty("class", "header_title")
 
         bullet.setFont(self.main_app.main_font_bold)
         bullet.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
@@ -739,7 +739,7 @@ class DexManager:
         bs_header_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         layout.addLayout(bs_header_layout)
 
-        self.base_stats_header = QLabel(f'<img src="{self.IM.entry_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Base Stats:')
+        self.base_stats_header = QLabel(f'<img src="{self.IM.stat_circle_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Base Stats:')
         self.base_stats_header.setProperty("class", "dex_text")
         self.base_stats_header.setWordWrap(True)
         self.base_stats_header.setFont(self.main_app.main_font)
@@ -757,8 +757,7 @@ class DexManager:
         main_stat_layout = QGridLayout()
 
         stat_grid_container.addLayout(main_stat_layout)
-        
-        print(stat_data)
+    
 
         stat_names = list(stat_data.keys())
         
@@ -871,7 +870,29 @@ class DexManager:
 
         main_stat_layout.addWidget(max_num_title, 6, 4)
 
-        #stat_grid_container.addStretch()
+        
+     
+        
+
+        
+        
+
+
+    def create_base_stat_info_label(self, layout):
+       
+        bs_banner = QLabel()
+
+        bs_txt = """The ranges shown on the right are for a level 100 Pokémon.\n 
+        Maximum values are based on a beneficial nature, 252 EVs, 31 IVs;\nminimum values are based on a hindering nature, 0 EVs, 0 IVs."""
+
+        bs_banner.setText(f'<img src="{self.IM.stat_circle_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> {bs_txt}')
+        bs_banner.setProperty("class", "dex_text_icon")
+        bs_banner.setWordWrap(True)
+
+        bs_banner.setFont(self.main_app.main_font)
+        bs_banner.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        
+        layout.addWidget(bs_banner, Qt.AlignmentFlag.AlignHCenter)
        
 
     def init_dex_data_page(self, poke_name, form, from_cd_page=False):
@@ -1010,6 +1031,7 @@ class DexManager:
 
         self.create_height_weight_banners(h_w_data, self.data_layout)
 
+        
         
 
         self.create_arrow_dex_buttons(poke_name, self.main_app.bb_layout)
@@ -1198,7 +1220,9 @@ class DexManager:
 
         self.extra_op_layout.addWidget(cry_button)
 
-        # stats / evolution chart ----------------------------------------------------------
+        #self.create_base_stat_info_label(self.fl_layout)
+
+
         self.dex_stat_container = QVBoxLayout()
         self.dex_stat_h_container = QHBoxLayout()
         self.dex_stat_h_container.addLayout(self.dex_stat_container)
@@ -1445,7 +1469,7 @@ class DexManager:
         layout.addLayout(self.evo_counter_layout)
         layout.addLayout(self.evo_header_layout)
 
-        self.evo_curr_txt = QLabel(f'<img src="{self.IM.entry_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Evolution Chart {self.evo_chart_page_index + 1}/{len(self.evo_chart_data)}:')
+        self.evo_curr_txt = QLabel(f'<img src="{self.IM.flowchart_icon[self.main_app.mode]}" width="32" height="32" style="vertical-align: bottom;" /> Evolution Chart {self.evo_chart_page_index + 1}/{len(self.evo_chart_data)}:')
         self.evo_curr_txt.setProperty("class", "dex_text")
         self.evo_curr_txt.setWordWrap(True)
         self.evo_curr_txt.setFont(self.main_app.main_font)
@@ -1569,6 +1593,22 @@ class DexManager:
 
             layout.addWidget(self.next_poke_button)
 
+
+        view_button = QPushButton("View Cards With This Pokémon..")
+        view_button.setProperty("class", "Main_Button")
+        view_button.setFont(self.main_app.main_font)
+
+        view_button.setIcon(QIcon(self.IM.search_all_icon[self.main_app.mode]))
+        view_button.setIconSize(QSize(36, 36))
+
+        view_button.enterEvent = partial(self.main_app.on_button_enter, view_button)
+        view_button.leaveEvent = partial(self.main_app.on_button_leave, view_button) # type: ignore
+        
+        view_button.clicked.connect(partial(self.view_poke_filter, poke_name))
+
+        layout.addWidget(view_button)
+
+
         random_button = QPushButton("Random..")
         random_button.setProperty("class", "Main_Button")
         random_button.setFont(self.main_app.main_font)
@@ -1582,6 +1622,18 @@ class DexManager:
         random_button.clicked.connect(partial(self.refresh_dex_data_page, random.choice(self.main_app.dex_name_list), "Form_1", False, ""))
 
         layout.addWidget(random_button)
+
+        
+
+    def view_poke_filter(self, poke_name): 
+
+        self.main_app.display_sets("set_list_tcg.json")
+
+        self.main_app.display_global_filter()
+
+        self.main_app.name_search_bar.setText(poke_name)
+
+        self.main_app.return_filtered_set("Name")
 
     def init_return_to_cd_button(self, layout):
         return_button = QPushButton("Return to Card Data..")

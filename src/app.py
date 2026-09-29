@@ -205,6 +205,8 @@ class Application(QMainWindow):
 
         self.expected_card_count = 0
 
+        
+
 
 
         

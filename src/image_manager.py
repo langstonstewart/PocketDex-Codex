@@ -39,8 +39,8 @@ class ImageManager:
         self.refresh_icon = (QPixmap(self.img("src/images/ui/refresh_black.png")), QPixmap(self.img("src/images/ui/refresh_white.png")))
         self.favorite_icon = (QPixmap(self.img("src/images/ui/heart_black.png")), QPixmap(self.img("src/images/ui/heart_white.png")), QPixmap(self.img("src/images/ui/heart_active.png")))
         self.heart_button_icon = (QPixmap(self.img("src/images/ui/heart_button_black.png")), QPixmap(self.img("src/images/ui/heart_button_white.png")))
-        self.star_outline_icon = (self.img("src/images/ui/star_outline_dark.png"), self.img("src/images/ui/star_outline_light.png"))
-        self.star_full_icon = (self.img("src/images/ui/star_full_dark.png"), self.img("src/images/ui/star_full_light.png"))
+        self.star_outline_icon = (self.img("src/images/dex_icons/star_outline_dark.png"), self.img("src/images/dex_icons/star_outline_light.png"))
+        self.star_full_icon = (self.img("src/images/dex_icons/star_full_dark.png"), self.img("src/images/dex_icons/star_full_light.png"))
         self.f_tag = (QPixmap(self.img("src/images/tags/favorites_black.png")), QPixmap(self.img("src/images/tags/favorites_black.png")))
         self.paint_icon = (QPixmap(self.img("src/images/card_data/paint_black.png")), QPixmap(self.img("src/images/card_data/paint_white.png")))
         self.exit_icon = (QPixmap(self.img("src/images/ui/exit_black.png")), QPixmap(self.img("src/images/ui/exit_white.png")))
@@ -50,16 +50,19 @@ class ImageManager:
         self.cm_icon = (QPixmap(self.img("src/images/links/cardmarket_icon_dark.png")), QPixmap(self.img("src/images/links/cardmarket_icon_light.png")))
 
         self.filter_icon = (QPixmap(self.img("src/images/ui/filter_black.png")), QPixmap(self.img("src/images/ui/filter_white.png")))
-        self.filter_found = self.img("src/images/ui/filter_found_black.png"), self.img("src/images/ui/filter_found_white.png")
-        self.filter_off = self.img("src/images/ui/filter_off_black.png"), self.img("src/images/ui/filter_off_white.png")
+        self.filter_found = self.img("src/images/dex_icons/filter_found_black.png"), self.img("src/images/dex_icons/filter_found_white.png")
+        self.filter_off = self.img("src/images/dex_icons/filter_off_black.png"), self.img("src/images/dex_icons/filter_off_white.png")
 
         self.pkdb_icon = (QPixmap(self.img("src/images/links/pkdb_icon_dark.png")), QPixmap(self.img("src/images/links/pkdb_icon_light.png")))
         self.d_art_icon = (QPixmap(self.img("src/images/links/d_art_icon_dark.png")), QPixmap(self.img("src/images/links/d_art_icon_light.png")))
 
-        self.height_icon = (self.img("src/images/dex_type_icons/height_icon_dark.png"), self.img("src/images/dex_type_icons/height_icon_light.png"))
-        self.weight_icon = (self.img("src/images/dex_type_icons/weight_icon_dark.png"), self.img("src/images/dex_type_icons/weight_icon_light.png"))
-        self.entry_icon = (self.img("src/images/dex_type_icons/entry_icon_dark.png"), self.img("src/images/dex_type_icons/entry_icon_light.png"))
-        self.clock_icon = (self.img("src/images/dex_type_icons/clock_dark.png"), self.img("src/images/dex_type_icons/clock_light.png"))
+        self.height_icon = (self.img("src/images/dex_icons/height_icon_dark.png"), self.img("src/images/dex_icons/height_icon_light.png"))
+        self.weight_icon = (self.img("src/images/dex_icons/weight_icon_dark.png"), self.img("src/images/dex_icons/weight_icon_light.png"))
+        self.entry_icon = (self.img("src/images/dex_icons/entry_icon_dark.png"), self.img("src/images/dex_icons/entry_icon_light.png"))
+        self.clock_icon = (self.img("src/images/dex_icons/clock_dark.png"), self.img("src/images/dex_icons/clock_light.png"))
+
+        self.flowchart_icon = (self.img("src/images/dex_icons/flowchart_icon_dark.png"), self.img("src/images/dex_icons/flowchart_icon_light.png"))
+        self.stat_circle_icon = (self.img("src/images/dex_icons/stat_circle_dark.png"), self.img("src/images/dex_icons/stat_circle_light.png"))
 
         self.sound_icon = (self.img("src/images/ui/sound_icon_dark.png"), self.img("src/images/ui/sound_icon_light.png"))
         self.arrow_up_icon = (QPixmap(self.img("src/images/ui/arrow_up_dark.png")), QPixmap(self.img("src/images/ui/arrow_up_light.png")))
@@ -268,30 +271,30 @@ class ImageManager:
         }
 
         self.dex_type_dict = {
-            "Bug": self.img("src/images/dex_type_icons/bug_icon_sv.png"),
-            "Dark": self.img("src/images/dex_type_icons/dark_icon_sv.png"),
-            "Dragon": self.img("src/images/dex_type_icons/dragon_icon_sv.png"),
-            "Electric": self.img("src/images/dex_type_icons/electric_icon_sv.png"),
-            "Fairy": self.img("src/images/dex_type_icons/fairy_icon_sv.png"),
-            "Fighting": self.img("src/images/dex_type_icons/fighting_icon_sv.png"),
-            "Fire": self.img("src/images/dex_type_icons/fire_icon_sv.png"),
-            "Flying": self.img("src/images/dex_type_icons/flying_icon_sv.png"),
-            "Ghost": self.img("src/images/dex_type_icons/ghost_icon_sv.png"),
-            "Grass": self.img("src/images/dex_type_icons/grass_icon_sv.png"),
-            "Ground": self.img("src/images/dex_type_icons/ground_icon_sv.png"),
-            "Ice": self.img("src/images/dex_type_icons/ice_icon_sv.png"),
-            "Normal": self.img("src/images/dex_type_icons/normal_icon_sv.png"),
-            "Poison": self.img("src/images/dex_type_icons/poison_icon_sv.png"),
-            "Psychic": self.img("src/images/dex_type_icons/psychic_icon_sv.png"),
-            "Rock": self.img("src/images/dex_type_icons/rock_icon_sv.png"),
-            "Steel": self.img("src/images/dex_type_icons/steel_icon_sv.png"),
-            "Water": self.img("src/images/dex_type_icons/water_icon_sv.png")
+            "Bug": self.img("src/images/dex_icons/bug_icon_sv.png"),
+            "Dark": self.img("src/images/dex_icons/dark_icon_sv.png"),
+            "Dragon": self.img("src/images/dex_icons/dragon_icon_sv.png"),
+            "Electric": self.img("src/images/dex_icons/electric_icon_sv.png"),
+            "Fairy": self.img("src/images/dex_icons/fairy_icon_sv.png"),
+            "Fighting": self.img("src/images/dex_icons/fighting_icon_sv.png"),
+            "Fire": self.img("src/images/dex_icons/fire_icon_sv.png"),
+            "Flying": self.img("src/images/dex_icons/flying_icon_sv.png"),
+            "Ghost": self.img("src/images/dex_icons/ghost_icon_sv.png"),
+            "Grass": self.img("src/images/dex_icons/grass_icon_sv.png"),
+            "Ground": self.img("src/images/dex_icons/ground_icon_sv.png"),
+            "Ice": self.img("src/images/dex_icons/ice_icon_sv.png"),
+            "Normal": self.img("src/images/dex_icons/normal_icon_sv.png"),
+            "Poison": self.img("src/images/dex_icons/poison_icon_sv.png"),
+            "Psychic": self.img("src/images/dex_icons/psychic_icon_sv.png"),
+            "Rock": self.img("src/images/dex_icons/rock_icon_sv.png"),
+            "Steel": self.img("src/images/dex_icons/steel_icon_sv.png"),
+            "Water": self.img("src/images/dex_icons/water_icon_sv.png")
 
         }
 
         self.gender_dict = {
-            "Male": self.img("src/images/dex_type_icons/gender_male.png"),
-            "Female": self.img("src/images/dex_type_icons/gender_female.png"),
+            "Male": self.img("src/images/dex_icons/gender_male.png"),
+            "Female": self.img("src/images/dex_icons/gender_female.png"),
         }
 
 
