@@ -1858,6 +1858,17 @@ class Application(QMainWindow):
         misc_extra_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         rule_layout.addLayout(misc_extra_layout) # type: ignore
 
+        def on_enter(label: QLabel, event):
+            label.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+            
+            
+        def on_leave(label: QLabel, event):
+            label.setCursor(QCursor(Qt.CursorShape.ArrowCursor))
+            
+        
+        def on_click(url, event):
+            QDesktopServices.openUrl(QUrl(url))
+
         if self.set_list[card_index]["Illustrator"]:
 
             paint_icon = QLabel("")
@@ -1869,7 +1880,13 @@ class Application(QMainWindow):
             i_label = QLabel(f"Illustrated by {self.set_list[card_index]["Illustrator"]}")
             i_label.setFont(self.main_font)
             i_label.setProperty("class", "dex_text")
+            i_label.setProperty("hoverable", True)
             i_label.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+
+            i_label.enterEvent = partial(on_enter, i_label)
+            i_label.leaveEvent = partial(on_leave, i_label) # type: ignore
+            i_label.mousePressEvent = partial(self.view_illus_filter, self.set_list[card_index]["Illustrator"]) # type: ignore
+
             misc_extra_layout.addWidget(i_label)
 
             misc_extra_layout.addSpacing(25)
@@ -1894,16 +1911,7 @@ class Application(QMainWindow):
         prices_layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         rule_layout.addLayout(prices_layout) # type: ignore
 
-        def on_enter(label: QLabel, event):
-            label.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-            
-            
-        def on_leave(label: QLabel, event):
-            label.setCursor(QCursor(Qt.CursorShape.ArrowCursor))
-            
         
-        def on_click(url, event):
-            QDesktopServices.openUrl(QUrl(url))
 
         if "tcg_player_link" in self.set_list[card_index].keys() and self.set_list[card_index]["tcg_player_link"] is not None:
 
@@ -2047,6 +2055,16 @@ class Application(QMainWindow):
         self.stacked_layout.setCurrentWidget(self.cd_widget)
 
         self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
+
+    def view_illus_filter(self, illus_name, event=None): 
+    
+            #self.display_sets("set_list_tcg.json")
+    
+            self.display_global_filter()
+    
+            self.illus_search_bar.setText(illus_name)
+    
+            self.return_filtered_set("Illustrator")
 
     def display_moves(self, card_index, layout: QVBoxLayout):
         for i in range(len(self.set_list[card_index]["Moves"])):
@@ -2845,12 +2863,8 @@ class Application(QMainWindow):
             if not all:
                 self.set_fp = f"{self.local_doc}\\{self.category_name}\\{series}\\{set_name}\\{set_name}.json"
 
-                print(self.set_fp)
-
                 with open(self.set_fp, "r+") as set_file:
                     self.set_list = json.load(set_file)
-
-            
 
         if all:
             button = object
@@ -2889,8 +2903,6 @@ class Application(QMainWindow):
         if set_name:
             if not all:
                 self.set_fp = f"{self.local_doc}\\{self.category_name}\\{series}\\{set_name}\\{set_name}.json"
-
-                print(self.set_fp)
 
                 with open(self.set_fp, "r+") as set_file:
                     self.set_list = json.load(set_file)
@@ -3619,8 +3631,7 @@ class Application(QMainWindow):
              
         else:
             self.filtered_global_set = [card for card in self.global_set if any(card.get(filter_key) in filter_values for filter_key, filter_values in self.card_filters.items())] 
-            
-        print(self.filtered_global_set)
+
 
         self.custom_search_set = self.filtered_global_set
 

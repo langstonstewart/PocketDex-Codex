@@ -294,6 +294,10 @@ class Themes:
                 padding-right: 15px;
             }
 
+            QLabel[class="dex_text"][hoverable="true"]:hover {
+            background-color: #f5f5f5;
+            }
+
             QLabel[class="stat_bar"] {
                 font-size: 14px;
                 color: #1E1E1E; 
@@ -593,6 +597,10 @@ class Themes:
                 padding-left: 15px; 
                 padding-right: 15px;
             }
+
+            QLabel[class="dex_text"][hoverable="true"]:hover {
+                background-color: #747474;
+                }
 
             QLabel[class="dex_text_med"] {
                             font-size: 24px;
