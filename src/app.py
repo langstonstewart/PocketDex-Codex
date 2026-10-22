@@ -875,8 +875,8 @@ class Application(QMainWindow):
 
         self.main_layout.addStretch() # type: ignore
 
-        if self.category_name != "TCG Pocket":
-            self.init_back_button(self.main_layout, "Set_Page")
+        
+        self.init_back_button(self.main_layout, "Set_Page")
 
         self.stacked_layout.setCurrentWidget(self.main_widget)
 
@@ -2057,8 +2057,6 @@ class Application(QMainWindow):
         self.scroll_area.verticalScrollBar().setValue(0) # type: ignore
 
     def view_illus_filter(self, illus_name, event=None): 
-    
-            #self.display_sets("set_list_tcg.json")
     
             self.display_global_filter()
     
