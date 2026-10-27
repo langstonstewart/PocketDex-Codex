@@ -1,975 +1,1119 @@
-    
-    {
-        "Mega Evolution": 
-        [   
-            {
-                "Name": "Delta Reign (DTR)",
-                "SetID": "DTR",
-                "SetLink": "",
-                "Release Date": "November 6th, 2026",
-                "Release Time": "12:00 AM -07:00",
-                "Locked": true
-            },
-            {
-                "Name": "30th Celebration (30C)",
-                "SetID": "30C",
-                "SetLink": "https://pkmncards.com/set/30th-celebration/?sort=number",
-                "Release Date": "September 16th, 2026"
-            },
-            {
-                "Name": "Pitch Black (PBL)",
-                "SetID": "PBL",
-                "SetLink": "https://pkmncards.com/set/pitch-black/?sort=number",
-                "Release Date": "July 17th, 2026"
-            },
-            {
-                "Name": "Chaos Rising (CRI)",
-                "SetID": "CRI",
-                "SetLink": "https://pkmncards.com/set/chaos-rising/?sort=number",
-                "Release Date": "May 22nd, 2026"
-            },
-            {
-                "Name": "Perfect Order (POR)",
-                "SetID": "POR",
-                "SetLink": "https://pkmncards.com/set/perfect-order/?sort=number",
-                "Release Date": "March 27th, 2026"
-            },
-            {
-                "Name": "Ascended Heroes (ASC)",
-                "SetID": "ASC",
-                "SetLink": "https://pkmncards.com/set/ascended-heroes/?sort=number",
-                "Release Date": "January 30th, 2026"
-            },
-            {
-                "Name": "Phantasmal Flames (PFL)",
-                "SetID": "PFL",
-                "SetLink": "https://pkmncards.com/set/phantasmal-flames/?sort=number",
-                "Release Date": "November 14th, 2025"
-            },
-            {
-                "Name": "Mega Evolution (MEG)",
-                "SetID": "MEG",
-                "SetLink": "https://pkmncards.com/set/mega-evolution/?sort=number",
-                "Release Date": "September 26th, 2025"
-            },
-            {
-                "Name": "Mega Evolution Energy (MEE)",
-                "SetID": "MEE",
-                "SetLink": "https://pkmncards.com/set/mee/?sort=number",
-                "Release Date": "September 25th, 2025"
-            },
-            {
-                "Name": "Mega Evolution Promos (MEP)",
-                "SetID": "MEP",
-                "SetLink": "https://pkmncards.com/set/mega-evolution-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "September 2025"
-            }
-        ],
-        "Scarlet & Violet":
-        [
-            {
-                "Name": "Black Bolt (BLK)",
-                "SetID": "BLK",
-                "SetLink": "https://pkmncards.com/set/black-bolt/?sort=number",
-                "Release Date": "July 18th, 2025"
-            },
-            {
-                "Name": "White Flare (WHT)",
-                "SetID": "WHT",
-                "SetLink": "https://pkmncards.com/set/white-flare/?sort=number",
-                "Release Date": "July 18th, 2025"
-            },
-            {
-                "Name": "Destined Rivals (DRI)",
-                "SetID": "DRI",
-                "SetLink": "https://pkmncards.com/set/destined-rivals/?sort=number",
-                "Release Date": "May 30th, 2025"
-            },
-            {
-                "Name": "Journey Together (JTG)",
-                "SetID": "JTG",
-                "SetLink": "https://pkmncards.com/set/journey-together/?sort=number",
-                "Release Date": "March 28th, 2025"
-            },
-            {
-                "Name": "Prismatic Evolutions (PRE)",
-                "SetID": "PRE",
-                "SetLink": "https://pkmncards.com/set/prismatic-evolutions/?sort=number",
-                "Release Date": "January 17th, 2025"
-            },
-            {
-                "Name": "Surging Sparks (SSP)",
-                "SetID": "SSP",
-                "SetLink": "https://pkmncards.com/set/surging-sparks/?sort=number",
-                "Release Date": "November 8th, 2024"
-            },
-            {
-                "Name": "Stellar Crown (SCR)",
-                "SetID": "SCR",
-                "SetLink": "https://pkmncards.com/set/stellar-crown/?sort=number",
-                "Release Date": "September 13th, 2024"
-            },
-            {
-                "Name": "Shrouded Fable (SFA)",
-                "SetID": "SFA",
-                "SetLink": "https://pkmncards.com/set/shrouded-fable/?sort=number",
-                "Release Date": "August 2nd, 2024"
-            },
-            {
-                "Name": "Twilight Masquerade (TWM)",
-                "SetID": "TWM",
-                "SetLink": "https://pkmncards.com/set/twilight-masquerade/?sort=number",
-                "Release Date": "May 24th, 2024"
-            },
-            {
-                "Name": "Temporal Forces (TEF)",
-                "SetID": "TEF",
-                "SetLink": "https://pkmncards.com/set/temporal-forces/?sort=number",
-                "Release Date": "March 22nd, 2024"
-            },
-            {
-                "Name": "Paldean Fates (PAF)",
-                "SetID": "PAF",
-                "SetLink": "https://pkmncards.com/set/paldean-fates/?sort=number",
-                "Release Date": "January 26th, 2024"
-            },
-            {
-                "Name": "Paradox Rift (PAR)",
-                "SetID": "PAR",
-                "SetLink": "https://pkmncards.com/set/paradox-rift/?sort=number",
-                "Release Date": "November 3rd, 2023"
-            },
-            {
-                "Name": "Pok\u00e9mon 151 (MEW)",
-                "SetID": "MEW",
-                "SetLink": "https://pkmncards.com/set/151/?sort=number",
-                "Release Date": "September 22nd, 2023"
-            },
-            {
-                "Name": "Obsidian Flames (OBF)",
-                "SetID": "OBF",
-                "SetLink": "https://pkmncards.com/set/obsidian-flames/?sort=number",
-                "Release Date": "August 11th, 2023"
-            },
-            {
-                "Name": "Paldea Evolved (PAL)",
-                "SetID": "PAL",
-                "SetLink": "https://pkmncards.com/set/paldea-evolved/?sort=number",
-                "Release Date": "June 9th, 2023"
-            },
-            {
-                "Name": "Scarlet & Violet (SVI)",
-                "SetID": "SVI",
-                "SetLink": "https://pkmncards.com/set/scarlet-violet/?sort=number",
-                "Release Date": "March 31st, 2023"
-            },
-            {
-                "Name": "Scarlet & Violet Energy (SVE)",
-                "SetID": "SVE",
-                "SetLink": "https://pkmncards.com/set/scarlet-violet-energy/?sort=number",
-                "Release Date": "March 30th, 2023"
-            },
-            {
-                "Name": "Scarlet & Violet Promos (SVP)",
-                "SetID": "SVP",
-                "SetLink": "https://pkmncards.com/set/scarlet-violet-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "January 2023"
-            }
-        ],
-        "Sword & Shield":
-        [
-            {
-                "Name": "Crown Zenith (CRZ)",
-                "SetID": "CRZ",
-                "SetLink": "https://pkmncards.com/set/crown-zenith/?sort=number",
-                "Release Date": "January 20th, 2023"
-            },
-            {
-                "Name": "Silver Tempest (SIT)",
-                "SetID": "SIT",
-                "SetLink": "https://pkmncards.com/set/silver-tempest/?sort=number",
-                "Release Date": "November 11th, 2022"
-            },
-            {
-                "Name": "Lost Origin (LOR)",
-                "SetID": "LOR",
-                "SetLink": "https://pkmncards.com/set/lost-origin/?sort=number",
-                "Release Date": "September 9th, 2022"
-            },
-            {
-                "Name": "Pok\u00e9mon GO (PGO)",
-                "SetID": "PGO",
-                "SetLink": "https://pkmncards.com/set/pokemon-go/?sort=number",
-                "Release Date": "July 1st, 2022"
-            },
-            {
-                "Name": "Astral Radiance (ASR)",
-                "SetID": "ASR",
-                "SetLink": "https://pkmncards.com/set/astral-radiance/?sort=number",
-                "Release Date": "May 27th, 2022"
-            },
-            {
-                "Name": "Brilliant Stars (BRS)",
-                "SetID": "BRS",
-                "SetLink": "https://pkmncards.com/set/brilliant-stars/?sort=number",
-                "Release Date": "February 25th, 2022"
-            },
-            {
-                "Name": "Fusion Strike (FST)",
-                "SetID": "FST",
-                "SetLink": "https://pkmncards.com/set/fusion-strike/?sort=number",
-                "Release Date": "November 12th, 2021"
-            },
-            {
-                "Name": "Celebrations (CEL)",
-                "SetID": "CEL",
-                "SetLink": "https://pkmncards.com/set/celebrations/?sort=number",
-                "Release Date": "October 8th, 2021"
-            },
-            {
-                "Name": "Evolving Skies (EVS)",
-                "SetID": "EVS",
-                "SetLink": "https://pkmncards.com/set/evolving-skies/?sort=number",
-                "Release Date": "August 27th, 2021"
-            },
-            {
-                "Name": "Chilling Reign (CRE)",
-                "SetID": "CRE",
-                "SetLink": "https://pkmncards.com/set/chilling-reign/?sort=number",
-                "Release Date": "June 18th, 2021"
-            },
-            {
-                "Name": "Battle Styles (BST)",
-                "SetID": "BST",
-                "SetLink": "https://pkmncards.com/set/battle-styles/?sort=number",
-                "Release Date": "March 19th, 2021"
-            },
-            {
-                "Name": "Shining Fates (SHF)",
-                "SetID": "SHF",
-                "SetLink": "https://pkmncards.com/set/shining-fates/?sort=number",
-                "Release Date": "February 19th, 2021"
-            },
-            {
-                "Name": "Vivid Voltage (VIV)",
-                "SetID": "VIV",
-                "SetLink": "https://pkmncards.com/set/vivid-voltage/?sort=number",
-                "Release Date": "November 13th, 2020"
-            },
-            {
-                "Name": "Champion's Path (CPA)",
-                "SetID": "CPA",
-                "SetLink": "https://pkmncards.com/set/champions-path/?sort=number",
-                "Release Date": "September 25th, 2020"
-            },
-            {
-                "Name": "Darkness Ablaze (DAA)",
-                "SetID": "DAA",
-                "SetLink": "https://pkmncards.com/set/darkness-ablaze/?sort=number",
-                "Release Date": "August 14th, 2020"
-            },
-            {
-                "Name": "Rebel Clash (RCL)",
-                "SetID": "RCL",
-                "SetLink": "https://pkmncards.com/set/rebel-clash/?sort=number",
-                "Release Date": "May 1st, 2020"
-            },
-            {
-                "Name": "Sword & Shield (SSH)",
-                "SetID": "SSH",
-                "SetLink": "https://pkmncards.com/set/sword-shield/?sort=number",
-                "Release Date": "February 7th, 2020"
-            },
-            {
-                "Name": "Sword & Shield Promos (SP)",
-                "SetID": "SP",
-                "SetLink": "https://pkmncards.com/set/sword-shield-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "November 2019"
-            }
-        ],
-        "Sun & Moon":
-        [
-            {
-                "Name": "Cosmic Eclipse (CEC)",
-                "SetID": "CEC",
-                "SetLink": "https://pkmncards.com/set/cosmic-eclipse/?sort=number",
-                "Release Date": "November 1st, 2019"
-            },
-            {
-                "Name": "Hidden Fates (HIF)",
-                "SetID": "HIF",
-                "SetLink": "https://pkmncards.com/set/hidden-fates/?sort=number",
-                "Release Date": "August 23rd, 2019"
-            },
-            {
-                "Name": "Unified Minds (UNM)",
-                "SetID": "UNM",
-                "SetLink": "https://pkmncards.com/set/unified-minds/?sort=number",
-                "Release Date": "August 2nd, 2019"
-            },
-            {
-                "Name": "Unbroken Bonds (UNB)",
-                "SetID": "UNB",
-                "SetLink": "https://pkmncards.com/set/unbroken-bonds/?sort=number",
-                "Release Date": "May 3rd, 2019"
-            },
-            {
-                "Name": "Detective Pikachu (DET)",
-                "SetID": "DET",
-                "SetLink": "https://pkmncards.com/set/detective-pikachu/?sort=number",
-                "Release Date": "March 29th, 2019"
-            },
-            {
-                "Name": "Team Up (TEU)",
-                "SetID": "TEU",
-                "SetLink": "https://pkmncards.com/set/team-up/?sort=number",
-                "Release Date": "February 1st, 2019"
-            },
-            {
-                "Name": "Lost Thunder (LOT)",
-                "SetID": "LOT",
-                "SetLink": "https://pkmncards.com/set/lost-thunder/?sort=number",
-                "Release Date": "November 2nd, 2018"
-            },
-            {
-                "Name": "Dragon Majesty (DRM)",
-                "SetID": "DRM",
-                "SetLink": "https://pkmncards.com/set/dragon-majesty/?sort=number",
-                "Release Date": "September 7th, 2018"
-            },
-            {
-                "Name": "Celestial Storm (CES)",
-                "SetID": "CES",
-                "SetLink": "https://pkmncards.com/set/celestial-storm/?sort=number",
-                "Release Date": "August 3rd, 2018"
-            },
-            {
-                "Name": "Forbidden Light (FLI)",
-                "SetID": "FLI",
-                "SetLink": "https://pkmncards.com/set/forbidden-light/?sort=number",
-                "Release Date": "May 4th, 2018"
-            },
-            {
-                "Name": "Ultra Prism (UPR)",
-                "SetID": "UPR",
-                "SetLink": "https://pkmncards.com/set/ultra-prism/?sort=number",
-                "Release Date": "February 2nd, 2018"
-            },
-            {
-                "Name": "Crimson Invasion (CIN)",
-                "SetID": "CIN",
-                "SetLink": "https://pkmncards.com/set/crimson-invasion/?sort=number",
-                "Release Date": "November 3rd, 2017"
-            },
-            {
-                "Name": "Shining Legends (SLG)",
-                "SetID": "SLG",
-                "SetLink": "https://pkmncards.com/set/shining-legends/?sort=number",
-                "Release Date": "October 6th, 2017"
-            },
-            {
-                "Name": "Burning Shadows (BUS)",
-                "SetID": "BUS",
-                "SetLink": "https://pkmncards.com/set/burning-shadows/?sort=number",
-                "Release Date": "August 4th, 2017"
-            },
-            {
-                "Name": "Guardians Rising (GRI)",
-                "SetID": "GRI",
-                "SetLink": "https://pkmncards.com/set/guardians-rising/?sort=number",
-                "Release Date": "May 5th, 2017"
-            },
-            {
-                "Name": "Sun & Moon (SUM)",
-                "SetID": "SUM",
-                "SetLink": "https://pkmncards.com/set/sun-moon/?sort=number",
-                "Release Date": "February 3rd, 2017"
-            },
-            {
-                "Name": "Sun & Moon Promos (SMP)",
-                "SetID": "SMP",
-                "SetLink": "https://pkmncards.com/set/sun-moon-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "November 2016"
-            }
-        ],
-        "XY":
-        [
-            {
-                "Name": "Evolutions (EVO)",
-                "SetID": "EVO",
-                "SetLink": "https://pkmncards.com/set/evolutions/?sort=number",
-                "Release Date": "November 2nd, 2016"
-            },
-            {
-                "Name": "Steam Siege (STS)",
-                "SetID": "STS",
-                "SetLink": "https://pkmncards.com/set/steam-siege/?sort=number",
-                "Release Date": "August 3rd, 2016"
-            },
-            {
-                "Name": "Fates Collide (FCO)",
-                "SetID": "FCO",
-                "SetLink": "https://pkmncards.com/set/fates-collide/?sort=number",
-                "Release Date": "May 2nd, 2016"
-            },
-            {
-                "Name": "Generations (GEN)",
-                "SetID": "GEN",
-                "SetLink": "https://pkmncards.com/set/generations/?sort=number",
-                "Release Date": "February 22nd, 2016"
-            },
-            {
-                "Name": "BREAKpoint (BKP)",
-                "SetID": "BKP",
-                "SetLink": "https://pkmncards.com/set/breakpoint/?sort=number",
-                "Release Date": "February 3rd, 2016"
-            },
-            {
-                "Name": "BREAKthrough (BKT)",
-                "SetID": "BKT",
-                "SetLink": "https://pkmncards.com/set/breakthrough/?sort=number",
-                "Release Date": "November 4th, 2015"
-            },
-            {
-                "Name": "Ancient Origins (AOR)",
-                "SetID": "AOR",
-                "SetLink": "https://pkmncards.com/set/ancient-origins/?sort=number",
-                "Release Date": "August 12th, 2015"
-            },
-            {
-                "Name": "Roaring Skies (ROS)",
-                "SetID": "ROS",
-                "SetLink": "https://pkmncards.com/set/roaring-skies/?sort=number",
-                "Release Date": "May 6th, 2015"
-            },
-            {
-                "Name": "Double Crisis (DCR)",
-                "SetID": "DCR",
-                "SetLink": "https://pkmncards.com/set/double-crisis/?sort=number",
-                "Release Date": "March 25th, 2015"
-            },
-            {
-                "Name": "Primal Clash (PRC)",
-                "SetID": "PRC",
-                "SetLink": "https://pkmncards.com/set/primal-clash/?sort=number",
-                "Release Date": "February 4th, 2015"
-            },
-            {
-                "Name": "Phantom Forces (PHF)",
-                "SetID": "PHF",
-                "SetLink": "https://pkmncards.com/set/phantom-forces/?sort=number",
-                "Release Date": "November 5th, 2014"
-            },
-            {
-                "Name": "Furious Fists (FFI)",
-                "SetID": "FFI",
-                "SetLink": "https://pkmncards.com/set/furious-fists/?sort=number",
-                "Release Date": "August 13th, 2014"
-            },
-            {
-                "Name": "Flashfire (FLF)",
-                "SetID": "FLF",
-                "SetLink": "https://pkmncards.com/set/flashfire/?sort=number",
-                "Release Date": "May 7th, 2014"
-            },
-            {
-                "Name": "XY (XY)",
-                "SetID": "XY",
-                "SetLink": "https://pkmncards.com/set/xy/?sort=number",
-                "Release Date": "February 5th, 2014"
-            },
-            {
-                "Name": "Kalos Starter Set (KSS)",
-                "SetID": "KSS",
-                "SetLink": "https://pkmncards.com/set/kalos-starter-set/?sort=number",
-                "Release Date": "November 8th, 2013"
-            },
-            {
-                "Name": "XY Promos (XYP)",
-                "SetID": "XYP",
-                "SetLink": "https://pkmncards.com/set/xy-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "October 2013"
-            }
-        ],
-        "Black & White":
-        [
-            {
-                "Name": "Legendary Treasures (LTR)",
-                "SetID": "LTR",
-                "SetLink": "https://pkmncards.com/set/legendary-treasures/?sort=number",
-                "Release Date": "November 6th, 2013"
-            },
-            {
-                "Name": "Plasma Blast (PLB)",
-                "SetID": "PLB",
-                "SetLink": "https://pkmncards.com/set/plasma-blast/?sort=number",
-                "Release Date": "August 14th, 2013"
-            },
-            {
-                "Name": "Plasma Freeze (PLF)",
-                "SetID": "PLF",
-                "SetLink": "https://pkmncards.com/set/plasma-freeze/?sort=number",
-                "Release Date": "May 8th, 2013"
-            },
-            {
-                "Name": "Plasma Storm (PLS)",
-                "SetID": "PLS",
-                "SetLink": "https://pkmncards.com/set/plasma-storm/?sort=number",
-                "Release Date": "February 6th, 2013"
-            },
-            {
-                "Name": "Boundaries Crossed (BCR)",
-                "SetID": "BCR",
-                "SetLink": "https://pkmncards.com/set/boundaries-crossed/?sort=number",
-                "Release Date": "November 7th, 2012"
-            },
-            {
-                "Name": "Dragon Vault (DRV)",
-                "SetID": "DRV",
-                "SetLink": "https://pkmncards.com/set/dragon-vault/?sort=number",
-                "Release Date": "October 5th, 2012"
-            },
-            {
-                "Name": "Dragons Exalted (DRX)",
-                "SetID": "DRX",
-                "SetLink": "https://pkmncards.com/set/dragons-exalted/?sort=number",
-                "Release Date": "August 15th, 2012"
-            },
-            {
-                "Name": "Dark Explorers (DEX)",
-                "SetID": "DEX",
-                "SetLink": "https://pkmncards.com/set/dark-explorers/?sort=number",
-                "Release Date": "May 9th, 2012"
-            },
-            {
-                "Name": "Next Destinies (NXD)",
-                "SetID": "NXD",
-                "SetLink": "https://pkmncards.com/set/next-destinies/?sort=number",
-                "Release Date": "February 8th, 2012"
-            },
-            {
-                "Name": "Noble Victories (NVI)",
-                "SetID": "NVI",
-                "SetLink": "https://pkmncards.com/set/noble-victories/?sort=number",
-                "Release Date": "November 16th, 2011"
-            },
-            {
-                "Name": "Emerging Powers (EPO)",
-                "SetID": "EPO",
-                "SetLink": "https://pkmncards.com/set/emerging-powers/?sort=number",
-                "Release Date": "August 31st, 2011"
-            },
-            {
-                "Name": "Black & White (BLW)",
-                "SetID": "BLW",
-                "SetLink": "https://pkmncards.com/set/black-white/?sort=number",
-                "Release Date": "April 25th, 2011"
-            },
-            {
-                "Name": "Black & White Promos (BWP)",
-                "SetID": "BWP",
-                "SetLink": "https://pkmncards.com/set/black-white-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "March 2011"
-            }
-        ],
-        "HeartGold & SoulSilver":
-        [
-            {
-                "Name": "Call of Legends (CL)",
-                "SetID": "CL",
-                "SetLink": "https://pkmncards.com/set/call-of-legends/?sort=number",
-                "Release Date": "February 9th, 2011"
-            },
-            {
-                "Name": "Triumphant (TM)",
-                "SetID": "TM",
-                "SetLink": "https://pkmncards.com/set/triumphant/?sort=number",
-                "Release Date": "November 3rd, 2010"
-            },
-            {
-                "Name": "Undaunted (UD)",
-                "SetID": "UD",
-                "SetLink": "https://pkmncards.com/set/undaunted/?sort=number",
-                "Release Date": "August 18th, 2010"
-            },
-            {
-                "Name": "Unleashed (UL)",
-                "SetID": "UL",
-                "SetLink": "https://pkmncards.com/set/unleashed/?sort=number",
-                "Release Date": "May 12th, 2010"
-            },
-            {
-                "Name": "HeartGold & SoulSilver (HS)",
-                "SetID": "HS",
-                "SetLink": "https://pkmncards.com/set/heartgold-soulsilver/?sort=number",
-                "Release Date": "February 10th, 2010"
-            },
-            {
-                "Name": "HeartGold & SoulSilver Promos (HSP)",
-                "SetID": "HSP",
-                "SetLink": "https://pkmncards.com/set/heartgold-soulsilver-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "February 2010"
-            }
-        ],
-        "Diamond & Pearl":
-        [
-            {
-                "Name": "Pok\u00e9mon Rumble (RM)",
-                "SetID": "RM",
-                "SetLink": "https://pkmncards.com/set/rumble/?sort=number",
-                "Release Date": "December 2nd, 2009"
-            },
-            {
-                "Name": "Arceus (AR)",
-                "SetID": "AR",
-                "SetLink": "https://pkmncards.com/set/arceus/?sort=number",
-                "Release Date": "November 4th, 2009"
-            },
-            {
-                "Name": "Supreme Victors (SV)",
-                "SetID": "SV",
-                "SetLink": "https://pkmncards.com/set/supreme-victors/?sort=number",
-                "Release Date": "August 19th, 2009"
-            },
-            {
-                "Name": "Rising Rivals (RR)",
-                "SetID": "RR",
-                "SetLink": "https://pkmncards.com/set/rising-rivals/?sort=number",
-                "Release Date": "May 20th, 2009"
-            },
-            {
-                "Name": "POP Series 9 (P9)",
-                "SetID": "P9",
-                "SetLink": "https://pkmncards.com/set/pop-series-9/?sort=number",
-                "Release Date": "March 1st, 2009"
-            },
-            {
-                "Name": "Platinum (PL)",
-                "SetID": "PL",
-                "SetLink": "https://pkmncards.com/set/platinum/?sort=number",
-                "Release Date": "February 11th, 2009"
-            },
-            {
-                "Name": "Stormfront (SF)",
-                "SetID": "SF",
-                "SetLink": "https://pkmncards.com/set/stormfront/?sort=number",
-                "Release Date": "November 5th, 2008"
-            },
-            {
-                "Name": "POP Series 8 (P8)",
-                "SetID": "P8",
-                "SetLink": "https://pkmncards.com/set/pop-series-8/?sort=number",
-                "Release Date": "September 1st, 2008"
-            },
-            {
-                "Name": "Legends Awakened (LA)",
-                "SetID": "LA",
-                "SetLink": "https://pkmncards.com/set/legends-awakened/?sort=number",
-                "Release Date": "August 20th, 2008"
-            },
-            {
-                "Name": "Majestic Dawn (MD)",
-                "SetID": "MD",
-                "SetLink": "https://pkmncards.com/set/majestic-dawn/?sort=number",
-                "Release Date": "May 21st, 2008"
-            },
-            {
-                "Name": "POP Series 7 (P7)",
-                "SetID": "P7",
-                "SetLink": "https://pkmncards.com/set/pop-series-7/?sort=number",
-                "Release Date": "March 1st, 2008"
-            },
-            {
-                "Name": "Great Encounters (GE)",
-                "SetID": "GE",
-                "SetLink": "https://pkmncards.com/set/great-encounters/?sort=number",
-                "Release Date": "February 13th, 2008"
-            },
-            {
-                "Name": "Secret Wonders (SW)",
-                "SetID": "SW",
-                "SetLink": "https://pkmncards.com/set/secret-wonders/?sort=number",
-                "Release Date": "November 7th, 2007"
-            },
-            {
-                "Name": "POP Series 6 (P6)",
-                "SetID": "P6",
-                "SetLink": "https://pkmncards.com/set/pop-series-6/?sort=number",
-                "Release Date": "September 1st, 2007"
-            },
-            {
-                "Name": "Mysterious Treasures (MT)",
-                "SetID": "MT",
-                "SetLink": "https://pkmncards.com/set/mysterious-treasures/?sort=number",
-                "Release Date": "August 22nd, 2007"
-            },
-            {
-                "Name": "Diamond & Pearl (DP)",
-                "SetID": "DP",
-                "SetLink": "https://pkmncards.com/set/diamond-pearl/?sort=number",
-                "Release Date": "May 23rd, 2007"
-            },
-            {
-                "Name": "Diamond & Pearl Promos (DPP)",
-                "SetID": "DPP",
-                "SetLink": "https://pkmncards.com/set/diamond-pearl-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "May 2007"
-            }
-        ],
-        "EX":
-        [
-            {
-                "Name": "POP Series 5 (P5)",
-                "SetID": "P5",
-                "SetLink": "https://pkmncards.com/set/pop-series-5/?sort=number",
-                "Release Date": "March 1st, 2007"
-            },
-            {
-                "Name": "Power Keepers (PK)",
-                "SetID": "PK",
-                "SetLink": "https://pkmncards.com/set/power-keepers/?sort=number",
-                "Release Date": "February 14th, 2007"
-            },
-            {
-                "Name": "Dragon Frontiers (DF)",
-                "SetID": "DF",
-                "SetLink": "https://pkmncards.com/set/dragon-frontiers/?sort=number",
-                "Release Date": "November 8th, 2006"
-            },
-            {
-                "Name": "Crystal Guardians (CG)",
-                "SetID": "CG",
-                "SetLink": "https://pkmncards.com/set/crystal-guardians/?sort=number",
-                "Release Date": "August 30th, 2006"
-            },
-            {
-                "Name": "POP Series 4 (P4)",
-                "SetID": "P4",
-                "SetLink": "https://pkmncards.com/set/pop-series-4/?sort=number",
-                "Release Date": "August 1st, 2006"
-            },
-            {
-                "Name": "Holon Phantoms (HP)",
-                "SetID": "HP",
-                "SetLink": "https://pkmncards.com/set/holon-phantoms/?sort=number",
-                "Release Date": "May 3rd, 2006"
-            },
-            {
-                "Name": "POP Series 3 (P3)",
-                "SetID": "P3",
-                "SetLink": "https://pkmncards.com/set/pop-series-3/?sort=number",
-                "Release Date": "April 1st, 2006"
-            },
-            {
-                "Name": "Legend Maker (LM)",
-                "SetID": "LM",
-                "SetLink": "https://pkmncards.com/set/legend-maker/?sort=number",
-                "Release Date": "February 13th, 2006"
-            },
-            {
-                "Name": "Delta Species (DS)",
-                "SetID": "DS",
-                "SetLink": "https://pkmncards.com/set/delta-species/?sort=number",
-                "Release Date": "October 31st, 2005"
-            },
-            {
-                "Name": "Unseen Forces (UF)",
-                "SetID": "UF",
-                "SetLink": "https://pkmncards.com/set/unseen-forces/?sort=number",
-                "Release Date": "August 22nd, 2005"
-            },
-            {
-                "Name": "POP Series 2 (P2)",
-                "SetID": "P2",
-                "SetLink": "https://pkmncards.com/set/pop-series-2/?sort=number",
-                "Release Date": "August 1st, 2005"
-            },
-            {
-                "Name": "Emerald (EM)",
-                "SetID": "EM",
-                "SetLink": "https://pkmncards.com/set/emerald/?sort=number",
-                "Release Date": "May 9th, 2005"
-            },
-            {
-                "Name": "Deoxys (DX)",
-                "SetID": "DX",
-                "SetLink": "https://pkmncards.com/set/deoxys/?sort=number",
-                "Release Date": "February 14th, 2005"
-            },
-            {
-                "Name": "Team Rocket Returns (TRR)",
-                "SetID": "TRR",
-                "SetLink": "https://pkmncards.com/set/team-rocket-returns/?sort=number",
-                "Release Date": "November 8th, 2004"
-            },
-            {
-                "Name": "POP Series 1 (P1)",
-                "SetID": "P1",
-                "SetLink": "https://pkmncards.com/set/pop-series-1/?sort=number",
-                "Release Date": "September 1st, 2004"
-            },
-            {
-                "Name": "FireRed & LeafGreen (RG)",
-                "SetID": "RG",
-                "SetLink": "https://pkmncards.com/set/firered-leafgreen/?sort=number",
-                "Release Date": "August 30th, 2004"
-            },
-            {
-                "Name": "Hidden Legends (HL)",
-                "SetID": "HL",
-                "SetLink": "https://pkmncards.com/set/hidden-legends/?sort=number",
-                "Release Date": "June 14th, 2004"
-            },
-            {
-                "Name": "Team Magma vs Team Aqua (MA)",
-                "SetID": "MA",
-                "SetLink": "https://pkmncards.com/set/team-magma-vs-team-aqua/?sort=number",
-                "Release Date": "March 15th, 2004"
-            },
-            {
-                "Name": "Dragon (DR)",
-                "SetID": "DR",
-                "SetLink": "https://pkmncards.com/set/dragon/?sort=number",
-                "Release Date": "November 24th, 2003"
-            },
-            {
-                "Name": "Sandstorm (SS)",
-                "SetID": "SS",
-                "SetLink": "https://pkmncards.com/set/sandstorm/?sort=number",
-                "Release Date": "September 18th, 2003"
-            },
-            {
-                "Name": "Ruby & Sapphire (RS)",
-                "SetID": "RS",
-                "SetLink": "https://pkmncards.com/set/ruby-sapphire/?sort=number",
-                "Release Date": "June 18th, 2003"
-            },
-            {
-                "Name": "Nintendo Black Star Promos (NP)",
-                "SetID": "NP",
-                "SetLink": "https://pkmncards.com/set/nintendo-black-star-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "October 2003"
-            }
-        ],
-        "WotC Era":
-        [
-            {
-                "Name": "Skyridge (E3)",
-                "SetID": "E3",
-                "SetLink": "https://pkmncards.com/set/skyridge/?sort=number",
-                "Release Date": "May 12th, 2003"
-            },
-            {
-                "Name": "Aquapolis (E2)",
-                "SetID": "E2",
-                "SetLink": "https://pkmncards.com/set/aquapolis/?sort=number",
-                "Release Date": "January 15th, 2003"
-            },
-            {
-                "Name": "Best of Game (BG)",
-                "SetID": "BG",
-                "SetLink": "https://pkmncards.com/set/best-of-game/?sort=number",
-                "Release Date": "December 1st, 2002"
-            },
-            {
-                "Name": "Expedition (E1)",
-                "SetID": "E1",
-                "SetLink": "https://pkmncards.com/set/expedition/?sort=number",
-                "Release Date": "September 15th, 2002"
-            },
-            {
-                "Name": "Legendary Collection (LC)",
-                "SetID": "LC",
-                "SetLink": "https://pkmncards.com/set/legendary-collection/?sort=number",
-                "Release Date": "May 24th, 2002"
-            },
-            {
-                "Name": "Neo Destiny (N4)",
-                "SetID": "N4",
-                "SetLink": "https://pkmncards.com/set/neo-destiny/?sort=number",
-                "Release Date": "February 28th, 2002"
-            },
-            {
-                "Name": "Neo Revelation (N3)",
-                "SetID": "N3",
-                "SetLink": "https://pkmncards.com/set/neo-revelation/?sort=number",
-                "Release Date": "September 21st, 2001"
-            },
-            {
-                "Name": "Southern Islands (SI)",
-                "SetID": "SI",
-                "SetLink": "https://pkmncards.com/set/southern-islands/?sort=number",
-                "Release Date": "July 31st, 2001"
-            },
-            {
-                "Name": "Neo Discovery (N2)",
-                "SetID": "N2",
-                "SetLink": "https://pkmncards.com/set/neo-discovery/?sort=number",
-                "Release Date": "June 1st, 2001"
-            },
-            {
-                "Name": "Neo Genesis (N1)",
-                "SetID": "N1",
-                "SetLink": "https://pkmncards.com/set/neo-genesis/?sort=number",
-                "Release Date": "December 16th, 2000"
-            },
-            {
-                "Name": "Gym Challenge (G2)",
-                "SetID": "G2",
-                "SetLink": "https://pkmncards.com/set/gym-challenge/?sort=number",
-                "Release Date": "October 16th, 2000"
-            },
-            {
-                "Name": "Gym Heroes (G1)",
-                "SetID": "G1",
-                "SetLink": "https://pkmncards.com/set/gym-heroes/?sort=number",
-                "Release Date": "August 14th, 2000"
-            },
-            {
-                "Name": "Team Rocket (TR)",
-                "SetID": "TR",
-                "SetLink": "https://pkmncards.com/set/team-rocket/?sort=number",
-                "Release Date": "April 24th, 2000"
-            },
-            {
-                "Name": "Base Set 2 (BS2)",
-                "SetID": "BS2",
-                "SetLink": "https://pkmncards.com/set/base-set-2/?sort=number",
-                "Release Date": "February 24th, 2000"
-            },
-            {
-                "Name": "Fossil (FO)",
-                "SetID": "FO",
-                "SetLink": "https://pkmncards.com/set/fossil/?sort=number",
-                "Release Date": "October 10th, 1999"
-            },
-            {
-                "Name": "Jungle (JU)",
-                "SetID": "JU",
-                "SetLink": "https://pkmncards.com/set/jungle/?sort=number",
-                "Release Date": "June 16th, 1999"
-            },
-            {
-                "Name": "Base Set (BS)",
-                "SetID": "BS",
-                "SetLink": "https://pkmncards.com/set/base-set/?sort=number",
-                "Release Date": "January 9th, 1999"
-            },
-            {
-                "Name": "WotC Black Star Promos (WP)",
-                "SetID": "WP",
-                "SetLink": "https://pkmncards.com/set/wizards-black-star-promos/?sort=number",
-                "Promo": 1,
-                "Release Date": "July 1999"
-            }
-        ]
-    }
+{
+    "Mega Evolution": [
+        {
+            "Name": "Delta Reign (DTR)",
+            "SetID": "DTR",
+            "SetLink": "",
+            "Release Date": "November 6th, 2026",
+            "Release Time": "12:00 AM -07:00",
+            "Locked": true,
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution - Delta Reign is the sixth main expansion of cards from the Mega Evolution Series of the Pok\u00e9mon Trading Card Game. The expansion is based on Mega Rayquaza ex. It will be released on November 6, 2026."
+        },
+        {
+            "Name": "30th Celebration (30C)",
+            "SetID": "30C",
+            "SetLink": "https://pkmncards.com/set/30th-celebration/?sort=number",
+            "Release Date": "September 16th, 2026",
+            "Blurb": "Pok\u00e9mon TCG: 30th Celebration is a special expansion of cards in the Pok\u00e9mon Trading Card Game. Releasing simultaneously worldwide on September 16, 2026 during the Mega Evolution Series and MEGA Series, it is part of the Pok\u00e9mon 30th Anniversary celebrations."
+        },
+        {
+            "Name": "Pitch Black (PBL)",
+            "SetID": "PBL",
+            "SetLink": "https://pkmncards.com/set/pitch-black/?sort=number",
+            "Release Date": "July 17th, 2026",
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution - Pitch Black is the fifth main expansion of cards from the Mega Evolution Series of the Pok\u00e9mon Trading Card Game. The expansion is based on the Mega Dimension DLC of the Pok\u00e9mon Legends: Z-A video game, with focus on Mega Darkrai ex and Mega Zeraora ex. It was released on July 17, 2026."
+        },
+        {
+            "Name": "Chaos Rising (CRI)",
+            "SetID": "CRI",
+            "SetLink": "https://pkmncards.com/set/chaos-rising/?sort=number",
+            "Release Date": "May 22nd, 2026",
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution - Chaos Rising is the fourth main expansion of cards from the Mega Evolution Series of the Pok\u00e9mon Trading Card Game. The expansion continues the Pok\u00e9mon Legends: Z-A theming and introduces more Mega Evolution Pok\u00e9mon ex, among them Mega Greninja ex and Mega Floette ex. It was released on May 22, 2026."
+        },
+        {
+            "Name": "Perfect Order (POR)",
+            "SetID": "POR",
+            "SetLink": "https://pkmncards.com/set/perfect-order/?sort=number",
+            "Release Date": "March 27th, 2026",
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution - Perfect Order is the third main expansion of cards from the Mega Evolution Series of the Pok\u00e9mon Trading Card Game. The expansion is themed after the video game Pok\u00e9mon Legends: Z-A and introduces Mega Zygarde ex as the central Pok\u00e9mon. It released on March 27, 2026."
+        },
+        {
+            "Name": "Ascended Heroes (ASC)",
+            "SetID": "ASC",
+            "SetLink": "https://pkmncards.com/set/ascended-heroes/?sort=number",
+            "Release Date": "January 30th, 2026",
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution - Ascended Heroes is the first special expansion released during the Mega Evolution Series of the Pok\u00e9mon Trading Card Game. This special expansion is themed after the video game Pok\u00e9mon Legends: Z-A, and includes new and returning Mega Evolution Pok\u00e9mon ex, Tera Pok\u00e9mon ex, and Trainer's Pok\u00e9mon. It was released in English on January 30, 2026."
+        },
+        {
+            "Name": "Phantasmal Flames (PFL)",
+            "SetID": "PFL",
+            "SetLink": "https://pkmncards.com/set/phantasmal-flames/?sort=number",
+            "Release Date": "November 14th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution - Phantasmal Flames is the second main expansion of cards from the Mega Evolution Series of the Pok\u00e9mon Trading Card Game. The expansion continues to introduce Mega Evolution Pok\u00e9mon cards into the game, with Mega Charizard X ex as the central Pok\u00e9mon. It was released on November 14, 2025."
+        },
+        {
+            "Name": "Mega Evolution (MEG)",
+            "SetID": "MEG",
+            "SetLink": "https://pkmncards.com/set/mega-evolution/?sort=number",
+            "Release Date": "September 26th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Mega Evolution is the first main expansion of cards from the Mega Evolution Series of the Pok\u00e9mon Trading Card Game."
+        },
+        {
+            "Name": "Mega Evolution Energy (MEE)",
+            "SetID": "MEE",
+            "SetLink": "https://pkmncards.com/set/mee/?sort=number",
+            "Release Date": "September 25th, 2025",
+            "Blurb": "The MEE Basic Energy cards is a set comprising Basic Energy cards from the Mega Evolution Series of the Pokémon Trading Card Game, of which there are 8 types in total."
+        },
+        {
+            "Name": "Mega Evolution Promos (MEP)",
+            "SetID": "MEP",
+            "SetLink": "https://pkmncards.com/set/mega-evolution-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "September 2025",
+            "Blurb": "The MEP Black Star Promos are a series of promotional cards tied in with the Mega Evolution Series of cards, which started with the release of the Mega Evolution expansion and associated products."
+        }
+    ],
+    "Scarlet & Violet": [
+        {
+            "Name": "Black Bolt (BLK)",
+            "SetID": "BLK",
+            "SetLink": "https://pkmncards.com/set/black-bolt/?sort=number",
+            "Release Date": "July 18th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Black Bolt and Pok\u00e9mon TCG: Scarlet & Violet - White Flare together make up the fifth and final special expansion released during the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. This special expansion, which focuses on Generation V and Pok\u00e9mon Black and White, was released in English on July 18, 2025."
+        },
+        {
+            "Name": "White Flare (WHT)",
+            "SetID": "WHT",
+            "SetLink": "https://pkmncards.com/set/white-flare/?sort=number",
+            "Release Date": "July 18th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Black Bolt and Pok\u00e9mon TCG: Scarlet & Violet - White Flare together make up the fifth and final special expansion released during the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. This special expansion, which focuses on Generation V and Pok\u00e9mon Black and White, was released in English on July 18, 2025."
+        },
+        {
+            "Name": "Destined Rivals (DRI)",
+            "SetID": "DRI",
+            "SetLink": "https://pkmncards.com/set/destined-rivals/?sort=number",
+            "Release Date": "May 30th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Destined Rivals is the name of the tenth and final main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on May 30, 2025."
+        },
+        {
+            "Name": "Journey Together (JTG)",
+            "SetID": "JTG",
+            "SetLink": "https://pkmncards.com/set/journey-together/?sort=number",
+            "Release Date": "March 28th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Journey Together is the name of the ninth main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on March 28, 2025."
+        },
+        {
+            "Name": "Prismatic Evolutions (PRE)",
+            "SetID": "PRE",
+            "SetLink": "https://pkmncards.com/set/prismatic-evolutions/?sort=number",
+            "Release Date": "January 17th, 2025",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Prismatic Evolutions is the fourth special expansion released during the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. This special expansion, which mainly focuses on Eevee and the Eeveelutions, was released in English on January 17, 2025."
+        },
+        {
+            "Name": "Surging Sparks (SSP)",
+            "SetID": "SSP",
+            "SetLink": "https://pkmncards.com/set/surging-sparks/?sort=number",
+            "Release Date": "November 8th, 2024",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Surging Sparks is the name of the eighth main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on November 8, 2024."
+        },
+        {
+            "Name": "Stellar Crown (SCR)",
+            "SetID": "SCR",
+            "SetLink": "https://pkmncards.com/set/stellar-crown/?sort=number",
+            "Release Date": "September 13th, 2024",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Stellar Crown is the name of the seventh main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on September 13, 2024, and in Japanese on July 19, 2024."
+        },
+        {
+            "Name": "Shrouded Fable (SFA)",
+            "SetID": "SFA",
+            "SetLink": "https://pkmncards.com/set/shrouded-fable/?sort=number",
+            "Release Date": "August 2nd, 2024",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Shrouded Fable is the third special expansion released during the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. In Japan, it is known as Night Wanderer , and is the sixth Japanese subset released during the Scarlet & Violet Era. This special expansion mainly focuses on the Mythical Pok\u00e9mon Pecharunt and the Loyal Three."
+        },
+        {
+            "Name": "Twilight Masquerade (TWM)",
+            "SetID": "TWM",
+            "SetLink": "https://pkmncards.com/set/twilight-masquerade/?sort=number",
+            "Release Date": "May 24th, 2024",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Twilight Masquerade is the name of the sixth main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It is released in English on May 24, 2024, and in Japanese on April 26, 2024."
+        },
+        {
+            "Name": "Temporal Forces (TEF)",
+            "SetID": "TEF",
+            "SetLink": "https://pkmncards.com/set/temporal-forces/?sort=number",
+            "Release Date": "March 22nd, 2024",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Temporal Forces is the name given to the set that makes up the fifth expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It released in English on March 22, 2024, and released in Japanese on January 26, 2024."
+        },
+        {
+            "Name": "Paldean Fates (PAF)",
+            "SetID": "PAF",
+            "SetLink": "https://pkmncards.com/set/paldean-fates/?sort=number",
+            "Release Date": "January 26th, 2024",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Paldean Fates is the second special expansion released during the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. In Japan, it is the name given to the first High class subset, and fourth overall subset released during the Scarlet & Violet Era. The expansion features reprints of various Pok\u00e9mon and Pok\u00e9mon ex, as well as Shiny Pok\u00e9mon."
+        },
+        {
+            "Name": "Paradox Rift (PAR)",
+            "SetID": "PAR",
+            "SetLink": "https://pkmncards.com/set/paradox-rift/?sort=number",
+            "Release Date": "November 3rd, 2023",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Paradox Rift is the name given to the set that makes up the fourth expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on November 3, 2023, and in Japanese on October 27, 2023."
+        },
+        {
+            "Name": "Pok\u00e9mon 151 (MEW)",
+            "SetID": "MEW",
+            "SetLink": "https://pkmncards.com/set/151/?sort=number",
+            "Release Date": "September 22nd, 2023",
+            "Blurb": "Pokémon TCG: Scarlet & Violet—151 is the first special expansion released during the Scarlet & Violet Series of the Pokémon Trading Card Game. The expansion focuses only on the first 151 Pokémon to ever be introduced; namely, Generation I Pokémon."
+        },
+        {
+            "Name": "Obsidian Flames (OBF)",
+            "SetID": "OBF",
+            "SetLink": "https://pkmncards.com/set/obsidian-flames/?sort=number",
+            "Release Date": "August 11th, 2023",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Obsidian Flames is the name of the third main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on August 11, 2023, and in Japanese on July 28, 2023."
+        },
+        {
+            "Name": "Paldea Evolved (PAL)",
+            "SetID": "PAL",
+            "SetLink": "https://pkmncards.com/set/paldea-evolved/?sort=number",
+            "Release Date": "June 9th, 2023",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet - Paldea Evolved is the name of the second main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. It was released in English on June 9, 2023 and in Japanese on April 14, 2023."
+        },
+        {
+            "Name": "Scarlet & Violet (SVI)",
+            "SetID": "SVI",
+            "SetLink": "https://pkmncards.com/set/scarlet-violet/?sort=number",
+            "Release Date": "March 31st, 2023",
+            "Blurb": "Pok\u00e9mon TCG: Scarlet & Violet is the name of the first main expansion of cards from the Scarlet & Violet Series of the Pok\u00e9mon Trading Card Game. This set marks the introduction of Pok\u00e9mon ex and is the first to feature Generation IX and the Pok\u00e9mon Scarlet and Violet games."
+        },
+        {
+            "Name": "Scarlet & Violet Energy (SVE)",
+            "SetID": "SVE",
+            "SetLink": "https://pkmncards.com/set/scarlet-violet-energy/?sort=number",
+            "Release Date": "March 30th, 2023",
+            "Blurb": "The SVE Basic Energy cards is a set comprising Basic Energy cards from the Scarlet & Violet Series of the Pokémon Trading Card Game, of which there are 8 types in total."
+        },
+        {
+            "Name": "Scarlet & Violet Promos (SVP)",
+            "SetID": "SVP",
+            "SetLink": "https://pkmncards.com/set/scarlet-violet-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "January 2023",
+            "Blurb": "The SVP Black Star Promos are a series of promotional cards tied in with the Scarlet & Violet Series of cards, which started with the release of the Paldea Collection, nearly two months after the release of the Pokémon Scarlet and Violet games. With the introduction of this Series, the prefix used in the card numbering was removed, replaced with the addition of the SVP set code."
+        }
+    ],
+    "Sword & Shield": [
+        {
+            "Name": "Crown Zenith (CRZ)",
+            "SetID": "CRZ",
+            "SetLink": "https://pkmncards.com/set/crown-zenith/?sort=number",
+            "Release Date": "January 20th, 2023",
+            "Blurb": "Pok\u00e9mon TCG: Crown Zenith is the final special expansion released during the Sword & Shield Series of the Pok\u00e9mon Trading Card Game."
+        },
+        {
+            "Name": "Silver Tempest (SIT)",
+            "SetID": "SIT",
+            "SetLink": "https://pkmncards.com/set/silver-tempest/?sort=number",
+            "Release Date": "November 11th, 2022",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Silver Tempest is the name given to the twelfth and final main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game."
+        },
+        {
+            "Name": "Lost Origin (LOR)",
+            "SetID": "LOR",
+            "SetLink": "https://pkmncards.com/set/lost-origin/?sort=number",
+            "Release Date": "September 9th, 2022",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Lost Origin is the name given to the eleventh main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The expansion reintroduces cards that interact with the Lost Zone."
+        },
+        {
+            "Name": "Pok\u00e9mon GO (PGO)",
+            "SetID": "PGO",
+            "SetLink": "https://pkmncards.com/set/pokemon-go/?sort=number",
+            "Release Date": "July 1st, 2022",
+            "Blurb": "Pok\u00e9mon TCG: Pok\u00e9mon GO is a special expansion released during the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. In Japan, it was released as the eleventh subset of the Sword & Shield Era."
+        },
+        {
+            "Name": "Astral Radiance (ASR)",
+            "SetID": "ASR",
+            "SetLink": "https://pkmncards.com/set/astral-radiance/?sort=number",
+            "Release Date": "May 27th, 2022",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Astral Radiance is the name given to the tenth main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The expansion continues support of the Pok\u00e9mon VSTAR mechanic introduced in Brilliant Stars and features Pok\u00e9mon from the Hisui region that were introduced in Pok\u00e9mon Legends: Arceus."
+        },
+        {
+            "Name": "Brilliant Stars (BRS)",
+            "SetID": "BRS",
+            "SetLink": "https://pkmncards.com/set/brilliant-stars/?sort=number",
+            "Release Date": "February 25th, 2022",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Brilliant Stars is the name given to the ninth main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The expansion introduces the Pok\u00e9mon VSTAR mechanic to the TCG."
+        },
+        {
+            "Name": "Fusion Strike (FST)",
+            "SetID": "FST",
+            "SetLink": "https://pkmncards.com/set/fusion-strike/?sort=number",
+            "Release Date": "November 12th, 2021",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Fusion Strike is the name given to the eighth main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The expansion introduces the Fusion Strike style to accompany the established Single Strike and Rapid Strike style mechanics."
+        },
+        {
+            "Name": "Celebrations (CEL)",
+            "SetID": "CEL",
+            "SetLink": "https://pkmncards.com/set/celebrations/?sort=number",
+            "Release Date": "October 8th, 2021",
+            "Blurb": "Pok\u00e9mon TCG: Celebrations is a special expansion released during the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. In Japan, it is the name given to the seventh subset released during the Sword & Shield Era. The expansion celebrates the 25th anniversary of the TCG, which was launched in Japan on October 20, 1996."
+        },
+        {
+            "Name": "Evolving Skies (EVS)",
+            "SetID": "EVS",
+            "SetLink": "https://pkmncards.com/set/evolving-skies/?sort=number",
+            "Release Date": "August 27th, 2021",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Evolving Skies is the name given to the seventh main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The expansion marks the return of Dragon-type Pok\u00e9mon to the TCG and continues support of the Single Strike style and Rapid Strike style mechanics introduced in Battle Styles."
+        },
+        {
+            "Name": "Chilling Reign (CRE)",
+            "SetID": "CRE",
+            "SetLink": "https://pkmncards.com/set/chilling-reign/?sort=number",
+            "Release Date": "June 18th, 2021",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Chilling Reign is the name given to the sixth main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set features characters and Pok\u00e9mon introduced in the Pok\u00e9mon Sword and Shield Expansion Pass, focusing on Calyrex in its merged forms with Glastrier and Spectrier."
+        },
+        {
+            "Name": "Battle Styles (BST)",
+            "SetID": "BST",
+            "SetLink": "https://pkmncards.com/set/battle-styles/?sort=number",
+            "Release Date": "March 19th, 2021",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Battle Styles is the name given to the fifth main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VIII, Pok\u00e9mon V and Pok\u00e9mon VMAX in the card game."
+        },
+        {
+            "Name": "Shining Fates (SHF)",
+            "SetID": "SHF",
+            "SetLink": "https://pkmncards.com/set/shining-fates/?sort=number",
+            "Release Date": "February 19th, 2021",
+            "Blurb": "Pok\u00e9mon TCG: Shining Fates is a special expansion released during the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. In Japan, it is the name given to the fourth subset released during the Sword & Shield Era. The expansion features Pok\u00e9mon V and VMAX and Shiny Pok\u00e9mon."
+        },
+        {
+            "Name": "Vivid Voltage (VIV)",
+            "SetID": "VIV",
+            "SetLink": "https://pkmncards.com/set/vivid-voltage/?sort=number",
+            "Release Date": "November 13th, 2020",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Vivid Voltage is the name given to the fourth main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VIII, Pok\u00e9mon V and Pok\u00e9mon VMAX in the card game."
+        },
+        {
+            "Name": "Champion's Path (CPA)",
+            "SetID": "CPA",
+            "SetLink": "https://pkmncards.com/set/champions-path/?sort=number",
+            "Release Date": "September 25th, 2020",
+            "Blurb": "Pok\u00e9mon TCG: Champion's Path is a special expansion released during the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set features Generation VIII Pok\u00e9mon and focuses on the Gym Leaders of the Galar region."
+        },
+        {
+            "Name": "Darkness Ablaze (DAA)",
+            "SetID": "DAA",
+            "SetLink": "https://pkmncards.com/set/darkness-ablaze/?sort=number",
+            "Release Date": "August 14th, 2020",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Darkness Ablaze is the name given to the third main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VIII, Pok\u00e9mon V and Pok\u00e9mon VMAX in the card game."
+        },
+        {
+            "Name": "Rebel Clash (RCL)",
+            "SetID": "RCL",
+            "SetLink": "https://pkmncards.com/set/rebel-clash/?sort=number",
+            "Release Date": "May 1st, 2020",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield - Rebel Clash is the name given to the second main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VIII Pok\u00e9mon, Pok\u00e9mon V, and Pok\u00e9mon VMAX in the card game."
+        },
+        {
+            "Name": "Sword & Shield (SSH)",
+            "SetID": "SSH",
+            "SetLink": "https://pkmncards.com/set/sword-shield/?sort=number",
+            "Release Date": "February 7th, 2020",
+            "Blurb": "Pok\u00e9mon TCG: Sword & Shield is the name given to the first main expansion of cards from the Sword & Shield Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation VIII, Pok\u00e9mon V and Pok\u00e9mon VMAX in the card game."
+        },
+        {
+            "Name": "Sword & Shield Promos (SP)",
+            "SetID": "SP",
+            "SetLink": "https://pkmncards.com/set/sword-shield-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "November 2019",
+            "Blurb": "The SWSH Black Star Promos are a series of promotional cards tied in with the Sword & Shield Series of cards, which started with the release of the Galar Collection, the same day as Pokémon Sword and Shield. With the introduction of this Series, the SM prefix for promotional cards was changed to SWSH."
+        }
+    ],
+    "Sun & Moon": [
+        {
+            "Name": "Cosmic Eclipse (CEC)",
+            "SetID": "CEC",
+            "SetLink": "https://pkmncards.com/set/cosmic-eclipse/?sort=number",
+            "Release Date": "November 1st, 2019",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Cosmic Eclipse is the name given to the twelfth and final main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX, and TAG TEAM Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Hidden Fates (HIF)",
+            "SetID": "HIF",
+            "SetLink": "https://pkmncards.com/set/hidden-fates/?sort=number",
+            "Release Date": "August 23rd, 2019",
+            "Blurb": "Pok\u00e9mon TCG: Hidden Fates is a special expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. It was released as the twelfth subset from the Sun & Moon Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Unified Minds (UNM)",
+            "SetID": "UNM",
+            "SetLink": "https://pkmncards.com/set/unified-minds/?sort=number",
+            "Release Date": "August 2nd, 2019",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Unified Minds is the name given to the eleventh main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX, and TAG TEAM Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Unbroken Bonds (UNB)",
+            "SetID": "UNB",
+            "SetLink": "https://pkmncards.com/set/unbroken-bonds/?sort=number",
+            "Release Date": "May 3rd, 2019",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Unbroken Bonds is the name given to the tenth main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX, and TAG TEAM Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Detective Pikachu (DET)",
+            "SetID": "DET",
+            "SetLink": "https://pkmncards.com/set/detective-pikachu/?sort=number",
+            "Release Date": "March 29th, 2019",
+            "Blurb": "Pok\u00e9mon TCG: Detective Pikachu is a special expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. It was released as a promotional set in the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Team Up (TEU)",
+            "SetID": "TEU",
+            "SetLink": "https://pkmncards.com/set/team-up/?sort=number",
+            "Release Date": "February 1st, 2019",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Team Up is the name given to the ninth main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX, and Prism Star cards in the card game."
+        },
+        {
+            "Name": "Lost Thunder (LOT)",
+            "SetID": "LOT",
+            "SetLink": "https://pkmncards.com/set/lost-thunder/?sort=number",
+            "Release Date": "November 2nd, 2018",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Lost Thunder is the name given to the eighth main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX and Prism Star cards in the card game."
+        },
+        {
+            "Name": "Dragon Majesty (DRM)",
+            "SetID": "DRM",
+            "SetLink": "https://pkmncards.com/set/dragon-majesty/?sort=number",
+            "Release Date": "September 7th, 2018",
+            "Blurb": "Pok\u00e9mon TCG: Dragon Majesty is a special expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. It was released as the seventh subset from the Sun & Moon Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Celestial Storm (CES)",
+            "SetID": "CES",
+            "SetLink": "https://pkmncards.com/set/celestial-storm/?sort=number",
+            "Release Date": "August 3rd, 2018",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Celestial Storm is the name given to the seventh main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX, and Prism Star cards in the card game."
+        },
+        {
+            "Name": "Forbidden Light (FLI)",
+            "SetID": "FLI",
+            "SetLink": "https://pkmncards.com/set/forbidden-light/?sort=number",
+            "Release Date": "May 4th, 2018",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Forbidden Light is the name given to the sixth main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon, Pok\u00e9mon-GX, and Prism Star cards in the card game."
+        },
+        {
+            "Name": "Ultra Prism (UPR)",
+            "SetID": "UPR",
+            "SetLink": "https://pkmncards.com/set/ultra-prism/?sort=number",
+            "Release Date": "February 2nd, 2018",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Ultra Prism is the name given to the fifth main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon and Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Crimson Invasion (CIN)",
+            "SetID": "CIN",
+            "SetLink": "https://pkmncards.com/set/crimson-invasion/?sort=number",
+            "Release Date": "November 3rd, 2017",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Crimson Invasion is the name given to the fourth main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon and Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Shining Legends (SLG)",
+            "SetID": "SLG",
+            "SetLink": "https://pkmncards.com/set/shining-legends/?sort=number",
+            "Release Date": "October 6th, 2017",
+            "Blurb": "Pok\u00e9mon TCG: Shining Legends is a special expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. It was released as the fourth subset from the Sun & Moon Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Burning Shadows (BUS)",
+            "SetID": "BUS",
+            "SetLink": "https://pkmncards.com/set/burning-shadows/?sort=number",
+            "Release Date": "August 4th, 2017",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Burning Shadows is the name given to the third main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon and Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Guardians Rising (GRI)",
+            "SetID": "GRI",
+            "SetLink": "https://pkmncards.com/set/guardians-rising/?sort=number",
+            "Release Date": "May 5th, 2017",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon - Guardians Rising is the name given to the second main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VII Pok\u00e9mon and Pok\u00e9mon-GX in the card game."
+        },
+        {
+            "Name": "Sun & Moon (SUM)",
+            "SetID": "SUM",
+            "SetLink": "https://pkmncards.com/set/sun-moon/?sort=number",
+            "Release Date": "February 3rd, 2017",
+            "Blurb": "Pok\u00e9mon TCG: Sun & Moon is the name given to the first main expansion of cards from the Sun & Moon Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation VII Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Sun & Moon Promos (SMP)",
+            "SetID": "SMP",
+            "SetLink": "https://pkmncards.com/set/sun-moon-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "November 2016",
+            "Blurb": "The SM Black Star Promos are a series of promotional cards tied in with the Sun & Moon Series of cards, which started with the release of the Alola Collection the same day as Pokémon Sun and Moon. With the introduction of this Series, the XY prefix for promotional cards was changed to SM."
+        }
+    ],
+    "XY": [
+        {
+            "Name": "Evolutions (EVO)",
+            "SetID": "EVO",
+            "SetLink": "https://pkmncards.com/set/evolutions/?sort=number",
+            "Release Date": "November 2nd, 2016",
+            "Blurb": "Pok\u00e9mon TCG: XY - Evolutions is the name given to the twelfth and final main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. It was released as the sixth subset from the XY BREAK Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Pok\u00e9mon-EX, M Pok\u00e9mon-EX, and Pok\u00e9mon BREAK in the card game."
+        },
+        {
+            "Name": "Steam Siege (STS)",
+            "SetID": "STS",
+            "SetLink": "https://pkmncards.com/set/steam-siege/?sort=number",
+            "Release Date": "August 3rd, 2016",
+            "Blurb": "Pok\u00e9mon TCG: XY - Steam Siege is the name given to the eleventh main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. It is the fourth and final main expansion from the XY BREAK Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, M Pok\u00e9mon-EX, and Pok\u00e9mon BREAK in the card game."
+        },
+        {
+            "Name": "Fates Collide (FCO)",
+            "SetID": "FCO",
+            "SetLink": "https://pkmncards.com/set/fates-collide/?sort=number",
+            "Release Date": "May 2nd, 2016",
+            "Blurb": "Pok\u00e9mon TCG: XY - Fates Collide is the name given to the tenth main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, M Pok\u00e9mon-EX, and Pok\u00e9mon BREAK in the card game."
+        },
+        {
+            "Name": "Generations (GEN)",
+            "SetID": "GEN",
+            "SetLink": "https://pkmncards.com/set/generations/?sort=number",
+            "Release Date": "February 22nd, 2016",
+            "Blurb": "Pok\u00e9mon TCG: Generations is a special expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. It was released as a Starter Deck in the XY BREAK Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "BREAKpoint (BKP)",
+            "SetID": "BKP",
+            "SetLink": "https://pkmncards.com/set/breakpoint/?sort=number",
+            "Release Date": "February 3rd, 2016",
+            "Blurb": "Pok\u00e9mon TCG: XY - BREAKpoint is the name given to the ninth main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, M Pok\u00e9mon-EX, and Pok\u00e9mon BREAK in the card game."
+        },
+        {
+            "Name": "BREAKthrough (BKT)",
+            "SetID": "BKT",
+            "SetLink": "https://pkmncards.com/set/breakthrough/?sort=number",
+            "Release Date": "November 4th, 2015",
+            "Blurb": "Pok\u00e9mon TCG: XY - BREAKthrough is the name given to the eighth main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, and M Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Ancient Origins (AOR)",
+            "SetID": "AOR",
+            "SetLink": "https://pkmncards.com/set/ancient-origins/?sort=number",
+            "Release Date": "August 12th, 2015",
+            "Blurb": "Pok\u00e9mon TCG: XY - Ancient Origins is the name given to the seventh main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, M Pok\u00e9mon-EX, and Ancient Traits in the card game."
+        },
+        {
+            "Name": "Roaring Skies (ROS)",
+            "SetID": "ROS",
+            "SetLink": "https://pkmncards.com/set/roaring-skies/?sort=number",
+            "Release Date": "May 6th, 2015",
+            "Blurb": "Pok\u00e9mon TCG: XY - Roaring Skies is the name given to the sixth main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, M Pok\u00e9mon-EX, and Ancient Traits in the card game."
+        },
+        {
+            "Name": "Double Crisis (DCR)",
+            "SetID": "DCR",
+            "SetLink": "https://pkmncards.com/set/double-crisis/?sort=number",
+            "Release Date": "March 25th, 2015",
+            "Blurb": "Pok\u00e9mon TCG: Double Crisis is a special expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. It was released as the first subset from the XY Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Primal Clash (PRC)",
+            "SetID": "PRC",
+            "SetLink": "https://pkmncards.com/set/primal-clash/?sort=number",
+            "Release Date": "February 4th, 2015",
+            "Blurb": "Pok\u00e9mon TCG: XY - Primal Clash is the name given to the fifth main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, and M Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Phantom Forces (PHF)",
+            "SetID": "PHF",
+            "SetLink": "https://pkmncards.com/set/phantom-forces/?sort=number",
+            "Release Date": "November 5th, 2014",
+            "Blurb": "Pok\u00e9mon TCG: XY - Phantom Forces is the name given to the fourth main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, and M Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Furious Fists (FFI)",
+            "SetID": "FFI",
+            "SetLink": "https://pkmncards.com/set/furious-fists/?sort=number",
+            "Release Date": "August 13th, 2014",
+            "Blurb": "Pok\u00e9mon TCG: XY - Furious Fists is the name given to the third main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, and M Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Flashfire (FLF)",
+            "SetID": "FLF",
+            "SetLink": "https://pkmncards.com/set/flashfire/?sort=number",
+            "Release Date": "May 7th, 2014",
+            "Blurb": "Pok\u00e9mon TCG: XY - Flashfire is the name given to the second main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation VI Pok\u00e9mon, Pok\u00e9mon-EX, and M Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "XY (XY)",
+            "SetID": "XY",
+            "SetLink": "https://pkmncards.com/set/xy/?sort=number",
+            "Release Date": "February 5th, 2014",
+            "Blurb": "Pok\u00e9mon TCG: XY is the name given to the first main expansion of cards from the XY Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation VI Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Kalos Starter Set (KSS)",
+            "SetID": "KSS",
+            "SetLink": "https://pkmncards.com/set/kalos-starter-set/?sort=number",
+            "Release Date": "November 8th, 2013",
+            "Blurb": "The Kalos Starter Set is the first release of cards in the XY Series of the Pok\u00e9mon Trading Card Game. The Beginning Set is the first of the XY Era."
+        },
+        {
+            "Name": "XY Promos (XYP)",
+            "SetID": "XYP",
+            "SetLink": "https://pkmncards.com/set/xy-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "October 2013",
+            "Blurb": "The XY Black Star Promos are a series of promotional cards tied in with the XY Series of cards, which started with the release of the Collector's Pin Three Pack Blisters the same day as Pokémon X and Y. With the introduction of this Series, the BW prefix for promotional cards was changed to XY."
+        }
+    ],
+    "Black & White": [
+        {
+            "Name": "Legendary Treasures (LTR)",
+            "SetID": "LTR",
+            "SetLink": "https://pkmncards.com/set/legendary-treasures/?sort=number",
+            "Release Date": "November 6th, 2013",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Legendary Treasures is the name given to the eleventh and final main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It was released as the third and final subset from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon and Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Plasma Blast (PLB)",
+            "SetID": "PLB",
+            "SetLink": "https://pkmncards.com/set/plasma-blast/?sort=number",
+            "Release Date": "August 14th, 2013",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Plasma Blast is the name given to the tenth main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the ninth and final main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon, Pok\u00e9mon-EX, and ACE SPEC in the card game."
+        },
+        {
+            "Name": "Plasma Freeze (PLF)",
+            "SetID": "PLF",
+            "SetLink": "https://pkmncards.com/set/plasma-freeze/?sort=number",
+            "Release Date": "May 8th, 2013",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Plasma Freeze is the name given to the ninth main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the eighth main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon, Pok\u00e9mon-EX, and ACE SPEC in the card game."
+        },
+        {
+            "Name": "Plasma Storm (PLS)",
+            "SetID": "PLS",
+            "SetLink": "https://pkmncards.com/set/plasma-storm/?sort=number",
+            "Release Date": "February 6th, 2013",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Plasma Storm is the name given to the eighth main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the seventh main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon, Pok\u00e9mon-EX, and ACE SPEC in the card game."
+        },
+        {
+            "Name": "Boundaries Crossed (BCR)",
+            "SetID": "BCR",
+            "SetLink": "https://pkmncards.com/set/boundaries-crossed/?sort=number",
+            "Release Date": "November 7th, 2012",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Boundaries Crossed is the name given to the seventh main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the sixth main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon and Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Dragon Vault (DRV)",
+            "SetID": "DRV",
+            "SetLink": "https://pkmncards.com/set/dragon-vault/?sort=number",
+            "Release Date": "October 5th, 2012",
+            "Blurb": "Pok\u00e9mon TCG: Dragon Vault is a special expansion of cards of the Pok\u00e9mon Trading Card Game. In Japan it was released as the first subset from the BW Era."
+        },
+        {
+            "Name": "Dragons Exalted (DRX)",
+            "SetID": "DRX",
+            "SetLink": "https://pkmncards.com/set/dragons-exalted/?sort=number",
+            "Release Date": "August 15th, 2012",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Dragons Exalted is the name given to the sixth main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the fifth main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon and Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Dark Explorers (DEX)",
+            "SetID": "DEX",
+            "SetLink": "https://pkmncards.com/set/dark-explorers/?sort=number",
+            "Release Date": "May 9th, 2012",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Dark Explorers is the name given to the fifth main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the fourth main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon and Pok\u00e9mon-EX in the card game."
+        },
+        {
+            "Name": "Next Destinies (NXD)",
+            "SetID": "NXD",
+            "SetLink": "https://pkmncards.com/set/next-destinies/?sort=number",
+            "Release Date": "February 8th, 2012",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Next Destinies is the name given to the fourth main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the third main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Noble Victories (NVI)",
+            "SetID": "NVI",
+            "SetLink": "https://pkmncards.com/set/noble-victories/?sort=number",
+            "Release Date": "November 16th, 2011",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Noble Victories is the name given to the third main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It is the second main expansion from the BW Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation V Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Emerging Powers (EPO)",
+            "SetID": "EPO",
+            "SetLink": "https://pkmncards.com/set/emerging-powers/?sort=number",
+            "Release Date": "August 31st, 2011",
+            "Blurb": "Pok\u00e9mon TCG: Black & White - Emerging Powers is the name given to the second main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. It does not have a main expansion as a Japanese equivalent. The set continues to feature Generation V Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Black & White (BLW)",
+            "SetID": "BLW",
+            "SetLink": "https://pkmncards.com/set/black-white/?sort=number",
+            "Release Date": "April 25th, 2011",
+            "Blurb": "Pok\u00e9mon TCG: Black & White is the name given to the first main expansion of cards from the Black & White Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation V Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Black & White Promos (BWP)",
+            "SetID": "BWP",
+            "SetLink": "https://pkmncards.com/set/black-white-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "March 2011",
+            "Blurb": "The BW Black Star Promos are a series of promotional cards tied in with the Black & White Series of cards, which started with the Black & White expansion. With the introduction of this series, the HGSS prefix for promotional cards was changed to BW."
+        }
+    ],
+    "HeartGold & SoulSilver": [
+        {
+            "Name": "Call of Legends (CL)",
+            "SetID": "CL",
+            "SetLink": "https://pkmncards.com/set/call-of-legends/?sort=number",
+            "Release Date": "February 9th, 2011",
+            "Blurb": "Pok\u00e9mon TCG: Call of Legends is the name given to an expansion of cards of the Pok\u00e9mon Trading Card Game, and was the last expansion of Generation IV before the release of Black & White. It does not have a main expansion as a Japanese equivalent."
+        },
+        {
+            "Name": "Triumphant (TM)",
+            "SetID": "TM",
+            "SetLink": "https://pkmncards.com/set/triumphant/?sort=number",
+            "Release Date": "November 3rd, 2010",
+            "Blurb": "Pok\u00e9mon TCG: HS - Triumphant is the name given to the fourth and final main expansion of cards from the HeartGold & SoulSilver Series of the Pok\u00e9mon Trading Card Game. It is the third and final main expansion from the LEGEND Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Pok\u00e9mon Prime and Pok\u00e9mon LEGEND in the card game."
+        },
+        {
+            "Name": "Undaunted (UD)",
+            "SetID": "UD",
+            "SetLink": "https://pkmncards.com/set/undaunted/?sort=number",
+            "Release Date": "August 18th, 2010",
+            "Blurb": "Pok\u00e9mon TCG: HS - Undaunted is the name given to the third main expansion of cards from the HeartGold & SoulSilver Series of the Pok\u00e9mon Trading Card Game. It is the second main expansion from the LEGEND Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Pok\u00e9mon Prime and Pok\u00e9mon LEGEND in the card game."
+        },
+        {
+            "Name": "Unleashed (UL)",
+            "SetID": "UL",
+            "SetLink": "https://pkmncards.com/set/unleashed/?sort=number",
+            "Release Date": "May 12th, 2010",
+            "Blurb": "Pok\u00e9mon TCG: HS - Unleashed is the name given to the second main expansion of cards from the HeartGold & SoulSilver Series of the Pok\u00e9mon Trading Card Game. It does not have a main expansion as a Japanese equivalent. The set continues to feature Pok\u00e9mon Prime and Pok\u00e9mon LEGEND in the card game."
+        },
+        {
+            "Name": "HeartGold & SoulSilver (HS)",
+            "SetID": "HS",
+            "SetLink": "https://pkmncards.com/set/heartgold-soulsilver/?sort=number",
+            "Release Date": "February 10th, 2010",
+            "Blurb": "Pok\u00e9mon TCG: HeartGold & SoulSilver is the name given to the first main expansion of cards from the HeartGold & SoulSilver Series of the Pok\u00e9mon Trading Card Game."
+        },
+        {
+            "Name": "HeartGold & SoulSilver Promos (HSP)",
+            "SetID": "HSP",
+            "SetLink": "https://pkmncards.com/set/heartgold-soulsilver-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "February 2010",
+            "Blurb": "The HGSS Black Star Promos are a collection of promotional cards tied in with the HeartGold & SoulSilver series of cards, which started with the HeartGold & SoulSilver expansion. With the introduction of this series, the DP prefix for promotional cards was changed to HGSS."
+        }
+    ],
+    "Diamond & Pearl": [
+        {
+            "Name": "Pok\u00e9mon Rumble (RM)",
+            "SetID": "RM",
+            "SetLink": "https://pkmncards.com/set/rumble/?sort=number",
+            "Release Date": "December 2nd, 2009",
+            "Blurb": "The Pok\u00e9mon TCG: Rumble Game card collection is a special card collection for the Pok\u00e9mon Trading Card Game and was released in conjunction with the WiiWare game Pok\u00e9mon Rumble."
+        },
+        {
+            "Name": "Arceus (AR)",
+            "SetID": "AR",
+            "SetLink": "https://pkmncards.com/set/arceus/?sort=number",
+            "Release Date": "November 4th, 2009",
+            "Blurb": "Pok\u00e9mon TCG: Platinum - Arceus is the name given to the fourth and final main expansion of cards from the Platinum Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon, Pok\u00e9mon LV.X, and Pok\u00e9mon SP in the card game."
+        },
+        {
+            "Name": "Supreme Victors (SV)",
+            "SetID": "SV",
+            "SetLink": "https://pkmncards.com/set/supreme-victors/?sort=number",
+            "Release Date": "August 19th, 2009",
+            "Blurb": "Pok\u00e9mon TCG: Platinum - Supreme Victors is the name given to the third main expansion of cards from the Platinum Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon, Pok\u00e9mon LV.X, and Pok\u00e9mon SP in the card game."
+        },
+        {
+            "Name": "Rising Rivals (RR)",
+            "SetID": "RR",
+            "SetLink": "https://pkmncards.com/set/rising-rivals/?sort=number",
+            "Release Date": "May 20th, 2009",
+            "Blurb": "Pok\u00e9mon TCG: Platinum - Rising Rivals is the name given to the second main expansion of cards from the Platinum Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon, Pok\u00e9mon LV.X, and Pok\u00e9mon SP in the card game."
+        },
+        {
+            "Name": "POP Series 9 (P9)",
+            "SetID": "P9",
+            "SetLink": "https://pkmncards.com/set/pop-series-9/?sort=number",
+            "Release Date": "March 1st, 2009",
+            "Blurb": "POP Series 9 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Platinum (PL)",
+            "SetID": "PL",
+            "SetLink": "https://pkmncards.com/set/platinum/?sort=number",
+            "Release Date": "February 11th, 2009",
+            "Blurb": "Pok\u00e9mon TCG: Platinum is the name given to the first main expansion of cards from the Platinum Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "Stormfront (SF)",
+            "SetID": "SF",
+            "SetLink": "https://pkmncards.com/set/stormfront/?sort=number",
+            "Release Date": "November 5th, 2008",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl - Stormfront is the name given to the seventh and final main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. It is the sixth and final main expansion from the DP Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "POP Series 8 (P8)",
+            "SetID": "P8",
+            "SetLink": "https://pkmncards.com/set/pop-series-8/?sort=number",
+            "Release Date": "September 1st, 2008",
+            "Blurb": "POP Series 8 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Legends Awakened (LA)",
+            "SetID": "LA",
+            "SetLink": "https://pkmncards.com/set/legends-awakened/?sort=number",
+            "Release Date": "August 20th, 2008",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl - Legends Awakened is the name given to the sixth main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. It is the fifth main expansion from the DP Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "Majestic Dawn (MD)",
+            "SetID": "MD",
+            "SetLink": "https://pkmncards.com/set/majestic-dawn/?sort=number",
+            "Release Date": "May 21st, 2008",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl - Majestic Dawn is the name given to the fifth main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "POP Series 7 (P7)",
+            "SetID": "P7",
+            "SetLink": "https://pkmncards.com/set/pop-series-7/?sort=number",
+            "Release Date": "March 1st, 2008",
+            "Blurb": "POP Series 7 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events and affiliated products."
+        },
+        {
+            "Name": "Great Encounters (GE)",
+            "SetID": "GE",
+            "SetLink": "https://pkmncards.com/set/great-encounters/?sort=number",
+            "Release Date": "February 13th, 2008",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl - Great Encounters is the name given to the fourth main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "Secret Wonders (SW)",
+            "SetID": "SW",
+            "SetLink": "https://pkmncards.com/set/secret-wonders/?sort=number",
+            "Release Date": "November 7th, 2007",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl - Secret Wonders is the name given to the third main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "POP Series 6 (P6)",
+            "SetID": "P6",
+            "SetLink": "https://pkmncards.com/set/pop-series-6/?sort=number",
+            "Release Date": "September 1st, 2007",
+            "Blurb": "POP Series 6 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Mysterious Treasures (MT)",
+            "SetID": "MT",
+            "SetLink": "https://pkmncards.com/set/mysterious-treasures/?sort=number",
+            "Release Date": "August 22nd, 2007",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl - Mysterious Treasures is the name given to the second main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation IV Pok\u00e9mon and Pok\u00e9mon LV.X in the card game."
+        },
+        {
+            "Name": "Diamond & Pearl (DP)",
+            "SetID": "DP",
+            "SetLink": "https://pkmncards.com/set/diamond-pearl/?sort=number",
+            "Release Date": "May 23rd, 2007",
+            "Blurb": "Pok\u00e9mon TCG: Diamond & Pearl is the name given to the first main expansion of cards from the Diamond & Pearl Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation IV Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Diamond & Pearl Promos (DPP)",
+            "SetID": "DPP",
+            "SetLink": "https://pkmncards.com/set/diamond-pearl-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "May 2007",
+            "Blurb": "The DP Black Star Promos are a collection of promotional cards tied in with the Diamond & Pearl series of cards, which started with the Diamond & Pearl expansion. It is the first series of Black Star Promo cards to have a numbering prefix (DP)."
+        }
+    ],
+    "EX": [
+        {
+            "Name": "POP Series 5 (P5)",
+            "SetID": "P5",
+            "SetLink": "https://pkmncards.com/set/pop-series-5/?sort=number",
+            "Release Date": "March 1st, 2007",
+            "Blurb": "POP Series 5 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Power Keepers (PK)",
+            "SetID": "PK",
+            "SetLink": "https://pkmncards.com/set/power-keepers/?sort=number",
+            "Release Date": "February 14th, 2007",
+            "Blurb": "Pok\u00e9mon TCG: EX Power Keepers is the name given to the sixteenth and final main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the tenth and final expansion from the PCG era of the Pok\u00e9mon Card Game in Japan with the particularity of being released during the DP era. The set continues to feature Generation III Pok\u00e9mon, Pok\u00e9mon-ex, and Pok\u00e9mon \u2606 in the card game."
+        },
+        {
+            "Name": "Dragon Frontiers (DF)",
+            "SetID": "DF",
+            "SetLink": "https://pkmncards.com/set/dragon-frontiers/?sort=number",
+            "Release Date": "November 8th, 2006",
+            "Blurb": "Pok\u00e9mon TCG: EX Dragon Frontiers is the name given to the fifteenth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the ninth main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation III Pok\u00e9mon, Pok\u00e9mon-ex, and Pok\u00e9mon \u2606 in the card game."
+        },
+        {
+            "Name": "Crystal Guardians (CG)",
+            "SetID": "CG",
+            "SetLink": "https://pkmncards.com/set/crystal-guardians/?sort=number",
+            "Release Date": "August 30th, 2006",
+            "Blurb": "Pok\u00e9mon TCG: EX Crystal Guardians is the name given to the fourteenth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the eighth main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation III Pok\u00e9mon, Pok\u00e9mon-ex, and Pok\u00e9mon \u2606 in the card game."
+        },
+        {
+            "Name": "POP Series 4 (P4)",
+            "SetID": "P4",
+            "SetLink": "https://pkmncards.com/set/pop-series-4/?sort=number",
+            "Release Date": "August 1st, 2006",
+            "Blurb": "POP Series 4 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Holon Phantoms (HP)",
+            "SetID": "HP",
+            "SetLink": "https://pkmncards.com/set/holon-phantoms/?sort=number",
+            "Release Date": "May 3rd, 2006",
+            "Blurb": "Pok\u00e9mon TCG: EX Holon Phantoms is the name given to the thirteenth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the seventh main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation III Pok\u00e9mon, Pok\u00e9mon-ex, and Pok\u00e9mon \u2606 in the card game."
+        },
+        {
+            "Name": "POP Series 3 (P3)",
+            "SetID": "P3",
+            "SetLink": "https://pkmncards.com/set/pop-series-3/?sort=number",
+            "Release Date": "April 1st, 2006",
+            "Blurb": "POP Series 3 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Legend Maker (LM)",
+            "SetID": "LM",
+            "SetLink": "https://pkmncards.com/set/legend-maker/?sort=number",
+            "Release Date": "February 13th, 2006",
+            "Blurb": "Pok\u00e9mon TCG: EX Legend Maker is the name given to the twelfth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the fifth main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation III Pok\u00e9mon, Pok\u00e9mon-ex, and Pok\u00e9mon \u2606 in the card game."
+        },
+        {
+            "Name": "Delta Species (DS)",
+            "SetID": "DS",
+            "SetLink": "https://pkmncards.com/set/delta-species/?sort=number",
+            "Release Date": "October 31st, 2005",
+            "Blurb": "\u03b4 Delta Species are a type of Pok\u00e9mon found in the Pok\u00e9mon Trading Card Game. The term is often shortened to \u03b4, DS, Delta, or Delta Species. They first appeared in the EX Delta Species expansion, and were last released in the EX Dragon Frontiers expansion."
+        },
+        {
+            "Name": "Unseen Forces (UF)",
+            "SetID": "UF",
+            "SetLink": "https://pkmncards.com/set/unseen-forces/?sort=number",
+            "Release Date": "August 22nd, 2005",
+            "Blurb": "Pok\u00e9mon TCG: EX Unseen Forces is the name given to the tenth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the fourth main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Pok\u00e9mon-ex and Pok\u00e9mon \u2606 in the card game."
+        },
+        {
+            "Name": "POP Series 2 (P2)",
+            "SetID": "P2",
+            "SetLink": "https://pkmncards.com/set/pop-series-2/?sort=number",
+            "Release Date": "August 1st, 2005",
+            "Blurb": "POP Series 2 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "Emerald (EM)",
+            "SetID": "EM",
+            "SetLink": "https://pkmncards.com/set/emerald/?sort=number",
+            "Release Date": "May 9th, 2005",
+            "Blurb": "Pok\u00e9mon TCG: EX Emerald is the name given to the ninth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It does not have a main expansion as a Japanese equivalent. The set continues to feature Generation III Pok\u00e9mon and Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "Deoxys (DX)",
+            "SetID": "DX",
+            "SetLink": "https://pkmncards.com/set/deoxys/?sort=number",
+            "Release Date": "February 14th, 2005",
+            "Blurb": "Deoxys has been featured on 38 different cards since it debuted in the EX Deoxys expansion of the Pok\u00e9mon Trading Card Game. Deoxys cards are normally Psychic-type Basic Pok\u00e9mon."
+        },
+        {
+            "Name": "Team Rocket Returns (TRR)",
+            "SetID": "TRR",
+            "SetLink": "https://pkmncards.com/set/team-rocket-returns/?sort=number",
+            "Release Date": "November 8th, 2004",
+            "Blurb": "Pok\u00e9mon TCG: EX Team Rocket Returns is the name given to the seventh main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the third main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "POP Series 1 (P1)",
+            "SetID": "P1",
+            "SetLink": "https://pkmncards.com/set/pop-series-1/?sort=number",
+            "Release Date": "September 1st, 2004",
+            "Blurb": "POP Series 1 is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game. It was released through Pok\u00e9mon Organized Play events or affiliated products."
+        },
+        {
+            "Name": "FireRed & LeafGreen (RG)",
+            "SetID": "RG",
+            "SetLink": "https://pkmncards.com/set/firered-leafgreen/?sort=number",
+            "Release Date": "August 30th, 2004",
+            "Blurb": "Pok\u00e9mon TCG: EX FireRed & LeafGreen is the name given to the sixth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the first main expansion from the PCG Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "Hidden Legends (HL)",
+            "SetID": "HL",
+            "SetLink": "https://pkmncards.com/set/hidden-legends/?sort=number",
+            "Release Date": "June 14th, 2004",
+            "Blurb": "Pok\u00e9mon TCG: EX Hidden Legends is the name given to the fifth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It is the fourth and final main expansion from the ADV Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation III Pok\u00e9mon and Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "Team Magma vs Team Aqua (MA)",
+            "SetID": "MA",
+            "SetLink": "https://pkmncards.com/set/team-magma-vs-team-aqua/?sort=number",
+            "Release Date": "March 15th, 2004",
+            "Blurb": "Pok\u00e9mon-e TCG: EX Team Magma vs Team Aqua is the name given to the fourth main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. It was released as the only subset from the ADV Era of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation III Pok\u00e9mon and Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "Dragon (DR)",
+            "SetID": "DR",
+            "SetLink": "https://pkmncards.com/set/dragon/?sort=number",
+            "Release Date": "November 24th, 2003",
+            "Blurb": "Pokémon-e TCG: EX Dragon is the name given to the third main expansion of cards from the EX Series of the Pokémon Trading Card Game. The set continues to feature Generation III Pokémon and Pokémon-ex in the card game."
+        },
+        {
+            "Name": "Sandstorm (SS)",
+            "SetID": "SS",
+            "SetLink": "https://pkmncards.com/set/sandstorm/?sort=number",
+            "Release Date": "September 18th, 2003",
+            "Blurb": "Pok\u00e9mon-e TCG: EX Sandstorm is the name given to the second main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation III Pok\u00e9mon and Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "Ruby & Sapphire (RS)",
+            "SetID": "RS",
+            "SetLink": "https://pkmncards.com/set/ruby-sapphire/?sort=number",
+            "Release Date": "June 18th, 2003",
+            "Blurb": "Pok\u00e9mon-e TCG: EX Ruby & Sapphire is the name given to the first main expansion of cards from the EX Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation III Pok\u00e9mon and Pok\u00e9mon-ex in the card game."
+        },
+        {
+            "Name": "Nintendo Black Star Promos (NP)",
+            "SetID": "NP",
+            "SetLink": "https://pkmncards.com/set/nintendo-black-star-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "October 2003",
+            "Blurb": "After taking over the rights to produce the Pokémon Trading Card Game outside Japan from Wizards of the Coast, a new collection of Black Star Promos began to be distributed by Nintendo of America, with Pokémon USA handling the creation and manufacturing. Nintendo of America would continue the consumer marketing and distribution of the TCG until the end of 2005, with Pokémon USA subsequently assuming all control."
+        }
+    ],
+    "WotC Era": [
+        {
+            "Name": "Skyridge (E3)",
+            "SetID": "E3",
+            "SetLink": "https://pkmncards.com/set/skyridge/?sort=number",
+            "Release Date": "May 12th, 2003",
+            "Blurb": "Pok\u00e9mon-e: Skyridge is the name given to the third and final main expansion of cards from the e-Card Series of the Pok\u00e9mon Trading Card Game. It is the fourth and fifth main expansions from the e-Card Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Aquapolis (E2)",
+            "SetID": "E2",
+            "SetLink": "https://pkmncards.com/set/aquapolis/?sort=number",
+            "Release Date": "January 15th, 2003",
+            "Blurb": "Pok\u00e9mon-e: Aquapolis is the name given to the second main expansion of cards from the e-Card Series of the Pok\u00e9mon Trading Card Game. It is the second and third main expansions from the e-Card Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Best of Game (BG)",
+            "SetID": "BG",
+            "SetLink": "https://pkmncards.com/set/best-of-game/?sort=number",
+            "Release Date": "December 1st, 2002",
+            "Blurb": "The Best of Game is the name of a special collection of cards for the Pok\u00e9mon Trading Card Game, commemorating some of the best cards to be produced by Wizards of the Coast."
+        },
+        {
+            "Name": "Expedition (E1)",
+            "SetID": "E1",
+            "SetLink": "https://pkmncards.com/set/expedition/?sort=number",
+            "Release Date": "September 15th, 2002",
+            "Blurb": "Pok\u00e9mon-e: Expedition Base Set is the name given to the first main expansion of cards from the e-Card Series of the Pok\u00e9mon Trading Card Game. It is the first main expansion from the e-Card Era of the Pok\u00e9mon Card Game in Japan."
+        },
+        {
+            "Name": "Legendary Collection (LC)",
+            "SetID": "LC",
+            "SetLink": "https://pkmncards.com/set/legendary-collection/?sort=number",
+            "Release Date": "May 24th, 2002",
+            "Blurb": "Pok\u00e9mon: Legendary Collection is the name given to the only main expansion of cards from the Legendary Collection Series of the Pok\u00e9mon Trading Card Game. It does not have a main expansion as a Japanese equivalent."
+        },
+        {
+            "Name": "Neo Destiny (N4)",
+            "SetID": "N4",
+            "SetLink": "https://pkmncards.com/set/neo-destiny/?sort=number",
+            "Release Date": "February 28th, 2002",
+            "Blurb": "Neo Destiny is the name given to the fourth and final main expansion of cards from the Neo Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation II Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Neo Revelation (N3)",
+            "SetID": "N3",
+            "SetLink": "https://pkmncards.com/set/neo-revelation/?sort=number",
+            "Release Date": "September 21st, 2001",
+            "Blurb": "Neo Revelation is the name given to the third main expansion of cards from the Neo Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation II Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Southern Islands (SI)",
+            "SetID": "SI",
+            "SetLink": "https://pkmncards.com/set/southern-islands/?sort=number",
+            "Release Date": "July 31st, 2001",
+            "Blurb": "The Southern Islands Collection is the name given to a special set of cards for the Pok\u00e9mon Trading Card Game."
+        },
+        {
+            "Name": "Neo Discovery (N2)",
+            "SetID": "N2",
+            "SetLink": "https://pkmncards.com/set/neo-discovery/?sort=number",
+            "Release Date": "June 1st, 2001",
+            "Blurb": "Neo Discovery is the name given to the second main expansion of cards from the Neo Series of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation II Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Neo Genesis (N1)",
+            "SetID": "N1",
+            "SetLink": "https://pkmncards.com/set/neo-genesis/?sort=number",
+            "Release Date": "December 16th, 2000",
+            "Blurb": "Pok\u00e9mon: Neo Genesis is the name given to the first main expansion of cards from the Neo Series of the Pok\u00e9mon Trading Card Game. The set is the first to feature Generation II Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Gym Challenge (G2)",
+            "SetID": "G2",
+            "SetLink": "https://pkmncards.com/set/gym-challenge/?sort=number",
+            "Release Date": "October 16th, 2000",
+            "Blurb": "Gym Challenge is the name given to the seventh main expansion of cards of the Pok\u00e9mon Trading Card Game. It is the sixth main expansion of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation I Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Gym Heroes (G1)",
+            "SetID": "G1",
+            "SetLink": "https://pkmncards.com/set/gym-heroes/?sort=number",
+            "Release Date": "August 14th, 2000",
+            "Blurb": "Gym Heroes is the name given to the sixth main expansion of cards of the Pok\u00e9mon Trading Card Game. It is the fifth main expansion of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation I Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Team Rocket (TR)",
+            "SetID": "TR",
+            "SetLink": "https://pkmncards.com/set/team-rocket/?sort=number",
+            "Release Date": "April 24th, 2000",
+            "Blurb": "Team Rocket is the name given to the fifth main expansion of cards of the Pok\u00e9mon Trading Card Game. It is the fourth main expansion of the Pok\u00e9mon Card Game in Japan. The set continues to feature Generation I Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Base Set 2 (BS2)",
+            "SetID": "BS2",
+            "SetLink": "https://pkmncards.com/set/base-set-2/?sort=number",
+            "Release Date": "February 24th, 2000",
+            "Blurb": "Base Set 2 is the name given to the fourth main expansion of cards of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation I Pok\u00e9mon in the card game. It does not have a main expansion as a Japanese equivalent."
+        },
+        {
+            "Name": "Fossil (FO)",
+            "SetID": "FO",
+            "SetLink": "https://pkmncards.com/set/fossil/?sort=number",
+            "Release Date": "October 10th, 1999",
+            "Blurb": "Fossil is the name given to the third main expansion of cards of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation I Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Jungle (JU)",
+            "SetID": "JU",
+            "SetLink": "https://pkmncards.com/set/jungle/?sort=number",
+            "Release Date": "June 16th, 1999",
+            "Blurb": "Jungle is the name given to the second main expansion of cards of the Pok\u00e9mon Trading Card Game. The set continues to feature Generation I Pok\u00e9mon in the card game."
+        },
+        {
+            "Name": "Base Set (BS)",
+            "SetID": "BS",
+            "SetLink": "https://pkmncards.com/set/base-set/?sort=number",
+            "Release Date": "January 9th, 1999",
+            "Blurb": "Base Set is the name given to the first main expansion of cards of the Pok\u00e9mon Trading Card Game. The set features Pok\u00e9mon from Generation I. It is commonly referred to in Japanese sources as Expansion Pack , after one of its primary distribution products."
+        },
+        {
+            "Name": "WotC Black Star Promos (WP)",
+            "SetID": "WP",
+            "SetLink": "https://pkmncards.com/set/wizards-black-star-promos/?sort=number",
+            "Promo": 1,
+            "Release Date": "July 1999",
+            "Blurb": "Throughout their occupation of the Pokémon Trading Card Game, Wizards of the Coast produced many exclusive cards for promotional events such as tournaments, special events or through Pokémon-related merchandise. These all had a black star with the word \"PROMO\" written across it where the expansion symbol would normally occur, giving them their name as Black Star Promos."
+        }
+    ]
+}

@@ -1514,6 +1514,7 @@ class Application(QMainWindow):
                 info_label.setAlignment(Qt.AlignmentFlag.AlignHCenter)
                 info_label.setProperty("class", "header2")
                 info_label.setWordWrap(True)
+                info_label.setMinimumWidth(1000)
                 info_label.setFont(self.main_font)
                 self.set_info_layout.addWidget(info_label, alignment=Qt.AlignmentFlag.AlignHCenter)
 
