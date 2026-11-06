@@ -1,0 +1,6304 @@
+[
+    {
+        "ID": "C1-001",
+        "Name": "Bulbasaur",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_001_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leech Seed"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Heal 10 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.",
+        "Illustrator": "OKACHEKE"
+    },
+    {
+        "ID": "C1-002",
+        "Name": "Ivysaur",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_002_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leaf Drain"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "C1-003",
+        "Name": "Venusaur",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_003_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "150",
+        "Ability": [
+            "Sunny Heal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may heal 30 damage from your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Solar Beam"
+        ],
+        "Move-Energy": [
+            "GCCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.",
+        "Illustrator": "danciao"
+    },
+    {
+        "ID": "C1-004",
+        "Name": "Exeggcute",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_004_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Nap"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "If you touch one of Exeggcute\u2019s heads, mistaking it for an egg, the other heads will quickly gather and attack you in a swarm.",
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "C1-005",
+        "Name": "Alolan Exeggutor ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_005_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Long-Neck Hammering"
+        ],
+        "Move-Energy": [
+            "GGG"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random. This attack also does 50 damage to it."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-006",
+        "Name": "Pinsir",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_006_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vise Grip"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "These Pok\u00e9mon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+        "Illustrator": "Yuya Oka"
+    },
+    {
+        "ID": "C1-007",
+        "Name": "Combee",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_007_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flap"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+        "Illustrator": "Narumi Sato"
+    },
+    {
+        "ID": "C1-008",
+        "Name": "Vespiquen",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_008_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Honey Rush"
+        ],
+        "Move-Energy": [
+            "GG"
+        ],
+        "Move-Damage": [
+            "50x"
+        ],
+        "Effects": [
+            "Reveal all of the Sweet Honey in your hand, and this attack does 50 damage for each card you revealed in this way."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+        "Illustrator": "Narumi Sato"
+    },
+    {
+        "ID": "C1-009",
+        "Name": "Deerling",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_009_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flop"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "These Pok\u00e9mon are not shy\u2014they will behave as they please, even in front of people. If you feed one of them, it will quickly take a liking to you.",
+        "Illustrator": "Shimaris Yukichi"
+    },
+    {
+        "ID": "C1-010",
+        "Name": "Sawsbuck",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_010_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Leaf Litter Tackle"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Discard a [G] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "There are many Sawsbuck enthusiasts. The darker the red of the foliage that hangs from its antlers, the more stylish the Sawsbuck is thought to be.",
+        "Illustrator": "HYOGONOSUKE"
+    },
+    {
+        "ID": "C1-011",
+        "Name": "Foongus",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_011_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beat"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "There is a theory that the developer of the modern-day Pok\u00e9 Ball really liked Foongus, but this has not been confirmed.",
+        "Illustrator": "Yuka Morii"
+    },
+    {
+        "ID": "C1-012",
+        "Name": "Amoonguss",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_012_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Astonish"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Look at a random card from your opponent's hand and shuffle it into their deck."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss\u2019s caps will grow out of anywhere the spores touch.",
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "C1-013",
+        "Name": "Genesect",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_013_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Signal Beam"
+        ],
+        "Move-Energy": [
+            "GCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Confused."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This ancient bug Pok\u00e9mon was altered by Team Plasma. They upgraded the cannon on its back.",
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "C1-014",
+        "Name": "Cutiefly",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_014_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "30",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bug Bite"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "0",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "When it senses the auras of people or Pok\u00e9mon who are having fun, it will draw close and give them a painful poke with its long proboscis.",
+        "Illustrator": "Narumi Sato"
+    },
+    {
+        "ID": "C1-015",
+        "Name": "Ribombee",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_015_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Honey Gather"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may use this Ability. Put a rental card into your hand."
+        ],
+        "Moves": [
+            "Bug Buzz"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Ribombee can sense when people or Pok\u00e9mon are feeling down, and it will cheer them up with handmade pollen puffs.",
+        "Illustrator": "Narumi Sato"
+    },
+    {
+        "ID": "C1-016",
+        "Name": "Charmander",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_016_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ember"
+        ],
+        "Move-Energy": [
+            "RC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Discard a [R] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.",
+        "Illustrator": "DOM"
+    },
+    {
+        "ID": "C1-017",
+        "Name": "Charmeleon",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_017_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flame Tail"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.",
+        "Illustrator": "GIDORA"
+    },
+    {
+        "ID": "C1-018",
+        "Name": "Charizard",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_018_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "150",
+        "Ability": [
+            "Flame Aura"
+        ],
+        "Ability-Effect": [
+            "Whenever you attach a [R] Energy from your Energy Zone to this Pok\u00e9mon, do 30 damage to your opponent's Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Fire Wing"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
+        "Illustrator": "NC Empire"
+    },
+    {
+        "ID": "C1-019",
+        "Name": "Volcanion",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_019_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dynamite Steam"
+        ],
+        "Move-Energy": [
+            "RRRC"
+        ],
+        "Move-Damage": [
+            "110x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 110 damage for each heads."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lets out billows of steam and disappears into the dense fog. It\u2019s said to live in mountains where humans do not tread.",
+        "Illustrator": "Satoshi Shirai"
+    },
+    {
+        "ID": "C1-020",
+        "Name": "Salandit",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_020_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flare"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-021",
+        "Name": "Salazzle",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_021_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Heat Blast"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
+        "Illustrator": "aoki"
+    },
+    {
+        "ID": "C1-022",
+        "Name": "Scorbunny",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_022_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rabbit Jumping"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 damage for each heads."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Once its body has heated up, Scorbunny can use the full extent of its power. That\u2019s why it does warm-up exercises.",
+        "Illustrator": "Kanami Ogata"
+    },
+    {
+        "ID": "C1-023",
+        "Name": "Raboot",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_023_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": [
+            "Jumping Coach"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in play, flip 3 more coins for the Rabbit Jumping attack used by your Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Headbutt"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Thanks to its soft and fluffy fur, Raboot can easily heat up its fire energy and produce flames with more power.",
+        "Illustrator": "OKACHEKE"
+    },
+    {
+        "ID": "C1-024",
+        "Name": "Cinderace",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_024_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "140",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spinning Kick"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon also does 20 damage to itself."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Although Cinderace loses its cool easily, it will battle flawlessly for a Trainer it trusts.",
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "C1-025",
+        "Name": "Fuecoco ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_025_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Feisty Flames"
+        ],
+        "Move-Energy": [
+            "R",
+            "RC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "If this Pok\u00e9mon has damage on it, this attack does 70 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "kodama"
+    },
+    {
+        "ID": "C1-026",
+        "Name": "Charcadet",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_026_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Will-O-Wisp"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Burnt charcoal came to life and became a Pok\u00e9mon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+        "Illustrator": "Saya Tsuruta"
+    },
+    {
+        "ID": "C1-027",
+        "Name": "Armarouge",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_027_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Boundless Power"
+        ],
+        "Move-Energy": [
+            "RRR"
+        ],
+        "Move-Damage": [
+            "130"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon can't attack."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pok\u00e9mon is incredibly loyal.",
+        "Illustrator": "Souichirou Gunjima"
+    },
+    {
+        "ID": "C1-028",
+        "Name": "Ceruledge",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_028_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rally Back"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "70+"
+        ],
+        "Effects": [
+            "If any of your Pok\u00e9mon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 70 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+        "Illustrator": "telu"
+    },
+    {
+        "ID": "C1-029",
+        "Name": "Squirtle",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_029_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bubble"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.",
+        "Illustrator": "Gemi"
+    },
+    {
+        "ID": "C1-030",
+        "Name": "Wartortle",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_030_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spinning Attack"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Wartortle\u2019s long, furry tail is a symbol of longevity, so this Pok\u00e9mon is quite popular among older people.",
+        "Illustrator": "Akira Komayama"
+    },
+    {
+        "ID": "C1-031",
+        "Name": "Blastoise",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_031_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "150",
+        "Ability": [
+            "Aqua Charge"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may take a [W] Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Surf"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "4",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.",
+        "Illustrator": "NC Empire"
+    },
+    {
+        "ID": "C1-032",
+        "Name": "Seel",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_032_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Waterfall"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The protrusion on its head is very hard. It is used for bashing through thick ice.",
+        "Illustrator": "Atsuko Nishida"
+    },
+    {
+        "ID": "C1-033",
+        "Name": "Dewgong",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_033_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Blizzard"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Discard 2 [W] Energy from this Pok\u00e9mon, and this attack does 60 damage to 2 of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It sleeps under shallow ocean waters during the day, then looks for food at night when it\u2019s colder.",
+        "Illustrator": "chibi"
+    },
+    {
+        "ID": "C1-034",
+        "Name": "Shellder",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_034_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Water Gun"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "C1-035",
+        "Name": "Cloyster",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_035_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Blizzard"
+        ],
+        "Move-Energy": [
+            "WWC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            "This attack also does 20 damage to each of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-036",
+        "Name": "Jynx",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_036_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slap"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
+        "Illustrator": "sowsow"
+    },
+    {
+        "ID": "C1-037",
+        "Name": "Lapras",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_037_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ice Blade"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+        "Illustrator": "LINNE"
+    },
+    {
+        "ID": "C1-038",
+        "Name": "Palkia",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_038_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spacial Rend"
+        ],
+        "Move-Energy": [
+            "WWC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "If your opponent has a Stadium in play, discard it."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+        "Illustrator": "Ryuta Fuse"
+    },
+    {
+        "ID": "C1-039",
+        "Name": "Basculin",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_039_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rock Head"
+        ],
+        "Move-Energy": [
+            "WC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "During your opponent's next turn, this Pok\u00e9mon takes \u221230 damage from attacks."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "These Pok\u00e9mon form schools with others of the same color. The greatest foe of a school of blue Basculin is a school of red Basculin.",
+        "Illustrator": "SATOSHI NAKAI"
+    },
+    {
+        "ID": "C1-040",
+        "Name": "Froakie",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_040_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound"
+        ],
+        "Move-Energy": [
+            "W"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its happy-go-lucky look is an act intended to fool its enemies. It will suddenly drop the facade and overwhelm its foes with its blinding speed.",
+        "Illustrator": "Atsuya Uki"
+    },
+    {
+        "ID": "C1-041",
+        "Name": "Frogadier",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_041_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Sudden Duplication"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you play this card from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Put a random Frogadier from your deck onto your Bench."
+        ],
+        "Moves": [
+            "Wave Splash"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It excels at devising battle strategies that make use of the terrain, and it never misses its mark when throwing bubble-covered pebbles.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "C1-042",
+        "Name": "Mega Greninja ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_042_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water/Darkness",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash of Darkness"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "0",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Keisuke Azuma"
+    },
+    {
+        "ID": "C1-043",
+        "Name": "Pikachu ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_043_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pika Punch",
+            "Thundertail"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 [L] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Ryota Murayama"
+    },
+    {
+        "ID": "C1-044",
+        "Name": "Voltorb",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_044_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+        "Illustrator": "Sekio"
+    },
+    {
+        "ID": "C1-045",
+        "Name": "Electrode",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_045_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Self-Destruct"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "This Pok\u00e9mon also does 90 damage to itself."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+        "Illustrator": "Scav"
+    },
+    {
+        "ID": "C1-046",
+        "Name": "Stunfisk",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_046_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Electric Ball"
+        ],
+        "Move-Energy": [
+            "LLC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Thanks to bacteria that lived in the mud flats with it, this Pok\u00e9mon developed the organs it uses to generate electricity.",
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "C1-047",
+        "Name": "Zeraora",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_047_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Thunderbolt"
+        ],
+        "Move-Energy": [
+            "LL"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Discard all Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they\u2019ll be electrocuted by the flying sparks.",
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "C1-048",
+        "Name": "Pawmi",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_048_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "40",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Zap Kick"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "0",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+        "Illustrator": "Taiga Kayama"
+    },
+    {
+        "ID": "C1-049",
+        "Name": "Pawmo",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_049_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Lightning",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Electric Punch"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+        "Illustrator": "Hitoshi Ariga"
+    },
+    {
+        "ID": "C1-050",
+        "Name": "Pawmot",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_050_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": [
+            "Electrocreation"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may take a [L] Energy from your Energy Zone and attach it to the [L] Pok\u00e9mon in the Active Spot."
+        ],
+        "Moves": [
+            "Mach Bolt"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+        "Illustrator": "Keisin"
+    },
+    {
+        "ID": "C1-051",
+        "Name": "Jigglypuff",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_051_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Soothing Lullaby"
+        ],
+        "Move-Energy": [
+            "PP"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep. Your opponent flips 2 coins for this Special Condition, and if either of them is tails, that Pok\u00e9mon is still Asleep."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+        "Illustrator": "saino misaki"
+    },
+    {
+        "ID": "C1-052",
+        "Name": "Wigglytuff",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_052_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Do the Wave"
+        ],
+        "Move-Energy": [
+            "PP"
+        ],
+        "Move-Damage": [
+            "30x"
+        ],
+        "Effects": [
+            "This attack does 30 damage for each of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "C1-053",
+        "Name": "Abra",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_053_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beam"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon uses its psychic powers while it sleeps. The contents of Abra\u2019s dreams affect the powers that the Pok\u00e9mon wields.",
+        "Illustrator": "CHORISO"
+    },
+    {
+        "ID": "C1-054",
+        "Name": "Kadabra",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_054_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psychic Sphere"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+        "Illustrator": "Bun Toujo"
+    },
+    {
+        "ID": "C1-055",
+        "Name": "Alakazam",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_055_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mind Jack"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "50+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+        "Illustrator": "Kazumasa Yasukuni"
+    },
+    {
+        "ID": "C1-056",
+        "Name": "Mega Mewtwo X ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_056_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic/Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Impact"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If a Stadium is in play, this attack does 40 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Igarashi"
+    },
+    {
+        "ID": "C1-057",
+        "Name": "Mew ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_057_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Secret Guidance",
+            "Psyburn"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Flip 3 coins. Take an amount of [P] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [P] Pok\u00e9mon in any way you like.",
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "akagi"
+    },
+    {
+        "ID": "C1-058",
+        "Name": "Marill",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_058_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rollout"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+        "Illustrator": "Asako Ito"
+    },
+    {
+        "ID": "C1-059",
+        "Name": "Azumarill",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_059_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rabbit Jumping"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "60x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 60 damage for each heads."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+        "Illustrator": "chibi"
+    },
+    {
+        "ID": "C1-060",
+        "Name": "Espeon",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_060_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Brainwave"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10+"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each [P] Energy attached to this Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The tip of its forked tail quivers when it is predicting its opponent\u2019s next move.",
+        "Illustrator": "Cona Nitanda"
+    },
+    {
+        "ID": "C1-061",
+        "Name": "Wobbuffet",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_061_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Headbutt Bounce"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
+        "Illustrator": "match"
+    },
+    {
+        "ID": "C1-062",
+        "Name": "Deoxys",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_062_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psycho Boost"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon's Psycho Boost does \u221250 damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon.",
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "C1-063",
+        "Name": "Mimikyu",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_063_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dress Up"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 30 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+        "Illustrator": "Ligton"
+    },
+    {
+        "ID": "C1-064",
+        "Name": "Cosmog",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_064_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dust Gathering"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Draw a card."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away.",
+        "Illustrator": "Megumi Mizutani"
+    },
+    {
+        "ID": "C1-065",
+        "Name": "Cosmoem",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_065_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "3",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "The absorption of starlight fuels this Pok\u00e9mon\u2019s growth. The shell that encases it is harder than any known material.",
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "C1-066",
+        "Name": "Lunala",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_066_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wings of the Moone"
+        ],
+        "Move-Energy": [
+            "PP"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Known as the Beast That Calls the Moon, this Pok\u00e9mon lives by taking in any and all light and converting it into its own energy.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "C1-067",
+        "Name": "Diglett",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_067_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dig"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, during your opponent's next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "C1-068",
+        "Name": "Dugtrio",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_068_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Triple Smash"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "30x"
+        ],
+        "Effects": [
+            "Flip 3 coins. This attack does 30 damage for each heads."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+        "Illustrator": "Yukiko Baba"
+    },
+    {
+        "ID": "C1-069",
+        "Name": "Rhyhorn",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_069_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunge Out"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Rhyhorn claims an area with over a six mile radius as its territory. It apparently forgets where this territory is when running, however.",
+        "Illustrator": "miki kudo"
+    },
+    {
+        "ID": "C1-070",
+        "Name": "Rhydon",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_070_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Megahorn"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The horn of a Rhydon is powerful enough to crush raw diamonds. These Pok\u00e9mon polish their horns by bashing them together.",
+        "Illustrator": "HYOGONOSUKE"
+    },
+    {
+        "ID": "C1-071",
+        "Name": "Rhyperior",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_071_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Earthen Press"
+        ],
+        "Move-Energy": [
+            "FFF"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon\u2019s sturdy carapace protects it from volcanic eruptions. It shoots round rocks from the holes in its hands.",
+        "Illustrator": "Satoshi Shirai"
+    },
+    {
+        "ID": "C1-072",
+        "Name": "Sudowoodo",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_072_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Elbow Strike"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+        "Illustrator": "Jerky"
+    },
+    {
+        "ID": "C1-073",
+        "Name": "Paldean Wooper",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_073_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mud-Slap"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "After losing a territorial struggle, Wooper began living on land. The Pok\u00e9mon changed over time, developing a poisonous film to protect its body.",
+        "Illustrator": "kirisAki"
+    },
+    {
+        "ID": "C1-074",
+        "Name": "Paldean Clodsire",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_074_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Earthquake"
+        ],
+        "Move-Energy": [
+            "FFF"
+        ],
+        "Move-Damage": [
+            "130"
+        ],
+        "Effects": [
+            "This attack also does 20 damage to each of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "When attacked, this Pok\u00e9mon will retaliate by sticking thick spines out from its body. It\u2019s a risky move that puts everything on the line.",
+        "Illustrator": "Uta"
+    },
+    {
+        "ID": "C1-075",
+        "Name": "Larvitar",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_075_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Born deep underground, this Pok\u00e9mon  becomes a pupa after eating enough  dirt to make a mountain.",
+        "Illustrator": "Haru Akasaka"
+    },
+    {
+        "ID": "C1-076",
+        "Name": "Pupitar",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_076_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Amass"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Take 2 [F] Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+        "Illustrator": "Hajime Kusajima"
+    },
+    {
+        "ID": "C1-077",
+        "Name": "Barboach",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_077_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Vibration"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey\u2019s location.",
+        "Illustrator": "ryoma uratsuka"
+    },
+    {
+        "ID": "C1-078",
+        "Name": "Whiscash",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_078_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Power Press"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has at least 3 extra [F] Energy attached, this attack does 60 more damage."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
+        "Illustrator": "Masakazu Fukuda"
+    },
+    {
+        "ID": "C1-079",
+        "Name": "Rockruff",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_079_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Paw Shake Punch"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon is very friendly when it\u2019s young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+        "Illustrator": "OKACHEKE"
+    },
+    {
+        "ID": "C1-080",
+        "Name": "Lycanroc ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_080_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "150",
+        "Ability": [
+            "Reflexive Retaliation"
+        ],
+        "Ability-Effect": [
+            "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 30 damage to the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Slashing Claw"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-081",
+        "Name": "Gastly",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_081_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Severe Gas"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+        "Illustrator": "Shibuzoh."
+    },
+    {
+        "ID": "C1-082",
+        "Name": "Haunter",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_082_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Suffocating Gas"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+        "Illustrator": "HYOGONOSUKE"
+    },
+    {
+        "ID": "C1-083",
+        "Name": "Gengar",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_083_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Twilight Poison"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned and Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "To steal the life of its target, it slips into the prey\u2019s shadow and silently waits for an opportunity.",
+        "Illustrator": "Narumi Sato"
+    },
+    {
+        "ID": "C1-084",
+        "Name": "Umbreon",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_084_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Moonlit Raid"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a Basic Pok\u00e9mon, this attack does 50 more damage."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "When exposed to the moon\u2019s aura, the rings on its body glow faintly and it gains a mysterious power.",
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "C1-085",
+        "Name": "Mega Tyranitar ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_085_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crushing Rampage"
+        ],
+        "Move-Energy": [
+            "DDCC"
+        ],
+        "Move-Damage": [
+            "180"
+        ],
+        "Effects": [
+            "Discard the top 2 cards of your deck."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "4",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-086",
+        "Name": "Seviper",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_086_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Venomous Fang"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-087",
+        "Name": "Zorua",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_087_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Scratch"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "10"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+        "Illustrator": "Toyste Beach"
+    },
+    {
+        "ID": "C1-088",
+        "Name": "Zoroark",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_088_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Foul Play"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Choose 1 of your opponent's Active Pok\u00e9mon's attacks and use it as this attack."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Stories say those who tried to catch Zoroark were trapped in an illusion and punished.",
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "C1-089",
+        "Name": "Nickit",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_089_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rear Kick"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Aided by the soft pads on its feet, it silently raids the food stores of other Pok\u00e9mon. It survives off its ill-gotten gains.",
+        "Illustrator": "Naoki Saito"
+    },
+    {
+        "ID": "C1-090",
+        "Name": "Thievul",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_090_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Claw Slash"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
+        "Illustrator": "SIE NANAHARA"
+    },
+    {
+        "ID": "C1-091",
+        "Name": "Mega Skarmory ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_091_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shredding Claw"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "90+"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 50 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-092",
+        "Name": "Dialga",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_092_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Roar of Time"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "Discard the top card of your opponent's deck."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "A Pok\u00e9mon spoken of in legend. It is said that time began moving when Dialga was born.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "C1-093",
+        "Name": "Ferroseed",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_093_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pierce"
+        ],
+        "Move-Energy": [
+            "MM"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It defends itself by launching spikes, but its aim isn\u2019t very good at first. Only after a lot of practice will it improve.",
+        "Illustrator": "Shigenori Negishi"
+    },
+    {
+        "ID": "C1-094",
+        "Name": "Ferrothorn",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_094_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hammer In"
+        ],
+        "Move-Energy": [
+            "MMM"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+        "Illustrator": "Miki Tanaka"
+    },
+    {
+        "ID": "C1-095",
+        "Name": "Solgaleo",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_095_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Claws of the Sunne"
+        ],
+        "Move-Energy": [
+            "MMM"
+        ],
+        "Move-Damage": [
+            "90+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each point you have gotten."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "When light radiates from its body, this Pok\u00e9mon could almost appear to be the sun. It will dispel any darkness and light up the world.",
+        "Illustrator": "Misa Tsutsui"
+    },
+    {
+        "ID": "C1-096",
+        "Name": "Meltan",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_096_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram"
+        ],
+        "Move-Energy": [
+            "MC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+        "Illustrator": "Kouki Saitou"
+    },
+    {
+        "ID": "C1-097",
+        "Name": "Melmetal",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_097_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "120",
+        "Ability": [
+            "Metal Scrum"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in play, all of your [M] Pok\u00e9mon take \u221220 damage from attacks from your opponent's Pok\u00e9mon. This effect doesn't stack."
+        ],
+        "Moves": [
+            "Confront"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+        "Illustrator": "Shigenori Negishi"
+    },
+    {
+        "ID": "C1-098",
+        "Name": "Dratini",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_098_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hook"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
+        "Illustrator": "kurumitsu"
+    },
+    {
+        "ID": "C1-099",
+        "Name": "Dragonair",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_099_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Dragon",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beam"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "60"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+        "Illustrator": "Mizue"
+    },
+    {
+        "ID": "C1-100",
+        "Name": "Mega Dragonite ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_100_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Draconic Meteor"
+        ],
+        "Move-Energy": [
+            "WLCCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "1 of your opponent's Pok\u00e9mon is chosen at random. Do 250 damage to it."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-101",
+        "Name": "Giratina ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_101_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Dragon Impact"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GPC"
+        ],
+        "Move-Damage": [
+            "50",
+            "140"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 random Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-102",
+        "Name": "Pidgey",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_102_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Find a Friend"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put 1 random [C] Pok\u00e9mon from your deck into your hand."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "C1-103",
+        "Name": "Pidgeotto",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_103_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Cutting Wind"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+        "Illustrator": "Shin Nagasawa"
+    },
+    {
+        "ID": "C1-104",
+        "Name": "Pidgeot",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_104_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Clean Hit"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "40+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 80 more damage."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "C1-105",
+        "Name": "Spearow",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_105_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flap"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its reckless nature leads it to stand up to others\u2014even large Pok\u00e9mon\u2014if it has to protect its territory.",
+        "Illustrator": "Yuriko Akase"
+    },
+    {
+        "ID": "C1-106",
+        "Name": "Fearow",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_106_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Drill Peck"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Carrying food through Fearow\u2019s territory is dangerous. It will snatch the food away from you in a flash!",
+        "Illustrator": "kawayoo"
+    },
+    {
+        "ID": "C1-107",
+        "Name": "Eevee",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_107_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Signs of Evolution"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Put a random card that evolves from Eevee from your deck into your hand."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+        "Illustrator": "0313"
+    },
+    {
+        "ID": "C1-108",
+        "Name": "Porygon",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_108_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Powered Ball"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Discard a random Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is an artificial Pok\u00e9mon. Since it doesn\u2019t breathe, people are excited by its potential to be useful in any environment.",
+        "Illustrator": "Suwama Chiaki"
+    },
+    {
+        "ID": "C1-109",
+        "Name": "Porygon2",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_109_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Tackle"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This artificial Pok\u00e9mon evolved thanks to cutting- edge science. It sometimes displays behavior that is not in its programming.",
+        "Illustrator": "GOSSAN"
+    },
+    {
+        "ID": "C1-110",
+        "Name": "Porygon-Z",
+        "Rarity": "3 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_110_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Overdrive Smash"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "During your next turn, this Pok\u00e9mon's Overdrive Smash attack does +50 damage."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "An additional program was installed to create a more advanced Pok\u00e9mon, but it was apparently flawed. Porygon-Z moves oddly as a result.",
+        "Illustrator": "Kagemaru Himeno"
+    },
+    {
+        "ID": "C1-111",
+        "Name": "Snorlax",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_111_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Body Slam"
+        ],
+        "Move-Energy": [
+            "CCCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This gluttonous Pok\u00e9mon eats constantly, apart from when it\u2019s asleep. It devours nearly 900 pounds of food per day.",
+        "Illustrator": "0313"
+    },
+    {
+        "ID": "C1-112",
+        "Name": "Zangoose",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_112_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "80",
+        "Ability": [
+            "Immunity"
+        ],
+        "Ability-Effect": [
+            "This Pok\u00e9mon can't be affected by any Special Conditions."
+        ],
+        "Moves": [
+            "Claw Slash"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It\u2019s Seviper\u2019s archrival. To threaten those it encounters, it fans out the claws on its front paws.",
+        "Illustrator": "DOM"
+    },
+    {
+        "ID": "C1-113",
+        "Name": "Bidoof",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_113_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+        "Illustrator": "Naoyo Kimura"
+    },
+    {
+        "ID": "C1-114",
+        "Name": "Bibarel",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_114_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Strength"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "80"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "It busily makes its nest with stacks of branches and roots it has cut up with its sharp incisors.",
+        "Illustrator": "Kyoko Umemoto"
+    },
+    {
+        "ID": "C1-115",
+        "Name": "Buneary",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_115_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rabbit Jumping"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 20 damage for each heads."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "If both of Buneary\u2019s ears are rolled up, something is wrong with its body or mind. It\u2019s a sure sign the Pok\u00e9mon is in need of care.",
+        "Illustrator": "sowsow"
+    },
+    {
+        "ID": "C1-116",
+        "Name": "Lopunny",
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_116_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rabbit Jumping"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "40x"
+        ],
+        "Effects": [
+            "Flip 2 coins. This attack does 40 damage for each heads."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pok\u00e9mon responds with superdestructive kicks.",
+        "Illustrator": "buchi"
+    },
+    {
+        "ID": "C1-117",
+        "Name": "Stufful",
+        "Rarity": "1 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_117_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beat"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pok\u00e9mon could result in painful retaliation.",
+        "Illustrator": "TOMATO MARKET"
+    },
+    {
+        "ID": "C1-118",
+        "Name": "Bewear ex",
+        "Rarity": "4 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_118_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Lariat"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-119",
+        "Name": "Sweet Honey",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_119_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "Choose 1 of your Pok\u00e9mon, and then flip a coin until you get tails. For each heads, heal 20 damage from that Pok\u00e9mon.",
+        "Illustrator": "ORBITALLINK Inc."
+    },
+    {
+        "ID": "C1-120",
+        "Name": "Super Potion",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_120_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Heal 40 damage from 1 of your Pok\u00e9mon that has any Energy attached. If you healed any damage in this way, discard a random Energy from that Pok\u00e9mon.",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-121",
+        "Name": "Max Repel",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_121_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "Switch out your opponent's Active Stage 2 Pok\u00e9mon to the Bench. (Your opponent chooses the new Active Pok\u00e9mon.)",
+        "Illustrator": "Studio Bora Inc."
+    },
+    {
+        "ID": "C1-122",
+        "Name": "Full Heal",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_122_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Your Active Pok\u00e9mon recovers from all Special Conditions.",
+        "Illustrator": "Yoshinobu Saito"
+    },
+    {
+        "ID": "C1-123",
+        "Name": "Eviolite",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_123_EN_SM.webp",
+        "Pack": null,
+        "Description": "The Basic Pok\u00e9mon this card is attached to takes \u221220 damage from attacks from your opponent's Pok\u00e9mon.",
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-124",
+        "Name": "Light Ball",
+        "Card-Type": "Tool",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_124_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Attacks used by the Pikachu ex this card is attached to do +30 damage to your opponent's Active Pok\u00e9mon.",
+        "Illustrator": "Studio Bora Inc."
+    },
+    {
+        "ID": "C1-125",
+        "Name": "Lorelei",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_125_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "During this turn, attacks used by your Dewgong, Cloyster, or Lapras do +30 damage to your opponent's Pok\u00e9mon.",
+        "Illustrator": "Taira Akitsu"
+    },
+    {
+        "ID": "C1-126",
+        "Name": "Blue's Provocation",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_126_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "You can use this card only if you have Venusaur, Charizard, Blastoise, or Pidgeot in play. Switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
+        "Illustrator": "akagi"
+    },
+    {
+        "ID": "C1-127",
+        "Name": "Serena's Choice",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_127_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Look at the top 3 cards of your deck and put 1 of them into your hand. Shuffle  back into your deck.",
+        "Illustrator": "Sanosuke Sakuma"
+    },
+    {
+        "ID": "C1-128",
+        "Name": "Rika",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_128_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "Produce 2 [F] Energy from your Energy Zone, and attach it to 1 of your Whiscash or Paldean Clodsire.",
+        "Illustrator": "Nobusawa/Mochipuyo"
+    },
+    {
+        "ID": "C1-129",
+        "Name": "Pok\u00e9 Mart Guy",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_129_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Put 2 random cards from among Super Potion, Max Repel, and Full Heal from your deck into your hand.",
+        "Illustrator": "GOSSAN"
+    },
+    {
+        "ID": "C1-130",
+        "Name": "Rising Star",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_130_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "You can use this card only if you have 3 or more different Pok\u00e9mon types in play. Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Hideki Ishikawa"
+    },
+    {
+        "ID": "C1-131",
+        "Name": "Abandoned Station",
+        "Card-Type": "Stadium",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Diamond",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_131_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "Once during each player's turn, that player may use this effect. Flip a coin. If heads, draw a card.",
+        "Illustrator": "AYUMI ODASHIMA"
+    },
+    {
+        "ID": "C1-132",
+        "Name": "Venusaur",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_132_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "150",
+        "Ability": [
+            "Sunny Heal"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may heal 30 damage from your Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Solar Beam"
+        ],
+        "Move-Energy": [
+            "GCCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.",
+        "Illustrator": "Yuriko Akase"
+    },
+    {
+        "ID": "C1-133",
+        "Name": "Exeggcute",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_133_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Nap"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Heal 20 damage from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "If you touch one of Exeggcute\u2019s heads, mistaking it for an egg, the other heads will quickly gather and attack you in a swarm.",
+        "Illustrator": "Whisker"
+    },
+    {
+        "ID": "C1-134",
+        "Name": "Deerling",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_134_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flop"
+        ],
+        "Move-Energy": [
+            "GC"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "These Pok\u00e9mon are not shy\u2014they will behave as they please, even in front of people. If you feed one of them, it will quickly take a liking to you.",
+        "Illustrator": "saino misaki"
+    },
+    {
+        "ID": "C1-135",
+        "Name": "Ribombee",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_135_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Honey Gather"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may use this Ability. Put a rental card into your hand."
+        ],
+        "Moves": [
+            "Bug Buzz"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Ribombee can sense when people or Pok\u00e9mon are feeling down, and it will cheer them up with handmade pollen puffs.",
+        "Illustrator": "buchi"
+    },
+    {
+        "ID": "C1-136",
+        "Name": "Charizard",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_136_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "150",
+        "Ability": [
+            "Flame Aura"
+        ],
+        "Ability-Effect": [
+            "Whenever you attach a [R] Energy from your Energy Zone to this Pok\u00e9mon, do 30 damage to your opponent's Active Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Fire Wing"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
+        "Illustrator": "Atsushi Furusawa"
+    },
+    {
+        "ID": "C1-137",
+        "Name": "Raboot",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_137_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "70",
+        "Ability": [
+            "Jumping Coach"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in play, flip 3 more coins for the Rabbit Jumping attack used by your Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Headbutt"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Thanks to its soft and fluffy fur, Raboot can easily heat up its fire energy and produce flames with more power.",
+        "Illustrator": "Keisin"
+    },
+    {
+        "ID": "C1-138",
+        "Name": "Ceruledge",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_138_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Rally Back"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "70+"
+        ],
+        "Effects": [
+            "If any of your Pok\u00e9mon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 70 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+        "Illustrator": "mashu"
+    },
+    {
+        "ID": "C1-139",
+        "Name": "Blastoise",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_139_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water",
+        "HP": "150",
+        "Ability": [
+            "Aqua Charge"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may take a [W] Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Surf"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "4",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.",
+        "Illustrator": "kodama"
+    },
+    {
+        "ID": "C1-140",
+        "Name": "Palkia",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_140_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spacial Rend"
+        ],
+        "Move-Energy": [
+            "WWC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "If your opponent has a Stadium in play, discard it."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+        "Illustrator": "Taira Akitsu"
+    },
+    {
+        "ID": "C1-141",
+        "Name": "Frogadier",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_141_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": [
+            "Sudden Duplication"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, when you play this card from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Put a random Frogadier from your deck onto your Bench."
+        ],
+        "Moves": [
+            "Wave Splash"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It excels at devising battle strategies that make use of the terrain, and it never misses its mark when throwing bubble-covered pebbles.",
+        "Illustrator": "GOSSAN"
+    },
+    {
+        "ID": "C1-142",
+        "Name": "Pawmot",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_142_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": [
+            "Electrocreation"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may take a [L] Energy from your Energy Zone and attach it to the [L] Pok\u00e9mon in the Active Spot."
+        ],
+        "Moves": [
+            "Mach Bolt"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+        "Illustrator": "Yoshimi Miyoshi"
+    },
+    {
+        "ID": "C1-143",
+        "Name": "Mimikyu",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_143_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dress Up"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "20+"
+        ],
+        "Effects": [
+            "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 30 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+        "Illustrator": "Kanami Ogata"
+    },
+    {
+        "ID": "C1-144",
+        "Name": "Cosmoem",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_144_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Ram"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The absorption of starlight fuels this Pok\u00e9mon\u2019s growth. The shell that encases it is harder than any known material.",
+        "Illustrator": "Akino Fukuji"
+    },
+    {
+        "ID": "C1-145",
+        "Name": "Larvitar",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_145_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Born deep underground, this Pok\u00e9mon  becomes a pupa after eating enough  dirt to make a mountain.",
+        "Illustrator": "Teeziro"
+    },
+    {
+        "ID": "C1-146",
+        "Name": "Pupitar",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_146_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "100",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Amass"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Take 2 [F] Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+        "Illustrator": "Teeziro"
+    },
+    {
+        "ID": "C1-147",
+        "Name": "Paldean Clodsire",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_147_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Earthquake"
+        ],
+        "Move-Energy": [
+            "FFF"
+        ],
+        "Move-Damage": [
+            "130"
+        ],
+        "Effects": [
+            "This attack also does 20 damage to each of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "When attacked, this Pok\u00e9mon will retaliate by sticking thick spines out from its body. It\u2019s a risky move that puts everything on the line.",
+        "Illustrator": "Shimaris Yukichi"
+    },
+    {
+        "ID": "C1-148",
+        "Name": "Gengar",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_148_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Twilight Poison"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Poisoned and Asleep."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "To steal the life of its target, it slips into the prey\u2019s shadow and silently waits for an opportunity.",
+        "Illustrator": "Fujimoto Gold"
+    },
+    {
+        "ID": "C1-149",
+        "Name": "Dialga",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_149_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Roar of Time"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            "Discard the top card of your opponent's deck."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "A Pok\u00e9mon spoken of in legend. It is said that time began moving when Dialga was born.",
+        "Illustrator": "YASHIRO Nanaco"
+    },
+    {
+        "ID": "C1-150",
+        "Name": "Melmetal",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_150_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Metal",
+        "HP": "120",
+        "Ability": [
+            "Metal Scrum"
+        ],
+        "Ability-Effect": [
+            "As long as this Pok\u00e9mon is in play, all of your [M] Pok\u00e9mon take \u221220 damage from attacks from your opponent's Pok\u00e9mon. This effect doesn't stack."
+        ],
+        "Moves": [
+            "Confront"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+        "Illustrator": "OKUBO"
+    },
+    {
+        "ID": "C1-151",
+        "Name": "Bidoof",
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_151_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Gnaw"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+        "Illustrator": "TOMATO MARKET"
+    },
+    {
+        "ID": "C1-152",
+        "Name": "Sweet Honey",
+        "Card-Type": "Item",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "1 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_152_EN_SM.webp",
+        "Pack": null,
+        "Description": "Choose 1 of your Pok\u00e9mon, and then flip a coin until you get tails. For each heads, heal 20 damage from that Pok\u00e9mon.",
+        "Illustrator": "Yuu Nishida"
+    },
+    {
+        "ID": "C1-153",
+        "Name": "Alolan Exeggutor ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_153_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Long-Neck Hammering"
+        ],
+        "Move-Energy": [
+            "GGG"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random. This attack also does 50 damage to it."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-154",
+        "Name": "Fuecoco ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_154_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Feisty Flames"
+        ],
+        "Move-Energy": [
+            "R",
+            "RC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "If this Pok\u00e9mon has damage on it, this attack does 70 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-155",
+        "Name": "Mega Greninja ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_155_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water/Darkness",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash of Darkness"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "0",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Keisuke Azuma"
+    },
+    {
+        "ID": "C1-156",
+        "Name": "Pikachu ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_156_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pika Punch",
+            "Thundertail"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 [L] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "whomor Inc."
+    },
+    {
+        "ID": "C1-157",
+        "Name": "Mega Mewtwo X ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_157_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic/Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Impact"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If a Stadium is in play, this attack does 40 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Igarashi"
+    },
+    {
+        "ID": "C1-158",
+        "Name": "Mew ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_158_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Secret Guidance",
+            "Psyburn"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Flip 3 coins. Take an amount of [P] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [P] Pok\u00e9mon in any way you like.",
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-159",
+        "Name": "Lycanroc ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_159_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "150",
+        "Ability": [
+            "Reflexive Retaliation"
+        ],
+        "Ability-Effect": [
+            "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 30 damage to the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Slashing Claw"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-160",
+        "Name": "Mega Tyranitar ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_160_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crushing Rampage"
+        ],
+        "Move-Energy": [
+            "DDCC"
+        ],
+        "Move-Damage": [
+            "180"
+        ],
+        "Effects": [
+            "Discard the top 2 cards of your deck."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "4",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-161",
+        "Name": "Mega Skarmory ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_161_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shredding Claw"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "90+"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 50 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-162",
+        "Name": "Mega Dragonite ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_162_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Draconic Meteor"
+        ],
+        "Move-Energy": [
+            "WLCCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "1 of your opponent's Pok\u00e9mon is chosen at random. Do 250 damage to it."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-163",
+        "Name": "Giratina ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_163_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Dragon Impact"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GPC"
+        ],
+        "Move-Damage": [
+            "50",
+            "140"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 random Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-164",
+        "Name": "Bewear ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_164_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Lariat"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-165",
+        "Name": "Lorelei",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_165_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "During this turn, attacks used by your Dewgong, Cloyster, or Lapras do +30 damage to your opponent's Pok\u00e9mon.",
+        "Illustrator": "Taira Akitsu"
+    },
+    {
+        "ID": "C1-166",
+        "Name": "Blue's Provocation",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_166_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "You can use this card only if you have Venusaur, Charizard, Blastoise, or Pidgeot in play. Switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
+        "Illustrator": "akagi"
+    },
+    {
+        "ID": "C1-167",
+        "Name": "Serena's Choice",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_167_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Look at the top 3 cards of your deck and put 1 of them into your hand. Shuffle  back into your deck.",
+        "Illustrator": "Yoshiyuki Sadamoto"
+    },
+    {
+        "ID": "C1-168",
+        "Name": "Rika",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_168_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "Produce 2 [F] Energy from your Energy Zone, and attach it to 1 of your Whiscash or Paldean Clodsire.",
+        "Illustrator": "Nobusawa/Mochipuyo"
+    },
+    {
+        "ID": "C1-169",
+        "Name": "Pok\u00e9 Mart Guy",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_169_EN_SM.webp",
+        "Pack": "Pikachu ",
+        "Description": "Put 2 random cards from among Super Potion, Max Repel, and Full Heal from your deck into your hand.",
+        "Illustrator": "GOSSAN"
+    },
+    {
+        "ID": "C1-170",
+        "Name": "Rising Star",
+        "Card-Type": "Supporter",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_170_EN_SM.webp",
+        "Pack": "Mega Mewtwo X ",
+        "Description": "You can use this card only if you have 3 or more different Pok\u00e9mon types in play. Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.",
+        "Illustrator": "Hideki Ishikawa"
+    },
+    {
+        "ID": "C1-171",
+        "Name": "Alolan Exeggutor ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_171_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Long-Neck Hammering"
+        ],
+        "Move-Energy": [
+            "GGG"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "1 of your opponent's Benched Pok\u00e9mon is chosen at random. This attack also does 50 damage to it."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Whisker"
+    },
+    {
+        "ID": "C1-172",
+        "Name": "Fuecoco ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_172_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Feisty Flames"
+        ],
+        "Move-Energy": [
+            "R",
+            "RC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "If this Pok\u00e9mon has damage on it, this attack does 70 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Yuu Nishida"
+    },
+    {
+        "ID": "C1-173",
+        "Name": "Mega Greninja ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_173_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Water/Darkness",
+        "HP": "200",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Splash of Darkness"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "0",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "DOM"
+    },
+    {
+        "ID": "C1-174",
+        "Name": "Pikachu ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_174_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pika Punch",
+            "Thundertail"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 [L] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "OKACHEKE"
+    },
+    {
+        "ID": "C1-175",
+        "Name": "Mega Mewtwo X ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_175_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic/Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Impact"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If a Stadium is in play, this attack does 40 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Nurikabe"
+    },
+    {
+        "ID": "C1-176",
+        "Name": "Mew ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_176_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Secret Guidance",
+            "Psyburn"
+        ],
+        "Move-Energy": [
+            "P",
+            "PC"
+        ],
+        "Move-Damage": [
+            null,
+            "60"
+        ],
+        "Effects": [
+            "Flip 3 coins. Take an amount of [P] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [P] Pok\u00e9mon in any way you like.",
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Yoshioka"
+    },
+    {
+        "ID": "C1-177",
+        "Name": "Lycanroc ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_177_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "150",
+        "Ability": [
+            "Reflexive Retaliation"
+        ],
+        "Ability-Effect": [
+            "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 30 damage to the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Slashing Claw"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Aya Kusube"
+    },
+    {
+        "ID": "C1-178",
+        "Name": "Mega Tyranitar ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_178_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Darkness",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crushing Rampage"
+        ],
+        "Move-Energy": [
+            "DDCC"
+        ],
+        "Move-Damage": [
+            "180"
+        ],
+        "Effects": [
+            "Discard the top 2 cards of your deck."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "4",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Teeziro"
+    },
+    {
+        "ID": "C1-179",
+        "Name": "Mega Skarmory ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_179_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Metal",
+        "HP": "170",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Shredding Claw"
+        ],
+        "Move-Energy": [
+            "MMC"
+        ],
+        "Move-Damage": [
+            "90+"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. This attack does 50 more damage for each heads."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "AKIRA EGAWA"
+    },
+    {
+        "ID": "C1-180",
+        "Name": "Mega Dragonite ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_180_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Draconic Meteor"
+        ],
+        "Move-Energy": [
+            "WLCCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "1 of your opponent's Pok\u00e9mon is chosen at random. Do 250 damage to it."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "sowsow"
+    },
+    {
+        "ID": "C1-181",
+        "Name": "Giratina ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_181_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Dragon Impact"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GPC"
+        ],
+        "Move-Damage": [
+            "50",
+            "140"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 random Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "Kuroimori"
+    },
+    {
+        "ID": "C1-182",
+        "Name": "Bewear ex",
+        "Rarity": "2 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_182_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Lariat"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "MINAMINAMI Take"
+    },
+    {
+        "ID": "C1-183",
+        "Name": "Pikachu ex",
+        "Rarity": "3 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_183_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pika Punch",
+            "Thundertail"
+        ],
+        "Move-Energy": [
+            "L",
+            "LLC"
+        ],
+        "Move-Damage": [
+            "30",
+            "130"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 [L] Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "GIDORA"
+    },
+    {
+        "ID": "C1-184",
+        "Name": "Jigglypuff",
+        "Rarity": "3 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_184_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Soothing Lullaby"
+        ],
+        "Move-Energy": [
+            "PP"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Asleep. Your opponent flips 2 coins for this Special Condition, and if either of them is tails, that Pok\u00e9mon is still Asleep."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+        "Illustrator": "Yoko Hishida"
+    },
+    {
+        "ID": "C1-185",
+        "Name": "Mega Mewtwo X ex",
+        "Rarity": "3 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_185_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic/Fighting",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Impact"
+        ],
+        "Move-Energy": [
+            "PPC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If a Stadium is in play, this attack does 40 more damage."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "KASSEN"
+    },
+    {
+        "ID": "C1-186",
+        "Name": "Umbreon",
+        "Rarity": "3 Star",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_186_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Darkness",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Moonlit Raid"
+        ],
+        "Move-Energy": [
+            "D"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "If your opponent's Active Pok\u00e9mon is a Basic Pok\u00e9mon, this attack does 50 more damage."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "When exposed to the moon\u2019s aura, the rings on its body glow faintly and it gains a mysterious power.",
+        "Illustrator": "rika"
+    },
+    {
+        "ID": "C1-187",
+        "Name": "Celebi",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_187_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "70",
+        "Ability": [
+            "Time Recall"
+        ],
+        "Ability-Effect": [
+            "Each of your evolved Pok\u00e9mon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)"
+        ],
+        "Moves": [
+            "Smack"
+        ],
+        "Move-Energy": [
+            "CC"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon traveled through time to come from the future. It bolsters grass and trees with its own strength, and it can heal wounds, too.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-188",
+        "Name": "Treecko",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_188_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Grass",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Pound"
+        ],
+        "Move-Energy": [
+            "G"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Treecko can quickly scale even vertical surfaces. It senses humidity with its tail to predict the next day\u2019s weather.",
+        "Illustrator": "Souichirou Gunjima"
+    },
+    {
+        "ID": "C1-189",
+        "Name": "Grovyle",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_189_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Grass",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slicing Snipe"
+        ],
+        "Move-Energy": [
+            "GG"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "This attack does 50 damage to 1 of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Grovyle leaps from branch to branch in large trees, moving with ease. It propels itself with astounding speed and force.",
+        "Illustrator": "Souichirou Gunjima"
+    },
+    {
+        "ID": "C1-190",
+        "Name": "Cyndaquil",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_190_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Singe"
+        ],
+        "Move-Energy": [
+            "R"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The fire that spouts from its back burns hottest when it is angry. The flaring flames intimidate foes.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-191",
+        "Name": "Quilava",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_191_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fire",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Heat Wave"
+        ],
+        "Move-Energy": [
+            "RR"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            "Your opponent's Active Pok\u00e9mon is now Burned."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The fur covering this Pok\u00e9mon\u2019s body never burns, no matter what. It can shrug off any kind of fire attack.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-192",
+        "Name": "Seel",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_192_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Water",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Waterfall"
+        ],
+        "Move-Energy": [
+            "WW"
+        ],
+        "Move-Damage": [
+            "40"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The protrusion on its head is very hard. It is used for bashing through thick ice.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-193",
+        "Name": "Dewgong",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_193_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Water",
+        "HP": "120",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Dual Blizzard"
+        ],
+        "Move-Energy": [
+            "WWW"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Discard 2 [W] Energy from this Pok\u00e9mon, and this attack does 60 damage to 2 of your opponent's Pok\u00e9mon."
+        ],
+        "Weakness": "Metal",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "It sleeps under shallow ocean waters during the day, then looks for food at night when it\u2019s colder.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-194",
+        "Name": "Pachirisu",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_194_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Lightning",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Crackling Snap"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "30+"
+        ],
+        "Effects": [
+            "Discard the top card of your deck, and if that card is an Item, this attack does 20 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+        "Illustrator": "Souichirou Gunjima"
+    },
+    {
+        "ID": "C1-195",
+        "Name": "Abra",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_195_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Psychic",
+        "HP": "50",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beam"
+        ],
+        "Move-Energy": [
+            "P"
+        ],
+        "Move-Damage": [
+            "30"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon uses its psychic powers while it sleeps. The contents of Abra\u2019s dreams affect the powers that the Pok\u00e9mon wields.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-196",
+        "Name": "Kadabra",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_196_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Psychic",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Psychic Sphere"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-197",
+        "Name": "Alakazam",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_197_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Mind Jack"
+        ],
+        "Move-Energy": [
+            "PC"
+        ],
+        "Move-Damage": [
+            "50+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each of your opponent's Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-198",
+        "Name": "Lunala",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_198_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Psychic",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Wings of the Moone"
+        ],
+        "Move-Energy": [
+            "PP"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            "Move all Energy from this Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like."
+        ],
+        "Weakness": "Darkness",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Known as the Beast That Calls the Moon, this Pok\u00e9mon lives by taking in any and all light and converting it into its own energy.",
+        "Illustrator": "Souichirou Gunjima"
+    },
+    {
+        "ID": "C1-199",
+        "Name": "Rhyhorn",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_199_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fighting",
+        "HP": "80",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Lunge Out"
+        ],
+        "Move-Energy": [
+            "F"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "Rhyhorn claims an area with over a six mile radius as its territory. It apparently forgets where this territory is when running, however.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-200",
+        "Name": "Rhydon",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_200_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "110",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Megahorn"
+        ],
+        "Move-Energy": [
+            "FF"
+        ],
+        "Move-Damage": [
+            "100"
+        ],
+        "Effects": [
+            "Flip a coin. If tails, this attack does nothing."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "The horn of a Rhydon is powerful enough to crush raw diamonds. These Pok\u00e9mon polish their horns by bashing them together.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-201",
+        "Name": "Morpeko",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_201_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Darkness",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Energizer Wheel"
+        ],
+        "Move-Energy": [
+            "DD"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            "Move 2 [D] Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Hunger has disrupted this Pok\u00e9mon\u2019s hormonal balance. The Electric-type energy stored in its cheek sacs has turned into Dark-type energy.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-202",
+        "Name": "Solgaleo",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_202_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Metal",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Claws of the Sunne"
+        ],
+        "Move-Energy": [
+            "MMM"
+        ],
+        "Move-Damage": [
+            "90+"
+        ],
+        "Effects": [
+            "This attack does 30 more damage for each point you have gotten."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "3",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "When light radiates from its body, this Pok\u00e9mon could almost appear to be the sun. It will dispel any darkness and light up the world.",
+        "Illustrator": "Souichirou Gunjima"
+    },
+    {
+        "ID": "C1-203",
+        "Name": "Spearow",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_203_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Flap"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its reckless nature leads it to stand up to others\u2014even large Pok\u00e9mon\u2014if it has to protect its territory.",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-204",
+        "Name": "Fearow",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_204_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "90",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Drill Peck"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Lightning",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Carrying food through Fearow\u2019s territory is dangerous. It will snatch the food away from you in a flash!",
+        "Illustrator": "Taiga Kasai"
+    },
+    {
+        "ID": "C1-205",
+        "Name": "Hisuian Zorua",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_205_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "60",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Run Around"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": "Pikachu",
+        "Ex-Rule": null,
+        "Flavor-Text": "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-206",
+        "Name": "Stufful",
+        "Rarity": "1 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_206_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "70",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Beat"
+        ],
+        "Move-Energy": [
+            "C"
+        ],
+        "Move-Damage": [
+            "20"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": null,
+        "Flavor-Text": "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pok\u00e9mon could result in painful retaliation.",
+        "Illustrator": "MAHOU"
+    },
+    {
+        "ID": "C1-207",
+        "Name": "Mega Sceptile ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_207_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Grass",
+        "HP": "210",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Terminating Tail"
+        ],
+        "Move-Energy": [
+            "GG"
+        ],
+        "Move-Damage": [
+            "130"
+        ],
+        "Effects": [
+            "Discard a [G] Energy from this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Poisoned."
+        ],
+        "Weakness": "Fire",
+        "Retreat-Cost": "1",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA Mamiya"
+    },
+    {
+        "ID": "C1-208",
+        "Name": "Typhlosion ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_208_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fire",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Destructive Inferno"
+        ],
+        "Move-Energy": [
+            "RRC"
+        ],
+        "Move-Damage": [
+            "110"
+        ],
+        "Effects": [
+            "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-209",
+        "Name": "Mega Gallade ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_209_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Fighting",
+        "HP": "220",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Resonating Blade"
+        ],
+        "Move-Energy": [
+            "FCC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
+        ],
+        "Weakness": "Psychic",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-210",
+        "Name": "Lycanroc ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_210_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Fighting",
+        "HP": "150",
+        "Ability": [
+            "Reflexive Retaliation"
+        ],
+        "Ability-Effect": [
+            "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 30 damage to the Attacking Pok\u00e9mon."
+        ],
+        "Moves": [
+            "Slashing Claw"
+        ],
+        "Move-Energy": [
+            "FC"
+        ],
+        "Move-Damage": [
+            "70"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Grass",
+        "Retreat-Cost": "2",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-211",
+        "Name": "Mega Dragonite ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_211_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Dragon",
+        "HP": "240",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Draconic Meteor"
+        ],
+        "Move-Energy": [
+            "WLCCC"
+        ],
+        "Move-Damage": [
+            null
+        ],
+        "Effects": [
+            "1 of your opponent's Pok\u00e9mon is chosen at random. Do 250 damage to it."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "4",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "5ban Graphics"
+    },
+    {
+        "ID": "C1-212",
+        "Name": "Mega Audino ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_212_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Colorless",
+        "HP": "180",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Heartfelt Shine"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "90"
+        ],
+        "Effects": [
+            "Heal 30 damage from each of your Pok\u00e9mon."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Mega Evolution Pok\u00e9mon ex is Knocked Out, your opponent gets 3 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-213",
+        "Name": "Hisuian Zoroark ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_213_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Spiteful Illusion"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "80+"
+        ],
+        "Effects": [
+            "This attack does 20 more damage for each Pok\u00e9mon in your discard pile."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "2",
+        "Pack": "Pikachu",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-214",
+        "Name": "Bewear ex",
+        "Rarity": "2 Shiny",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_214_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 1",
+        "Type": "Colorless",
+        "HP": "160",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Hyper Lariat"
+        ],
+        "Move-Energy": [
+            "CCC"
+        ],
+        "Move-Damage": [
+            "100+"
+        ],
+        "Effects": [
+            "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "3",
+        "Pack": "Mega Mewtwo X",
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-215",
+        "Name": "Fuecoco ex",
+        "Rarity": "Crown",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_215_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Fire",
+        "HP": "130",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Bite",
+            "Feisty Flames"
+        ],
+        "Move-Energy": [
+            "R",
+            "RC"
+        ],
+        "Move-Damage": [
+            "30",
+            "50+"
+        ],
+        "Effects": [
+            "",
+            "If this Pok\u00e9mon has damage on it, this attack does 70 more damage."
+        ],
+        "Weakness": "Water",
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-216",
+        "Name": "Pawmot",
+        "Rarity": "Crown",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_216_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Stage 2",
+        "Type": "Lightning",
+        "HP": "120",
+        "Ability": [
+            "Electrocreation"
+        ],
+        "Ability-Effect": [
+            "Once during your turn, you may take a [L] Energy from your Energy Zone and attach it to the [L] Pok\u00e9mon in the Active Spot."
+        ],
+        "Moves": [
+            "Mach Bolt"
+        ],
+        "Move-Energy": [
+            "L"
+        ],
+        "Move-Damage": [
+            "50"
+        ],
+        "Effects": [
+            ""
+        ],
+        "Weakness": "Fighting",
+        "Retreat-Cost": "1",
+        "Pack": null,
+        "Ex-Rule": null,
+        "Flavor-Text": "This Pok\u00e9mon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+        "Illustrator": "PLANETA CG Works"
+    },
+    {
+        "ID": "C1-217",
+        "Name": "Giratina ex",
+        "Rarity": "Crown",
+        "Image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/C1/C1_217_EN_SM.webp",
+        "Card-Type": "Pokemon",
+        "Stage": "Basic",
+        "Type": "Dragon",
+        "HP": "150",
+        "Ability": null,
+        "Ability-Effect": null,
+        "Moves": [
+            "Slash",
+            "Dragon Impact"
+        ],
+        "Move-Energy": [
+            "CC",
+            "GPC"
+        ],
+        "Move-Damage": [
+            "50",
+            "140"
+        ],
+        "Effects": [
+            "",
+            "Discard 2 random Energy from this Pok\u00e9mon."
+        ],
+        "Weakness": null,
+        "Retreat-Cost": "2",
+        "Pack": null,
+        "Ex-Rule": "When your Pok\u00e9mon ex is Knocked Out, your opponent gets 2 points.",
+        "Flavor-Text": null,
+        "Illustrator": "PLANETA CG Works"
+    }
+]
